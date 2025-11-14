@@ -1,0 +1,103 @@
+{
+    "componentes": [
+        {
+            "titulo": "Componente General",
+            "temas": [
+                {
+                    "nombre": "Gestión Pública Territorial",
+                    "link": "temas/gestion-publica.html"
+                },
+                {
+                    "nombre": "Normatividad de las Entidades Territoriales",
+                    "link": "temas/normatividad.html"
+                },
+                {
+                    "nombre": "Razonamiento Analítico",
+                    "link": "temas/razonamiento-analitico.html"
+                }
+            ]
+        },
+        {
+            "titulo": "Componente Específico",
+            "temas": [
+                {
+                    "nombre": "Gestión de Proyectos de Tecnologías de la Información",
+                    "link": "temas/gestion-proyectos-ti.html"
+                },
+                {
+                    "nombre": "Gobierno de Tecnologías de Información",
+                    "link": "temas/gobierno-ti.html"
+                },
+                {
+                    "nombre": "Mantenimiento de Equipos de Informática",
+                    "link": "temas/mantenimiento-equipos.html"
+                },
+                {
+                    "nombre": "Normas de Informática",
+                    "link": "temas/normas-informatica.html"
+                },
+                {
+                    "nombre": "Plan Estratégico de Tecnologías de la Información - PETI",
+                    "link": "temas/peti.html"
+                },
+                {
+                    "nombre": "Seguridad Informática",
+                    "link": "temas/seguridad-informatica.html"
+                },
+                {
+                    "nombre": "Sistemas de Información",
+                    "link": "temas/sistemas-informacion.html"
+                },
+                {
+                    "nombre": "Soporte en Redes y Telecomunicaciones",
+                    "link": "temas/soporte-redes.html"
+                }
+            ]
+        },
+        {
+            "titulo": "Componente Comportamental",
+            "temas": [
+                {
+                    "nombre": "Adaptación al Cambio",
+                    "link": "temas/adaptacion-al-cambio.html"
+                },
+                {
+                    "nombre": "Aporte Técnico - Profesional",
+                    "link": "temas/aporte-tecnico.html"
+                },
+                {
+                    "nombre": "Aprendizaje Continuo",
+                    "link": "temas/aprendizaje-continuo.html"
+                },
+                {
+                    "nombre": "Compromiso con la Organización",
+                    "link": "temas/compromiso-organizacion.html"
+                },
+                {
+                    "nombre": "Comunicación Efectiva",
+                    "link": "temas/comunicacion-efectiva.html"
+                },
+                {
+                    "nombre": "Gestión de Procedimientos",
+                    "link": "temas/gestion-procedimientos.html"
+                },
+                {
+                    "nombre": "Instrumentación de Decisiones",
+                    "link": "temas/instrumentacion-decisiones.html"
+                },
+                {
+                    "nombre": "Orientación al Resultado",
+                    "link": "temas/orientacion-al-resultado.html"
+                },
+                {
+                    "nombre": "Orientación al Usuario y el Ciudadano",
+                    "link": "temas/orientacion-usuario.html"
+                },
+                {
+                    "nombre": "Trabajo en Equipo",
+                    "link": "temas/trabajo-en-equipo.html"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,993 @@
+{ "preguntas": [
+    {
+        "codigo": "GPT-01",
+        "pregunta": "Durante la ejecución de un proyecto territorial, una alcaldía quiere involucrar al sector privado. ¿Cuál es un enfoque óptimo?",
+        "opciones": [
+            "a) Incorporar alianzas público-privadas con objetivos claros y roles definidos.",
+            "b) Delegar todo al sector privado sin supervisión.",
+            "c) No involucrar por temor a intereses privados."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Las alianzas público-privadas son una excelente manera de optimizar recursos y garantizar la sostenibilidad del proyecto, mientras se aprovechan las capacidades del sector privado."
+    },
+    {
+        "codigo": "GPT-02",
+        "pregunta": "Un municipio en Antioquia ha recibido una asignación de recursos para financiar un proyecto de infraestructura vial. Sin embargo, existen retrasos en la transferencia de los recursos por parte del gobierno nacional, lo que genera incertidumbre en la ejecución del proyecto. ¿Qué medida debería tomar el alcalde para resolver esta situación?",
+        "opciones": [
+            "a) Solicitar que el gobierno nacional libere los recursos de manera urgente sin realizar un análisis de los recursos disponibles a nivel local.",
+            "b) Iniciar un proceso de coordinación con la gobernación y otras entidades regionales para buscar soluciones de financiación temporales mientras se resuelve la transferencia de recursos.",
+            "c) Ejercer presión política sobre los legisladores del municipio para que agilicen la transferencia de los recursos."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Iniciar un proceso de coordinación con la gobernación y otras entidades regionales permite una gestión más autónoma y práctica, además de buscar alternativas inmediatas sin depender únicamente del gobierno nacional. La solicitud urgente (a) no es estratégica, y la presión política (c) puede generar tensiones innecesarias sin un plan de corto plazo."
+    },
+    {
+        "codigo": "GPT-03",
+        "pregunta": "Un municipio rural de Colombia enfrenta graves problemas de acceso a servicios básicos como agua potable y educación. El presupuesto local es limitado, y la alcaldía necesita priorizar las inversiones. ¿Qué enfoque de gestión debería aplicar para resolver estos problemas?",
+        "opciones": [
+            "a) Invertir primero en la mejora de la infraestructura vial, ya que es una prioridad económica para atraer inversión.",
+            "b) Desarrollar un diagnóstico participativo para priorizar proyectos en base a las necesidades más urgentes de la comunidad, involucrando a los actores locales.",
+            "c) Pedir un aumento del presupuesto directamente al gobierno nacional para que se encargue de los proyectos prioritarios."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Un diagnóstico participativo es clave para entender las verdaderas necesidades de la comunidad y asignar recursos de manera eficiente, teniendo en cuenta la voz de los actores locales. La infraestructura vial (a) puede no ser la prioridad sobre servicios básicos, y depender solo del gobierno nacional (c) no es una solución inmediata."
+    },
+    {
+        "codigo": "GPT-04",
+        "pregunta": "Una alcaldía en una región montañosa de Colombia recibe un presupuesto para un proyecto de desarrollo económico local. Sin embargo, la alcaldía tiene poca experiencia en la gestión de proyectos de gran escala. ¿Cómo debería proceder para asegurar el éxito del proyecto?",
+        "opciones": [
+            "a) Ejecutar el proyecto con el personal actual y esperar a recibir asistencia del gobierno nacional si es necesario.",
+            "b) Contratar expertos en gestión de proyectos territoriales y formar un equipo técnico local que gestione y supervise la ejecución.",
+            "c) Solicitar que el gobierno nacional ejecute el proyecto para garantizar que se cumplan los plazos y objetivos."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Formar un equipo técnico local es clave para fortalecer la capacidad institucional y asegurar que el proyecto se ejecute adecuadamente, mientras se fomenta el desarrollo de competencias locales. Ejecutar sin capacitación (a) es riesgoso, y delegar al gobierno nacional (c) no fomenta la autonomía local."
+    },
+    {
+        "codigo": "GPT-05",
+        "pregunta": "La alcaldía de una ciudad intermedia de Colombia ha decidido implementar un programa de rehabilitación urbana en un sector marginado, pero se enfrenta a la resistencia de los residentes que temen perder su vivienda debido a la gentrificación. ¿Qué estrategia debe adoptar la alcaldía para manejar esta situación?",
+        "opciones": [
+            "a) Desarrollar el proyecto sin consultar a la comunidad, ya que los beneficios a largo plazo justifican la intervención.",
+            "b) Iniciar un proceso de consulta y participación ciudadana para generar confianza, ajustar el proyecto a las necesidades reales de los residentes y evitar desplazamientos.",
+            "c) Modificar el proyecto para que solo afecte a las zonas menos pobladas y no involucre a las comunidades residentes."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La consulta y participación ciudadana es crucial para generar confianza y aceptación del proyecto, así como para evitar consecuencias sociales negativas como el desplazamiento forzado. Implementar sin consulta (a) genera resistencia, y modificar parcialmente (c) no resuelve los problemas de fondo."
+    },
+    {
+        "codigo": "GPT-06",
+        "pregunta": "Un municipio ha recibido financiación para un proyecto de infraestructura sostenible, pero debido a la crisis económica, hay restricciones en la disponibilidad de recursos. ¿Cómo debería gestionar el alcalde los recursos para asegurar la sostenibilidad del proyecto?",
+        "opciones": [
+            "a) Reducir la calidad de los materiales para ahorrar costos, priorizando la ejecución del proyecto en tiempo.",
+            "b) Buscar alianzas público-privadas para financiar parcialmente el proyecto, asegurando que los recursos sean suficientes para mantener su calidad y sostenibilidad.",
+            "c) Postergar el proyecto hasta que la situación económica mejore, lo que permitiría un presupuesto mayor."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Buscar alianzas público-privadas es una estrategia que puede ayudar a asegurar los recursos necesarios sin comprometer la calidad del proyecto y garantizando su sostenibilidad a largo plazo. Reducir la calidad (a) afecta la durabilidad, y postergar (c) genera oportunidades perdidas."
+    },
+    {
+        "codigo": "GPT-07",
+        "pregunta": "En un municipio de Antioquia, se ha detectado un conflicto entre comunidades indígenas y campesinas sobre el uso de un territorio en disputa. ¿Qué estrategia debería adoptar la alcaldía para abordar este conflicto?",
+        "opciones": [
+            "a) Proponer una solución unilateral sin consultar a las partes involucradas para agilizar la resolución.",
+            "b) Convocar una mesa de diálogo entre las comunidades, con la mediación de las autoridades locales y regionales, para llegar a un acuerdo consensuado.",
+            "c) Priorizar las demandas de una de las comunidades, argumentando que son más relevantes para el desarrollo económico del municipio."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La mesa de diálogo es una estrategia clave para resolver el conflicto de manera inclusiva y participativa, garantizando que ambas comunidades tengan voz en la solución. Una solución unilateral (a) o priorizar una comunidad (c) puede agravar el conflicto."
+    },
+    {
+        "codigo": "GPT-08",
+        "pregunta": "El gobierno nacional ha implementado una política de subsidios para el acceso a la vivienda en un municipio con alta tasa de informalidad urbana. Sin embargo, el subsidio no ha tenido el impacto esperado. ¿Qué podría estar fallando en la implementación de esta política?",
+        "opciones": [
+            "a) El subsidio no está alineado con las necesidades reales de los residentes, quienes requieren infraestructura básica antes que vivienda.",
+            "b) La política no ha sido adecuadamente comunicada a la población objetivo, lo que ha generado desinformación sobre los beneficios disponibles.",
+            "c) El subsidio está siendo desviado por actores políticos locales, lo que impide que llegue a las personas que realmente lo necesitan."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Si la política no responde a las necesidades reales de los residentes, como la falta de infraestructura básica, su efectividad será limitada. Es necesario alinear las políticas con las verdaderas prioridades del territorio. La comunicación (b) y la desviación (c) son problemas posibles, pero la falta de adecuación a la necesidad (a) es el problema central de política pública."
+    },
+    {
+        "codigo": "GPT-09",
+        "pregunta": "Un alcalde de un municipio en el Eje Cafetero recibe un recurso importante para ejecutar un proyecto de saneamiento básico, pero descubre que el gobierno departamental tiene planes para invertir en la misma zona. ¿Cómo debería proceder el alcalde para evitar duplicidad y optimizar el uso de recursos?",
+        "opciones": [
+            "a) Debería seguir adelante con el proyecto sin consultar al gobierno departamental, ya que tiene autonomía para ejecutar el recurso asignado.",
+            "b) Coordinar con el gobierno departamental para revisar los proyectos en la zona y asegurarse de que los esfuerzos no se solapen, buscando complementariedad entre los proyectos.",
+            "c) Solicitar que el gobierno departamental se encargue completamente del proyecto para evitar posibles conflictos y asegurar que se ejecute a mayor escala."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La coordinación intergubernamental es clave para evitar la duplicación de esfuerzos y mejorar el impacto de los proyectos. Asegurar que los proyectos sean complementarios optimiza los recursos y evita conflictos. Proceder sin consultar (a) es ineficiente, y delegar (c) resta autonomía local."
+    },
+    {
+        "codigo": "GPT-10",
+        "pregunta": "Un municipio en la región Andina se ve afectado por un deslizamiento de tierra que interrumpe la comunicación entre varias veredas y comunidades. ¿Qué debería hacer la administración local en los primeros días tras el desastre?",
+        "opciones": [
+            "a) Desplegar inmediatamente ayuda humanitaria sin establecer un sistema de coordinación, para que llegue lo más rápido posible a los afectados.",
+            "b) Establecer un centro de operaciones de emergencia en coordinación con el gobierno departamental y las organizaciones de socorro, asegurando que la ayuda se distribuya de manera eficiente.",
+            "c) Solicitar ayuda al gobierno nacional y esperar la intervención de la Fuerza Pública antes de realizar cualquier acción."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La coordinación interinstitucional es crucial en situaciones de emergencia. La implementación rápida de un centro de operaciones garantiza que la ayuda llegue de manera ordenada y eficiente. La falta de coordinación (a) genera desorganización, y depender exclusivamente del gobierno nacional (c) puede retrasar la respuesta."
+    },
+    {
+        "codigo": "GPT-11",
+        "pregunta": "En el contexto de un plan de ordenamiento territorial (POT), una comunidad local se opone a la reubicación de ciertas zonas residenciales para dar paso a un proyecto industrial. ¿Cuál es la mejor manera de abordar la situación para asegurar la aceptación de la comunidad?",
+        "opciones": [
+            "a) Imponer el plan de reubicación, argumentando que el desarrollo económico del municipio es más importante.",
+            "b) Realizar una consulta pública y ajustar el proyecto de acuerdo con las preocupaciones de la comunidad, buscando alternativas viables que puedan mitigar el impacto de la reubicación.",
+            "c) Postergar la reubicación indefinidamente hasta que la comunidad esté de acuerdo con el proyecto."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La consulta pública y el ajuste del proyecto son fundamentales para la aceptación y legitimidad del POT. La participación ciudadana garantiza que se consideren las necesidades y preocupaciones de la comunidad. Imponer el plan (a) genera conflictos, y postergarlo indefinidamente (c) genera distracción."
+    },
+    {
+        "codigo": "GPT-12",
+        "pregunta": "Un municipio con alto índice de desempleo y pobreza decide implementar un proyecto de capacitación y empleo dirigido a jóvenes. Sin embargo, la alcaldía se enfrenta a la falta de infraestructura y recursos humanos capacitados. ¿Qué estrategia debe seguir para maximizar los resultados?",
+        "opciones": [
+            "a) Buscar recursos únicamente a través de fondos nacionales sin explorar otras alternativas de financiamiento.",
+            "b) Establecer alianzas público-privadas con empresas locales para financiar y coordinar el proyecto, involucrando a instituciones educativas y organizaciones no gubernamentales.",
+            "c) Ejecutar el proyecto de forma independiente con el personal municipal sin la colaboración de actores externos."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las alianzas público-privadas son una excelente manera de optimizar recursos y garantizar la sostenibilidad del proyecto, mientras se aprovechan las capacidades de diversos actores locales. Depender solo de fondos nacionales (a) es limitado, y la ejecución independiente (c) reduce la eficiencia."
+    },
+    {
+        "codigo": "GPT-13",
+        "pregunta": "Un municipio ha implementado un programa de vivienda de interés social, pero los residentes informan que las viviendas están siendo rápidamente deterioradas debido a problemas de calidad. ¿Cómo debería la alcaldía evaluar y ajustar el programa para corregir estos problemas?",
+        "opciones": [
+            "a) Realizar una auditoría externa e interna para evaluar la calidad de los materiales utilizados y las condiciones de construcción, ajustando el programa según los resultados.",
+            "b) Continuar con el programa sin cambios, ya que los problemas de deterioro son naturales en cualquier proyecto de vivienda.",
+            "c) Descontinuar el programa de vivienda y buscar alternativas, ya que este tipo de proyectos nunca pueden garantizar sostenibilidad."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La auditoría y evaluación continua son esenciales para identificar las causas del deterioro y hacer los ajustes necesarios en el programa, asegurando la calidad y sostenibilidad a largo plazo. Ignorar el problema (b) genera desconfianza, y descontinuar el programa (c) no resuelve la necesidad de vivienda."
+    },
+    {
+        "codigo": "GPT-14",
+        "pregunta": "En una región colombiana con rica biodiversidad, se han identificado conflictos entre las comunidades locales que requieren recursos naturales para sus actividades productivas y las políticas de conservación ambiental implementadas por el gobierno. ¿Qué estrategia debe adoptar el gobierno municipal para abordar este conflicto?",
+        "opciones": [
+            "a) Impulsar políticas de conservación estrictas sin considerar las necesidades de las comunidades, para garantizar la protección de los recursos naturales.",
+            "b) Buscar un equilibrio entre la conservación y las actividades productivas mediante la implementación de prácticas sostenibles, en consulta con las comunidades locales.",
+            "c) Permitir que las comunidades exploten libremente los recursos naturales sin restricciones, ya que su bienestar económico es más importante."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El enfoque equilibrado, que permite tanto la conservación como el aprovechamiento sostenible de los recursos naturales, es la mejor manera de garantizar un desarrollo territorial sostenible y el bienestar de las comunidades locales. Políticas estrictas (a) generan resistencia, y la explotación libre (c) lleva a la destrucción ambiental."
+    },
+    {
+        "codigo": "GPT-15",
+        "pregunta": "Un municipio pequeño ha identificado que la falta de infraestructura en salud y educación está afectando gravemente el bienestar de su población. El presupuesto municipal es limitado. ¿Cómo debería priorizar la inversión en infraestructura?",
+        "opciones": [
+            "a) Invertir primero en la construcción de nuevos centros educativos y de salud, sin considerar otros proyectos.",
+            "b) Realizar un diagnóstico participativo para identificar las necesidades urgentes de la población, priorizando proyectos de mayor impacto social.",
+            "c) Iniciar proyectos de infraestructura solo en los sectores más poblados, dejando de lado las áreas rurales donde la demanda es menor."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Un diagnóstico participativo permite tomar decisiones basadas en las necesidades reales de la población, priorizando proyectos que tengan mayor impacto social. Invertir sin priorizar (a) es ineficiente, y excluir áreas rurales (c) genera desigualdades."
+    },
+    {
+        "codigo": "GPT-16",
+        "pregunta": "Un municipio ubicado en Antioquia recibe recursos para ejecutar un proyecto de infraestructura educativa en su institución universitaria local. El alcalde y el rector tienen dificultades para coordinar los tiempos y recursos. ¿Cuál es la mejor estrategia para superar esta problemática?",
+        "opciones": [
+            "a) Que la alcaldía ejecute el proyecto de forma autónoma para evitar retrasos.",
+            "b) Crear un comité de coordinación entre entidad territorial, universidad y comunidad académica.",
+            "c) Solicitar al gobierno nacional que asuma la gestión total del proyecto para agilizarlo."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La gestión territorial efectiva requiere coordinación multisectorial para alinear recursos, tiempos y objetivos. La opción (a) limita la participación y puede generar conflictos, y la (c) puede ser lenta y restar autonomía local."
+    },
+    {
+        "codigo": "GPT-17",
+        "pregunta": "En un municipio de sexta categoría con baja capacidad técnica y financiera, se planea un programa de desarrollo regional dirigido a mejorar la calidad de servicios educativos. ¿Qué medida es más adecuada?",
+        "opciones": [
+            "a) Centralizar la gestión en la gobernación para garantizar recursos.",
+            "b) Fortalecer capacidades locales con asistencia técnica y participación comunitaria.",
+            "c) Esperar a recibir recursos adicionales de otros entes sin intervenir localmente."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Fortalecer la gestión local y fomentar la apropiación comunitaria es clave. La opción (a) puede generar dependencia, y la (c) representa la pasividad ante problemas reales."
+    },
+    {
+        "codigo": "GPT-18",
+        "pregunta": "Al diseñar una política pública para fortalecer la participación ciudadana en la planificación territorial universitaria, ¿qué enfoque es el más efectivo?",
+        "opciones": [
+            "a) Consultas públicas digitales sin alianza con actores locales.",
+            "b) Integrar mecanismos participativos continuos con actores universitarios, comunitarios y gobierno.",
+            "c) Definir políticas sin participación para acelerar la toma de decisiones."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) promueve gobernanza territorial con inclusión real y sostenibilidad. La (a) es limitada y superficial, y la (c) puede generar resistencia y baja legitimidad."
+    },
+    {
+        "codigo": "GPT-19",
+        "pregunta": "Un gerente público territorial debe resolver conflictos entre dos municipios vecinos por límites imprecisos y competencia por recursos. ¿Qué estrategia es más adecuada?",
+        "opciones": [
+            "a) Imponer unilateralmente la solución desde el nivel central.",
+            "b) Facilitar mediación intermunicipal con actores sociales, técnicos y jurídico.",
+            "c) Dejar que los municipios resuelvan sin intervención externa."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) fomenta diálogo, equidad y soluciones acordadas. La (a) puede reforzar tensiones y la (c) prolonga el conflicto."
+    },
+    {
+        "codigo": "GPT-20",
+        "pregunta": "En la evaluación del impacto de un proyecto territorial educativo, ¿cuál es el enfoque más completo para medir resultados?",
+        "opciones": [
+            "a) Solo revisar ejecución financiera del proyecto.",
+            "b) Evaluar resultados sociales, educativos y satisfacción de beneficiarios.",
+            "c) Concentrarse únicamente en indicadores de infraestructura construida."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) es correcta porque integra aspectos sociales y de calidad, más allá de lo financiero o físico. Las opciones (a) y (c) son parciales y no garantizan efectividad real."
+    },
+    {
+        "codigo": "GPT-21",
+        "pregunta": "Un proyecto de infraestructura vial en un municipio presenta retrasos por falta de coordinación entre el gobierno local y el contratista privado. ¿Cuál acción es la más apropiada?",
+        "opciones": [
+            "a) Reasignar la gestión exclusivamente al contratista privado.",
+            "b) Establecer un comité de seguimiento con actores públicos y privados.",
+            "c) Suspender proyecto hasta que gobierno central intervenga."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) promueve transparencia y coordinación multisectorial. La (a) puede causar descontrol y la (c) aumenta la demora sin resolver los problemas locales."
+    },
+    {
+        "codigo": "GPT-22",
+        "pregunta": "¿Cómo debería un gestor público territorial abordar la asignación de recursos en un proyecto educativo teniendo comunidades rurales con prioridades distintas a la cabecera municipal?",
+        "opciones": [
+            "a) Distribuir recursos igualitariamente sin considerar necesidades específicas.",
+            "b) Priorizar recursos según diagnóstico participativo y diferencias territoriales.",
+            "c) Concentrar recursos en la cabecera para mayor impacto visible."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) es adecuada por atención diferenciada y equidad territorial. La (a) ignora contextos y la (c) puede generar desigualdades y conflictos."
+    },
+    {
+        "codigo": "GPT-23",
+        "pregunta": "Un municipio tiene políticas dispersas y falta armonización entre planes de desarrollo y ordenamiento territorial. ¿Qué debe hacer un profesional especializado?",
+        "opciones": [
+            "a) Elaborar un plan integral de desarrollo territorial con participación local y alineación normativa.",
+            "b) Mantener los planes separados para mayor flexibilidad.",
+            "c) Dejar que cada área impulse sus propios planes sin coordinación."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fomenta coherencia, eficiencia y desarrollo sostenible. Las opciones (b) y (c) generan duplicidades y afectaciones en la ejecución."
+    },
+    {
+        "codigo": "GPT-24",
+        "pregunta": "¿Cuál es el principal desafío de implementar tecnologías digitales en la gestión pública territorial universitaria?",
+        "opciones": [
+            "a) La falta de infraestructura tecnológica y capacitación.",
+            "b) La resistencia total de la comunidad educativa.",
+            "c) El exceso de recursos sin saber usarlos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La falta de infraestructura y capacitación (a) es el desafío frecuente real. Las otras opciones son menos comunes o menos estratégicas."
+    },
+    {
+        "codigo": "GPT-25",
+        "pregunta": "En el seguimiento de proyectos territoriales, ¿qué herramienta es imprescindible para la toma de decisiones basada en evidencias?",
+        "opciones": [
+            "a) Sistemas de Información Geográfica (SIG).",
+            "b) Reportes mensuales elaborados sin datos cuantitativos.",
+            "c) Reuniones informales sin documentación."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Los SIG (a) permiten análisis espacial y preciso que guía decisiones. Las opciones (b) y (c) son insuficientes para gestión rigurosa."
+    },
+    {
+        "codigo": "GPT-26",
+        "pregunta": "¿Cómo actúa un profesional especializado para manejar conflictos sociales en el territorio relacionados con proyectos universitarios?",
+        "opciones": [
+            "a) Ignorar los conflictos para no detener proyectos.",
+            "b) Implementar canales de diálogo y participación de afectados.",
+            "c) Aplicar medidas coercitivas sin consulta."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) es la correcta porque promueve inclusión y mitigación de conflictos. Las opciones (a) y (c) agravan tensiones."
+    },
+    {
+        "codigo": "GPT-27",
+        "pregunta": "¿Cuál es la mejor forma de asegurar la sostenibilidad financiera de proyectos de desarrollo territorial?",
+        "opciones": [
+            "a) Planificar presupuestos plurianuales con fuentes diversas y control de gastos.",
+            "b) Contar solo con recursos anuales asignados sin planificación.",
+            "c) Financiar proyectos con donaciones únicas sin seguimiento."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) garantiza continuidad y uso eficiente de recursos. Las opciones (b) y (c) son poco sostenibles."
+    },
+    {
+        "codigo": "GPT-28",
+        "pregunta": "Un área rural requiere mejorar la infraestructura educativa, pero el presupuesto es limitado. ¿Qué debe priorizar el gestor público?",
+        "opciones": [
+            "a) Obras pequeñas con impacto social inmediato y mantenimiento asegurado.",
+            "b) Grandes proyectos sin garantías de mantenimiento.",
+            "c) Ninguna intervención hasta contar con presupuesto completo."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) es preferible para resultados sostenibles. Las opciones (b) y (c) ponen en riesgo inversiones y atención a necesidades."
+    },
+    {
+        "codigo": "GPT-29",
+        "pregunta": "Cuando se realizan evaluaciones de impacto social en proyectos territoriales, ¿qué aspecto debe tener mayor énfasis?",
+        "opciones": [
+            "a) Percepción y satisfacción de la comunidad beneficiaria.",
+            "b) Solo resultados técnicos.",
+            "c) Exclusivamente cifras presupuestales."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) es crucial para validar el impacto real en la calidad de vida. Las opciones (b) y (c) son insuficientes."
+    },
+    {
+        "codigo": "GPT-30",
+        "pregunta": "Un profesional especializado detecta baja participación comunitaria en procesos de planeación territorial. ¿Qué debe hacer?",
+        "opciones": [
+            "a) Implementar estrategias de comunicación, formación y participación incluyente.",
+            "b) Ignorar la comunidad para evitar complicaciones.",
+            "c) Dejar el proceso solo en manos de técnicos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fortalece legitimidad y efectividad. Las opciones (b) y (c) generan resistencia y proyectos alejados de necesidades."
+    },
+    {
+        "codigo": "GPT-31",
+        "pregunta": "¿Cómo debe gestionar un profesional la información para la toma de decisiones en la planificación territorial?",
+        "opciones": [
+            "a) Usar datos actualizados y multidimensionales con análisis riguroso.",
+            "b) Basarse en percepciones sin datos formales.",
+            "c) Tomar decisiones sin análisis previo."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) propicia decisiones acertadas y transparentes. Las opciones (b) y (c) aumentan riesgos de errores."
+    },
+    {
+        "codigo": "GPT-32",
+        "pregunta": "En municipios con conflictos territoriales, ¿qué rol cumple la gestión pública territorial?",
+        "opciones": [
+            "a) Facilitar diálogo, arreglos legales y planes de desarrollo conjunto.",
+            "b) Evitar intervención para no agravar conflictos.",
+            "c) Favorecer unilateralmente a intereses políticos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) busca soluciones sostenibles y pacíficas. Las opciones (b) y (c) perpetúan problemas."
+    },
+    {
+        "codigo": "GPT-33",
+        "pregunta": "La gestión integrada de proyectos territoriales en municipios requiere...",
+        "opciones": [
+            "a) Articulación intersectorial y seguimiento continuo.",
+            "b) Gestión aislada de cada sector.",
+            "c) Dejar que cada entidad actúe por separado."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) maximiza recursos y resultados. Las opciones (b) y (c) generan duplicidad y descoordinación."
+    },
+    {
+        "codigo": "GPT-34",
+        "pregunta": "¿Qué características debe tener la gobernanza territorial para ser eficaz?",
+        "opciones": [
+            "a) Inclusiva, transparente y adaptable a contextos locales.",
+            "b) Centralizada y rígida.",
+            "c) Controlada solo por autoridades superiores."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) promueve participación y legitimidad. Las opciones (b) y (c) excluyen actores importantes."
+    },
+    {
+        "codigo": "GPT-35",
+        "pregunta": "Una universidad pública territorial busca mejorar su impacto en la región. ¿Qué estrategia debe priorizar?",
+        "opciones": [
+            "a) Desarrollar proyectos que integren desarrollo académico, social y económico local.",
+            "b) Centrarse solo en ámbitos académicos sin vinculación territorial.",
+            "c) Ejecutar proyectos en aislamiento sin alianzas."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) garantiza relevancia y sostenibilidad territorial. Las opciones (b) y (c) limitan potenciales beneficios."
+    },
+    {
+        "codigo": "GPT-36",
+        "pregunta": "¿Cómo mejorar la transparencia en la gestión pública territorial universitaria?",
+        "opciones": [
+            "a) Establecer reportes abiertos y mecanismos de veeduría ciudadana.",
+            "b) Mantener información solo para administradores.",
+            "c) Evitar procesos de rendición de cuentas para simplicidad."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fortalece confianza y control social. Las opciones (b) y (c) reducen la confianza pública."
+    },
+    {
+        "codigo": "GPT-37",
+        "pregunta": "Un proyecto territorial presenta impacto ambiental negativo. ¿Cuál debe ser la acción?",
+        "opciones": [
+            "a) Rediseñar el proyecto con enfoque sostenible y participación comunitaria.",
+            "b) Continuar sin cambios para no afectar plazos.",
+            "c) Ignorar impactos y enfocarse solo en resultados económicos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) permite equilibrio entre desarrollo y conservación. Las opciones (b) y (c) son insostenibles a largo plazo."
+    },
+    {
+        "codigo": "GPT-38",
+        "pregunta": "Para que un proyecto territorial tenga éxito, ¿qué debe primar en la gestión?",
+        "opciones": [
+            "a) Coordinación interinstitucional y participación activa.",
+            "b) Autonomía absoluta sin alianzas.",
+            "c) Gestión centralizada sólo en un ente."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) optimiza recursos y aceptación social. Las opciones (b) y (c) limitan alcance y eficiencia."
+    },
+    {
+        "codigo": "GPT-39",
+        "pregunta": "En un contexto universitario territorial, ¿qué instrumento facilita la planificación y control?",
+        "opciones": [
+            "a) Sistemas de información geográfica y planes estratégicos integrales.",
+            "b) Documentos aislados sin actualización.",
+            "c) Decisiones basadas en improvisación."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) facilita visualización, análisis y seguimiento efectivo. Las opciones (b) y (c) limitan calidad de la gestión."
+    },
+    {
+        "codigo": "GPT-40",
+        "pregunta": "Un proyecto enfrenta rechazo popular porque no se comunicó adecuadamente. ¿Qué debería haberse hecho?",
+        "opciones": [
+            "a) Diseñar un plan de comunicación y consulta con comunidades desde el inicio.",
+            "b) Ejecutar sin informar para evitar interferencias.",
+            "c) Solo informar después de la ejecución."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fortalece legitimidad y sentido de pertenencia. Las opciones (b) y (c) generan desconfianza y oposición."
+    },
+    {
+        "codigo": "GPT-41",
+        "pregunta": "¿Qué rol tiene la evaluación de resultados en la gestión pública territorial?",
+        "opciones": [
+            "a) Ajustar políticas, mejorar procesos y rendir cuentas.",
+            "b) Es solo un requisito formal sin utilidad práctica.",
+            "c) Solo medir cumplimiento financiero."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) aporta aprendizaje y mejora continua. Las opciones (b) y (c) limitan desarrollo institucional."
+    },
+    {
+        "codigo": "GPT-42",
+        "pregunta": "Un municipio quiere implementar “smart city management” para mejorar servicios públicos, ¿qué debe hacer primero?",
+        "opciones": [
+            "a) Diagnóstico de infraestructura tecnológica y capacidades humanas.",
+            "b) Comprar tecnología sin planear uso.",
+            "c) Esperar inversión externa sin estudios."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) permite planificación ajustada y efectiva. Las opciones (b) y (c) conducen a gastos innecesarios y fracaso."
+    },
+    {
+        "codigo": "GPT-43",
+        "pregunta": "Al gestionar recursos públicos territoriales, ¿qué principio es fundamental?",
+        "opciones": [
+            "a) Transparencia, eficiencia y participación ciudadana.",
+            "b) Exclusión de actores no gubernamentales.",
+            "c) Uso discrecional sin controles."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) asegura legitimidad y buen uso de recursos. Las opciones (b) y (c) promueven corrupción y desconfianza."
+    },
+    {
+        "codigo": "GPT-44",
+        "pregunta": "¿Qué componente es clave para fortalecer la gestión pública territorial en municipios con baja capacidad?",
+        "opciones": [
+            "a) Formación técnica, renovación institucional y alianzas estratégicas.",
+            "b) Mantener estructuras tradicionales sin cambios.",
+            "c) Depender de apoyo externo sin desarrollar capacidades propias."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) impulsa autonomía y eficiencia. Las opciones (b) y (c) limitan el desarrollo sostenible."
+    },
+    {
+        "codigo": "GPT-45",
+        "pregunta": "La Institución Universitaria Pascual Bravo (IUPB) planea la expansión de un programa académico en un municipio de Antioquia de Categoría 6, financiado parcialmente con recursos del SGR a nivel departamental. El gobierno municipal exige que la infraestructura se adecúe a sus planes de desarrollo urbano, lo cual no está contemplado inicialmente en el proyecto aprobado por el OCAD Regional. ¿Cuál es la acción estratégica más adecuada para asegurar la viabilidad del proyecto y la articulación territorial?",
+        "opciones": [
+            "a) Ejecutar el proyecto tal como fue aprobado por el OCAD, notificando al municipio para que ajuste su planificación urbana a la infraestructura educativa.",
+            "b) Suspender la ejecución e iniciar una reestructuración del proyecto ante el OCAD, integrando las exigencias municipales para asegurar su sostenibilidad territorial.",
+            "c) Convocar una mesa de trabajo tripartita (IUPB, Gobernación de Antioquia - como secretaría técnica del SGR, y Municipio) para negociar un acuerdo de complementariedad que armonice los objetivos sin detener la ejecución."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La Gestión Pública Territorial requiere coordinación y armonización. Negociar un acuerdo (Mesa Tripartita) es la acción más práctica y rápida, permitiendo avanzar con el proyecto mientras se logra un compromiso para la adecuación, asegurando la legitimidad y la sostenibilidad del proyecto. La opción (a) viola la autonomía territorial y la (b) aplaza innecesariamente la ejecución."
+    },
+    {
+        "codigo": "GPT-46",
+        "pregunta": "Una ley reciente transfiere a los municipios capitales la competencia para cofinanciar proyectos de infraestructura de educación superior. El Alcalde de Medellín solicita a la IUPB un plan de inversión detallado para los próximos cuatro años. El Plan de Desarrollo Institucional (PDI) de la IUPB solo tiene una proyección a dos años. ¿Qué acción debe priorizar el gestor de la IUPB para responder a la solicitud del Alcalde dentro del marco de la GPT?",
+        "opciones": [
+            "a) Presentar el PDI a dos años, indicando que la entidad territorial debe esperar la reformulación del plan para obtener la proyección completa.",
+            "b) Formular una adenda estratégica al PDI, coordinada con la Secretaría de Planeación de Medellín, que proyecte las inversiones requeridas, garantizando la sostenibilidad financiera.",
+            "c) Utilizar la Ley 1551 de 2012 para argumentar que la transferencia de competencias no obliga a la IUPB a modificar su planeación interna."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La GPT exige alineación de planeación (PDT de Medellín y PDI de IUPB). La mejor respuesta es la adaptación estratégica mediante una adenda o un documento técnico que demuestre la voluntad de coordinación y aproveche la nueva fuente de financiación. La opción (a) demuestra descoordinación, y la (c) es legalista y desaprovecha la oportunidad de gestión."
+    },
+    {
+        "codigo": "GPT-47",
+        "pregunta": "La IUPB lidera un proyecto de Ciencia, Tecnología e Innovación (CTeI) cofinanciado por cuatro municipios del Área Metropolitana del Valle de Aburrá. Durante la ejecución, uno de los municipios incumple con el desembolso de su contrapartida. ¿Cuál es la estrategia de gestión pública más efectiva que debe aplicar la IUPB para mitigar el riesgo de parálisis del proyecto?",
+        "opciones": [
+            "a) Iniciar un proceso jurídico de cobro coactivo contra el municipio incumplido para forzar el desembolso y así continuar la ejecución.",
+            "b) Redefinir rápidamente el alcance del proyecto para ajustarlo a los recursos disponibles, excluyendo las actividades que dependían de la contrapartida faltante.",
+            "c) Convocar al Esquema Asociativo Territorial (EAT) pertinente (ej. Área Metropolitana) para mediar en el conflicto y buscar fuentes de sustitución temporal de la cofinanciación, manteniendo el alcance original."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "En la gestión pública territorial, la coordinación intergubernamental y la mediación (EAT) son prioridades sobre el litigio (a) o la reducción del impacto (b). La opción (c) busca una solución de gestión que preserve el valor público del proyecto y su alcance original."
+    },
+    {
+        "codigo": "GPT-48",
+        "pregunta": "La IUPB ha finalizado un programa de formación técnica para la empleabilidad juvenil en un barrio vulnerable de Medellín. El indicador de producto fue 'Número de jóvenes certificados: 300'. Para medir la efectividad de la política, se debe pasar a la medición de resultados. ¿Cuál es el indicador de resultado/impacto más pertinente para evaluar el éxito de esta política pública territorial?",
+        "opciones": [
+            "a) Porcentaje de ejecución presupuestal del proyecto frente a lo inicialmente programado.",
+            "b) Tasa de incremento en el ingreso promedio de las familias de los egresados un año después de la certificación.",
+            "c) Número de alianzas estratégicas firmadas con el sector privado para la vinculación laboral de los egresados."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El impacto de una política de empleabilidad se mide por el cambio socioeconómico real en la población objetivo. El incremento en el ingreso familiar es un indicador directo de la mejora de la calidad de vida. La opción (a) es un indicador de gestión y la (c) es de producto, no de impacto final."
+    },
+    {
+        "codigo": "GPT-49",
+        "pregunta": "El gestor de un proyecto de ampliación de aulas de la IUPB, financiado con fondos locales, identifica que la inflación en materiales de construcción está generando una desviación presupuestal del 15%, lo que compromete la finalización de la obra. ¿Qué acción estratégica, basada en la buena gestión de recursos públicos territoriales, es la más adecuada?",
+        "opciones": [
+            "a) Suspender la obra y solicitar un adicional presupuestal a la entidad territorial financiadora, justificando la variación de costos.",
+            "b) Priorizar la finalización de un número menor de aulas dentro del presupuesto inicial, disminuyendo el alcance del proyecto.",
+            "c) Aplicar la figura de contrato adicional si las bases lo permiten, mientras se explora la posibilidad de optimizar recursos en otras partidas menos críticas y se negocia con el contratista."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La gestión por resultados exige el uso eficiente y responsable de los recursos. La primera acción debe ser explorar ajustes y optimización interna (ahorros o negociación) y usar el contrato adicional si es viable, antes de depender de nuevos recursos (a) o disminuir unilateralmente el alcance (b)."
+    },
+    {
+        "codigo": "GPT-50",
+        "pregunta": "El equipo de la IUPB debe realizar la rendición de cuentas sobre la ejecución del presupuesto y los resultados de sus programas de extensión a la comunidad. Históricamente, la participación ciudadana ha sido baja. ¿Cuál es la estrategia más efectiva para mejorar la Gobernanza Territorial e incentivar la participación en este proceso?",
+        "opciones": [
+            "a) Limitar la rendición de cuentas a los órganos de control (Contraloría, Procuraduría), ya que la ciudadanía muestra poco interés.",
+            "b) Diseñar e implementar una metodología de diálogo que vaya más allá de la simple exposición (ej. mesas temáticas), utilizando lenguaje claro y priorizando los resultados de impacto territorial.",
+            "c) Contratar una campaña masiva de difusión en medios tradicionales, enfocada en los logros de la IUPB, para aumentar la asistencia."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La gobernanza exige participación activa y bidireccional. La calidad del diálogo y la pertinencia de la información (resultados de impacto) son más importantes que la mera asistencia. La opción (a) es un incumplimiento legal y la (c) no garantiza la calidad de la participación."
+    },
+    {
+        "codigo": "GPT-51",
+        "pregunta": "El municipio donde la IUPB tiene su sede principal está reformulando su Plan de Ordenamiento Territorial (POT). El campus universitario colinda con una zona de ladera declarada de riesgo no mitigable por el Plan de Gestión del Riesgo de Desastres (PGRD). ¿Cuál debe ser la principal acción que la IUPB, como actor territorial, debe exigir que se incorpore en el nuevo POT?",
+        "opciones": [
+            "a) La rezonificación inmediata del área de riesgo colindante para permitir futuras expansiones del campus universitario, argumentando la necesidad social.",
+            "b) El establecimiento de una servidumbre ecológica y la prohibición de uso de ese suelo, y la inclusión de medidas de compensación urbanística para la IUPB.",
+            "c) La inclusión de una norma urbanística de mitigación del riesgo y la asignación de recursos municipales para las obras de contención necesarias en la zona."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El principio rector del POT es la prevención y la gestión del riesgo. Un suelo con riesgo no mitigable debe ser declarado no urbanizable. La acción correcta es asegurar la prohibición de uso y buscar mecanismos legales de compensación. La opción (a) viola el principio de sostenibilidad y la (c) es ineficiente si el riesgo es no mitigable."
+    },
+    {
+        "codigo": "GPT-52",
+        "pregunta": "La Alcaldía de Medellín está formulando su Política Pública de Juventud y solicita a la IUPB asesoría para garantizar su pertinencia territorial. La política debe ser aplicable a todos los barrios y corregimientos de la ciudad. ¿Qué enfoque metodológico debe priorizar la IUPB en la formulación para asegurar la equidad territorial?",
+        "opciones": [
+            "a) Un enfoque universal que defina un único conjunto de programas y beneficios aplicables de la misma manera en toda la ciudad.",
+            "b) Un enfoque diferencial que identifique las necesidades y oportunidades específicas de los jóvenes según el contexto socioeconómico y cultural de cada comuna/corregimiento.",
+            "c) Un enfoque sectorial que priorice la inversión únicamente en las zonas con mayor densidad poblacional de jóvenes."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La GPT exige un enfoque diferencial en las políticas públicas, reconociendo las heterogeneidades territoriales (Ley 1454 de 2011). Esto garantiza la equidad. El enfoque universal (a) ignora las diferencias y la (c) ignora a poblaciones dispersas."
+    },
+    {
+        "codigo": "GPT-53",
+        "pregunta": "El río que abastece de agua al municipio donde la IUPB tiene un centro de investigación nace en un municipio vecino. El gestor de la IUPB detecta que el municipio vecino está autorizando licencias de construcción en la ronda del río. ¿Qué acción de coordinación interterritorial es la más pertinente que debe emprender la IUPB?",
+        "opciones": [
+            "a) Denunciar la situación ante el Ministerio de Ambiente y Desarrollo Sostenible para que imponga sanciones directas.",
+            "b) Actuar de oficio como testigo en un proceso de acción popular iniciado por líderes locales contra la Alcaldía vecina.",
+            "c) Solicitar la intervención de la Autoridad Ambiental (ej. CORNARE) y proponer la creación de una microcuenca hidrográfica intermunicipal para una gestión conjunta y sostenible del recurso."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La gestión de recursos naturales trasciende los límites. La acción correcta es promover la asociatividad territorial bajo la figura de la microcuenca, con la veeduría de la Autoridad Ambiental competente (CAR), asegurando la sostenibilidad ambiental regional. La opción (a) es una última instancia y la (b) no resuelve el problema de la falta de planeación integrada."
+    },
+    {
+        "codigo": "GPT-54",
+        "pregunta": "La IUPB inicia un proyecto de investigación con una comunidad rural para desarrollar soluciones tecnológicas aplicadas. La comunidad se opone al proyecto argumentando falta de consulta previa y temor a la expropiación de tierras. ¿Qué enfoque debe adoptar el gestor de la IUPB para transformar el conflicto en una oportunidad de Gobernanza Territorial?",
+        "opciones": [
+            "a) Detener el proyecto y buscar una comunidad con menor resistencia, para asegurar la eficiencia en los tiempos de ejecución.",
+            "b) Iniciar un proceso de diálogo y consulta concertada con los líderes y veedurías, rediseñando el proyecto para que la comunidad sea un socio y no solo un beneficiario.",
+            "c) Utilizar la fuerza pública y el apoyo del Alcalde para iniciar el proyecto, argumentando la primacía del interés general del conocimiento."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La gobernanza se basa en la confianza y la legitimidad. Un conflicto se resuelve a través de la participación genuina (Ley 1757 de 2015). Hacer a la comunidad socia del proyecto es la forma más sostenible de asegurar la apropiación y la paz territorial. La opción (a) es evadir el conflicto y la (c) viola los derechos de las comunidades."
+    },
+    {
+        "codigo": "GPT-55",
+        "pregunta": "El sector privado de Antioquia ofrece una donación significativa a la IUPB para la creación de un nuevo laboratorio tecnológico, pero exige que el currículo del programa asociado se alinee completamente a sus necesidades específicas de mercado. ¿Cuál es la decisión estratégica que debe tomar el gestor de la IUPB para equilibrar la colaboración público-privada con la autonomía institucional?",
+        "opciones": [
+            "a) Rechazar la donación para preservar la autonomía curricular de la Institución.",
+            "b) Aceptar la donación y alinear el currículo, siempre que el programa conserve un núcleo flexible que responda al Plan Decenal de Educación del país y las necesidades regionales más amplias.",
+            "c) Aceptar la donación y crear un programa de extensión no formal separado del currículo oficial para satisfacer la demanda del privado."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La Colaboración Público-Privada (CPP) debe ser equilibrada. Aceptar la donación es gestión de recursos, pero asegurar un núcleo de formación más amplio preserva la función social de la educación pública y la pertinencia territorial. La opción (a) es una pérdida de recursos valiosos y la (c) es ineficiente en la integración."
+    },
+    {
+        "codigo": "GPT-56",
+        "pregunta": "Tras un sismo en el Valle de Aburrá, el campus de la IUPB sufre daños leves. El Alcalde de Medellín, sin consultar, ordena temporalmente que todas las instalaciones de la IUPB sean utilizadas como albergues. ¿Qué acción debe priorizar el rector de la IUPB, en el marco de la Gestión de Emergencias Territorial?",
+        "opciones": [
+            "a) Negarse rotundamente, argumentando la autonomía universitaria y la necesidad de priorizar la reanudación de las clases.",
+            "b) Acatar la orden del Alcalde (autoridad máxima en la gestión de desastres municipal), pero convocar inmediatamente un Puesto de Mando Unificado (PMU) para coordinar un uso eficiente, limitado y temporal de las instalaciones.",
+            "c) Requerir al Gobernador de Antioquia que revoque la orden del Alcalde, por invadir las competencias de la Institución de Educación Superior."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "En la Gestión del Riesgo de Desastres, el Alcalde es la máxima autoridad del SNGRD. La acción inmediata es acatar la orden, pero el rector tiene la obligación de ejercer la coordinación a través del PMU para mitigar el impacto negativo y asegurar el rápido retorno a la normalidad. La autonomía (a) no está por encima de la emergencia pública, y la (c) es un paso lento."
+    },
+    {
+        "codigo": "GPT-57",
+        "pregunta": "La IUPB requiere una inversión significativa para actualizar su infraestructura de Tecnologías de la Información y Comunicaciones (TIC). Los recursos del presupuesto ordinario son insuficientes. ¿Cuál es la estrategia de gestión de recursos públicos más innovadora y sostenible para asegurar esta financiación?",
+        "opciones": [
+            "a) Depender exclusivamente de la asignación del Presupuesto General de la Nación (PGN) para la educación superior pública.",
+            "b) Crear un Centro de Servicios Especializados en TIC que preste servicios y asesoría a otras entidades públicas y privadas, generando ingresos propios apalancados en la capacidad instalada.",
+            "c) Priorizar la inversión en infraestructura física sobre la tecnológica, posponiendo la actualización de las TIC."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La gestión pública moderna y la autonomía universitaria promueven la generación de ingresos propios para la sostenibilidad. Usar la capacidad instalada para prestar servicios a terceros es una estrategia de innovación fiscal y valor público al territorio. La dependencia del PGN (a) es riesgosa, y la postergación (c) compromete la calidad del servicio."
+    },
+    {
+        "codigo": "GPT-58",
+        "pregunta": "El gestor de proyectos de la IUPB identifica una oportunidad para presentar un proyecto a las convocatorias de CTeI del SGR, que busca resolver una problemática regional. El proyecto requiere la participación de varios municipios. ¿Qué acción de gestión interinstitucional es crucial en la etapa de formulación para maximizar la probabilidad de aprobación del proyecto ante el OCAD?",
+        "opciones": [
+            "a) Asegurar que la IUPB sea el único ejecutor del proyecto para simplificar la gestión administrativa y la contratación.",
+            "b) Demostrar en el proyecto la articulación de las prioridades del Plan Departamental de Desarrollo y los Planes de Desarrollo Municipales (PDT), con cartas de compromiso de cofinanciación o sostenibilidad de los Alcaldes.",
+            "c) Concentrar la inversión del proyecto en un solo municipio de Categoría 1 para garantizar un alto impacto económico."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los proyectos de SGR deben demostrar pertinencia regional y alineación con los instrumentos de planeación (PDT). El compromiso de las entidades territoriales no solo garantiza la sostenibilidad sino que también demuestra la legitimidad del proyecto ante el OCAD. La opción (a) no es la ideal en un proyecto regional, y la (c) ignora la visión de dispersión del beneficio territorial del SGR."
+    },
+    {
+        "codigo": "GPT-59",
+        "pregunta": "La IUPB requiere la construcción de una nueva vía de acceso a su campus, lo que mejorará la calidad de vida de todo el sector. El Municipio puede aplicar el instrumento de Participación en Plusvalía a los predios circundantes. ¿Cuál es la principal justificación para que el gestor de la IUPB promueva ante el Municipio la aplicación de este instrumento?",
+        "opciones": [
+            "a) Es la única forma de conseguir la financiación total para la obra.",
+            "b) El instrumento garantiza que los dueños de los predios que se benefician directamente del incremento del valor del suelo, asuman una parte justa del costo de la inversión pública.",
+            "c) Permite que el Municipio obtenga recursos de la Nación para financiar la construcción de la vía."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La Participación en Plusvalía es un instrumento legal (Ley 388/97) cuya justificación es la equidad urbana, capturando parte del valor generado por la acción pública (la vía) para reinvertirlo en el desarrollo territorial. La opción (a) es una simplificación y la (c) es incorrecta, ya que es un ingreso propio municipal."
+    },
+    {
+        "codigo": "GPT-60",
+        "pregunta": "La IUPB decide migrar a un modelo de Smart Campus para optimizar el consumo de energía y agua, utilizando sensores y Big Data. ¿Cuál es el principal reto de Gobernanza Digital Territorial que debe abordar la Institución para la sostenibilidad de este modelo?",
+        "opciones": [
+            "a) La alta inversión inicial en hardware y software especializado.",
+            "b) La interoperabilidad de los sistemas de datos con las plataformas de gestión de la ciudad (ej. Secretaría de Movilidad y Empresas Públicas de Medellín - EPM).",
+            "c) La resistencia de los estudiantes a compartir sus datos de movilidad dentro del campus."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El Smart City Management y la GPT digital exigen interoperabilidad. La sostenibilidad de la eficiencia del campus depende de que sus datos puedan integrarse con el ecosistema de la ciudad (EPM), lo que requiere acuerdos interinstitucionales y estándares técnicos. La opción (a) es financiera y la (c) es de privacidad."
+    },
+    {
+        "codigo": "GPT-61",
+        "pregunta": "Un gestor de la IUPB está formulando un proyecto de apoyo a emprendimientos rurales en el Oriente Antioqueño. Para asegurar la pertinencia, debe considerar los Objetivos de Desarrollo Sostenible (ODS). ¿Qué enfoque de GPT demuestra la aplicación más efectiva de los ODS en este contexto?",
+        "opciones": [
+            "a) Enfocarse únicamente en el ODS 4 (Educación de Calidad), que es el core de la IUPB.",
+            "b) Integrar los ODS 8 (Trabajo Decente y Crecimiento Económico) y ODS 17 (Alianzas), creando una red de valor que vincule la formación, el emprendimiento y el sector privado de la región.",
+            "c) Priorizar el ODS 13 (Acción por el Clima), independientemente de las necesidades económicas inmediatas de la población rural."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La GPT busca el desarrollo integral. La aplicación efectiva de los ODS requiere articulación y sinergia entre varios objetivos, lo cual es más holístico para generar un impacto sostenible. El enfoque unisectorial (a) limita el impacto y el (c) ignora la realidad económica."
+    },
+    {
+        "codigo": "GPT-62",
+        "pregunta": "La IUPB promueve la participación ciudadana en la actualización de su Plan de Desarrollo Institucional, pero encuentra baja asistencia a las audiencias presenciales. ¿Qué herramienta de las Nuevas Prácticas en GPT es la más efectiva para superar esta barrera de participación y asegurar la legitimidad del plan?",
+        "opciones": [
+            "a) Enviar encuestas físicas a los estudiantes y profesores para una respuesta anónima.",
+            "b) Implementar una plataforma de presupuesto participativo digital que permita a la comunidad proponer y votar por proyectos, usando datos abiertos para la trazabilidad de la decisión.",
+            "c) Crear un chatbot de inteligencia artificial para responder preguntas básicas sobre la misión institucional."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las nuevas tendencias en GPT (Gobierno Abierto) promueven la participación incidente y la transparencia. El presupuesto participativo digital (democracia digital) es la herramienta más avanzada para generar un sentido de pertenencia y asegurar que la ciudadanía incida directamente en la asignación de recursos. La opción (a) es tradicional y la (c) no fomenta la participación activa."
+    },
+    {
+        "codigo": "GPT-63",
+        "pregunta": "La IUPB está siendo evaluada por el DAFP en el marco del MIPG. Se detecta una baja articulación de la política de talento humano con la gestión de proyectos de extensión territorial. ¿Cuál es la dimensión del MIPG que se debe fortalecer prioritariamente para mejorar la GPT de la IUPB en este aspecto?",
+        "opciones": [
+            "a) Dimensión de Control Interno, revisando los procesos de auditoría del personal.",
+            "b) Dimensión de Gestión del Talento Humano, articulando los perfiles de los profesionales con las necesidades de desarrollo de las regiones impactadas.",
+            "c) Dimensión de Direccionamiento Estratégico y Planeación, redefiniendo la misión y visión de la IUPB."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El problema identificado es la desarticulación de capacidades (talento humano) con la ejecución de proyectos (extensión territorial). MIPG exige que el personal tenga las competencias requeridas para la GPT, por lo tanto, la dimensión de Gestión del Talento Humano es la prioritaria. La opción (a) solo verifica cumplimiento y la (c) es un paso extremo."
+    },
+    {
+        "codigo": "GPT-64",
+        "pregunta": "La IUPB finaliza un programa de emprendimiento rural en un municipio afectado por la violencia. El programa tuvo éxito, pero los recursos se agotan. El gestor busca asegurar la sostenibilidad del impacto generado. ¿Cuál es la acción que mejor ejemplifica la sostenibilidad de las políticas públicas territoriales?",
+        "opciones": [
+            "a) Crear una dependencia administrativa dentro de la IUPB para continuar operando el programa con recursos propios de la institución.",
+            "b) Promover la transferencia metodológica y la cofinanciación del programa a la Alcaldía municipal, para que lo asuma como una política pública local y lo incluya en su presupuesto.",
+            "c) Solicitar una prórroga de los recursos al donante inicial, argumentando la necesidad de continuidad."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La sostenibilidad en GPT se logra cuando una intervención exitosa se convierte en una política pública local y es apropiada por la entidad territorial (Alcaldía) e integrada a su presupuesto. La opción (a) es ineficiente y la (c) genera dependencia."
+    },
+    {
+        "codigo": "GPT-65",
+        "pregunta": "La IUPB, en coordinación con la Secretaría de Educación Departamental, diseña un indicador para medir la calidad de la oferta educativa técnica en Antioquia. ¿Qué característica debe tener este indicador para ser considerado de alta pertinencia territorial?",
+        "opciones": [
+            "a) Debe medir la tasa de deserción estudiantil en programas técnicos.",
+            "b) Debe medir el porcentaje de egresados que se emplean en sectores priorizados por el Plan de Desarrollo Departamental o las Agendas de Competitividad Regional.",
+            "c) Debe medir el número de laboratorios certificados con estándares internacionales."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La pertinencia territorial de la educación se mide por su alineación con la demanda productiva y estratégica del territorio. La conexión con el PDT y las Agendas de Competitividad asegura que la formación responda a las necesidades reales de desarrollo económico. La opción (a) es interna y la (c) es de infraestructura."
+    },
+    {
+        "codigo": "GPT-66",
+        "pregunta": "La IUPB adquiere un predio rural en un municipio cercano para establecer una granja experimental. Los campesinos locales utilizan ese terreno como zona de pastoreo desde hace décadas. La comunidad amenaza con invadir el predio. ¿Cuál es la acción de gestión de conflictos territoriales que debe aplicar el gestor de la IUPB, bajo el principio de función social de la propiedad?",
+        "opciones": [
+            "a) Instalar cercas de inmediato e iniciar acciones legales de desalojo contra los campesinos.",
+            "b) Promover un Acuerdo de Concertación con los campesinos, donde la IUPB les ofrezca capacitación técnica y acceso a los resultados de la investigación a cambio de la liberación gradual del predio.",
+            "c) Solicitar a la Alcaldía una declaratoria de utilidad pública para acelerar el proceso de toma de posesión del predio."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El conflicto de uso del suelo en el campo requiere diálogo y soluciones concertadas. La IUPB debe priorizar la función social de la propiedad y ofrecer un valor agregado social (capacitación/investigación) para lograr una solución pacífica y sostenible. La opción (a) generaría un conflicto social mayor y la (c) no resuelve la tensión social."
+    },
+    {
+        "codigo": "GPT-67",
+        "pregunta": "La IUPB desarrolla un software que utiliza Big Data de patrones de movilidad de estudiantes para predecir zonas de riesgo de hurto cerca del campus. La Policía Nacional solicita acceso irrestricto a esta información. ¿Qué decisión debe tomar el gestor de la IUPB para equilibrar la cooperación interinstitucional y la protección de datos?",
+        "opciones": [
+            "a) Entregar inmediatamente la base de datos completa a la Policía para mejorar la seguridad territorial.",
+            "b) Negar el acceso argumentando la Ley de Protección de Datos Personales (Ley 1581 de 2012), limitando la cooperación.",
+            "c) Entregar la información previamente anonimizada y agregada a la Policía, firmando un convenio de colaboración que limite el uso de los datos exclusivamente a la prevención del delito en el área territorial."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La GPT digital exige la cooperación (convenio) pero con transparencia y protección de derechos. La anonimización y agregación de datos es la técnica correcta para preservar la privacidad de los estudiantes (Ley 1581 de 2012) mientras se genera valor público para la seguridad ciudadana. La opción (a) viola la ley y la (b) impide la cooperación esencial."
+    },
+    {
+        "codigo": "GPT-68",
+        "pregunta": "En la fase de seguimiento del PDI, se identifica que el indicador de internacionalización está atrasado, pero el indicador de apoyo a la microempresa local está adelantado. La alta dirección exige priorizar el cumplimiento del indicador atrasado. ¿Cuál es la perspectiva de GPT más sólida que el Profesional Especializado debe argumentar en la toma de decisiones?",
+        "opciones": [
+            "a) La priorización debe ser la internacionalización, ya que es una meta de alta visibilidad para la acreditación institucional.",
+            "b) Se debe mantener el foco en la microempresa, ya que el impacto económico local es mayor, lo que contribuye directamente al PDT de Medellín.",
+            "c) Se debe buscar una sinergia estratégica entre ambos, diseñando programas de apoyo a la microempresa que incorporen elementos de internacionalización (ej. formación en exportación) para equilibrar los avances."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La GPT por resultados exige eficiencia y articulación. En lugar de sacrificar una meta por otra, la solución más estratégica es generar sinergias para alcanzar ambas, maximizando el valor público institucional y territorial de forma simultánea. La opción (a) es miope y la (b) incumple las metas estratégicas del PDI."
+    },
+    {
+        "codigo": "GPT-69",
+        "pregunta": "La IUPB busca alinear su oferta educativa con las necesidades de varios municipios que conforman una Región Administrativa y de Planificación (RAP). ¿Qué principio de la LOOT (Ley 1454 de 2011) debe priorizar la IUPB para lograr esta articulación?",
+        "opciones": [
+            "a) El principio de Autonomía Territorial, realizando convenios bilaterales con cada municipio por separado.",
+            "b) El principio de Gradualidad, iniciando la articulación con el municipio más grande y luego escalando a los demás.",
+            "c) El principio de Asociatividad, suscribiendo un convenio macro con la RAP para asegurar la coherencia regional de la oferta educativa y la optimización de los recursos."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La Asociatividad es el principio fundacional de los EAT (RAP) según la LOOT. La acción correcta es usar el instrumento asociativo (convenio con la RAP) para lograr una visión estratégica regional y evitar la dispersión de esfuerzos. La opción (a) genera fragmentación y la (b) no es el principio rector."
+    },
+    {
+        "codigo": "GPT-70",
+        "pregunta": "La IUPB publica información detallada de sus proyectos de extensión en su portal web, incluyendo el presupuesto. Un líder social solicita que todos los documentos de las propuestas técnicas de los proveedores sean publicados como datos abiertos. ¿Qué respuesta se ajusta mejor a los principios de Transparencia y Gestión Pública?",
+        "opciones": [
+            "a) Negar la solicitud, argumentando que la información de las propuestas técnicas es de carácter privado de los oferentes.",
+            "b) Publicar todos los documentos solicitados para cumplir a cabalidad con la Ley de Transparencia (Ley 1712 de 2014).",
+            "c) Publicar los documentos, previa evaluación de la reserva legal (ej. secretos comerciales o industriales) y anonimización de datos personales, garantizando la máxima divulgación."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La transparencia es máxima, pero no absoluta. El gestor debe equilibrar la publicidad activa (Ley 1712) con la protección de la información reservada (secretos comerciales o datos personales) mediante la evaluación rigurosa y la anonimización. La opción (a) es una negación arbitraria y la (b) puede exponer información privada legalmente reservada."
+    },
+    {
+        "codigo": "GPT-71",
+        "pregunta": "Durante la ejecución de un contrato de consultoría para la IUPB, el equipo de seguimiento detecta irregularidades que podrían constituir actos de corrupción. ¿Cuál es la acción prioritaria de Gestión Pública Territorial que debe adoptar el gestor en este escenario?",
+        "opciones": [
+            "a) Convocar al contratista a un comité de conciliación para intentar subsanar la irregularidad y evitar la denuncia pública.",
+            "b) Activar inmediatamente los protocolos de control interno y los mecanismos de denuncia ante los entes de control (Contraloría, Procuraduría), asegurando la recopilación de pruebas.",
+            "c) Suspender el contrato de manera unilateral y asumir la ejecución de la consultoría con personal de la IUPB."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Ante un presunto acto de corrupción, la obligación legal y ética es denunciar y asegurar la acción del control interno (MIPG). La opción (a) no aplica y la (c) es una extralimitación de funciones."
+    },
+    {
+        "codigo": "GPT-72",
+        "pregunta": "El Plan de Desarrollo Departamental de Antioquia enfatiza la necesidad de adaptarse al cambio climático. La IUPB decide incluir este tema en el currículo de todos sus programas. ¿Qué principio de la Gestión Pública Territorial Sostenible se ejemplifica con esta acción?",
+        "opciones": [
+            "a) Principio de Subsidiariedad, delegando la responsabilidad del cambio climático en los municipios.",
+            "b) Principio de Transversalidad, asegurando que la variable ambiental sea un componente fundamental en todas las políticas y decisiones institucionales.",
+            "c) Principio de Centralización, pidiendo al Ministerio de Educación que diseñe el módulo curricular único."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La transversalidad es la integración de un eje estratégico (cambio climático) en todas las políticas, planes y procesos, lo cual es esencial para una GPT con enfoque de sostenibilidad. La opción (a) implica apoyo, no delegación, y la (c) ignora la autonomía universitaria."
+    },
+    {
+        "codigo": "GPT-73",
+        "pregunta": "La IUPB finaliza una política de fomento al empleo para mujeres jefas de hogar. El gestor debe realizar una evaluación de impacto para saber si la política funcionó. ¿Qué metodología de evaluación de impacto es la más rigurosa para establecer la relación causal entre la política y la mejora de las condiciones de vida?",
+        "opciones": [
+            "a) Una encuesta de satisfacción a todas las mujeres que participaron en el programa.",
+            "b) Un análisis de series de tiempo que compare la tasa de desempleo de las beneficiarias antes y después del programa.",
+            "c) Una Evaluación Cuasi-Experimental que compare el grupo de beneficiarias (tratamiento) con un grupo similar que no recibió la política (control)."
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Una evaluación cuasi-experimental es la metodología más rigurosa para establecer la relación causal (que la mejora se debe a la política y no a otros factores) porque introduce un grupo de control. La opción (a) mide percepción y la (b) no aísla el efecto de la política de otros factores externos."
+    },
+    {
+        "codigo": "GPT-74",
+        "pregunta": "El gestor de un proyecto de innovación educativa en la IUPB se enfrenta a la resistencia de su equipo al cambio, debido a que el proyecto requiere la adopción de nuevas metodologías. ¿Cuál es la acción de liderazgo en la GPT que debe priorizar el gestor para movilizar a su equipo y asegurar el resultado?",
+        "opciones": [
+            "a) Ejercer un liderazgo transaccional, ofreciendo bonificaciones y premios por el cumplimiento de las nuevas tareas.",
+            "b) Ejercer un liderazgo transformacional, comunicando la visión de valor público del proyecto y el impacto que tendrá en el desarrollo de Antioquia.",
+            "c) Reestructurar el equipo, reemplazando a los miembros resistentes por personal más adaptable a la innovación."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El liderazgo transformacional es esencial en la gestión pública para movilizar al personal hacia el valor público. Conectar el esfuerzo individual con la visión estratégica territorial genera compromiso, sentido de pertenencia y motivación intrínseca. La opción (a) es menos sostenible y la (c) es una medida extrema."
+    },
+    {
+        "codigo": "GPT-75",
+        "pregunta": "Un municipio recibe recursos para ejecutar un proyecto de infraestructura educativa en su institución universitaria local. El alcalde y el rector tienen dificultades para coordinar los tiempos y recursos. ¿Cuál es la mejor estrategia para superar esta problemática?",
+        "opciones": [
+            "a) Que la alcaldía ejecute el proyecto de forma autónoma para evitar retrasos.",
+            "b) Crear un comité de coordinación entre entidad territorial, universidad y comunidad académica.",
+            "c) Solicitar al gobierno nacional que asuma la gestión total del proyecto para agilizarlo."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La gestión territorial efectiva requiere coordinación multisectorial para alinear recursos, tiempos y objetivos. La opción (a) limita la participación y la (c) resta autonomía local."
+    },
+    {
+        "codigo": "GPT-76",
+        "pregunta": "En un municipio con baja capacidad técnica y financiera, se planea un programa de desarrollo regional dirigido a mejorar la calidad de servicios educativos. ¿Qué medida es más adecuada?",
+        "opciones": [
+            "a) Centralizar la gestión en la gobernación para garantizar recursos.",
+            "b) Fortalecer capacidades locales con asistencia técnica y participación comunitaria.",
+            "c) Esperar a recibir recursos adicionales de otros entes sin intervenir localmente."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Fortalecer la gestión local y fomentar la apropiación comunitaria es clave. La opción (a) puede generar dependencia y la (c) es pasividad."
+    },
+    {
+        "codigo": "GPT-77",
+        "pregunta": "Al diseñar una política pública para fortalecer la participación ciudadana en la planificación territorial universitaria, ¿qué enfoque es el más efectivo?",
+        "opciones": [
+            "a) Consultas públicas digitales sin alianza con actores locales.",
+            "b) Integrar mecanismos participativos continuos con actores universitarios, comunitarios y gobierno.",
+            "c) Definir políticas sin participación para acelerar la toma de decisiones."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) promueve gobernanza territorial con inclusión real y sostenibilidad. La (a) es limitada y la (c) genera resistencia."
+    },
+    {
+        "codigo": "GPT-78",
+        "pregunta": "Un gerente público territorial debe resolver conflictos entre dos municipios vecinos por límites imprecisos y competencia por recursos. ¿Qué estrategia es más adecuada?",
+        "opciones": [
+            "a) Imponer unilateralmente la solución desde el nivel central.",
+            "b) Facilitar mediación intermunicipal con actores sociales, técnicos y jurídico.",
+            "c) Dejar que los municipios resuelvan sin intervención externa."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) fomenta diálogo, equidad y soluciones acordadas. La (a) puede reforzar tensiones y la (c) prolonga el conflicto."
+    },
+    {
+        "codigo": "GPT-79",
+        "pregunta": "En la evaluación del impacto de un proyecto territorial educativo, ¿cuál es el enfoque más completo para medir resultados?",
+        "opciones": [
+            "a) Solo revisar ejecución financiera del proyecto.",
+            "b) Evaluar resultados sociales, educativos y satisfacción de beneficiarios.",
+            "c) Concentrarse únicamente en indicadores de infraestructura construida."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) es correcta porque integra aspectos sociales y de calidad, más allá de lo financiero o físico. Las opciones (a) y (c) son parciales."
+    },
+    {
+        "codigo": "GPT-80",
+        "pregunta": "Un proyecto de infraestructura vial en un municipio presenta retrasos por falta de coordinación entre el gobierno local y el contratista privado. ¿Cuál acción es la más apropiada?",
+        "opciones": [
+            "a) Reasignar la gestión exclusivamente al contratista privado.",
+            "b) Establecer un comité de seguimiento con actores públicos y privados.",
+            "c) Suspender proyecto hasta que gobierno central intervenga."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción (b) promueve transparencia y coordinación multisectorial. La (a) puede causar descontrol y la (c) aumenta la demora."
+    },
+    {
+        "codigo": "GPT-81",
+        "pregunta": "¿Cómo debería un gestor público territorial abordar la asignación de recursos en un proyecto educativo teniendo comunidades rurales con prioridades distintas a la cabecera municipal?",
+        "opciones": [
+            "a) Distribuir recursos igualitariamente sin considerar necesidades específicas.",
+            "b) Priorizar recursos según diagnóstico participativo y diferencias territoriales.",
+            "c) Concentrar recursos en la cabecera para mayor impacto visible."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) es adecuada por atención diferenciada y equidad territorial. La (a) ignora contextos y la (c) puede generar desigualdades."
+    },
+    {
+        "codigo": "GPT-82",
+        "pregunta": "Un municipio tiene políticas dispersas y falta armonización entre planes de desarrollo y ordenamiento territorial. ¿Qué debe hacer un profesional especializado?",
+        "opciones": [
+            "a) Elaborar un plan integral de desarrollo territorial con participación local y alineación normativa.",
+            "b) Mantener los planes separados para mayor flexibilidad.",
+            "c) Dejar que cada área impulse sus propios planes sin coordinación."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fomenta coherencia, eficiencia y desarrollo sostenible. Las opciones (b) y (c) generan duplicidades."
+    },
+    {
+        "codigo": "GPT-83",
+        "pregunta": "¿Cuál es el principal desafío de implementar tecnologías digitales en la gestión pública territorial universitaria?",
+        "opciones": [
+            "a) La falta de infraestructura tecnológica y capacitación.",
+            "b) La resistencia total de la comunidad educativa.",
+            "c) El exceso de recursos sin saber usarlos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La falta de infraestructura y capacitación (a) es el desafío frecuente real. Las otras opciones son menos estratégicas."
+    },
+    {
+        "codigo": "GPT-84",
+        "pregunta": "En el seguimiento de proyectos territoriales, ¿qué herramienta es imprescindible para la toma de decisiones basada en evidencias?",
+        "opciones": [
+            "a) Sistemas de Información Geográfica (SIG).",
+            "b) Reportes mensuales elaborados sin datos cuantitativos.",
+            "c) Reuniones informales sin documentación."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Los SIG (a) permiten análisis espacial y preciso que guía decisiones. Las opciones (b) y (c) son insuficientes."
+    },
+    {
+        "codigo": "GPT-85",
+        "pregunta": "Durante la ejecución de un proyecto territorial, una alcaldía quiere involucrar al sector privado. ¿Cuál es un enfoque óptimo?",
+        "opciones": [
+            "a) Incorporar alianzas público-privadas con objetivos claros y roles definidos.",
+            "b) Delegar todo al sector privado sin supervisión.",
+            "c) No involucrar por temor a intereses privados."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fomenta colaboración eficiente y control público. La (b) es riesgosa y la (c) limita potenciales beneficios."
+    },
+    {
+        "codigo": "GPT-86",
+        "pregunta": "¿Cómo actúa un profesional especializado para manejar conflictos sociales en el territorio relacionados con proyectos universitarios?",
+        "opciones": [
+            "a) Ignorar los conflictos para no detener proyectos.",
+            "b) Implementar canales de diálogo y participación de afectados.",
+            "c) Aplicar medidas coercitivas sin consulta."
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La respuesta (b) es la correcta porque promueve inclusión y mitigación de conflictos. Las opciones (a) y (c) agravan tensiones."
+    },
+    {
+        "codigo": "GPT-87",
+        "pregunta": "¿Cuál es la mejor forma de asegurar la sostenibilidad financiera de proyectos de desarrollo territorial?",
+        "opciones": [
+            "a) Planificar presupuestos plurianuales con fuentes diversas y control de gastos.",
+            "b) Contar solo con recursos anuales asignados sin planificación.",
+            "c) Financiar proyectos con donaciones únicas sin seguimiento."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) garantiza continuidad y uso eficiente de recursos. Las opciones (b) y (c) son poco sostenibles."
+    },
+    {
+        "codigo": "GPT-88",
+        "pregunta": "Un área rural requiere mejorar la infraestructura educativa, pero el presupuesto es limitado. ¿Qué debe priorizar el gestor público?",
+        "opciones": [
+            "a) Obras pequeñas con impacto social inmediato y mantenimiento asegurado.",
+            "b) Grandes proyectos sin garantías de mantenimiento.",
+            "c) Ninguna intervención hasta contar con presupuesto completo."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) es preferible para resultados sostenibles. Las opciones (b) y (c) ponen en riesgo inversiones."
+    },
+    {
+        "codigo": "GPT-89",
+        "pregunta": "Cuando se realizan evaluaciones de impacto social en proyectos territoriales, ¿qué aspecto debe tener mayor énfasis?",
+        "opciones": [
+            "a) Percepción y satisfacción de la comunidad beneficiaria.",
+            "b) Solo resultados técnicos.",
+            "c) Exclusivamente cifras presupuestales."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) es crucial para validar el impacto real en la calidad de vida. Las opciones (b) y (c) son insuficientes."
+    },
+    {
+        "codigo": "GPT-90",
+        "pregunta": "Un profesional especializado detecta baja participación comunitaria en procesos de planeación territorial. ¿Qué debe hacer?",
+        "opciones": [
+            "a) Implementar estrategias de comunicación, formación y participación incluyente.",
+            "b) Ignorar la comunidad para evitar complicaciones.",
+            "c) Dejar el proceso solo en manos de técnicos."
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La opción (a) fortalece legitimidad y efectividad. Las opciones (b) y (c) generan resistencia."
+    }
+]
+}

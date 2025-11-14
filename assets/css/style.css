@@ -1,0 +1,449 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Ajustes para un contenido más flexible y no forzado a 100vh */
+    justify-content: flex-start; /* Alineación arriba para contenido */
+    padding: 40px 10px; /* Padding general para evitar tocar bordes */
+    height: auto;
+    min-height: 100vh; /* Asegura que ocupe al menos la altura de la ventana */
+    overflow-x: hidden;
+}
+
+/* Cabecera */
+header {
+    background-color: #4A90E2; /* Color principal azul */
+    color: white;
+    text-align: center;
+    padding: 30px 20px; /* Ajuste unificado */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px; /* Espacio debajo del header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+#logo {
+    width: 200px; /* Tamaño del logo */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Título Principal */
+h1 {
+    font-size: 2.5rem; /* Tamaño unificado */
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el contenido principal (tanto menú como contenido) */
+main {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    /* Estilos del segundo bloque para contenido */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alineación a la izquierda para el contenido */
+}
+
+/* --- Estilos Específicos de la Página de Contenido (2do bloque) --- */
+
+/* Estilos de los títulos en las secciones de contenido */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #4A90E2;
+    padding-bottom: 5px;
+}
+
+/* Estilo de los subtítulos dentro de cada sección de contenido */
+h3 {
+    font-size: 1.5rem;
+    color: #4A90E2;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos y listas de contenido */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px; /* Añadido para espaciar las listas */
+}
+
+/* --- Estilos Específicos de la Página de Menú/Preguntas (1er bloque) --- */
+
+/* Estilo para las preguntas (Legacy, mantenido) */
+#pregunta {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center; /* Centrar la pregunta */
+}
+
+/* Estilos generales para otros botones (no los del menú) */
+button {
+    background-color: #FF9900; /* Color adaptado para los botones */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF7700; /* Color de hover más oscuro */
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Estilo para el menú de componentes */
+#menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#menu section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los botones dentro del menú */
+#menu button {
+    width: 100%;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 12px;
+}
+
+#menu button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#menu button:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+/* Temporizador (Legacy, mantenido) */
+#temporizador {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #e74c3c;
+    text-align: center;
+}
+
+/* Resultado Final (Legacy, mantenido) */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#resultado p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Estilos para el botón de simulacro (uso en ambas páginas si es necesario) */
+.boton-simulacro {
+    background-color: #28a745; /* Verde del 1er bloque */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block; /* Asegura que no ocupe todo el ancho si no es necesario */
+}
+
+.boton-simulacro:hover {
+    background-color: #218838;
+}
+
+.boton-simulacro:active {
+    transform: scale(0.98);
+}
+
+/* ===========================================
+   NUEVOS ESTILOS DEL SIMULACRO PREGUNTA A PREGUNTA
+   =========================================== */
+
+/* Contenedor principal del simulacro */
+#simulacroContainer {
+    margin-top: 25px;
+    padding: 25px; /* Más padding para que no se vea pegado */
+    border: 1px solid #e0e0e0; /* Un borde suave */
+    border-radius: 8px;
+    background-color: #fcfcfc;
+}
+
+/* Estilo para el número de pregunta (ej. "Pregunta 4 de 20") */
+#preguntaContainer h2 {
+    font-size: 1.5em; /* Reducido para no ser tan grande */
+    color: #4A90E2;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4A90E2; /* Línea azul debajo del título de pregunta */
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+/* Estilo para el texto de la pregunta */
+#preguntaContainer h3 {
+    /* Sobre escribe el h3 genérico, reduciendo el tamaño de la pregunta */
+    font-size: 1.25em;
+    line-height: 1.5; /* Mejorar legibilidad */
+    margin-bottom: 20px;
+    color: #333; /* Color oscuro para mayor contraste */
+}
+
+/* Contenedor de las opciones */
+.options-group {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+/* Cada opción individual (label) */
+.options-group label {
+    display: block; /* Cada opción en su propia línea */
+    margin-bottom: 12px; /* Espacio entre opciones (reducido ligeramente) */
+    padding: 10px 10px; /* Más padding dentro de cada opción */
+    border: 1px solid #e9e9e9; /* Borde sutil para cada opción */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    font-size: 1.05em; /* Tamaño de letra legible */
+    color: #555;
+    position: relative;
+    padding-left: 35px; /* Espacio para el input radio */
+}
+
+.options-group label:last-child {
+    margin-bottom: 0; /* Sin margen en la última opción */
+}
+
+.options-group label:hover {
+    background-color: #eef7ff; /* Fondo más claro al pasar el ratón */
+    border-color: #a8d7ff; /* Borde más visible */
+}
+
+/* Radio button */
+.options-group input[type="radio"] {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilos para retroalimentación (explicación inmediata) */
+#retroalimentacion {
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 1.05em;
+    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+#retroalimentacion p {
+    margin-bottom: 8px;
+}
+
+#retroalimentacion p strong {
+    color: #333;
+}
+
+/* Cronómetro */
+#cronometro {
+    font-family: 'Consolas', monospace; /* Fuente monoespaciada para el tiempo */
+    font-size: 1.6rem; /* Ajustado */
+    margin-bottom: 15px;
+    color: #4A90E2;
+    background-color: #e6f2ff; /* Fondo suave */
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #a8d7ff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilo para el reporte final */
+#reporteFinal {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #e9f5ff; /* Fondo azul claro para el reporte */
+    border: 1px solid #a8d7ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#reporteFinal h2 {
+    color: #4A90E2;
+    border-bottom: 2px solid #a8d7ff;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#reporteFinal ul {
+    list-style: none; /* Quitar viñetas */
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#reporteFinal ul li {
+    background-color: #f5fbff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-left: 5px solid #4A90E2;
+    border-radius: 5px;
+    font-size: 1.05em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#reporteFinal ul li strong {
+    color: #333;
+    min-width: 180px;
+}
+
+#reporteFinal .boton-simulacro {
+    background-color: #007bff; /* Azul para "Volver a estudiar" */
+}
+
+#reporteFinal .boton-simulacro:hover {
+    background-color: #0056b3;
+}
+
+/* --- Media Query para Pantallas Pequeñas (Mobile) --- */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    header {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    /* Ajuste para títulos de contenido de estudio */
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Ajuste para subtítulos de contenido de estudio */
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste para preguntas del simulacro en móvil */
+    #preguntaContainer h3 {
+        font-size: 1.15em;
+    }
+
+    #pregunta {
+        font-size: 1.25rem;
+    }
+
+    #menu {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+/* --- Estilo para el Botón de Navegación (Volver al Menú) --- */
+/* --- Estilo para el Botón de Navegación (Volver al Menú) --- */
+.boton-navegacion {
+    /* Fondo Azul más suave que el principal */
+    background-color: #f0f8ff; /* Fondo muy claro/blanco azulado */
+    color: #4A90E2; /* Texto del color principal */
+    padding: 8px 15px; /* Reducción de padding para hacerlo más pequeño */
+    font-size: 1em; /* Tamaño de letra más estándar */
+    border: 2px solid #4A90E2; /* Borde con el color principal */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    font-weight: bold; /* Para que el texto resalte un poco */
+}
+
+.boton-navegacion:hover {
+    background-color: #4A90E2; /* Al pasar el ratón, toma el color primario */
+    color: white; /* Y el texto se vuelve blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste en media query para móviles */
+@media screen and (max-width: 768px) {
+    .boton-navegacion {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
