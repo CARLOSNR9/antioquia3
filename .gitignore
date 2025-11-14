@@ -1,0 +1,10 @@
+# Archivos de Imagen
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Archivos temporales o de configuración del editor (si usas VS Code)
+.vscode/
+.DS_Store
