@@ -16,7 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btnSimulacro = document.getElementById("btnSimulacro");
     if (btnSimulacro) {
-        btnSimulacro.addEventListener("click", iniciarSimulacro);
+        // En la página de estudio, también habilitamos el botón del simulacro si es posible
+        // y le asignamos el evento.
+        const rutaActual = window.location.pathname.split('/').pop();
+        if (rutaActual === 'gestion-publica.html' || rutaActual === 'normatividad.html') {
+             btnSimulacro.addEventListener("click", iniciarSimulacro);
+             // Si el botón está deshabilitado por defecto, lo habilitamos aquí (para temas con JSON)
+             btnSimulacro.disabled = false;
+             btnSimulacro.style.backgroundColor = '#28a745';
+             btnSimulacro.textContent = 'Empezar Simulacro';
+        }
     }
 
     // Evento para el botón Siguiente
@@ -104,15 +113,30 @@ function obtenerPreguntasAleatorias(preguntas, num) {
     return preguntasAleatorias;
 }
 // ===========================================
-// LÓGICA DE FLUJO DEL SIMULACRO
+// LÓGICA DE FLUJO DEL SIMULACRO (MODIFICADO PARA SER DINÁMICO)
 // ===========================================
 
 /**
  * Inicia el proceso del simulacro: oculta el botón de inicio y carga las preguntas.
  */
 function iniciarSimulacro() {
-    // 1. **CAMBIO CLAVE AQUÍ:** Ocultar solo el contenedor del botón de inicio.
-    //    Dejamos todas las secciones de estudio y el <hr> visibles.
+    // Determinar qué archivo JSON cargar según la URL actual
+    const rutaActual = window.location.pathname.split('/').pop();
+    let rutaJSON = '';
+    
+    // Aquí es donde se define el mapeo del archivo HTML al archivo JSON de preguntas
+    if (rutaActual === 'gestion-publica.html') {
+        rutaJSON = '../data/gestion-publica-territorial.json';
+    } else if (rutaActual === 'normatividad.html') {
+        // Nueva ruta para el tema de Normatividad
+        rutaJSON = '../data/normatividad.json';
+    } else {
+        // Si no está mapeado, mostramos una alerta y terminamos
+        alert('⚠️ Error: No se encontró un banco de preguntas asociado a esta página o el mapeo es incorrecto.');
+        return;
+    }
+
+    // 1. Ocultar solo el contenedor del botón de inicio.
     document.getElementById('interfaz-inicio').style.display = 'none';
     
     // 2. Mostrar la interfaz de simulacro y limpiar cualquier reporte anterior
@@ -120,13 +144,15 @@ function iniciarSimulacro() {
     document.getElementById("reporteFinal").style.display = 'none';
 
     // 3. Cargar las preguntas aleatorias
-    fetch('../data/gestion-publica-territorial.json')
+    fetch(rutaJSON) // Usamos la ruta JSON determinada
         .then(response => response.json())
         .then(data => {
             const todasLasPreguntas = Array.isArray(data) ? data : data.preguntas;
 
             if (!todasLasPreguntas || todasLasPreguntas.length < NUM_PREGUNTAS) {
                 alert('⚠️ No hay suficientes preguntas en el banco para el simulacro de 20 preguntas.');
+                // En caso de error, volvemos a mostrar la interfaz de inicio
+                document.getElementById('interfaz-inicio').style.display = 'block'; 
                 return;
             }
 
@@ -143,9 +169,10 @@ function iniciarSimulacro() {
         })
         .catch(error => {
             console.error('Error al cargar el simulacro:', error);
-            document.getElementById("simulacroContainer").innerHTML = `<p style="color: red;">🚨 Error al cargar las preguntas. Detalle: ${error.message}</p>`;
+            document.getElementById("simulacroContainer").innerHTML = `<p style="color: red;">🚨 Error al cargar las preguntas. Revisa si el archivo ${rutaJSON.split('/').pop()} existe y está bien formado. Detalle: ${error.message}</p>`;
         });
 }
+
 /**
  * Muestra la pregunta actual en la interfaz y establece sus listeners.
  */
@@ -165,9 +192,15 @@ function mostrarPreguntaActual() {
     container.innerHTML = `<h2 style="color: #4A90E2;">Pregunta ${indicePreguntaActual + 1} de ${NUM_PREGUNTAS}</h2>`;
     retroalimentacion.style.display = 'none';
     retroalimentacion.innerHTML = '';
+    
+    // Actualizar texto del botón siguiente
+    if (indicePreguntaActual === NUM_PREGUNTAS - 1) {
+        btnSiguiente.textContent = 'Finalizar Simulacro';
+    } else {
+        btnSiguiente.textContent = `Siguiente Pregunta (${indicePreguntaActual + 2}/${NUM_PREGUNTAS}) →`;
+    }
     btnSiguiente.style.display = 'none';
-    btnSiguiente.textContent = `Siguiente Pregunta (${indicePreguntaActual + 1}/${NUM_PREGUNTAS}) →`;
-
+    
     // Crear la estructura de la pregunta
     const questionDiv = document.createElement("div");
     questionDiv.classList.add("question");
@@ -194,7 +227,8 @@ function mostrarPreguntaActual() {
 
         optionLabel.appendChild(optionInput);
         optionLabel.appendChild(document.createTextNode(opcionTexto));
-        optionLabel.appendChild(document.createElement("br"));
+        // No añadir <br> aquí para que el CSS maneje el layout
+        // optionLabel.appendChild(document.createElement("br")); 
 
         optionsContainer.appendChild(optionLabel);
     });
@@ -238,8 +272,12 @@ function validarRespuestaActual(event) {
     // Resaltar la respuesta correcta en la interfaz
     const opcionCorrectaInput = document.querySelector(`input[name="currentQuestion"][value="${correcta}"]`);
     if (opcionCorrectaInput) {
-        opcionCorrectaInput.parentNode.style.fontWeight = 'bold';
-        opcionCorrectaInput.parentNode.style.backgroundColor = '#e6ffe6'; // Fondo verde claro
+        // Encontrar el label contenedor
+        const labelCorrecto = opcionCorrectaInput.closest('label');
+        if(labelCorrecto) {
+            labelCorrecto.style.fontWeight = 'bold';
+            labelCorrecto.style.backgroundColor = '#e6ffe6'; // Fondo verde claro
+        }
     }
 
 
@@ -268,9 +306,6 @@ function avanzarPregunta() {
 }
 
 /**
- * Procesa los resultados finales y muestra el reporte.
- */
-/**
  * Procesa los resultados finales, guarda el intento y muestra el reporte.
  */
 function finalizarSimulacro() {
@@ -282,8 +317,9 @@ function finalizarSimulacro() {
     const puntajeCien = (correctas / NUM_PREGUNTAS) * 100;
     const notaMinima = 65; // Nota de aprobación
 
-    // --- LÓGICA DE GUARDADO EN LOCAL STORAGE ---
-    const temaIdentificador = 'gestion-publica.html'; // Usamos el nombre del archivo de estudio como ID
+    // --- LÓGICA DE GUARDADO EN LOCAL STORAGE (AHORA ES DINÁMICA) ---
+    // OBTIENE LA CLAVE DINÁMICAMENTE (ej. 'gestion-publica.html' o 'normatividad.html')
+    const temaIdentificador = window.location.pathname.split('/').pop(); 
     
     // 1. Obtener el historial actual o un array vacío
     let historial = JSON.parse(localStorage.getItem(temaIdentificador)) || [];
@@ -343,10 +379,6 @@ function finalizarSimulacro() {
         </div>
     `;
 }
-
-// ===========================================
-// FUNCIÓN PARA CARGAR EL MENÚ DE NAVEGACIÓN
-// ===========================================
 
 // ===========================================
 // FUNCIÓN PARA CARGAR EL MENÚ DE NAVEGACIÓN

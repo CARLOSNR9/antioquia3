@@ -1,0 +1,1054 @@
+{
+    "preguntas": [
+        {
+            "codigo": "NOR-01",
+            "pregunta": "¿Qué ley establece el régimen de la carrera administrativa en Colombia y regula el empleo público, siendo la base legal para concursos como el de la CNSC?",
+            "opciones": [
+                "a) Ley 80 de 1993 (Estatuto General de Contratación de la Administración Pública)",
+                "b) Ley 909 de 2004 (Normas que regulan el Empleo Público, la Carrera Administrativa)",
+                "c) Ley 1437 de 2011 (Código de Procedimiento Administrativo)"
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La Ley 909 de 2004 es el marco fundamental que rige el empleo público y el sistema de carrera administrativa, y establece las bases para los concursos de mérito."
+        },
+        {
+            "codigo": "NOR-02",
+            "pregunta": "Según la Constitución Política de Colombia (Art. 287), ¿cuál de los siguientes es un principio fundamental que otorga a las entidades territoriales la facultad de gestionar sus propios intereses?",
+            "opciones": [
+                "a) Centralización normativa.",
+                "b) Desconcentración de funciones.",
+                "c) Autonomía territorial."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "El Artículo 287 de la C.P. establece que las entidades territoriales gozan de autonomía para la gestión de sus intereses, dentro de los límites de la Constitución y la ley, lo cual es esencial para la gestión pública territorial."
+        },
+        {
+            "codigo": "NOR-03",
+            "pregunta": "El Código de Procedimiento Administrativo y de lo Contencioso Administrativo (CPACA), Ley 1437 de 2011, tiene como finalidad principal:",
+            "opciones": [
+                "a) Establecer el régimen disciplinario para los servidores públicos.",
+                "b) Regular las actuaciones de la administración pública y el ejercicio del derecho de petición.",
+                "c) Definir el marco legal de la contratación estatal."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El CPACA regula las actuaciones administrativas, los procedimientos de la administración pública y el ejercicio del derecho de petición, elementos esenciales en las funciones de cualquier profesional especializado en una entidad estatal."
+        },
+        {
+            "codigo": "NOR-04",
+            "pregunta": "En el contexto de la planeación territorial, ¿cuál es el instrumento que establece las metas y prioridades de un departamento o municipio, y al que deben alinearse los planes institucionales como el PETI?",
+            "opciones": [
+                "a) Plan de Ordenamiento Territorial (POT).",
+                "b) Plan Estratégico de Tecnologías de la Información (PETI).",
+                "c) Plan de Desarrollo Territorial (PDT)."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "El Plan de Desarrollo Territorial (PDT) es el instrumento legal y programático que traza la hoja de ruta de una entidad territorial. Los demás planes institucionales deben estar alineados con sus objetivos."
+        },
+        {
+            "codigo": "NOR-05",
+            "pregunta": "La función principal de la **Comisión Nacional del Servicio Civil (CNSC)** dentro del marco normativo del empleo público es:",
+            "opciones": [
+                "a) Administrar los recursos de nómina de los empleados de carrera.",
+                "b) Administrar y vigilar los sistemas de carrera de los servidores públicos.",
+                "c) Emitir los decretos reglamentarios de la Ley 909 de 2004."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La CNSC es el órgano autónomo e independiente responsable de la administración y vigilancia de los sistemas de carrera, garantizando el ingreso y ascenso por mérito."
+        },
+
+      {
+      "codigo": "NOR-01",
+      "pregunta": "Como Profesional Especializado de TI en la I.U. Pascual Bravo, usted lidera la actualización del PETI. La Secretaría de Innovación Digital de la Alcaldía emite una circular exigiendo migrar toda la infraestructura a una nube específica negociada por ellos. Sin embargo, la I.U. ya tiene contratos vigentes con otro proveedor que ofrece servicios especializados para laboratorios académicos. Ante la presión de la Alcaldía y la autonomía de la institución, ¿cuál es la acción administrativa más adecuada?",
+      "opciones": [
+        "a) Acatar inmediatamente la circular, cancelando los contratos vigentes, dado que el principio de unidad municipal prima sobre las necesidades técnicas.",
+        "b) Elaborar un informe técnico-jurídico sustentado en la autonomía administrativa (Ley 489), demostrando la inconveniencia técnica de la migración para la misionalidad académica.",
+        "c) Ignorar la circular de la Secretaría, ya que al ser una entidad descentralizada, la I.U. Pascual Bravo no tiene obligación de coordinar sus políticas de TI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La I.U. Pascual Bravo es una entidad descentralizada con autonomía administrativa y patrimonio propio (Ley 489 de 1998). Aunque existe el principio de coordinación, la autonomía permite gestionar recursos para cumplir la misión. La opción A genera detrimento patrimonial. La C viola el principio de coordinación."
+    },
+    {
+      "codigo": "NOR-02",
+      "pregunta": "Usted supervisa un contrato de software. El contratista entrega con 15 días de retraso, pero incluye un módulo extra 'gratis' como compensación. El Rector pide recibir el contrato a satisfacción inmediatamente para no perder la vigencia presupuestal. Según la Ley 80 de 1993, ¿qué debe hacer?",
+      "opciones": [
+        "a) Recibir a satisfacción firmando el acta con la fecha original de entrega para evitar problemas administrativos y aceptar el módulo extra.",
+        "b) Recibir el software, pero aplicar las multas por mora estipuladas en el contrato y legalizar el módulo adicional mediante modificación formal.",
+        "c) Rechazar el recibo del software hasta que el contratista pague una indemnización externa y solicitar investigación a la Procuraduría."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Como supervisor, debe velar por el cumplimiento estricto del contrato. No se pueden condonar incumplimientos de facto por 'compensaciones' no pactadas (violación al principio de legalidad). Se debe declarar el incumplimiento parcial (mora) y tramitar administrativamente los extras."
+    },
+    {
+      "codigo": "NOR-03",
+      "pregunta": "Un ciudadano solicita por Ley 1712 (Transparencia) la base de datos de estudiantes beneficiarios de subsidios, incluyendo nombres, cédulas, dirección y estrato, para una veeduría. ¿Cuál es el criterio para gestionar esta solicitud frente a la Ley 1581?",
+      "opciones": [
+        "a) Entregar la base de datos completa en formato abierto inmediatamente, pues la información del Estado se presume pública.",
+        "b) Negar la entrega argumentando que es propiedad intelectual de la Institución y el ciudadano no demostró interés legítimo.",
+        "c) Entregar una versión anonimizada, suministrando estadísticas y montos, pero protegiendo los datos personales sensibles y de contacto."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es la C. Existe tensión entre acceso a información pública (Ley 1712) y protección de datos (Ley 1581). Los datos de contacto son semiprivados/privados. Se debe garantizar la transparencia (entregar cifras) aplicando el principio de disociación para proteger la identidad."
+    },
+    {
+      "codigo": "NOR-04",
+      "pregunta": "En MIPG, usted lidera Gobierno Digital. Talento Humano usa un software antiguo que no interoperar con SIGEP II, generando incumplimiento. Financiera niega recursos para uno nuevo. ¿Cuál es su deber según el Decreto 1083 de 2015?",
+      "opciones": [
+        "a) Reportar el bajo puntaje en el autodiagnóstico MIPG y esperar recursos el próximo año.",
+        "b) Gestionar una solución de integración (middleware) que garantice la interoperabilidad con los sistemas nacionales, priorizando el cumplimiento normativo.",
+        "c) Solicitar a Talento Humano la carga manual en SIGEP II y desvincular ese sistema de la política de Gobierno Digital."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La Política de Gobierno Digital obliga a garantizar la interoperabilidad y calidad de la información. La austeridad no exime del reporte de información al Estado. El profesional debe gestionar la solución técnica para cumplir la norma."
+    },
+    {
+      "codigo": "NOR-05",
+      "pregunta": "El Concejo de Medellín cita a debate de control político sobre ejecución en tecnología. El Rector le delega la asistencia para que usted responda políticamente. ¿Cómo procede según la normativa de control político?",
+      "opciones": [
+        "a) Asumir la responsabilidad política en nombre del Rector y firmar compromisos, actuando como delegado pleno.",
+        "b) Asistir para brindar soporte técnico, aclarando que la responsabilidad política ante el Concejo es indelegable del Rector (Ley 489/Ley 136).",
+        "c) No asistir, argumentando que los Profesionales Especializados no son sujetos de citación por el Concejo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Los citados a control político son los representantes legales. La responsabilidad política no se delega. Usted asiste para rendición de cuentas técnica, pero la responsabilidad ante la corporación es del Rector."
+    },
+    {
+      "codigo": "NOR-06",
+      "pregunta": "Descubre que un funcionario usa servidores de la I.U. para minar criptomonedas fuera de horario. Él alega que 'no afecta el rendimiento'. ¿Cuál es su deber según el Código Disciplinario?",
+      "opciones": [
+        "a) Aceptar la explicación técnica, amonestarlo verbalmente y cerrar el caso para mantener el clima laboral.",
+        "b) Solicitarle el pago del consumo de energía y firmar un acta de compromiso técnico.",
+        "c) Denunciar el hecho ante Control Interno Disciplinario, pues constituye uso indebido de bienes públicos y presunto peculado."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es la C. Todo servidor debe denunciar delitos y faltas (Ley 1952). Usar bienes del Estado para beneficio particular es falta gravísima, independientemente de si hubo daño operativo."
+    },
+    {
+      "codigo": "NOR-07",
+      "pregunta": "Para un trámite de certificados, el Vicerrector ordena que el ciudadano envíe la foto de la consignación bancaria por correo para validación manual, al no tener pasarela de pagos. ¿Cumple esto con el Decreto Ley 019 (Antitrámites)?",
+      "opciones": [
+        "a) Sí, porque el correo electrónico cuenta como un canal digital que evita desplazamientos.",
+        "b) No, porque la norma prohíbe exigir documentos que la entidad puede verificar internamente; el proceso manual no es racionalización.",
+        "c) Sí, siempre y cuando se publique en el SUIT que el procedimiento es temporalmente semipresencial."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. El Decreto 019 busca eficacia. Cargar la prueba de pago al ciudadano cuando la entidad debería validar internamente va contra la simplificación y los estándares de Gobierno Digital."
+    },
+    {
+      "codigo": "NOR-08",
+      "pregunta": "Identifica una vulnerabilidad web que expuso datos personales por 4 horas. Comunicaciones sugiere no publicar nada para cuidar la imagen. Según la Ley 1581 (Protección de Datos), ¿qué debe hacer?",
+      "opciones": [
+        "a) Reportar el incidente a la Superintendencia de Industria y Comercio (SIC) y notificar a los titulares afectados.",
+        "b) Parchar la seguridad y documentar internamente sin reportar a la SIC por ser menor a 24 horas.",
+        "c) Clasificar el incidente como reservado bajo la Ley de Inteligencia para evitar el reporte."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es la A. El principio de Responsabilidad Demostrada obliga a reportar incidentes que comprometan información de titulares ante la SIC, sin importar el impacto reputacional."
+    },
+    {
+      "codigo": "NOR-09",
+      "pregunta": "Una fundación solicita la donación inmediata de computadores viejos. El almacenista pide su concepto para entregarlos ya con acta simple. ¿Cuál es el procedimiento según administración de bienes?",
+      "opciones": [
+        "a) Autorizar la entrega por la función social de la propiedad y el derecho a la educación.",
+        "b) Negar la entrega inmediata; se requiere baja fiscal técnica, borrado seguro de datos y ofrecimiento previo a otras entidades estatales.",
+        "c) Entregar los equipos en comodato indefinido para evitar el trámite de baja."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Los bienes públicos requieren proceso de baja justificado. El Decreto 1082 regula la enajenación gratuita (ofrecimiento previo). Además, es obligatorio el borrado seguro de datos antes de la salida."
+    },
+    {
+      "codigo": "NOR-10",
+      "pregunta": "El Rector sugiere fraccionar la compra de licencias en tres contratos de mínima cuantía para adjudicar a proveedores locales directos y evitar licitación. ¿Cuál es su postura?",
+      "opciones": [
+        "a) Acatar la sugerencia y realizar tres estudios previos diferentes justificados en apoyo local.",
+        "b) Oponerse al fraccionamiento (ilegal) y estructurar un único proceso de selección que permita participación plural.",
+        "c) Realizar contratación directa invocando urgencia manifiesta para cumplir el deseo del Rector."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. El fraccionamiento de contratos para eludir topes de cuantía y selección objetiva viola la Ley 80. Se debe estructurar el proceso según la necesidad anual total."
+    },
+    {
+      "codigo": "NOR-11",
+      "pregunta": "En una licitación, usted es evaluador. Nota que un ingeniero del proponente es su primo (2° grado). La oferta es la mejor. Según Ley 1437, ¿qué hace?",
+      "opciones": [
+        "a) Continuar la evaluación objetiva pues el primo no es Representante Legal.",
+        "b) Declararse impedido por escrito y apartarse del estudio de esa propuesta.",
+        "c) Solicitar al oferente cambiar al ingeniero para subsanar la inhabilidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Existe Conflicto de Intereses (parentesco hasta 4° grado). No declararse impedido es falta gravísima, sin importar la calidad de la oferta."
+    },
+    {
+      "codigo": "NOR-12",
+      "pregunta": "Por falta de espacio, le ordenan borrar correos institucionales de hace más de 2 años. Según Ley 594 de 2000 (Archivos), ¿qué hace?",
+      "opciones": [
+        "a) Ejecutar el borrado masivo priorizando la eficiencia de los servidores.",
+        "b) Guardar copia personal en disco externo y borrar del servidor.",
+        "c) Negarse al borrado indiscriminado y aplicar Tablas de Retención Documental (TRD)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es la C. Los correos son documentos de archivo. Borrarlos sin aplicar TRD es destrucción de documento público. Se debe asegurar preservación según valoración."
+    },
+    {
+      "codigo": "NOR-13",
+      "pregunta": "Comunicaciones propone un diseño web impactante pero no accesible para ciegos. Ajustarlo cuesta más. Según Gobierno Digital y Ley 1618, ¿qué decide?",
+      "opciones": [
+        "a) Aprobar el diseño y planear la accesibilidad para una fase futura.",
+        "b) Ajustar el alcance para garantizar estándares de accesibilidad (NTC 5854) obligatorios.",
+        "c) Crear un sitio paralelo de 'solo texto' para cumplir el requisito."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La normativa obliga a garantizar accesibilidad web. No es diferible. Sitios paralelos son prácticas segregacionistas no aceptadas."
+    },
+    {
+      "codigo": "NOR-14",
+      "pregunta": "La Alcaldía pide llaves criptográficas y usuarios 'root' de sus servidores para integrar trámites en 'Ventanilla Única'. ¿Cómo gestiona la seguridad?",
+      "opciones": [
+        "a) Entregar credenciales bajo acuerdo de confidencialidad para facilitar la integración.",
+        "b) Negar credenciales administrativas y proponer interoperabilidad vía servicios web (APIs).",
+        "c) Crear un usuario administrador temporal para que la Alcaldía realice la integración."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La integración (Decreto 2106) es por interoperabilidad, no cediendo infraestructura. Entregar llaves viola la soberanía y seguridad de la información (ISO 27001)."
+    },
+    {
+      "codigo": "NOR-15",
+      "pregunta": "Una marca ofrece un viaje si usted ajusta los pliegos técnicos para favorecerlos. Usted rechaza el viaje pero copia las especificaciones porque son los mejores equipos. ¿En qué incurre?",
+      "opciones": [
+        "a) En ninguna falta, pues rechazó la dádiva y buscó lo mejor técnicamente.",
+        "b) En violación al principio de Selección Objetiva por direccionar el pliego.",
+        "c) En falta leve, pues el benchmarking es práctica común."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Pliegos 'sastre' violan la libre concurrencia y selección objetiva (Ley 80), aunque no haya soborno aceptado."
+    },
+    {
+      "codigo": "NOR-16",
+      "pregunta": "Falló internet y no pudo cargar actos de adjudicación en SECOP II a tiempo. El Secretario sugiere poner fecha de hoy a los documentos para coincidir con el sistema. ¿Qué hace?",
+      "opciones": [
+        "a) Cargar con fecha real (pasada) y adjuntar constancia de falla técnica.",
+        "b) Modificar fechas de los actos para evitar alerta de extemporaneidad.",
+        "c) No cargar los documentos y dejar solo el expediente físico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es la A. Se debe cumplir el principio de Publicidad con veracidad. Alterar fechas de actos es Falsedad en Documento Público. La falla técnica justifica la extemporaneidad."
+    },
+    {
+      "codigo": "NOR-17",
+      "pregunta": "En Ley de Garantías (pre-electoral), se daña un servidor crítico. Jurídica dice 'no contratos directos'. ¿Cómo adquiere el servidor?",
+      "opciones": [
+        "a) Contratación directa por Urgencia Manifiesta como excepción única.",
+        "b) Esperar a que pasen las elecciones operando manualmente.",
+        "c) Realizar un proceso de selección pública (Licitación/Subasta/Abreviada)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es la C. Ley de Garantías prohíbe contratación directa y convenios. No prohíbe convocatorias públicas. Es la vía legal ordinaria."
+    },
+    {
+      "codigo": "NOR-18",
+      "pregunta": "Para ahorrar, el proveedor propone 'Firma Escaneada' en los diplomas de grado PDF en lugar de Firma Digital. ¿Es válido según Ley 527?",
+      "opciones": [
+        "a) Sí, si el PDF tiene contraseña de apertura.",
+        "b) No, se requiere Firma Digital certificada para garantizar integridad y autenticidad.",
+        "c) Sí, si el Rector reconoce la firma ante notario antes de escanear."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Documentos de alto riesgo de fraude como títulos requieren garantía de no modificación (Integridad). Solo la Firma Digital provee esto."
+    },
+    {
+      "codigo": "NOR-19",
+      "pregunta": "Va a dar de baja computadores. Financiera se niega a pagar flete para enviarlos a 'Computadores para Educar'. Según Ley 1672 (RAEE), ¿qué hace?",
+      "opciones": [
+        "a) Entregar a recolector informal gratuito.",
+        "b) Pagar flete o contratar Gestor certificado, asumiendo responsabilidad ambiental.",
+        "c) Arrojar a la basura común municipal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La entidad es responsable de la disposición final ambientalmente segura de sus RAEE. Entregar a informales conlleva sanciones."
+    },
+    {
+      "codigo": "NOR-20",
+      "pregunta": "Al llenar FURAG, su jefe ordena marcar que SÍ tienen Seguridad de la Información (aunque no la tengan) para no bajar índices. ¿Qué hace?",
+      "opciones": [
+        "a) Marcar SÍ confiando en la orden del jefe.",
+        "b) Marcar la realidad (NO/En progreso), pues mentir es Falsedad y altera política pública.",
+        "c) Dejar en blanco para que promedie."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. El reporte FURAG tiene efectos legales. Alterar la verdad es falta ética y disciplinaria."
+    },
+    {
+      "codigo": "NOR-21",
+      "pregunta": "Un estudiante 'hacker ético' reporta vulnerabilidad en notas. El Rector pide 'arreglar en silencio' y amenazar al estudiante. ¿Cómo procede?",
+      "opciones": [
+        "a) Expulsar al estudiante y parchar.",
+        "b) Corregir, no tomar represalias (si no hubo dolo) y gestionar el incidente.",
+        "c) Ignorar el reporte."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Se debe gestionar la vulnerabilidad. Castigar reportes éticos es contraproducente. Sanciones dependen de daño real."
+    },
+    {
+      "codigo": "NOR-22",
+      "pregunta": "Su equipo sube presupuestos en PDF a Datos Abiertos. ¿Cumple esto con la norma de Gobierno Digital?",
+      "opciones": [
+        "a) Sí, el PDF es formato universal.",
+        "b) No, Datos Abiertos exige formatos estructurados (CSV, XML) reutilizables.",
+        "c) Sí, si no tienen contraseña."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Datos Abiertos implica formatos procesables por máquina. PDF es 'dato cerrado' o de difícil reutilización."
+    },
+    {
+      "codigo": "NOR-23",
+      "pregunta": "Norma interna prohíbe que datos salgan del campus, pero Política Nacional promueve Nube Pública. ¿Qué prevalece para contratar Nube?",
+      "opciones": [
+        "a) La norma interna (prohibición absoluta).",
+        "b) Política nacional (permite Nube Pública) garantizando Ley de Datos en el contrato.",
+        "c) Construir Datacenter propio obligatorio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Políticas internas no pueden contrariar lineamientos nacionales de eficiencia. Nube Pública es permitida asegurando cumplimiento normativo."
+    },
+    {
+      "codigo": "NOR-24",
+      "pregunta": "Funcionario se niega a usar software ORFEO porque su Manual dice 'radicar' pero no especifica 'en software'. ¿Qué responde?",
+      "opciones": [
+        "a) Aceptar uso de cuaderno hasta actualizar Manual.",
+        "b) Iniciar disciplinario; la tecnología es instrumental y el deber es capacitarse.",
+        "c) Desarrollar módulo que simule cuaderno."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. El funcionario debe actualizarse. Negarse a usar herramientas oficiales afecta la eficiencia."
+    },
+    {
+      "codigo": "NOR-25",
+      "pregunta": "Funcionario en 'Trabajo en Casa' exige pago de internet y silla ergonómica. Según Ley 2088, ¿qué procede?",
+      "opciones": [
+        "a) Pagar todo para evitar demanda.",
+        "b) Aclarar que en Trabajo en Casa (temporal) no hay obligación de adecuación puesto, solo auxilio conectividad.",
+        "c) Negar todo pago."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Trabajo en Casa difiere de Teletrabajo. No obliga a adecuación de puesto ni pago total de servicios, solo auxilio conectividad."
+    },
+    {
+      "codigo": "NOR-26",
+      "pregunta": "Contraloría halla sobrecosto en licencias aprobadas por usted (Hallazgo Fiscal). ¿Qué implica?",
+      "opciones": [
+        "a) Solo corrección administrativa.",
+        "b) Proceso donde podría responder con su patrimonio propio por el daño.",
+        "c) La Universidad paga la multa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. La responsabilidad fiscal busca resarcir el daño al patrimonio público con el patrimonio del gestor culpable."
+    },
+    {
+      "codigo": "NOR-27",
+      "pregunta": "Chatbot institucional con IA da fecha errónea a estudiante, generando multa. ¿Quién responde?",
+      "opciones": [
+        "a) Nadie, fue error de software.",
+        "b) La Universidad responde por falla en el servicio y debe revocar la multa.",
+        "c) El estudiante por no verificar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. El Estado responde por sus canales oficiales. Si induce a error al ciudadano, asume la consecuencia."
+    },
+    {
+      "codigo": "NOR-28",
+      "pregunta": "Rector pide pedir 'experiencia privada' en pliegos para descartar universidades públicas. ¿Es legal?",
+      "opciones": [
+        "a) Sí, por autonomía universitaria.",
+        "b) No, requisitos deben ser proporcionales; excluir sector público injustificadamente viola libre concurrencia.",
+        "c) Sí, si es convenio interadministrativo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Selección Objetiva exige requisitos adecuados al objeto. Sesgar requisitos para excluir oferentes válidos es ilegal."
+    },
+    {
+      "codigo": "NOR-29",
+      "pregunta": "Veedor pide código fuente de software desarrollado 'in house' con recursos públicos. Usted teme seguridad. ¿Qué dice la norma?",
+      "opciones": [
+        "a) Es secreto industrial siempre.",
+        "b) Software público debe ser abierto (GPL) salvo componentes de seguridad crítica.",
+        "c) Se entrega solo ejecutable."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Desarrollos patrimoniales del Estado propenden por ser Software Público abierto, protegiendo solo lo crítico."
+    },
+    {
+      "codigo": "NOR-30",
+      "pregunta": "Jefe pide que deje su contraseña escrita en papel por si hay emergencia en sus vacaciones. ¿Qué hace?",
+      "opciones": [
+        "a) Dejarla en sobre sellado.",
+        "b) Negarse; las credenciales son intransferibles. Admin debe gestionar accesos alternos.",
+        "c) Decirla verbalmente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es la B. Principio de No Repudio. Compartir credenciales compromete la responsabilidad individual sobre las acciones en sistema."
+    },
+
+    {
+      "codigo": "NOR-01",
+      "pregunta": "Usted es el Coordinador TIC de la Institución Universitaria Pascual Bravo. El Rector solicita adaptar la plataforma de matrículas a los parámetros definidos por la Alcaldía, aunque técnicamente esto limitaría la interoperabilidad con el Sistema Nacional de Información de Educación Superior. Según Ley 136 y Ley 489, ¿cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Acatar la orden del Rector y ajustarse únicamente a los parámetros municipales.",
+        "b) Diseñar la adaptación conforme a los parámetros municipales, pero advirtiendo formalmente la limitación de interoperabilidad y proponiendo una solución técnica compatible con los sistemas nacionales.",
+        "c) Desestimar el requerimiento alegando autonomía universitaria y mantener la plataforma sin cambios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b es correcta porque conjuga el respeto por la autonomía territorial y la interoperabilidad nacional, aplicando los principios de coordinación interinstitucional descritos en la Ley 136 y 489. a ignora las exigencias técnicas nacionales y c desatiende facultades municipales."
+    },
+    {
+      "codigo": "NOR-02",
+      "pregunta": "Como supervisor de contratos TIC, recibe una orden de la autoridad superior para aprobar una adición presupuestal sin mostrar los soportes técnicos pertinentes. La Ley 80 de 1993 y el Estatuto Anticorrupción establecen requisitos de transparencia. ¿Cuál criterio debe prevalecer?",
+      "opciones": [
+        "a) Cumplir la orden jerárquica y autorizar la adición presupuestal sin requerir mayor información.",
+        "b) Solicitar formalmente los soportes técnicos y rechazar la autorización hasta cumplir los requisitos legales.",
+        "c) Informar verbalmente la duda pero autorizar por presión de tiempo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es la respuesta correcta, al exigir la trazabilidad documental, la transparencia y el debido proceso conforme Ley 80 y Estatuto Anticorrupción. a y c violan el principio de responsabilidad del servidor público."
+    },
+    {
+      "codigo": "NOR-03",
+      "pregunta": "El Director Administrativo le pide migrar la base de datos de usuarios de la universidad al sistema municipal, exponiéndolos a riesgos de acceso no autorizado. Usted advierte conflicto entre la Ley 1712 (transparencia) y la Ley 1581 (protección de datos). ¿Qué debe hacer?",
+      "opciones": [
+        "a) Cumplir la orden y migrar todos los datos sin restricciones.",
+        "b) Realizar un análisis de legalidad, consultar con el oficial de protección de datos, y migrar solo datos no sensibles o con el consentimiento informado.",
+        "c) Negarse rotundamente a migrar cualquier información por temor a violar privacidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b responde al principio de legalidad y ponderación de derechos entre transparencia y protección de datos (Leyes 1712 y 1581). Excluir la migración total o permitir acceso indiscriminado puede generar responsabilidad disciplinaria."
+    },
+    {
+      "codigo": "NOR-04",
+      "pregunta": "El Alcalde solicita acceso permanente y sin restricción a los servidores donde se alojan proyectos digitales universitarios, argumentando supervisión territorial. Según Ley 489/136 y autonomía institucional, ¿cómo debe actuar?",
+      "opciones": [
+        "a) Otorgar acceso total para cumplir petición jerárquica.",
+        "b) Revisar las competencias reales, implementar controles y entregar acceso solo conforme a la naturaleza del proyecto y principios normativos.",
+        "c) Denegar todo acceso para proteger la independencia académica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b equilibra control interno y autonomía universitaria, aplicando Ley 489/Ley 136. a viola principios de seguridad y privacidad; c puede obstaculizar la rendición de cuentas territorial."
+    },
+    {
+      "codigo": "NOR-05",
+      "pregunta": "En la revisión anual de cumplimiento del PETI, el Comité solicita eliminar los reportes de incidentes de seguridad por considerar que afectan la 'imagen' institucional. El MIPG y Gobierno Digital exigen trazabilidad. ¿Cómo responder?",
+      "opciones": [
+        "a) Acceder a la petición para proteger reputación institucional.",
+        "b) Mantener los reportes como requisito de seguridad, proponiendo redacción pedagógica para informes.",
+        "c) Eliminar solo los reportes más críticos y dejar los demás."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es correcta ya que los reportes son exigidos por MIPG y los lineamientos de Gobierno Digital para control y mejora continua. a y c vulneran transparencia y gestión de riesgos."
+    },
+    {
+      "codigo": "NOR-06",
+      "pregunta": "El jefe de planeación le pide ejecutar un cambio urgente en la estructura de datos institucionales sin el debido proceso de aprobación y documentación. Según Ley 489 de 1998 y MIPG, ¿qué debe considerar?",
+      "opciones": [
+        "a) Realizar el cambio por indicación jerárquica.",
+        "b) Exigir el proceso normativo correspondiente y gestionar la documentación de cambios.",
+        "c) Sólo documentar el cambio a posteriori, por economía de tiempo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Opción correcta: b. El debido proceso y la trazabilidad de cambios son exigidos por Ley 489 y MIPG. Omitir estos pasos debilita la gestión institucional."
+    },
+    {
+      "codigo": "NOR-07",
+      "pregunta": "Durante la auditoría interna, se detecta que los servidores públicos TIC comparten credenciales entre áreas, supuestamente para agilizar flujos. Según Decreto 1083 y políticas de Gobierno Digital, ¿cuál es el proceder?",
+      "opciones": [
+        "a) Permitir el uso compartido por razones técnicas.",
+        "b) Prohibir esta práctica y capacitar sobre los riesgos técnicos y disciplinarios.",
+        "c) Solicitar formalmente autorización al rector para legitimar el procedimiento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b está respaldada por Decreto 1083 y Manual de Gobierno Digital. Compartir credenciales viola reglas de seguridad y puede constituir falta disciplinaria."
+    },
+    {
+      "codigo": "NOR-08",
+      "pregunta": "El Comité TIC propone contratar un proveedor sin experiencia demostrada por considerar que ofrece precios bajos. Ley 80 y MIPG exigen criterios de idoneidad. ¿Qué debe prevalecer?",
+      "opciones": [
+        "a) Contratar únicamente por precio bajo.",
+        "b) Exigir la validación de experiencia e idoneidad antes de contratar.",
+        "c) Confiar en el juicio técnico del Comité y proceder con contratación directa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es jurídicamente correcto: Ley 80 de 1993 y MIPG exigen la idoneidad técnica y experiencia demostrada. a y c vulneran principios de selección objetiva."
+    },
+    {
+      "codigo": "NOR-09",
+      "pregunta": "El área jurídica recomienda modificar unilateralmente un contrato TIC para agilizar la entrega de un software, sin consultar al proveedor ni documentar la adición. De acuerdo a Ley 80, ¿cuál es el criterio?",
+      "opciones": [
+        "a) Modificar el contrato sin formalidad para cumplir plazos.",
+        "b) Realizar la modificación siguiendo el proceso legal, con acta de adición y aprobación bilateral.",
+        "c) Delegar la responsabilidad solo al área jurídica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es la acción correcta porque respeta el principio de bilateralidad y registro de modificaciones, conforme Ley 80. a y c pueden invalidar la modificación y generar sanciones."
+    },
+    {
+      "codigo": "NOR-10",
+      "pregunta": "La Alcaldía exige integración total de los sistemas académicos universitarios con la plataforma de datos abierta municipal, lo que supone exponer información confidencial estudiantil. Según Ley 136, Ley 1712 y Ley 1581, ¿cómo proceder?",
+      "opciones": [
+        "a) Integrar toda la información como lo solicita la Alcaldía.",
+        "b) Validar el alcance de datos a compartir, asegurando protección de derechos constitucionales y privacidad, solo integrando lo público y permitido.",
+        "c) Oponerse a cualquier tipo de integración por precaución."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b concilia la apertura de datos (Ley 1712) y la protección de derechos personales (Ley 1581), respetando competencias municipales (Ley 136). a y c pueden violar principios normativos y derechos fundamentales."
+    },
+{
+      "codigo": "NOR-11",
+      "pregunta": "Un proveedor TIC entrega documentación incompleta en la supervisión contractual, argumentando que ciertos informes no son exigidos por la Alcaldía. Ley 80 y MIPG imponen controles contractuales. ¿Cómo debe actuar el supervisor?",
+      "opciones": [
+        "a) Aceptar la justificación y aprobar el avance.",
+        "b) Exigir cumplimiento contractual completo y remitir observaciones a la oficina jurídica.",
+        "c) Posponer la observación hasta la siguiente revisión."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b cumple los principios de trazabilidad y control, como exige Ley 80 y MIPG. a y c omiten la responsabilidad disciplinaria y contractual del supervisor."
+    },
+    {
+      "codigo": "NOR-12",
+      "pregunta": "El área TIC detecta que un contrato de software ligado al PETI incluye términos técnicos incompatibles con servidores municipales. ¿Cómo debe proceder según Ley 1341 y gestión eficiente?",
+      "opciones": [
+        "a) Ignorar la incompatibilidad y concluir la compra.",
+        "b) Solicitar ajuste técnico a la solución, documentarlo y negociar con el proveedor.",
+        "c) Transferir la responsabilidad de incompatibilidad a la oficina de soporte municipal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b aplica el principio de interoperabilidad y soluciones eficientes de Ley 1341 y gobierno digital. a y c generan riesgos de gestión e ineficiencia."
+    },
+    {
+      "codigo": "NOR-13",
+      "pregunta": "El Rector solicita al líder TIC que priorice una adjudicación directa de contrato por petición interna, sin proceso objetivo. Ley 80 exige selección objetiva y transparencia. ¿Qué hacer?",
+      "opciones": [
+        "a) Proceder como lo solicita la rectoría.",
+        "b) Solicitar definir criterios públicos y transparentes antes de adjudicar.",
+        "c) Adjudicar y luego justificar el proceso."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b pone en práctica el principio de selección objetiva y publicidad exigido por Ley 80. a y c violan transparencia y debida diligencia."
+    },
+    {
+      "codigo": "NOR-14",
+      "pregunta": "Se detecta incumplimiento reiterado de cronograma por el área TIC en la implementación de PETI, y el jefe de contrato pide firmar una constancia de cumplimiento falsa. Según Ley 80 y Estatuto Anticorrupción, ¿qué debe hacer?",
+      "opciones": [
+        "a) Firmar la constancia para proteger la relación con el contratista.",
+        "b) Rechazar firmar y reportar el incidente ante los órganos de control internos y externos.",
+        "c) Solicitar una justificación verbal y tomar nota solamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b cumple el deber de denuncia y transparencia, evitando incurrir en falsedad y corrupción según Ley 80 y Estatuto Anticorrupción."
+    },
+    {
+      "codigo": "NOR-15",
+      "pregunta": "El secretario general propone simplificar el proceso de contratación eliminando validaciones técnicas previas, argumentando agilidad. Según MIPG y Ley 80, ¿cuál es el criterio técnico y normativo?",
+      "opciones": [
+        "a) Aceptar la simplificación para acelerar la contratación.",
+        "b) Mantener las validaciones técnicas, explicando su importancia legal y funcional.",
+        "c) Postergar validaciones para la siguiente vigencia contractual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b resguarda la seguridad jurídica y eficacia, exigidas por MIPG y Ley 80. a y c omiten controles obligatorios y pueden generar vicios administrativos."
+    },
+    {
+      "codigo": "NOR-16",
+      "pregunta": "El Comité TIC solicita a los servidores, por presión de tiempo, omitir la publicación de avances contractuales en el portal de transparencia. ¿Qué principio legal está en riesgo y cómo debe proceder?",
+      "opciones": [
+        "a) Omitir la publicación y entregar los avances solo a solicitud.",
+        "b) Insistir en la publicación oportuna y explicar la obligación legal (Ley 1712 y MIPG).",
+        "c) Publicar los avances solo al finalizar el contrato."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b protege el principio de transparencia, obligatorio según Ley 1712 y MIPG. a y c violan el acceso de la ciudadanía y rendición de cuentas."
+    },
+    {
+      "codigo": "NOR-17",
+      "pregunta": "En reunión institucional, un directivo pide acceso inmediato a información reservada sobre incidentes de seguridad TIC. La Ley 1581 y gobierno digital restringen ese acceso. ¿Cómo debe actuar el responsable?",
+      "opciones": [
+        "a) Entregar la información sin consideraciones.",
+        "b) Validar la calidad de autoridad y derecho de acceso, y documentar la entrega conforme protocolos de seguridad.",
+        "c) Negar todo acceso por principio de protección de datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b asegura protección de datos y trazabilidad legal. a y c pueden violar derechos fundamentales o bloquear el control legítimo."
+    },
+    {
+      "codigo": "NOR-18",
+      "pregunta": "Al implementar una nueva plataforma digital, la Alcaldía requiere el uso de una solución que no cumple los estándares nacionales de seguridad. Según Gobierno Digital y Ley 1341, ¿qué acción es la más adecuada?",
+      "opciones": [
+        "a) Implementar la solución por orden municipal.",
+        "b) Solicitar el ajuste técnico al proveedor para cumplir los estándares, documentando la solicitud.",
+        "c) Usar la solución y luego revisar los estándares nacionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b garantiza el cumplimiento legal y de seguridad. a y c arriesgan el patrimonio digital y pueden incurrir en responsabilidad disciplinaria."
+    },
+    {
+      "codigo": "NOR-19",
+      "pregunta": "El supervisor de TIC detecta que un contrato fue adjudicado sin considerar la matriz de riesgos que exige MIPG. ¿Qué procedimiento debe seguir?",
+      "opciones": [
+        "a) Continuar con la supervisión normal.",
+        "b) Solicitar formalmente la inclusión de la matriz y reportar el incumplimiento.",
+        "c) Elaborar la matriz solo si hay incidentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b responde al marco del MIPG y Ley 80 sobre planeación contractual y mitigación de riesgos. a y c comprometen la legalidad y gestión eficiente."
+    },
+    {
+      "codigo": "NOR-20",
+      "pregunta": "En la integración de plataformas entre la universidad y el municipio, se solicita compartir contraseñas administrativas para agilizar pruebas de interoperabilidad. Según decreto 1083 y políticas de Gobierno Digital, ¿qué debe hacer?",
+      "opciones": [
+        "a) Compartir credenciales por eficiencia.",
+        "b) Negarse y proponer mecanismos seguros con auditoría y trazabilidad.",
+        "c) Solicitar autorización sólo verbal del superior jerárquico."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b defiende seguridad digital y ética profesional. a y c infringen política de acceso controlado y pueden generar incidentes disciplinarios."
+    },
+{
+      "codigo": "NOR-21",
+      "pregunta": "La oficina de planeación de la Universidad requiere publicar parcialmente los informes de auditoría TIC, dejando por fuera apartados clave de seguridad, para evitar alarmas en la comunidad. La Ley 1712 y el principio de máxima publicidad del MIPG son aplicables. ¿Cuál es la acción adecuada?",
+      "opciones": [
+        "a) Publicar solo los apartados que la dirección considere relevantes.",
+        "b) Publicar el informe completo, reservando solo aquello expresamente restringido por norma y explicando los motivos.",
+        "c) No publicar mientras se define una estrategia de comunicación interna."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es la acción correcta ya que Ley 1712 exige máxima divulgación, con reserva únicamente sobre información legalmente protegida. a y c limitan la transparencia y rinden cuentas solo parcialmente."
+    },
+    {
+      "codigo": "NOR-22",
+      "pregunta": "Durante una crisis, el Comité TIC acuerda suspender la actualización de respaldos de bases de datos institucionales, citando falta de recursos. Según el MIPG y gestión de riesgos TIC, ¿cuál es el proceder?",
+      "opciones": [
+        "a) Aceptar la suspensión como medida temporal por falta de recursos.",
+        "b) Insistir en mantener respaldos, gestionar recursos y elevar el riesgo a las instancias superiores.",
+        "c) Continuar operaciones sin respaldo hasta que finalice la crisis."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b responde a la gestión continua del riesgo y protección de activos críticos, como exige el MIPG. a y c aumentan vulnerabilidad institucional y pueden acarrear responsabilidad."
+    },
+    {
+      "codigo": "NOR-23",
+      "pregunta": "Recibe instrucción de excluir de la matriz de riesgos del PETI los incidentes legales asociados a la protección de datos personales, para agilizar trámites. ¿Cómo debe proceder según Ley 1581 y el MIPG?",
+      "opciones": [
+        "a) Excluir los incidentes para acelerar el proceso.",
+        "b) Incluirlos y documentar los riesgos conforme normativa, explicando la obligatoriedad de su gestión.",
+        "c) Posponer la inclusión hasta que un incidente ocurra realmente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es correcta, ya que Ley 1581 y el MIPG obligan a identificar y gestionar riesgos relacionados con protección de datos. Omitir o posponer va en detrimento del cumplimiento legal."
+    },
+    {
+      "codigo": "NOR-24",
+      "pregunta": "En la supervisión de un contrato de licenciamiento TIC, detecta que no se cumple la obligación de entregar manuales de usuario accesibles conforme a la Ley 1712 y políticas de Gobierno Digital. ¿Qué hace?",
+      "opciones": [
+        "a) Dar por cerrado el contrato si el software ya está operativo.",
+        "b) Exigir la entrega y publicación de manuales en formatos accesibles antes de cerrar el contrato.",
+        "c) Solicitar al área jurídica que decida si se exige realmente esa entrega."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es correcta y está acorde a Ley 1712 y Gobierno Digital, que exigen accesibilidad y disponibilidad de la documentación para todos los usuarios. a y c posponen un deber legal."
+    },
+    {
+      "codigo": "NOR-25",
+      "pregunta": "Una circular interna pide desactivar temporalmente el portal web de transparencia para tareas de mantenimiento, sin plazos definidos ni aviso público. Ley 1712 y MIPG exigen disponibilidad continua. ¿Acción adecuada?",
+      "opciones": [
+        "a) Acatar la orden sin informar y esperar instrucciones posteriores.",
+        "b) Notificar públicamente la indisponibilidad, definir plazos y restituir el servicio lo antes posible.",
+        "c) Desactivar el portal en horario nocturno, sin publicar aviso."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b asegura el derecho a la información pública y responde al principio de transparencia activa. a y c afectan la confianza pública y el control social."
+    },
+    {
+      "codigo": "NOR-26",
+      "pregunta": "El área de contratación pide eliminar la cláusula de supervisión contractual TIC en un pliego, para facilitar la gestión del contrato. Ley 80 y MIPG orientan obligaciones del supervisor. ¿Qué decisión tomar?",
+      "opciones": [
+        "a) Aceptar la eliminación si lo justifica el área contratante.",
+        "b) Mantener y defender la cláusula, fundamentando la necesidad de seguimiento, control y legalidad conforme Ley 80 y MIPG.",
+        "c) Posponer la decisión hasta una siguiente vigencia."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es legalmente válida; la supervisión contractual es obligatoria para la correcta ejecución y control del contrato según Ley 80 y el MIPG."
+    },
+    {
+      "codigo": "NOR-27",
+      "pregunta": "Recibe presión para acelerar la puesta en producción de un servicio ciudadano digital, aunque las pruebas de seguridad no han sido superadas. Gobierno Digital y Ley 1341 exigen seguridad como prioridad. ¿Cómo proceder?",
+      "opciones": [
+        "a) Poner en producción el servicio, bajo propia responsabilidad.",
+        "b) Retrasar la puesta en marcha hasta asegurar que todas las pruebas y protocolos de seguridad están superados.",
+        "c) Habilitarlo solo para pruebas internas y luego lanzar al público."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b responde a los principios de responsabilidad y protección de derechos ciudadanos. a y c arriesgan la seguridad, integridad y pueden incurrir en faltas disciplinarias."
+    },
+    {
+      "codigo": "NOR-28",
+      "pregunta": "El área TIC decide usar una solución de software privativa que impide el acceso y reutilización de datos institucionales, dificultando la interoperabilidad. ¿Qué norma se vulnera principalmente?",
+      "opciones": [
+        "a) Ley 489 de 1998.",
+        "b) Ley 1341 y lineamientos de Gobierno Digital, que exigen interoperabilidad y estándares abiertos.",
+        "c) Decreto 1083 de 2015."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b recoge la obligación de desplegar soluciones interoperables y evitar el cierre tecnológico, como exigen Ley 1341 y Gobierno Digital. a y c no contemplan este principio en TIC."
+    },
+    {
+      "codigo": "NOR-29",
+      "pregunta": "El rector exige que todos los contratos TIC sean adjudicados a una única empresa proveedora de confianza de la entidad, para 'mayor control'. Ley 80 exige pluralidad y selección objetiva. ¿Cómo debe actuar el profesional TIC?",
+      "opciones": [
+        "a) Cumplir la orden por tratarse de una autoridad superior.",
+        "b) Defender la selección objetiva y pluralidad de oferentes, sustentando la ilegalidad de la adjudicación directa preferencial.",
+        "c) Solicitar sugerencias al proveedor único sobre la mejor forma de distribuciones contractuales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b respeta el principio de selección objetiva, competencia y pluralidad de Ley 80 y Estatuto Anticorrupción. a y c violan normas de competencia pública y control fiscal."
+    },
+    {
+      "codigo": "NOR-30",
+      "pregunta": "En revisión de cumplimiento MIPG, se identifica ausencia de indicadores para evaluar la prestación de servicios digitales al ciudadano. ¿Qué corresponde hacer?",
+      "opciones": [
+        "a) Continuar sin indicadores hasta la próxima vigencia.",
+        "b) Definir, implementar y hacer seguimiento a indicadores, documentando el proceso conforme exige el MIPG.",
+        "c) Solicitar a la Alcaldía que evalúe la prestación y remita resultados."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b da cumplimiento a la obligación de control y evaluación interna de servicios definida en el MIPG. a y c trasladan o posponen responsabilidades propias del área TIC e institucional."
+    },
+
+    {
+      "codigo": "NOR-01",
+      "pregunta": "Usted es Profesional Especializado TIC en la Institución Universitaria Pascual Bravo y coordina la actualización del PETI. El Rector le indica que formule los proyectos exclusivamente con base en las prioridades internas de la universidad, sin articularlos con el Plan de Desarrollo Municipal, argumentando que la autonomía universitaria le permite hacerlo. Sin embargo, la Secretaría de Planeación Municipal le recuerda que, como entidad descentralizada del orden municipal, la institución debe contribuir al cumplimiento de las metas del municipio y observar los lineamientos de la Ley 136 de 1994 y la Ley 489 de 1998 sobre organización y coordinación de la administración pública. ¿Cuál es la acción más adecuada frente a esta tensión entre la orden jerárquica, el criterio técnico y el marco normativo?",
+      "opciones": [
+        "a) Acatar la instrucción del Rector y construir el PETI solo con criterios internos de la universidad, dejando constancia en un correo interno para justificar que actuó por orden superior.",
+        "b) Proponer formalmente un ajuste metodológico al PETI que integre las prioridades internas con las metas del Plan de Desarrollo Municipal y las políticas nacionales, explicando al Rector que la autonomía debe ejercerse dentro del marco de coordinación del Estado unitario.",
+        "c) Elaborar dos versiones del PETI: una alineada al municipio para presentarla externamente y otra estrictamente interna para ejecutar realmente los proyectos TIC."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque armoniza la autonomía universitaria con la naturaleza unitaria y descentralizada del Estado, y con la obligación de coordinar la acción administrativa de las entidades territoriales derivada de la Constitución y desarrollada en la Ley 136 de 1994 y la Ley 489 de 1998. La autonomía no es absoluta y debe ejercerse dentro del marco de la Constitución, la ley y los planes territoriales. La opción a) desconoce el deber de coordinación y planificación articulada, reduciendo el concepto de autonomía a independencia total. La opción c) es contraria a los principios de transparencia y buena fe, al generar un PETI “visible” y otro “real”, vulnerando la confianza legítima y el direccionamiento estratégico institucional."
+    },
+    {
+      "codigo": "NOR-02",
+      "pregunta": "Durante la construcción del módulo de indicadores del PETI, la Alcaldía propone que la Institución Universitaria Pascual Bravo reporte directamente sus avances TIC a una plataforma municipal recién creada, que aún no cuenta con políticas claras de seguridad de la información ni con controles de acceso definidos. El Secretario de TIC del municipio presiona para que se realice la integración inmediata, alegando que el municipio tiene potestad sobre sus entidades descentralizadas. Usted identifica riesgos de confidencialidad e integridad de la información institucional. ¿Cuál es el criterio más adecuado que debe guiar su decisión?",
+      "opciones": [
+        "a) Aceptar la integración inmediata, priorizando la subordinación a la Alcaldía sobre cualquier consideración técnica o normativa, ya que el municipio es la entidad territorial superior.",
+        "b) Condicionar la integración a la definición previa de políticas y controles de seguridad, proponiendo un plan conjunto de adecuación que respete la coordinación con el municipio pero también los principios de seguridad de la información y la responsabilidad sobre los datos institucionales.",
+        "c) Negarse de plano a cualquier integración futura con la plataforma municipal, argumentando que la autonomía universitaria impide cualquier tipo de interoperabilidad con sistemas externos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce la competencia del municipio y la necesidad de coordinación con la entidad territorial, pero exige condiciones mínimas de seguridad y control sobre la información, en coherencia con los principios de función administrativa (eficacia, economía, responsabilidad) y con las obligaciones de protección de la información derivadas de las políticas de Gobierno Digital y de seguridad digital. La opción a) sacrifica la seguridad y la responsabilidad sobre los datos por una obediencia ciega, pudiendo generar vulneraciones legales y riesgos institucionales. La opción c) interpreta de manera absoluta la autonomía universitaria, desconociendo la obligación de coordinación e interoperabilidad razonable con el municipio y con otros sistemas públicos."
+    },
+    {
+      "codigo": "NOR-03",
+      "pregunta": "En calidad de supervisor de un contrato para renovar la infraestructura de red, usted detecta que el contratista no ha instalado algunos equipos contemplados en el pliego, pero el Jefe inmediato le solicita firmar el acta de recibo a satisfacción porque “el tiempo para legalizar el pago se agota y después se ajusta con una adición”. Sabe que la Ley 80 de 1993 y el Estatuto Anticorrupción exigen la correcta supervisión y la protección del patrimonio público. ¿Cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Firmar el acta de recibo a satisfacción para cumplir con los tiempos del pago y luego dejar constancia en un informe interno sobre las diferencias técnicas.",
+        "b) Negarse a firmar el acta de recibo a satisfacción hasta que se corrijan las faltas o se ajusten formalmente los compromisos contractuales, dejando registro escrito de las observaciones y comunicando la situación a la dependencia de contratación.",
+        "c) Firmar el acta de recibo, pero solicitar verbalmente al contratista que entregue los equipos faltantes cuando sea posible, evitando generar conflictos administrativos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el supervisor, como servidor público, tiene el deber de verificar el cumplimiento real de las obligaciones contractuales, proteger el patrimonio público y actuar con transparencia y responsabilidad, conforme a la Ley 80 de 1993 y al Estatuto Anticorrupción. Firmar un acta de recibo a satisfacción sin el cumplimiento material vulnera estos principios e incluso puede implicar responsabilidad disciplinaria y fiscal. La opción a) pretende subsanar después una irregularidad consumada, lo que no exime la responsabilidad del supervisor. La opción c) se basa solo en acuerdos verbales sin soporte formal, lo cual vulnera los principios de transparencia y publicidad de la gestión contractual."
+    },
+    {
+      "codigo": "NOR-04",
+      "pregunta": "La Institución Universitaria Pascual Bravo recibe de la Alcaldía una solicitud para compartir, mediante interoperabilidad, una base de datos que contiene información de estudiantes y egresados, incluyendo datos personales sensibles. La Alcaldía argumenta que todo es “información pública” y que debe entregarse en cumplimiento de la Ley 1712 de 2014 sobre transparencia. Usted, como responsable TIC, identifica que hay datos sometidos a reserva según la Ley 1581 de 2012 sobre protección de datos personales. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Entregar la base de datos completa, sin filtros, priorizando el cumplimiento de la Ley 1712 de 2014, pues la transparencia está por encima de cualquier otra consideración.",
+        "b) Analizar y clasificar la información, compartiendo únicamente los datos que tengan naturaleza de información pública y no comprometan datos sensibles o reservados, e informando a la Alcaldía sobre los límites derivados de la protección de datos personales y la reserva legal.",
+        "c) Negarse de manera absoluta a entregar cualquier tipo de información a la Alcaldía, argumentando que la Ley 1581 de 2012 prohíbe cualquier intercambio de datos personales entre entidades públicas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque armoniza las obligaciones de transparencia de la Ley 1712 de 2014 con los límites impuestos por la Ley 1581 de 2012 en materia de protección de datos personales y la reserva de información. El servidor debe clasificar la información, entregar lo que sea público y proteger lo que sea reservado o sensible, explicando jurídicamente los alcances a la Alcaldía. La opción a) desconoce la reserva y la protección de datos personales, exponiendo a la entidad a vulneraciones de derechos fundamentales y responsabilidades. La opción c) interpreta de forma absoluta la protección de datos y bloquea injustificadamente la cooperación interinstitucional, lo cual también resulta contrario a los principios de coordinación y colaboración entre entidades públicas."
+    },
+    {
+      "codigo": "NOR-05",
+      "pregunta": "En el marco de la implementación del MIPG, se le encomienda liderar la dimensión de Gestión de la Información y el Conocimiento, incluyendo los componentes de Gobierno Digital. El Vicerrector Administrativo considera que esta dimensión puede limitarse a llenar formatos y reportes para el FURAG, sin cambios reales en procesos ni sistemas. Como Profesional Especializado TIC, usted identifica que los lineamientos del MIPG exigen usar la información y las TIC para mejorar la gestión y la relación con los ciudadanos. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar el enfoque mínimo propuesto, limitándose a elaborar los formatos requeridos, porque transformaciones profundas en procesos superan sus funciones técnicas.",
+        "b) Proponer un plan de implementación que incluya mejoras concretas en procesos, datos y servicios digitales, explicando que el MIPG y la Política de Gobierno Digital obligan a una gestión efectiva de la información y no solo al cumplimiento formal de reportes.",
+        "c) Dejar que la oficina de Planeación decida, absteniéndose de participar activamente, ya que la responsabilidad del MIPG no recae sobre el área TIC."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el MIPG concibe la gestión de la información, el conocimiento y las TIC como medios para mejorar la gestión pública y el servicio al ciudadano, no como un simple cumplimiento documental. La Política de Gobierno Digital exige el uso estratégico de las TIC para generar valor público. Como Profesional Especializado TIC, se espera que aporte técnicamente a esa transformación. La opción a) reduce el modelo a un trámite formal, contrariando su finalidad y los principios de eficacia y eficiencia. La opción c) implica desentenderse de una responsabilidad en la que el área TIC es un actor clave, desconociendo el enfoque de gestión integrada del MIPG."
+    },
+    {
+      "codigo": "NOR-06",
+      "pregunta": "Mientras supervisa un contrato de desarrollo de software para la gestión académica, el proveedor le envía un correo proponiendo incluir de manera gratuita un módulo adicional siempre que se omitan algunas pruebas de seguridad que podrían retrasar la puesta en producción. Su Jefe le indica que acepte, porque el calendario académico no admite retrasos y es una buena oportunidad para ampliar el alcance sin modificar el contrato. Usted sabe que la omisión de pruebas puede comprometer la seguridad de la información y la continuidad del servicio. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la oferta del proveedor y omitir las pruebas de seguridad, dejando la constancia en un acta interna para demostrar que hubo acuerdo entre las partes.",
+        "b) Rechazar la omisión de pruebas de seguridad, solicitar que el módulo adicional se tramite mediante la ruta contractual correspondiente y mantener las pruebas previstas, priorizando la seguridad de la información y la responsabilidad sobre el servicio.",
+        "c) Suspender las pruebas de seguridad solo en esta versión e intentar realizarlas en una actualización futura, con el fin de equilibrar los tiempos académicos y los riesgos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el supervisor tiene el deber de proteger la seguridad de la información institucional y garantizar que la solución cumpla con los requisitos técnicos y de seguridad establecidos. Omitir pruebas esenciales vulnera los principios de planeación, responsabilidad y seguridad en la gestión de la información, además de desbordar el marco contractual. La opción a) formaliza una decisión técnicamente riesgosa y jurídicamente cuestionable, ya que los acuerdos no pueden desconocer la obligación de proteger los activos de información. La opción c) posterga indebidamente controles críticos, exponiendo a la institución a incidentes de seguridad y posibles responsabilidades."
+    },
+    {
+      "codigo": "NOR-07",
+      "pregunta": "En una mesa de trabajo con la Alcaldía, se propone que la Institución Universitaria Pascual Bravo adopte integralmente una plataforma de trámites en línea diseñada por la administración municipal. Sin embargo, usted verifica que la plataforma no cumple con los lineamientos de accesibilidad y disponibilidad definidos en la Política de Gobierno Digital. La Alcaldía, invocando la Ley 136 de 1994, argumenta que las entidades descentralizadas deben acatar las decisiones del municipio y presiona para que se implemente la plataforma sin modificaciones. ¿Cuál es el curso de acción más adecuado?",
+      "opciones": [
+        "a) Aceptar la implementación sin modificaciones para respetar la jerarquía territorial, dejando para después cualquier ajuste de accesibilidad y disponibilidad.",
+        "b) Plantear por escrito las brechas frente a la Política de Gobierno Digital y proponer un plan conjunto de mejoras que permita adoptar la plataforma con los ajustes requeridos, armonizando la coordinación con el municipio y el cumplimiento de los lineamientos nacionales.",
+        "c) Negarse rotundamente a utilizar la plataforma municipal, argumentando que la autonomía universitaria impide adoptar sistemas desarrollados por el municipio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce la facultad de coordinación del municipio y la vinculación de la entidad descentralizada, pero exige el cumplimiento de las políticas nacionales de Gobierno Digital en materia de accesibilidad, disponibilidad y calidad del servicio. Esto armoniza la Ley 136 de 1994 con los lineamientos del orden nacional y con la obligación de garantizar un servicio adecuado al ciudadano. La opción a) sacrifica la calidad y accesibilidad, exponiendo a la entidad a incumplir la política pública y los principios de eficiencia y equidad. La opción c) interpreta erróneamente la autonomía universitaria como una negativa absoluta a coordinarse con el municipio."
+    },
+    {
+      "codigo": "NOR-08",
+      "pregunta": "Usted está a cargo del portal de transparencia de la institución. El Rector le solicita retirar temporalmente del sitio web los contratos TIC recientemente suscritos con un proveedor cuestionado públicamente, para evitar “ruido mediático”, indicando que después se volverán a publicar. Sabe que la Ley 1712 de 2014 exige la publicación de información mínima obligatoria, incluyendo la contratación pública. ¿Cuál es la acción más adecuada frente a esta orden?",
+      "opciones": [
+        "a) Cumplir la orden y retirar la información de manera temporal, confiando en que la volverá a publicar cuando la situación se calme, ya que la institución sigue teniendo los documentos en archivo físico.",
+        "b) Explicar formalmente al Rector que la eliminación de información contractual del portal vulnera las obligaciones de transparencia de la Ley 1712 de 2014 y proponer, en su lugar, complementar la información con contextos y respuestas institucionales si es necesario.",
+        "c) Eliminar la información de los contratos y guardar copias personales de respaldo para evitar responsabilidades futuras."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la Ley 1712 de 2014 obliga a la publicación proactiva de información mínima, dentro de la cual se incluye la contratación pública. Retirar deliberadamente esa información por razones de imagen vulnera los principios de transparencia, publicidad y acceso a la información. El servidor debe advertirlo y proponer alternativas que no impliquen ocultar la información. La opción a) valida una práctica contraria a la ley, aunque sea temporal. La opción c) también incumple la obligación de transparencia y, además, maneja la información pública de forma personal y no institucional, lo cual puede generar riesgos adicionales."
+    },
+    {
+      "codigo": "NOR-09",
+      "pregunta": "La Oficina de Talento Humano le informa que, por carga laboral, lo designará verbalmente como supervisor de un nuevo contrato de servicios de soporte a usuarios, sin que exista todavía acto administrativo escrito de designación. El contrato ya está en ejecución y el contratista requiere instrucciones formales. De acuerdo con el Decreto 1083 de 2015 sobre empleo público y con la normativa de contratación, ¿cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Asumir de inmediato todas las funciones de supervisión con base en la instrucción verbal, dejando para después la formalización escrita, para no afectar la continuidad del servicio.",
+        "b) Solicitar por escrito que se expida el acto administrativo de designación de supervisor y, mientras tanto, apoyar técnicamente sin tomar decisiones propias de la supervisión formal, de manera que su rol quede claramente definido.",
+        "c) Negarse a cualquier colaboración con el contrato hasta tanto no exista el acto administrativo, absteniéndose incluso de responder correos o aclarar temas técnicos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la designación de supervisor contractual debe constar en acto administrativo formal para delimitar responsabilidades, conforme a las normas de empleo público y contratación. Sin embargo, el servidor puede brindar apoyo técnico sin exceder el marco de sus funciones mientras se formaliza la designación. La opción a) asume funciones de supervisión sin soporte jurídico, lo que genera inseguridad sobre sus responsabilidades y decisiones. La opción c) desconoce el deber de colaboración y coordinación, pudiendo afectar negativamente la prestación del servicio a los usuarios."
+    },
+    {
+      "codigo": "NOR-10",
+      "pregunta": "En un proyecto de integración de datos entre la institución y la Alcaldía, se propone usar cuentas personales de correo y discos duros externos de los funcionarios para copiar grandes volúmenes de información institucional, argumentando que la infraestructura oficial es limitada y el tiempo apremia. Usted, como responsable de seguridad digital, sabe que esto puede vulnerar principios de seguridad y confidencialidad. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Autorizar de forma excepcional el uso de cuentas personales y dispositivos externos, siempre que los funcionarios firmen un compromiso de confidencialidad, para cumplir con los plazos del proyecto.",
+        "b) Negarse a utilizar medios personales para el manejo de información institucional y proponer alternativas dentro de la infraestructura oficial o la contratación de soluciones seguras, sustentando la decisión en las políticas de seguridad digital y responsabilidad sobre la información.",
+        "c) Permitir el uso de medios personales solo para información que no parezca sensible, dejando a criterio de cada funcionario qué datos copiar y compartir."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el manejo de información institucional debe realizarse mediante medios autorizados y seguros, de acuerdo con las políticas de seguridad digital, la responsabilidad sobre los datos públicos y los principios de la función administrativa. La utilización de cuentas personales y dispositivos externos expone la información a pérdidas, filtraciones y usos indebidos. La opción a) traslada indebidamente la responsabilidad a los funcionarios individuales y no mitiga los riesgos técnicos. La opción c) deja la clasificación de la información al criterio subjetivo de cada funcionario, lo cual es contrario a una gestión sistemática y segura de la información."
+    },
+    {
+      "codigo": "NOR-11",
+      "pregunta": "Durante la formulación del presupuesto TIC asociado al PETI, el Director Financiero le solicita que divida en varios contratos menores un proyecto de adquisición de licencias de software, con el fin de mantenerse por debajo de ciertos topes y evitar procesos de selección más exigentes. Argumenta que así se gana tiempo y que la ley permite fraccionar siempre que los objetos sean técnicamente diferenciables. Usted identifica que se trata de un único proyecto integral. ¿Cuál es la acción más adecuada como servidor público responsable de la planeación TIC?",
+      "opciones": [
+        "a) Aceptar la propuesta y dividir el proyecto en varios contratos menores, dejando constancia interna de que la decisión fue del Director Financiero.",
+        "b) Informar por escrito que el fraccionamiento de un objeto contractual unitario puede vulnerar los principios de planeación y transparencia de la contratación pública, proponiendo estructurar un solo proceso acorde con la normatividad.",
+        "c) No oponerse, pero tampoco participar activamente en la estructuración de los contratos, para no comprometerse con una decisión que considera riesgosa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el fraccionamiento injustificado de un contrato unitario vulnera los principios de planeación, economía y transparencia previstos en la Ley 80 de 1993 y normas complementarias. El Profesional Especializado debe advertir por escrito los riesgos y proponer un proceso adecuado. La opción a) lo hace partícipe activo de una posible irregularidad, aun dejando constancia de órdenes superiores. La opción c) implica una omisión en su deber de advertir y contribuir a la correcta planeación contractual, pudiendo derivar en responsabilidad por tolerar prácticas contrarias a la normativa."
+    },
+    {
+      "codigo": "NOR-12",
+      "pregunta": "En una reunión de alto nivel, el Alcalde plantea que la Institución Universitaria Pascual Bravo debe ajustar su oferta de programas y su infraestructura TIC para alinearse con una iniciativa de ciudad inteligente incluida en el Plan de Desarrollo Municipal. El Rector sostiene que, por autonomía universitaria, la institución no está obligada a considerar las metas municipales en su planeación. Usted participa como asesor TIC. ¿Cuál postura debe orientar su recomendación?",
+      "opciones": [
+        "a) Respaldar plenamente la posición del Rector, indicando que la autonomía universitaria lo exime de cualquier articulación con el Plan de Desarrollo Municipal.",
+        "b) Señalar que la autonomía universitaria permite definir el proyecto académico y administrativo, pero debe ejercerse en coordinación con el municipio como entidad territorial, armonizando los planes institucionales con las metas del Plan de Desarrollo Municipal cuando involucran uso de recursos y servicios TIC del territorio.",
+        "c) Sugerir que la Alcaldía imponga a la universidad la adecuación de su oferta TIC mediante un acto administrativo, desconociendo su autonomía, para garantizar la ejecución de la iniciativa de ciudad inteligente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce la autonomía universitaria (desarrollada por la Ley 30 de 1992) pero también la naturaleza unitaria del Estado y la necesidad de coordinación entre la institución y el municipio en temas que afectan el desarrollo territorial, conforme a la Constitución y a la Ley 136 de 1994. La autonomía no significa aislamiento, sino capacidad de autorregulación dentro del marco constitucional y legal. La opción a) desconoce la obligación de articularse con el entorno territorial. La opción c) desconoce abiertamente la autonomía universitaria al plantear una imposición directa de la Alcaldía sobre decisiones internas de la universidad."
+    },
+    {
+      "codigo": "NOR-13",
+      "pregunta": "Como responsable TIC, recibe una solicitud de la Oficina Jurídica para que modifique los registros de acceso en el sistema de gestión documental, eliminando rastros de que un alto directivo consultó un expediente confidencial sin autorización. Jurídica argumenta que fue un error aislado y que, para evitar un posible proceso disciplinario, es mejor “corregir el registro técnico”. Usted sabe que los registros de auditoría son parte fundamental de la transparencia y la trazabilidad. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Acceder a la solicitud y eliminar los registros de acceso, documentando en un archivo personal lo ocurrido para protegerse en caso de investigación futura.",
+        "b) Negarse a alterar los registros de auditoría y dejar constancia por escrito de la solicitud, explicando que la manipulación de trazas vulnera los principios de transparencia, veracidad de la información y puede configurar una falta disciplinaria.",
+        "c) Modificar parcialmente los registros, de modo que no aparezca el directivo involucrado pero se mantenga un registro genérico de acceso al expediente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque los registros de auditoría en los sistemas de información son prueba de las actuaciones y deben conservarse íntegros para garantizar transparencia, responsabilidad y trazabilidad, conforme a los principios de la función administrativa y a las políticas de Gobierno Digital y seguridad de la información. Alterarlos para ocultar una posible irregularidad puede constituir falta disciplinaria y, eventualmente, delito. La opción a) lo hace partícipe de la manipulación de evidencia. La opción c) también implica alteración de registros oficiales, aunque sea parcial, y no resuelve la irregularidad de fondo."
+    },
+    {
+      "codigo": "NOR-14",
+      "pregunta": "Se está diseñando un proyecto de analítica de datos para mejorar la empleabilidad de los egresados, usando información de historias académicas y caracterización socioeconómica. La Vicerrectoría Académica le solicita que publique un tablero público con información detallada de cada egresado, incluyendo identificación y trayectoria académica completa, para que los empresarios puedan contactar directamente a los estudiantes. Usted identifica posibles vulneraciones a la Ley 1581 de 2012 y a la reserva de ciertos datos. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la solicitud, entendiendo que la información de egresados es de interés público y que la transparencia justifica la publicación de datos detallados sin restricciones.",
+        "b) Explicar que la publicación de información personal identificable debe respetar la normativa de protección de datos, proponiendo alternativas como tableros con datos agregados o mecanismos de contacto que no revelen datos sensibles sin autorización.",
+        "c) Negarse a cualquier uso de datos de egresados para analítica, argumentando que la Ley 1581 de 2012 prohíbe tratar esta información incluso con fines institucionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque compatibiliza el uso estratégico de datos para fines institucionales con el respeto a la protección de datos personales de la Ley 1581 de 2012. El servidor debe promover soluciones que usen datos agregados o mecanismos seguros que no expongan información identificable sin base legal o autorización. La opción a) ignora la necesidad de consentimiento y la clasificación de datos personales. La opción c) interpreta de forma extrema la protección de datos, bloqueando incluso usos legítimos y protegidos mediante medidas adecuadas de anonimización y seguridad."
+    },
+    {
+      "codigo": "NOR-15",
+      "pregunta": "En la evaluación del desempeño, su jefe le sugiere que, para mejorar indicadores de servicio al ciudadano, configure el sistema de PQRSFD para que los tiempos de respuesta se contabilicen a partir del momento en que la dependencia asignada abra la solicitud y no desde el momento de radicación. Esto reduce artificialmente los tiempos promedio. Usted sabe que el derecho de petición y las políticas de servicio al ciudadano toman como referencia la radicación. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Configurar el sistema según la instrucción del jefe, porque los indicadores internos pueden definirse de manera autónoma sin atender al marco del derecho de petición.",
+        "b) Explicar que los plazos deben contarse desde la radicación y proponer mejoras reales en el flujo de trabajo para reducir tiempos de respuesta, manteniendo la configuración alineada con la normativa aplicable.",
+        "c) Ajustar el sistema como ordena su jefe, pero mantener un reporte paralelo y personal con los tiempos reales, por si en el futuro se cuestionan los indicadores."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque respeta el marco del derecho de petición, que fija el inicio de los términos en la radicación, y los principios de veracidad y transparencia en la información de desempeño. Alterar el punto de partida para mostrar mejores resultados sin cambios reales en el proceso distorsiona la realidad e incumple la finalidad del MIPG de promover una gestión basada en datos confiables. La opción a) desconoce el vínculo entre indicadores de servicio y el marco legal. La opción c) mantiene una configuración engañosa y cambia únicamente el soporte personal, lo que no corrige la irregularidad institucional."
+    },
+    {
+      "codigo": "NOR-16",
+      "pregunta": "En un comité de Gobierno Digital, se propone implementar una solución de firma electrónica avanzada para trámites estudiantiles. El proveedor seleccionado no cumple con los requisitos legales mínimos para certificar firmas, pero ofrece un costo muy bajo y rápida implementación. El Vicerrector Administrativo insiste en continuar, porque el presupuesto es limitado. Usted conoce la normativa sobre validez jurídica de la firma electrónica y los lineamientos de la política de Gobierno Digital. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la solución del proveedor, dado que ofrece ventajas económicas y técnicas, y confiar en que la mayoría de trámites no generarán litigios.",
+        "b) Advertir formalmente que una solución que no cumple requisitos legales puede comprometer la validez de los actos administrativos y proponer alternativas que, aunque más costosas, se ajusten al marco jurídico y a la política de Gobierno Digital.",
+        "c) Implementar la solución con el proveedor actual como piloto interno, sin darle valor jurídico a las firmas, y luego evaluar si se ajusta o no a la normativa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la adopción de soluciones de firma electrónica debe garantizar la validez jurídica de los actos, conforme a la normativa sobre comercio y firma electrónica y a la Política de Gobierno Digital. El servidor debe privilegiar el cumplimiento normativo sobre la simple conveniencia económica. La opción a) prioriza el costo sobre la legalidad, generando riesgo de nulidad de actuaciones. La opción c) introduce una herramienta sin claridad jurídica en un contexto institucional, lo que puede generar confusión y uso indebido incluso si se plantea inicialmente como piloto."
+    },
+    {
+      "codigo": "NOR-17",
+      "pregunta": "Como administrador de bases de datos, recibe la instrucción del Director de Programa de otorgarle a todos los docentes acceso completo, de lectura y descarga, a la base de datos central de estudiantes, incluyendo información financiera y socioeconómica, con el argumento de que esto les ayudará a orientar mejor a sus grupos. Usted sabe que el principio de minimización del dato y las políticas internas establecen perfiles de acceso diferenciados. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Conceder el acceso completo solicitado, confiando en la ética de los docentes y en que no harán mal uso de la información.",
+        "b) Negarse a otorgar acceso total y proponer perfiles de acceso restringidos que solo permitan ver la información necesaria para la función docente, sustentándolo en las políticas de seguridad de la información y en la protección de datos personales.",
+        "c) Otorgar el acceso completo, pero solicitar verbalmente a los docentes que no consulten datos sensibles salvo en casos excepcionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque se ajusta al principio de minimización de datos y a las políticas de seguridad de la información y protección de datos personales. Los usuarios deben tener acceso únicamente a la información necesaria para sus funciones. La opción a) y la opción c) otorgan acceso total, confiando solo en la buena voluntad, lo cual no cumple con un esquema adecuado de control de acceso ni con las obligaciones derivadas de la Ley 1581 de 2012 y de las prácticas de seguridad digital."
+    },
+    {
+      "codigo": "NOR-18",
+      "pregunta": "La institución planea migrar algunos servicios a la nube. Un concejal del municipio sugiere públicamente que se contrate a una empresa específica de la región, conocida por su cercanía política con la administración local, y el Secretario de TIC municipal le insinúa que esa empresa debe ser favorecida en los pliegos. Usted participa en la elaboración de los requisitos técnicos del proceso. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Incluir especificaciones técnicas que solo pueda cumplir la empresa sugerida, siempre que se justifiquen en términos de calidad del servicio, para mantener buenas relaciones políticas con el municipio.",
+        "b) Elaborar requisitos técnicos neutrales y objetivos, alineados con las necesidades institucionales y las normas de contratación, dejando constancia de cualquier presión indebida que haya recibido.",
+        "c) Abstenerse de participar en la elaboración de los requisitos técnicos, sin informar a nadie de las presiones, para no verse comprometido."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque los pliegos deben construirse con base en criterios objetivos, transparentes y acordes con las necesidades de la entidad, conforme a los principios de transparencia, economía, responsabilidad y selección objetiva de la Ley 80 de 1993 y normas anticorrupción. Además, es recomendable dejar constancia de presiones indebidas. La opción a) configura direccionamiento del proceso, vulnerando la selección objetiva. La opción c) implica omisión del deber de actuar frente a presiones indebidas y no contribuye a la integridad del proceso."
+    },
+    {
+      "codigo": "NOR-19",
+      "pregunta": "En el marco de la estrategia de datos abiertos, la Alcaldía solicita a la institución publicar en formato abierto todas las calificaciones individuales de los estudiantes, con nombres completos, para “fomentar la transparencia educativa”. Usted, como responsable de datos abiertos, conoce los lineamientos de la Ley 1712 de 2014 y las restricciones de la Ley 1581 de 2012. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Publicar las calificaciones con nombres completos, porque la transparencia es prioritaria y permite el control social sobre la calidad educativa.",
+        "b) Explicar que las calificaciones individuales asociadas a personas identificadas constituyen datos personales y, en algunos casos, sensibles, por lo que no deben publicarse en datos abiertos; proponer publicar información agregada o anonimizada.",
+        "c) Negarse a publicar cualquier tipo de información relacionada con calificaciones, incluso datos agregados, ya que la información académica es siempre reservada."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque armoniza la política de datos abiertos de la Ley 1712 de 2014 con los límites de la protección de datos personales de la Ley 1581 de 2012. Las calificaciones individuales identificadas no deben publicarse como datos abiertos; en su lugar, pueden generarse conjuntos de datos agregados o anonimizados. La opción a) vulnera el derecho a la intimidad y la protección de datos. La opción c) ignora la posibilidad de publicar información agregada que no comprometa datos personales."
+    },
+    {
+      "codigo": "NOR-20",
+      "pregunta": "En la implementación del PETI, usted identifica que varios procesos críticos de la institución no están documentados ni estandarizados, lo que dificulta automatizarlos mediante soluciones TIC. La Alta Dirección le solicita que priorice la compra de una herramienta tecnológica y deje para después la estandarización de procesos, argumentando que la urgencia es mostrar resultados visibles. Usted sabe que la Ley 489 de 1998 y el MIPG promueven la racionalización de trámites y la mejora de procesos como base para el uso de TIC. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Seguir la instrucción y adquirir la herramienta de inmediato, confiando en que con el tiempo se adaptará a los procesos existentes, aunque estén poco definidos.",
+        "b) Sustentar técnicamente que la automatización efectiva requiere primero documentar y mejorar los procesos, y proponer un plan que combine el trabajo de gestión por procesos con la implementación tecnológica, en línea con la Ley 489 de 1998 y el MIPG.",
+        "c) Postergar indefinidamente la compra de herramientas TIC hasta que todos los procesos estén completamente estandarizados, incluso si esto implica perder recursos presupuestales asignados."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque se alinea con el enfoque de la Ley 489 de 1998 y el MIPG, que promueven la racionalización y mejora de procesos como base para la incorporación de TIC. La tecnología debe responder a procesos claros y orientados al ciudadano. La opción a) genera riesgo de adquirir soluciones que no resuelven los problemas de fondo, desperdiciando recursos. La opción c) es excesivamente rígida y puede impedir avances razonables, en lugar de promover una implementación gradual e integrada de procesos y tecnología."
+    },
+    {
+      "codigo": "NOR-21",
+      "pregunta": "Durante una visita de la Contraloría Municipal, se le solicita acceso al sistema financiero y a los expedientes digitales de contratación TIC para una auditoría. Su jefe le indica que retrase el otorgamiento de permisos de acceso argumentando “dificultades técnicas”, mientras organizan internamente algunos soportes faltantes. Usted sabe que la función de control fiscal tiene respaldo constitucional y legal, y que los sistemas deben facilitar el acceso oportuno a los órganos de control. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Acatar la instrucción de su jefe y demorar la entrega de accesos alegando problemas técnicos, hasta que los documentos internos estén completos.",
+        "b) Gestionar de manera prioritaria y documentada los accesos requeridos por la Contraloría, informando a su jefe que la obstrucción injustificada al control puede generar responsabilidades para la entidad y para los servidores.",
+        "c) Otorgar de inmediato acceso total sin ninguna configuración ni restricción, incluyendo módulos que contienen información ajena a la auditoría, para demostrar plena colaboración."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque los órganos de control fiscal tienen derecho de acceso oportuno a la información necesaria para el ejercicio de sus funciones, y el servidor debe facilitar este acceso, configurando permisos adecuados al alcance de la auditoría. Obstruir la labor de control vulnera principios de transparencia y responsabilidad. La opción a) implica dilatar injustificadamente el control bajo pretextos técnicos. La opción c) desconoce el principio de necesidad y proporcionalidad en el acceso, pudiendo exponer información no pertinente o reservada sin razón."
+    },
+    {
+      "codigo": "NOR-22",
+      "pregunta": "La institución decide implementar un sistema de gestión de talento humano integrado con SIGEP y otras plataformas nacionales. Por un retraso del proveedor, el sistema presenta errores que afectan la carga de información sobre hojas de vida de servidores públicos. Su jefe le pide que manipule manualmente algunos archivos de exportación para que los reportes parezcan completos ante los entes de control, aunque la información no corresponda exactamente a la realidad. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la instrucción y ajustar manualmente los archivos para evitar llamados de atención, confiando en que después se corregirán los registros reales.",
+        "b) Informar que la manipulación de información oficial para aparentar cumplimiento vulnera principios de veracidad y transparencia, y proponer reportar el estado real del sistema junto con un plan de mejora.",
+        "c) No realizar ajustes manuales ni informar de los errores, esperando que el proveedor corrija el problema antes de que los entes de control los detecten."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque alterar datos para aparentar cumplimiento es contrario a los principios de veracidad, transparencia y responsabilidad en la gestión pública, y puede derivar en responsabilidad disciplinaria. Lo adecuado es reportar el estado real y las acciones correctivas en curso. La opción a) lo convierte en partícipe de la alteración de información oficial. La opción c) es una omisión que deja el problema sin gestión, confiando únicamente en que no sea detectado, lo cual tampoco es compatible con una gestión proactiva y responsable."
+    },
+    {
+      "codigo": "NOR-23",
+      "pregunta": "En el comité institucional se propone tercerizar la administración de la infraestructura de bases de datos mediante un contrato de outsourcing. El proveedor solicita tener cuentas de administrador sin restricciones en los sistemas de producción, incluyendo información personal y financiera. Su jefe considera que esto es normal porque el proveedor es “de confianza” y así se simplifica la operación. Usted conoce las buenas prácticas de segregación de funciones y control de accesos. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Autorizar cuentas de administrador totales al proveedor, pues de lo contrario sería imposible que cumpla con las obligaciones del contrato.",
+        "b) Proponer un esquema de accesos restringidos y controlados, con cuentas diferenciadas, registros de auditoría y cláusulas contractuales claras sobre confidencialidad y uso de la información, de acuerdo con las políticas de seguridad y las responsabilidades del servidor público.",
+        "c) Negarse a cualquier esquema de outsourcing sobre bases de datos, alegando que por seguridad solo personal de planta puede administrarlas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque armoniza la posibilidad de outsourcing con las exigencias de seguridad de la información, protección de datos y control sobre los administradores. Las buenas prácticas recomiendan accesos limitados, auditoría y cláusulas de confidencialidad. La opción a) entrega control total sin salvaguardas, exponiendo la institución a riesgos altos. La opción c) desconoce que la contratación de terceros es posible y válida si se establecen las condiciones técnicas y jurídicas adecuadas."
+    },
+    {
+      "codigo": "NOR-24",
+      "pregunta": "Como responsable TIC, recibe la instrucción de su jefe de atender de manera prioritaria, fuera del turno normal, las solicitudes de soporte de un concejal y de su equipo, usando recursos institucionales, con el argumento de que son “usuarios especiales” por su rol político. Mientras tanto, se generan filas de atención para estudiantes y administrativos. La entidad cuenta con un protocolo de atención de usuarios que establece criterios de priorización basados en la criticidad del servicio y no en el cargo. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Obedecer la instrucción y establecer una fila preferente permanente para el concejal y su equipo, ya que tienen autoridad política sobre la institución.",
+        "b) Recordar el protocolo de atención de usuarios, sugerir que cualquier priorización se base en la criticidad del servicio y no en el cargo, y aplicar el procedimiento institucional de manera equitativa.",
+        "c) Atender de manera prioritaria al concejal solo cuando esté presente físicamente en las oficinas, manteniendo el protocolo habitual para el resto de usuarios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque los servidores públicos deben actuar con imparcialidad y trato igualitario, conforme a los principios de la función administrativa. Las prioridades de atención deben basarse en criterios objetivos, como la criticidad del servicio, y no en la jerarquía política del usuario. La opción a) institucionaliza un privilegio injustificado. La opción c) mantiene un trato preferente, aunque limitado a ciertas circunstancias, y sigue contrariando los principios de igualdad e imparcialidad."
+    },
+    {
+      "codigo": "NOR-25",
+      "pregunta": "Durante la actualización del mapa de procesos para el MIPG, se propone eliminar del proceso de contratación TIC la etapa de publicación de estudios previos, argumentando que esto genera críticas innecesarias y retrasa las compras. Usted sabe que la publicación de estudios previos contribuye a la transparencia y al control social. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la propuesta y retirar la publicación de estudios previos del proceso, manteniendo los documentos solo para uso interno.",
+        "b) Defender la permanencia de la publicación de estudios previos como parte del proceso, argumentando que fortalece la transparencia y cumple con las obligaciones de publicidad en la contratación.",
+        "c) Mantener la publicación de estudios previos, pero limitarla a contratos de alto monto, decidiendo discrecionalmente cuándo publicarlos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la publicación de estudios previos hace parte de las obligaciones de publicidad y transparencia en la contratación pública, favorece el control social y la selección objetiva. Eliminarla del proceso iría en contra de estos principios. La opción a) suprime una práctica de transparencia sin fundamento legal. La opción c) introduce discrecionalidad sin criterios normativos, lo que podría generar tratamientos desiguales y cuestionamientos."
+    },
+    {
+      "codigo": "NOR-26",
+      "pregunta": "En la universidad se detecta que algunos contratistas TIC utilizan redes inalámbricas abiertas y no seguras para acceder remotamente a sistemas críticos de la institución, incluyendo paneles de administración. Al consultar al jefe, este considera que es una práctica aceptable mientras no se hayan presentado incidentes de seguridad. Usted conoce las políticas internas de seguridad digital y los riesgos asociados. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Permitir la práctica, ya que no hay evidencia de incidentes y cambiarla podría generar molestias a los contratistas.",
+        "b) Informar formalmente sobre los riesgos y exigir el cumplimiento de las políticas de acceso seguro, incluyendo el uso de canales cifrados y redes confiables, ajustando los contratos si es necesario.",
+        "c) Tolerar el acceso inseguro, pero solicitar a los contratistas que lo limiten solo a ciertas horas del día para reducir la exposición."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la seguridad digital exige mitigar riesgos conocidos mediante controles técnicos y administrativos, y los contratos deben ajustarse para garantizar el cumplimiento de las políticas internas. Permitir accesos críticos desde redes no seguras vulnera la obligación de proteger los sistemas y la información. La opción a) se basa en la ausencia de incidentes reportados, ignorando el deber de prevención. La opción c) adopta una medida irrelevante frente a la naturaleza del riesgo, que no depende de la hora sino de la seguridad del canal."
+    },
+    {
+      "codigo": "NOR-27",
+      "pregunta": "La Alcaldía propone firmar un convenio interadministrativo mediante el cual la Institución Universitaria Pascual Bravo aportará su plataforma académica para que otra institución educativa del municipio la use sin costo mientras se define una solución propia. El Rector le pide que active de inmediato cuentas de acceso para esa institución, sin formalizar todavía el convenio, porque “la decisión política ya está tomada”. Usted conoce que el uso compartido de plataformas debe estar respaldado en instrumentos jurídicos claros. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Crear las cuentas de acceso de inmediato, entendiendo que la firma del convenio es un mero formalismo que se surtirá después.",
+        "b) Informar que el otorgamiento de accesos a terceros debe estar soportado en un convenio vigente que regule responsabilidades, seguridad y condiciones de uso, y proponer preparar la configuración técnica una vez se perfeccione el instrumento jurídico.",
+        "c) Crear las cuentas, pero limitar el acceso solo a funciones básicas, confiando en que el convenio se firmará en el corto plazo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el uso compartido de plataformas entre entidades públicas requiere un convenio que establezca claramente responsabilidades, niveles de servicio, seguridad y tratamiento de datos. Activar cuentas sin soporte jurídico puede generar responsabilidades por usos indebidos y fallas. La opción a) y la opción c) anticipan hechos sin respaldo normativo; limitar funciones no suple la ausencia de convenio y sigue implicando un uso de recursos institucionales no regulado."
+    },
+    {
+      "codigo": "NOR-28",
+      "pregunta": "En la etapa de planeación del PETI, usted identifica que varios proyectos TIC propuestos por diferentes dependencias persiguen objetivos similares y podrían integrarse en una sola iniciativa transversal que optimice recursos. Sin embargo, cada jefe de dependencia insiste en mantener “su propio proyecto” para conservar autonomía y visibilidad. La Alta Dirección le pide que no genere conflictos y que deje todos los proyectos separados en el PETI. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Mantener todos los proyectos separados para evitar conflictos entre dependencias, aunque se dupliquen esfuerzos y recursos.",
+        "b) Sustentar técnicamente la conveniencia de integrar proyectos redundantes en iniciativas transversales, alineadas con los principios de coordinación, economía y eficiencia de la función administrativa, proponiendo un esquema de gobernanza que preserve la participación de las dependencias.",
+        "c) Eliminar unilateralmente los proyectos que considere redundantes, sin consultar a las dependencias, para forzar la racionalización del PETI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque promueve la coordinación y la eficiencia en el uso de recursos, principios recogidos en la Constitución, la Ley 489 de 1998 y el MIPG, mediante una propuesta técnica y participativa. La opción a) tolera la duplicidad y desperdicio de recursos por evitar conflictos. La opción c) impone decisiones sin diálogo, desconociendo el trabajo de las dependencias y pudiendo generar resistencia y falta de apropiación del PETI."
+    },
+    {
+      "codigo": "NOR-29",
+      "pregunta": "Como administrador de la plataforma de aula virtual, usted detecta que algunos directivos están ingresando a cursos específicos para revisar la participación de ciertos estudiantes en actividades que tienen componente disciplinario, sin que exista un proceso formal de investigación ni autorización de la instancia competente. Le solicitan habilitarles un informe detallado de actividades, mensajes y entregas de esos estudiantes. Usted conoce los principios de debido proceso y reserva de actuaciones disciplinarias. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Generar el informe solicitado, ya que los directivos tienen acceso jerárquico a toda la información de los estudiantes.",
+        "b) Indicar que el acceso detallado a este tipo de información debe enmarcarse en un proceso formal y con la intervención de las dependencias competentes, proponiendo canalizar la solicitud a través de los procedimientos disciplinarios establecidos.",
+        "c) Negarse a cualquier tipo de informe sobre actividad en el aula virtual, incluso para fines académicos, para evitar riesgos disciplinarios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque garantiza que el acceso a información detallada sobre la actividad de estudiantes se realice dentro de un marco procedimental adecuado, respetando el debido proceso y la reserva de las actuaciones disciplinarias. La opción a) concede un acceso amplio sin marco formal, lo que puede vulnerar derechos de los estudiantes. La opción c) es excesiva, ya que impide incluso usos legítimos de la información con fines académicos o de seguimiento, siempre que se respeten los procedimientos y competencias."
+    },
+    {
+      "codigo": "NOR-30",
+      "pregunta": "En la ejecución del PETI, se plantea la necesidad de contratar una consultoría para actualizar la arquitectura empresarial de la institución. Un exfuncionario de alto nivel, ahora consultor independiente, se ofrece para orientar la elaboración de los términos de referencia a cambio de que luego se le invite a presentar propuesta. Su jefe considera que es una oportunidad por su conocimiento interno. Usted conoce los principios de integridad y selección objetiva en la contratación. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Aceptar la oferta y permitir que el exfuncionario participe en la redacción de los términos de referencia, siempre que no se deje evidencia de su intervención.",
+        "b) Rechazar que un posible oferente participe en la elaboración de los términos de referencia y proponer que la entidad, con apoyo técnico interno o de entidades de apoyo, construya los requisitos de forma imparcial.",
+        "c) Permitir que el exfuncionario asesore en la construcción de los términos de referencia, pero incluir una cláusula que le impida presentarse posteriormente, aunque no se haga pública esa restricción."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la participación de un posible oferente en la elaboración de los términos de referencia afecta la transparencia y la selección objetiva. Lo adecuado es que la entidad construya los documentos de manera imparcial, utilizando apoyos permitidos que no generen conflictos de interés. La opción a) agrava el problema al ocultar la participación. La opción c) propone una restricción informal y no transparente, que no garantiza la imparcialidad ni la igualdad de condiciones entre potenciales oferentes."
+    }
+
+
+    ]
+}
