@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razonamiento Analítico - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos específicos para este módulo */
+        .algoritmo-mental {
+            background-color: #e8f5e9; /* Verde muy suave */
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .algoritmo-mental h4 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        .trampa-logica {
+            background-color: #ffebee; /* Rojo muy suave */
+            border-left: 5px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .trampa-logica h4 {
+            color: #c62828;
+            margin-top: 0;
+        }
+        .tabla-datos {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .tabla-datos th, .tabla-datos td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .tabla-datos th {
+            background-color: #4A90E2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Razonamiento" id="logo">
+        <h1>Razonamiento Analítico para TI</h1>
+        <p>Entrenando el "Procesador Mental" para la toma de decisiones lógicas</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="logica-verbal">
+            <h2>MÓDULO 1: Lógica Verbal e Inferencia (El "Algoritmo" del Texto)</h2>
+            <p>En psicometría, un texto no es literatura, es un script de condiciones. Tu trabajo es depurar el código y encontrar qué línea de salida (conclusión) se ejecuta sin errores.</p>
+
+            <article>
+                <h3>1. Premisas, Conclusiones y Falacias</h3>
+                <ul>
+                    <li><strong>Premisa (Input):</strong> Una afirmación que debes asumir como TRUE inmutable.</li>
+                    <li><strong>Conclusión Válida (Output):</strong> Si las premisas son verdaderas, la conclusión NO puede ser falsa. Es una derivación matemática.</li>
+                    <li><strong>Falacia (Bug):</strong> Un error en tiempo de ejecución. Parece correcto, pero no compila lógicamente.</li>
+                </ul>
+
+                <div class="trampa-logica">
+                    <h4>🚫 Bug Común: Afirmación del Consecuente</h4>
+                    <p><strong>Regla:</strong> Si es Phishing (P) → Entonces es un Riesgo (Q).<br>
+                    <strong>Dato:</strong> "Es un Riesgo (Q)".<br>
+                    <strong>Falacia:</strong> "Entonces es Phishing". (Error: Puede ser un riesgo por virus, no solo phishing).</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>2. Silogismos y Diagramas de Venn (Teoría de Conjuntos)</h3>
+                <p>Para resolver "Todos los A son B", olvida las palabras y usa círculos mentales.</p>
+                <p><em>Caso: "Todos los Firewalls son Software de Seguridad. Algunos Software de Seguridad son Open Source".</em></p>
+                <p><strong>Pregunta Trampa:</strong> "¿Algunos Firewalls son Open Source?"<br>
+                <strong>Lógica:</strong> No necesariamente. El círculo Open Source podría tocar Seguridad sin tocar Firewall.<br>
+                <strong>Conclusión Válida:</strong> "Hay software de seguridad que no necesariamente es un firewall".</p>
+            </article>
+
+            <div class="algoritmo-mental">
+                <h4>💡 Algoritmo de Depuración TI</h4>
+                <p><strong>Texto Confuso:</strong> "Para despliegue (P), obligatorio QA (Q) o firma CISO (C). Si es Hotfix (H), no firma CISO, pero sí Rollback (R). Actual: NO tiene Rollback y fue aprobado."</p>
+                <p><strong>Paso a Paso:</strong><br>
+                1. Mapear: P → (Q OR C). Si (P AND H) → (NOT C) AND (R).<br>
+                2. Estado Actual: NOT R. P = TRUE.<br>
+                3. Inferencia: Si fuera Hotfix, R sería obligatorio. Como NOT R → <strong>NO es un Hotfix</strong>.</p>
+            </div>
+        </section>
+
+        <section id="ordenamiento">
+            <h2>MÓDULO 2: Ordenamiento y Secuencias Lógicas</h2>
+            <p>Estos problemas son algoritmos de planificación (scheduling) ejecutados en papel.</p>
+
+            <article>
+                <h3>1. La Tabla de Condiciones (Tu Base de Datos Temporal)</h3>
+                <p>No intentes hacerlo de memoria. Dibuja una Matriz de Verdad rápida.</p>
+                <ul>
+                    <li><strong>Columnas:</strong> Entidades (Personas, Servidores).</li>
+                    <li><strong>Filas:</strong> Atributos (Ubicación, Hora, Prioridad).</li>
+                    <li>Marca con <strong>X</strong> lo descartado y <strong>O</strong> lo confirmado.</li>
+                </ul>
+            </article>
+
+            <div class="algoritmo-mental">
+                <h4>💡 Caso TI: Priorización de Incidentes</h4>
+                <p><strong>Reglas:</strong><br>
+                - A (Red) ocurrió antes que B (BD).<br>
+                - C es más crítico que B pero ocurrió al mismo tiempo que D.<br>
+                - B es el menos crítico.<br>
+                - El primero en tiempo (A) NO es el más crítico.</p>
+                <p><strong>Deducción:</strong><br>
+                ¿Puede ser A el más crítico? <strong>NO</strong> (por la última regla).<br>
+                ¿Puede ser B? <strong>NO</strong> (es el menos crítico).<br>
+                <strong>Conclusión:</strong> El incidente más crítico debe estar entre C o D.</p>
+            </div>
+        </section>
+
+        <section id="analisis-datos">
+            <h2>MÓDULO 3: Análisis de Datos y Tablas (BI Mental)</h2>
+            <p>Evalúan tu capacidad de estimación y detección de anomalías, no tu aritmética precisa.</p>
+
+            <article>
+                <h3>1. Estrategias de Interpretación Rápida</h3>
+                <ul>
+                    <li><strong>Regla del 10%:</strong> Mueve la coma un lugar (10% de 4500 = 450). Es más rápido que la regla de tres.</li>
+                    <li><strong>Comparación Visual:</strong> En gráficos, mira la pendiente. Pendiente pronunciada = Cambio drástico.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2. Trampas Comunes (Falsos Positivos)</h3>
+                <p><strong>Volumen vs. Porcentaje:</strong> Un aumento del 50% en una sala de 2 usuarios (Total: 3) es menos impactante que un 5% en 1000 usuarios.</p>
+                <p><strong>Escalas Truncadas:</strong> Mira el Eje Y. Si empieza en 1000 y termina en 1005, una diferencia pequeña parecerá enorme.</p>
+            </article>
+
+            <div class="algoritmo-mental">
+                <h4>💡 Caso TI: Análisis de Ancho de Banda</h4>
+                <table class="tabla-datos">
+                    <tr>
+                        <th>Facultad</th>
+                        <th>Usuarios</th>
+                        <th>Consumo (GB)</th>
+                        <th>Quejas</th>
+                    </tr>
+                    <tr>
+                        <td>Ingeniería</td>
+                        <td>500</td>
+                        <td>1000</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>Artes</td>
+                        <td>50</td>
+                        <td>300</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Medicina</td>
+                        <td>200</td>
+                        <td>800</td>
+                        <td>40%</td>
+                    </tr>
+                </table>
+                <p><strong>Análisis de Causa Raíz:</strong><br>
+                - Ingeniería: 2 GB/user (Bajo).<br>
+                - Artes: 6 GB/user (Alto, pero pocas quejas).<br>
+                - Medicina: 4 GB/user y <strong>40% de quejas</strong>.<br>
+                <strong>Conclusión:</strong> El problema no es quién consume más en total (Ingeniería), sino la saturación relativa en Medicina.</p>
+            </div>
+        </section>
+        
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Entrenamiento Mental</h2>
+            <p>Practica con ejercicios de lógica diseñados para agilizar tu mente.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

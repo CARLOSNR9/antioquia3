@@ -16,33 +16,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btnSimulacro = document.getElementById("btnSimulacro");
     if (btnSimulacro) {
-        // En la página de estudio, también habilitamos el botón del simulacro si es posible
-        // y le asignamos el evento.
-        const rutaActual = window.location.pathname.split('/').pop();
-        if (rutaActual === 'gestion-publica.html' || rutaActual === 'normatividad.html') {
-             btnSimulacro.addEventListener("click", iniciarSimulacro);
-             // Si el botón está deshabilitado por defecto, lo habilitamos aquí (para temas con JSON)
-             btnSimulacro.disabled = false;
-             btnSimulacro.style.backgroundColor = '#28a745';
-             btnSimulacro.textContent = 'Empezar Simulacro';
-        }
+        btnSimulacro.addEventListener("click", iniciarSimulacro);
+        btnSimulacro.disabled = false;
+        btnSimulacro.style.backgroundColor = '#28a745';
+        btnSimulacro.textContent = 'Empezar Simulacro';
     }
 
-    // Evento para el botón Siguiente
     const btnSiguiente = document.getElementById("btnSiguiente");
     if (btnSiguiente) {
         btnSiguiente.addEventListener("click", avanzarPregunta);
     }
 
-    // 3. Se asocia el evento al botón de volver al menú
     const btnVolverMenu = document.getElementById("btnVolverMenu");
     if (btnVolverMenu) {
         btnVolverMenu.addEventListener("click", function() {
-            // Regresar a la página principal (index.html)
             location.href = '../index.html'; 
         });
     }
 });
+
 
 
 // ===========================================
@@ -119,59 +111,72 @@ function obtenerPreguntasAleatorias(preguntas, num) {
 /**
  * Inicia el proceso del simulacro: oculta el botón de inicio y carga las preguntas.
  */
+
 function iniciarSimulacro() {
-    // Determinar qué archivo JSON cargar según la URL actual
-    const rutaActual = window.location.pathname.split('/').pop();
-    let rutaJSON = '';
+    // 1. Ocultar la interfaz de inicio
+    const interfazInicio = document.getElementById('interfaz-inicio');
+    if (interfazInicio) interfazInicio.style.display = 'none';
     
-    // Aquí es donde se define el mapeo del archivo HTML al archivo JSON de preguntas
-    if (rutaActual === 'gestion-publica.html') {
-        rutaJSON = '../data/gestion-publica-territorial.json';
-    } else if (rutaActual === 'normatividad.html') {
-        // Nueva ruta para el tema de Normatividad
-        rutaJSON = '../data/normatividad.json';
+    // 2. Mostrar contenedor del simulacro
+    const simulacroContainer = document.getElementById("simulacroContainer");
+    if (simulacroContainer) simulacroContainer.style.display = "block";
+    
+    const reporteFinal = document.getElementById("reporteFinal");
+    if (reporteFinal) reporteFinal.style.display = 'none';
+
+    // 3. DETECTAR EL JSON SEGÚN LA PÁGINA ACTUAL (Lógica Dinámica)
+    const rutaActual = window.location.pathname;
+    let archivoJSON = '';
+
+    if (rutaActual.includes('gestion-publica.html')) {
+        archivoJSON = '../data/gestion-publica-territorial.json';
+    } else if (rutaActual.includes('normatividad.html')) {
+        archivoJSON = '../data/normatividad.json';
+    } else if (rutaActual.includes('razonamiento-analitico.html')) {
+        archivoJSON = '../data/razonamiento-analitico.json'; // <--- ¡Aquí conectamos el nuevo tema!
     } else {
-        // Si no está mapeado, mostramos una alerta y terminamos
-        alert('⚠️ Error: No se encontró un banco de preguntas asociado a esta página o el mapeo es incorrecto.');
-        return;
+        // Por defecto o para pruebas
+        archivoJSON = '../data/gestion-publica-territorial.json';
     }
 
-    // 1. Ocultar solo el contenedor del botón de inicio.
-    document.getElementById('interfaz-inicio').style.display = 'none';
-    
-    // 2. Mostrar la interfaz de simulacro y limpiar cualquier reporte anterior
-    document.getElementById("simulacroContainer").style.display = "block";
-    document.getElementById("reporteFinal").style.display = 'none';
-
-    // 3. Cargar las preguntas aleatorias
-    fetch(rutaJSON) // Usamos la ruta JSON determinada
-        .then(response => response.json())
+    // 4. Cargar las preguntas
+    fetch(archivoJSON)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`No se pudo cargar el archivo: ${archivoJSON}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const todasLasPreguntas = Array.isArray(data) ? data : data.preguntas;
 
             if (!todasLasPreguntas || todasLasPreguntas.length < NUM_PREGUNTAS) {
-                alert('⚠️ No hay suficientes preguntas en el banco para el simulacro de 20 preguntas.');
-                // En caso de error, volvemos a mostrar la interfaz de inicio
-                document.getElementById('interfaz-inicio').style.display = 'block'; 
-                return;
+                alert(`⚠️ El archivo ${archivoJSON} tiene pocas preguntas (${todasLasPreguntas ? todasLasPreguntas.length : 0}). Se mostrarán las disponibles.`);
             }
 
-            // Inicializar variables globales
-            preguntasSeleccionadas = obtenerPreguntasAleatorias(todasLasPreguntas, NUM_PREGUNTAS);
-            indicePreguntaActual = 0;
-            respuestasUsuario = new Array(NUM_PREGUNTAS).fill(null); // Inicializa el array de respuestas
+            // Usar todas si son menos de 20, o elegir 20 al azar
+            const cantidad = Math.min(NUM_PREGUNTAS, todasLasPreguntas.length);
+            preguntasSeleccionadas = obtenerPreguntasAleatorias(todasLasPreguntas, cantidad);
             
-            // Iniciar el cronómetro
+            indicePreguntaActual = 0;
+            respuestasUsuario = new Array(cantidad).fill(null);
+            
             iniciarCronometro();
-
-            // Cargar la primera pregunta
             mostrarPreguntaActual();
         })
         .catch(error => {
-            console.error('Error al cargar el simulacro:', error);
-            document.getElementById("simulacroContainer").innerHTML = `<p style="color: red;">🚨 Error al cargar las preguntas. Revisa si el archivo ${rutaJSON.split('/').pop()} existe y está bien formado. Detalle: ${error.message}</p>`;
+            console.error('Error:', error);
+            if (simulacroContainer) {
+                simulacroContainer.innerHTML = `<div style="text-align:center; color: red; padding: 20px;">
+                    <h3>🚨 Error al cargar el simulacro</h3>
+                    <p>No se encontró el archivo de preguntas: <strong>${archivoJSON.split('/').pop()}</strong></p>
+                    <p>Asegúrate de haber creado este archivo en la carpeta <em>data</em>.</p>
+                    <button class="boton-simulacro" onclick="location.reload()">Volver a intentar</button>
+                </div>`;
+            }
         });
 }
+
 
 /**
  * Muestra la pregunta actual en la interfaz y establece sus listeners.

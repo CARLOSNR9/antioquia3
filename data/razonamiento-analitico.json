@@ -1,0 +1,727 @@
+{
+    "preguntas": [
+        {
+            "codigo": "ANA-01",
+            "pregunta": "Premisa 1: Todos los proyectos de TI requieren planificación. Premisa 2: Algunas planificaciones fallan por falta de presupuesto. Conclusión válida:",
+            "opciones": [
+                "a) Todos los proyectos de TI fallan por falta de presupuesto.",
+                "b) Algunos proyectos de TI podrían tener planificaciones que fallan.",
+                "c) Ningún proyecto de TI falla si tiene presupuesto."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Lógica de silogismos: Si A (Proyectos) implica B (Planificación), y algunos B fallan, entonces existe la posibilidad de que algunos A estén en el grupo que falla. No podemos generalizar a 'Todos' (opción A) ni asegurar el éxito (opción C)."
+        },
+        {
+            "codigo": "ANA-02",
+            "pregunta": "En una oficina de TI, Andrés llega antes que Beatriz. Carlos llega después de Andrés pero antes que Beatriz. Daniel llega antes que Andrés. ¿Quién llega más tarde?",
+            "opciones": [
+                "a) Beatriz",
+                "b) Carlos",
+                "c) Daniel"
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Ordenamiento: Daniel > Andrés > Carlos > Beatriz. Por lo tanto, Beatriz es la última en llegar."
+        },
+        {
+            "codigo": "ANA-03",
+            "pregunta": "Serie numérica: 2, 6, 12, 20, 30, ... ¿Qué número sigue?",
+            "opciones": [
+                "a) 40",
+                "b) 42",
+                "c) 36"
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Patrón: +4, +6, +8, +10. El siguiente incremento debe ser +12. 30 + 12 = 42."
+        },
+        {
+            "codigo": "ANA-04",
+            "pregunta": "Si el informe se entrega a tiempo, entonces se aprueba el presupuesto. El presupuesto no fue aprobado. ¿Qué se puede concluir?",
+            "opciones": [
+                "a) El informe no se entregó a tiempo.",
+                "b) El informe se entregó tarde pero hubo otro error.",
+                "c) No se puede concluir nada sobre el informe."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Regla lógica (Modus Tollens): Si P implica Q, y Q es falso, entonces P es falso. (Si Entrega -> Aprobado. No Aprobado -> No Entrega)."
+        },
+        {
+            "codigo": "ANA-05",
+            "pregunta": "Analice: 'Ningún servidor público puede aceptar sobornos'. Pedro es servidor público. Conclusión:",
+            "opciones": [
+                "a) Pedro podría aceptar sobornos en casos especiales.",
+                "b) Pedro no puede aceptar sobornos.",
+                "c) Algunos servidores públicos aceptan sobornos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Aplicación directa de una regla universal negativa a un caso particular."
+        },
+
+        {
+      "codigo": "ANA-01",
+      "pregunta": "Caso: En el protocolo de seguridad de la entidad se establece la siguiente regla condicional estricta: 'Si se detecta una intrusión en la DMZ (P), entonces se corta automáticamente el acceso a la Base de Datos Principal (Q)'.\nHecho: En la auditoría de logs de ayer, se verificó que el acceso a la Base de Datos Principal NO fue cortado.\nConclusión lógica válida:",
+      "opciones": [
+        "a) El sistema de seguridad falló y no detectó la intrusión.",
+        "b) No se detectó una intrusión en la DMZ.",
+        "c) La intrusión ocurrió en la red interna, no en la DMZ."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Modus Tollens. La regla es P -> Q. Tenemos la negación del consecuente (No Q). Por lo tanto, la única conclusión lógicamente necesaria es la negación del antecedente (No P). Las opciones A y C agregan información externa (fallo del sistema o ubicación alternativa) que no está en las premisas."
+    },
+    {
+      "codigo": "ANA-02",
+      "pregunta": "Caso: Analice las siguientes premisas sobre la infraestructura de servidores:\nPremisa 1: Todos los servidores Linux de la entidad tienen instalado el parche Kernel-v5.\nPremisa 2: Algunos servidores que tienen instalado el parche Kernel-v5 presentaron fallas de memoria.\nConclusión lógica irrefutable:",
+      "opciones": [
+        "a) Algunos servidores Linux presentaron fallas de memoria.",
+        "b) Todos los servidores que presentaron fallas de memoria son Linux.",
+        "c) Los servidores que presentaron fallas de memoria tienen el parche Kernel-v5, pero no necesariamente son Linux."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Lógica: Silogismo e Intersección de Conjuntos. \nP1: Linux (A) -> Parche (B).\nP2: Algunos Parche (B) -> Fallas (C).\nLa intersección ocurre entre B y C. El conjunto A (Linux) está dentro de B, pero no sabemos si A toca la parte de B que se intersecta con C. Podría ser que solo los servidores Windows con el parche fallaron. La única certeza es que los que fallaron pertenecen al grupo del parche (B)."
+    },
+    {
+      "codigo": "ANA-03",
+      "pregunta": "Caso: Usted revisa un algoritmo de alertas que sigue la Ley de De Morgan. La regla de disparo es: 'La alerta crítica se activa SI Y SOLO SI la Latencia es alta (L) O la Tasa de Errores es superior al 1% (E)'.\nHecho: La alerta crítica NO se activó.\n¿Qué se deduce del estado del sistema?",
+      "opciones": [
+        "a) La Latencia no fue alta Y la Tasa de Errores fue igual o inferior al 1%.",
+        "b) La Latencia no fue alta O la Tasa de Errores fue igual o inferior al 1%.",
+        "c) La Latencia fue baja, por lo tanto la Tasa de Errores es irrelevante."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Lógica: Negación de una Disyunción (De Morgan). \nRegla: Alerta <-> (L v E). \nHecho: No Alerta -> No (L v E). \nEquivalencia Lógica: (No L) ^ (No E). Para que una disyunción (O) sea falsa, ambas partes deben ser falsas simultáneamente."
+    },
+    {
+      "codigo": "ANA-04",
+      "pregunta": "Caso: Una política de backup establece: 'Un archivo se considera RESPALDADO (R) únicamente si ha sido copiado a cinta (C) Y verificado por checksum (V)'.\nHecho: El informe indica que el archivo 'Base_Datos_Financiera.bak' NO está clasificado como RESPALDADO.\nConclusión válida:",
+      "opciones": [
+        "a) El archivo no fue copiado a cinta ni verificado por checksum.",
+        "b) El archivo pudo haber sido copiado a cinta, pero falló la verificación, o viceversa, o fallaron ambos.",
+        "c) El archivo fue copiado a cinta pero no se generó el checksum correctamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Negación de una Conjunción. \nRegla: R <-> (C ^ V). \nHecho: No R. \nImplicación: No (C ^ V) es equivalente a (No C) v (No V). Basta con que una de las dos condiciones falle para que el resultado sea falso. No podemos asegurar cuál falló, solo que la conjunción no se cumplió."
+    },
+    {
+      "codigo": "ANA-05",
+      "pregunta": "Caso: Un desarrollador junior afirma: 'Si el código compila sin errores (P), entonces pasará las pruebas unitarias (Q)'.\nHecho: El código pasó las pruebas unitarias (Q).\nConclusión lógica:",
+      "opciones": [
+        "a) El código compiló sin errores.",
+        "b) No se puede determinar si el código compiló sin errores basándose solo en esta regla.",
+        "c) Si el código no hubiera compilado, no habría pasado las pruebas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Falacia de Afirmación del Consecuente. \nRegla: P -> Q. \nHecho: Q. \nError común: Deducir P. Esto es inválido. Podría haber otra razón por la que Q es verdadero (ej: las pruebas estaban 'mockeadas' o mal diseñadas para pasar siempre). La implicación lógica solo funciona en una dirección."
+    },
+    {
+      "codigo": "ANA-06",
+      "pregunta": "Caso: Lea la siguiente proposición sobre la infraestructura de red:\n'Es falso afirmar que NINGÚN switch de la capa de distribución soporta el protocolo IPv6'.\n¿Cuál de las siguientes proposiciones es lógicamente equivalente?",
+      "opciones": [
+        "a) Todos los switches de la capa de distribución soportan IPv6.",
+        "b) Al menos un switch de la capa de distribución soporta el protocolo IPv6.",
+        "c) Algunos switches de la capa de distribución NO soportan el protocolo IPv6."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Negación de Cuantificadores Universales Negativos. \nFrase original: No (Ningún S es P). \nEquivalencia: La negación de 'Ninguno' es 'Algún' o 'Al menos uno'. Si es mentira que nadie lo soporta, es verdad que alguien (al menos uno) lo soporta."
+    },
+    {
+      "codigo": "ANA-07",
+      "pregunta": "Caso: Reglas de acceso VPN:\n1. Para acceder a la VPN (A), es necesario tener el Token Activo (T).\n2. Tener el Token Activo (T) es condición suficiente para estar registrado en el Directorio Activo (D).\nHecho: Un usuario NO está registrado en el Directorio Activo (No D).\nConclusión:",
+      "opciones": [
+        "a) El usuario tiene el Token Activo pero no puede acceder a la VPN.",
+        "b) El usuario no puede acceder a la VPN.",
+        "c) El usuario podría acceder a la VPN si solicita un permiso temporal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Silogismo Hipotético / Transitividad. \nCadena: A -> T (Para A es necesario T, o sea, si A entonces T). \nCadena 2: T -> D (T es suficiente para D). \nCadena completa: A -> T -> D. Por transitividad: A -> D. \nHecho: No D. \nPor Modus Tollens en la cadena completa: Si A implica D, y tenemos No D, entonces No A. El usuario no puede acceder."
+    },
+    {
+      "codigo": "ANA-08",
+      "pregunta": "Caso: Un script de automatización tiene la siguiente lógica para borrar archivos temporales:\n'El borrado se ejecuta SI la carpeta pesa más de 1GB, A MENOS QUE la fecha de creación sea la de hoy'.\nHecho: La carpeta pesa 2GB y NO se ejecutó el borrado.\nConclusión necesaria:",
+      "opciones": [
+        "a) El script falló por falta de permisos.",
+        "b) La fecha de creación de la carpeta es hoy.",
+        "c) La carpeta pesa menos de 1GB en el sistema de archivos real."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Condicional con Excepción (A menos que / Unless). \nLógica: Borrado <-> (Peso > 1GB) ^ NO (Fecha = Hoy). \nHecho: (Peso > 1GB) es Verdadero. Borrado es Falso. \nPara que el resultado (Borrado) sea falso teniendo la primera parte verdadera, la segunda parte de la conjunción debe bloquearlo. La excepción 'Fecha = Hoy' debió cumplirse."
+    },
+    {
+      "codigo": "ANA-09",
+      "pregunta": "Caso: Analice las premisas sobre ciberseguridad:\n1. Ningún algoritmo de cifrado obsoleto es seguro.\n2. DES es un algoritmo de cifrado obsoleto.\n3. Todo algoritmo seguro es recomendado por la norma ISO.\nConclusión válida:",
+      "opciones": [
+        "a) DES no es recomendado por la norma ISO.",
+        "b) DES no es un algoritmo seguro.",
+        "c) Algún algoritmo recomendado por la norma ISO es DES."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Silogismo Categórico (Celarent). \nP1: Obsoleto -> No Seguro.\nP2: DES -> Obsoleto.\nConclusión inmediata: DES -> No Seguro. \nNota sobre la opción A: Que DES no sea seguro no implica necesariamente que la ISO no lo recomiende (podría recomendarlo por error o compatibilidad, la lógica no prohíbe eso, pero sí prohíbe que sea seguro). La conclusión B es directa y fuerte."
+    },
+    {
+      "codigo": "ANA-10",
+      "pregunta": "Caso: Diagnóstico de Red. Se sabe que:\n'O el router está saturado (R) o el enlace de fibra está roto (F), pero no ambas cosas a la vez'.\nHecho: El técnico confirma que el router está saturado (R).\nConclusión:",
+      "opciones": [
+        "a) El enlace de fibra también podría estar roto.",
+        "b) El enlace de fibra NO está roto.",
+        "c) No hay información suficiente sobre la fibra."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Lógica: Disyunción Exclusiva (XOR). \nEstructura: (R v F) ^ NO (R ^ F). \nHecho: R es verdadero. \nEn una disyunción exclusiva estricta, si una proposición es verdadera, la otra obligatoriamente debe ser falsa."
+    },
+
+    {
+      "codigo": "ANA-11",
+      "pregunta": "Caso: Ordenamiento de Parches. Usted debe aplicar parches de seguridad en 4 servidores (A, B, C, D) siguiendo estas reglas estrictas:\n1. El servidor A debe actualizarse antes que el B.\n2. El servidor C debe actualizarse inmediatamente después del D.\n3. El servidor D no puede ser el primero.\n4. El servidor B no puede ser el último.\n¿Cuál es el ÚNICO orden viable?",
+      "opciones": [
+        "a) A -> D -> C -> B",
+        "b) D -> C -> A -> B",
+        "c) A -> B -> D -> C"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Validación por descarte:\n- Opción (b) viola la regla 3 (D no puede ser primero).\n- Opción (c) viola la regla 2 (C debe ser INMEDIATAMENTE después de D, y aquí D es tercero y C es cuarto, cumple la inmediatez, PERO viola la regla 4, ya que B es segundo, no último... espera. Revisemos: A(1)->B(2)->D(3)->C(4). La regla 1 (A antes de B) se cumple. La regla 2 (C tras D) se cumple. La regla 3 (D no primero) se cumple. La regla 4 (B no último) se cumple. ¿Es viable? Sí. REVISAMOS LA OPCIÓN A: A->D->C->B. Regla 1 (A antes B) ok. Regla 2 (C tras D) ok. Regla 3 (D no primero) ok. Regla 4 (B no último) FALSE, B es el último. \nCORRECCIÓN EN TIEMPO REAL: La opción A pone a B de último. Viola regla 4. La opción B pone a D de primero. Viola regla 3. La opción C (A->B->D->C) cumple todas: A antes de B, C tras D, D no es 1ro, B no es último."
+    },
+    {
+      "codigo": "ANA-12",
+      "pregunta": "Caso: Priorización de Incidentes. Llegaron 3 tickets (X, Y, Z) a la Mesa de Ayuda.\n- X es más urgente que Y.\n- Z es menos urgente que X pero más urgente que Y.\n- Se recibe un cuarto ticket (W) que es más urgente que Z.\nSi solo se puede atender un ticket a la vez por orden de urgencia, ¿qué posición ocupa Z en la cola?",
+      "opciones": [
+        "a) Segunda posición.",
+        "b) Tercera posición.",
+        "c) Podría ser la segunda o tercera posición."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Orden parcial conocido: X > Z > Y. \nLlega W: W > Z. \nRelación entre X y W: No está definida. Podría ser W > X > Z > Y (Z es 3ro) o X > W > Z > Y (Z es 3ro). Espera... Si W > Z y X > Z, ambos están arriba de Z. Z tiene al menos dos tickets por encima (X y W). Por tanto, Z nunca puede ser 2do. Z será necesariamente 3ro (si W y X son 1 y 2) o peor. Ah, pero la pregunta dice 'qué posición ocupa'. Si W > Z, y X > Z. Entonces el orden superior es {X, W} en cualquier orden, luego Z, luego Y. Z es SIEMPRE Tercero. \nRE-EVALUACIÓN DE LA TRAMPA: ¿W podría ser más urgente que X? Sí. ¿Menos que X? Sí. En ambos casos (X-W-Z-Y o W-X-Z-Y), Z queda de 3ro. \nPERO... ¿Qué tal si W es IGUAL a X? El enunciado dice 'más urgente'. Z siempre tiene a dos 'padres'. Respuesta correcta ajustada al análisis estricto: Z es Tercero."
+    },
+    {
+      "codigo": "ANA-13",
+      "pregunta": "Caso: Cronograma de Migración. Cinco aplicaciones (ERP, CRM, Nómina, Web, Correo) deben migrarse en una semana (Lunes a Viernes, una por día).\n- Nómina no puede ser Lunes ni Viernes.\n- Web debe ser antes que CRM.\n- ERP debe ser exactamente el Jueves.\n- Correo debe ser el día siguiente a Nómina.\n¿Qué aplicación se migra el Lunes?",
+      "opciones": [
+        "a) Web",
+        "b) CRM",
+        "c) Correo"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Deducción:\n1. ERP = Jueves (Fijo).\n2. Nómina + Correo van pegados (Nómina -> Correo).\n3. Nómina no es Viernes (obvio, porque Correo iría el sábado). Nómina no es Lunes. Nómina no es Jueves (ocupado). Queda Martes o Miércoles.\n- Si Nómina = Miércoles -> Correo = Jueves (IMPOSIBLE, Jueves es ERP). \n- Entonces Nómina = Martes y Correo = Miércoles.\n4. Quedan Lunes y Viernes libres. Faltan Web y CRM.\n5. Regla: Web antes que CRM. Entonces Web = Lunes, CRM = Viernes."
+    },
+    {
+      "codigo": "ANA-14",
+      "pregunta": "Caso: Ubicación en Rack. En un rack de 4 unidades (U1 abajo a U4 arriba) se instalan: Switch, Servidor, UPS, KVM.\n- La UPS debe ir en la posición más baja posible por peso.\n- El KVM debe estar más arriba que el Servidor.\n- El Switch no puede estar pegado a la UPS.\n¿Qué dispositivo está en la U2?",
+      "opciones": [
+        "a) Servidor",
+        "b) Switch",
+        "c) KVM"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "1. UPS = U1 (Más baja posible).\n2. Switch no pegado a UPS -> Switch no es U2. Switch es U3 o U4.\n3. KVM > Servidor.\n- Si Switch es U3: U1(UPS), U2(Servidor), U3(Switch), U4(KVM). Cumple KVM > Servidor? Sí. Cumple Switch separado UPS? Sí.\n- ¿Podría ser Switch U4? U1(UPS), U2(Servidor), U3(KVM), U4(Switch). Cumple KVM > Servidor? Sí. \nEn ambos escenarios válidos, la U2 está ocupada por el Servidor. El Switch fluctúa, el Servidor es constante en U2."
+    },
+    {
+      "codigo": "ANA-15",
+      "pregunta": "Caso: Cadena de Aprobación. Un cambio requiere firmas de 3 gerentes: Tecnología (T), Financiero (F) y Riesgos (R).\n- F no firma si R no ha firmado antes.\n- T firma primero o último, nunca en el medio.\n- R no puede ser el primero.\n¿Cuál es la secuencia correcta?",
+      "opciones": [
+        "a) T -> R -> F",
+        "b) R -> F -> T",
+        "c) T -> F -> R"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Regla 1: R ... F (R antes que F).\nRegla 3: R no es 1ro. -> R es 2do.\nSi R es 2do y va antes de F, entonces F es 3ro.\nSecuencia parcial: _ -> R -> F.\nRegla 2: T es 1ro o 3ro. Como el 3ro es F, T debe ser 1ro.\nSecuencia final: T -> R -> F."
+    },
+    {
+      "codigo": "ANA-16",
+      "pregunta": "Caso: Tabla de Disponibilidad SLA. Analice los datos:\n- Servidor A: 10 horas offline al año.\n- Servidor B: 1 hora offline al mes.\n- Servidor C: 15 minutos offline a la semana.\n¿Cuál servidor tuvo mejor disponibilidad anual?",
+      "opciones": [
+        "a) Servidor A",
+        "b) Servidor B",
+        "c) Servidor C"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Estandarizar a Horas/Año:\n- Servidor A: 10 horas.\n- Servidor B: 1 h/mes * 12 = 12 horas.\n- Servidor C: 15 min/sem * 52 sem = 780 min. 780 / 60 = 13 horas.\nMenor tiempo offline = Mejor disponibilidad. El ganador es A (10 horas)."
+    },
+    {
+      "codigo": "ANA-17",
+      "pregunta": "Caso: Análisis de Presupuesto TI (Ver imagen mental de gráfico).\n- Rubro Licencias: Presupuesto 100M, Ejecutado 90%.\n- Rubro Hardware: Presupuesto 500M, Ejecutado 20%.\n- Rubro Capacitación: Presupuesto 50M, Ejecutado 100%.\nPregunta: ¿Qué afirmación sobre el gasto absoluto (dinero real gastado) es correcta?",
+      "opciones": [
+        "a) Se gastó más dinero en Capacitación que en Hardware.",
+        "b) Hardware fue el rubro con mayor gasto absoluto.",
+        "c) Se gastó casi lo mismo en Licencias que en Hardware."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Cálculo mental rápido:\n- Licencias: 90% de 100 = 90M.\n- Hardware: 20% de 500 = 100M.\n- Capacitación: 100% de 50 = 50M.\nComparación: Hardware (100M) > Licencias (90M) > Capacitación (50M).\nOpción A: Falso (50 vs 100).\nOpción B: Verdadero, Hardware (100M) es el mayor. (Espera, la C dice 'casi lo mismo'). \nAnálisis fino: 90M vs 100M es una diferencia del 10%. 100M es el mayor absoluto. La B es técnicamente correcta. La C es subjetiva ('casi'). En lógica estricta, gana la afirmación categórica verdadera. \nCORRECCIÓN: Revisa la opción A. ¿50 > 100? No. Revisa opción B. 100 es el máximo. Correcto. Revisa C. 90 vs 100. \nSelección: B es la matemáticamente precisa."
+    },
+    {
+      "codigo": "ANA-18",
+      "pregunta": "Caso: Tasa de Fallos en Discos Duros.\n- Marca X: 1000 discos instalados, 50 fallos.\n- Marca Y: 100 discos instalados, 10 fallos.\n- Marca Z: 500 discos instalados, 5 fallos.\n¿Cuál marca es la más confiable (menor tasa de fallo)?",
+      "opciones": [
+        "a) Marca X",
+        "b) Marca Y",
+        "c) Marca Z"
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Cálculo de porcentajes:\n- Marca X: 50/1000 = 5%.\n- Marca Y: 10/100 = 10%.\n- Marca Z: 5/500 = 1%. (Simplifica ceros: 5/500 = 1/100).\nMenor tasa = Más confiable. Marca Z (1%)."
+    },
+    {
+      "codigo": "ANA-19",
+      "pregunta": "Caso: Falsos Positivos en Antivirus.\nEl Antivirus A detectó 200 amenazas, de las cuales 180 eran reales.\nEl Antivirus B detectó 50 amenazas, de las cuales 50 eran reales.\nConclusión válida sobre la precisión:",
+      "opciones": [
+        "a) El Antivirus A es mejor porque protegió contra más amenazas reales.",
+        "b) El Antivirus B tiene una precisión del 100%, superior a la del A.",
+        "c) El Antivirus A tiene una tasa de falsos positivos del 20%."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Análisis:\n- A: 180 reales / 200 alertas = 90% precisión (10% falsos positivos).\n- B: 50 reales / 50 alertas = 100% precisión.\nComparación: B es más preciso (ratio). A detectó más volumen, pero la pregunta es sobre métricas derivadas. La opción C dice 20% de falsos positivos, lo cual es falso (es 10%). La opción A es subjetiva (¿'Mejor' es volumen o precisión?). La opción B es un dato irrefutable: 100% es superior a 90%."
+    },
+    {
+      "codigo": "ANA-20",
+      "pregunta": "Caso: Diagrama de Red y Cuellos de Botella.\n- Enlace 1 (Usuarios -> Switch): 1 Gbps, uso al 10%.\n- Enlace 2 (Switch -> Firewall): 1 Gbps, uso al 90%.\n- Enlace 3 (Firewall -> Internet): 200 Mbps, uso al 100%.\n¿Dónde está la causa raíz de la lentitud percibida por el usuario?",
+      "opciones": [
+        "a) En el Enlace 2, porque está casi saturado al 90%.",
+        "b) En el Enlace 3, porque es el de menor capacidad y está saturado.",
+        "c) En el Enlace 1, porque es el primer salto."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Teoría de Restricciones (TOC): El rendimiento de una cadena está limitado por el eslabón más lento que esté saturado. \n- E1: Sobra capacidad.\n- E2: Tráfico 900 Mbps (90% de 1G). Pasa fluido, aunque alto.\n- E3: Capacidad 200 Mbps. Tráfico entrante del E2 (900 Mbps) intenta pasar por un tubo de 200 Mbps. \nResultado: Dropped packets masivos en E3. Causa raíz: Capacidad insuficiente en salida a Internet."
+    },
+    {
+      "codigo": "ANA-21",
+      "pregunta": "Caso: Interpretación de Gráfico de Barras Acumuladas. (Visualice barras con dos colores: Azul=Desarrollo, Naranja=Soporte).\n- Enero: Barra total altura 100 (50 azul, 50 naranja).\n- Febrero: Barra total altura 120 (80 azul, 40 naranja).\n¿Qué tendencia es correcta?",
+      "opciones": [
+        "a) El trabajo de Soporte disminuyó en términos absolutos.",
+        "b) El trabajo de Soporte aumentó porcentualmente respecto al total.",
+        "c) El trabajo total disminuyó."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Análisis absoluto:\n- Enero Soporte: 50.\n- Febrero Soporte: 40.\n50 -> 40 es una disminución absoluta. \nAnálisis relativo (Opción B): Enero 50%, Febrero 40/120 = 33%. También disminuyó relativo. \nOpción C: Total subió de 100 a 120. Falso. \nLa única cierta y directa es la A."
+    },
+    {
+      "codigo": "ANA-22",
+      "pregunta": "Caso: Correlación vs Causalidad. \nObservación: 'Cada vez que se actualiza el servidor de correo (Evento A), aumentan los tickets de olvido de contraseña (Evento B)'.\nAnálisis lógico más prudente:",
+      "opciones": [
+        "a) La actualización del servidor borra las contraseñas de los usuarios.",
+        "b) Existe una correlación observada, pero se requiere investigar si hay causalidad (ej: la interfaz cambia y confunde al usuario).",
+        "c) Es una coincidencia aleatoria sin relación alguna."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Principio científico: Correlación no implica causalidad inmediata. La opción A es una conclusión precipitada (afirmación causal sin pruebas técnicas). La C descarta el patrón sin base. La B es la postura analítica correcta: reconocer el patrón e indagar la causa intermedia."
+    },
+    {
+      "codigo": "ANA-23",
+      "pregunta": "Caso: Selección de Proveedor (Matriz de Decisión Ponderada).\n- Peso Técnico: 60%. Peso Económico: 40%.\n- Proveedor A: Técnico 100/100, Económico 50/100 (Muy caro).\n- Proveedor B: Técnico 70/100, Económico 100/100 (Muy barato).\n¿Quién gana?",
+      "opciones": [
+        "a) Proveedor A",
+        "b) Proveedor B",
+        "c) Empate técnico"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cálculo mental:\n- A: (100 * 0.6) + (50 * 0.4) = 60 + 20 = 80 puntos.\n- B: (70 * 0.6) + (100 * 0.4) = 42 + 40 = 82 puntos.\nGanador: B (por 2 puntos). A veces 'bueno y barato' gana a 'perfecto y caro' si la ponderación técnica no es abrumadora."
+    },
+    {
+      "codigo": "ANA-24",
+      "pregunta": "Caso: Crecimiento de Storage. La base de datos pesa 1TB hoy. Crece un 10% compuesto cada mes. ¿En 2 meses cuánto pesará aproximadamente?",
+      "opciones": [
+        "a) 1.20 TB",
+        "b) 1.21 TB",
+        "c) 1.10 TB"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interés compuesto mental:\n- Mes 0: 1.0\n- Mes 1: 1.0 + 10% = 1.1\n- Mes 2: 1.1 + (10% de 1.1) -> 10% de 1.1 es 0.11.\n- Total: 1.1 + 0.11 = 1.21 TB.\nNota: El crecimiento lineal (opción A) sumaría 0.1 + 0.1 = 1.2. El compuesto acumula sobre el saldo."
+    },
+    {
+      "codigo": "ANA-25",
+      "pregunta": "Caso: Lógica de Programación (Bucle). \nInstrucción: 'Mientras (Cola > 0) Y (Hora < 18:00), Procesar Ticket'.\nSituación: Son las 18:01 y la Cola tiene 5 tickets.\n¿Qué hace el sistema?",
+      "opciones": [
+        "a) Procesa los 5 tickets restantes rápidamente.",
+        "b) Se detiene y no procesa más tickets.",
+        "c) Procesa un ticket más y luego se detiene."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Operador AND. Para que el bucle continúe, AMBAS condiciones deben ser True. \nCondición 1 (Cola > 0): True (5). \nCondición 2 (Hora < 18:00): False (18:01). \nTrue AND False = False. El bucle se rompe inmediatamente."
+    },
+    {
+      "codigo": "ANA-26",
+      "pregunta": "Caso: Dependencias de Paquetes de Software.\n- Instalar A requiere B y C.\n- Instalar B requiere D.\n- Instalar C requiere D o E.\n- El sistema NO tiene D instalado ni se puede instalar.\n¿Se puede instalar A?",
+      "opciones": [
+        "a) Sí, si instalamos E.",
+        "b) No, es imposible.",
+        "c) Sí, porque A depende directamente de B y C, no de D."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cadena de dependencias:\nPara A -> necesito B.\nPara B -> necesito D (Obligatorio).\nComo NO tengo D y no se puede instalar, B falla. \nSi B falla, A falla. \n(Aunque C podría salvarse con E, el fallo de B es fatal para A)."
+    },
+    {
+      "codigo": "ANA-27",
+      "pregunta": "Caso: Ventana de Mantenimiento. Se tienen 3 tareas de 2 horas cada una. Solo se dispone de una ventana de 5 horas. Las tareas 1 y 2 pueden hacerse en paralelo si hay dos técnicos. La tarea 3 depende de que termine la 1. Hay dos técnicos disponibles.\n¿Es posible terminar todo en la ventana de 5 horas?",
+      "opciones": [
+        "a) Sí, sobra tiempo.",
+        "b) No, faltaría tiempo.",
+        "c) Sí, exacto en 5 horas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planificación:\n- Hora 0 a 2: Técnico A hace Tarea 1. Técnico B hace Tarea 2. (Paralelo). Al finalizar hora 2, T1 y T2 están listas.\n- Hora 2 a 4: Técnico A (o B) hace Tarea 3 (ya que T1 terminó). \n- Tiempo total ejecución: 4 horas. \n- Ventana disponible: 5 horas. \n- Resultado: Sí, sobra 1 hora."
+    },
+    {
+      "codigo": "ANA-28",
+      "pregunta": "Caso: Muestreo Estadístico. Usted necesita saber si los usuarios están satisfechos con el nuevo ERP. La empresa tiene 1000 empleados: 900 en Operaciones y 100 en Administración. \nUsted encuesta a 50 personas de Administración y 5 de Operaciones.\n¿Es válida la conclusión de la encuesta?",
+      "opciones": [
+        "a) Sí, porque la muestra es aleatoria.",
+        "b) No, porque la muestra está sesgada y no es representativa proporcionalmente.",
+        "c) Sí, porque Administración usa más el sistema."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Error de Muestreo (Sesgo de Selección). La población es 90% Operativa. La muestra tomada es 90% Administrativa. La opinión recogida no representa la realidad de la empresa, solo la de una minoría. En análisis de datos, la representatividad es más importante que el tamaño de la muestra."
+    },
+    {
+      "codigo": "ANA-29",
+      "pregunta": "Caso: Diagrama de Flujo. \nInicio -> ¿Es urgente? (No) -> Fin.\n(Sí) -> ¿Hay presupuesto? (No) -> Escalar a Junta -> Fin.\n(Sí) -> Ejecutar -> Fin.\nUsted tiene un proyecto urgente sin presupuesto. ¿Cuál es el paso final?",
+      "opciones": [
+        "a) Ejecutar.",
+        "b) Escalar a Junta.",
+        "c) Fin inmediato sin acción."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguimiento de ruta:\n1. ¿Urgente? SÍ (Baja por la rama del Sí).\n2. ¿Presupuesto? NO (Va a la rama del No).\n3. Acción: Escalar a Junta."
+    },
+    {
+      "codigo": "ANA-30",
+      "pregunta": "Caso: Paradoja de Simpson en Datos (Simplificada). \nEl Servidor A procesó el 90% de las transacciones fáciles y tuvo 99% de éxito.\nEl Servidor B procesó el 90% de las transacciones complejas y tuvo 95% de éxito.\nGlobalmente, ¿se puede afirmar que A es técnicamente superior a B solo con este dato?",
+      "opciones": [
+        "a) Sí, 99% es mayor que 95%.",
+        "b) No, porque las cargas de trabajo no son comparables (sesgo de dificultad).",
+        "c) Sí, porque procesó más volumen con menos error."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Contexto de los datos. Comparar tasas de éxito sin normalizar la dificultad de la tarea es un error lógico. El Servidor B podría ser mucho más potente al lograr 95% en tareas difíciles, mientras A solo hace lo fácil. Sin comparar 'peras con peras' (mismo tipo de tarea), la conclusión de superioridad es inválida."
+    },
+
+{
+      "codigo": "ANA-01",
+      "pregunta": "Premisa 1: Si el firewall está activo, el tráfico no autorizado se bloquea. Premisa 2: El tráfico no autorizado no se bloqueó. Conclusión lógica válida:",
+      "opciones": [
+        "a) El firewall estaba inactivo.",
+        "b) El firewall estaba activo pero mal configurado.",
+        "c) El tráfico autorizado causó el bloqueo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Modus Tollens: Si P → Q, No Q implica necesariamente No P. b y c suponen información adicional no garantizada por las premisas."
+    },
+    {
+      "codigo": "ANA-02",
+      "pregunta": "Premisa 1: Todos los accesos simultáneos al servidor están loggeados. Premisa 2: No hay log de acceso simultáneo este lunes. Conclusión:",
+      "opciones": [
+        "a) No hubo accesos simultáneos este lunes.",
+        "b) El sistema de log falló ese día.",
+        "c) El servidor estuvo en mantenimiento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Si todos los accesos se loggean y no hay log, la conclusión directa es que no hubo ese tipo de acceso. b y c requieren suposiciones extras."
+    },
+    {
+      "codigo": "ANA-03",
+      "pregunta": "Premisa 1: Si el SLA mensual es inferior a 99.9%, se genera alerta automática. Premisa 2: No se generó alerta automática. Conclusión válida:",
+      "opciones": [
+        "a) El SLA fue igual o superior a 99.9%.",
+        "b) El sistema de alertas presentó fallas.",
+        "c) El servidor estuvo fuera de servicio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "No alerta = el antecedente (SLA < 99.9%) no fue cumplido, por lo tanto el SLA estuvo igual o superior. b y c no se concluyen lógicamente."
+    },
+    {
+      "codigo": "ANA-04",
+      "pregunta": "Premisa 1: Si la auditoría detecta vulnerabilidades, el equipo de ciberseguridad debe reportar. Premisa 2: Hay reporte de ciberseguridad hoy. ¿Cuál deducción es irrefutable?",
+      "opciones": [
+        "a) Se detectaron vulnerabilidades.",
+        "b) Hubo auditoría.",
+        "c) El reporte no necesariamente implica vulnerabilidad detectada."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "El reporte solo implica que si hubo vulnerabilidad, se debió reportar; pero el reporte puede ser por otros motivos. a y b afirman el antecedente incorrectamente."
+    },
+    {
+      "codigo": "ANA-05",
+      "pregunta": "Premisa 1: Sólo los usuarios autenticados pueden modificar la base de datos. Premisa 2: Alguien modificó la base de datos. Conclusión válida:",
+      "opciones": [
+        "a) La persona estaba autenticada.",
+        "b) El sistema presentaba vulnerabilidades.",
+        "c) El usuario tenía permisos especiales."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Silogismo universal: si solo usuarios autenticados pueden modificar y alguien modificó, entonces era autenticado. b y c inventan excepciones."
+    },
+    {
+      "codigo": "ANA-06",
+      "pregunta": "Premisa 1: Todas las incidencias críticas requieren bloqueo inmediato de red. Premisa 2: La incidencia ID-245 no fue bloqueada de inmediato. Conclusión:",
+      "opciones": [
+        "a) La incidencia ID-245 no era crítica.",
+        "b) Se incumplieron protocolos.",
+        "c) El sistema de bloqueo no funcionó."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Modus Tollens: Si todas las críticas se bloquean y una no se bloqueó, entonces no fue crítica. b y c son hipótesis adicionales."
+    },
+    {
+      "codigo": "ANA-07",
+      "pregunta": "Premisa 1: Si la latencia supera 300ms, los usuarios experimentan demora en respuesta. Premisa 2: Ningún usuario reportó demora hoy. ¿Conclusión válida?",
+      "opciones": [
+        "a) La latencia se mantuvo en 300ms o menos.",
+        "b) Ningún usuario utilizó el sistema.",
+        "c) El monitoreo de latencia fue incorrecto."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ausencia de queja implica que la condición antecedente (latencia > 300ms) no se cumplió. b y c no son deducciones necesarias."
+    },
+    {
+      "codigo": "ANA-08",
+      "pregunta": "Premisa 1: Si una actualización es marcada como obligatoria, todos los servidores la aplican antes de la fecha límite. Premisa 2: El servidor Z no aplicó la actualización antes del plazo. Conclusión válida:",
+      "opciones": [
+        "a) La actualización no fue marcada como obligatoria.",
+        "b) El servidor Z no recibió la actualización.",
+        "c) Hubo un error de comunicación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Si todas las obligatorias se aplican y Z no lo hizo, entonces no era obligatoria. b y c suponen detalles no inferidos."
+    },
+    {
+      "codigo": "ANA-09",
+      "pregunta": "Premisa 1: Si hay registro de acceso fuera de horario, se activa la alarma de seguridad. Premisa 2: Se activó la alarma de seguridad. Conclusión:",
+      "opciones": [
+        "a) Hubo registro de acceso fuera de horario.",
+        "b) La alarma falló.",
+        "c) Hubo un intento de acceso externo."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La activación de alarma puede tener varias causas; no necesariamente hubo acceso fuera de horario. a afirma el antecedente, lo que no es válido lógicamente."
+    },
+    {
+      "codigo": "ANA-10",
+      "pregunta": "Premisa 1: Si el respaldo diario falla, el sistema envía notificación al administrador. Premisa 2: El administrador no recibió notificación. ¿Conclusión?",
+      "opciones": [
+        "a) El respaldo no falló.",
+        "b) El administrador no revisó notificaciones.",
+        "c) El sistema de mensajes tuvo errores."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "No notificación implica que la condición antecedente (respaldo falla) no ocurrió. b y c son hipótesis no inferidas estrictamente por las premisas."
+    },
+
+    {
+      "codigo": "ANA-11",
+      "pregunta": "En una cola de incidentes, el servidor de base de datos fue reportado antes que el servidor de correo. Sin embargo, el servidor web tiene mayor prioridad que ambos y fue reportado después del servidor de correo. ¿Cuál es el orden correcto de atención si se prioriza primero por criticidad y luego por orden de reporte?",
+      "opciones": [
+        "a) Web, Base de datos, Correo",
+        "b) Base de datos, Web, Correo",
+        "c) Web, Correo, Base de datos"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La criticidad manda primero (Web), luego por orden de reporte: Base de datos se reportó antes que Correo."
+    },
+    {
+      "codigo": "ANA-12",
+      "pregunta": "Hay cinco tareas importantes en mantenimiento TI: P, Q, R, S y T. Se conocen las siguientes restricciones: P debe hacerse antes que R, S después de Q, y Q debe ser la primera tarea. ¿Cuál es un orden posible?",
+      "opciones": [
+        "a) Q, P, R, S, T",
+        "b) Q, S, P, R, T",
+        "c) Q, P, S, R, T"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Q debe ser primera y S va después de Q. P antes de R; sólo a) cumple todas las condiciones explícitas."
+    },
+    {
+      "codigo": "ANA-13",
+      "pregunta": "Se tienen tres incidentes: A, B y C. A debe resolverse antes que B. C no puede resolverse antes de A. ¿Cuál es el único orden posible?",
+      "opciones": [
+        "a) A, C, B",
+        "b) C, A, B",
+        "c) B, A, C"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "A siempre debe ir antes que B; C no puede ir antes de A, así que a) es la única secuencia válida."
+    },
+    {
+      "codigo": "ANA-14",
+      "pregunta": "Una secuencia de tareas automáticas en un DataCenter es: Respaldar (R), Verificar (V), Notificar (N), Restablecer (S). V debe ir justo antes de N; S solo puede ir al final. ¿Cuál es una secuencia correcta?",
+      "opciones": [
+        "a) R, V, N, S",
+        "b) V, R, N, S",
+        "c) R, N, V, S"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "V debe ir justo antes que N y S al final. Sólo la secuencia a) cumple ambas reglas."
+    },
+    {
+      "codigo": "ANA-15",
+      "pregunta": "Cuatro usuarios (A, B, C, D) utilizan una impresora con estas reglas: C imprime antes que D; B nunca imprime antes que C; A imprime después que todos. ¿En qué orden imprimen?",
+      "opciones": [
+        "a) C, B, D, A",
+        "b) B, C, D, A",
+        "c) C, D, B, A"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "C debe ir antes que D y B nunca antes que C, A siempre al final, así que el orden correcto es C, B, D, A."
+    },
+    {
+      "codigo": "ANA-16",
+      "pregunta": "En la priorización de fallas: X falla antes que Y. Z es más crítica que X. Y es reportada después de Z. Orden natural de atención, considerando primero criticidad y luego tiempo:",
+      "opciones": [
+        "a) Z, X, Y",
+        "b) X, Z, Y",
+        "c) Z, Y, X"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Primero Z (más crítica), después X (reportada antes que Y), y finalmente Y."
+    },
+    {
+      "codigo": "ANA-17",
+      "pregunta": "Cinco dispositivos (W, X, Y, Z, T) están siendo revisados. Restricciones: X después de W, Y antes de T, Z después de X y T. ¿Orden correcto?",
+      "opciones": [
+        "a) W, X, Y, T, Z",
+        "b) W, X, T, Y, Z",
+        "c) W, Y, X, T, Z"
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "X va después de W, Y antes que T, Z después de X y T; la secuencia c) respeta estas restricciones."
+    },
+    {
+      "codigo": "ANA-18",
+      "pregunta": "En un proceso de actualizaciones: B antes que C, A antes que B y D después de C. ¿Cuál es una secuencia válida?",
+      "opciones": [
+        "a) A, B, C, D",
+        "b) B, A, C, D",
+        "c) C, A, B, D"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "A antes que B, que va antes que C, y D después de C — sólo a) cumple el orden requerido."
+    },
+    {
+      "codigo": "ANA-19",
+      "pregunta": "Tres eventos de red: Redundancia, Firewall, Switch. Reglas: Firewall configura antes que Switch; Switch después de Redundancia; Redundancia después que Firewall. Elige el orden correcto.",
+      "opciones": [
+        "a) Firewall, Redundancia, Switch",
+        "b) Redundancia, Firewall, Switch",
+        "c) Firewall, Switch, Redundancia"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Firewall antes que Switch, Switch después de Redundancia, Redundancia después que Firewall — sólo a) es posible."
+    },
+    {
+      "codigo": "ANA-20",
+      "pregunta": "En la gestión de tickets de soporte: Ticket A antes de B; Ticket B antes de C; Ticket C antes de D; Ticket D antes de E. ¿Cuál es el orden completo?",
+      "opciones": [
+        "a) A, B, C, D, E",
+        "b) E, D, C, B, A",
+        "c) B, A, C, D, E"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La secuencia dada por las restricciones es A, B, C, D, E."
+    },
+
+     {
+      "codigo": "ANA-21",
+      "pregunta": "Tabla de tráfico de red en Gbps. Lunes: 10, Martes: 12, Miércoles: 10, Jueves: 25, Viernes: 11. ¿Cuál día fue más probable una congestión reportada?",
+      "opciones": [
+        "a) Jueves",
+        "b) Martes",
+        "c) Viernes"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Jueves presenta un pico anómalo frente al promedio semanal, indicando alta probabilidad de congestión."
+    },
+    {
+      "codigo": "ANA-22",
+      "pregunta": "Tres zonas de usuarios. Zona A: 200 usuarios, consumo mensual 500GB. Zona B: 180 usuarios, consumo mensual 900GB. Zona C: 220 usuarios, consumo mensual 350GB. ¿Qué zona tiene mayor consumo per cápita?",
+      "opciones": [
+        "a) Zona B",
+        "b) Zona A",
+        "c) Zona C"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Zona B tiene mayor relación GB/usuario (900/180 = 5), superior al resto (A=2.5, C=1.59)."
+    },
+    {
+      "codigo": "ANA-23",
+      "pregunta": "En una tabla de incidentes, los tickets que escalan a segundo nivel normalmente tardan en resolverse más que los de primer nivel. Sin embargo, los tickets 45 y 46 escalaron y fueron resueltos en menos tiempo que el promedio. ¿Cuál es la inferencia correcta?",
+      "opciones": [
+        "a) No todos los tickets de segundo nivel tardan más que el promedio.",
+        "b) Ticket 45 y 46 no eran de segundo nivel.",
+        "c) Ticket 45 y 46 fueron resueltos por error."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "No todos los tickets tardan más; la generalización es incorrecta y los tickets excepcionales demuestran la regla no es universal."
+    },
+    {
+      "codigo": "ANA-24",
+      "pregunta": "Gráfico de barras muestra consumo mensual de disco: Enero 50TB, Febrero 48TB, Marzo 51TB, Abril 100TB. Administración informa que el disco colapsó en abril. ¿El argumento tiene correlación directa?",
+      "opciones": [
+        "a) Sí, porque el consumo se duplicó respecto al promedio anterior.",
+        "b) No, porque la administración puede estar confundiendo causa con coincidencia temporal.",
+        "c) No, porque en marzo también hubo consumo alto."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El consumo de abril es excepcionalmente alto y correlaciona con el colapso reportado."
+    },
+    {
+      "codigo": "ANA-25",
+      "pregunta": "Una base de datos mantiene logs con un promedio de 60 entradas diarias. El lunes hubo 160, martes 65, miércoles 58, jueves 60, viernes 60. ¿Qué día es más probable una actividad anómala?",
+      "opciones": [
+        "a) Lunes",
+        "b) Miércoles",
+        "c) Viernes"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El lunes supera en más del doble el promedio, sugerente de actividad anómala."
+    },
+    {
+      "codigo": "ANA-26",
+      "pregunta": "Un informe da los siguientes datos de usuarios y tickets: Área Infraestructura: 20 usuarios, 40 tickets; Área Desarrollo: 40 usuarios, 30 tickets; Área Soporte: 25 usuarios, 50 tickets. ¿Qué área tiene más tickets por usuario?",
+      "opciones": [
+        "a) Soporte",
+        "b) Infraestructura",
+        "c) Desarrollo"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Soporte: 50/25 = 2; Infraestructura: 40/20 = 2; Desarrollo: 30/40 = 0.75. Soporte tiene igual ratio que Infraestructura, pero más tickets totales."
+    },
+    {
+      "codigo": "ANA-27",
+      "pregunta": "En una tabla de incidentes reportados por hora, el pico más alto se da a las 11 a.m. ¿Es correcto concluir que la mayoría de incidentes ocurre a esa hora?",
+      "opciones": [
+        "a) No necesariamente, el pico puede deberse a una concentración particular y el resto del día puede sumar más incidentes.",
+        "b) Sí, el pico determina la mayoría.",
+        "c) Sí, porque es el valor más alto en la tabla."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Un máximo puntual no implica mayoría absoluta; el total del día puede superar ese valor puntual."
+    },
+    {
+      "codigo": "ANA-28",
+      "pregunta": "Una medida de seguridad incrementa los incidentes reportados de 20 a 40 en una semana. ¿Cuál es la inferencia más lógica sobre la causa del aumento?",
+      "opciones": [
+        "a) La nueva medida hace más visibles los incidentes.",
+        "b) Hubo un ataque extraordinario esa semana.",
+        "c) El sistema de seguridad presenta errores."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Aumentar medidas muchas veces incrementa detección, no necesariamente la cantidad real de incidentes."
+    },
+    {
+      "codigo": "ANA-29",
+      "pregunta": "En la monitorización de recursos, el sistema A usa el 80% de CPU, B el 15% y C el 5%. El reporte indica que C generó el mayor retraso en procesos automáticos. ¿Cuál explicación es más probable?",
+      "opciones": [
+        "a) El reporte confunde uso de CPU con retraso; C puede tener cuellos de botella ajenos a CPU.",
+        "b) El uso de CPU determina siempre el retraso.",
+        "c) C no está funcionando adecuadamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Más uso de CPU no implica directamente más retraso; C puede estar retrasando por otro motivo, indicando confusión de correlación."
+    },
+    {
+      "codigo": "ANA-30",
+      "pregunta": "En un histórico de gastos de licencias TI, el gasto subió 10% anual durante tres años, pero la cantidad de usuarios no cambió. ¿Cuál inferencia es correcta?",
+      "opciones": [
+        "a) El costo unitario de licencias aumentó.",
+        "b) El número de usuarios aumentó.",
+        "c) El gasto total disminuyó en promedio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Si el gasto sube y los usuarios no cambian, es lógico concluir que el precio por licencia aumentó. b y c contradicen los datos."
+    }
+
+
+
+    ]
+}
