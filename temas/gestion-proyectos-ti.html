@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proyectos TI - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos para los bloques de estudio */
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+        
+        .alerta-rol {
+            background-color: #FFF3E0;
+            border-left: 5px solid #FF9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-rol h4 { color: #E65100; margin-top: 0; }
+
+        .algoritmo-mental {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .algoritmo-mental h4 { color: #2e7d32; margin-top: 0; }
+
+        .agile-vs-traditional {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .columna-metodologia {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .columna-metodologia h5 { text-align: center; margin-top: 0;}
+        
+        /* Ajuste para móvil */
+        @media (max-width: 600px) {
+            .agile-vs-traditional { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Proyectos TI" id="logo">
+        <h1>Gestión de Proyectos de TI</h1>
+        <p>De Ingeniero a Gerente Público: MGA, Contratación Estatal y Metodologías Ágiles</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="modulo1">
+            <h2>MÓDULO 1: El Marco Público (MGA y Planeación Estratégica)</h2>
+            <p>En el sector privado, un proyecto nace cuando el CEO lo aprueba. En el público, nace cuando está en el Banco de Proyectos con presupuesto.</p>
+            
+            <article>
+                <h3>1. Gasto de Funcionamiento vs. Proyecto de Inversión</h3>
+                <p><strong>Funcionamiento (OpEx):</strong> Gastos recurrentes para operar hoy. No crean capacidad nueva.<br>
+                <em>Ejemplos:</em> Tóner, licencias Office anuales, nómina, enlace de internet.</p>
+                
+                <p><strong>Inversión (CapEx):</strong> Gasto finito que crea, amplía o mejora la capacidad de producción.<br>
+                <em>Ejemplos:</em> Nuevo ERP, Renovación del Data Center, Capacitación en Python.</p>
+
+                <div class="alerta-rol">
+                    <h4>⚠️ Trampa de Examen</h4>
+                    <p><strong>Pregunta:</strong> "Es urgente comprar discos duros porque el servidor está lleno. ¿Qué hace?"<br>
+                    <strong>Ingeniero (Error):</strong> Comprar por caja menor.<br>
+                    <strong>Gerente Público (Correcto):</strong> Revisar si hay rubro de mantenimiento (Funcionamiento). Si no, se requiere traslado presupuestal. No se puede inventar el rubro.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>2. La Cadena de Valor (Justificación MGA)</h3>
+                <p>Para justificar un software académico ante Planeación:</p>
+                <ul>
+                    <li><strong>Insumo:</strong> Dinero ($500M), Ingenieros.</li>
+                    <li><strong>Producto:</strong> Sistema implementado.</li>
+                    <li><strong>Resultado:</strong> Reducción tiempo matrícula de 3 días a 2 horas.</li>
+                    <li><strong>Impacto:</strong> Aumento cobertura y satisfacción.</li>
+                </ul>
+            </article>
+
+            <div class="algoritmo-mental">
+                <h4>🧠 Algoritmo Mental - Módulo 1</h4>
+                <p>1. ¿El gasto crea capacidad nueva? -> <strong>Inversión</strong>.<br>
+                2. ¿Es recurrente para operar? -> <strong>Funcionamiento</strong>.<br>
+                3. ¿Resuelvo un problema social/administrativo? -> Justificación correcta.</p>
+            </div>
+        </section>
+
+        <section id="modulo2">
+            <h2>MÓDULO 2: Choque de Mundos (Ágil vs. Tradicional)</h2>
+            <p>La Ley 80 piensa en ladrillos, no en software. Aquí está el arte de gestionar TI.</p>
+
+            <div class="agile-vs-traditional">
+                <div class="columna-metodologia" style="background-color: #f9f9f9;">
+                    <h5>PMBOK (Cascada)</h5>
+                    <p><strong>Alcance:</strong> Fijo desde el inicio.</p>
+                    <p><strong>Uso:</strong> Hardware, Data Centers, Licencias.</p>
+                    <p><strong>Cambios:</strong> Costosos, control formal.</p>
+                </div>
+                <div class="columna-metodologia" style="background-color: #e0f7fa;">
+                    <h5>Scrum / Ágil</h5>
+                    <p><strong>Alcance:</strong> Variable y emergente.</p>
+                    <p><strong>Uso:</strong> Desarrollo Software, Apps, Portales.</p>
+                    <p><strong>Cambios:</strong> Bienvenidos en cada Sprint.</p>
+                </div>
+            </div>
+
+            <article>
+                <h3>Tips para el Contrato Estatal Ágil</h3>
+                <ul>
+                    <li>No contrates "Software X fijo". Contrata "Fábrica de Software" o "Bolsa de Horas".</li>
+                    <li>Entregables: "Incrementos funcionales puestos en producción".</li>
+                    <li>Pago: Contra hitos cumplidos a satisfacción.</li>
+                </ul>
+            </article>
+
+            <div class="alerta-rol">
+                <h4>⚠️ Trampa de Examen: Scope Creep</h4>
+                <p><strong>Pregunta:</strong> "En Scrum, el usuario pide cambiar un requisito a mitad del Sprint."<br>
+                <strong>Correcto:</strong> El Sprint se respeta. El cambio va al <strong>Product Backlog</strong> para el siguiente Sprint, verificando que no altere el objeto del contrato.</p>
+            </div>
+        </section>
+
+        <section id="modulo3">
+            <h2>MÓDULO 3: Ejecución, Riesgos y Supervisión</h2>
+            <p>Tu responsabilidad es blindar el proyecto y los recursos públicos.</p>
+
+            <article>
+                <h3>1. Interventoría vs. Supervisión</h3>
+                <ul>
+                    <li><strong>Supervisor:</strong> Funcionario de planta (tú). Seguimiento integral. Obligatorio.</li>
+                    <li><strong>Interventor:</strong> Contratista externo experto. Seguimiento técnico especializado. Vigila al contratista.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2. Control de Cambios Formal</h3>
+                <p>Si el Rector pide una funcionalidad extra ("Parqueaderos") que cuesta dinero:</p>
+                <ol>
+                    <li><strong>Solicitud:</strong> Documentar qué se quiere.</li>
+                    <li><strong>Análisis:</strong> Impacto en costo, tiempo y seguridad.</li>
+                    <li><strong>Comité de Cambios:</strong> Aprueba o rechaza.</li>
+                    <li><strong>Adición Presupuestal:</strong> Si cuesta más, se firma un <strong>OTROSÍ</strong>.</li>
+                </ol>
+            </article>
+
+            <div class="algoritmo-mental">
+                <h4>🧠 Algoritmo Mental - Módulo 3</h4>
+                <p>¿Surge un problema? -> Revisa Matriz de Riesgos.<br>
+                ¿Incumplimiento? -> Requerimiento escrito -> Informe Supervisión -> Multa.<br>
+                ¿Hay dinero extra? -> <strong>CDP Previo</strong> + Otrosí. Orden verbal = Nula.</p>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Gestión de Proyectos</h2>
+            <p>Pon a prueba tu criterio para decidir entre metodologías y gestionar recursos públicos.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

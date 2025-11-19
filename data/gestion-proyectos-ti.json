@@ -1,0 +1,1049 @@
+{
+  "preguntas": [
+    {
+      "codigo": "PROY-01",
+      "pregunta": "Usted debe liderar la construcción de un nuevo Data Center físico para la universidad. Los requisitos son estrictos, el presupuesto es fijo y los cambios estructurales son costosos. ¿Qué enfoque metodológico es el más adecuado?",
+      "opciones": [
+        "a) Ágil (Scrum), para permitir cambios constantes en la obra.",
+        "b) Tradicional (Cascada/Predictivo), para controlar alcance, tiempo y costos detalladamente.",
+        "c) Kanban, para ver el flujo de tareas diarias sin planificación a largo plazo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En proyectos de infraestructura física donde los cambios son costosos y los requisitos claros, el enfoque predictivo (Cascada) es el estándar para asegurar el cumplimiento de presupuesto y cronograma."
+    },
+    {
+      "codigo": "PROY-02",
+      "pregunta": "Como Profesional Especializado, recibe una solicitud para adquirir un software que no está en el Plan de Adquisiciones ni en el PETI. ¿Cuál es la acción procedente según la gestión pública?",
+      "opciones": [
+        "a) Comprarlo inmediatamente por caja menor para solucionar la urgencia.",
+        "b) Negar la solicitud temporalmente hasta evaluar su alineación con el PETI y gestionar la inclusión en el plan de compras.",
+        "c) Solicitar al proveedor que lo instale y pagarle el próximo año."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En el sector público, la planificación es ley. No se puede ejecutar presupuesto en proyectos no planeados (PETI/PAA) sin una justificación y trámite previo."
+    },
+    {
+      "codigo": "PROY-03",
+      "pregunta": "En el marco de la MGA (Metodología General Ajustada), ¿cuál es el primer paso antes de viabilizar un proyecto de inversión TI?",
+      "opciones": [
+        "a) Comprar los servidores.",
+        "b) Identificar claramente el problema y la población afectada.",
+        "c) Contratar al personal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La MGA exige iniciar con la fase de Preinversión: Identificación del Problema. No se puede formular una solución (comprar servidores) sin definir qué problema resuelve."
+    },
+    {
+      "codigo": "PROY-04",
+      "pregunta": "Está desarrollando un portal web estudiantil y los usuarios (estudiantes) piden nuevas funcionalidades cada semana. ¿Qué marco de trabajo es mejor?",
+      "opciones": [
+        "a) Scrum (Ágil).",
+        "b) PMBOK (Cascada rigurosa).",
+        "c) ITIL v4."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Scrum es ideal para entornos de alta incertidumbre y cambios frecuentes en los requisitos, permitiendo entregas de valor incremental."
+    },
+    {
+      "codigo": "PROY-05",
+      "pregunta": "Un riesgo se ha materializado en su proyecto: el proveedor de internet quebró. Usted activa el 'Plan de Contingencia' que diseñó en la fase de planeación. ¿Esto es un ejemplo de?",
+      "opciones": [
+        "a) Improvisación gerencial.",
+        "b) Gestión reactiva de incidentes.",
+        "c) Gestión proactiva de riesgos."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Tener un plan de contingencia preparado para un riesgo identificado es la esencia de la gestión proactiva de riesgos."
+    },
+    {
+      "codigo": "PROY-01",
+      "pregunta": "Como Supervisor de un contrato de desarrollo de software bajo metodología Scrum, el Product Owner (Decano) solicita en la mitad del Sprint 3 cambiar una funcionalidad crítica pactada en el 'Sprint Backlog' por otra nueva de igual complejidad. El contratista accede porque 'Scrum abraza el cambio'. Desde la óptica de la contratación estatal y la gestión de proyectos, ¿cuál es su postura?",
+      "opciones": [
+        "a) Permitir el cambio inmediatamente, documentándolo en el acta de reunión del Sprint, ya que la metodología Ágil prioriza la satisfacción del cliente sobre la negociación contractual.",
+        "b) Rechazar el cambio dentro del Sprint actual para proteger el alcance comprometido; el nuevo requerimiento debe ir al Product Backlog para ser priorizado en el siguiente Sprint, previa validación de que no altere el objeto contractual ni el presupuesto.",
+        "c) Autorizar el cambio mediante un Otrosí al contrato, ya que cualquier modificación al alcance técnico en una entidad pública requiere obligatoriamente una adición presupuestal o modificación legal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "PMP/Scrum + Ley 80: En Scrum, una vez inicia el Sprint, el alcance se bloquea para proteger al equipo. En lo público, además, se debe cuidar que los cambios no desvirtúen el objeto del contrato. La opción A es riesgosa administrativamente (cambio informal). La C es ineficiente (no todo cambio requiere Otrosí si está dentro del alcance general). La B respeta la metodología y la norma."
+    },
+    {
+      "codigo": "PROY-02",
+      "pregunta": "Usted gestiona un proyecto de implementación de un ERP. El Rector solicita que se incluya un módulo de 'Inteligencia Artificial' que no estaba en los pliegos, argumentando que es vital para la acreditación. El contratista ofrece hacerlo gratis como 'valor agregado' para ganar puntos con la entidad. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Aceptar el ofrecimiento verbalmente y supervisar su ejecución, aprovechando el beneficio técnico sin costo para la entidad (Principio de Economía).",
+        "b) Legalizar la inclusión del módulo mediante un acta de modificación bilateral o Otrosí, aunque sea a costo cero, para incluirlo en las pólizas de garantía, soporte y mantenimiento, asegurando la transferencia de la propiedad intelectual.",
+        "c) Rechazar rotundamente el módulo adicional, ya que recibir bienes o servicios por fuera del contrato constituye un hecho cumplido y puede interpretarse como enriquecimiento sin causa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Alcance Público: Nada en el estado es 'gratis' en términos de responsabilidad. Si se acepta algo sin formalizar (Opción A), no tendrá garantía, soporte ni titularidad legal. Se debe formalizar (Opción B) para blindar el activo digital. Rechazarlo (C) es una opción, pero la B es la mejor decisión gerencial si beneficia a la entidad y se legaliza."
+    },
+    {
+      "codigo": "PROY-03",
+      "pregunta": "Durante la ejecución de un contrato de Nube Pública, se materializa un riesgo: el dólar sube drásticamente y el presupuesto del contrato en pesos colombianos se agota antes de tiempo. El servicio está por cortarse. ¿Cuál es la acción inmediata?",
+      "opciones": [
+        "a) Solicitar al contratista que asuma el sobrecosto cambiario dado que él debió prever el riesgo en su matriz de riesgos presentada en la oferta.",
+        "b) Tramitar una Adición Presupuestal (hasta el 50% del valor inicial) justificada en la variación macroeconómica imprevisible, y firmar un Otrosí para garantizar la continuidad del servicio.",
+        "c) Declarar la Urgencia Manifiesta para contratar otro proveedor inmediatamente y evitar la caída del servicio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Riesgos y Costos: La tasa de cambio suele ser un riesgo compartido o de la entidad si se paga en pesos a tasa representativa. La vía legal para inyectar recursos ante agotamiento es la Adición (Ley 80). La opción A ignora que si el presupuesto se agota, no hay CDP para pagar. La C es exagerada si se puede adicionar."
+    },
+    {
+      "codigo": "PROY-04",
+      "pregunta": "En la Matriz de Adquisiciones del proyecto, se debe comprar un servidor especializado. Planeación rechaza el CDP argumentando que usted lo clasificó como 'Proyecto de Inversión' pero parece 'Gasto de Funcionamiento'. El servidor es para reemplazar uno dañado que soporta el correo actual. ¿Quién tiene la razón?",
+      "opciones": [
+        "a) Usted, porque todo hardware de alto costo es Inversión según la MGA.",
+        "b) Planeación, porque reemplazar un equipo para mantener la operación actual sin aumentar cobertura o capacidad nueva es Gasto de Funcionamiento (Mantenimiento/Reposición).",
+        "c) Usted, porque el correo electrónico es vital para la misión de la universidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Marco Público (MGA): La distinción clave es: ¿Crea capacidad nueva o mantiene la existente? Reemplazar uno dañado por uno igual para seguir operando es Funcionamiento. Si fuera para un nuevo servicio o ampliar cobertura, sería Inversión."
+    },
+    {
+      "codigo": "PROY-05",
+      "pregunta": "El contratista entrega el software finalizado y funcionando el día que vence el contrato. Sin embargo, no entregó los Manuales Técnicos ni el Código Fuente documentado como exigía el pliego. El contratista pide que le reciba a satisfacción para poder cobrar, comprometiéndose a entregar la documentación la próxima semana. Usted:",
+      "opciones": [
+        "a) Firma el recibido a satisfacción con una nota pendiente, para no perjudicar el flujo de caja del contratista ni incurrir en mora administrativa.",
+        "b) No recibe a satisfacción ni autoriza el pago final hasta que se entreguen todos los ítems contractuales (incluida documentación), ya que el contrato es ley para las partes.",
+        "c) Recibe el software pero retiene el 10% del pago como garantía hasta que entreguen los manuales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Supervisión / Cierre: Recibir a satisfacción certifica que se cumplió TODO el objeto. Si faltan manuales, el objeto está incompleto. Firmar satisfacción falsamente es falta disciplinaria y penal (Falsedad). La retención (C) solo aplica si está pactada expresamente como cláusula penal, no de facto."
+    },
+    {
+      "codigo": "PROY-06",
+      "pregunta": "En un proyecto de migración de datos, el contratista alega que no puede cumplir el cronograma porque la calidad de los datos entregados por la Universidad es pésima (inconsistencias, duplicados). Esto no se detectó en la etapa de planeación. El contratista exige una suspensión del contrato. ¿Qué debió hacerse en la planeación (PMBOK)?",
+      "opciones": [
+        "a) Incluir una cláusula de 'Multa por retraso' más severa para obligar al contratista a limpiar los datos.",
+        "b) Realizar un perfilamiento de datos (Data Profiling) previo y definir en la EDT una actividad de 'Limpieza y Calidad de Datos' a cargo de la entidad o del contratista antes de la migración.",
+        "c) Asignar la limpieza de datos al Supervisor del contrato durante la ejecución."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Riesgos y Alcance: El error fue de Planeación. Asumir que los datos están limpios es un riesgo clásico. Lo correcto gerencialmente (PMBOK) era diagnosticar el insumo (datos) antes de contratar la migración."
+    },
+    {
+      "codigo": "PROY-07",
+      "pregunta": "Usted es Supervisor Técnico. El Interventor externo rechaza un entregable de cableado estructurado porque, aunque funciona, no cumple con la norma de etiquetado ANSI/TIA-606-B exigida. El contratista dice que es un detalle menor y pide su aprobación para no retrasar la obra. ¿Qué hace?",
+      "opciones": [
+        "a) Respaldar al Interventor y exigir la corrección del etiquetado antes de recibir, pues las normas técnicas son obligatorias y garantizan la mantenibilidad futura.",
+        "b) Autorizar el recibido bajo su responsabilidad como Supervisor (que es superior jerárquico del Interventor) para priorizar la entrada en funcionamiento de la red.",
+        "c) Negociar con el Interventor para que acepte el etiquetado actual a cambio de una mejora en otro ítem."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Roles y Calidad: El Interventor es la voz técnica experta. Si el contrato exigía norma ANSI/TIA, no cumplirla es incumplimiento. El Supervisor debe velar por el cumplimiento del contrato, no 'ayudar' a saltarse normas. La mantenibilidad es un requisito de calidad no funcional crítico."
+    },
+    {
+      "codigo": "PROY-08",
+      "pregunta": "Se requiere actualizar la plataforma Moodle. Hay dos caminos: 1. Contratar una 'Consultoría' para que diagnoestique y actualice. 2. Contratar 'Servicios de Soporte'. En términos de entregables y tipo de contrato, ¿cuál es la diferencia crítica para su gestión?",
+      "opciones": [
+        "a) La Consultoría es de medio (hacer el esfuerzo), el Soporte es de resultado (lograr la actualización).",
+        "b) La Consultoría entrega un producto intelectual (informe, diagnóstico y plan ejecutado) y suele ser contrato de prestación de servicios/consultoría; el Soporte suele ser mantenimiento y bolsa de horas.",
+        "c) No hay diferencia, ambos se rigen por las mismas normas de contratación de mínima cuantía."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Tipología Contractual: Es vital saber qué se pide. Una Consultoría (concurso de méritos o directa) implica 'inteligencia' y productos entregables definidos. Soporte es mantenimiento. Elegir mal la modalidad vicia el proceso de selección."
+    },
+    {
+      "codigo": "PROY-09",
+      "pregunta": "Gestión de Stakeholders: El Sindicato de la Universidad se opone a la implementación del nuevo software de Biometría facial para control de asistencia, argumentando violación a la intimidad. El proyecto ya está contratado. ¿Cómo gestiona este riesgo social?",
+      "opciones": [
+        "a) Ignorar al sindicato pues es una decisión administrativa ya tomada y el contrato está firmado.",
+        "b) Suspender el contrato indefinidamente hasta que el sindicato dé su visto bueno por escrito.",
+        "c) Ejecutar un plan de gestión del cambio y socialización, involucrando al área jurídica para explicar el cumplimiento de la Ley de Habeas Data y la finalidad del tratamiento, buscando mitigar la resistencia sin detener el contrato."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gestión del Cambio: Los stakeholders negativos pueden tumbar proyectos. La respuesta PMP no es ignorar ni detenerse, sino 'Gestionar el Involucramiento'. Explicar, comunicar y asegurar cumplimiento legal (Habeas Data) es la vía."
+    },
+    {
+      "codigo": "PROY-10",
+      "pregunta": "Durante la ejecución de un contrato de suministro de computadores, el fabricante descontinúa el modelo pactado y lanza uno nuevo con mejores características al mismo precio. El contratista pide entregar el nuevo. ¿Es legal?",
+      "opciones": [
+        "a) Sí, siempre y cuando se firme un acta donde conste que el cambio es por mejora tecnológica, no implica costo adicional y las especificaciones son iguales o superiores (Principio de Selección Objetiva y Calidad).",
+        "b) No, se debe entregar estrictamente la referencia pactada en el contrato inicial, aunque sea vieja.",
+        "c) Sí, pero el contratista debe pagar la diferencia de precio a favor de la Universidad."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gestión de Cambios / Obsolescencia: En tecnología, esto pasa mucho. La ley permite el cambio si mejora la condición técnica sin afectar el presupuesto ni violar la selección objetiva. Se debe documentar técnicamente la equivalencia o superioridad."
+    },
+    {
+      "codigo": "PROY-11",
+      "pregunta": "El Cronograma del proyecto de implementación del PETI tiene un retraso del 20%. El contratista propone 'Crashing' (agregar más recursos/horas extra) para recuperar tiempo, pero pide que la Universidad pague esas horas extra. ¿Cuál es su respuesta?",
+      "opciones": [
+        "a) Aceptar pagar las horas extra para salvar el cronograma del proyecto (Gestión de Tiempo).",
+        "b) Exigir al contratista que implemente el plan de recuperación (Crashing o Fast Tracking) a su propio costo, dado que el retraso es imputable a su gestión y el contrato es a precio fijo global o por entregables.",
+        "c) Modificar el cronograma extendiendo la fecha de fin para no presionar al equipo (Nivelación de Recursos)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Cronograma: Si el retraso es culpa del contratista, él debe asumir el costo de recuperar el tiempo. Pagarle extra por su ineficiencia sería detrimento patrimonial. Solo se paga extra si el retraso fuera culpa de la Entidad (cambios de alcance, demora en aprobaciones)."
+    },
+    {
+      "codigo": "PROY-12",
+      "pregunta": "Pruebas de Aceptación de Usuario (UAT): Los usuarios funcionales no tienen tiempo para probar el software y el cronograma apremia. El Gerente del Proyecto (PM) del contratista sugiere que el equipo de TI de la Universidad haga las pruebas funcionales y firme el acta. ¿Usted accede?",
+      "opciones": [
+        "a) Sí, porque TI tiene el conocimiento técnico para saber si el software funciona.",
+        "b) No, porque la validación funcional (Aceptación) debe venir del dueño del negocio/proceso. TI valida lo técnico, pero si el usuario no valida, se materializa el riesgo de entregar un producto que no satisface la necesidad real.",
+        "c) Sí, firmando 'Aprobado con condiciones' para que los usuarios prueben después en producción."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Calidad y Validación: En PMBOK, 'Validar el Alcance' requiere la aceptación del cliente. TI no es el usuario final de un software financiero o académico. Suplantar al usuario es garantizar el fracaso por falta de adopción."
+    },
+    {
+      "codigo": "PROY-13",
+      "pregunta": "Usted identifica que el contrato de Soporte y Mantenimiento vence el 20 de diciembre. El nuevo proceso de licitación apenas va a comenzar y tardará 45 días. Quedarían descubiertos en enero. ¿Cuál es la figura legal de contingencia?",
+      "opciones": [
+        "a) Realizar una adición en tiempo (prórroga) al contrato actual antes de que venza, justificando la necesidad de garantizar la continuidad del servicio mientras se adjudica el nuevo.",
+        "b) Dejar vencer el contrato y contratar verbalmente al mismo proveedor por enero, legalizando después como 'Reconocimiento de Deuda'.",
+        "c) Hacer un contrato directo de urgencia manifiesta por 45 días."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Continuidad del Servicio: La prórroga (adición en tiempo) es la herramienta correcta para empalmar contratos. La opción B (Hecho Cumplido) es ilegal. La C es excesiva si se puede prever con una prórroga."
+    },
+    {
+      "codigo": "PROY-14",
+      "pregunta": "En un proyecto de Seguridad de la Información, se define como entregable el 'Diseño del SGSI'. El contratista entrega un documento de 200 páginas copiado de una plantilla de Internet que no se ajusta a la realidad de la I.U. Pascual Bravo. El contratista dice que 'técnicamente cumple con la norma ISO 27001'. Usted:",
+      "opciones": [
+        "a) Rechaza el entregable por calidad deficiente y pertinencia, exigiendo el ajuste a la realidad institucional bajo amenaza de incumplimiento.",
+        "b) Recibe el documento para cumplir el hito de pago, pero contrata a otro consultor para que lo arregle.",
+        "c) Acepta el documento porque formalmente tiene la estructura de la ISO 27001."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Control de Calidad: No basta con entregar 'papel'. El entregable debe cumplir los requisitos de calidad y aplicabilidad. Recibir un 'copy-paste' es falta de supervisión. Se debe rechazar y exigir corrección sin costo adicional."
+    },
+    {
+      "codigo": "PROY-15",
+      "pregunta": "Gestión de Adquisiciones: Usted necesita contratar licencias de Microsoft Office. La ley dice que debe haber pluralidad de oferentes, pero Microsoft es el único dueño. ¿Cómo procede?",
+      "opciones": [
+        "a) Contratación Directa con Microsoft Corp. en Estados Unidos.",
+        "b) Selección Abreviada o Licitación, permitiendo que participen los 'Canales' o 'Partners' autorizados, garantizando así la pluralidad de oferentes del mismo producto.",
+        "c) Cambiar a Software Libre para evitar el problema legal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Estrategia de Contratación: Aunque el fabricante es único, los distribuidores son muchos. La pluralidad se garantiza invitando a los partners. Contratar directo con el fabricante (A) suele ser imposible o más caro. La C es una decisión estratégica, no de contratación."
+    },
+    {
+      "codigo": "PROY-16",
+      "pregunta": "El 28 de diciembre (cierre fiscal), el contratista entrega el software terminado pero las pruebas de estrés muestran que el sistema se cae con 500 usuarios concurrentes. El contrato exigía 1000. El contratista suplica que le reciba a satisfacción para no perder la reserva presupuestal del año, prometiendo arreglar el rendimiento en enero bajo garantía. Usted:",
+      "opciones": [
+        "a) Recibe a satisfacción para salvar el presupuesto de la entidad, dejando constancia en un acta paralela sobre el compromiso de mejora en enero (Principio de Economía).",
+        "b) Se niega a recibir a satisfacción porque el producto no cumple las especificaciones técnicas. Esto implica que el dinero no ejecutado vuelve al tesoro (se pierde) y se debe constituir una 'Cuenta por Pagar' o 'Reserva' solo si el bien hubiera sido recibido efectivamente.",
+        "c) Firma el acta de recibo pero no tramita el pago hasta enero, cuando el sistema funcione correctamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cierre Fiscal: Esta es la prueba de fuego ética. Recibir algo que no funciona para 'salvar la plata' es falsedad en documento público y detrimento patrimonial futuro (porque paga por algo malo). Si no se recibió a satisfacción antes del 31 de diciembre, el recurso no se puede comprometer como 'Cuenta por Pagar' ordinaria. Es preferible la inejecución presupuestal que la cárcel."
+    },
+    {
+      "codigo": "PROY-17",
+      "pregunta": "En un contrato de desarrollo de software a la medida, el contratista entrega el código fuente pero afirma que los derechos patrimoniales de autor le pertenecen y que la Universidad solo tiene una 'Licencia de Uso'. El contrato guardó silencio sobre este punto. Según la Ley de Derechos de Autor y Contratación Estatal:",
+      "opciones": [
+        "a) El contratista tiene razón; si no se pactó explícitamente la cesión, el autor conserva los derechos morales y patrimoniales.",
+        "b) En los contratos de obra por encargo para entidades públicas, se presume que los derechos patrimoniales se ceden a la entidad contratante en la medida necesaria para el cumplimiento del objeto, pero lo ideal era incluir la cláusula de cesión total.",
+        "c) El código fuente es de dominio público automáticamente por haber sido pagado con impuestos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Propiedad Intelectual (IP): La Ley 23 de 1982 y la jurisprudencia indican que en la obra por encargo (software pagado) se presume la transferencia de derechos patrimoniales a la entidad. Sin embargo, el Supervisor debe pelear por la firma de la 'Cesión de Derechos' formal para evitar que el contratista revenda ese mismo software a otra alcaldía sin permiso."
+    },
+    {
+      "codigo": "PROY-18",
+      "pregunta": "El contrato de Nube tiene un ANS (Acuerdo de Nivel de Servicio) de disponibilidad del 99.9%. En el mes, la disponibilidad fue del 95%. El contrato estipula 'Descuentos por Nivel de Servicio'. ¿Cómo procede administrativamente?",
+      "opciones": [
+        "a) Iniciar un Proceso Administrativo Sancionatorio (Multa) con abogado y debido proceso para castigar el incumplimiento.",
+        "b) Aplicar el descuento directamente en la factura o acta de pago mensual, restando el valor correspondiente según la fórmula del contrato, sin necesidad de proceso sancionatorio complejo, pues es una condición de pago pactada.",
+        "c) Exigir al contratista que reponga el tiempo caído extendiendo el contrato gratis por el doble de las horas perdidas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Multas vs. ANS: Las multas son sanciones (requieren debido proceso, defensa, etc.). Los 'Descuentos por ANS' o 'Acuerdos de Nivel de Servicio' son condiciones técnicas de pago preacordadas (si me das menos servicio, te pago menos). Gerencialmente, la B es la vía rápida y contractual correcta. La A es para incumplimientos graves que no están tabulados como ANS."
+    },
+    {
+      "codigo": "PROY-19",
+      "pregunta": "Usted supervisa un contrato Ágil. El 'Líder Técnico' clave del contratista (Senior) renuncia. El proveedor propone reemplazarlo por dos desarrolladores Junior para 'compensar' la fuerza de trabajo. ¿Acepta?",
+      "opciones": [
+        "a) Sí, dos cabezas piensan mejor que una y aumentan la velocidad del equipo (Velocity).",
+        "b) No, en contratación estatal los perfiles del equipo clave son requisitos habilitantes o de calificación. El reemplazo debe tener un perfil (títulos y experiencia) igual o superior al del Senior original, independientemente de la cantidad de personas.",
+        "c) Acepta provisionalmente mientras consiguen un Senior para no detener el Sprint."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Recursos Humanos: En lo público, la idoneidad del contratista se mide por su equipo. Cambiar un Senior por Juniors altera las condiciones con las que ganaron la licitación (violación a la Selección Objetiva). Debe exigirse la equivalencia estricta del perfil."
+    },
+    {
+      "codigo": "PROY-20",
+      "pregunta": "Se descubre una vulnerabilidad crítica de seguridad (Zero-day) en el software entregado hace 6 meses. El contrato ya se liquidó. ¿Puede exigirle al contratista que lo arregle sin costo?",
+      "opciones": [
+        "a) No, el contrato está liquidado y extinguido. Cualquier arreglo requiere un contrato nuevo de mantenimiento.",
+        "b) Sí, invocando la garantía de calidad y estabilidad del bien/servicio (que suele ser de 1 a 3 años en software), ya que una vulnerabilidad de código es un 'vicio oculto' o defecto de fabricación.",
+        "c) Sí, pero solo si el contratista actuó con dolo (mala fe)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Garantías Post-Contractuales: La liquidación cierra cuentas, pero no anula las garantías vigentes. Un fallo de seguridad derivado de mala codificación (ej. SQL Injection) es un defecto de calidad cubierto por la póliza y la obligación de garantía."
+    },
+    {
+      "codigo": "PROY-21",
+      "pregunta": "Pago Anticipado vs. Anticipo: El proveedor de licencias de Oracle exige el pago del 100% anual por adelantado para activar el servicio. Jurídica dice que la ley prohíbe pagar servicios no recibidos. ¿Cuál es la solución viable?",
+      "opciones": [
+        "a) Configurar el pago como un 'Anticipo' del 100%, exigiendo un Plan de Inversión del Anticipo.",
+        "b) Configurar el pago como 'Pago Anticipado' (figura excepcional), justificándolo técnicamente por las condiciones de mercado del fabricante monopólico y exigiendo una póliza de cumplimiento que cubra el 100% del valor girado por el periodo de vigencia.",
+        "c) Negociar con Oracle para que acepte pagos mensuales vencidos (Net 30)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión Financiera: El 'Anticipo' es dinero público en manos del contratista para invertir (obra). El 'Pago Anticipado' es pagarle al contratista antes de recibir el bien. En suscripciones SaaS/Licencias es común el pago anticipado, pero requiere una justificación fuerte y Póliza por el 100% para proteger la plata si Oracle quiebra o incumple."
+    },
+    {
+      "codigo": "PROY-22",
+      "pregunta": "Durante la interventoría de un Data Center, el contratista instala un UPS 'remanufacturado' con garantía de nuevo, argumentando escasez mundial de chips. El pliego pedía equipos 'nuevos'. ¿Qué hace?",
+      "opciones": [
+        "a) Rechazar el equipo. 'Nuevo' significa de primer uso y sin repotenciación. Aceptar remanufacturado modifica las especificaciones técnicas y viola la transparencia frente a otros oferentes que cotizaron equipos nuevos (más caros).",
+        "b) Aceptar el equipo si el fabricante certifica que la funcionalidad es idéntica al nuevo y extiende la garantía un año más.",
+        "c) Solicitar un descuento del 30% al valor del ítem para aceptarlo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gestión de Calidad y Adquisiciones: En contratación pública, las especificaciones técnicas son inamovibles si afectan el precio o la comparación de ofertas. Aceptar equipos usados/repotenciados cuando se pagaron como nuevos es detrimento patrimonial y favorecimiento a terceros."
+    },
+    {
+      "codigo": "PROY-23",
+      "pregunta": "Conflicto Supervisor-Interventor: El Interventor externo recomienda NO recibir un entregable de software. Usted, como Supervisor (y jefe del área TI), lo revisa y considera que sí funciona y que el Interventor es demasiado estricto. ¿Puede usted firmar el recibido a satisfacción ignorando al Interventor?",
+      "opciones": [
+        "a) No, el concepto del Interventor es vinculante y obligatorio.",
+        "b) Sí puede, porque la Supervisión (entidad) tiene la potestad final de decisión contractual, pero al hacerlo asume total responsabilidad administrativa, disciplinaria y fiscal por contradecir el concepto técnico experto por el cual pagó (Interventoría), lo cual es un riesgo altísimo.",
+        "c) Sí, siempre y cuando el Rector lo autorice."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Roles y Responsabilidades: El Supervisor es el ordenador del gasto operativo. Puede apartarse del concepto del Interventor (que es un asesor), pero la carga de la prueba se invierte: si algo falla, el Supervisor actuó con 'Culpa Grave' al ignorar la advertencia técnica. En la práctica PJS: no lo haga salvo certeza absoluta."
+    },
+    {
+      "codigo": "PROY-24",
+      "pregunta": "El contratista utilizó librerías de Software Libre (GPL) para desarrollar un módulo del sistema misional de la Universidad. Ahora, una comunidad externa exige que la Universidad libere todo el código fuente de su sistema misional. El contrato decía 'Software Propietario'. ¿Cuál fue el fallo de gestión?",
+      "opciones": [
+        "a) No haber prohibido el uso de licencias virales (Copyleft/GPL) en los pliegos o no haber auditado la composición del software (SCA - Software Composition Analysis) durante el desarrollo.",
+        "b) No haber pagado las licencias de las librerías gratuitas.",
+        "c) No hay fallo, la Universidad tiene inmunidad soberana y no está obligada a liberar código."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Riesgo Legal TI: Las licencias GPL son 'virales'. Si usas una librería GPL y la vinculas a tu código propietario, tu código se vuelve GPL obligatoriamente. El Gerente de Proyecto debió gestionar este riesgo limitando el uso a licencias permisivas (MIT, Apache) o aislando los componentes."
+    },
+    {
+      "codigo": "PROY-25",
+      "pregunta": "El contrato finalizó hace 2 meses y el contratista no aparece para firmar el Acta de Liquidación Bilateral ni responde correos. Queda un saldo a favor del contratista por pagar. ¿Qué procede?",
+      "opciones": [
+        "a) Esperar indefinidamente hasta que aparezca para no vulnerar su derecho de defensa.",
+        "b) Proceder con la Liquidación Unilateral mediante Acto Administrativo (Resolución), detallando el balance técnico y financiero, y consignar el saldo a favor en un depósito judicial o lo que indique la norma de tesorería.",
+        "c) Declarar el abandono del contrato y apropiarse del saldo pendiente como indemnización."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cierre Contractual: Si no hay acuerdo o comparecencia para la liquidación Bilateral, la Administración tiene el deber (y la facultad) de Liquidar Unilateralmente dentro de los tiempos de ley (generalmente antes de que caduque la acción contractual, 2 años, pero idealmente en los 4-6 meses post-fin)."
+    },
+    {
+      "codigo": "PROY-26",
+      "pregunta": "Durante la planeación de un proyecto de Big Data, usted estima el presupuesto basándose en una cotización informal de un amigo proveedor. Al abrir la licitación, nadie se presenta (Desierta) porque el presupuesto es muy bajo. ¿Qué error cometió en la fase MGA/Preparación?",
+      "opciones": [
+        "a) No haber hecho publicidad suficiente en redes sociales.",
+        "b) Deficiencia en el Estudio de Mercado. Debió solicitar cotizaciones formales a varios proveedores, consultar precios históricos y analizar el sector (SICE/SECOP) para establecer un presupuesto oficial realista.",
+        "c) No haber usado la TRM del día de la adjudicación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Estudio de Mercado: Es el pilar del presupuesto público. Un estudio de mercado deficiente causa procesos desiertos o sobrecostos. Basarse en una sola fuente informal es negligencia en la planeación."
+    },
+    {
+      "codigo": "PROY-27",
+      "pregunta": "Usted está migrando el correo a la nube. Los datos de los estudiantes (incluyendo menores de edad) se alojarán en servidores en un país que no tiene tratado de protección de datos con Colombia. ¿Qué dice la Superintendencia de Industria y Comercio (SIC)?",
+      "opciones": [
+        "a) Está prohibido transferir datos a países sin nivel adecuado de protección, salvo autorización expresa de cada titular o que el contrato incluya cláusulas contractuales tipo que garanticen el estándar colombiano.",
+        "b) No hay problema porque la nube es etérea y no tiene ubicación física.",
+        "c) Está permitido siempre que los datos estén cifrados."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Soberanía de Datos y Ley 1581: La transferencia internacional de datos está restringida a países 'seguros'. Si el país no está en la lista de la SIC, se requiere una declaración de conformidad o cláusulas contractuales vinculantes. Ignorar esto es causal de sanción millonaria."
+    },
+    {
+      "codigo": "PROY-28",
+      "pregunta": "El contratista de soporte en sitio (Mesa de Ayuda) no dotó a sus técnicos con uniformes ni EPPs, aunque el contrato lo exigía. Los técnicos trabajan bien, pero usted nota el incumplimiento. El contratista dice: 'Prefiero darles un bono en dinero que comprar uniformes'. ¿Usted acepta?",
+      "opciones": [
+        "a) Sí, es un acuerdo laboral privado entre ellos.",
+        "b) No. Como Supervisor debe exigir el cumplimiento del contrato en todos sus ítems. Además, es un riesgo de Seguridad y Salud en el Trabajo (SST). Si hay un accidente, la Universidad podría ser solidariamente responsable.",
+        "c) Acepta si el contratista le da un descuento a la Universidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Supervisión Integral: El Supervisor no solo mira lo técnico. Debe vigilar el cumplimiento de obligaciones laborales y de SST del contratista. La responsabilidad solidaria en accidentes laborales es un riesgo real para la entidad."
+    },
+    {
+      "codigo": "PROY-29",
+      "pregunta": "Usted es designado Supervisor de un contrato ganado por la empresa 'Sistemas X'. Al revisar la Cámara de Comercio, nota que el Representante Legal es el esposo de su hermana. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Ejecutar la supervisión con objetividad e imparcialidad, sin favorecerlo.",
+        "b) Declararse impedido inmediatamente por escrito ante su jefe y solicitar que designen otro supervisor, debido al parentesco (segundo grado de afinidad) que configura conflicto de intereses.",
+        "c) Pedirle a su hermana que se divorcie antes de firmar el acta de inicio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ética Pública y Conflicto de Intereses: No basta con ser honesto, hay que parecerlo. El Código Disciplinario obliga a declararse impedido ante conflicto de intereses por parentesco. No hacerlo es falta gravísima."
+    },
+    {
+      "codigo": "PROY-30",
+      "pregunta": "En un proyecto Scrum, el 'Definition of Done' (DoD) incluye 'Pruebas Unitarias Automáticas'. El equipo entrega la funcionalidad perfecta pero sin las pruebas automáticas por falta de tiempo. ¿Se acepta la historia de usuario?",
+      "opciones": [
+        "a) Sí, lo importante es que funcione el software (Valor para el negocio).",
+        "b) No. En Scrum y en contratación pública, si no cumple el DoD, el entregable no está terminado. Aceptarlo generaría deuda técnica que la entidad tendrá que pagar después (mantenimiento costoso).",
+        "c) Sí, pero se paga al 80% del valor."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Calidad Técnica en Agilismo Público: El 'Definition of Done' es el criterio de aceptación de calidad. Aceptar deuda técnica (falta de pruebas) es irresponsable administrativamente, pues se paga precio full por un producto de calidad inferior a la pactada."
+    },
+    {
+      "codigo": "PROY-01",
+      "pregunta": "Durante el desarrollo de un software usando Scrum en la I.U. Pascual Bravo, la oficina jurídica exige cumplir exactamente el cronograma original del contrato público. El último Sprint requiere dos semanas más de ajuste. ¿Qué debes hacer?",
+      "opciones": [
+        "a) Completar el Sprint sin pedir ajuste formal, reportando avance internamente.",
+        "b) Solicitar una modificación formal del cronograma ante la entidad y documentar el ajuste en el acta de comité de cambios.",
+        "c) Acortar las funcionalidades planeadas en el Sprint sin informar al cliente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Solo b cumple con la obligación legal de los contratos estatales. Los ajustes y cambios deben ser oficializados y documentados, conforme a Ley 80 y las buenas prácticas de gestión pública."
+    },
+    {
+      "codigo": "PROY-02",
+      "pregunta": "El rector pide que el software incluya nuevas funcionalidades no contempladas en el alcance aprobado y en el contrato inicial. ¿Cómo debe responder el jefe de proyecto?",
+      "opciones": [
+        "a) Incorporarlas inmediatamente para satisfacer la alta dirección.",
+        "b) Explicar la necesidad de trámite formal por comité de cambios y, si procede, adición presupuestal previa a su ejecución.",
+        "c) Solo incorporar los cambios que no requieran reprogramación ni sobrecostos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b es correcta porque implica apego a la norma pública. El alcance contractual se modifica formalmente y no se deben ejecutar cambios fuera de lo aprobado. a y c violan el debido proceso."
+    },
+    {
+      "codigo": "PROY-03",
+      "pregunta": "Estás supervisando la migración de datos a una nueva plataforma TI. El proveedor propone migrar datos sensibles sin encriptación para acelerar la entrega. ¿Decisión más adecuada?",
+      "opciones": [
+        "a) Permitirlo para cumplir plazo contractual.",
+        "b) Exigir migración segura y encriptada, documentando en el informe de supervisión cualquier ajuste en plazo.",
+        "c) Migrar sólo los datos no sensibles y dejar el resto para después."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La seguridad no puede sacrificarse por rapidez, sobre todo en entidades públicas. b sigue norma técnica y legal de protección de datos, priorizando el debido proceso sobre la agilidad técnica."
+    },
+    {
+      "codigo": "PROY-04",
+      "pregunta": "En Scrum, el cliente pide incrementar la cantidad de entregables por Sprint, pero el equipo ya cumple el contrato y presenta entregables aceptados. ¿Qué hacer?",
+      "opciones": [
+        "a) Incrementar entregables por presión directiva, aunque implique sobrecargas.",
+        "b) Revisar la viabilidad técnica y contractual, y negociar formalmente ajustes en comité de cambios.",
+        "c) Posponer las solicitudes nuevas hasta finalizar el contrato firmado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b permite manejar cambios conforme a mejores prácticas y regulaciones. a y c priorizan respuestas rápidas o evasivas, ignorando la gestión adecuada del alcance y comunicación formal."
+    },
+    {
+      "codigo": "PROY-05",
+      "pregunta": "El proveedor de servicios informáticos incumple el tiempo de ANS (Acuerdo de Nivel de Servicio) pactado. El área usuaria solicita recibir el servicio 'a satisfacción' para no retrasar el proceso. ¿Qué acción toma el supervisor?",
+      "opciones": [
+        "a) Recibe el servicio y documenta la excepción.",
+        "b) Rechaza la entrega, exige reprogramación, y reporta el incumplimiento en el acta de supervisión.",
+        "c) Consulta informalmente si el área usuaria puede tolerar el retraso."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b respeta los criterios técnicos y legales: cumplimiento fiel del ANS y no tolerar desviaciones que comprometan seguridad, calidad o responsabilidad contractual."
+    },
+    {
+      "codigo": "PROY-06",
+      "pregunta": "Durante la implementación de un software educativo, detectas que el Product Owner está modificando el Product Backlog fuera de las reuniones formales y sin registrar cambios en documentos legales. ¿Cómo procedes?",
+      "opciones": [
+        "a) Permitir los cambios para agilizar el desarrollo.",
+        "b) Solicitar registrar todos los cambios mediante actas y actualizar la documentación contractual antes de ejecutarlos.",
+        "c) Ignorar los cambios mientras no afecten entregables del Sprint en curso."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b evita vulnerar trazabilidad y control estatal. Cambios fuera de la formalidad pueden acarrear sanción por incumplimiento contractual y ausencia de evidencia legal."
+    },
+    {
+      "codigo": "PROY-07",
+      "pregunta": "Caso: El gerente de TI pide entregar reportes mensuales con menos validaciones para no retrasar la entrega al financiador. ¿Decisión más adecuada?",
+      "opciones": [
+        "a) Omitir validaciones para cumplir plazos.",
+        "b) Mantener el estándar de validación y explicar a gerencia la importancia de reportes consistentes y verificables.",
+        "c) Presentar dos reportes: uno rápido y otro validado posteriormente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control, calidad y consistencia son exigencias públicas. b mantiene la integridad del proyecto frente a presiones institucionales."
+    },
+    {
+      "codigo": "PROY-08",
+      "pregunta": "El revisor fiscal advierte que el contrato TI carece de matriz de riesgos específica y exige su inclusión. ¿Cómo respondes?",
+      "opciones": [
+        "a) Incorporas la matriz solo si surgen incidentes.",
+        "b) Documentas y presentas la matriz de riesgos inmediatamente, gestionando su aprobación en el comité de seguimiento.",
+        "c) Esperas la siguiente etapa del proyecto para definir riesgos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La matriz de riesgos es obligatoria desde el inicio según mejores prácticas y normativa pública. b corrige el problema de forma formal e inmediata."
+    },
+    {
+      "codigo": "PROY-09",
+      "pregunta": "Durante una auditoría, el equipo de desarrollo TI sugiere entregar evidencias parciales para ganar tiempo mientras termina los entregables pendientes. ¿Cuál es la acción profesional correcta?",
+      "opciones": [
+        "a) Presentar lo disponible y actualizar luego.",
+        "b) Informar al auditor estado real y solicitar extensión de plazo, adjuntando cronograma revisado.",
+        "c) Reunir el equipo y decidir internamente si presentar evidencias incompletas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La transparencia y precisión en la información frente a auditoría son prioritarias. b responde correctamente ante entes de control."
+    },
+    {
+      "codigo": "PROY-10",
+      "pregunta": "Mientras gestionas un proyecto ágil, el área jurídica solicita que todos los entregables se validen y reciban oficialmente por acta. El equipo prefiere validaciones informales. ¿Qué hacer?",
+      "opciones": [
+        "a) Validar informalmente y oficializar solo finales.",
+        "b) Formalizar la recepción de cada entregable con acta conforme requerimientos del área jurídica.",
+        "c) Negociar para reducir la cantidad de entregas formales, priorizando agilidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En el Estado, la trazabilidad y formalización son requisitos no negociables, incluso en metodologías ágiles."
+    },
+    {
+      "codigo": "PROY-11",
+      "pregunta": "Se realiza una intervención sobre seguridad TI y detectas que la documentación técnica es insuficiente para validar el trabajo realizado. ¿Acción adecuada?",
+      "opciones": [
+        "a) Aceptar la entrega y solicitar ampliación a futuro.",
+        "b) Rechazar entrega y exigir documentación completa antes de recibir a satisfacción.",
+        "c) Recibir para no retrasar pagos y pedir a Interventoría que lo valide posteriormente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b protege los intereses públicos y asegura trazabilidad. La recepción sin documentación adecuada es ilegal y riesgosa."
+    },
+    {
+      "codigo": "PROY-12",
+      "pregunta": "El proveedor plantea sustituir una herramienta de bases de datos por otra diferente al estándar del contrato, alegando beneficios técnicos y ahorro de tiempo. ¿Qué debe hacer el supervisor?",
+      "opciones": [
+        "a) Autorizar el cambio si el equipo técnico lo respalda.",
+        "b) Solicitar análisis formal, comité de cambios y ajuste contractual antes de aprobar.",
+        "c) Permitir solo si no cambia el costo total."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Todo cambio de estándar requiere trámite formal y análisis especializado antes de autorización. a y c ignoran las normas públicas."
+    },
+    {
+      "codigo": "PROY-13",
+      "pregunta": "En un Sprint de desarrollo, se detecta integración fallida con sistemas antiguos pero el cliente quiere seguir sin solucionar ese punto. ¿Cómo debe responder el líder de proyecto público?",
+      "opciones": [
+        "a) Continuar el Sprint y reportar el riesgo.",
+        "b) Detener el Sprint, activar plan de mitigación y notificar formalmente el riesgo al cliente.",
+        "c) Asegurar solo los entregables comprometidos y dejar la integración para el futuro."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "b sigue la gestión proactiva de riesgos y comunicación formal. a y c omiten el tratamiento de riesgos críticos para el proyecto institucional."
+    },
+    {
+      "codigo": "PROY-14",
+      "pregunta": "Caso: Un ciberataque interrumpe el despliegue final del software. El director solicita aplazar la puesta en producción sin documentar el incidente. ¿Qué hacer?",
+      "opciones": [
+        "a) Aplazar la producción y documentar el incidente en reportes de riesgo y comité.",
+        "b) Aplazar sin documentar nada para no crear alarma.",
+        "c) Solicitar primero autorización del área jurídica antes de actuar."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "a cumple con los principios de gestión de riesgos y transparencia en entidades públicas."
+    },
+    {
+      "codigo": "PROY-15",
+      "pregunta": "Se recibe entregable TI con apariencia correcta en demo, pero tras la revisión técnica, se detectan errores graves. El proveedor pide aceptar la entrega y corregir errores en la siguiente fase. ¿Acción más adecuada?",
+      "opciones": [
+        "a) Recibir la entrega y documentar los errores.",
+        "b) Rechazar oficialmente el entregable hasta que cumpla con los requisitos técnicos, dejando constancia.",
+        "c) Aceptar parcialmente y pedir acta de promesa de corrección."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Recepción a satisfacción implica cumplimiento total de requisitos; aceptar entregables incompletos vulnera la normatividad y afecta la calidad del proyecto público."
+    },
+    {
+      "codigo": "PROY-16",
+      "pregunta": "En una revisión del cronograma de implementación de un sistema TI, identificas que las fechas planeadas por el equipo Scrum no coinciden con los hitos contractuales exigidos por la entidad pública. ¿Qué debes hacer?",
+      "opciones": [
+        "a) Ajustar internamente el cronograma Scrum y reportar solo los avances reales al cliente.",
+        "b) Realizar ajuste formal en el cronograma contractual y notificar a todos los interesados mediante documento oficial.",
+        "c) Continuar con los Sprints originales y negociar el ajuste con el cliente al final."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La gestión pública requiere formalidad y trazabilidad contractual; los cambios deben ser reportados y oficializados oportunamente."
+    },
+    {
+      "codigo": "PROY-17",
+      "pregunta": "Durante la ejecución, el Product Owner solicita una integración con un sistema externo que implica costos adicionales no previstos. ¿Cómo manejar el cambio?",
+      "opciones": [
+        "a) Ejecutar la integración para no perder tiempo y ajustar el presupuesto después.",
+        "b) Evaluar impacto, tramitar formalmente el cambio y solicitar adición presupuestal antes de ejecutar.",
+        "c) Negar el cambio argumentando que no está dentro del alcance inicial."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Solamente b responde tanto al debido proceso como a la gestión técnica adecuada. Los cambios deben ser gestionados formalmente antes de ejecución."
+    },
+    {
+      "codigo": "PROY-18",
+      "pregunta": "El proveedor de la plataforma TI ha incumplido la entrega de documentación técnica exigida en la matriz contractual. El área usuaria considera suficiente el manual presentado. ¿Qué hace el supervisor?",
+      "opciones": [
+        "a) Recibe el entregable del manual como válido.",
+        "b) Exige la documentación técnica y no recibe el entregable hasta cumplimiento pleno.",
+        "c) Solicita revisión técnica posterior a la recepción."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La entrega a satisfacción exige cumplimiento total, no sólo parcial. Documentos técnicos son obligatorios para recepción válida."
+    },
+    {
+      "codigo": "PROY-19",
+      "pregunta": "Durante la ejecución de un cambio en el sistema de matrículas, detectas que el área jurídica no fue informada formalmente y hay riesgos contractuales. ¿Qué acción es adecuada?",
+      "opciones": [
+        "a) Informar a jurídica después de ejecutar el cambio.",
+        "b) Detener el cambio, informar oficialmente a jurídica y documentar riesgos.",
+        "c) Consultar informalmente al responsable de jurídica antes de continuar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La gestión de cambios debe ser formal y documentada antes de seguir con la ejecución, minimizando riesgos contractuales."
+    },
+    {
+      "codigo": "PROY-20",
+      "pregunta": "El equipo TI recibe presión para sacrificar pruebas de integración para no retrasar la entrega. ¿Qué debe hacer el líder de proyecto?",
+      "opciones": [
+        "a) Aceptar la presión y entregar sin pruebas completas.",
+        "b) Mantener el plan de pruebas y exponer formalmente los riesgos a la entidad.",
+        "c) Realizar pruebas parciales y entregar, completando luego."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La entrega de calidad exige cumplir con todas las fases de validación técnica, más aún en gestión pública."
+    },
+    {
+      "codigo": "PROY-21",
+      "pregunta": "Detectas que la infraestructura para el despliegue es insuficiente pero la alta dirección insiste en continuar el proyecto. ¿Cómo actúas?",
+      "opciones": [
+        "a) Ejecutas el despliegue y reportas los problemas posteriormente.",
+        "b) Documentas la insuficiencia, solicitas recursos adicionales y detienes el despliegue hasta toma de decisión formal.",
+        "c) Buscas soluciones informales para atender la directriz."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La gestión responsable requiere evidencia y decisión formal antes de continuar acciones con riesgos."
+    },
+    {
+      "codigo": "PROY-22",
+      "pregunta": "En la supervisión, un proveedor de software pide acelerar pagos aunque aún está pendiente la integración final con sistemas externos. ¿Decisión adecuada?",
+      "opciones": [
+        "a) Autorizar pago anticipado por buena fe.",
+        "b) Solicitar el cumplimiento total y recibir formalmente solo tras integración exitosa.",
+        "c) Realizar pago parcial y exigir el resto tras finalizar la integración."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En administración pública, los pagos deben ejecutarse únicamente tras la recepción completa y a satisfacción de los entregables."
+    },
+    {
+      "codigo": "PROY-23",
+      "pregunta": "Durante el tercer Sprint, el cliente (Decano) solicita un reporte de avance diferente al modelo contractual aprobado. ¿Cómo manejar el requerimiento?",
+      "opciones": [
+        "a) Elaborar el reporte solicitado y enviar sin modificar el plan contractual.",
+        "b) Analizar la petición, documentar el cambio y tramitar la aprobación formal antes de enviar.",
+        "c) No enviar el reporte porque no está pactado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cambios en informes o productos deben ser gestionados formalmente en entidades públicas."
+    },
+    {
+      "codigo": "PROY-24",
+      "pregunta": "En medio de la ejecución, se produce una falla masiva en la red universitaria por un ataque de ransomware. El equipo técnico quiere restaurar el sistema sin informar oficialmente. ¿Qué deberías hacer?",
+      "opciones": [
+        "a) Restaurar el sistema primero y después informar.",
+        "b) Informar oficialmente del incidente y del plan de restauración, documentando todo el proceso.",
+        "c) Esperar la autorización de alta gerencia para informar públicamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La comunicación oportuna y la trazabilidad de riesgos son críticas en gestión pública, particularmente con ciberincidentes."
+    },
+    {
+      "codigo": "PROY-25",
+      "pregunta": "El contrato establece recepción por Comité de Cambios para cualquier modificación. El cliente solicita ajustes de menor alcance directamente al desarrollador. ¿Decisión adecuada?",
+      "opciones": [
+        "a) Permitir cambios menores sin comité para agilizar.",
+        "b) Requiere que todo cambio, por mínimo que sea, pase por el Comité de Cambios y se documente.",
+        "c) Documenta sólo cambios mayores en el Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En la contratación pública, toda modificación debe tener trazabilidad formal por acta, sin excusas."
+    },
+    {
+      "codigo": "PROY-26",
+      "pregunta": "El interventor sugiere recibir el software pese a reportes de vulnerabilidad, indicando que los parches se instalarán luego. ¿Cómo actúa el supervisor?",
+      "opciones": [
+        "a) Recibe el software y documenta la promesa de parche.",
+        "b) No recibe el entregable hasta subsanar vulnerabilidades y dejar constancia formal.",
+        "c) Solicita acta de compromiso y levanta la observación para pago."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La recepción de entregables TI en sectores públicos exige cumplimiento técnico completo, sin promesas de corrección."
+    },
+    {
+      "codigo": "PROY-27",
+      "pregunta": "Durante la migración de datos, surge la necesidad de modificar protocolos de seguridad no contemplados originalmente. El proveedor propone ajustes inmediatos sin aprobación. ¿Qué decides?",
+      "opciones": [
+        "a) Permitir ajustes técnicos y documentar luego.",
+        "b) Solicitar revisión formal y aprobación por el área jurídica y comité de seguridad antes de ejecutar.",
+        "c) Sólo aplicar cambios si el equipo técnico acuerda."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Modificaciones técnicas en seguridad deben pasar por aprobación formal para no incurrir en riesgos legales o contractuales."
+    },
+    {
+      "codigo": "PROY-28",
+      "pregunta": "La gerencia propone entregar la parte operativa de un software aunque el módulo de reportes presenta fallas graves, para cumplir fechas contractuales. ¿Qué haces?",
+      "opciones": [
+        "a) Entregas sólo la parte operativa, dejando constancia de los errores.",
+        "b) Rechazas la entrega hasta que todo el sistema cumpla especificaciones.",
+        "c) Entregas y solicitas a la gerencia autorización por escrito."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La recepción por partes no exime cumplimiento técnico integral en proyectos TI públicos."
+    },
+    {
+      "codigo": "PROY-29",
+      "pregunta": "En un contrato de desarrollo ágil, el área jurídica detecta que los entregables intermedios no tienen actas de recepción oficial. ¿Cuál es el procedimiento adecuado?",
+      "opciones": [
+        "a) Documentar y formalizar la recepción retroactivamente.",
+        "b) Formalizar la recepción de todos los entregables desde la fecha y exigir actas futuras.",
+        "c) Permitir que sólo el entregable final tenga acta oficial."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Recepciones por acta deben formalizarse siempre y desde todos los entregables relevantes, sin excepción."
+    },
+    {
+      "codigo": "PROY-30",
+      "pregunta": "El Product Owner solicita modificar la interfaz de usuario a mitad de Sprint, lo que implica reprogramar fechas y recursos. ¿Qué acción sigues?",
+      "opciones": [
+        "a) Modificas la interfaz y ajustas el cronograma al final del Sprint.",
+        "b) Detienes el Sprint, analizas impacto, y tramitas cambio formalmente con actualización de recursos y fechas.",
+        "c) Ejecutas el cambio si no implica sobrecosto."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Todo cambio relevante debe ser gestionado de forma formal y previa a su ejecución."
+    },
+    {
+      "codigo": "PROY-01",
+      "pregunta": "Usted es el líder de un proyecto de desarrollo de software académico en la Institución Universitaria Pascual Bravo. Internamente definieron trabajar con un enfoque ágil tipo Scrum, con sprints de 3 semanas. Sin embargo, el contrato estatal firmado bajo la Ley 80 establece un cronograma rígido con hitos trimestrales que condicionan los pagos. El proveedor propone modificar unilateralmente las fechas de los hitos en el cronograma contractual para alinearlos a los sprints, sin pasar por trámites adicionales, argumentando que \"eso no afecta el objeto\". Como supervisor del contrato, ¿cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Aceptar la propuesta del proveedor y ajustar el cronograma contractual por intercambio de correos, sin modificar el contrato formalmente, porque la intención es mejorar la gestión ágil del proyecto.",
+        "b) Mantener el cronograma contractual vigente y acordar que la planificación interna por sprints se organice dentro de los hitos ya definidos, utilizando los sprints como herramienta de gestión pero sin alterar el contrato sin el debido trámite.",
+        "c) Suspender de inmediato el uso de Scrum y exigir que el proveedor se ajuste estrictamente al cronograma en cascada, prohibiendo cualquier planificación interna por sprints para evitar conflictos con la contratación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la más adecuada porque reconoce que el contrato estatal tiene hitos y fechas que solo pueden modificarse mediante los trámites formales (otrosí, adición, modificación), y que la planificación ágil puede coexistir como mecanismo interno de gestión sin cambiar el cronograma contractual. La opción a) es riesgosa, pues supone modificar de hecho un elemento contractual sin observar el procedimiento de modificación. La opción c) desconoce que puede combinarse un enfoque ágil interno con el cumplimiento de los compromisos contractuales, sacrificando innecesariamente buenas prácticas de gestión."
+    },
+    {
+      "codigo": "PROY-02",
+      "pregunta": "En medio del desarrollo de un sistema de gestión de prácticas estudiantiles, el decano solicita que se incluya un nuevo módulo de analítica avanzada que no estaba descrito en el alcance del contrato. El proveedor, interesado en mantener la relación, se ofrece a incluir el módulo siempre que se reduzcan algunos entregables de capacitación y documentación previstos, para no pedir adición de recursos ni modificación formal del contrato. Como supervisor del contrato, ¿cómo debe manejar esta solicitud de cambio de alcance?",
+      "opciones": [
+        "a) Aceptar el intercambio de entregables propuesto, eliminando formalmente las actividades de capacitación y documentación para incluir el nuevo módulo, sin modificar el contrato, porque el valor total se mantiene.",
+        "b) Indicar que cualquier cambio sustancial en el alcance debe ser analizado formalmente (impacto en tiempo, costo y riesgos) y, si se decide incorporarlo, tramitarse mediante el procedimiento de control de cambios y modificación contractual correspondiente.",
+        "c) Aceptar la inclusión del nuevo módulo como un \"mejoramiento sin costo\" acordado en acta de comité, permitiendo que el proveedor ajuste internamente recursos y entregables mientras cumpla la fecha final."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce que un cambio sustancial en el alcance contractual no puede compensarse informalmente reduciendo otros entregables, sin análisis formal ni modificación contractual. Es necesario evaluar impacto y, si se aprueba, ajustar el contrato conforme a la normativa de contratación. La opción a) elimina entregables funcionales (capacitación, documentación) sin reflejarlo contractualmente, afectando la calidad y la trazabilidad. La opción c) introduce un cambio importante bajo la etiqueta de \"mejoramiento sin costo\", escapando al control formal de cambios y exponiendo a la entidad y al supervisor a riesgos contractuales."
+    },
+    {
+      "codigo": "PROY-03",
+      "pregunta": "Durante una migración de datos desde un sistema académico legado a uno nuevo, se detecta que un porcentaje significativo de historiales académicos se migró con inconsistencias. El proveedor sugiere ajustar manualmente algunos registros críticos y continuar con la siguiente fase para no retrasar el cronograma, dejando la corrección del resto de datos \"para la operación\". La interventoría advierte que esto pone en riesgo la integridad de la información. Como supervisor del contrato, se le pide decidir sobre la aceptación del hito de migración. ¿Cuál es la mejor decisión?",
+      "opciones": [
+        "a) Aceptar el hito de migración condicionado a que el proveedor firme un compromiso de corregir los datos en producción después de la puesta en marcha, permitiendo que el proyecto avance sin modificar el cronograma.",
+        "b) Rechazar el hito de migración y solicitar un plan de corrección y nueva prueba de migración, dejando constancia en acta de las inconsistencias y de las recomendaciones de la interventoría, aun cuando implique reprogramar actividades.",
+        "c) Aceptar el hito de migración porque la mayoría de los datos son correctos y las inconsistencias pueden considerarse incidentes menores que se atenderán como parte del soporte post-producción."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la adecuada porque prioriza la integridad de la información académica, que es crítica en un sistema institucional, y se alinea con el rol del supervisor de velar por el cumplimiento técnico del contrato. El rechazo del hito y la exigencia de un plan de corrección se respaldan en el concepto de la interventoría y se documentan formalmente. La opción a) traslada el riesgo a la operación y debilita el control sobre la calidad de la migración. La opción c) minimiza un riesgo grave como si fuera incidental, justificándose en la presión del cronograma, lo cual es típico en errores de juicio situacional."
+    },
+    {
+      "codigo": "PROY-04",
+      "pregunta": "El contrato de soporte de la plataforma de correo institucional incluye Acuerdos de Niveles de Servicio (ANS) claros: disponibilidad mensual mínima del 99,5% y tiempos máximos de atención. El informe mensual muestra varios incumplimientos graves, pero el proveedor alega que se debieron a \"causas externas\" no documentadas y propone compensar con horas de consultoría adicionales sin que se registre incumplimiento. La alta dirección presiona para \"no tener problemas\" con el proveedor porque es estratégico en otros contratos. Como supervisor, ¿qué debería hacer?",
+      "opciones": [
+        "a) Aceptar la compensación informal propuesta por el proveedor, sin registrar el incumplimiento de ANS, para mantener una relación armónica y evitar procesos sancionatorios que consuman tiempo.",
+        "b) Registrar formalmente los incumplimientos de ANS, requerir al proveedor los soportes de sus alegadas causas externas y, con base en ello, activar o no las cláusulas de penalización previstas en el contrato.",
+        "c) Ignorar el informe de incumplimiento del mes, considerando que en meses anteriores el proveedor ha tenido buen desempeño y no es conveniente afectar su reputación por un periodo aislado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el supervisor debe actuar conforme al contrato y a los ANS acordados, documentando los incumplimientos y gestionando las posibles penalizaciones con soporte objetivo. La revisión de las supuestas causas externas debe hacerse con evidencias, no por afirmaciones verbales. La opción a) renuncia al control contractual y formaliza acuerdos paralelos sin soporte. La opción c) minimiza incumplimientos objetivos basándose en percepciones pasadas, lo que puede ser interpretado como tolerancia injustificada frente a fallas en un servicio crítico."
+    },
+    {
+      "codigo": "PROY-05",
+      "pregunta": "En pleno desarrollo de una nueva plataforma de trámites en línea, se presenta un ciberataque que aprovecha vulnerabilidades ya identificadas por el equipo técnico pero aún no corregidas porque \"no estaban en el alcance\" del sprint actual. El proveedor propone posponer la implementación de las medidas de seguridad para no retrasar la entrega funcional comprometida en el contrato, argumentando que la seguridad se puede tratar como un \"proyecto separado\" más adelante. Usted, como líder del proyecto y supervisor, debe decidir cómo ajustar el plan.",
+      "opciones": [
+        "a) Mantener el plan de sprints y priorizar la entrega funcional, dejando las correcciones de seguridad para un contrato posterior, siempre que se documente el incidente en el informe mensual.",
+        "b) Repriorizar el backlog y ajustar el plan de trabajo para incorporar de inmediato las medidas de seguridad necesarias, gestionando formalmente el impacto en tiempo y alcance con el proveedor y documentando el cambio en actas y, si corresponde, mediante modificación contractual.",
+        "c) Solicitar al proveedor que implemente medidas de mitigación temporales mínimas sin alterar el sprint actual ni el alcance contractual, confiando en que eso será suficiente hasta un futuro refuerzo de seguridad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la más adecuada porque la seguridad de la información en servicios de trámites en línea es crítica y no debe relegarse para no afectar cronogramas de forma artificial. Repriorizar el backlog e incorporar la corrección de vulnerabilidades responde al incidente y exige gestionar formalmente el impacto contractual. La opción a) separa indebidamente seguridad y funcionalidad, dejando expuestos a los usuarios. La opción c) sugiere mitigaciones superficiales sin alterar el plan formal, lo que rara vez es suficiente ante vulnerabilidades ya explotadas."
+    },
+    {
+      "codigo": "PROY-06",
+      "pregunta": "La Institución Universitaria Pascual Bravo contrató bajo la MGA la implementación de un sistema de información financiero, con un plan en cascada detallado (etapas, productos, fechas). El proveedor insiste en que, para manejar mejor la complejidad, quiere organizar internamente el desarrollo usando Scrum, pero sugiere que no se generen actas ni evidencias de las reuniones de revisión de cada sprint para que \"no se burocratice\" el proyecto. Como supervisor, la alta dirección le consulta si acepta esa forma de trabajo.",
+      "opciones": [
+        "a) Aceptar que el proveedor use Scrum sin generar evidencias formales de los sprints, siempre que cumpla los entregables finales contractuales, para no mezclar la agilidad con los procedimientos administrativos.",
+        "b) Permitir que el proveedor use Scrum internamente, pero exigir que las revisiones de sprint relevantes se documenten en actas o informes que respalden el avance, de modo que sirvan como evidencia del cumplimiento progresivo del contrato.",
+        "c) Rechazar completamente el uso de Scrum y ordenar al proveedor que utilice únicamente una planificación detallada en cascada, dado que el proyecto está formulado en MGA."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) concilia la flexibilidad de Scrum con las exigencias de trazabilidad y evidencia propias de la gestión pública. Es legítimo que el proveedor use métodos ágiles, pero la entidad debe contar con documentación suficiente que respalde decisiones y avances. La opción a) debilita el control y la trazabilidad, dejando al proyecto sin soporte documental intermedio. La opción c) supone que un proyecto MGA obliga a prohibir metodologías ágiles, desaprovechando herramientas de gestión que pueden ser útiles dentro del marco contractual."
+    },
+    {
+      "codigo": "PROY-07",
+      "pregunta": "Cerca del cierre de un proyecto de implementación de un portal de servicios estudiantiles, el Rector solicita que se incluya una funcionalidad para generar certificados personalizados con firma electrónica avanzada, que no estaba contemplada en el alcance ni en los requerimientos técnicos del contrato. El proveedor advierte que implica desarrollo adicional y costos significativos. El Rector le indica a usted que instruya al proveedor para que lo haga \"como parte del mismo contrato\" porque \"es crítico para la imagen institucional\". ¿Cuál debe ser su actuación como supervisor?",
+      "opciones": [
+        "a) Instruir al proveedor a desarrollar la funcionalidad adicional y acordar verbalmente que no cobrará costos extra, dado que el cambio beneficia la imagen institucional y podría considerarse un mejoramiento sin costo.",
+        "b) Explicar al Rector que la nueva funcionalidad excede el alcance contractual, proponer la elaboración de un análisis de impacto y, de ser aprobada, tramitar la correspondiente modificación contractual o un nuevo contrato, dejando constancia formal de la decisión.",
+        "c) Solicitar al proveedor que empiece el desarrollo de la nueva funcionalidad mientras usted busca posteriormente cómo justificar ese trabajo dentro de los entregables ya contratados, para no generar tensiones con la alta dirección."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque respeta el alcance pactado y los procedimientos de modificación del contrato. Los cambios sustanciales deben ser analizados, aprobados y formalizados, especialmente si implican costos adicionales. La opción a) asume que el proveedor trabajará sin costo y valida un cambio relevante sin soporte contractual. La opción c) autoriza trabajo fuera del contrato sin respaldo, delegando a futuro la justificación, lo que implica riesgo jurídico y disciplinario para el supervisor."
+    },
+    {
+      "codigo": "PROY-08",
+      "pregunta": "En un proyecto de modernización del Data Center, la interventoría emite un informe técnico donde concluye que los sistemas de respaldo eléctrico instalados no cumplen las especificaciones de redundancia definidas en el contrato. El proveedor argumenta que \"en la práctica\" la solución es suficiente y presiona para que se reciba el hito, amenazando con retrasar otras entregas si no se acepta. La alta dirección, preocupada por la continuidad del proyecto, le pregunta si es posible recibir \"parcialmente\" los equipos para avanzar con los pagos. ¿Cuál es la mejor decisión como supervisor?",
+      "opciones": [
+        "a) Recibir parcialmente los equipos y autorizar el pago completo del hito, confiando en que el proveedor ajustará la redundancia más adelante, dado que la solución actual \"funciona\".",
+        "b) Acoger el informe de la interventoría, rechazar la recepción del hito mientras no se ajusten los sistemas de respaldo a las especificaciones contractuales y documentar formalmente la situación, aun si implica negociar un nuevo cronograma.",
+        "c) Recibir parcialmente los equipos y pagar solo un porcentaje del hito, sin dejar constancia del incumplimiento técnico, para mantener la relación fluida con el proveedor."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque el supervisor debe basar su decisión en los informes técnicos de la interventoría, garantizando que los equipos instalados cumplan lo contractual antes de ser recibidos. Recibir y pagar sin cumplimiento total, o hacerlo sin dejar constancia del incumplimiento, debilita la posición de la entidad y la trazabilidad. La opción a) delega la corrección a un futuro incierto sin garantía contractual. La opción c) crea un pago parcial sin reflejar la no conformidad, lo que dificulta exigir correcciones posteriores."
+    },
+    {
+      "codigo": "PROY-09",
+      "pregunta": "En la fase de planeación de un proyecto de implementación de un sistema de gestión documental electrónico, usted identifica el riesgo de dependencia excesiva de un único proveedor propietario, con alta probabilidad de aumentar costos en el futuro y dificultar cambios. El proveedor actual promueve una solución cerrada sin entregar documentación ni posibilidades de integración estándar, y argumenta que así será más rápido el proyecto. La presión por resultados es alta. ¿Cuál es la mejor decisión desde la gestión de riesgos y la perspectiva pública?",
+      "opciones": [
+        "a) Aceptar la solución cerrada porque reduce la duración del proyecto y permite mostrar resultados rápidos, dejando el análisis de dependencia de proveedor para un futuro proyecto.",
+        "b) Plantear el riesgo de dependencia de proveedor en la matriz de riesgos, exigir en los pliegos y en el contrato condiciones que mitiguen ese riesgo (documentación, estándares de integración, transferencia de conocimiento) y considerar alternativas tecnológicas más abiertas si es necesario.",
+        "c) Aplazar indefinidamente el proyecto hasta encontrar una solución completamente abierta y libre de cualquier riesgo de dependencia, aunque eso retrase el cumplimiento de metas institucionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) refleja una gestión de riesgos madura: no niega el riesgo ni lo ignora, sino que lo explícita, define mitigaciones contractuales y considera alternativas tecnológicas. La opción a) prioriza la rapidez por encima de la sostenibilidad tecnológica y financiera, ignorando un riesgo significativo. La opción c) es extrema y puede paralizar el avance institucional, cuando la gestión de riesgos busca equilibrar riesgos y beneficios, no evitarlos a cualquier costo."
+    },
+    {
+      "codigo": "PROY-10",
+      "pregunta": "En el contrato de soporte de la mesa de ayuda TI, los ANS definen que los incidentes críticos deben atenderse en menos de 2 horas. En varias ocasiones el proveedor ha excedido este tiempo, argumentando que el usuario reportó el incidente con información insuficiente. El jefe de área le sugiere que no registre estos casos como incumplimientos porque \"técnicamente\" el proveedor tuvo buena voluntad. Como supervisor y gerente del servicio, ¿cómo debe proceder?",
+      "opciones": [
+        "a) Dejar de registrar estos casos como incumplimientos, considerando que la intención del proveedor fue resolver, y enfocarse solo en incidentes donde haya evidencia de negligencia.",
+        "b) Registrar los casos como incumplimientos de ANS, documentar las circunstancias de cada uno y revisar, junto con el proveedor, si es necesario ajustar los procedimientos de reporte y categorías de incidentes para mejorar la información inicial.",
+        "c) Registrar los casos como incidentes normales sin analizar tiempos de atención, para evitar conflictos formales con el proveedor y con el jefe de área."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la adecuada porque mantiene la objetividad en el registro de los ANS y, al mismo tiempo, abre la puerta para mejorar procesos de reporte y clasificación. El hecho de que falte información puede ser un factor a considerar, pero no justifica omitir por completo la medición del ANS. La opción a) introduce subjetividad y erosiona el control contractual. La opción c) elude la responsabilidad de medir y gestionar el servicio, afectando la transparencia y la mejora continua."
+    },
+    {
+      "codigo": "PROY-11",
+      "pregunta": "Durante la ejecución de un proyecto ágil de desarrollo de un portal de servicios, el backlog inicial fue definido en el contrato en términos de épicas generales. Después de varios sprints, el decano insiste en priorizar continuamente historias de usuario relacionadas con reportes para su facultad, desplazando historias críticas para otros servicios institucionales ya incluidos en el contrato. El equipo de desarrollo ve que, si siguen solo las prioridades del decano, se pondrá en riesgo el cumplimiento de los objetivos institucionales globales. Usted actúa como enlace institucional (similar a Product Owner). ¿Qué debería hacer?",
+      "opciones": [
+        "a) Aceptar las prioridades del decano porque es el usuario más activo, asumiendo que lo importante es satisfacer al demandante principal, aunque otros servicios queden relegados.",
+        "b) Recordar que las prioridades del backlog deben alinearse con los objetivos institucionales y con el alcance del contrato, equilibrando las necesidades del decano con las de otros servicios y explicando la decisión en el comité de proyecto.",
+        "c) Permitir que el decano defina completamente las prioridades de los sprints, pero aumentar el número de horas de desarrollo ad honorem por parte del equipo para cubrir las historias restantes sin modificar el contrato."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque en el contexto público las decisiones de priorización deben responder a objetivos institucionales, no solo a la presión de un área. El rol del enlace institucional es articular intereses y asegurar que el backlog refleje el alcance contratado y las prioridades globales. La opción a) captura el sesgo de satisfacer al usuario más ruidoso en detrimento del resto. La opción c) sugiere una solución poco realista y contraria a la contratación (trabajo gratuito fuera de alcance)."
+    },
+    {
+      "codigo": "PROY-12",
+      "pregunta": "En un proyecto de desarrollo de un módulo de historia académica, se identificó tempranamente el riesgo de tratamiento inadecuado de datos personales sensibles. Sin embargo, por presiones de tiempo, el proveedor propone lanzar el módulo a producción sin completar las pruebas de cumplimiento de la política de protección de datos, argumentando que \"solo lo usarán unos pocos usuarios al principio\". Recursos Humanos y Jurídica aún no han emitido concepto. Usted, como supervisor, debe decidir si autoriza la puesta en producción.",
+      "opciones": [
+        "a) Autorizar la puesta en producción limitada del módulo, confiando en que el bajo número de usuarios inicial reduce el riesgo, y dejar las pruebas de protección de datos para una fase posterior.",
+        "b) Mantener el módulo en ambientes de pruebas hasta completar las validaciones de protección de datos personales con las dependencias competentes, aun si eso implica reprogramar la salida a producción y renegociar fechas con el proveedor.",
+        "c) Autorizar la puesta en producción, pero exigir al proveedor una carta donde asuma toda la responsabilidad por cualquier incidente relacionado con protección de datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la más adecuada porque la protección de datos personales no es negociable ni se relativiza por el número de usuarios. La salida a producción debe supeditarse a las pruebas y conceptos de las áreas responsables. La opción a) minimiza un riesgo legal significativo por presión de tiempo. La opción c) pretende trasladar la responsabilidad al proveedor mediante una carta, pero no exime a la entidad ni al supervisor de cumplir la normativa de protección de datos."
+    },
+    {
+      "codigo": "PROY-13",
+      "pregunta": "En la fase final de un proyecto de digitalización de trámites, el proveedor propone omitir las pruebas de carga y estrés definidas en el plan de calidad para poder cumplir con la fecha de lanzamiento comprometida en el cronograma contractual. Alega que, con base en su experiencia en otros clientes, \"nunca ha habido problemas\" y que las pruebas podrían hacerse en producción si aparece algún incidente. Como supervisor, la decisión está en sus manos.",
+      "opciones": [
+        "a) Aceptar omitir las pruebas de carga y estrés para cumplir la fecha, siempre y cuando el proveedor se comprometa a responder rápidamente a cualquier incidente en producción.",
+        "b) Mantener las pruebas de carga y estrés como requisito previo a la salida a producción, aun si debe negociar una reprogramación de la fecha de lanzamiento, documentando las razones técnicas y contractuales.",
+        "c) Autorizar solo algunas pruebas de carga reducidas, confiando en que serán representativas, pero sin modificar formalmente el plan de calidad ni el cronograma."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque las pruebas de carga y estrés forman parte del aseguramiento de calidad pactado, especialmente críticos en trámites que pueden tener alto volumen de usuarios. Omitirlas por cumplir una fecha expone a la institución a fallas graves. Reprogramar la fecha, con la debida justificación, es coherente con la gestión del riesgo y de la calidad. La opción a) traslada la verificación de capacidad a producción, lo que implica validar con usuarios reales. La opción c) introduce cambios de hecho al plan de calidad sin el ajuste formal ni análisis adecuado."
+    },
+    {
+      "codigo": "PROY-14",
+      "pregunta": "El contrato de desarrollo de un sistema de gestión de prácticas tiene un cronograma aprobado y publicado. Por retrasos imputables a ambas partes, el proveedor propone que simplemente se ajusten las fechas en el cronograma interno del proyecto y se continúe, sin tramitar formalmente la prórroga del contrato, para \"no enredar el proceso\". Usted sabe que las nuevas fechas exceden la vigencia actual del contrato. ¿Cuál es la decisión correcta como supervisor?",
+      "opciones": [
+        "a) Aceptar ajustar solo el cronograma interno y seguir trabajando con las nuevas fechas, con la condición de que todas las partes estén de acuerdo por correo electrónico.",
+        "b) Indicar que, si las nuevas fechas exceden la vigencia del contrato, es obligatorio tramitar formalmente una prórroga o ajustar el alcance, y mientras tanto no se puede formalizar un nuevo cronograma contractual por fuera del procedimiento.",
+        "c) Permitir que el trabajo continúe con el cronograma ajustado, pero suspender temporalmente la firma de actas de avance hasta que se renueve el contrato, confiando en que se regularizará después."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la adecuada porque reconoce que la vigencia y el cronograma contractual no pueden ajustarse solo a través de acuerdos internos o correos. Si el proyecto requiere más tiempo, se debe tramitar formalmente prórroga o ajuste de alcance. Las opciones a) y c) implican continuar la ejecución sin respaldo contractual suficiente, generando riesgos jurídicos tanto para la entidad como para el supervisor."
+    },
+    {
+      "codigo": "PROY-15",
+      "pregunta": "En un proyecto de analítica de datos institucional, el Rector solicita a mitad de ejecución la inclusión de un tablero de control para un proceso que no estaba contemplado. El proveedor estima que requiere 200 horas adicionales de trabajo. El Rector le sugiere a usted que \"coordine\" con el equipo de desarrollo interno para que \"aporte esas horas\" y así el proveedor no cobre más ni se modifique el contrato. El equipo interno ya tiene su propia carga de trabajo prevista. ¿Qué decisión es más adecuada?",
+      "opciones": [
+        "a) Aceptar la propuesta del Rector, reorganizando el trabajo del equipo interno para asumir las 200 horas adicionales y cumplir la nueva solicitud sin modificar el contrato ni el presupuesto.",
+        "b) Explicar que la nueva solicitud implica un cambio sustancial de alcance y horas de trabajo, por lo que debe analizarse si se tramita una modificación contractual, un nuevo proyecto o se reprograman prioridades internas, en lugar de asumir el trabajo sin planificación ni justificación.",
+        "c) Solicitar al proveedor que incluya el nuevo tablero de control sin costo adicional como gesto de buena voluntad, comprometiéndose usted a no reportar eventuales retrasos derivados de ese trabajo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce que 200 horas adicionales representan un cambio significativo que afecta planeación y recursos. La decisión debe pasar por análisis de impacto, priorización y, si involucra al proveedor, por modificación contractual o nuevos acuerdos formales. La opción a) recarga al equipo interno sin planificación, sacrificando otros compromisos institucionales. La opción c) intenta conseguir trabajo adicional del proveedor sin reconocer el impacto, y además compromete al supervisor a no reportar retrasos, lo cual es contrario a la transparencia."
+    },
+    {
+      "codigo": "PROY-16",
+      "pregunta": "En un proyecto de desarrollo del sistema de gestión de proyectos de la Institución Universitaria Pascual Bravo, se acordó internamente trabajar con Scrum. El contrato, sin embargo, establece un hito trimestral con un conjunto definido de funcionalidades mínimas para autorizar el pago. Al acercarse el cierre del trimestre, el equipo no alcanzará todas las historias comprometidas. El proveedor propone mover parte del trabajo incompleto al siguiente sprint, pero registrar en el acta del hito que se cumplió todo el alcance, argumentando que \"igual se entregará en el siguiente sprint\". Como supervisor del contrato, ¿qué debe hacer?",
+      "opciones": [
+        "a) Aceptar el ajuste interno de sprints y registrar el hito como cumplido en el acta, confiando en que el proveedor entregará las historias faltantes en el siguiente sprint sin afectar el servicio.",
+        "b) Indicar que el acta del hito debe reflejar fielmente las funcionalidades realmente entregadas y, si no se cumple el alcance mínimo definido, registrar el incumplimiento y negociar un plan de recuperación formal.",
+        "c) Permitir que el proveedor registre el hito como cumplido, siempre que entregue una carta explicando que algunas funcionalidades serán entregadas en el siguiente sprint sin costo adicional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque el acta del hito contractual debe reflejar objetivamente el cumplimiento real de las funcionalidades mínimas acordadas; no puede maquillarse para coincidir con el cronograma. Si el alcance no se cumple, se debe registrar el incumplimiento y acordar un plan de recuperación formal. La opción a) valida una declaración falsa en el acta, aunque haya buena intención. La opción c) se basa en una carta del proveedor que no subsana la falta de cumplimiento ni sustituye el registro veraz del estado del proyecto."
+    },
+    {
+      "codigo": "PROY-17",
+      "pregunta": "En el contrato de desarrollo del sistema académico, el pliego definió explícitamente los módulos a construir. A mitad del proyecto, el decano de una facultad insiste en que un módulo de simulación de carga académica para docentes \"estaba implícito\" en el alcance, aunque no se menciona en ninguna parte de los términos de referencia. El proveedor indica que es un desarrollo significativo. La alta dirección le pide a usted, como supervisor, que defina si este módulo debe considerarse alcance contratado o un cambio adicional.",
+      "opciones": [
+        "a) Considerar el módulo de simulación de carga académica como alcance implícito del contrato, ya que se relaciona con el sistema académico, e instruir al proveedor para que lo desarrolle sin cambios contractuales.",
+        "b) Señalar que, al no estar descrito en los términos de referencia ni en el alcance pactado, el módulo constituye un cambio de alcance que requiere análisis formal y, de ser aprobado, modificación contractual o nuevo contrato.",
+        "c) Resolver la duda a favor del decano, decidiendo que el módulo es alcance contratado, pero acordar informalmente con el proveedor que reduzca el esfuerzo en otros módulos para compensar el trabajo adicional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque el alcance del contrato se define en los términos de referencia y documentos contractuales, no en expectativas implícitas de las áreas usuarias. Un módulo que no aparece descrito debe tratarse como cambio de alcance y gestionarse formalmente. La opción a) amplía indebidamente el alcance sin soporte documental. La opción c) crea acuerdos informales que alteran el alcance real y la calidad de otros módulos sin reflejo contractual."
+    },
+    {
+      "codigo": "PROY-18",
+      "pregunta": "Durante la migración de datos históricos de estudiantes a una nueva plataforma, se detecta que varias cohortes antiguas tienen registros incompletos que requieren depuración manual. El proveedor propone migrar solo los últimos cinco años de datos completos dentro del cronograma y dejar los datos antiguos en el sistema legado, argumentando que \"son poco usados\". El acta de requisitos, sin embargo, establece explícitamente que toda la historia académica debe estar disponible en el nuevo sistema. ¿Cómo debe actuar usted como supervisor?",
+      "opciones": [
+        "a) Aceptar la propuesta del proveedor porque reduce el esfuerzo técnico y el impacto en el cronograma, y dejar la migración de los datos antiguos como una tarea interna futura del área académica.",
+        "b) Rechazar la propuesta y exigir un plan de migración y depuración que cumpla con el requerimiento de disponer de toda la historia académica en el nuevo sistema, ajustando cronograma y actividades de común acuerdo y por la vía formal.",
+        "c) Permitir que solo se migren los últimos cinco años, pero declarar en el acta que se cumplió el requisito de \"acceso a la historia académica\" porque los datos antiguos estarán disponibles bajo consulta especial en el sistema legado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la adecuada porque el requerimiento explícito de disponer de toda la historia académica en el nuevo sistema hace que la propuesta de migrar solo cinco años incumpla el alcance. El supervisor debe exigir un plan que cumpla el requisito o promover una modificación formal del alcance si así se decide. La opción a) traslada el problema a las áreas internas sin ajustar el contrato. La opción c) reinterpreta de forma forzada el requerimiento para aparentar cumplimiento, cuando en realidad no se está migrando toda la información al nuevo sistema."
+    },
+    {
+      "codigo": "PROY-19",
+      "pregunta": "Durante la ejecución de un proyecto de portal de servicios, se presenta un ciberataque de denegación de servicio sobre la infraestructura de pruebas. El proveedor propone continuar con el desarrollo funcional sin detenerse a analizar el incidente, alegando que \"fue solo una prueba\" y que la seguridad está fuera del alcance actual del sprint. El responsable de seguridad de la universidad insiste en que se investigue y ajusten los controles de protección antes de seguir. Como líder del proyecto y supervisor, debe decidir la orientación inmediata del trabajo.",
+      "opciones": [
+        "a) Mantener el plan de sprint sin cambios, dejando el análisis del ataque y los controles de protección para un sprint futuro, una vez se haya entregado toda la funcionalidad prevista.",
+        "b) Repriorizar el trabajo en curso para incluir el análisis del ataque y la implementación de controles mínimos necesarios, articulando con seguridad de la información y documentando el cambio de prioridad y posible impacto en cronograma.",
+        "c) Suspender totalmente el proyecto hasta que se contrate un nuevo estudio de seguridad independiente, sin permitir al proveedor continuar ninguna tarea, aunque el contrato no contemple dicho estudio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la mejor porque equilibra la necesidad de avanzar con la urgencia de atender un incidente de seguridad que evidencia vulnerabilidades. Repriorizar y documentar el cambio permite gestionar formalmente el impacto. La opción a) minimiza un incidente crítico, dejando al sistema expuesto. La opción c) es extrema y puede paralizar innecesariamente el proyecto, cuando las tareas de análisis y mitigación pueden ser parte del mismo contrato si se gestionan adecuadamente."
+    },
+    {
+      "codigo": "PROY-20",
+      "pregunta": "En el contrato de implementación de un sistema académico, la interventoría emite un concepto técnico indicando que el módulo de inscripción en línea no cumple con las reglas de negocio definidas (no valida adecuadamente prerrequisitos y topes de créditos). El proveedor sostiene que esas reglas \"son mejorables\" y que el módulo es aceptable para salir a producción, proponiendo ajustar las reglas en una fase de mejora posterior. La alta dirección desea lanzar la plataforma en la fecha prevista por razones de imagen. Como supervisor, ¿qué decisión es más apropiada?",
+      "opciones": [
+        "a) Aceptar el módulo tal como está, favoreciendo la continuidad del cronograma y considerando las observaciones de la interventoría como sugerencias de mejora no obligatorias.",
+        "b) Acoger el concepto de la interventoría y no aceptar el módulo hasta que se ajusten las reglas de negocio según lo especificado en el contrato, aun si implica reprogramar la fecha de lanzamiento.",
+        "c) Aceptar el módulo con la condición verbal de que el proveedor ajuste las reglas después del lanzamiento, sin reflejar estas condiciones en actas ni en el contrato."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque el supervisor debe basar la aceptación en el cumplimiento de requisitos contractuales y en el concepto técnico de la interventoría. Las reglas de negocio son parte esencial del funcionamiento del módulo, no mejoras cosméticas. La opción a) menosprecia observaciones técnicas vinculadas al alcance. La opción c) recurre a compromisos verbales que no quedan sujetos a control ni a mecanismos formales de exigibilidad."
+    },
+    {
+      "codigo": "PROY-21",
+      "pregunta": "En un proyecto con enfoque ágil, el backlog contractual incluye 5 grandes módulos. Tras varios sprints, se observa que se ha invertido una porción significativa del tiempo en refactorizar y mejorar internamente el código de los dos primeros módulos, sin avanzar en los otros tres. El proveedor explica que \"es mejor invertir en calidad interna\" aunque los usuarios no vean nuevas funcionalidades. El contrato establece que el pago del siguiente hito depende de la disponibilidad de los módulos 1, 2 y 3 en ambiente de pruebas. ¿Qué debe hacer usted como supervisor?",
+      "opciones": [
+        "a) Autorizar el pago del hito basándose en el esfuerzo invertido y las mejoras internas de calidad de código, aunque el módulo 3 no esté disponible, porque eso beneficiará el mantenimiento futuro.",
+        "b) Señalar que, de acuerdo con el contrato, el pago del hito depende de la disponibilidad de los módulos 1, 2 y 3, y exigir la entrega del módulo 3 en ambiente de pruebas para poder certificar el cumplimiento, negociando si es necesario un ajuste temporal del plan.",
+        "c) Proponer redefinir unilateralmente el contenido del hito, sustituyendo el requisito del módulo 3 por un informe de calidad interna del código como criterio de pago."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque vincula el pago a los hitos contractuales, que están definidos por entregables funcionales (módulos disponibles), no por esfuerzo invertido o mejoras internas no visibles para el usuario. El supervisor puede negociar ajustes al plan, pero no alterar unilateralmente el criterio de pago sin modificación contractual. La opción a) confunde esfuerzo con producto, y la c) altera por su cuenta el contenido del hito, sin procedimiento formal."
+    },
+    {
+      "codigo": "PROY-22",
+      "pregunta": "Durante la ejecución de un proyecto de digitalización de archivos, el equipo descubre que el volumen real de documentos es un 40% mayor al estimado en el estudio previo. El proveedor indica que, con el presupuesto actual, no podrá digitalizar todo y propone mantener el mismo presupuesto digitalizando solo lo más reciente, aunque el contrato establece que debe abarcar todo el archivo desde cierto año. La entidad no tiene claridad inmediata sobre recursos adicionales. ¿Cuál es su mejor actuación como supervisor?",
+      "opciones": [
+        "a) Aceptar que se digitalice solo el porcentaje de documentos que el presupuesto alcance, y considerar que el resto no hará parte del alcance real, sin modificar el contrato.",
+        "b) Documentar el hallazgo, cuantificar el impacto y plantear formalmente las alternativas: adición presupuestal y de alcance, priorización concertada con modificación contractual, o redefinición del proyecto con aprobación de la autoridad competente.",
+        "c) Solicitar al proveedor que asuma el mayor volumen sin costo adicional, argumentando que el estudio previo fue solo una estimación y que debe cumplir el alcance original independientemente del incremento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque reconoce una variación significativa entre la realidad y la estimación, y propone gestionarla formalmente: dimensionar el impacto y presentar alternativas que deben ser decididas por la autoridad competente. La opción a) reduce de hecho el alcance sin procedimiento formal ni decisión explícita. La opción c) desconoce que un incremento sustancial de volumen puede justificar ajustes contractuales, y asume que el proveedor debe absorber todo el sobreesfuerzo sin análisis."
+    },
+    {
+      "codigo": "PROY-23",
+      "pregunta": "En el cierre de un proyecto de mejora de la red de datos, el proveedor entrega planos actualizados, configuraciones y reportes. La interventoría encuentra que la documentación de la topología lógica es incompleta y no permite reproducir fácilmente la configuración en caso de desastre. El proveedor argumenta que \"la documentación detallada no era necesaria\" y que la red está operando correctamente. El contrato incluye explícitamente la entrega de documentación técnica suficiente para operación y mantenimiento. La alta dirección desea cerrar el contrato para liberar recursos.",
+      "opciones": [
+        "a) Recibir la documentación tal cual, dado que la red está funcionando, y considerar las observaciones de la interventoría como recomendaciones para otro proyecto futuro.",
+        "b) Exigir al proveedor completar la documentación técnica conforme a lo establecido en el contrato y al alcance, antes de emitir acta de recibo final a satisfacción.",
+        "c) Recibir el contrato a satisfacción, pero solicitar a su equipo interno que en los próximos meses reconstruya la documentación faltante con base en la configuración actual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la documentación técnica es un entregable contractual explícito y crítico para la sostenibilidad de la solución. Aceptar el contrato sin ella deja a la entidad dependiente del proveedor y vulnera lo pactado. La opción a) minimiza el incumplimiento y la c) traslada la carga de trabajo al equipo interno, asumiendo tareas que correspondían al proveedor, sin ejercer las garantías del contrato."
+    },
+    {
+      "codigo": "PROY-24",
+      "pregunta": "En un proyecto de portal de trámites, se planearon pruebas piloto con un grupo reducido de estudiantes antes del despliegue general. Por presión de tiempo, la alta dirección sugiere que se considere el uso actual del ambiente de pruebas interno como suficiente piloto y que se omita la prueba con usuarios reales, fijada contractualmente como \"prueba piloto de usuario final\". El proveedor está de acuerdo porque así evita planear y facilitar la participación de usuarios finales. Usted, como supervisor, debe validar si este cambio es aceptable.",
+      "opciones": [
+        "a) Aceptar que las pruebas internas del equipo se consideren equivalentes a la prueba piloto, ya que los técnicos conocen mejor el sistema que los usuarios finales.",
+        "b) Indicar que la prueba piloto con usuarios finales fue pactada como parte del alcance y responde a la necesidad de validar la experiencia real de uso, por lo que debe realizarse o, si se decide cambiarla, seguir el procedimiento formal de modificación contractual.",
+        "c) Aprobar sustituir la prueba piloto con usuarios finales por una demostración a la alta dirección, sin necesidad de ajustar el contrato, porque los directivos representan a la comunidad usuaria."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque la prueba piloto con usuarios finales es un compromiso contractual orientado a validar el comportamiento del portal en condiciones reales. No puede eliminarse o sustituirse por pruebas internas sin modificar el contrato. La opción a) confunde pruebas técnicas con piloto de usuario. La opción c) equipara indebidamente a la alta dirección con usuarios finales para efectos de prueba, sin respaldo metodológico ni contractual."
+    },
+    {
+      "codigo": "PROY-25",
+      "pregunta": "Durante la fase de pruebas de aceptación de un módulo de calificaciones, se detecta un error que en ciertos casos registra notas incorrectas cuando se modifican después del cierre inicial. El proveedor afirma que no es un \"bug\" sino un \"requerimiento nuevo\" porque el comportamiento exacto no estaba definido en las especificaciones escritas. El analista de negocio confirma que en las sesiones de levantamiento sí se habló de este comportamiento, aunque no quedó documentado detalladamente. Como supervisor, debe decidir cómo manejar este hallazgo.",
+      "opciones": [
+        "a) Aceptar la interpretación del proveedor y solicitar que el comportamiento correcto se trate como un nuevo requerimiento mediante adición, dado que no está descrito al detalle en el documento.",
+        "b) Revisar las actas de levantamiento y las definiciones de negocio, y si se evidencia que el comportamiento esperado fue acordado aunque no esté descrito en código literal, exigir la corrección del error como parte del alcance comprometido.",
+        "c) Convocar a una reunión informal con el proveedor y el analista para pedir que el proveedor corrija el error como gesto comercial, sin reconocerlo como incumplimiento ni ajustar documentos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la aceptación o rechazo de un hallazgo debe basarse en la trazabilidad de requisitos (actas, análisis de negocio), no en una interpretación conveniente. Si el comportamiento esperado fue acordado, forma parte del alcance. La opción a) asume que solo lo escrito en el documento técnico final constituye requerimiento, ignorando evidencia complementaria. La opción c) trata un incumplimiento como favor comercial, evitando reconocer formalmente la obligación incumplida."
+    },
+    {
+      "codigo": "PROY-26",
+      "pregunta": "En un proyecto de integración entre el sistema académico y el financiero, los retrasos se deben en parte a que el proveedor del sistema financiero, contratado en un proceso diferente, no entrega las interfaces acordadas. El proveedor del sistema académico alega que no puede avanzar y solicita una extensión de plazo sin penalidad. La alta dirección quiere que usted, como supervisor del proyecto académico, \"solucione\" el problema sin afectar a ninguno de los dos proveedores. ¿Cuál es la mejor acción?",
+      "opciones": [
+        "a) Conceder la extensión de plazo al proveedor del sistema académico sin analizar responsabilidades, declarando que los retrasos son compartidos y que no corresponde aplicar medidas por incumplimiento.",
+        "b) Documentar la dependencia entre los dos contratos, identificar formalmente la causa raíz del retraso, gestionar la coordinación inter-contratos, y ajustar el cronograma y las responsabilidades mediante los mecanismos contractuales correspondientes.",
+        "c) Pedir a su equipo interno que desarrolle las interfaces que el proveedor financiero no ha entregado, para que el proveedor académico pueda avanzar, sin afectar formalmente los contratos vigentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque se centra en identificar y documentar las dependencias y responsabilidades, y propone ajustar cronogramas y obligaciones a través de los mecanismos formales. La coordinación entre contratos es clave en proyectos de integración. La opción a) generaliza la responsabilidad sin análisis, debilitando la capacidad de exigir cumplimiento. La opción c) traslada tareas contractuales a la entidad, creando sobrecarga interna y liberando al proveedor responsable de su obligación."
+    },
+    {
+      "codigo": "PROY-27",
+      "pregunta": "En un proyecto de datos abiertos, el contrato establece la publicación de conjuntos de datos sobre estudiantes y programas, garantizando anonimización. Durante las pruebas, el equipo encuentra que, combinando diferentes conjuntos, es posible reidentificar indirectamente a algunos estudiantes. El proveedor asegura que ha cumplido con las técnicas estándar y que este riesgo es \"aceptable\". Jurídica y el Oficial de Protección de Datos expresan preocupación. Como supervisor, ¿cómo debe proceder?",
+      "opciones": [
+        "a) Aceptar la solución actual porque el proveedor afirma usar técnicas estándar y la reidentificación solo se da en casos extremos, priorizando el cumplimiento del cronograma de publicación.",
+        "b) Exigir un ajuste de las técnicas de anonimización y, si es necesario, replantear los conjuntos de datos a publicar, articulando con el Oficial de Protección de Datos y documentando en actas y, si aplica, en modificaciones contractuales.",
+        "c) Suspender la publicación de todos los conjuntos de datos del proyecto, incluso los que no presentan riesgo, hasta que se emita una nueva política de datos abiertos institucional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque responde a un riesgo real de reidentificación, que debe mitigarse mediante técnicas adicionales o ajustes en los datos, en coordinación con las áreas responsables. El supervisor debe priorizar el cumplimiento de la normativa de protección de datos sobre la urgencia de publicar. La opción a) minimiza un riesgo informado por las áreas jurídicas y de protección de datos. La opción c) bloquea todo el proyecto, incluso partes seguras, en vez de aplicar mitigaciones específicas."
+    },
+    {
+      "codigo": "PROY-28",
+      "pregunta": "En un proyecto para implementar un sistema de gestión de contratos, el proveedor informa oficiosamente a un miembro de su equipo que solo podrá entregar una parte de la funcionalidad comprometida antes de la fecha límite, pero le pide \"no escalar\" todavía la situación. Este miembro del equipo comparte la preocupación con usted. Faltan dos meses para el cierre del contrato. ¿Cuál es la mejor respuesta como líder del proyecto y supervisor?",
+      "opciones": [
+        "a) Acordar con el miembro del equipo que no se escale por ahora, esperando que el proveedor logre mejorar el ritmo en las próximas semanas para evitar alarmar a la alta dirección.",
+        "b) Solicitar formalmente al proveedor un reporte de avance detallado y evidencias, confrontar la información oficiosa con el plan actual y, si se confirma el riesgo de incumplimiento, activar la gestión de riesgos y el procedimiento contractual correspondiente.",
+        "c) Informar de inmediato a la alta dirección que el proveedor incumplirá el contrato y recomendar suspender los pagos restantes, sin hablar primero con el proveedor."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque permite validar la información por canales formales, obtener evidencias y, si se confirma el riesgo, activar la gestión de riesgos y los procedimientos contractuales con base en hechos. La opción a) oculta un riesgo conocido, postergando su tratamiento. La opción c) reacciona de forma apresurada sin confrontar previamente al proveedor ni recabar evidencia documental."
+    },
+    {
+      "codigo": "PROY-29",
+      "pregunta": "En la fase de verificación de licenciamiento de un proyecto de virtualización, se detecta que el proveedor instaló temporalmente versiones de evaluación de algunos componentes críticos para cumplir con la demostración en la fecha del hito, asegurando que \"más adelante\" gestionará las licencias definitivas. El contrato exige que en los hitos se entreguen componentes plenamente licenciados. El proveedor le pide que autorice el hito, argumentando que el software está operativo y que las licencias permanentes llegarán pronto.",
+      "opciones": [
+        "a) Autorizar el hito considerando que el software funciona correctamente, dejando la verificación de licencias para el cierre final del proyecto.",
+        "b) Rechazar el hito por incumplimiento del requisito de licenciamiento definitivo, exigir un plan concreto para la adquisición de licencias y reprogramar, si corresponde, la fecha de verificación del hito.",
+        "c) Autorizar el hito parcialmente, registrando por correo la promesa del proveedor de conseguir las licencias, pero sin reflejar el incumplimiento en las actas oficiales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es adecuada porque el contrato exige componentes plenamente licenciados en los hitos. Aceptar versiones de evaluación implica un incumplimiento que debe ser corregido antes de certificar el hito. La opción a) posterga la verificación a un momento en el que el proveedor ya habrá recibido el pago asociado al hito. La opción c) procura un arreglo informal que no se refleja en documentos oficiales, limitando la capacidad posterior para exigir el cumplimiento."
+    },
+    {
+      "codigo": "PROY-30",
+      "pregunta": "En un proyecto de implementación de una herramienta de gestión de proyectos TI, se definió un plan de capacitación a usuarios clave de varias dependencias. El proveedor no alcanza a ejecutar todas las sesiones de capacitación por problemas de agenda, y propone entregar videos y manuales en lugar de las sesiones presenciales pactadas, pidiéndole que usted reciba el componente de capacitación como cumplido. Algunas dependencias ya se quejaron de no haber sido capacitadas. ¿Cuál es la decisión más adecuada como supervisor?",
+      "opciones": [
+        "a) Aceptar los videos y manuales como sustitutos de las sesiones presenciales, considerando que el objetivo es que exista material de capacitación, aunque no se ejecute el plan exactamente como se pactó.",
+        "b) Señalar que el plan de capacitación es un componente clave acordado, y exigir al proveedor que ejecute las sesiones pendientes o que, si se propone un cambio al modo de capacitación, este se acuerde, justifique y modifique formalmente en el contrato.",
+        "c) Recibir el componente de capacitación como cumplido a condición de que el proveedor esté disponible para resolver dudas por correo durante el primer mes de operación, sin ajustar formalmente el plan."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque la capacitación a usuarios clave es un entregable contractual explícito y crítico para la adopción del sistema. Cambiar su modalidad requiere acuerdo formal y, de ser aceptado, modificación contractual. La opción a) reduce unilateralmente el estándar de cumplimiento del proveedor. La opción c) crea un arreglo informal que no corresponde al plan pactado y no garantiza que se atienda adecuadamente la necesidad de formación de las dependencias."
+    }
+  ]
+}
