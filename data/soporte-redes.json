@@ -1,0 +1,1048 @@
+{
+    "preguntas": [
+        {
+            "codigo": "RED-01",
+            "pregunta": "Un funcionario reporta que puede acceder a la intranet y hacer ping a su gateway, pero no puede navegar a páginas externas (como el portal del Ministerio de Educación). ¿Cuál es la causa más probable de este incidente?",
+            "opciones": [
+                "a) El cable de red (Capa 1) está desconectado.",
+                "b) La configuración del DHCP del servidor está fallando.",
+                "c) El servicio de DNS no está resolviendo los nombres de dominio externos."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Si puede hacer ping a su gateway, tiene dirección IP (DHCP funcionando) y la capa física está bien. La falla al navegar a nombres externos indica que el DNS no está traduciendo los nombres a direcciones IP."
+        },
+        {
+            "codigo": "RED-02",
+            "pregunta": "Usted está supervisando la instalación del nuevo cableado de fibra óptica que conectará el edificio de Rectoría con el Data Center. ¿Qué estándar internacional debe garantizar el contratista para la correcta instalación y certificación de los puntos?",
+            "opciones": [
+                "a) ISO/IEC 27001.",
+                "b) EIA/TIA 568.",
+                "c) ITIL v4."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El estándar EIA/TIA 568 (y sus variantes) es la norma que rige el cableado estructurado, incluyendo fibra óptica y cobre, y su cumplimiento es obligatorio para la certificación de las redes LAN/WAN."
+        },
+        {
+            "codigo": "RED-03",
+            "pregunta": "El equipo de seguridad ha detectado un alto tráfico sospechoso proveniente de la red WiFi de estudiantes hacia el servidor de Bases de Datos. ¿Qué control de seguridad debe implementarse idealmente entre estas dos VLANs para monitorear y bloquear ataques conocidos?",
+            "opciones": [
+                "a) Un Plan de Continuidad del Negocio (BCP).",
+                "b) Un Sistema de Detección/Prevención de Intrusiones (IDS/IPS).",
+                "c) Un sistema de gestión de activos fijos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El IDS/IPS (b) está diseñado específicamente para monitorear el tráfico de red, detectar patrones de ataque y prevenir que lleguen a los servidores internos, protegiendo así la Integridad y Disponibilidad."
+        },
+        {
+            "codigo": "RED-04",
+            "pregunta": "Se implementa un nuevo sistema de control de acceso a la red que obliga a los dispositivos de los estudiantes a tener el antivirus actualizado antes de obtener una dirección IP. ¿Qué tecnología se utilizó?",
+            "opciones": [
+                "a) Network Address Translation (NAT).",
+                "b) Network Access Control (NAC).",
+                "c) Virtual Private Network (VPN)."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El NAC (Network Access Control) es la tecnología utilizada para implementar políticas de seguridad y cumplimiento en los dispositivos antes de permitirles el acceso completo a la red."
+        },
+
+
+        {
+      "codigo": "RED-01",
+      "pregunta": "Diagnóstico Avanzado: Un usuario de la red administrativa reporta que no puede acceder a la intranet. Usted realiza un `ping` exitoso al servidor web (Capa 3), pero la herramienta `telnet` al puerto 80 falla. ¿Dónde se encuentra la causa raíz del problema?",
+      "opciones": [
+        "a) Falla en el protocolo de enrutamiento (OSPF/EIGRP) del router de borde (Capa 3).",
+        "b) Un problema de filtrado en el Firewall (ACL) o el servicio HTTP está detenido en el servidor (Capa 4 / Capa 7).",
+        "c) El cableado del usuario está defectuoso (Capa 1)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico por Capas: El `ping` exitoso confirma que la conectividad IP y el enrutamiento (Capa 3) funcionan. La falla en el `telnet` (Capa 4) indica que el puerto está cerrado, lo cual es típico de un Firewall o un servicio de aplicación detenido, no una falla de Capa 3 o Capa 1."
+    },
+    {
+      "codigo": "RED-02",
+      "pregunta": "Seguridad de Red: La I.U. Pascual Bravo tiene una VLAN de Servidores Críticos (VLAN 10) y una VLAN de Estudiantes (VLAN 50). Un estudiante intenta acceder al sistema financiero. ¿Qué control SGSI/Red es el más efectivo para evitar que el tráfico no autorizado de la VLAN 50 llegue a la VLAN 10?",
+      "opciones": [
+        "a) Configurar el DHCP para que solo asigne IP a dispositivos de la VLAN 10.",
+        "b) Aplicar una Lista de Control de Acceso (ACL) 'Stateful' en el Router/Firewall que separa ambas VLAN, bloqueando el tráfico de la VLAN 50 hacia los rangos de la VLAN 10 (Segmentación Lógica).",
+        "c) Limitar la velocidad de la VLAN 50 (QoS) para que los ataques sean lentos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Acceso y Segmentación: El aislamiento físico (VLANs) no basta; el tráfico entre VLANs pasa por el router. Una ACL explícita en el Firewall o Router es el control lógico (Capa 3) que hace cumplir la política de Confidencialidad y el control de Segmentación (MSPI A.13.1.3)."
+    },
+    {
+      "codigo": "RED-03",
+      "pregunta": "Estándares Físicos: Durante la auditoría, usted encuentra que el cable de red entre el Switch principal y el servidor crítico mide 120 metros. El cable funciona intermitentemente. ¿Qué estándar TIA/EIA se está violando y cuál es la consecuencia principal?",
+      "opciones": [
+        "a) Violación de EIA/TIA 568. La consecuencia es que el par trenzado está mal ponchado (Capa 1).",
+        "b) Violación de EIA/TIA 568-C. La consecuencia es la atenuación de la señal, resultando en errores de transmisión y posible pérdida de paquetes, comprometiendo la Integridad de los datos (Límite de 100m).",
+        "c) Violación de EIA/TIA 606 (Etiquetado), causando la intermitencia."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Estándares TIA/EIA: El estándar 568-C establece el límite físico de 100 metros para UTP. Exceder este límite causa atenuación, degradando la señal (Capa 1) y comprometiendo la Integridad y Disponibilidad (Capa 2/3) de la comunicación. Es un hallazgo de auditoría de infraestructura."
+    },
+    {
+      "codigo": "RED-04",
+      "pregunta": "Diagnóstico Avanzado: Un usuario puede acceder a todas las páginas web externas (`www.google.com`), pero no puede acceder a ningún recurso interno de la I.U. utilizando nombres (ej. `intranet.pascualbravo.edu.co`). El `ping` a la dirección IP interna sí funciona. ¿Cuál es el servicio esencial que está fallando?",
+      "opciones": [
+        "a) El router de borde (Edge Router) está fallando (Capa 3).",
+        "b) El servicio DNS interno (Domain Name System) es el que está fallando o mal configurado (Capa 7 de Aplicación).",
+        "c) El servidor DHCP no está asignando correctamente el *gateway*."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico por Capas: Si el `ping` a la IP funciona (Capa 3 OK) pero la resolución por nombre falla, el problema es el servicio DNS (Capa 7), que es el encargado de traducir nombres lógicos a IPs. Esto es un fallo de Disponibilidad en la Capa de Aplicación."
+    },
+    {
+      "codigo": "RED-05",
+      "pregunta": "Seguridad de Red: Un estudiante conecta un dispositivo IOT no autorizado (un mini-servidor) a un puerto Ethernet libre del área administrativa. ¿Qué control de red es obligatorio para detectar y aislar automáticamente este dispositivo, según el MSPI?",
+      "opciones": [
+        "a) Aplicar la restricción de MAC estática en el switch para ese puerto.",
+        "b) Implementar Network Access Control (NAC) que autentique el dispositivo/usuario y le aplique una política de cuarentena o denegación de acceso si no cumple el estándar de seguridad (MSPI).",
+        "c) Usar una VLAN de invitados para todos los puertos libres."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Acceso (A.9) y NAC: El NAC es el control moderno y dinámico para el acceso a la red. Garantiza que solo los dispositivos 'sanos' y autorizados accedan a los recursos, lo cual es vital para el control de acceso en una IES con alta rotación de dispositivos."
+    },
+    {
+      "codigo": "RED-06",
+      "pregunta": "Juicio de Soporte: Usted recibe dos reportes: 1. El DNS primario está caído (toda la navegación de la I.U. falla). 2. Un switch de la VLAN de Becas y Apoyo Financiero está fallando intermitentemente. ¿Cuál incidente debe priorizar, basado en el impacto del negocio (BIA)?",
+      "opciones": [
+        "a) El switch de Becas, ya que es un fallo de hardware (Capa 2) que requiere reemplazo inmediato.",
+        "b) El DNS primario, ya que afecta la Disponibilidad total (navegación y servicios internos por nombre) de la I.U. y tiene un RTO (Tiempo de Recuperación Objetivo) más bajo que el fallo de una sola VLAN.",
+        "c) El DNS, pero solo si no hay DNS secundario configurado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Priorización por Impacto (BIA): La caída del DNS primario (a menos que el secundario funcione) causa una parálisis funcional completa (Capa 7). La caída de un switch solo afecta a un segmento. El DNS tiene un impacto transversal y más crítico en la misión de Disponibilidad."
+    },
+    {
+      "codigo": "RED-07",
+      "pregunta": "Arquitectura de Seguridad: La I.U. decide separar la red de servidores Web (públicos) de los servidores de Bases de Datos (críticos). ¿Qué técnica de seguridad de red debe usar para asegurar que un ataque externo a la Capa Web no exponga la Capa de Datos?",
+      "opciones": [
+        "a) Usar DHCP para dar IP privadas a las bases de datos.",
+        "b) Implementar una DMZ (Zona Desmilitarizada) para el servidor Web y un Firewall Perimetral para controlar estrictamente el tráfico entre la DMZ y la VLAN de Bases de Datos (Segmentación Profunda).",
+        "c) Instalar un antivirus en la capa web."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad Profunda: La DMZ es la arquitectura estándar para proteger los servidores públicos. El control del Firewall (Capa 3/4) entre la DMZ y el segmento interno es la única forma de garantizar la Confidencialidad de los datos críticos si el servidor web es comprometido."
+    },
+    {
+      "codigo": "RED-08",
+      "pregunta": "Estándares Físicos: En la auditoría de un nuevo edificio, se encuentra que todos los cables de red están tirados sobre las bandejas eléctricas de alta tensión. ¿Qué riesgo de seguridad y estándar está violando?",
+      "opciones": [
+        "a) Violación del EIA/TIA 606 (Etiquetado), ya que los cables no se pueden ver.",
+        "b) Violación de las normas de Seguridad y Distancia Mínima de Separación de EMI. El riesgo es la interferencia electromagnética, que degrada la señal y compromete la Integridad (Capa 1).",
+        "c) Violación de la norma de colorimetría T568B."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo Físico/EMI: Los estándares de cableado (incluyendo códigos eléctricos locales) prohíben tender cables de datos junto a fuentes de alta interferencia (cables de tensión). Esto causa ruido eléctrico (EMI) que compromete la Integridad de la transmisión."
+    },
+    {
+      "codigo": "RED-09",
+      "pregunta": "Gestión de Direcciones: Un segmento de red se queda sin direcciones IP porque el *scope* de DHCP se agotó. ¿Cuál es la acción de soporte más rápida y efectiva a corto plazo para restablecer el servicio a los nuevos *hosts*?",
+      "opciones": [
+        "a) Reiniciar el servidor DHCP para que libere las direcciones viejas.",
+        "b) Aumentar el rango de direcciones IP del *scope* (ej. de /24 a /23) o reducir el tiempo de *lease* del DHCP para liberar las IPs inactivas más rápido.",
+        "c) Configurar IP estática manualmente en todos los *hosts* nuevos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Soporte de DHCP: El agotamiento de direcciones requiere la adición de nuevas IPs al rango o la reducción del tiempo que se 'prestan' las IPs. Esto garantiza la Disponibilidad inmediata a nuevos *hosts* (Capa 3)."
+    },
+    {
+      "codigo": "RED-10",
+      "pregunta": "Auditoría de Infraestructura: En el MDF (Main Distribution Frame), los cables que vienen del *patch panel* están conectados a los puertos del Switch sin orden ni documentación. ¿Cuál es la mayor consecuencia de esta violación de EIA/TIA 606?",
+      "opciones": [
+        "a) La red funciona más lento (Baja velocidad).",
+        "b) La red carece de Trazabilidad. La dificultad o imposibilidad de aislar una falla o ejecutar un control de acceso específico (NAC) es un riesgo crítico de Disponibilidad y Seguridad.",
+        "c) El Switch se dañará por el desorden."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "TIA/EIA 606: El estándar de administración se centra en la Trazabilidad. La falta de etiquetado y documentación significa que, ante un incidente o un requerimiento de control de acceso (SGSI), el equipo no puede actuar eficientemente. Esto es un riesgo de Gobernanza e indisponibilidad."
+    },
+    {
+      "codigo": "RED-11",
+      "pregunta": "Migración IPv6: La I.U. inicia la migración a IPv6. ¿Qué técnica es la más recomendada para garantizar que los servicios críticos sigan funcionando sin interrupción para los usuarios (Capa 3)?",
+      "opciones": [
+        "a) Implementar NAT64 para traducir todas las direcciones.",
+        "b) Utilizar la técnica de *Dual Stack* (Pila Dual), donde el dispositivo soporta y mantiene ambas direcciones (IPv4 e IPv6) activas simultáneamente.",
+        "c) Deshabilitar IPv4 inmediatamente y forzar el uso de IPv6 para todos los *hosts* nuevos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Migración IPv6: El *Dual Stack* es la técnica estándar para la coexistencia. Permite que los dispositivos y aplicaciones que aún no son compatibles con IPv6 continúen funcionando con IPv4, asegurando la Continuidad y Disponibilidad del servicio."
+    },
+    {
+      "codigo": "RED-12",
+      "pregunta": "Diagnóstico Avanzado: Un usuario no puede acceder a un servidor específico en la red interna. Su `ping` al *gateway* local funciona, pero su `ping` al servidor falla. Un colega en otro segmento sí puede acceder al servidor. ¿Dónde se encuentra la causa más probable de la falla?",
+      "opciones": [
+        "a) El *gateway* (Router) tiene una falla física (Capa 3).",
+        "b) Una Lista de Control de Acceso (ACL) configurada en el Switch de Capa 3 o el Firewall está bloqueando la IP de origen del usuario (Capa 3).",
+        "c) El servidor tiene un problema de cableado (Capa 1)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico Lógico: Si el *gateway* responde y el servidor responde a otro segmento, la falla es en el camino de regreso o en el punto de filtrado. La ACL es un control de seguridad que filtra IPs específicas, lo cual encaja con que solo un usuario esté afectado."
+    },
+    {
+      "codigo": "RED-13",
+      "pregunta": "Seguridad de Red: La I.U. quiere evitar que los estudiantes conecten sus propios routers Wi-Fi (Rouge APs) a los puertos de pared. ¿Qué característica de Switch debe activar para prevenir este riesgo de seguridad (Confidencialidad)?",
+      "opciones": [
+        "a) Spanning Tree Protocol (STP) en modo rápido.",
+        "b) Port Security (Seguridad de Puerto), limitando el número de direcciones MAC permitidas por puerto (generalmente a 1) y aplicando acción de *shutdown* en caso de violación.",
+        "c) Calidad de Servicio (QoS) para limitar el ancho de banda."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad en Switch: Port Security (Capa 2) es el control primario para prevenir Rouge APs. Limita la cantidad de MACs por puerto, y un AP (que conecta muchos dispositivos) viola este límite, disparando el control de seguridad."
+    },
+    {
+      "codigo": "RED-14",
+      "pregunta": "Auditoría: Usted encuentra que el mapa de VLANs del Manual de Funciones indica que la VLAN de Servidores es la 20, pero la configuración real del Switch la muestra como VLAN 30. ¿Cuál es el riesgo de cumplimiento inmediato?",
+      "opciones": [
+        "a) Riesgo de Confidencialidad: El tráfico de la VLAN 20 se mezcla con la 30.",
+        "b) Riesgo de Trazabilidad y Disponibilidad. La discrepancia entre la documentación (control procedimental) y la realidad (control técnico) es un Hallazgo de Auditoría que anula la capacidad de soporte y gestión de incidentes.",
+        "c) Riesgo de Invasión de DHCP."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Trazabilidad y Auditoría: En una auditoría, la documentación (Manual/Política) debe coincidir con la configuración (Realidad). La discrepancia es una falla de gobernanza que compromete la Trazabilidad y el cumplimiento del SGSI, independientemente de si la red funciona."
+    },
+    {
+      "codigo": "RED-15",
+      "pregunta": "Diagnóstico Avanzado: Un usuario reporta que el sistema de matrícula web está lento. `Tracert` muestra alta latencia al router de borde del proveedor de servicios, pero `ping` a los servidores internos de la I.U. es normal. ¿Dónde debe enfocarse el equipo de soporte?",
+      "opciones": [
+        "a) El problema es el servidor web (Capa 7), ya que los *pings* internos son normales.",
+        "b) El problema está en la red interna (LAN), probablemente por un *broadcast storm* (Capa 2).",
+        "c) El problema está fuera de la red de la I.U. o en la cola de salida de tráfico hacia el proveedor (Capa 3 de borde/ISP)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Diagnóstico por Latencia: El `tracert` revela el punto de latencia. Si la latencia es alta en el primer salto externo, el cuello de botella está en la interconexión con el ISP o en la saturación del router de borde al enviar el tráfico."
+    },
+
+
+    {
+      "codigo": "RED-16",
+      "pregunta": "Diagnóstico Avanzado: Un usuario se queja de conectividad intermitente a su servidor local (Servidor A). Usted verifica que el `ping` al Servidor A funciona, pero el `ping` al router (Gateway) falla. Al ejecutar `arp -a` en el PC del usuario, nota que la MAC address del router es incorrecta. ¿Cuál es el problema más probable?",
+      "opciones": [
+        "a) Un fallo de hardware en la tarjeta de red del Servidor A (Capa 1).",
+        "b) Un ataque ARP Spoofing (envenenamiento de caché ARP) o una tabla ARP estática incorrecta en el router (Falla de Capa 2).",
+        "c) El servidor DHCP está asignando una dirección IP duplicada al usuario (Falla de Capa 3)"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico Capa 2/3: El Servidor A está en la misma red local que el usuario, por eso el ping directo funciona. Si el ping al Gateway (dispositivo externo) falla y la MAC del Gateway es incorrecta, significa que la resolución de dirección (ARP - Capa 2) falló. Esto es síntoma de envenenamiento ARP (seguridad) o una falla en la tabla de switching/ARP."
+    },
+    {
+      "codigo": "RED-17",
+      "pregunta": "Auditoría de Cumplimiento: La política de la I.U. exige que solo los puertos de los switches que están conectados a los servidores críticos deben tener la velocidad (Speed) y el modo de dúplex (Duplex) configurados de manera estática. ¿Cuál es el principal riesgo de seguridad que mitiga este control?",
+      "opciones": [
+        "a) Riesgo de que un atacante cambie la velocidad del puerto con un comando de control.",
+        "b) Riesgo de que la negociación automática (Auto-negotiation) del switch cause un error de dúplex (Duplex Mismatch), lo cual degrada la Integridad de la conexión y afecta la Disponibilidad.",
+        "c) Riesgo de que se sature el ancho de banda por exceso de tráfico broadcast"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Hardening de Puertos (Capa 2): La configuración estática de velocidad y dúplex elimina el riesgo de que la negociación automática (Auto-negotiation) falle o genere un 'Duplex Mismatch', lo cual causa colisiones, retransmisiones masivas y una caída de la Integridad/Disponibilidad del enlace. Este es un control de seguridad/estabilidad."
+    },
+    {
+      "codigo": "RED-18",
+      "pregunta": "Diagnóstico Avanzado: Se agrega un nuevo switch a la red de estudiantes. Media hora después, toda la red (todas las VLANs) sufre una ralentización crítica que colapsa el servicio. Usted sospecha de un bucle de red (loop). ¿Qué protocolo es el más probable causante de esta falla de Disponibilidad general?",
+      "opciones": [
+        "a) Protocolo ARP (Address Resolution Protocol).",
+        "b) Protocolo Spanning-Tree Protocol (STP), el cual falló en la convergencia al introducir el nuevo switch, causando un 'broadcast storm' (Falla de Capa 2).",
+        "c) Protocolo OSPF (Open Shortest Path First) de enrutamiento (Falla de Capa 3)"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Falla de Capa 2 (Broadcast Storm): Un bucle de red (loop) es una falla catastrófica de Capa 2. La función de STP es prevenir bucles. Si toda la red colapsa tras un cambio en el switching, la causa raíz más probable es una falla en la convergencia de STP, lo que genera una inundación masiva de tráfico (broadcast storm)."
+    },
+    {
+      "codigo": "RED-19",
+      "pregunta": "Seguridad de Red: La política de seguridad exige que los administradores de TI solo puedan acceder al Firewall por VPN desde fuera de la red. Un técnico intenta acceder al Firewall desde la red interna (LAN). ¿Qué mecanismo debe activar el Firewall para prevenir este acceso y cumplir el control (A.13.1.2)?",
+      "opciones": [
+        "a) Limitar la velocidad de la red interna para ralentizar el ataque.",
+        "b) Configurar una política de 'Deny All' a la interfaz interna, permitiendo solo el tráfico de la VLAN de VPN/Administración (Segmentación Lógica).",
+        "c) Deshabilitar el protocolo SSH en el Firewall"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Hardening de Firewall: El control del firewall debe asegurar que el acceso de gestión sea estrictamente por el canal seguro. Una política de 'Deny All' explícita en la ACL de gestión, que solo permita el tráfico del rango IP de la VPN, es el control lógico (Capa 3) que hace cumplir la política de seguridad."
+    },
+    {
+      "codigo": "RED-20",
+      "pregunta": "Juicio de Soporte: Usted recibe dos reportes en la mañana: 1. El DNS secundario falló y los usuarios internos no pueden acceder a dominios externos. 2. El servidor de impresión de la Vicerrectoría Académica está caído. ¿Cuál debe priorizar?",
+      "opciones": [
+        "a) El servidor de impresión, ya que afecta directamente un proceso misional (emisión de documentos).",
+        "b) El DNS secundario, ya que afecta la Disponibilidad transversal de toda la I.U. y tiene un impacto masivo en el negocio.",
+        "c) Crear un ticket para el servidor de impresión y asignar la solución al DNS al equipo de desarrollo"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Priorización por Impacto: La caída del DNS secundario, aunque no total, afecta la redundancia de un servicio esencial (Capa 7) para toda la I.U. (navegación e internet). El servidor de impresión afecta a un grupo más limitado. El riesgo de escalamiento es mayor con el DNS."
+    },
+    {
+      "codigo": "RED-21",
+      "pregunta": "Seguridad de Red: La I.U. tiene un control NAC implementado. Un técnico conecta su portátil personal a un puerto de pared. El NAC lo envía a la 'VLAN de Cuarentena'. ¿Qué significa esto, basado en los requisitos del MSPI (A.9)?",
+      "opciones": [
+        "a) El NAC falló, pues debió darle acceso completo al técnico.",
+        "b) El dispositivo no cumplió el 'Estándar de Postura' (ej. Antivirus apagado o falta de parches), por lo que fue aislado para proteger la Integridad de la red interna.",
+        "c) El técnico debe solicitar la clave de cuarentena al CISO"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Network Access Control (NAC): El NAC verifica la postura del dispositivo (si es 'sano'). Si el dispositivo falla (por no tener antivirus o parches), el NAC aplica la política de seguridad y lo aísla automáticamente. Esto es un control de Integridad y Confidencialidad clave para la entrada a la red."
+    },
+    {
+      "codigo": "RED-22",
+      "pregunta": "Gestión de Direcciones: Un usuario en la red IPv6 no puede acceder a ningún servidor interno configurado en IPv4. Sin embargo, todos los servicios IPv6 internos funcionan. ¿Cuál es la falla más probable?",
+      "opciones": [
+        "a) El usuario no está en modo *Dual Stack* o la configuración de *Gateway* no soporta el túnel de transición (Capa 3).",
+        "b) El router está ejecutando solo el protocolo EIGRP.",
+        "c) El servidor DNS interno solo tiene registros A (IPv4) y le faltan registros AAAA (IPv6)"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Migración IPv6: Para que un host IPv6 acceda a un servidor IPv4, debe haber un mecanismo de traducción o coexistencia (Dual Stack). Si solo fallan los servicios IPv4, la capa de traducción/coexistencia (Capa 3) del host o el router está fallando."
+    },
+    {
+      "codigo": "RED-23",
+      "pregunta": "Arquitectura de Red: La I.U. implementa QoS (Calidad de Servicio) para dar prioridad al tráfico de VoIP (llamadas) sobre el tráfico P2P de los estudiantes. ¿Qué pilar de seguridad de la información está siendo priorizado?",
+      "opciones": [
+        "a) Integridad, garantizando que el tráfico no sea modificado.",
+        "b) Disponibilidad, al asegurar que el tráfico crítico (VoIP) tenga el ancho de banda necesario para su correcto funcionamiento, mientras que el tráfico no misional (P2P) se degrada.",
+        "c) Confidencialidad, porque se cifra el tráfico de VoIP"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "QoS y Disponibilidad: La Calidad de Servicio es un mecanismo de gestión de recursos que garantiza que el tráfico crítico para la misión (Disponibilidad) se priorice sobre el tráfico recreativo. Asegurar la calidad de la llamada es un requisito de Disponibilidad de la comunicación."
+    },
+    {
+      "codigo": "RED-24",
+      "pregunta": "Seguridad de Red: La I.U. decide segmentar la red utilizando *VLANs de Voz* y *VLANs de Datos*. ¿Cuál es la principal ventaja de este control de segmentación de Capa 2?",
+      "opciones": [
+        "a) Elimina la necesidad de usar antivirus en los PCs de los usuarios.",
+        "b) Contiene los 'broadcast domains' y aísla el tráfico de voz para asegurar su calidad, evitando que el tráfico masivo de datos afecte la Disponibilidad de las llamadas (Riesgo de Disponibilidad).",
+        "c) Reduce el consumo eléctrico de los switches"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Segmentación VLAN: Las VLANs de Voz se crean para asegurar la calidad y el rendimiento. Aislar los 'broadcast domains' previene que una inundación de Capa 2 en la red de datos afecte la calidad y el servicio de la telefonía (Disponibilidad y QoS)."
+    },
+    {
+      "codigo": "RED-25",
+      "pregunta": "Diagnóstico Avanzado: Al realizar un `tracert` al servidor web externo de Mineducación, usted nota que la latencia (RTT) se dispara en el salto 4 (un router de la I.U.). En el salto 5 (router del ISP), la latencia vuelve a la normalidad. ¿Cuál es el problema más probable?",
+      "opciones": [
+        "a) Falla en el protocolo DNS (Capa 7).",
+        "b) El router del salto 4 está priorizando su tráfico de gestión sobre su tráfico de tránsito (Control Plane Policing/QoS), o está saturado, lo cual es una falla de Disponibilidad.",
+        "c) Falla en el router del salto 5 (ISP)"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico de Latencia: Si la latencia se dispara en un salto y regresa a la normalidad en el siguiente, significa que el router problemático está penalizando el tráfico ICMP (ping/tracert) o está sobrecargado. Es un problema de congestión o de administración de tráfico interno (QoS) en el salto 4."
+    },
+    {
+      "codigo": "RED-26",
+      "pregunta": "Auditoría de Infraestructura: En el cuarto de telecomunicaciones (IDF), usted encuentra que se usaron conectores RJ-45 para fibra óptica. ¿Qué norma se está violando y cuál es el riesgo operativo?",
+      "opciones": [
+        "a) EIA/TIA 568. La violación es de Trazabilidad.",
+        "b) La norma de fibra óptica. El riesgo es una pérdida de luz y degradación de la señal, o que la conexión no funcione en absoluto, comprometiendo la Integridad y la Disponibilidad.",
+        "c) La norma de seguridad eléctrica (EMI)"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Norma de Conectores: Los conectores RJ-45 son para cobre. La fibra usa conectores específicos (LC, SC, ST). El uso de un conector incorrecto es una violación de estándar que compromete la Integridad y la Continuidad (Capa 1)."
+    },
+    {
+      "codigo": "RED-27",
+      "pregunta": "Gestión de Seguridad: Se requiere que la red de laboratorios (Laptops de estudiantes) no pueda ver el servidor de archivos (SMB). ¿Qué control de red es el más efectivo y granular para prevenir la Confidencialidad?",
+      "opciones": [
+        "a) Aplicar un filtro MAC address en el switch.",
+        "b) Crear una ACL en el Switch de Capa 3 o Router que niegue específicamente el tráfico SMB (puerto 445/139) desde el segmento de red de los laboratorios hacia el segmento del servidor de archivos.",
+        "c) Usar un servidor DHCP diferente para los laboratorios"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Acceso (ACL): Las ACLs (Capa 3/4) son el control granular para filtrar tráfico específico (un protocolo como SMB) entre segmentos de red, haciendo cumplir la política de Confidencialidad y el principio de 'Necesidad de Conocer' del SGSI."
+    },
+    {
+      "codigo": "RED-28",
+      "pregunta": "Auditoría de Infraestructura: Usted inspecciona el MDF y encuentra que no hay cerradura ni control de acceso, y cualquier persona puede entrar. ¿Qué estándar TIA/EIA y pilar SGSI se viola?",
+      "opciones": [
+        "a) EIA/TIA 568 y el pilar de Disponibilidad.",
+        "b) EIA/TIA 606 (Administración) y el pilar de Seguridad Física (A.11.1.2), violando la Confidencialidad y la Integridad de la infraestructura crítica (Capa 1).",
+        "c) ISO 20000 (Gestión de Servicios) y el pilar de Disponibilidad"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad Física: El control de acceso físico (ISO 27001 A.11.1.2) es obligatorio para proteger el activo más crítico (la red física). La falta de seguridad física en el MDF/IDF es una violación de las normas TIA/EIA y un riesgo crítico de sabotaje (Integridad) o acceso no autorizado (Confidencialidad)."
+    },
+    {
+      "codigo": "RED-29",
+      "pregunta": "Diagnóstico Capa 2: Un usuario conectado a un puerto de switch reporta que su red está muy lenta. Al revisar el switch, usted nota una alta tasa de colisiones y errores de CRC en el puerto del usuario. ¿Cuál es el problema más probable?",
+      "opciones": [
+        "a) Falla en el servidor DNS (Capa 7).",
+        "b) Problema de Capa 1 (cable, conector, puerto defectuoso) o un error de dúplex (Duplex Mismatch) no corregido, lo cual afecta la Integridad y la Disponibilidad.",
+        "c) Un problema de enrutamiento estático (Capa 3)"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Diagnóstico Capa 1/2: Los errores de CRC (Cyclic Redundancy Check) y las colisiones son fallas de bajo nivel. Indican que el paquete se daña en la transmisión o la recepción. Esto es casi siempre un problema físico (cable defectuoso, distancia excesiva, error de dúplex)."
+    },
+    {
+      "codigo": "RED-30",
+      "pregunta": "Gestión de Continuidad: El BIA establece que el sistema de matrícula tiene un RTO (Tiempo de Recuperación Objetivo) de 6 horas. El DRP exige que la restauración de la base de datos se complete en 8 horas. ¿Cuál es el riesgo operativo?",
+      "opciones": [
+        "a) El DRP es demasiado lento. El RTO (Negocio) es más corto que el tiempo de recuperación técnica, lo que significa que el negocio estará paralizado por 2 horas adicionales (violación de Disponibilidad).",
+        "b) El RTO es muy corto para un sistema crítico.",
+        "c) El DRP debe ser revisado por el CISO"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Continuidad DRP/RTO: El RTO (6h) es la meta del negocio (BCP). El DRP (8h) es el plan técnico. Si el plan técnico es más largo que la meta del negocio, el plan es ineficaz y el riesgo de indisponibilidad se materializa por 2 horas. El DRP debe ser revisado para reducir el tiempo de restauración."
+    },
+
+{
+      "codigo": "RED-01",
+      "pregunta": "Un grupo de usuarios reporta que no pueden conectarse al portal institucional. El ping responde bien, pero el acceso web y correo falla. ¿En qué capa diagnosticas primero?",
+      "opciones": [
+        "a) Capa 7 (Aplicación/DNS), verificando funcionamiento de servicios y resolución de nombres.",
+        "b) Capa 3 (Enrutamiento/IP), revisando rutas.",
+        "c) Capa 2 (Switching/ARP), comprobando tablas de conmutación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Si hay respuesta a ping (IP conectada), el problema está probablemente en la capa de aplicación o de resolución de nombres (DNS)."
+    },
+    {
+      "codigo": "RED-02",
+      "pregunta": "La impresora de una oficina deja de funcionar en red; el resto de equipos navega normalmente y responde a ping. ¿Dónde está probablemente el problema?",
+      "opciones": [
+        "a) Capa 2 (Switching/ARP), revisando si la MAC de la impresora está registrada y accesible.",
+        "b) Capa 3 (Enrutamiento/IP), analizando direcciones IP.",
+        "c) Capa 7 (Aplicación), validando servidores de impresión."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La conectividad por ping indica que la red responde; una falla en la tabla ARP o configuración de switch puede impedir la correcta comunicación de la impresora."
+    },
+    {
+      "codigo": "RED-03",
+      "pregunta": "El servidor DNS institucional cae durante el horario de matrículas. Se reportan problemas de acceso generalizados. ¿Qué prioridad tiene la atención?",
+      "opciones": [
+        "a) Máxima prioridad; el DNS afecta todos los servicios dependientes de nombres.",
+        "b) Segunda prioridad, ya que solo afecta navegación.",
+        "c) Prioridad baja, porque IP directas siguen funcionando."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El DNS es crítico para acceso a portales, correo, sistemas; su caída impacta transversalmente los procesos institucionales."
+    },
+    {
+      "codigo": "RED-04",
+      "pregunta": "Se solicita ampliar el cableado de red para nuevas aulas, empleando cable UTP Cat6 a una distancia de 150 metros. ¿Cuál es el problema respecto a normativa EIA/TIA?",
+      "opciones": [
+        "a) Se incumple la distancia máxima de 100m; puede haber pérdidas de señal y degradación.",
+        "b) Solo aumenta la latencia.",
+        "c) Es válido si se usan switches intermedios."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "EIA/TIA 568 fija 100m como máximo para evitar atenuación de señales, interferencias y pérdida de rendimiento."
+    },
+    {
+      "codigo": "RED-05",
+      "pregunta": "Un usuario reporta lentitud extrema y caídas de conexión esporádicas. El ping responde bien pero el comando tracert muestra un salto con tiempo excesivo. ¿Dónde buscar el origen?",
+      "opciones": [
+        "a) Capa 3, identificar routers/saltos con retardos y analizar rutas.",
+        "b) Capa 2, analizar switches locales.",
+        "c) Capa 7, validar aplicaciones pesadas en equipo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Un salto con alto tiempo indica un problema a nivel de enrutamiento/red o congestión en la ruta."
+    },
+    {
+      "codigo": "RED-06",
+      "pregunta": "El servidor de impresión cae pero el DNS y sistemas académicos funcionan. ¿Cuál es la prioridad de atención?",
+      "opciones": [
+        "a) Prioridad secundaria; afecta solo a un área de soporte, no servicios misionales centrales.",
+        "b) Máxima prioridad, impresoras son críticas.",
+        "c) Mínima prioridad, resolver cuando sea posible."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Aunque molesta a usuarios, el impacto es menor comparado a la caída de servicios críticos como DNS, portal, correo."
+    },
+    {
+      "codigo": "RED-07",
+      "pregunta": "Al segmentar la red con VLANs, ¿qué ventaja principal se busca para la seguridad institucional?",
+      "opciones": [
+        "a) Limitar accesos y ataques entre áreas, aislando servidores misionales y grupos de usuarios.",
+        "b) Mejorar la velocidad de red para todos los dispositivos.",
+        "c) Facilitar cambios en cableado físico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las VLANs permiten controlar el tráfico, separar segmentos críticos y proteger información ante amenazas internas y externas."
+    },
+    {
+      "codigo": "RED-08",
+      "pregunta": "Un nuevo switch recibe cables etiquetados incorrectamente. ¿Qué norma exige mantener etiquetado y registro preciso?",
+      "opciones": [
+        "a) EIA/TIA 606.",
+        "b) EIA/TIA 568.",
+        "c) IEEE 802.3."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "EIA/TIA 606 regula administración y etiquetado de infraestructura para trazabilidad y mantenimiento."
+    },
+    {
+      "codigo": "RED-09",
+      "pregunta": "El firewall central se configura con reglas laxas para acelerar el acceso de estudiantes pero deja expuestos servidores administrativos. ¿Qué riesgo principal hay?",
+      "opciones": [
+        "a) Brecha y exposición de información crítica; se compromete confidencialidad e integridad.",
+        "b) Menores tiempos de acceso para estudiantes.",
+        "c) Mayor facilidad de configuración."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las reglas del firewall deben balancear rendimiento y seguridad; flexibilizarlas sin control expone servidores y datos confidenciales."
+    },
+    {
+      "codigo": "RED-10",
+      "pregunta": "Se observa que los dispositivos IOT de un laboratorio acceden a la misma VLAN que los servidores académicos. ¿Qué error de arquitectura se está cometiendo?",
+      "opciones": [
+        "a) Falta de segmentación adecuada; IOT debe estar aislado de servidores para reducir ataques.",
+        "b) Mejor uso de recursos de red.",
+        "c) Mayor facilidad de administración."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Por seguridad, los dispositivos IOT tienen mayores riesgos y no deben compartir VLAN con activos misionales."
+    },
+    {
+      "codigo": "RED-11",
+      "pregunta": "Al auditar la red, detectas que no hay control de acceso con NAC. Los estudiantes conectan dispositivos no autorizados. ¿Cuál es el riesgo principal?",
+      "opciones": [
+        "a) Intrusión y posible propagación de malware, pérdida de control y trazabilidad.",
+        "b) Mayor flexibilidad para los usuarios.",
+        "c) Reducción de soporte técnico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El NAC permite validar y controlar dispositivos, evitando riesgos de seguridad y brechas por conexiones no autorizadas."
+    },
+    {
+      "codigo": "RED-12",
+      "pregunta": "La distancia entre el switch y el equipo final supera los 100 metros y presenta errores de conexión. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "a) Atenuación y pérdida de señal por superar la distancia estándar UTP.",
+        "b) Configuración errónea de IP.",
+        "c) Saturación en la VLAN."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Según EIA/TIA 568, a más de 100m el UTP empieza a perder integridad y puede ocasionar errores y desconexiones."
+    },
+    {
+      "codigo": "RED-13",
+      "pregunta": "Un área presenta problemas de acceso por ARP desactualizado en el switch. ¿Qué comando puede usarse para ver y verificar la asignación?",
+      "opciones": [
+        "a) arp",
+        "b) ping",
+        "c) tracert"
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El comando arp muestra la tabla de asignaciones MAC-IP y permite validar conflictos o actualizaciones necesarias en Capa 2."
+    },
+    {
+      "codigo": "RED-14",
+      "pregunta": "Al revisar el DHCP, se encuentra saturación por falta de direcciones disponibles. ¿Qué problema se presenta en la red?",
+      "opciones": [
+        "a) Los nuevos equipos no pueden obtener IP y pierden conectividad.",
+        "b) Solo se ralentiza el acceso.",
+        "c) No afecta la red si se configuran IPs fijas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Sin direcciones DHCP disponibles, los dispositivos nuevos quedan fuera de la red, imposibilitando acceso."
+    },
+    {
+      "codigo": "RED-15",
+      "pregunta": "El área administrativa reporta lentitud pero el resto de la red funciona bien. Tracert indica demora en el salto interno. ¿Cuál es el diagnóstico y medida correcta?",
+      "opciones": [
+        "a) Analizar el switch/router del segmento afectado y verificar congestión o fallas.</a>",
+        "b) Reiniciar equipos usuarios.",
+        "c) Cambiar cables físicos de todos los equipos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El problema identificado por tracert sugiere análisis del equipo de red (Layer 2/3) implicado; no global ni solo usuario."
+    },
+
+    {
+      "codigo": "RED-16",
+      "pregunta": "Se observa que un segmento de la red está recibiendo conflictos de IP. ¿Cuál herramienta y acción inicial es la correcta?",
+      "opciones": [
+        "a) Revisar el DHCP y escanear la red con 'arp' para encontrar duplicados.",
+        "b) Reiniciar todos los dispositivos.",
+        "c) Cambiar todos los cables del segmento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El conflicto de IP exige inspección del servidor DHCP y tablas arp para identificar duplicados y corregir asignaciones."
+    },
+    {
+      "codigo": "RED-17",
+      "pregunta": "El firewall bloquea algunos puertos requeridos para aplicaciones académicas. ¿Cuál procedimiento debe seguirse?",
+      "opciones": [
+        "a) Autorizar por regla específica y documentar el cambio asegurando no abrir riesgos innecesarios.",
+        "b) Abrir todos los puertos temporalmente.",
+        "c) Desactivar el firewall para pruebas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Deben abrirse sólo los puertos necesarios y bajo control estricto, documentando el cambio para evitar brechas de seguridad."
+    },
+    {
+      "codigo": "RED-18",
+      "pregunta": "Usuarios reportan pérdida de conectividad tras actualizar el firmware del switch. ¿Capa y procedimiento correcto?",
+      "opciones": [
+        "a) Revisar Capa 2, validar configuración de VLAN y tabla MAC tras la actualización.",
+        "b) Hacer ping a todos los equipos.",
+        "c) Reiniciar el switch y todos los equipos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Una actualización de firmware puede resetear configuraciones de Capa 2, como VLANs y tablas MAC; validar primero allí."
+    },
+    {
+      "codigo": "RED-19",
+      "pregunta": "El servidor web institucional funciona pero no es accesible por nombre, solo por IP. ¿Qué servicio debe revisarse?",
+      "opciones": [
+        "a) DNS, verificar resolución y registros.",
+        "b) DHCP, comprobar asignación IP.",
+        "c) ARP, revisar direcciones MAC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El problema es de resolución de nombres, propio de DNS; el acceso por IP indica conectividad pero fallo de traducción de dominio."
+    },
+    {
+      "codigo": "RED-20",
+      "pregunta": "El etiquetado físico de cables y paneles se perdió durante una mudanza. ¿Qué error estratégico se cometió?",
+      "opciones": [
+        "a) Incumplimiento de EIA/TIA 606, dificultando mantenimiento y auditoría.",
+        "b) Solo error administrativo.",
+        "c) Falta de ajuste en la VLAN."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El etiquetado es obligatorio por norma y necesario para operación eficiente, trazabilidad y soporte."
+    },
+    {
+      "codigo": "RED-21",
+      "pregunta": "Se detecta tráfico intenso y lentitud en horarios pico en la red de estudiantes, pero los servidores misionales siguen operativos. ¿Qué medida de seguridad conviene?",
+      "opciones": [
+        "a) Segmentar con VLANs y limitar ancho de banda del segmento estudiantil.",
+        "b) Subir capacidad de todos los enlaces.",
+        "c) Cambiar todos los switches por modelos más rápidos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La segmentación y el control del ancho de banda permiten mitigar el impacto de tráfico sin afectar sistemas críticos."
+    },
+    {
+      "codigo": "RED-22",
+      "pregunta": "Dispositivos externos se conectan en la red de invitados y acceden a recursos internos mediante puertos abiertos. ¿Acción de control correcta?",
+      "opciones": [
+        "a) Configurar el firewall y NAC para restringir conexiones y tráfico de la red invitada.",
+        "b) Permitir acceso controlado por horario.",
+        "c) Cambiar las contraseñas periódicamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Segmentar y controlar accesos entre redes evita brechas y mitiga riesgos de acceso no autorizado."
+    },
+    {
+      "codigo": "RED-23",
+      "pregunta": "El servidor de archivos se queda sin espacio y varios servicios críticos se detienen. ¿Priorización correcta de acciones?",
+      "opciones": [
+        "a) Liberar espacio, migrar datos necesarios y notificar áreas afectadas antes de restaurar el servicio.",
+        "b) Reiniciar el servidor inmediatamente.",
+        "c) Borrar archivos antiguos sin respaldo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gestionar el incidente enfocándose primero en habilitar el servicio y preservar datos críticos es esencial."
+    },
+    {
+      "codigo": "RED-24",
+      "pregunta": "Al implementar una política de NAC, solo algunos dispositivos cumplen los requisitos y pueden conectarse. ¿Cómo diagnosticas el problema?",
+      "opciones": [
+        "a) Revisar el perfil de configuración NAC, verificar reglas y actualización de dispositivos rechazados.",
+        "b) Permitir acceso para todos temporalmente.",
+        "c) Reiniciar el servidor NAC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El diagnóstico correcto exige revisar reglas/NAC y configuración de dispositivos según políticas y estado."
+    },
+    {
+      "codigo": "RED-25",
+      "pregunta": "Se observa que la red de administración está recibiendo ataques desde la red estudiantil. ¿Qué estrategia de mitigación aplicar?",
+      "opciones": [
+        "a) Fortalecer reglas de firewall y VLANs, aislando segmentos críticos.",
+        "b) Informar al área estudiantil del riesgo.",
+        "c) Cambiar dirección IP del segmento administrativo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La mitigación eficaz implica reforzar la segmentación y reglas para evitar el movimiento lateral de amenazas."
+    },
+    {
+      "codigo": "RED-26",
+      "pregunta": "Se requiere migrar la red a IPv6 pero muchos equipos no lo soportan. ¿Medida prioritaria?",
+      "opciones": [
+        "a) Implementar dual stack (IPv4/IPv6) mientras se actualiza el hardware.",
+        "b) Migrar solo los equipos compatibles.",
+        "c) Descartar la migración por el momento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Dual stack permite coexistencia y transición, asegurando conectividad y cumplimiento sin dejar equipos fuera de servicios."
+    },
+    {
+      "codigo": "RED-27",
+      "pregunta": "Un servidor muestra fallas intermitentes. 'Ping' responde, pero 'tracert' muestra rutas variables y ICMP alto. ¿En qué capa diagnosticas el problema?",
+      "opciones": [
+        "a) Capa 3 (Red), revisar rutas y congestión.",
+        "b) Capa 2 (Enlace), analizar switches.",
+        "c) Capa 7 (Aplicación), auditar procesos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Rutas variables y latencia alta apuntan a problemas de enrutamiento, congestión o inestabilidad en Capa 3."
+    },
+    {
+      "codigo": "RED-28",
+      "pregunta": "Durante una auditoría, descubres cables cruzados (mezcla T568A/B) en el mismo segmento. ¿Qué consecuencias y acción tomar?",
+      "opciones": [
+        "a) Recomendar estandarizar a un solo esquema por segmento y documentar el cambio.",
+        "b) Mezclar puede mejorar el rendimiento.",
+        "c) No hay impacto si hay conectividad."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Mezclar esquemas puede causar errores en ciertos entornos; estandarizar y documentar es obligatorio y facilita soporte."
+    },
+    {
+      "codigo": "RED-29",
+      "pregunta": "La red estudiantil presenta aumentos de tráfico por streaming de video y gaming, afectando otros servicios. ¿Solución recomendada?",
+      "opciones": [
+        "a) Limitar ancho de banda por políticas QoS y segmentar con VLANs.",
+        "b) Prohibir todo tráfico multimedia.",
+        "c) Cambiar todos los switches."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "QoS y segmentación permiten priorizar servicios críticos sin afectar toda la red."
+    },
+    {
+      "codigo": "RED-30",
+      "pregunta": "Un usuario reporta problemas de acceso remoto vía VPN, sólo desde una subred específica. ¿Dónde enfocas el diagnóstico?",
+      "opciones": [
+        "a) Revisar reglas de firewall y políticas de acceso para esa subred.",
+        "b) Reiniciar el VPN.",
+        "c) Cambiar el cable del usuario."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Si la falla es subred-específica, el análisis se centra en políticas y reglas (firewall, routing) que impactan esa ruta."
+    },
+
+    {
+      "codigo": "RED-01",
+      "pregunta": "En la I.U. Pascual Bravo, varios usuarios administrativos reportan que “no tienen Internet”. Desde una de esas estaciones un técnico realiza las siguientes pruebas: 1) ping 8.8.8.8 responde sin pérdida; 2) ping al gateway responde correctamente; 3) ping www.google.com falla por ‘host desconocido’; 4) tracert 8.8.8.8 muestra ruta completa; 5) el resto de estaciones en la misma VLAN no presenta fallas. Como coordinador de soporte en redes, ¿cuál es la interpretación y acción más adecuada?",
+      "opciones": [
+        "a) Se trata de una falla de Capa 3 (enrutamiento), por lo que debe revisarse la tabla de rutas del core y del firewall institucional.",
+        "b) Se trata de una falla de Capa 7 relacionada con DNS (resolución de nombres) en esa estación o su configuración de servidor DNS, por lo que debe revisarse primero la configuración local de DNS antes de tocar el enrutamiento.",
+        "c) Se trata de una falla de Capa 2 (switching), por lo que es necesario cambiar el equipo de acceso donde está conectado el usuario, ya que los pings a IP pública son engañosos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Las pruebas muestran que a nivel IP (Capa 3) hay conectividad: ping a gateway y a 8.8.8.8 funcionan, y el traceroute llega. El problema aparece al resolver nombres (ping por FQDN falla). Esto apunta a un fallo de resolución de nombres (Capa 7), probablemente servidor DNS mal configurado o no alcanzable desde ese host, por lo que la acción correcta es revisar la configuración de DNS local y su alcance, no el enrutamiento ni el switch."
+    },
+    {
+      "codigo": "RED-02",
+      "pregunta": "En un laboratorio de la universidad, todos los PCs de la VLAN_ESTUDIANTES obtienen IP del DHCP, pueden hacer ping al gateway y a Internet, pero no logran acceder al sistema académico interno alojado en la VLAN_SERVIDORES. Los equipos de la VLAN_ADMIN sí acceden sin problemas al mismo sistema. La tabla de rutas del core es correcta y el servidor responde pings desde la VLAN_ADMIN. Como auditor de infraestructura, ¿cuál es la causa más probable y la acción adecuada?",
+      "opciones": [
+        "a) Un problema de Capa 2 (switching) en el acceso del laboratorio, por lo que se debe cambiar la VLAN de los puertos a VLAN_ADMIN para que vean el servidor.",
+        "b) Una política de firewall o ACL que restringe el tráfico desde la VLAN_ESTUDIANTES hacia la VLAN_SERVIDORES, por lo que debe revisarse la configuración de seguridad de Capa 3/4 entre VLANs.",
+        "c) Una falla en el servidor DNS interno, ya que los estudiantes no pueden acceder a ningún recurso interno, aunque el resto de la red sí tenga conectividad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Como los estudiantes tienen conectividad a Internet y al gateway, la Capa 1–3 hasta el core funciona. El acceso desde VLAN_ADMIN al servidor demuestra que el servidor y el enrutamiento están operativos. El bloqueo selectivo desde VLAN_ESTUDIANTES hacia VLAN_SERVIDORES es típico de reglas de firewall/ACL entre VLANs, usadas para proteger servidores misionales del tráfico estudiantil. Cambiar de VLAN al laboratorio comprometería la seguridad segmentada y no atiende el diseño de gobierno de red."
+    },
+    {
+      "codigo": "RED-03",
+      "pregunta": "Se presenta un incidente en el edificio de biblioteca: varias estaciones reportan intermitencia en la red cableada. El técnico observa que el enlace del switch de acceso hacia el core está UP, pero la tabla de direcciones MAC en el switch cambia constantemente para las mismas MAC entre varios puertos, y se reciben múltiples mensajes de STP. No se evidencia problema de IP ni de DNS, pero la navegación es errática. Como coordinador, ¿qué diagnóstico y acción son más apropiados?",
+      "opciones": [
+        "a) Es un problema de Capa 3 (enrutamiento), por lo cual se deben revisar las rutas estáticas en el router y aumentar el ancho de banda del enlace al core.",
+        "b) Es un problema de Capa 2 (switching/loop), probablemente un bucle en la red por conexiones cruzadas entre switches o tomas, por lo que debe localizarse y eliminarse el loop y revisar la configuración de STP.",
+        "c) Es un problema de Capa 7 (aplicación), causado por excesivo uso de streaming en bibliotecas, por lo que se deben limitar aplicaciones de video mediante el firewall."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La tabla MAC oscilando para las mismas direcciones y los mensajes de STP apuntan a un loop de Capa 2: tramas dando vueltas entre puertos/switches. Esto genera congestión e intermitencia. La solución correcta es localizar el bucle (cables mal conectados, switches enlazados erróneamente) y asegurar que STP esté configurado adecuadamente, no tocar enrutamiento ni aplicaciones."
+    },
+    {
+      "codigo": "RED-04",
+      "pregunta": "En un nuevo bloque de aulas se instaló cableado UTP categoría 6 con tramos horizontales de hasta 130 metros desde el rack de comunicaciones hasta algunas tomas. Los usuarios en los puntos más alejados reportan baja velocidad, pérdida de paquetes y desconexiones, mientras que los ubicados a menor distancia funcionan correctamente. El proveedor insiste en que es problema del switch. Como auditor de infraestructura física, ¿cuál es la conclusión más sólida?",
+      "opciones": [
+        "a) El problema se debe a una mala configuración lógica del switch, ya que la categoría del cable es 6 y eso garantiza siempre estabilidad sin importar la distancia.",
+        "b) El cableado no cumple el estándar EIA/TIA 568, que establece una longitud máxima aproximada de 100 metros para el enlace permanente más patch cords, por lo que los tramos de 130 metros son físicamente inadecuados y deben corregirse mediante redistribución de racks o uso de fibra.",
+        "c) El problema está en la capa de aplicación, ya que las aplicaciones académicas consumen mucho ancho de banda y saturan los enlaces independientemente de la longitud del cable."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El estándar EIA/TIA 568 limita a ~100m el cableado de cobre (90m horizontal + 10m patch cords). Tramos de 130m violan este estándar y provocan errores y degradación física (Capa 1). No es un problema de configuración lógica del switch ni exclusivo de las aplicaciones, sino de diseño de la infraestructura física que debe corregirse con FO intermedia o reubicación de racks."
+    },
+    {
+      "codigo": "RED-05",
+      "pregunta": "En la mesa de ayuda se reciben dos incidentes simultáneos: (1) caída total del servidor DNS interno que resuelve nombres para todos los sistemas académicos y administrativos; (2) daño del servidor de impresión de una oficina administrativa específica, que solo atiende a 10 funcionarios. Solo hay un ingeniero disponible para atención inmediata. Desde la visión de priorización de soporte en redes y servicios, ¿qué decisión es más adecuada?",
+      "opciones": [
+        "a) Atender primero el servidor de impresión de la oficina, porque la afectación es visible y los usuarios suelen escalar más rápido sus quejas, dejando el problema de DNS para cuando se calmen.",
+        "b) Priorizar la recuperación del servidor DNS interno, porque afecta a casi todos los servicios que dependen de resolución de nombres, y luego atender el servidor de impresión, gestionando expectativas con la oficina afectada.",
+        "c) Dividir el tiempo entre ambos problemas, alternando cada 15 minutos entre DNS e impresión, para que ningún grupo de usuarios sienta que fue dejado de lado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En términos de impacto y criticidad, la caída de DNS tiene efecto transversal sobre múltiples aplicaciones y usuarios (Capa 7 crítica). El servidor de impresión afecta a un grupo pequeño y tiene alternativa temporal (impresión por otra impresora o sede). La priorización correcta es centrarse en el servicio que soporta más funciones misionales (DNS) y comunicar adecuadamente a la oficina sobre el plan para la impresión."
+    },
+    {
+      "codigo": "RED-06",
+      "pregunta": "Un docente reporta que desde su portátil conectado por cable puede hacer ping a 8.8.8.8 y navegar a algunos sitios usando IP, pero no puede acceder a ninguna aplicación de la universidad usando el nombre (ej. sistemaacademico.pascual.edu). Desde otro equipo en la misma toma todo funciona bien. El DHCP entrega los mismos parámetros (gateway y DNS) a ambos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "a) Falla de Capa 3 en el router, ya que el docente no puede acceder a los servicios institucionales, por lo que debe revisarse la tabla de enrutamiento del core.",
+        "b) Falla de Capa 7 específica de DNS en el equipo del docente (cache de DNS corrupta o configuración manual alterada), por lo que debe revisarse la configuración local y limpiar la cache antes de escalar.",
+        "c) Falla de Capa 2 en el switch, ya que el puerto podría tener una VLAN mal asignada, permitiendo Internet pero no acceso a servicios internos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El hecho de que otro equipo en la misma toma funcione y que el docente pueda navegar por IP indica que capa física, Capa 2 y Capa 3 funcionan. El problema aparece al resolver nombres, por lo que se ubica en Capa 7 (DNS) a nivel del host: cache, configuración manual de DNS, o software de seguridad interfiriendo. No tiene sentido cambiar VLAN ni enrutamiento si otros equipos en la misma infraestructura trabajan correctamente."
+    },
+    {
+      "codigo": "RED-07",
+      "pregunta": "La I.U. define, como medida de seguridad bajo el MSPI, segmentar la red en VLAN_ESTUDIANTES, VLAN_DOCENTES y VLAN_SERVIDORES. Sin embargo, por presión de un laboratorio, se habilitó temporalmente una regla en el switch core que permite que la VLAN_ESTUDIANTES enrute directamente hacia la VLAN_SERVIDORES sin pasar por el firewall. Meses después se detecta un incidente de acceso no autorizado a un servidor misional desde una IP estudiantil. Como auditor de redes, ¿qué evaluación es más acertada?",
+      "opciones": [
+        "a) La segmentación por VLAN fue suficiente; el incidente se debe exclusivamente a contraseñas débiles en el servidor, sin relación con el diseño de red.",
+        "b) La eliminación del control de firewall entre VLAN_ESTUDIANTES y VLAN_SERVIDORES anuló la protección lógica que se buscaba con la segmentación, permitiendo tráfico directo y ampliando la superficie de ataque, por lo que fue un error grave de arquitectura de seguridad.",
+        "c) La causa principal fue asignar direcciones IP privadas a los estudiantes; si se hubiera usado direcciones públicas, el ataque se habría trazado mejor y no representaría un problema de seguridad interno."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La segmentación por VLAN solo es efectiva si se combina con controles de acceso entre ellas. Permitir enrutamiento directo sin firewall entre estudiantes y servidores rompe el principio de mínima exposición y hace posible que ataques internos alcancen recursos misionales sin inspección ni restricciones. Las contraseñas débiles son un factor, pero el diseño de red sin firewall entre VLANs es un error estructural."
+    },
+    {
+      "codigo": "RED-08",
+      "pregunta": "Un proveedor instala una nueva sala con 40 puestos de red. Durante la auditoría, se observa que los patch cords de usuario son categoría 6, pero el cableado horizontal y el patch panel son categoría 5e. Además, no se entregó certificación de los enlaces. El proveedor argumenta que usar patch cords Cat6 “sube” la categoría de toda la instalación. Como coordinador de implementación, ¿cuál es la valoración correcta?",
+      "opciones": [
+        "a) La categoría del enlace está determinada por el componente de menor categoría (Cat5e), por lo que la instalación no puede considerarse Cat6 y se debe exigir cumplimiento del estándar y certificación.",
+        "b) La combinación de Cat5e y Cat6 es aceptable, ya que las diferencias de rendimiento son mínimas, y solo la certificación de patch cords es realmente relevante.",
+        "c) La utilización de patch cords Cat6 es suficiente para declarar el punto como Cat6, por lo que no es necesario exigir certificación del cableado horizontal."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Según buenas prácticas y normas de cableado, la categoría efectiva del enlace es la del componente de menor categoría, en este caso Cat5e. No se puede declarar la red Cat6 si el tramo permanente no lo es. Además, la certificación de los enlaces es fundamental para asegurar cumplimiento EIA/TIA 568 y el desempeño anunciado. La combinación sin certificación no cumple el estándar."
+    },
+    {
+      "codigo": "RED-09",
+      "pregunta": "Se implementa un sistema NAC para controlar el acceso a la red cableada de estudiantes. Tras activarlo, se registra que las MAC de algunos dispositivos IoT (por ejemplo, relojes biométricos y cámaras IP) quedan en una VLAN de cuarentena sin acceso a sus servidores de gestión. El administrador considera desactivar el NAC en puertos donde haya IoT para “evitar problemas”. Desde la perspectiva de seguridad y operación, ¿qué decisión es más adecuada?",
+      "opciones": [
+        "a) Desactivar el NAC en todos los puertos de IoT, confiando en que estos dispositivos son poco riesgosos y requieren conectividad permanente.",
+        "b) Ajustar la política del NAC para identificar y clasificar los IoT (por ejemplo, por MAC/OUI) y asignarlos automáticamente a una VLAN_IOT altamente restringida, con acceso solo a sus servidores de gestión, manteniendo el control de acceso activo.",
+        "c) Mantener todos los IoT en la misma VLAN que estudiantes, para simplificar el diseño, pero registrar su MAC en una hoja de cálculo para control manual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) preserva la seguridad: los IoT no deben quedar sin control ni mezclados con estudiantes. El NAC debe ajustarse para reconocerlos y colocarlos en una VLAN_IOT con políticas muy restrictivas. Desactivar NAC en puertos de IoT debilita la postura de seguridad; mezclarlos con estudiantes amplifica el riesgo en ambas direcciones."
+    },
+    {
+      "codigo": "RED-10",
+      "pregunta": "Durante un pico de matrícula, los estudiantes reportan lentitud extrema solo al usar el portal de matrículas. El equipo de redes verifica: 1) ping al servidor de matrícula desde diferentes VLANs con tiempos normales; 2) ping al gateway y a Internet sin problemas; 3) otros sistemas web internos funcionan bien. El equipo de desarrollo reporta alto consumo de CPU en el servidor de aplicaciones y tiempos de respuesta largos a nivel HTTP. ¿Dónde está principalmente la falla?",
+      "opciones": [
+        "a) En Capa 3 (enrutamiento), lo que obliga a revisar la tabla de rutas y las métricas de los enlaces WAN.",
+        "b) En Capa 7 (aplicación), probablemente por falta de optimización o capacidad del servidor de aplicaciones del portal de matrículas.",
+        "c) En Capa 2 (switching), ya que el alto tráfico del portal suele generar loops que se manifiestan como lentitud general."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La red (L2/L3) muestra buenos tiempos de ping y otras aplicaciones funcionan correctamente, lo que descarta con alta probabilidad problemas de switching o enrutamiento. El cuello de botella está en la Capa 7: servidor de aplicaciones sobrecargado, consultas a base de datos no optimizadas, falta de dimensionamiento, etc. El síntoma es específico al portal de matrículas, no a toda la red."
+    },
+    {
+      "codigo": "RED-11",
+      "pregunta": "El servidor DHCP de la VLAN_ESTUDIANTES deja de funcionar repentinamente. Los equipos que ya tenían IP siguen navegando sin problema, pero los nuevos dispositivos no consiguen dirección IP y se quedan con APIPA (169.254.x.x). Al mismo tiempo, se recibe una queja por parte de una oficina administrativa porque “un visitante conectó un router WiFi propio y ahora todo está raro”. ¿Cuál es el riesgo principal si no se actúa correctamente?",
+      "opciones": [
+        "a) Que el router WiFi del visitante comience a otorgar IPs como servidor DHCP no autorizado, generando conflictos y pérdida de control sobre direccionamiento en esa VLAN.",
+        "b) Que el router WiFi aumente la intensidad de la señal inalámbrica y cause interferencia radioeléctrica sin ningún impacto en la red cableada.",
+        "c) Que el router WiFi del visitante consuma demasiado ancho de banda en la VLAN_ESTUDIANTES, reduciendo la velocidad para los demás usuarios, pero sin afectar el servicio DHCP."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La conexión de routers SOHO a la red institucional puede habilitar servidores DHCP no autorizados que compiten con el servidor oficial, afectando la asignación de IP y el control de la red. El síntoma de nuevos dispositivos sin IP válida lo sugiere. El riesgo no es solo interferencia o consumo de ancho de banda, sino la pérdida de control sobre la capa de direccionamiento (se mitiga con DHCP Snooping, NAC y políticas claras)."
+    },
+    {
+      "codigo": "RED-12",
+      "pregunta": "Se recibe un incidente masivo: en una sede solo los usuarios conectados por WiFi reportan imposibilidad total de navegar, mientras que los usuarios cableados en la misma sede trabajan sin problemas. Desde un portátil con doble interfaz, el técnico comprueba que con cable hay Internet, pero con WiFi no consigue ni IP. El AP principal en el corredor tiene LEDs encendidos, pero los controladores reportan túneles CAPWAP caídos hacia el controlador central. ¿Qué capa y elemento deben priorizarse en el diagnóstico?",
+      "opciones": [
+        "a) Capa 1/2, revisando el enlace físico y lógico (VLANs y troncales) entre los APs y el switch de acceso/controlador, así como la comunicación CAPWAP; el problema se concentra en la infraestructura WiFi, no en el core.",
+        "b) Capa 3, modificando rutas en el core para redirigir el tráfico WiFi directamente a Internet sin pasar por el controlador.",
+        "c) Capa 7, revisando la configuración de los navegadores de los usuarios WiFi, ya que solo ellos parecen afectados."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El problema solo afecta WiFi; cable funciona. El hecho de que los túneles CAPWAP estén caídos indica problema en la conectividad entre AP/controlador (Capa 1/2 principalmente, incluyendo VLANs y troncales). No hay evidencia de fallo de rutas ni de problema en navegadores. Se debe priorizar revisar la red que soporta APs (PoE, trunk, VLANs, enlace al controlador)."
+    },
+    {
+      "codigo": "RED-13",
+      "pregunta": "Durante un ejercicio de auditoría interna, se simula un ataque desde la VLAN_ESTUDIANTES intentando escanear puertos de los servidores de nómina y talento humano. El firewall perimetral permite tráfico entre VLAN_ESTUDIANTES y VLAN_ADMIN para ciertos puertos (HTTP/HTTPS), y el NAC solo se aplica a WiFi, no a la red cableada. Se comprueba que desde un punto de red de estudiante se puede iniciar un escaneo de puertos hacia servidores críticos. Como especialista en redes y seguridad, ¿qué medida corrige mejor la debilidad?",
+      "opciones": [
+        "a) Implementar NAC también en la red cableada de estudiantes y reforzar reglas de firewall para limitar estrictamente qué puertos/protocolos pueden llegar desde VLAN_ESTUDIANTES a VLAN_SERVIDORES.",
+        "b) Mantener la configuración actual y confiar en que los estudiantes no tienen conocimientos suficientes para explotar los servidores, dado que el acceso ya está parcialmente filtrado.",
+        "c) Mover los servidores de nómina y talento humano a la misma VLAN que estudiantes para simplificar el enrutamiento y centralizar la gestión de accesos en las aplicaciones."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La combinación de NAC en todos los accesos y reglas estrictas de firewall entre VLANs fortalece la protección de servidores misionales frente a equipos estudiantiles. Confiar en el desconocimiento (b) es inaceptable; mezclar servidores críticos en la misma VLAN que estudiantes (c) anula la segmentación y aumenta exponencialmente el riesgo."
+    },
+    {
+      "codigo": "RED-14",
+      "pregunta": "El equipo de redes recibe múltiples reportes de que ciertos usuarios pueden acceder a Internet, pero no al sistema de biblioteca (una aplicación web interna). Las pruebas muestran: ping al servidor de biblioteca responde desde varias VLANs; traceroute llega correctamente; `telnet servidor_biblioteca 443` desde un cliente falla para estudiantes pero funciona para administrativos; el DNS resuelve correctamente el FQDN del sistema. ¿Cuál es la capa y el elemento más probable causante del problema?",
+      "opciones": [
+        "a) Capa 2: un problema de VLAN en los switches de acceso que impide a los estudiantes ver al servidor de biblioteca a nivel de switching.",
+        "b) Capa 3/4: una política de firewall o ACL que bloquea el puerto 443 hacia el servidor de biblioteca desde la VLAN_ESTUDIANTES pero lo permite desde VLAN_ADMIN.",
+        "c) Capa 7: un error de configuración en el navegador de los estudiantes, ya que los administrativos sí pueden ingresar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El ping y traceroute demuestran conectividad IP; el FQDN resuelve, descartando DNS. La imposibilidad de abrir el puerto 443 solo desde estudiantes indica bloqueo a nivel de firewall/ACL por VLAN (Capa 3/4). No hay evidencia de problemas en VLAN (Layer 2) porque el ping llega, ni de configuración de navegador específica, dado que el bloqueo es coherente por segmento de red."
+    },
+    {
+      "codigo": "RED-15",
+      "pregunta": "En un nuevo bloque se diseñó el cableado estructurado con un enlace de cobre de 90 m desde el rack principal a un rack secundario, y desde allí se tendieron 80 m adicionales hacia los puestos de usuario. El proveedor argumenta que la suma todavía está dentro de los 100 m porque “los racks intermedios no cuentan”. Los usuarios del extremo final presentan problemas de enlace inestable. Como auditor CCNP de infraestructura, ¿cuál es la explicación correcta?",
+      "opciones": [
+        "a) El estándar EIA/TIA 568 considera el segmento completo, incluyendo tramos entre racks como parte del canal, por lo que 90 m + 80 m exceden ampliamente el límite recomendado y deben haberse utilizado enlaces troncales de fibra entre racks.",
+        "b) Los racks intermedios efectivamente no cuentan en la longitud, por lo que la inestabilidad se debe únicamente a interferencias electromagnéticas y no a la distancia del cobre.",
+        "c) Lo que importa no es la longitud sino la categoría del cable; al ser Cat6, la distancia puede extenderse sin problemas hasta 200 m, por lo que debe ser un problema de configuración de switch."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "EIA/TIA 568 limita el canal de cobre (punto a punto, incluyendo racks intermedios si no hay electrónica de regeneración) a ~100 m. Los 90 m + 80 m exceden el máximo; el diseño debió usar un uplink de fibra entre racks y solo cobre desde el último rack a los puestos. No es cierto que racks “no cuenten”; la categoría del cable no elimina la limitación física de distancia."
+    },
+
+{
+      "codigo": "RED-16",
+      "pregunta": "En un piso de la I.U. Pascual Bravo, todos los usuarios de la VLAN_DOCENTES reportan que no tienen acceso a ningún recurso fuera de su subred. Desde una de las estaciones: 1) ping a otra PC de la misma VLAN funciona; 2) ping a la IP del gateway (SVI del switch L3) no responde; 3) en el switch L3, el comando show ip arp no muestra entrada ARP para esa estación ni para otras de la VLAN; 4) las demás VLAN de la universidad sí acceden sin problemas a Internet y servicios internos. Como ingeniero de redes, ¿cuál es el diagnóstico más probable?",
+      "opciones": [
+        "a) Falla de Capa 3 en el enrutamiento hacia Internet, por lo que debe revisarse la tabla de rutas del core.",
+        "b) Falla de Capa 2/ARP en la VLAN_DOCENTES (por ejemplo, problema en el enlace entre el switch de acceso y el L3 o bloqueo en esa VLAN), ya que el gateway no responde ARP y no se genera entrada en la tabla.",
+        "c) Falla de Capa 7 en DNS, porque los docentes no pueden resolver nombres hacia recursos externos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La comunicación entre hosts de la misma VLAN funciona, pero ninguno puede llegar al gateway, y en el L3 no aparece ARP para esos hosts. Esto apunta a un problema en la conectividad L2 entre el switch de acceso y el L3 (trunk caído, VLAN no permitida, bloqueo) o a un fallo de ARP en esa VLAN. No es un problema de rutas (otras VLAN sí salen) ni de DNS (ni siquiera hay respuesta del gateway)."
+    },
+    {
+      "codigo": "RED-17",
+      "pregunta": "Los servidores de investigación en la VLAN_INVESTIGACION pueden acceder sin problemas a Internet y a todos los sistemas internos, excepto a una red remota específica de un aliado con la que la universidad tiene un convenio. Desde un servidor de investigación: 1) ping a 8.8.8.8 funciona; 2) ping a la IP de un servidor del aliado falla; 3) traceroute hacia esa IP se detiene en el firewall institucional; 4) desde un servidor en la VLAN_SERVIDORES el traceroute llega correctamente al aliado. ¿Dónde es más probable que esté el problema?",
+      "opciones": [
+        "a) En la Capa 7 (aplicación), porque el servidor del aliado podría tener un servicio caído para la VLAN_INVESTIGACION.",
+        "b) En la Capa 3/4, específicamente en una regla de firewall o enrutamiento que no permite que la VLAN_INVESTIGACION alcance la red del aliado, aunque sí lo haga la VLAN_SERVIDORES.",
+        "c) En la Capa 2, porque la VLAN_INVESTIGACION puede estar mal configurada en los switches de acceso del datacenter."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El tráfico desde VLAN_SERVIDORES llega sin problema, pero desde VLAN_INVESTIGACION se detiene en el firewall; esto sugiere políticas de firewall/ACL o rutas específicas que no contemplan esa VLAN. Es un asunto de Capa 3/4 (enrutamiento/ACL) y no de aplicación ni de switching, ya que otros destinos funcionan y la VLAN sí llega al firewall."
+    },
+    {
+      "codigo": "RED-18",
+      "pregunta": "Los estudiantes conectados por WiFi en la VLAN_ESTUDIANTES pueden navegar libremente por Internet, pero no pueden acceder al sistema académico interno `sistemaacademico.pascual.edu`. Desde una estación cableada en VLAN_ADMIN sí se accede sin problemas al mismo FQDN. Desde un estudiante, 1) ping a la IP del servidor académico funciona; 2) ping a sistemaacademico.pascual.edu resuelve el nombre y responde; 3) al abrir la URL en el navegador, la conexión se queda en “estableciendo conexión” y termina por tiempo de espera. ¿Cuál es el origen más probable del problema?",
+      "opciones": [
+        "a) Un problema de Capa 3, ya que el enrutamiento desde VLAN_ESTUDIANTES hacia VLAN_SERVIDORES está roto aunque el ping funcione.",
+        "b) Un problema de Capa 7 o de políticas de firewall a nivel de aplicación (bloqueo de puerto HTTP/HTTPS o inspección) específicamente para VLAN_ESTUDIANTES hacia ese servidor, ya que hay conectividad IP y DNS funcionan.",
+        "c) Un problema de Capa 2 en los APs, porque los usuarios WiFi suelen tener más interferencias que los usuarios cableados."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El ping IP funciona y el DNS resuelve correctamente, lo que indica que L2, L3 y la resolución de nombres están en orden. Que la sesión HTTP/HTTPS no se establezca sugiere bloqueo a nivel de firewall o política de aplicación (puertos 80/443, inspección, WAF) entre la VLAN_ESTUDIANTES y el servidor, o reglas específicas de Capa 7, no un problema de enrutamiento o switching."
+    },
+    {
+      "codigo": "RED-19",
+      "pregunta": "Se activa IPv6 en el campus en modo dual-stack. Los usuarios de una VLAN piloto reportan que pueden hacer ping a direcciones IPv6 públicas (por ejemplo, la dirección IPv6 de Google) y a la dirección IPv6 del gateway, pero no pueden acceder a sitios web usando nombres de dominio vía IPv6. El tráfico IPv4 funciona sin problemas. En el diagnóstico se observa que los servidores DNS internos solo tienen registros A para los servicios más usados y no se ha configurado un servidor DNS recursivo capaz de resolver registros AAAA. ¿Dónde está la falla principal?",
+      "opciones": [
+        "a) En Capa 3, ya que el router no está propagando correctamente las rutas IPv6 de Internet.",
+        "b) En Capa 7, concretamente en la resolución DNS IPv6 (registros AAAA y configuración de servidores DNS capaces de resolverlos), a pesar de que la conectividad IP pura funciona.",
+        "c) En Capa 2, porque los switches de acceso no soportan etiquetado de VLAN con IPv6 y bloquean el tráfico por defecto."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los pings directos a direcciones IPv6 muestran que la conectividad L3 IPv6 está operativa. El problema se presenta al usar nombres, lo cual apunta a la falta de registros AAAA o soporte recursivo para IPv6 en los servidores DNS. No es un problema de enrutamiento ni de switching, sino de resolución de nombres en contexto IPv6 (Capa 7)."
+    },
+    {
+      "codigo": "RED-20",
+      "pregunta": "En un bloque antiguo, el proveedor de cableado estructurado instaló los cables UTP categoría 5e en bandejas perforadas compartidas con cables eléctricos de potencia, sin mantener separación física. Los usuarios reportan fallas intermitentes, bajadas de velocidad y errores de CRC en los puertos de switch conectados a esos tramos. El proveedor argumenta que “eso no tiene impacto porque los cables son de buena calidad”. Desde la mirada de auditoría de infraestructura, ¿cuál es el análisis correcto?",
+      "opciones": [
+        "a) La proximidad de los cables de red a cables eléctricos viola buenas prácticas y recomendaciones de los estándares de cableado (como EIA/TIA), aumentando la interferencia electromagnética y los errores en Capa 1, por lo que debe exigirse corrección de la ruta de cableado.",
+        "b) Los problemas se deben exclusivamente a mala configuración de velocidad y dúplex en los switches, y la coexistencia con cables eléctricos no tiene relevancia técnica.",
+        "c) La categoría del cable (5e) compensa cualquier interferencia externa, por lo que los errores de CRC deben considerarse normales en instalaciones antiguas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las normas y buenas prácticas de cableado estructurado exigen separación y rutas adecuadas frente a cables de potencia para reducir interferencias. Compartir bandeja con cables eléctricos es una violación de diseño físico (Capa 1) y explica los errores de CRC. No es algo que se arregle ajustando dúplex ni se justifica por la categoría del cable."
+    },
+    {
+      "codigo": "RED-21",
+      "pregunta": "Durante una jornada académica, el core de la red principal sufre una falla en uno de sus módulos, causando intermitencia y pérdida de conectividad entre VLANs, pero el enlace a Internet se mantiene parcialmente. Al mismo tiempo, un Access Point de un laboratorio se daña y deja sin WiFi a una sola sala con 30 estudiantes; el resto del campus está operativo. Solo hay un ingeniero disponible de inmediato. Desde la perspectiva de soporte y continuidad, ¿qué incidente debe priorizarse?",
+      "opciones": [
+        "a) El AP del laboratorio, porque hay estudiantes en clase afectados directamente y la presión es inmediata.",
+        "b) La falla del core, porque afecta múltiples VLANs y servicios a nivel institucional, incluso si algunos usuarios aún perciben conectividad parcial.",
+        "c) Ninguno, ya que mientras haya algún acceso a Internet, la universidad puede seguir funcionando razonablemente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El core es un punto de falla central: sus problemas afectan varias VLANs, interconexión de servidores, servicios misionales y posiblemente el acceso a Internet de muchas dependencias. Un AP dañado impacta solo a una sala; existen alternativas temporales. La priorización correcta se basa en impacto y alcance, no en el ruido local de un grupo de usuarios."
+    },
+    {
+      "codigo": "RED-22",
+      "pregunta": "La VLAN_ESTUDIANTES y la VLAN_SERVIDORES están correctamente segmentadas, pero un laboratorio de desarrollo solicita que sus PCs tengan acceso directo por RDP y SQL a uno de los servidores misionales de base de datos, para “realizar pruebas en datos reales”. El jefe de área propone mover esos PCs a la VLAN_SERVIDORES para simplificar reglas de firewall. Como experto en redes y seguridad, ¿qué enfoque es más adecuado?",
+      "opciones": [
+        "a) Mantener la segmentación y definir reglas de firewall muy específicas desde una VLAN_LAB_DESARROLLO aislada hacia solo los puertos necesarios del servidor, registrando los accesos y usando datos anonimizados si es posible.",
+        "b) Mover las estaciones de trabajo del laboratorio a la VLAN_SERVIDORES, confiando en que los desarrolladores usarán los accesos de forma responsable y sin necesidad de firewall interno.",
+        "c) Permitir que el laboratorio copie la base de datos completa a sus PCs para hacer pruebas locales sin tráfico hacia la VLAN_SERVIDORES, eliminando la necesidad de segmentación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Mover PCs de laboratorio a la VLAN_SERVIDORES rompe el diseño de seguridad, expone servidores a mayor riesgo y viola el principio de mínima exposición. Lo adecuado es mantener segmentación, crear una VLAN_LAB controlada y permitir solo accesos puntuales y auditados a los servidores necesarios, preferiblemente con datos reducidos o anonimizados."
+    },
+    {
+      "codigo": "RED-23",
+      "pregunta": "Durante la revisión de un proyecto de cableado, se detecta que el proveedor no etiquetó los patch panels ni las tomas de usuario, y la documentación entregada solo consiste en un listado de “punto 1, punto 2, …” sin mapa de ubicación ni codificación consistente. En campo, los técnicos tardan mucho tiempo en identificar de qué toma proviene un puerto de switch. El proveedor indica que “esa información se puede ir descubriendo con pruebas de continuidad”. Desde el punto de vista del estándar EIA/TIA 606 y de auditoría, ¿qué debe exigirse?",
+      "opciones": [
+        "a) Aceptar la instalación tal como está y confiar en que el equipo de TI construirá su propia documentación con el tiempo mediante pruebas manuales.",
+        "b) Exigir un esquema de etiquetado y documentación conforme a EIA/TIA 606 (códigos únicos por toma, mapa de racks, correspondencia patch panel–toma), como parte de la entrega formal del proyecto.",
+        "c) Solicitar solo que se etiqueten los switches, ya que la identificación de tomas de usuario se considera un valor agregado no obligatorio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "EIA/TIA 606 define lineamientos para la administración y etiquetado del cableado estructurado. Un proyecto sin etiquetado ni documentación es difícil de mantener, diagnosticar y auditar. Debe requerirse un sistema de codificación coherente y mapas que permitan trazar de usuario a puerto, no dejar esto a pruebas improvisadas posteriores."
+    },
+    {
+      "codigo": "RED-24",
+      "pregunta": "En un edificio, los Access Points PoE se reinician de forma esporádica durante el día. Los switches de acceso muestran mensajes de “PoE power denied” y “PoE power limited” cuando se conectan todos los APs y algunas cámaras IP. El proveedor de seguridad insiste en que las cámaras funcionan bien por separado. Desde la perspectiva de redes, ¿qué es lo más probable y cuál es la acción adecuada?",
+      "opciones": [
+        "a) Se trata de un problema de Capa 3 (enrutamiento) que produce reinicios, por lo que se debe revisar OSPF o EIGRP en el core.",
+        "b) Se trata de un problema de Capa 1 relacionado con la potencia PoE disponible en el switch, que está sobrecargado; se debe redistribuir la carga PoE (más switches, fuentes adecuadas) o usar inyectores externos, respetando las capacidades del equipo.",
+        "c) Se trata de un problema de Capa 7, ya que el controlador inalámbrico reinicia APs cuando detecta poco tráfico, y debe ajustarse el tiempo de inactividad de la aplicación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los mensajes de PoE “denied/limited” en el switch indican que la suma de consumo de APs + cámaras excede la capacidad PoE del chasis o módulo. Esto es un problema físico (Capa 1: alimentación PoE), no de enrutamiento ni de aplicaciones. La solución es rediseñar la distribución de carga PoE o aumentar la capacidad disponible, no tocar protocolos de routing."
+    },
+    {
+      "codigo": "RED-25",
+      "pregunta": "Tras una actualización de firmware en el firewall, los usuarios reportan que solo un conjunto de aplicaciones web externas deja de funcionar correctamente (páginas en HTTPS que no cargan o muestran errores de certificado), mientras que el resto del tráfico HTTPS funciona y los pings a esos sitios responden. El proveedor del firewall confirma que ahora está habilitada la inspección HTTPS (SSL inspection) para ciertos dominios. ¿En qué capa se sitúa principalmente el problema?",
+      "opciones": [
+        "a) En Capa 3 (IP/enrutamiento), porque el firewall deja de enrutar tráfico hacia esos destinos concretos.",
+        "b) En Capa 7 (aplicación), específicamente en la inspección TLS/HTTPS del firewall que está interfiriendo con el establecimiento de sesión segura para esos sitios.",
+        "c) En Capa 2 (switching), ya que probablemente existan bucles de STP que afectan solo a tráfico cifrado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los pings funcionan y el resto de tráfico HTTPS no presenta problemas; el cambio reciente es la inspección HTTPS a nivel de firewall. Esto ubica el problema en Capa 7/TLS: el firewall actúa como intermediario en la sesión cifrada y puede generar errores de certificados o incompatibilidades con ciertos sitios. No es un problema de routing (IP llega) ni switching."
+    },
+    {
+      "codigo": "RED-26",
+      "pregunta": "En la VLAN_ESTUDIANTES se detectan síntomas de posible ARP spoofing/poisoning: algunos equipos resuelven la MAC del gateway a una MAC que corresponde a un equipo estudiantil, provocando pérdida de conectividad intermitente. La universidad no tiene todavía IPS a nivel LAN, pero los switches de acceso soportan dinámicamente DHCP snooping y Dynamic ARP Inspection (DAI). ¿Qué medida es más adecuada para mitigar el riesgo?",
+      "opciones": [
+        "a) Habilitar Dynamic ARP Inspection y DHCP snooping en los switches de acceso, validando los ARP contra la tabla de bindings DHCP, para bloquear ARP falsificados desde puertos de acceso de estudiantes.",
+        "b) Cambiar el gateway de la VLAN_ESTUDIANTES a otro router sin aplicar cambios en switches, confiando en que el nuevo dispositivo no será víctima de ARP spoofing.",
+        "c) Desactivar completamente ARP en esa VLAN y configurar direcciones MAC estáticas en todos los equipos, para impedir la suplantación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "DAI junto con DHCP snooping es una medida estándar de protección contra ARP spoofing en Capa 2, validando los ARP con bindings confiables. Cambiar de router sin proteger la capa de acceso no resuelve el problema. Desactivar ARP o configurar MAC estáticas es impráctico y no viable en redes de gran tamaño como una universidad."
+    },
+    {
+      "codigo": "RED-27",
+      "pregunta": "Solo algunos sistemas web internos dejan de ser accesibles para los usuarios, mientras que otros funcionan bien. Los usuarios reportan que al intentar acceder a `intranet.pascual.edu`, el navegador se queda resolviendo el nombre y luego muestra error de tiempo de espera. El equipo de redes verifica: 1) ping a la IP del servidor de intranet funciona; 2) ping a intranet.pascual.edu resuelve hacia una IP equivocada (antiguo servidor ya apagado); 3) desde el servidor DNS interno, la zona `pascual.edu` tiene dos registros A diferentes para intranet, uno obsoleto. ¿Cuál es el origen del problema?",
+      "opciones": [
+        "a) Falla en Capa 3, ya que el router no está encaminando el tráfico hacia la IP correcta de intranet.",
+        "b) Falla en Capa 7, específicamente en la configuración de DNS interno (registros A obsoletos o duplicados para el mismo nombre) que redirige clientes a una IP donde no hay servicio.",
+        "c) Falla en Capa 2, porque el switch de acceso no conoce la MAC del nuevo servidor de intranet."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El ping por IP al servidor de intranet funciona, por lo que L2 y L3 están bien. El problema es que el DNS interno resuelve el nombre hacia una IP antigua, donde no hay servidor. Esto es claramente un error de configuración en la capa de nombres (Capa 7 – DNS), no de enrutamiento ni switching."
+    },
+    {
+      "codigo": "RED-28",
+      "pregunta": "Un docente solicita que su PC de escritorio tenga acceso directo a las carpetas compartidas del servidor de archivos administrativo, actualmente accesibles solo desde VLAN_ADMIN. Su equipo está en VLAN_DOCENTES, con políticas más restrictivas. El técnico de turno propone cambiar el puerto del docente a VLAN_ADMIN para “resolver rápido” y evitar modificaciones en firewall. Como coordinador de red y seguridad, ¿qué decisión refleja mejor las buenas prácticas?",
+      "opciones": [
+        "a) Aprobar el cambio del docente a VLAN_ADMIN, ya que es un funcionario de confianza y necesita el recurso, sin modificar políticas de firewall.",
+        "b) Mantener al docente en VLAN_DOCENTES y, si se justifica el acceso, crear reglas de firewall específicas de Capa 3/4 que permitan solo los puertos necesarios hacia el servidor de archivos, con trazabilidad.",
+        "c) Compartir las carpetas administrativas vía Internet usando un servicio de nube pública para que el docente acceda sin tocar la configuración interna de VLANs ni firewall."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cambiar el docente a VLAN_ADMIN amplía injustificadamente su superficie de acceso, rompiendo el principio de mínima exposición. Exponer recursos administrativos vía nube pública añade otros riesgos. Lo correcto es mantener las VLAN según rol y ajustar de forma controlada y auditada las reglas de firewall para permitir solo lo estrictamente necesario entre VLAN_DOCENTES y el servidor."
+    },
+    {
+      "codigo": "RED-29",
+      "pregunta": "Se presenta un incidente: el servicio NAC de la universidad falla y no autentica usuarios en la red WiFi, por lo que no se asignan dinámicamente VLANs ni se aplican políticas de acceso. Como solución temporal, el administrador considera poner todos los SSID en VLAN_ESTUDIANTES abierta, dando acceso a Internet sin restricciones internas. Al mismo tiempo, se reporta caída de un proxy de filtrado de contenido que solo usan algunas áreas administrativas. Ambos incidentes compiten por recursos de soporte. ¿Cuál priorización es más adecuada?",
+      "opciones": [
+        "a) Priorizar la recuperación del NAC, porque afecta el control de acceso y la seguridad de toda la red WiFi; luego atender la caída del proxy de contenido.",
+        "b) Priorizar el servidor de proxy de contenido, ya que los administrativos pueden ver sitios no permitidos y eso genera mayor riesgo reputacional que la caída del NAC.",
+        "c) Atender primero el proxy de contenido y mantener el NAC caído, asumiendo que los usuarios igual tienen sus credenciales de dominio para identificarse."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El NAC controla quién entra a la red y con qué permisos; su caída reduce drásticamente el control de acceso y puede permitir el ingreso no autorizado a la red interna. El proxy de contenido es importante, pero su impacto está más acotado. Desde la perspectiva de riesgo y superficie de ataque, la recuperación del NAC debe ser prioritaria."
+    },
+    {
+      "codigo": "RED-30",
+      "pregunta": "En una auditoría física se encuentra que, para ahorrar espacio, el contratista instaló pequeños patch panels dentro del cielo falso de un pasillo, sin racks adecuados, sin ventilación ni acceso fácil, y extendió desde allí cables UTP a las oficinas. El proveedor argumenta que “es lo mismo que tener un closet de telecomunicaciones, solo que escondido”. Los usuarios de esa zona presentan fallas intermitentes difíciles de diagnosticar y se pierde tiempo tratando de localizar los puntos. Desde el punto de vista de estándares de infraestructura (EIA/TIA) y soporte, ¿qué conclusión es correcta?",
+      "opciones": [
+        "a) Es una práctica aceptable mientras los cables pasen pruebas de continuidad; la ubicación de los patch panels no afecta significativamente el desempeño ni el mantenimiento.",
+        "b) Es una práctica inadecuada: los estándares recomiendan cuartos o gabinetes de telecomunicaciones accesibles, seguros y ventilados; ubicar patch panels en cielos falsos dificulta mantenimiento, inspección y cumplimiento de buenas prácticas.",
+        "c) La ubicación en el cielo falso es ideal para redes, porque reduce la visibilidad de los elementos de comunicaciones y por ello mejora la seguridad física, aunque complique un poco las intervenciones."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los estándares de infraestructura (como EIA/TIA 569/606) recomiendan cuartos o gabinetes de telecomunicaciones adecuados, accesibles y con condiciones controladas. Colocar patch panels en cielo falso hace casi imposible un soporte eficiente, complica el etiquetado y aumenta el riesgo de conexiones inadecuadas y daños físicos. No basta con que el cable dé continuidad; el diseño debe ser mantenible y auditable."
+    }
+
+
+    ]
+}

@@ -1,0 +1,1045 @@
+{
+    "preguntas": [
+        {
+            "codigo": "SIS-01",
+            "pregunta": "El equipo directivo de la I.U. Pascual Bravo requiere una herramienta para simular el impacto de diferentes modelos de becas en la deserción estudiantil y en el flujo de caja. ¿Qué tipo de sistema es más adecuado para soportar esta necesidad no rutinaria?",
+            "opciones": [
+                "a) Sistema de Procesamiento de Transacciones (TPS).",
+                "b) Sistema de Soporte a la Decisión (DSS).",
+                "c) Sistema de Información Gerencial (MIS)."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El DSS (Decision Support System) está diseñado para analizar datos, modelar escenarios y apoyar decisiones estratégicas o no estructuradas, como la simulación de impacto de políticas."
+        },
+        {
+            "codigo": "SIS-02",
+            "pregunta": "Según el MRAE y la Política de Gobierno Digital, si la universidad implementa un nuevo sistema de PQRS, ¿cuál es un requisito de interoperabilidad obligatorio?",
+            "opciones": [
+                "a) Que el sistema se comunique con el Sistema de Información y Gestión del Empleo Público (SIGEP).",
+                "b) Que el sistema permita el intercambio de datos con otras entidades usando los estándares definidos por MinTIC (SOAP, REST, JSON).",
+                "c) Que el sistema sea desarrollado totalmente in-house para asegurar la soberanía del código."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La interoperabilidad externa (b) es un pilar del MRAE y es obligatoria para el intercambio de información. La opción (a) es específica, y la (c) no es un requisito de interoperabilidad."
+        },
+        {
+            "codigo": "SIS-03",
+            "pregunta": "Usted debe liderar la adquisición de un nuevo software para la Gestión Documental y el Cero Papel. Dado que la gestión documental es un proceso estandarizado y transversal a todas las entidades públicas, ¿qué enfoque de adquisición es generalmente preferible?",
+            "opciones": [
+                "a) Desarrollo a la medida (In-house), para adaptarlo a la cultura universitaria.",
+                "b) Compra de Software Comercial (COTS), para reducir riesgos de mantenimiento y costos.",
+                "c) Desarrollo Ágil (Scrum) con equipo propio durante 3 años."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Para procesos estándar (Gestión Documental, Nómina), la compra de soluciones COTS (Commercial Off-The-Shelf) es la práctica recomendada para optimizar recursos y apoyarse en soluciones probadas."
+        },
+        {
+            "codigo": "SIS-04",
+            "pregunta": "Al diseñar un nuevo sistema de votación electrónica estudiantil, usted prioriza integrar los controles de seguridad (roles, cifrado) desde la fase de requisitos, antes de escribir una línea de código. ¿Qué principio de seguridad y desarrollo está aplicando?",
+            "opciones": [
+                "a) Borrado Seguro.",
+                "b) Seguridad desde el Diseño (Security by Design).",
+                "c) Pruebas de Estrés."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El principio de Seguridad desde el Diseño (Security by Design) establece que los controles de seguridad deben integrarse en las fases tempranas del SDLC para evitar costos y riesgos de corregir vulnerabilidades en producción."
+        },
+
+        {
+      "codigo": "SIS-01",
+      "pregunta": "Caso: La I.U. Pascual Bravo necesita un sistema que, basado en los registros históricos de notas y asistencia (TPS), calcule la probabilidad de deserción de cada estudiante para activar alertas. Este sistema se usaría para tomar decisiones de intervención social. ¿Qué tipología de sistema debe priorizar en el Dominio de Sistemas de Información (MRAE)?",
+      "opciones": [
+        "a) Un Sistema de Procesamiento de Transacciones (TPS), ya que requiere datos en tiempo real.",
+        "b) Un Sistema de Soporte a Decisiones (DSS), enfocado en modelos predictivos y análisis para la toma de decisiones estratégicas.",
+        "c) Un Sistema de Información Gerencial (MIS), ya que solo necesita generar reportes agregados y gráficos para la Rectoría."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Tipología de Sistemas: El objetivo es la 'simulación' y la 'decisión de intervención'. Esto va más allá del reporte (MIS) o la simple captura de datos (TPS). El DSS utiliza modelos estadísticos y datos históricos para apoyar la estrategia institucional, lo cual es su función principal."
+    },
+    {
+      "codigo": "SIS-02",
+      "pregunta": "El MinTIC emite la directriz de usar la 'Carpeta Ciudadana Digital' (SCD). Usted debe diseñar la arquitectura de un nuevo trámite de 'Certificados de Notas'. ¿Cuál es la implicación obligatoria de la Carpeta Ciudadana en su diseño de sistemas?",
+      "opciones": [
+        "a) El sistema debe ser capaz de generar el certificado en un formato físico para que el estudiante lo suba a la Carpeta.",
+        "b) El sistema debe estar diseñado para consumir los servicios de autenticación y de interoperabilidad de la Carpeta y depositar el certificado en formato electrónico y con firma digital en el repositorio del Estado.",
+        "c) El sistema solo debe garantizar la seguridad de la información, el resto es responsabilidad del ciudadano."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interoperabilidad Obligatoria (Decreto 1078): Los Servicios Ciudadanos Digitales (SCD) obligan a las entidades a consumir la autenticación central y exponer sus documentos oficiales en la Carpeta. Esto requiere diseño de Interoperabilidad (REST/SOAP) y uso de Firma Digital para validez legal."
+    },
+    {
+      "codigo": "SIS-03",
+      "pregunta": "La I.U. necesita un sistema para realizar el seguimiento en tiempo real del inventario de hardware. Se encuentra una solución COTS (Comercial) que cubre el 80% de los requisitos a un bajo costo. Sin embargo, su equipo técnico propone desarrollarlo 'In-house' para cubrir el 100% de las necesidades. ¿Cuál es la decisión estratégica que debe tomar usted, el coordinador?",
+      "opciones": [
+        "a) Desarrollar 'In-house', pues el 100% de cumplimiento es fundamental para el control de activos.",
+        "b) Adquirir la solución COTS, documentando que el 80% cubre el núcleo misional, ya que la Ley 80 promueve la adquisición y el desarrollo 'In-house' solo se justifica si no existe ninguna solución comercial viable.",
+        "c) Adquirir la solución COTS y luego desarrollar el 20% restante con recursos propios para lograr el 100% de cobertura."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Adquisición Estratégica (MRAE/Ley 80): La justificación de desarrollo 'In-house' en el sector público es extremadamente rigurosa. Si existe una solución COTS que cubra la mayoría de los requisitos (80% es suficiente), se debe priorizar la compra (Principio de Economía y Eficiencia). El desarrollo 'In-house' solo se justifica si la brecha es crítica o única."
+    },
+    {
+      "codigo": "SIS-04",
+      "pregunta": "Usted está en la fase de 'Requisitos' de un nuevo sistema de gestión documental. El líder de proceso no puede dedicar tiempo a la reunión de levantamiento de requisitos. El analista sugiere tomar como base los requisitos de la Alcaldía de Medellín. ¿Qué error del Ciclo de Vida se comete?",
+      "opciones": [
+        "a) Violación del Dominio de Procesos de Negocio. Los requisitos deben basarse en los procesos 'As Is' (tal cual) de la I.U. Pascual Bravo, no en supuestos de otra entidad, para asegurar la correcta automatización de la Cadena de Valor.",
+        "b) Violación de la ISO 27001 (Seguridad).",
+        "c) El error es de gestión, porque se debe contratar un experto en el proceso de gestión documental."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ciclo de Vida (SDLC) y MRAE: La fase de requisitos es la más crítica. Los sistemas (Dominio Sistemas) automatizan los procesos (Dominio Procesos). Usar requisitos de otro lado (Opción C) garantiza que el sistema no cumpla la misión específica de la I.U., generando fallas en la justificación de la inversión."
+    },
+    {
+      "codigo": "SIS-05",
+      "pregunta": "La I.U. debe reportar datos de notas, egresados y programas académicos al SNIES (Sistema Nacional de Información de la Educación Superior). La universidad genera un archivo en Excel cada semestre y lo envía por correo al Ministerio. ¿Cuál es la falla de arquitectura de información más grave?",
+      "opciones": [
+        "a) El uso de un canal no seguro (correo electrónico) para datos sensibles.",
+        "b) La violación de los estándares de Interoperabilidad. El reporte debe ser mediante API (REST/SOAP) o servicio web para garantizar la Integridad y la estandarización del dato (Dominio de Sistemas).",
+        "c) El retraso en la entrega de la información."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interoperabilidad (Decreto 1078): El intercambio masivo de datos con sistemas nacionales (SNIES, DANE) debe ser mediante mecanismos de interoperabilidad (API) para automatizar la transferencia y garantizar la Integridad y la calidad del dato. El Excel viola el requisito de estandarización."
+    },
+    {
+      "codigo": "SIS-06",
+      "pregunta": "El Dominio de Sistemas de Información del MRAE exige un 'Inventario de Aplicaciones'. Su equipo técnico solo incluye en este inventario las aplicaciones compradas (licencias). ¿Cuál es la implicación para el SGSI y el Portafolio de Proyectos?",
+      "opciones": [
+        "a) Se cumple, ya que el SGSI solo audita los activos con valor contable (licencias).",
+        "b) El inventario es incompleto. Debe incluir las aplicaciones desarrolladas 'In-house' y el Software Libre (Open Source), pues son activos misionales que requieren gestión de ciclo de vida, seguridad y soporte (A.8.1.1 de ISO 27001).",
+        "c) El inventario solo debe incluir las aplicaciones críticas para la matrícula."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Dominio de Sistemas/SGSI: El inventario de aplicaciones (MRAE) y el inventario de activos (ISO 27001) deben cubrir todos los activos misionales, independientemente de su tipo de licenciamiento (comprado, propio o libre), ya que todos conllevan riesgos de seguridad y obsolescencia."
+    },
+    {
+      "codigo": "SIS-07",
+      "pregunta": "El Vicerrector Administrativo solicita un sistema que muestre el estado en tiempo real de la ejecución presupuestal de cada proyecto de inversión de la I.U. ¿Qué tipología de sistema debe priorizar en el PETI para esta necesidad?",
+      "opciones": [
+        "a) Un Sistema de Procesamiento de Transacciones (TPS), ya que requiere datos financieros actualizados.",
+        "b) Un Sistema de Información Gerencial (MIS), enfocado en la agregación y visualización de datos históricos y en tiempo real para el monitoreo de la gestión (Dashboard).",
+        "c) Un Sistema de Soporte a Decisiones (DSS), para simular escenarios de recorte presupuestal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Tipología de Sistemas: El propósito es 'seguimiento en tiempo real y reporte de gestión'. Este es el rol clásico de un MIS, que toma datos del TPS y los presenta de forma consolidada para el monitoreo de la gestión."
+    },
+    {
+      "codigo": "SIS-08",
+      "pregunta": "La I.U. requiere un sistema para simular la demanda de cupos por carrera basado en las tendencias de egresados de bachillerato en Medellín. ¿Qué tipología de sistema debe priorizar en el Dominio de Sistemas de Información?",
+      "opciones": [
+        "a) Sistema de Información Gerencial (MIS).",
+        "b) Sistema de Procesamiento de Transacciones (TPS).",
+        "c) Sistema de Soporte a Decisiones (DSS), ya que el objetivo es la 'simulación' y la 'predicción' para la planeación estratégica (Análisis Predictivo)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Tipología de Sistemas: El uso de 'simulación' y 'tendencias' para planificar la oferta académica es la función central de un DSS (Business Intelligence), que soporta decisiones no rutinarias y estratégicas."
+    },
+    {
+      "codigo": "SIS-09",
+      "pregunta": "En la fase de 'Cierre' del proyecto de un software desarrollado 'In-house', el equipo técnico no entregó los manuales de usuario ni la documentación de arquitectura. ¿Cuál es el riesgo de ciclo de vida más grave para la I.U.?",
+      "opciones": [
+        "a) El riesgo de que el software sea defectuoso y falle en el futuro.",
+        "b) El riesgo de Obsolescencia Acelerada e Incumplimiento de la Transferencia de Conocimiento, haciendo que el sistema sea insostenible o que el mantenimiento requiera re-ingeniería completa (Deuda Técnica).",
+        "c) El riesgo de que el contratista no reciba el pago final."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ciclo de Vida y Riesgo: La documentación (A.14.2.7) es parte del activo intangible. No entregarla implica que la I.U. no puede mantener el sistema (violación de la Integridad y Continuidad), aumentando el costo de soporte futuro."
+    },
+    {
+      "codigo": "SIS-10",
+      "pregunta": "Usted debe justificar la compra de un sistema ERP modular a través de una licitación. El proveedor que tiene el mejor TCO (Costo Total de Propiedad) solo puede entregar la Integración de los módulos con una API SOAP/XML obsoleta. ¿Cuál es su recomendación arquitectónica?",
+      "opciones": [
+        "a) Rechazar la oferta y buscar un proveedor con API REST/JSON, ya que el XML es obsoleto según los estándares MinTIC.",
+        "b) Aceptar la API SOAP/XML, siempre y cuando se incluya en el contrato la obligación de que el proveedor entregue documentación y soporte de interoperabilidad a 5 años, priorizando el TCO sobre la modernidad tecnológica.",
+        "c) Aceptar el proveedor y desarrollar un Middleware 'In-house' para traducir de SOAP a REST."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Arquitectura y TCO: Aunque REST es preferible, el TCO (Eficiencia del Gasto) es fundamental en el sector público. La API SOAP/XML es un estándar legado. La acción correcta es aceptar la tecnología, pero mitigar el riesgo de obsolescencia exigiendo soporte contractual a largo plazo, manteniendo la Integridad."
+    },
+    {
+      "codigo": "SIS-11",
+      "pregunta": "La I.U. necesita un sistema para el control de acceso biométrico en los laboratorios. El líder del proyecto pide iniciar la licitación inmediatamente con base en las especificaciones del proveedor que visitó. ¿Qué fase del Ciclo de Vida del Sistema (SDLC) se estaría saltando, aumentando el riesgo de Contratación?",
+      "opciones": [
+        "a) Fase de Programación (presupuesto).",
+        "b) Fase de Requisitos y Planificación (Análisis de Viabilidad y Especificación de Requisitos no funcionales).",
+        "c) Fase de Implementación y Pruebas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ciclo de Vida SDLC: La fase de Planificación y Requisitos (MGA/MRAE) es obligatoria. Iniciar la licitación con especificaciones de un solo proveedor sin un análisis de viabilidad, mercado y TCO, viola el principio de Planeación y el de Selección Objetiva (Ley 80)."
+    },
+    {
+      "codigo": "SIS-12",
+      "pregunta": "Usted está a cargo de la gestión del Inventario de Aplicaciones. Una aplicación vital no tiene documentación de arquitectura. El desarrollador original se jubiló. ¿Qué acción debe usted priorizar?",
+      "opciones": [
+        "a) Iniciar un proyecto de Inversión para la Reingeniería o Reemplazo de la aplicación, pues el riesgo de falta de conocimiento es crítico para la Continuidad del Negocio.",
+        "b) Contratar al desarrollador jubilado por un mes para que haga la documentación.",
+        "c) Dejar el sistema 'Tal Cual' y esperar que no falle."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Dominio de Sistemas/Ciclo de Vida: La falta de documentación es un riesgo de **Continuidad** inaceptable (Deuda Técnica). La solución es estratégica: planear el reemplazo o la reingeniería (documentación de código), que debe ser un proyecto de inversión priorizado en el PETI."
+    },
+    {
+      "codigo": "SIS-13",
+      "pregunta": "El PETI propone un sistema para automatizar las Peticiones, Quejas y Reclamos (PQRS). La justificación se enfoca en reducir el tiempo de respuesta. ¿A qué Dominio del MRAE debe remitirse la justificación de este proyecto?",
+      "opciones": [
+        "a) Dominio de Sistemas de Información, para describir la tecnología del sistema.",
+        "b) Dominio de Procesos de Negocio, para demostrar cómo el nuevo sistema rediseña la Cadena de Valor del proceso de atención al ciudadano.",
+        "c) Dominio de Estrategia, para demostrar que el Rector lo aprobó."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "MRAE y Procesos: Un sistema de PQRS es una mejora del proceso. La justificación debe demostrar que la aplicación rediseña el proceso (Dominio Procesos) y mejora la eficiencia de la Cadena de Valor Institucional, cumpliendo el MIPG."
+    },
+    {
+      "codigo": "SIS-14",
+      "pregunta": "Usted está en la fase de 'Pruebas' del nuevo software de Gestión Documental. Los usuarios funcionales rechazan el sistema porque la interfaz es muy confusa. El contratista alega que técnicamente cumple todos los requisitos funcionales. ¿Cuál es el error de gestión de sistemas?",
+      "opciones": [
+        "a) Error en la Gestión de Calidad (No funcionales). La Usabilidad, que es un requisito no funcional, fue ignorada o mal especificada en la fase de Requisitos.",
+        "b) Error de arquitectura, por no usar la tecnología REST.",
+        "c) Error del contratista, que debe rediseñar la interfaz sin costo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ciclo de Vida y Calidad: La Usabilidad (MRAE: Dominio de Uso y Apropiación) es un requisito no funcional. El rechazo por interfaz confusa demuestra que el sistema cumple el 'qué' (funcional) pero no el 'cómo' (calidad/no funcional), lo cual es una falla en la Especificación de Requisitos."
+    },
+    {
+      "codigo": "SIS-15",
+      "pregunta": "La nueva Ley exige que la I.U. Pascual Bravo utilice la 'Autenticación Digital' (SCD) de MinTIC. El sistema académico legado no soporta la integración con los protocolos de autenticación central (ej. OAuth/SAML). ¿Cuál es la acción prioritaria de arquitectura?",
+      "opciones": [
+        "a) Pedir al MinTIC que cree un protocolo para sistemas obsoletos.",
+        "b) Iniciar un proyecto de inversión para integrar el sistema legacy mediante un 'Middleware' o 'API Gateway' que traduzca el protocolo antiguo al protocolo moderno (SAML/OAuth) exigido por la SCD.",
+        "c) Solicitar una excepción al cumplimiento de la ley argumentando la antigüedad del sistema."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interoperabilidad Obligatoria: El cumplimiento de la ley SCD no es negociable. La acción arquitectónica estándar para conectar sistemas legados con nuevos estándares es el uso de Middleware o API Gateways para traducir protocolos, garantizando la Interoperabilidad sin reescribir todo el sistema."
+    },
+{
+      "codigo": "SIS-16",
+      "pregunta": "Caso: El proyecto de desarrollo 'In-house' de un nuevo sistema de gestión documental está retrasado. El Jefe de Desarrollo propone saltarse la fase de Pruebas de Aceptación de Usuario (UAT) para cumplir con el plazo contractual. ¿Cuál es el riesgo del ciclo de vida (SDLC) que se materializa?",
+      "opciones": [
+        "a) Riesgo de incumplimiento del ANS, por no haber verificado la disponibilidad del sistema.",
+        "b) Riesgo de entregar un producto no validado, obligando a la I.U. a pagar por un sistema que no cumple con el Dominio de Procesos y que requiere correcciones post-producción (costos ocultos).",
+        "c) Riesgo de que la documentación técnica esté incompleta."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El SDLC exige la Validación del Alcance (Validar el Alcance en PMBOK). La UAT asegura que el sistema satisface la necesidad del negocio. Saltarse esta fase es un riesgo de **Ineficacia** y **Detrimento Patrimonial** (pagar por algo inservible), lo cual es el error más grave de gestión."
+    },
+    {
+      "codigo": "SIS-17",
+      "pregunta": "La Vicerrectoría Académica requiere una herramienta para analizar los datos de desempeño docente y compararlos con las medias nacionales. El sistema debe procesar datos masivos de diferentes fuentes. ¿Qué tipología de sistema debe priorizar en el PETI?",
+      "opciones": [
+        "a) Sistema de Procesamiento de Transacciones (TPS), enfocado en la captura del dato primario.",
+        "b) Sistema de Soporte a Decisiones (DSS), ya que el requerimiento se centra en el 'Análisis y Comparación' para la toma de decisiones estratégicas (Inteligencia de Negocio).",
+        "c) Sistema de Información Gerencial (MIS), para generar reportes mensuales de desempeño."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Tipología de Sistemas: El análisis de datos complejos y la comparación para la 'estrategia' son características de un DSS, el cual procesa datos del TPS/MIS para generar *insights* estratégicos."
+    },
+    {
+      "codigo": "SIS-18",
+      "pregunta": "Usted está evaluando dos sistemas de gestión de nómina COTS. El Sistema A es más costoso en licencias pero se integra con la Base de Datos de Personal existente (Dominio de Información). El Sistema B es más barato pero requiere crear una base de datos paralela. ¿Cuál debe elegir, basado en el MRAE?",
+      "opciones": [
+        "a) El Sistema B, ya que es más barato y cumple el principio de Economía.",
+        "b) El Sistema A, ya que la Integridad y la No Duplicidad del Dato Maestro (Dominio de Información) priman sobre el ahorro inicial de la licencia.",
+        "c) El Sistema B, y luego construir una API de integración con presupuesto adicional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Alineación MRAE: El principio rector del Dominio de Información es la **Fuente Única de Verdad**. El Sistema B crea un 'Silo' y compromete la Integridad del dato maestro, lo cual es un alto riesgo de auditoría y gestión de la información que el MRAE prohíbe."
+    },
+    {
+      "codigo": "SIS-19",
+      "pregunta": "La nueva ley de Universidades exige un control de asistencia único para todos los empleados públicos. La I.U. Pascual Bravo tiene un sistema biométrico que no cumple con las especificaciones de la nueva ley. ¿Qué acción es obligatoria en el ciclo de vida del sistema afectado?",
+      "opciones": [
+        "a) Continuar usando el sistema biométrico actual mientras se evalúa el riesgo de incumplimiento.",
+        "b) Iniciar formalmente la fase de 'Retiro/Reemplazo' del sistema y priorizar la adquisición de uno nuevo que cumpla la ley en el Portafolio del PETI.",
+        "c) Reclasificar el sistema como 'Sistema de Apoyo' para que no tenga que cumplir la ley."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ciclo de Vida y Cumplimiento Legal: Si un sistema misional deja de cumplir la ley, se vuelve obsoleto y su riesgo legal es inaceptable. Se debe iniciar la fase de Retiro/Reemplazo (Dominio de Sistemas) como un proyecto de alta prioridad en el PETI."
+    },
+    {
+      "codigo": "SIS-20",
+      "pregunta": "El equipo de desarrollo de un software 'In-house' utiliza librerías de terceros bajo una licencia GPL (copyleft viral) para un módulo crítico. El contrato con el proveedor no menciona el tipo de licencia. ¿Qué riesgo legal asume la I.U. Pascual Bravo?",
+      "opciones": [
+        "a) Riesgo de que la I.U. tenga que liberar todo el código fuente del sistema misional bajo licencia GPL, perdiendo la propiedad intelectual del software pagado con recursos públicos.",
+        "b) Riesgo de que la I.U. tenga que pagar una multa al creador de la librería GPL por usar software libre.",
+        "c) Ningún riesgo, ya que el software libre no tiene restricciones legales."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Riesgo Legal y Licenciamiento: La licencia GPL exige que el código derivado sea liberado bajo la misma licencia. Al mezclar código propietario con código GPL, la I.U. puede perder la propiedad intelectual (Dominio Sistemas) de todo el desarrollo, lo cual es un riesgo grave."
+    },
+    {
+      "codigo": "SIS-21",
+      "pregunta": "Usted debe contratar el soporte y mantenimiento (Gasto de Funcionamiento) para el sistema de notas. ¿Cuál es el criterio de selección más adecuado para asegurar la Disponibilidad y la Integridad del sistema?",
+      "opciones": [
+        "a) El criterio de menor precio, ya que es Gasto de Funcionamiento y debe primar la economía.",
+        "b) El criterio que demuestre la experiencia y la idoneidad técnica del personal para los procesos de Gestión de Incidentes y Gestión de Problemas (ISO 20000).",
+        "c) El criterio que exija la entrega trimestral de reportes de ejecución presupuestal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Servicios: El soporte para un sistema crítico (TPS) requiere alta calidad. La experiencia en Gestión de Incidentes (restauración rápida) y Problemas (causa raíz) es vital para garantizar la Disponibilidad y la Integridad, por encima del costo. La idoneidad técnica es un principio de la Ley 80."
+    },
+    {
+      "codigo": "SIS-22",
+      "pregunta": "El área de Planeación le solicita una simulación de impacto en la infraestructura (servidores, redes) que ocurriría si la matrícula de la I.U. aumentara un 50% en los próximos 3 años. ¿Qué dominio del MRAE debe usar para estructurar esta respuesta?",
+      "opciones": [
+        "a) Dominio de Estrategia de TI, para justificar la necesidad de la inversión en infraestructura.",
+        "b) Dominio de Servicios Tecnológicos, para mapear los requerimientos de capacidad, almacenamiento y red que soportarán el aumento de usuarios (Demanda vs. Capacidad).",
+        "c) Dominio de Procesos de Negocio, para simular cómo los procesos van a cambiar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "MRAE y Capacidad: El Dominio de Servicios Tecnológicos es el responsable de la infraestructura. La simulación de 'qué pasa si la demanda sube' es un ejercicio de Planificación de Capacidad de este dominio, justificando la inversión en servidores y redes."
+    },
+    {
+      "codigo": "SIS-23",
+      "pregunta": "Usted debe exponer el portafolio de proyectos de sistemas para el año. Un sistema tiene el 95% de sus datos en papel y solo el 5% digitalizado. El Comité pide digitalizar el 100%. ¿Qué debe incluir en el proyecto para asegurar la Integridad del dato?",
+      "opciones": [
+        "a) Contratar un servicio de escaneo masivo de documentos.",
+        "b) Incluir una fase obligatoria de 'Auditoría de Calidad y Limpieza del Dato' (Data Cleansing) para asegurar que el 5% ya digitalizado y el 95% nuevo cumplen con los estándares de Integridad antes de la puesta en producción.",
+        "c) Desarrollar un sistema que solo acepte documentos digitales de ahora en adelante."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad del Dato (Dominio de Información): Digitalizar sin limpiar es automatizar el error. El proyecto debe tener una fase de control de calidad para garantizar que el activo digital (el dato) sea preciso y no contenga duplicados o errores antes de ser usado, lo cual es el principio de Integridad."
+    },
+    {
+      "codigo": "SIS-24",
+      "pregunta": "El equipo de desarrollo de un software 'In-house' utiliza metodologías Ágiles. ¿Qué instrumento del ciclo de vida tradicional (SDLC/PMBOK) es obligatorio mantener para el cierre del contrato estatal (Ley 80)?",
+      "opciones": [
+        "a) El Product Backlog y el Sprint Review (Instrumentos Ágiles).",
+        "b) El WBS (Estructura de Desglose de Trabajo) y el Acta de Recibido a Satisfacción de los Entregables, que deben coincidir con las cláusulas contractuales.",
+        "c) El Burndown Chart y las Historias de Usuario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Contratación Estatal: La Ley 80 exige claridad en el alcance (WBS) y la formalidad en la recepción. La WBS garantiza que el alcance sea medible y el Acta de Recibido a Satisfacción es el documento legal que certifica el cumplimiento del contrato, sin importar la metodología interna (Ágil)."
+    },
+    {
+      "codigo": "SIS-25",
+      "pregunta": "Usted está evaluando una aplicación obsoleta que no tiene documentación. El costo de re-documentarla es de $50M. El costo de reemplazarla por una COTS es de $150M. ¿Cuál es el criterio para tomar la decisión estratégica?",
+      "opciones": [
+        "a) Elegir la re-documentación ($50M) porque es el costo más bajo y se ahorra presupuesto.",
+        "b) Elegir el reemplazo ($150M) porque la tecnología antigua siempre fallará (Riesgo de Disponibilidad).",
+        "c) Realizar un Análisis de Riesgo detallado que determine el TCO real y priorizar la opción que ofrezca la menor Deuda Técnica y el mayor cumplimiento de los requisitos futuros."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gestión de Portafolio: La decisión (A. o B.) es precipitada. El TCO y el Análisis de Riesgo (MRAE) son obligatorios. La re-documentación podría no solucionar la obsolescencia. Se debe priorizar la opción que ofrezca la solución más sostenible y que cumpla los requisitos de arquitectura a largo plazo."
+    },
+    {
+      "codigo": "SIS-26",
+      "pregunta": "El nuevo sistema de correo de la I.U. debe integrar la 'Autenticación Digital' de MinTIC. ¿Qué estándar de interoperabilidad es más probable que deba usar para la comunicación entre el sistema de correo y el Servicio Ciudadano Digital?",
+      "opciones": [
+        "a) FTP y archivos planos.",
+        "b) Protocolos modernos como REST o SAML/OAuth, que garantizan la seguridad y la estandarización en el intercambio de información (Dominio de Interoperabilidad).",
+        "c) El protocolo IMAP/POP3, que es el estándar de correo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interoperabilidad (SCD): Los Servicios Ciudadanos Digitales (Autenticación) utilizan estándares modernos (REST, OAuth, SAML) para la seguridad y el intercambio de identidad. El FTP es obsoleto y el IMAP/POP3 son para el cliente final, no para la comunicación entre sistemas."
+    },
+    {
+      "codigo": "SIS-27",
+      "pregunta": "El Contratista de desarrollo informa que, para cumplir el plazo, debe saltarse la fase de 'Pruebas de Seguridad' (Hacking Ético) y solo entregar las 'Pruebas Unitarias' (funcionales). ¿Qué riesgo de integridad se asume?",
+      "opciones": [
+        "a) El riesgo de que el software no funcione correctamente (funcionalidad).",
+        "b) El riesgo de que el software contenga vulnerabilidades críticas (Inyección SQL, XSS) que comprometan la Integridad y la Confidencialidad de los datos personales (Riesgo MSPI).",
+        "c) El riesgo de que el proyecto se retrase."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "SDLC y Seguridad: Las pruebas de seguridad (A.14.2.8) son obligatorias para el SGSI. Saltarse esta fase es asumir un riesgo de Integridad (datos corruptos) y Confidencialidad (fuga de datos personales) inaceptable en el sector público. La corrección funcional (A) es menos grave que la seguridad."
+    },
+    {
+      "codigo": "SIS-28",
+      "pregunta": "El sistema que soporta el 'Registro de Calificaciones' de los estudiantes (TPS) requiere un nivel de servicio de alta Disponibilidad. ¿Qué plan debe tener este sistema de forma obligatoria?",
+      "opciones": [
+        "a) Plan de Transferencia de Conocimiento.",
+        "b) Plan de Continuidad del Negocio (BCP) con un RTO definido en el BIA que garantice que la I.U. puede seguir registrando notas durante una contingencia.",
+        "c) Plan de Mercadeo y Venta de Servicios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Continuidad del Negocio (A.17): La Disponibilidad de un TPS crítico exige BCP/DRP. El BCP es el plan que define cómo el negocio (registro de notas) sigue operando ante una catástrofe tecnológica, garantizando el pilar D."
+    },
+    {
+      "codigo": "SIS-29",
+      "pregunta": "La universidad contrata un servicio de Consultoría para la formulación de los requisitos de un nuevo sistema. El entregable es un documento de 500 páginas. ¿Cuál es la falla de arquitectura más probable?",
+      "opciones": [
+        "a) El documento es demasiado largo para ser revisado por el equipo de TI.",
+        "b) El requisito fue definido con una arquitectura tradicional (Big Upfront Design), lo cual es poco adecuado para la flexibilidad del entorno tecnológico (MRAE).",
+        "c) La consultoría costó más de lo presupuestado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "MRAE y Agilidad: El Dominio de Sistemas promueve la agilidad. Un documento de 500 páginas en la fase inicial de requisitos es una señal de rigidez excesiva (Big Design Upfront), lo cual aumenta el riesgo de que los requisitos cambien antes de que el sistema se construya, violando la flexibilidad exigida por el MRAE."
+    },
+    {
+      "codigo": "SIS-30",
+      "pregunta": "Un sistema clasificado como 'obsoleto' en el Portafolio de Aplicaciones de la I.U. debe ser reemplazado. ¿Cuál es la primera acción SGSI (ISO 27001) que debe realizarse en la fase de 'Retiro' del sistema?",
+      "opciones": [
+        "a) Trasladar el sistema a un ambiente aislado (sin acceso externo) y realizar un backup final de los datos (A.12.3.1).",
+        "b) Notificar a los usuarios el Retiro y eliminar el sistema inmediatamente.",
+        "c) Contratar el nuevo sistema de reemplazo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Cierre y Seguridad: El Retiro de un sistema (A.14.2.7) es un proceso de riesgo. La primera acción SGSI es garantizar que el activo no represente una vulnerabilidad (aislamiento) y que la Integridad de la información final esté asegurada con un backup de custodia legal."
+    },
+
+
+{
+      "codigo": "SIS-01",
+      "pregunta": "El área académica necesita urgentemente un sistema para el registro de matrículas. Una COTS permite implementarlo en un mes, mientras el desarrollo in-house llevaría seis meses y mayor seguridad local. ¿Qué decisión cumple mejor la Ley 80 y la lógica institucional?",
+      "opciones": [
+        "a) Hacer análisis de alternativas para demostrar objetivamente cuál satisface mejor los requisitos, documentando justificación legal de la opción elegida.",
+        "b) Escoger la COTS por la urgencia y documentar después.",
+        "c) Preferir el desarrollo in-house directamente porque así se controla el código fuente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La Ley 80 obliga a comparar opciones con criterios de necesidad, idoneidad, riesgos, costo y tiempo; sólo un análisis formal justifica la adquisición ante auditoría o control externo."
+    },
+    {
+      "codigo": "SIS-02",
+      "pregunta": "Para reportar datos al SIET, el área de sistemas propone enviar un Excel generado manualmente en vez de usar el API REST exigido por MinTIC. ¿Qué debería hacerse?",
+      "opciones": [
+        "a) Cumplir con el estándar de interoperabilidad (API REST oficial), documentando integración y cumplimiento en el expediente.",
+        "b) Utilizar el Excel para ganar tiempo y justificarlo como solución transitoria.",
+        "c) Ofrecer ambas opciones y dejar que el área receptora elija."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El marco MinTIC exige integraciones por medios interoperables y auditables, no por métodos transitorios que vulneran trazabilidad y compatibilidad."
+    },
+    {
+      "codigo": "SIS-03",
+      "pregunta": "Durante la implantación de un nuevo sistema académico, el proveedor omite la fase formal de pruebas de seguridad para cumplir plazo contractual. ¿Qué error crítico se comete?",
+      "opciones": [
+        "a) Saltarse pruebas de seguridad expone a riesgos legales, hallazgos de control y posibles brechas graves posteriores.",
+        "b) Cumplir el plazo es más importante si no ha habido incidentes históricos.",
+        "c) Aceptar lo entregado con plan de prueba posterior en operación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Sin pruebas formales de seguridad, la entidad queda vulnerable técnica y jurídicamente, con hallazgos en control fiscal y riesgo de incidentes irreversibles."
+    },
+    {
+      "codigo": "SIS-04",
+      "pregunta": "Un responsable TIC debe decidir si para analítica avanzada institucional requiere un TPS, un MIS o un DSS. Debe elegir:",
+      "opciones": [
+        "a) DSS (Decision Support System) por ser el único capaz de simulación y modelamiento de escenarios complejos.",
+        "b) TPS, para registrar todas las transacciones del día.",
+        "c) MIS, que genera reportes mensuales automáticos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Solo el DSS está diseñado para soportar analítica avanzada, escenarios ¿qué pasa si...? y toma de decisiones informadas estratégicas."
+    },
+    {
+      "codigo": "SIS-05",
+      "pregunta": "En el ciclo de vida del software institucional, el área de desarrollo omite documentar los requerimientos funcionales y solo lo hace al finalizar el proyecto. ¿Qué impacto principal trae esta omisión?",
+      "opciones": [
+        "a) Pueden surgir desfases graves entre lo necesario y lo entregado, generando incumplimientos y hallazgos de auditoría.",
+        "b) Se agiliza el cronograma y se entregan resultados antes.",
+        "c) Se mejora la flexibilidad para atender cambios de último minuto."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La documentación de requerimientos es base de la trazabilidad y control, y omitirla puede acarrear hallazgos graves y proyectos inadecuados."
+    },
+    {
+      "codigo": "SIS-06",
+      "pregunta": "Para compartir datos con el DANE, el Comité TIC propone usar un SharePoint privado en vez de la interface estándar del Gobierno Digital. ¿Cómo proceder bajo normativa MinTIC?",
+      "opciones": [
+        "a) Integrar los datos usando la interfaz estándar de Gobierno Digital (API, servicio interoperable), registrando evidencias.",
+        "b) Compartir solo por SharePoint y justificar si es auditado.",
+        "c) Descargar los archivos y transferirlos en USB."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda integración de datos en el sector público debe realizarse siguiendo los estándares oficiales; métodos alternos no cumplen obligaciones de interoperabilidad y trazabilidad."
+    },
+    {
+      "codigo": "SIS-07",
+      "pregunta": "El área académica solicita un sistema para captura y reporte diario de asistencia en clases. ¿Cuál tipología de sistema aplica?",
+      "opciones": [
+        "a) TPS (Transaction Processing System), por tratarse de registros rutinarios y masivos.",
+        "b) MIS, para generar reportes de cumplimiento docente.",
+        "c) DSS, para proyectar ausentismo futuro."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Registrar y almacenar transacciones diarias rutinarias es función típica de un TPS."
+    },
+    {
+      "codigo": "SIS-08",
+      "pregunta": "Se considera adquirir un sistema COTS extranjero con soporte solo en inglés y sin soporte local. ¿Qué riesgo y decisión debe tomarse?",
+      "opciones": [
+        "a) Documentar riesgo de soporte, valorar impactos en la decisión y solo adquirir si hay un plan para asegurar soporte efectivo y continuidad.",
+        "b) Priorizar el precio bajo y adaptar internamente después.",
+        "c) Adquirir y contratar traducción sólo si se presentan reclamos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Riesgos de idioma y soporte son críticos en el sector público; la Ley 80 exige garantizar sostenibilidad y soporte en la adquisición."
+    },
+    {
+      "codigo": "SIS-09",
+      "pregunta": "En un proyecto colaborativo SNIES, un jefe propone integrar datos usando formatos CSV intercambiados por correo electrónico, en vez de integración web service. ¿Cómo responde el auditor?",
+      "opciones": [
+        "a) Exigir uso de web service/API según los estándares MinTIC y documentar integración interoperable.",
+        "b) Permitir CSV si reduce la carga técnica.",
+        "c) Justificar que el correo es solución temporal."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Solo la interoperabilidad por servicios web garantiza seguridad, control y cumplimiento normativo."
+    },
+    {
+      "codigo": "SIS-10",
+      "pregunta": "Durante la operación del sistema de gestión documental, el área de TI elimina logs antiguos para ahorrar espacio en disco sin informar ni respaldar. ¿Cuál es la consecuencia más grave?",
+      "opciones": [
+        "a) Pérdida de trazabilidad y soporte ante auditoría, incumpliendo obligaciones legales de custodia y registro.",
+        "b) Optimización del almacenamiento.",
+        "c) Mayor rapidez en el acceso a documentos actuales."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Eliminar evidencia de operación impide auditoría y defensa ante incidentes, constituyendo falta grave."
+    },
+    {
+      "codigo": "SIS-11",
+      "pregunta": "Un área requiere pronosticar el impacto de variaciones presupuestales sobre la asignación de becas. ¿Qué tipo de sistema es indispensable?",
+      "opciones": [
+        "a) DSS, para simulación y análisis de escenarios '¿qué pasa si...?'",
+        "b) MIS, para informes periódicos de asignación.",
+        "c) TPS, para registro de solicitudes de becas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Sólo el DSS sirve para analizar variables y resultados potenciales de cambios en el contexto educativo."
+    },
+    {
+      "codigo": "SIS-12",
+      "pregunta": "Se omite hacer proceso formal de baja de un sistema legado descontinuado en el inventario institucional. ¿Qué riesgo se presenta?",
+      "opciones": [
+        "a) Persistencia de datos, posibles brechas de seguridad y confusión en auditoría por falta de actualización del inventario.",
+        "b) Menor carga administrativa.",
+        "c) Disponibilidad de un respaldo no documentado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El ciclo de vida exige baja formal; de lo contrario expone a riesgos de vulnerabilidad y hallazgos por mala gestión."
+    },
+    {
+      "codigo": "SIS-13",
+      "pregunta": "La contratación de un nuevo ERP institucional omite el análisis de integración con sistemas existentes. ¿Qué error clave se comete en el SDLC?",
+      "opciones": [
+        "a) Ausencia de análisis de integración puede provocar duplicidades, incompatibilidades y riesgos funcionales.",
+        "b) Se agiliza la implementación y se resuelve durante el despliegue.",
+        "c) Se reduce el costo inicial del proyecto."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El análisis de integración es crítico en los proyectos públicos por la necesidad de interoperabilidad y eficiencia."
+    },
+    {
+      "codigo": "SIS-14",
+      "pregunta": "La entidad recibe una solución SaaS para gestión de recursos humanos que incluye hosting extranjero sin evaluar la localización de los datos. ¿Qué exige la normativa?",
+      "opciones": [
+        "a) Verificar que la localización y protección de datos cumplen con normativa nacional antes de contratar.",
+        "b) Asumir que el proveedor cumple por ser reconocido.",
+        "c) Contratar y esperar auditoría para corregir luego."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ley 1581 y lineamientos MinTIC exigen análisis de localización y protección de datos antes de adquirir servicios en la nube."
+    },
+    {
+      "codigo": "SIS-15",
+      "pregunta": "Hay presión institucional para poner en marcha una aplicación de admisiones aun sin que el área de usuarios haya emitido validación funcional formal. ¿Cómo se debe actuar?",
+      "opciones": [
+        "a) No poner en producción hasta contar con aprobación y acta de validación formal.","b) Producir el sistema y validar después bajo supervisión.",
+        "c) Lanzar solo si la Gerencia lo solicita expresamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El SDLC exige validación formal del usuario antes de operación, cualquier omisión es hallazgo crítico en auditoría de sistemas y contratación pública."
+    },
+
+    {
+      "codigo": "SIS-16",
+      "pregunta": "Se contrata una solución COTS para gestión académica, pero el proveedor no ofrece integración con el Sistema de Autenticación Digital del Estado. ¿Qué debe hacer la universidad?",
+      "opciones": [
+        "a) Exigir integración con servicios ciudadanos digitales y estándares MinTIC o reconsiderar la adquisición.",
+        "b) Instalar igual y buscar integración después.",
+        "c) Operar sin integración porque cubre las necesidades básicas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La interoperabilidad con plataformas oficiales es obligatoria; omitirla implica hallazgo de control y limita acceso a beneficios de Gobierno Digital."
+    },
+    {
+      "codigo": "SIS-17",
+      "pregunta": "En el despliegue de un nuevo sistema financiero, no se realizó análisis de riesgos TI. ¿Qué error de ciclo de vida se presenta?",
+      "opciones": [
+        "a) Falta de análisis de riesgos expone a vulnerabilidades y compromete garantías de mitigación exigidas en contratación pública.",
+        "b) Acelera la implantación y muestra eficiencia.",
+        "c) Puede omitirse si no se han tenido fallos similares antes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El análisis de riesgos es parte ineludible del SDLC y su omisión puede generar hallazgos disciplinarios y operativos graves."
+    },
+    {
+      "codigo": "SIS-18",
+      "pregunta": "El área TIC decide actualizar la versión de una aplicación crítica sin consultar a usuarios ni hacer pruebas piloto. ¿Principal error?",
+      "opciones": [
+        "a) Saltarse gestión de cambio y pruebas afecta continuidad operativa y trazabilidad, exponiendo a fallas imprevistas.",
+        "b) Gana tiempo y libera recursos para otros proyectos.",
+        "c) Satisface requerimientos técnicos con rapidez."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ninguna actualización debe hacerse sin pruebas ni validación de usuarios; eso es básico en control interno y auditoría TI."
+    },
+    {
+      "codigo": "SIS-19",
+      "pregunta": "Para atender requisitos de reportería nacional, el área propone un sistema de reportería manual en vez de adaptar el MIS institucional existente. ¿Qué recomienda el marco de arquitectura y control?",
+      "opciones": [
+        "a) Priorizar el uso y mejora del MIS, garantizando trazabilidad y eficiencia.",
+        "b) Permitir reportería manual como medida de agilidad.",
+        "c) Subcontratar la generación de reportes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión corporativa recomienda estandarización y control, no soluciones desagregadas que dificultan auditoría y gestión."
+    },
+    {
+      "codigo": "SIS-20",
+      "pregunta": "Al dejar fuera del inventario un sistema no operativo pero con datos personales activos, ¿qué implica esta omisión?",
+      "opciones": [
+        "a) Exposición legal por incumplir Ley 1581 y riesgos de fuga de datos.",
+        "b) Menos carga administrativa para TI.",
+        "c) Mejor utilización de espacio documental."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Todo sistema activo, incluso inoperativo, con datos personales debe estar gestionado y registrado hasta su eliminación formal."
+    },
+    {
+      "codigo": "SIS-21",
+      "pregunta": "En una contratación estatal para software, el proveedor ofrece hacer cambios directamente en ambiente productivo para acortar tiempo de pruebas. ¿Cómo decide el auditor?",
+      "opciones": [
+        "a) Prohibir la práctica, exigiendo ambiente controlado y actas de aprobación formal previas.",
+        "b) Permitir cambios por excepción si hay presión institucional.",
+        "c) Avalar los cambios con un acta retroactiva."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las buenas prácticas y normas contractuales exigen control, trazabilidad y pruebas previa a producción; lo contrario es hallazgo crítico."
+    },
+    {
+      "codigo": "SIS-22",
+      "pregunta": "El área TIC impulsa desarrollar un sistema de soporte a la decisión (DSS) para análisis de becas, pero la alta dirección exige ver solo informes mensuales. ¿Qué sistema es realmente necesario?",
+      "opciones": [
+        "a) MIS, basado en requerimientos de información consolidada periódica.",
+        "b) DSS, porque siempre será más potente.",
+        "c) TPS, porque almacena los movimientos de cada estudiante."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "MIS genera la reportería periódica que responde al requerimiento institucional; DSS no se justifica si solo se desea control periódico."
+    },
+    {
+      "codigo": "SIS-23",
+      "pregunta": "La universidad prepara una licitación para renovar el sistema de matrícula, pero sólo recibe oferta COTS de un proveedor con antecedentes de fallas de soporte. ¿Qué obligación específica tiene la comisión evaluadora?",
+      "opciones": [
+        "a) Revisar idoneidad y antecedentes del proveedor según Ley 80, pudiendo declarar desierta la licitación si no cumplen requisitos.",
+        "b) Aceptar por ser la única oferta.",
+        "c) Contratar con seguimiento extra y monitoreo periódico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Idoneidad y antecedentes contractuales son criterios de selección obligatorios según Ley 80, aún si solo hay un oferente."
+    },
+    {
+      "codigo": "SIS-24",
+      "pregunta": "En fase de diseño de un nuevo sistema, se omite el levantamiento de requerimientos con usuarios finales y solo participan técnicos. ¿Riesgo principal?",
+      "opciones": [
+        "a) Se genera un sistema desalineado a las necesidades reales y probable rechazo en implementación.",
+        "b) Se acelera la entrega y se evitan retrasos.",
+        "c) Se incentiva el aprendizaje autodidacta."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Involucrar a usuarios es esencial para asegurar alineación estratégica y funcional; omitirlo es error crítico en ciclo de vida de sistemas."
+    },
+    {
+      "codigo": "SIS-25",
+      "pregunta": "Un sistema DSS se implementa sin interfaz de integración con los TPS y MIS existentes. ¿Qué problema estratégico surge?",
+      "opciones": [
+        "a) La información para decisiones puede quedar incompleta o desactualizada, perdiendo valor el DSS.",
+        "b) Autonomía completa en el DSS.",
+        "c) Menor riesgo de seguridad al estar desconectado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La fortaleza del DSS depende de la integración, si no recibe datos actuales y confiables, se desvirtúa su propósito estratégico."
+    },
+    {
+      "codigo": "SIS-26",
+      "pregunta": "La comisión de compras argumenta que el único criterio relevante en una solución COTS es el precio, dado que el producto es ampliamente usado. ¿Qué exige Ley 80?",
+      "opciones": [
+        "a) Aplicar criterios de calidad, idoneidad, soporte, funcionalidad, seguimiento y riesgos además del precio.",
+        "b) Seleccionar únicamente por menor valor.",
+        "c) Preferir el producto más conocido en el mercado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ley 80 establece pluralidad de criterios, no solo precio. La contratación estatal exige equilibrio entre costo, calidad, soporte y valor público."
+    },
+    {
+      "codigo": "SIS-27",
+      "pregunta": "Durante el desarrollo, se detecta que los logs no están siendo respaldados. ¿Cuál es el impacto principal?",
+      "opciones": [
+        "a) Se pierde trazabilidad, capacidad de auditoría y se elevan riesgos ante incidentes.",
+        "b) Liberación de espacio para nuevos archivos.",
+        "c) Mayor rapidez de operación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Los logs son evidencias clave de funcionamiento e incidentes; su respaldo es obligatorio para control y defensa institucional."
+    },
+    {
+      "codigo": "SIS-28",
+      "pregunta": "Un desarrollo in-house para recursos humanos ignora el estándar de interoperabilidad requerido por MinTIC. ¿Cómo responde el auditor?",
+      "opciones": [
+        "a) Exigir cumplimiento del estándar, rehacer integración y documentar el caso.",
+        "b) Permitirlo porque es un sistema interno.",
+        "c) Valorar si realmente se necesita interoperabilidad."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda solución pública debe cumplir estándares oficiales aunque sea in-house; ignorarlos es un incumplimiento susceptible a hallazgo y sanción."
+    },
+    {
+      "codigo": "SIS-29",
+      "pregunta": "El área de TI propone 'probar en producción' para acelerar actualización de módulos de matrículas, con monitoreo directo. ¿Qué respuesta es correcta?",
+      "opciones": [
+        "a) Negar pruebas en producción, exigir ambiente controlado y actas de cambio.",
+        "b) Permitir si hay poco impacto y tiempo crítico.",
+        "c) Aprobar bajo supervisión de la gerencia únicamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La prueba en producción sin protocolos viola controles, expone a incidentes graves y está prohibida por mejores prácticas y políticas de TI."
+    },
+    {
+      "codigo": "SIS-30",
+      "pregunta": "En el cierre de una licitación TIC, no se verificó compatibilidad entre la solución adquirida y los sistemas institucionales vigentes. ¿Impacto crítico?",
+      "opciones": [
+        "a) Posibles costos ocultos, retrabajo e imposibilidad de aprovechar la inversión efectivamente.",
+        "b) Ahorro en tiempo de verificación previa.",
+        "c) Menor complejidad en la integración técnica."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El análisis de compatibilidad es requisito obligatorio para evitar desperdicio y asegurar valor público."
+    },
+
+    {
+      "codigo": "SIS-01",
+      "pregunta": "La I.U. está evaluando adquirir un sistema de gestión académica. Un proveedor ofrece una solución COTS ya implementada en varias IES públicas, con soporte para integraciones vía APIs REST/JSON y cumplimiento de lineamientos de Gobierno Digital. Otra opción es desarrollar un sistema in-house con un equipo de tres desarrolladores internos, que no tiene experiencia en integraciones con Servicios Ciudadanos Digitales ni en interoperar con el SNIES. La presión de la Vicerrectoría Académica es alta para tener resultados en el próximo periodo de matrícula. Desde la óptica de auditoría de sistemas y Ley 80, ¿cuál decisión es más adecuada?",
+      "opciones": [
+        "a) Optar por el desarrollo in-house, porque se tiene control total del código y se puede ir ajustando aunque no se tenga experiencia en interoperabilidad ni se garantice que esté listo para el próximo periodo.",
+        "b) Elegir la solución COTS que ya cumple lineamientos de Gobierno Digital e interoperabilidad, siempre que el proceso de selección respete los principios de transparencia y selección objetiva de la Ley 80, y se justifique técnicamente en el estudio previo.",
+        "c) Postergar la decisión y mantener temporalmente hojas de cálculo y formularios manuales, evitando cualquier contratación mientras se forman internamente las capacidades técnicas para desarrollar una solución propia."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) articula mejor los criterios de eficiencia, selección objetiva y aprovechamiento de soluciones probadas, reduciendo riesgo de fracaso en tiempos críticos de matrícula y asegurando alineación con estándares de interoperabilidad. El desarrollo in-house propuesto en a) carece de experiencia y pone en riesgo disponibilidad y cumplimiento de lineamientos. La c) prolonga una situación precaria y no resuelve la necesidad, pudiendo comprometer la continuidad del servicio."
+    },
+    {
+      "codigo": "SIS-02",
+      "pregunta": "La Oficina de Planeación necesita enviar información al SNIES sobre matrículas, graduados y deserción. El analista propone consolidar la información en archivos Excel generados manualmente desde el sistema académico y enviarlos por correo institucional al enlace del Ministerio. El arquitecto empresarial indica que el sistema académico ya expone servicios web y que MinEducación ofrece mecanismos de interoperabilidad definidos. Desde la perspectiva de auditoría y estándares MinTIC, ¿qué acción es más adecuada?",
+      "opciones": [
+        "a) Mantener el envío manual de archivos Excel por correo, dado que es el método que históricamente se ha utilizado y permite corregir datos de última hora directamente en las hojas de cálculo.",
+        "b) Implementar la integración con los servicios definidos para interoperar con el SNIES, aprovechando los servicios web del sistema académico, documentando la arquitectura de integración y reduciendo manipulación manual de datos.",
+        "c) Generar los Excel desde el sistema académico pero subirlos a una carpeta compartida en la nube para que el enlace del Ministerio los descargue cuando lo requiera, sin realizar desarrollo de interoperabilidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) usa los mecanismos de interoperabilidad disponibles, reduciendo riesgos de errores manuales, pérdida de información y vulneraciones de confidencialidad. Además se alinea con el Marco de Interoperabilidad de Gobierno Digital. Las opciones a) y c) dependen de archivos ofimáticos manipulados manualmente, con mayor riesgo de inconsistencia, falta de trazabilidad y menores garantías de seguridad."
+    },
+    {
+      "codigo": "SIS-03",
+      "pregunta": "En la fase de definición de un nuevo sistema de gestión de prácticas empresariales, la gerencia de TI propone iniciar directamente el desarrollo del front-end usando un framework moderno y luego ir “descubriendo” los requisitos con los usuarios. El auditor de sistemas advierte que en proyectos previos se han presentado problemas de incumplimiento de requisitos legales (protección de datos, trazabilidad) por no documentar adecuadamente la fase de análisis. ¿Cuál es la acción más adecuada dentro del ciclo de vida de sistemas en una entidad pública?",
+      "opciones": [
+        "a) Iniciar el desarrollo de inmediato para mostrar resultados visibles y confiar en que los requisitos se irán ajustando sobre la marcha, reduciendo la necesidad de documentación extensa.",
+        "b) Detener el inicio de construcción hasta completar una fase formal de levantamiento y documentación de requisitos funcionales, no funcionales y normativos, incluyendo seguridad, protección de datos y trazabilidad, aprobados por los dueños del proceso.",
+        "c) Elaborar únicamente un listado breve de requisitos en un correo electrónico, sin documentación formal ni aprobaciones, pero conservarlo como referencia interna para el equipo de desarrollo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el SDLC y las obligaciones del sector público: una fase de requisitos formal y aprobada reduce riesgos de incumplir normas, evita reprocesos y soporta la transparencia en la contratación. La opción a) ignora fases críticas del ciclo de vida y aumenta riesgo de fallas funcionales y legales. La c) no proporciona suficiente trazabilidad ni respaldo para auditoría o para definir el alcance contractual."
+    },
+    {
+      "codigo": "SIS-04",
+      "pregunta": "El Rector solicita un sistema que le permita ver en tiempo real los indicadores clave de matrícula, deserción, carga docente y uso de laboratorios para tomar decisiones en Consejo Académico. El jefe de TI propone cambiar completamente el sistema académico transaccional porque “no tiene buenos informes”. El arquitecto empresarial plantea que lo que se requiere es un componente de inteligencia de negocios que consolide datos de varios sistemas. ¿Qué tipo de sistema y enfoque resulta más adecuado?",
+      "opciones": [
+        "a) Reemplazar el sistema transaccional académico (TPS) por uno nuevo con más opciones de reporte, aunque ello implique un proyecto de alta complejidad y riesgo para la operación diaria.",
+        "b) Mantener los sistemas transaccionales actuales y diseñar un MIS/DSS mediante un data warehouse o data mart que consolide información y permita al Rector analizar indicadores desde un tablero de control.",
+        "c) Crear múltiples reportes Excel manuales desde los diferentes sistemas cada vez que el Rector necesite información, sin implementar una solución específica de apoyo a la decisión."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica correctamente que la necesidad es de un MIS/DSS, no de cambiar los TPS. Un sistema de apoyo a decisión basado en datos consolidados es más apropiado, de menor riesgo para la operación y más alineado con arquitectura empresarial. La opción a) genera un riesgo enorme innecesario. La opción c) es ineficiente, poco escalable y propensa a errores."
+    },
+    {
+      "codigo": "SIS-05",
+      "pregunta": "Para un nuevo módulo de pagos en línea, el equipo de desarrollo decide saltarse la fase de pruebas de seguridad y lanzar directamente a producción para cumplir la fecha comprometida con el proveedor de pasarela de pagos. El auditor de sistemas advierte que en entidades públicas la omisión de pruebas clave puede derivar en incidentes graves y responsabilidad disciplinaria. ¿Cuál es la acción más adecuada frente a este escenario?",
+      "opciones": [
+        "a) Aceptar la salida a producción sin pruebas de seguridad para no incumplir el cronograma, y planear realizar las pruebas después del lanzamiento, corrigiendo vulnerabilidades en caliente.",
+        "b) Detener la salida a producción hasta realizar pruebas de seguridad mínimas (escaneo de vulnerabilidades, pruebas de autenticación, protección de datos), documentar resultados y aceptaciones de riesgo, aunque la fecha original se deba reprogramar.",
+        "c) Publicar el módulo solo para un grupo piloto reducido sin pruebas de seguridad, confiando en que un bajo número de usuarios disminuirá la probabilidad de incidentes relevantes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) prioriza la seguridad y el cumplimiento de obligaciones de protección de información y recursos públicos, exigiendo pruebas de seguridad antes de producción y documentando decisiones. Las opciones a) y c) eluden un control esencial del SDLC, exponiendo a la entidad a incidentes y a responsabilidades disciplinarias y fiscales."
+    },
+    {
+      "codigo": "SIS-06",
+      "pregunta": "La institución requiere un sistema para registrar diariamente la asistencia de estudiantes en cada clase, validar prerrequisitos y registrar notas. Un proveedor ofrece una solución de analítica avanzada que genera predicciones de deserción, pero no tiene módulos robustos de registro diario; otro proveedor ofrece un sistema transaccional estándar que soporta completamente el flujo operativo, y los datos pueden ser exportados a un futuro componente analítico. ¿Qué tipo de sistema es prioritario en este caso y cuál opción es más adecuada?",
+      "opciones": [
+        "a) Priorizar el sistema de analítica avanzada (DSS), pues permite decisiones predictivas sofisticadas, aunque el registro diario se siga haciendo en hojas de cálculo aparte.",
+        "b) Adquirir primero un sistema transaccional (TPS) sólido para registrar asistencias, prerrequisitos y notas, asegurando calidad de datos operativos, y planear posteriormente un DSS sobre esa base.",
+        "c) Rechazar ambos sistemas y continuar con el registro manual hasta que exista un único producto que incluya de forma perfecta tanto TPS como DSS en una sola solución."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que sin un TPS robusto y confiable no hay base de datos de calidad para construir DSS. En arquitectura empresarial, primero se estabilizan los sistemas operacionales y luego se construyen capas analíticas. La opción a) invierte el orden lógico. La opción c) posterga innecesariamente la solución operativa, afectando el control académico."
+    },
+    {
+      "codigo": "SIS-07",
+      "pregunta": "En el marco del PETI, se propone adquirir rápidamente una aplicación COTS de encuestas estudiantiles en la nube, sin revisar su capacidad de integrar resultados con los sistemas de calidad institucional ni con los repositorios de datos existentes. El proveedor indica que solo permite exportación en archivos CSV manuales. Como auditor de sistemas y arquitectura, ¿qué debe recomendarse?",
+      "opciones": [
+        "a) Aprobar la compra, dado que la exportación en CSV es suficiente y cualquier integración posterior puede hacerse con macros de Excel sin requerir más análisis de arquitectura.",
+        "b) Evaluar la solución COTS considerando su capacidad de interoperar mediante APIs o servicios web, y, si solo ofrece exportación manual, documentar el riesgo de fragmentación de información y proponer alternativas que respeten los estándares de interoperabilidad institucional.",
+        "c) Rechazar cualquier solución en la nube por principio, dando prioridad exclusiva a desarrollos internos, para mantener todos los datos dentro del datacenter institucional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra la decisión de adquisición con criterios de arquitectura e interoperabilidad: si la herramienta no se integra adecuadamente, se debe documentar y valorar ese riesgo antes de contratar. La opción a) minimiza el problema de integración, fomentando silos de información. La opción c) descarta de plano opciones en la nube sin análisis objetivo, contradiciendo principios de selección objetiva."
+    },
+    {
+      "codigo": "SIS-08",
+      "pregunta": "La Oficina de Admisiones desea un módulo que calcule automáticamente el puntaje ponderado de aspirantes y genere listados de admitidos según reglas definidas por el Consejo Académico. El proveedor actual del sistema académico ofrece este módulo como extensión del sistema, mientras que un docente propone crear una hoja de cálculo avanzada que se alimente cada semestre de un archivo exportado. Desde la tipología de sistemas y la contratación estatal, ¿cuál alternativa es más adecuada?",
+      "opciones": [
+        "a) Implementar la funcionalidad como parte del sistema académico transaccional (TPS), contratando el módulo adicional al proveedor mediante un proceso que asegure competencia y justificación técnica.",
+        "b) Aceptar la solución con hojas de cálculo avanzadas, ya que se puede desarrollar rápidamente sin contratación, dejando el sistema académico como está y operando en paralelo.",
+        "c) Permitir que cada programa académico construya su propia hoja de cálculo para el cálculo de puntajes, dando autonomía completa a las facultades sobre sus procesos de admisión."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) integra el cálculo de puntajes al TPS oficial, manteniendo consistencia, trazabilidad y control centralizado, además de respetar el marco de contratación. La opción b) crea un sistema paralelo informal y frágil. La opción c) multiplica criterios y herramientas, rompiendo estándar y facilitando errores y cuestionamientos sobre transparencia."
+    },
+    {
+      "codigo": "SIS-09",
+      "pregunta": "Durante la licitación para un sistema de gestión documental, un proveedor ofrece un producto COTS ampliamente usado en el Estado, con certificaciones de cumplimiento de estándares nacionales de archivo y servicios web para integración. Otro oferente propone desarrollar desde cero un gestor documental a medida, más barato en el corto plazo pero sin referencias ni especificación clara de integraciones. El estudio de mercado ya identificó al producto estándar como referente. ¿Cuál decisión se ajusta mejor a los principios de la Ley 80 y a la arquitectura empresarial?",
+      "opciones": [
+        "a) Adjudicar al desarrollo a medida por ser más económico inicialmente, y confiar en que las integraciones podrán añadirse después si se necesitan.",
+        "b) Seleccionar el COTS que cumple estándares y cuenta con referencias en el sector público, siempre que cumpla las condiciones de selección objetiva, incluso si el valor inicial es mayor pero el riesgo es menor.",
+        "c) Declarar desierta la licitación y continuar usando el sistema actual, dado que cambiar de plataforma implica un esfuerzo significativo de capacitación y migración."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) privilegia el cumplimiento de estándares, la experiencia comprobada y la interoperabilidad, criterios clave bajo selección objetiva y gestión del riesgo. El desarrollo a medida barato en a) puede conducir a sobrecostos y fallas futuras. La opción c) evita tomar una decisión estratégica necesaria, manteniendo un posible sistema obsoleto y no alineado con arquitectura."
+    },
+    {
+      "codigo": "SIS-10",
+      "pregunta": "Al evaluar un proyecto para análisis de la deserción estudiantil, Planeación solicita una herramienta que permita modelar escenarios “¿qué pasa si…?” y evaluar impactos de políticas de becas o acompañamiento. El proveedor de software financiero insiste en vender un módulo de contabilidad avanzada indicando que allí se puede ver el impacto económico de la deserción. Desde la tipología de sistemas y la correcta definición del alcance, ¿qué tipo de sistema se requiere principalmente?",
+      "opciones": [
+        "a) Un TPS financiero que registre en detalle las operaciones contables de la universidad, pues a partir de esos registros se puede inferir la deserción y su impacto.",
+        "b) Un DSS específico que utilice datos provenientes de sistemas académicos y financieros, permitiendo simulaciones y análisis de escenarios de deserción y becas, integrado a los sistemas actuales.",
+        "c) Un MIS exclusivamente financiero con reportes estáticos, que muestre los costos históricos asociados a la deserción sin capacidad de simulación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica que el problema es de apoyo a la decisión con simulación de escenarios, típico de un DSS, no un TPS ni solo un MIS. El TPS financiero es necesario, pero no suficiente para modelar políticas. La opción c) solo ofrece reportes históricos sin capacidad de prospectiva."
+    },
+    {
+      "codigo": "SIS-11",
+      "pregunta": "En la fase de diseño de un sistema de gestión de laboratorio, el equipo de proyecto decide no involucrar a usuarios clave (coordinadores de laboratorio y docentes) para ahorrar tiempo, y planea recoger sus comentarios únicamente en pruebas finales. El auditor de sistemas señala que en proyectos anteriores esto ha generado rechazos del sistema y necesidad de reprocesos costosos. Desde el SDLC y la buena práctica en entidades públicas, ¿qué debería hacerse?",
+      "opciones": [
+        "a) Continuar sin involucrar usuarios en el diseño para evitar retrasos, confiando en que la especificación técnica inicial es suficiente y que cualquier ajuste se hará en mantenimiento.",
+        "b) Involucrar desde esta fase a representantes de usuarios clave para validar procesos, reglas de negocio y requerimientos, documentar sus aportes y aprobaciones como parte del expediente del sistema.",
+        "c) Esperar a que el sistema esté completamente desarrollado para mostrarlo a los usuarios y, si no lo aceptan, considerar la contratación de un nuevo sistema sin modificar el actual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se alinea con el SDLC orientado a requisitos validados por usuarios, reduciendo el riesgo de rechazo y reprocesos, y aportando evidencia útil en auditorías y defensa de decisiones. Las opciones a) y c) relegan a los usuarios al final del proceso, aumentando el riesgo de que el sistema no responda a las necesidades reales."
+    },
+    {
+      "codigo": "SIS-12",
+      "pregunta": "Un desarrollador propone reutilizar parte del código de un sistema anterior sin revisar las vulnerabilidades reportadas en auditorías previas, para acelerar la construcción de un nuevo módulo web. El equipo argumenta que así se ahorra tiempo y presupuesto. El auditor de seguridad recuerda que el código viejo tenía problemas de inyección SQL no corregidos. ¿Cuál es la mejor decisión en el ciclo de vida del nuevo sistema?",
+      "opciones": [
+        "a) Reutilizar el código antiguo sin revisión para aprovechar el ahorro de tiempo, y confiar en que el firewall de aplicaciones mitigará posibles ataques.",
+        "b) Revisar y refactorizar el código reutilizado aplicando estándares de seguridad, corregir las vulnerabilidades identificadas y documentar los cambios como parte de las lecciones aprendidas del proyecto anterior.",
+        "c) Prohibir cualquier reutilización de código y exigir que todo se desarrolle desde cero, aunque ello retrase significativamente el calendario de implementación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) equilibra eficiencia y seguridad: la reutilización es válida solo si se revisa, corrige y documenta, evitando arrastrar vulnerabilidades conocidas al nuevo sistema. La opción a) ignora vulnerabilidades previamente identificadas. La opción c) rechaza un beneficio razonable (reutilización) por miedo, sin considerar que el problema es la falta de correcciones, no el código reutilizado en sí."
+    },
+    {
+      "codigo": "SIS-13",
+      "pregunta": "La universidad debe intercambiar datos de matrícula con una entidad territorial que administra subsidios de transporte para estudiantes. El área usuaria propone enviar cada semana hojas de cálculo por correo con la información de los beneficiarios. El arquitecto empresarial indica que el Marco de Interoperabilidad de Gobierno Digital sugiere servicios web estandarizados. Desde la perspectiva de auditoría y gestión de riesgos, ¿qué opción es más adecuada?",
+      "opciones": [
+        "a) Enviar los datos por correo en archivos Excel protegidos con contraseña, ya que es una solución rápida que no requiere desarrollos adicionales.",
+        "b) Diseñar e implementar un servicio de interoperabilidad basado en estándares (por ejemplo, REST/JSON o SOAP/XML), con autenticación y control de acceso, documentándolo en la arquitectura de integración y en los acuerdos interinstitucionales.",
+        "c) Autorizar a la entidad territorial a conectarse directamente a la base de datos de la universidad mediante una VPN, para que ellos mismos consulten la información cuando la necesiten."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es coherente con el Marco de Interoperabilidad y reduce riesgos de manipulación, pérdida o fuga de información, asegurando autenticación y trazabilidad. La opción a) queda expuesta a errores, duplicidad y problemas de seguridad. La opción c) abre la base de datos institucional a consultas externas directas, lo cual es altamente riesgoso y difícil de controlar y auditar."
+    },
+    {
+      "codigo": "SIS-14",
+      "pregunta": "En una contratación para desarrollar un sistema de seguimiento a egresados, el pliego de condiciones se enfoca casi exclusivamente en la interfaz gráfica y cronograma, sin requisitos claros sobre interoperabilidad con el sistema académico, estándares de seguridad ni gobierno de datos. El auditor de contratación advierte que esto puede generar un sistema aislado y vulnerable. ¿Qué debe recomendarse respecto al pliego y al SDLC?",
+      "opciones": [
+        "a) Mantener el pliego como está, porque la prioridad es cumplir con los tiempos del Plan de Desarrollo y cualquier ajuste demoraría el proceso contractual.",
+        "b) Ajustar el pliego para incluir requisitos explícitos de arquitectura (integración con sistemas existentes, estándares de interoperabilidad), seguridad y gobierno de datos, y definir criterios de evaluación asociados a estas capacidades.",
+        "c) Añadir una cláusula general que diga que el sistema debe ser seguro e interoperable, dejando los detalles técnicos para ser acordados una vez adjudicado el contrato."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) fortalece el pliego como instrumento de selección objetiva, incorporando requisitos de arquitectura, interoperabilidad y seguridad desde el inicio del SDLC contractual. La opción a) prioriza cronograma sobre calidad y riesgo. La opción c) es demasiado vaga y deja aspectos críticos a la negociación posterior, dificultando la exigibilidad y la comparación de ofertas."
+    },
+    {
+      "codigo": "SIS-15",
+      "pregunta": "El Rector solicita un “tablero de control” donde pueda ver indicadores agregados de matrícula, rendimiento y permanencia estudiantil, y además realizar simulaciones de escenarios. El jefe de TI plantea comprar un módulo estándar de reportes del sistema académico que solo genera reportes estáticos. El arquitecto señala que ese módulo no permite modelar escenarios ni integrar datos de bienestar y financiera. ¿Qué clase de sistema es más apropiado para la necesidad del Rector y cómo debería resolverse la decisión?",
+      "opciones": [
+        "a) Adquirir el módulo estándar de reportes (MIS simple) y limitar las expectativas del Rector, comunicando que las simulaciones no son posibles con la tecnología actual.",
+        "b) Diseñar una solución DSS que combine datos del sistema académico, bienestar y financiera, con capacidad de simulación, evaluando opciones de BI/analítica y justificando la adquisición o desarrollo en el PETI y en el estudio previo de contratación.",
+        "c) Crear un tablero manual en Excel alimentado mensualmente con datos descargados de los sistemas actuales, y pedir al equipo de Planeación que realice las simulaciones directamente en las hojas de cálculo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica que la necesidad es de un DSS con capacidad de simulación y datos integrados, no solo un MIS de reportes estáticos. Además, plantea que la decisión debe pasar por el PETI y estudios previos de contratación, en cumplimiento de la normativa. La opción a) recorta el alcance y entrega una solución insuficiente. La opción c) es manual, riesgosa y poco sostenible."
+    },
+
+    {
+      "codigo": "SIS-16",
+      "pregunta": "La I.U. desea implementar un sistema para radicación y seguimiento de PQRS de estudiantes y ciudadanos. Un proveedor ofrece una solución COTS ya utilizada en varias entidades públicas, con integración a Servicios Ciudadanos Digitales y estándares de interoperabilidad. Un grupo de docentes propone desarrollar una aplicación web propia, argumentando que así se puede personalizar la interfaz a la imagen institucional, pero sin experiencia en Gobierno Digital ni en gestión de seguridad. Desde la perspectiva de sistemas de información y contratación (Ley 80), ¿qué decisión resulta más adecuada?",
+      "opciones": [
+        "a) Optar por el desarrollo propio, priorizando la personalización visual y la autonomía técnica, aun cuando no haya experiencia en interoperabilidad ni seguridad para trámites ciudadanos.",
+        "b) Elegir la solución COTS con experiencia comprobada en entidades públicas, documentando en estudios previos la justificación técnica, los riesgos mitigados y la alineación con Gobierno Digital, y estructurando el proceso de selección objetiva.",
+        "c) Postergar cualquier solución tecnológica y continuar manejando las PQRS por correo electrónico y documentos físicos mientras se evalúa una futura formación del equipo interno en desarrollo web."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) responde al principio de selección objetiva y gestión de riesgos: se aprovecha una solución probada que cumple estándares de Gobierno Digital e interoperabilidad, reduciendo riesgos técnicos y legales. La opción a) se centra en la estética, ignorando capacidades críticas. La c) mantiene un esquema manual que no cumple con expectativas de servicio ni con lineamientos de gestión digital."
+    },
+    {
+      "codigo": "SIS-17",
+      "pregunta": "Planeación solicita un sistema que consolide la información de los diferentes TPS (académico, financiero, talento humano) y genere reportes periódicos para el seguimiento al Plan de Desarrollo y al PDI. TI sugiere adquirir un ERP completo nuevo para reemplazar todos los sistemas actuales. El arquitecto empresarial indica que lo necesario es un componente MIS de consolidación y BI sobre los sistemas existentes. ¿Qué enfoque es más adecuado?",
+      "opciones": [
+        "a) Reemplazar todos los TPS existentes por un único ERP para que toda la información esté en una sola base de datos, aunque implique un proyecto de gran envergadura y riesgo.",
+        "b) Diseñar o adquirir un MIS/BI que consolide datos de los TPS existentes mediante integraciones, generando los reportes requeridos para Planeación sin reemplazar de inmediato los sistemas operativos.",
+        "c) Pedir a cada área que genere sus propios reportes en Excel y consolidarlos manualmente en Planeación, sin implementar ningún sistema de apoyo adicional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica correctamente que la necesidad es de un MIS sobre TPS existentes, con menor riesgo y costo que un reemplazo total. La opción a) plantea un proyecto innecesariamente riesgoso. La c) se apoya en procesos manuales poco fiables, con alto riesgo de errores y sin escalabilidad."
+    },
+    {
+      "codigo": "SIS-18",
+      "pregunta": "La universidad debe reportar periódicamente al DANE datos estadísticos de matrícula y graduados. El responsable de estadísticas propone descargar datos del sistema académico en CSV, abrirlos en Excel, depurarlos manualmente y luego subirlos al portal del DANE. El Coordinador de Interoperabilidad indica que la arquitectura ya contempla servicios REST para publicar datos estructurados y existe una guía de intercambio del DANE. Desde la perspectiva de interoperabilidad y riesgo, ¿qué debe priorizarse?",
+      "opciones": [
+        "a) Mantener el proceso manual con CSV y Excel, dado que permite revisar y corregir datos a criterio del analista antes del envío.",
+        "b) Implementar la publicación vía servicios web siguiendo los estándares definidos (REST/JSON o similares), conectando el sistema académico con los mecanismos del DANE y reduciendo manipulación manual de datos.",
+        "c) Exportar los datos en PDF y que el DANE los procese internamente, evitando esfuerzos de desarrollo en la universidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) usa los mecanismos de interoperabilidad estandarizados, disminuye errores y asegura trazabilidad del intercambio de datos. La opción a) introduce riesgo de errores y falta de integridad en el reporte. La c) ni siquiera provee datos en formato procesable y contradice prácticas básicas de intercambio de información."
+    },
+    {
+      "codigo": "SIS-19",
+      "pregunta": "En el desarrollo de un nuevo módulo de bienestar estudiantil, el equipo decide comenzar codificación sin haber definido claramente los requisitos de seguridad de la información, bajo el argumento de que “la seguridad la añade el proveedor al final”. El auditor de sistemas recuerda que la I.U. aplica el MSPI y que los requisitos de seguridad deben definirse desde el inicio del ciclo de vida. ¿Cuál es el paso más crítico que se está omitiendo?",
+      "opciones": [
+        "a) La fase de pruebas de rendimiento, porque sin evaluar la velocidad no se puede garantizar la aceptabilidad del sistema.",
+        "b) La definición de requisitos de seguridad y cumplimiento normativo en la fase de análisis/diseño, que deben orientar toda la construcción y pruebas posteriores.",
+        "c) La capacitación de usuarios finales, ya que el sistema puede funcionar bien técnicamente pero fracasar si las personas no lo usan adecuadamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica el error crítico en el SDLC: no incorporar seguridad y cumplimiento desde requisitos y diseño provoca soluciones que luego no pueden adaptarse fácilmente a exigencias del MSPI y Ley 1581. El rendimiento y la capacitación son importantes, pero su omisión no tiene el mismo impacto estructural en términos de riesgo y cumplimiento."
+    },
+    {
+      "codigo": "SIS-20",
+      "pregunta": "Se está contratando un sistema para el control de inventario de equipos de cómputo. El área usuaria describe solo pantallas deseadas en los términos de referencia, sin mencionar integración con el sistema contable, ni obligaciones de producir reportes para la Contaduría General de la Nación. El arquitecto empresarial advierte que esto puede generar un sistema aislado que no cumple requerimientos legales. ¿Qué debe recomendarse?",
+      "opciones": [
+        "a) Mantener el pliego tal como está, porque la prioridad es obtener un sistema amigable, dejando integraciones y reportes normativos para un proyecto futuro.",
+        "b) Ajustar el pliego para incluir explícitamente requisitos de integración con el sistema contable y generación de reportes en formatos aceptados por la Contaduría, definiendo estos aspectos como parte del alcance obligatorio.",
+        "c) Quitar cualquier referencia a integración e informes, de modo que los oferentes se concentren solo en la facilidad de uso de la aplicación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) fortalece el pliego, asegurando que el sistema responda tanto a necesidades operativas como normativas, y que se integre a la arquitectura institucional. Las opciones a) y c) tenderán a producir un sistema aislado, con mayor riesgo de reprocesos y hallazgos de control."
+    },
+    {
+      "codigo": "SIS-21",
+      "pregunta": "La I.U. evalúa soluciones para registro y control de asistencia a clases. Un proveedor ofrece una aplicación móvil que solo guarda datos localmente en cada dispositivo docente y luego genera archivos Excel para consolidar. Otro ofrece integración directa con el sistema académico mediante servicios web, actualizando en tiempo real la base de datos institucional. Desde la perspectiva de arquitectura e integridad de la información, ¿qué solución es más adecuada?",
+      "opciones": [
+        "a) La aplicación móvil con datos locales y generación de Excel, pues simplifica el uso del docente y evita tocar el sistema académico.",
+        "b) La solución integrada vía servicios web con el sistema académico, que actualiza la base única de datos y evita múltiples repositorios y consolidaciones manuales.",
+        "c) No contratar ninguna solución y dejar que cada docente registre la asistencia en su propio formato para luego digitarlas centralmente en oficinas académicas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene una única fuente de verdad en el TPS académico, reduce errores y se alinea con la arquitectura empresarial. La opción a) crea múltiples repositorios temporales y procesos de consolidación manual. La c) perpetúa un esquema manual con alta carga operativa y riesgo de errores."
+    },
+    {
+      "codigo": "SIS-22",
+      "pregunta": "La universidad requiere un módulo para administrar becas y apoyos socioeconómicos. El Vicerrector Financiero quiere que el sistema calcule automáticamente el impacto presupuestal de diferentes escenarios de becas y exenciones. TI sugiere usar el módulo de tesorería actual, que solo registra pagos y no maneja simulaciones. Planeación propone desarrollar o adquirir un componente de análisis de escenarios que tome datos de los sistemas académicos y financieros. ¿Qué tipo de sistema se necesita principalamente y qué opción es más adecuada?",
+      "opciones": [
+        "a) Ampliar el sistema de tesorería (TPS) para que soporte simulaciones de escenarios, aunque no esté diseñado para análisis de decisiones.",
+        "b) Implementar un DSS que consuma datos de los TPS existentes y permita modelar escenarios de becas y exenciones, documentando su rol en la arquitectura y en el PETI.",
+        "c) Generar manualmente distintos escenarios de becas en hojas de cálculo y que Planeación presente al Consejo Académico los resultados sin sistema dedicado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) identifica que la necesidad es de apoyo a decisión (DSS) y no solo de registro transaccional. El DSS debe integrarse a los TPS existentes y formar parte del portafolio arquitectónico. La opción a) fuerza a un TPS a hacer análisis avanzado para lo que no fue diseñado. La c) es manual, poco trazable y con alto riesgo de error."
+    },
+    {
+      "codigo": "SIS-23",
+      "pregunta": "En un proyecto para renovar el sistema académico, se prevé migrar datos desde el sistema legado. Por ahorrar tiempo, el contratista propone migrar solo los estudiantes activos del último año, dejando los históricos en el sistema viejo, que será apagado progresivamente. El auditor advierte que la normativa exige conservar información histórica accesible para emisión de certificados y verificaciones. ¿Qué error grave del ciclo de vida se está gestando?",
+      "opciones": [
+        "a) Un error en la fase de pruebas de integración, porque al migrar menos datos se tendrán menos casos de prueba.",
+        "b) Un error de análisis de requerimientos de datos, al no considerar la necesidad de acceso histórico completo y los requisitos legales de conservación y consulta.",
+        "c) Un error de diseño gráfico de la interfaz, ya que los usuarios no están siendo tomados en cuenta en la apariencia del nuevo sistema."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) destaca el error de subestimar los requerimientos de información histórica, que deben definirse desde requisitos y arquitectura de datos. La opción a) es un efecto colateral pero no la raíz del problema. La c) no se relaciona con el riesgo legal de no conservar accesible la historia académica."
+    },
+    {
+      "codigo": "SIS-24",
+      "pregunta": "El área jurídica solicita un sistema que les permita consultar todos los antecedentes académicos y disciplinarios de un estudiante y cruzarlos con su información contractual como monitor o auxiliar. TI propone otorgar acceso directo a la base de datos del sistema académico y financiero al personal jurídico. El arquitecto empresarial recuerda que se debe aplicar el principio de mínimo privilegio y considerar un MIS apropiado. ¿Qué alternativa es más adecuada?",
+      "opciones": [
+        "a) Dar acceso de lectura a toda la base de datos académica y financiera al área jurídica mediante un cliente SQL, porque sus usuarios tienen alta confianza y deben ver toda la información.",
+        "b) Diseñar un MIS específico o vistas controladas que consoliden la información necesaria para el área jurídica, limitando los datos a lo estrictamente requerido y manteniendo trazabilidad del acceso.",
+        "c) Permitir que jurídica solicite reportes por correo electrónico a TI cada vez que necesite un caso particular, sin sistemas específicos ni controles adicionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) implementa el principio de mínimo privilegio y mejora la trazabilidad: se entrega información consolidada mediante MIS, no acceso bruto a las bases. La opción a) abre todo el repositorio a un área, aumentando el riesgo y el impacto de errores o fugas. La c) genera dependencia manual y posible circulación insegura de datos sensibles."
+    },
+    {
+      "codigo": "SIS-25",
+      "pregunta": "Se encuentra en producción un sistema de control de acceso físico a edificios, integrado con el directorio de usuarios. El proveedor anuncia el fin de soporte de la versión y recomienda migrar a una nueva plataforma. El administrador propone mantener la versión sin soporte por “uno o dos años más” para ahorrar costos, aunque ya no habrá parches de seguridad. El auditor de riesgos advierte sobre vulnerabilidades. ¿Qué enfoque es más adecuado en el ciclo de vida de sistemas?",
+      "opciones": [
+        "a) Mantener el sistema sin soporte hasta que aparezca un incidente serio, y solo entonces considerar la migración, para maximizar el aprovechamiento de la inversión.",
+        "b) Planear y ejecutar una estrategia de renovación o sustitución, documentando en el PETI y en la gestión de riesgos el fin de soporte como causa de obsolescencia y de aumento de riesgo, y priorizando el proyecto en función de su criticidad.",
+        "c) Desconectar el sistema del directorio de usuarios para reducir el riesgo y seguir usando la versión sin soporte solo como control local, sin plan de renovación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) trata el fin de soporte como un hito del ciclo de vida: requiere plan de renovación y justificación en PETI y análisis de riesgos. La opción a) acepta un riesgo creciente sin plan. La c) reduce funcionalidad y no aborda el problema de vulnerabilidades en el sistema obsoleto."
+    },
+    {
+      "codigo": "SIS-26",
+      "pregunta": "La universidad quiere una solución para que los estudiantes consulten en línea sus estados de cuenta, pagos pendientes y acuerdos de pago. Un área propone desarrollar una aplicación independiente que replique los datos financieros en su propia base para no “tocar” el sistema financiero. Otra opción es construir un portal que consuma servicios del sistema financiero corporativo. Desde arquitectura e integridad, ¿qué solución es más coherente?",
+      "opciones": [
+        "a) Crear una base de datos independiente y replicar periódicamente los datos financieros, aunque exista riesgo de desalineación si se retrasan las sincronizaciones.",
+        "b) Construir un portal que consuma servicios expuestos por el sistema financiero, manteniendo una única fuente de verdad y evitando duplicidad de datos.",
+        "c) Permitir que los estudiantes soliciten sus estados de cuenta por correo electrónico, sin sistema adicional, para no generar riesgos de seguridad en un nuevo portal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) alinea la solución con la arquitectura de sistemas basada en integraciones, con una sola fuente de verdad. La opción a) crea redundancia y riesgo de inconsistencia. La c) es operativamente ineficiente y no responde al objetivo de mejorar servicios digitales."
+    },
+    {
+      "codigo": "SIS-27",
+      "pregunta": "En un contrato de desarrollo de software, el proveedor plantea omitir la elaboración de manuales técnicos y de usuario, ofreciendo en su lugar una sesión de capacitación grabada. El área usuaria está de acuerdo porque cree que “nadie lee manuales”. El auditor de sistemas indica que la documentación es parte del SDLC y necesaria para mantenimiento y auditorías. ¿Cuál es la mejor decisión?",
+      "opciones": [
+        "a) Aceptar únicamente la capacitación grabada como sustituto de la documentación, dado que la mayoría de usuarios prefiere videos a manuales escritos.",
+        "b) Exigir la entrega de documentación técnica y de usuario como productos contractuales obligatorios, además de la capacitación, para asegurar mantenibilidad, transferibilidad y soporte a auditorías.",
+        "c) Solicitar solo documentación técnica y prescindir de cualquier manual de usuario, confiando en que los funcionarios aprenderán por prueba y error."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene el estándar del SDLC en el sector público: documentación es insumo para mantenimiento, futuras contrataciones y auditoría, y debe pactarse contractualmente. La opción a) sustituye un artefacto estructural por material auxiliar. La c) ignora la necesidad de soporte al usuario final."
+    },
+    {
+      "codigo": "SIS-28",
+      "pregunta": "Se está diseñando un sistema para gestionar convenios y contratos de investigación. El área de investigación pide poder registrar todos los documentos y generar reportes básicos. Control Interno y Jurídica solicitan capacidad de trazabilidad sobre quién modificó qué datos y cuándo. El jefe de proyecto considera que los logs detallados complican el desarrollo y propone dejarlos para una versión futura. ¿En qué parte del ciclo de vida se está cometiendo un error crítico?",
+      "opciones": [
+        "a) En la fase de despliegue, por no planear adecuadamente la puesta en producción.",
+        "b) En la fase de análisis/diseño, al ignorar requisitos de trazabilidad que son esenciales para control interno y responsabilidad legal.",
+        "c) En la fase de capacitación, porque no se ha instruido a los usuarios sobre la importancia de registrar correctamente la información."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) señala que la trazabilidad debe definirse como requisito desde análisis y diseño; no es un accesorio opcional. En el contexto público, los logs son críticos para control y responsabilidad. Las opciones a) y c) no abordan el error de excluir un requisito funcional clave."
+    },
+    {
+      "codigo": "SIS-29",
+      "pregunta": "Para mejorar los tiempos de respuesta del sistema de matrículas, un administrador de bases de datos propone desactivar temporalmente las validaciones de integridad referencial durante los picos de inscripción, argumentando que así las transacciones serán más rápidas y luego se puede “limpiar” manualmente los errores. El auditor de sistemas advierte sobre los riesgos. ¿Cuál opción es más adecuada?",
+      "opciones": [
+        "a) Aceptar desactivar las validaciones de integridad durante los picos, confiando en que el equipo detectará y corregirá cualquier inconsistencia después del proceso.",
+        "b) Mantener las validaciones de integridad y buscar optimizaciones de rendimiento en infraestructura, índices y diseño de consultas, sin comprometer la consistencia de los datos académicos.",
+        "c) Desactivar permanentemente las validaciones de integridad y dejar que sea el sistema académico de reportes quien identifique discrepancias mediante informes de depuración periódicos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) prioriza la integridad de datos en un TPS crítico, buscando soluciones de rendimiento sin sacrificar consistencia. Desactivar validaciones (a o c) introduce riesgos graves de datos corruptos que afectan procesos académicos, legales y de reporte, y violan principios básicos de calidad de datos."
+    },
+    {
+      "codigo": "SIS-30",
+      "pregunta": "La universidad considera contratar un sistema en la nube para gestión de proyectos de investigación. El proveedor ofrece un servicio SaaS multi-tenant, pero en el contrato estándar no se menciona nada sobre la interoperabilidad con sistemas internos ni la portabilidad de datos al finalizar el contrato. El analista de contratación sugiere firmar así para aprovechar un descuento por pronto acuerdo. El auditor de sistemas y contratación alerta sobre riesgo de dependencia tecnológica. ¿Qué debería hacerse?",
+      "opciones": [
+        "a) Firmar el contrato estándar para no perder el descuento, confiando en que en el futuro se podrán gestionar integraciones y exportaciones de datos mediante acuerdos adicionales.",
+        "b) Exigir que el contrato incluya cláusulas específicas de interoperabilidad (APIs, formatos de intercambio) y portabilidad de datos (exportación completa y en formatos abiertos), y solo firmar cuando estas condiciones queden claras y exigibles.",
+        "c) Descartar cualquier solución SaaS y buscar exclusivamente software on-premise, para evitar riesgos de dependencia de proveedores externos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) incorpora en el contrato las obligaciones de interoperabilidad y portabilidad, mitigando riesgos de lock-in y cumplimiento del MRAE y Gobierno Digital. La opción a) deja a la entidad vulnerable a restricciones futuras. La opción c) excluye de plano modelos SaaS sin análisis, lo cual va en contra del principio de selección objetiva y puede impedir aprovechar soluciones adecuadas."
+    }
+
+
+    ]
+}

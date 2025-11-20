@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte en Redes - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes */
+        .norma-box {
+            border: 1px solid #c8e6c9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1f8e9;
+        }
+        .norma-box h4 { color: #388e3c; margin-top: 0; }
+        
+        .alerta-telecom {
+            background-color: #ffebee;
+            border-left: 5px solid #d32f2f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-telecom h4 { color: #b71c1c; margin-top: 0; }
+
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+        
+        .tabla-diagnostico th, .tabla-diagnostico td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 0.95em;
+        }
+        .tabla-diagnostico th {
+            background-color: #4A90E2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Redes" id="logo">
+        <h1>Soporte en Redes y Telecomunicaciones</h1>
+        <p>Diagnóstico por Capas, Estándares (EIA/TIA) y Seguridad (NAC/VLANs)</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="protocolos">
+            <h2>1. Diagnóstico de Fallas por Capas (OSI/TCP-IP)</h2>
+            <p>La metodología eficiente es **Bottom-Up** (de abajo hacia arriba), aislando la falla por capa.</p>
+            
+            <table class="tabla-diagnostico">
+                <thead>
+                    <tr>
+                        <th>Capa</th>
+                        <th>Nombre</th>
+                        <th>Dispositivo Clave</th>
+                        <th>Herramienta de Diagnóstico</th>
+                        <th>Falla Común</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Física</td>
+                        <td>Cable, Conector, NIC</td>
+                        <td>Link lights (LEDs), Tester de cable</td>
+                        <td>Cable roto o interferencia (EMI).</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Enlace de Datos</td>
+                        <td>Switch, VLAN, MAC Address</td>
+                        <td>arp, show mac address-table</td>
+                        <td>VLAN incorrecta o broadcast storm.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Red</td>
+                        <td>Router, IP Address</td>
+                        <td>ping, tracert/traceroute</td>
+                        <td>Falla en el Gateway (default route) o ACL bloqueando el tráfico.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="concepto-clave">
+                <h4>Herramientas Esenciales</h4>
+                <p><strong>ping (Capa 3/4):</strong> Confirma Disponibilidad y latencia. Si falla, el problema es enrutamiento o firewall.</p>
+                <p><strong>tracert/traceroute (Capa 3):</strong> Muestra la Ruta Lógica. Vital para identificar el salto donde se pierde el tráfico (ACL o enrutamiento externo).</p>
+            </div>
+        </section>
+
+        <section id="cableado">
+            <h2>2. Cableado Estructurado y Estándares</h2>
+            <p>El cableado es un activo auditable que debe garantizar la Integridad de las comunicaciones.</p>
+            
+            <div class="norma-box">
+                <h4>EIA/TIA 568 (Integridad de la Transmisión)</h4>
+                <p>Define cómo se terminan los cables UTP/Fibra. Se debe elegir un solo patrón (**T568A** o **T568B**) y mantenerlo en toda la instalación para evitar ruido y pérdida de Integridad de los datos. En contratos, se exige **certificación** de cada punto.</p>
+            </div>
+
+            <div class="norma-box">
+                <h4>EIA/TIA 606 (Administración y Trazabilidad)</h4>
+                <p><strong>Propósito:</strong> Estándar de Administración e Identificación. Exige que cada rack, panel, puerto y cable tenga una etiqueta única y legible. Sin TIA 606, es un **Hallazgo de Control Interno** (imposibilidad de garantizar Disponibilidad y Trazabilidad).</p>
+            </div>
+        </section>
+
+        <section id="gestion-seguridad">
+            <h2>3. Gestión de Direcciones y Arquitectura de Seguridad</h2>
+            
+            <div class="alerta-telecom">
+                <h4>🚨 La Base de la Disponibilidad</h4>
+                <p><strong>DHCP:</strong> Asignación automática de IP. Falla en DHCP = parálisis de la red (no se obtiene IP).</p>
+                <p><strong>DNS:</strong> Traducción de nombres. Falla en DNS = imposibilidad de navegar (aunque la red local funcione).</p>
+                <p><strong>Migración IPv6:</strong> Adopción obligatoria en el sector público. La estrategia debe ser **Dual Stack** (coexistencia de IPv4 y IPv6).</p>
+            </div>
+
+            <div class="concepto-clave">
+                <h4>Segmentación y Control de Acceso (MSPI)</h4>
+                <ul>
+                    <li><strong>VLANs:</strong> Segmentación lógica de la red para separar tráfico (Estudiantes, Administrativos, Servidores, IOT). Si un ataque ocurre en la VLAN de estudiantes, se contiene.</li>
+                    <li><strong>NAC (Network Access Control):</strong> Control que verifica la identidad y la **salud** del dispositivo (Ej: Antivirus actualizado, Autenticación 802.1X) antes de permitir el acceso total. Es esencial para cumplir el control de **Acceso a la Red (A.9.2)** del MSPI.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Redes y Telecomunicaciones</h2>
+            <p>Evalúa tu juicio en diagnóstico, estándares y arquitectura de red.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

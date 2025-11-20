@@ -1,0 +1,1035 @@
+{
+    "preguntas": [
+        {
+            "codigo": "INST-01",
+            "pregunta": "La Institución Universitaria Pascual Bravo posee Acreditación Institucional de Alta Calidad. ¿Cuál debe ser el enfoque principal del PETI en relación con esta acreditación?",
+            "opciones": [
+                "a) Reducir los costos operativos de la Mesa de Ayuda.",
+                "b) Priorizar proyectos que fortalezcan la gestión de la Calidad Académica, la Investigación y el bienestar estudiantil.",
+                "c) Focalizarse únicamente en la compra de nuevo hardware para oficinas administrativas."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La Acreditación de Alta Calidad exige priorizar la inversión de TI en los ejes misionales (Academia, Investigación y Extensión), que son los que sustentan la calidad."
+        },
+        {
+            "codigo": "INST-02",
+            "pregunta": "Usted, como Profesional Especializado, pertenece a la Dirección de Planeación y Aseguramiento de la Calidad. ¿Cuál de las siguientes funciones es más coherente con su ubicación dentro de la estructura institucional?",
+            "opciones": [
+                "a) Configurar el firewall perimetral y las ACLs del router.",
+                "b) Coordinar la alineación del PETI con el PEI y la estrategia de aseguramiento de la calidad.",
+                "c) Asignar directamente las plazas de docentes ocasionales."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Su rol es estratégico-táctico. Estar en Planeación implica que su principal función es asegurar que la estrategia de TI (PETI) esté alineada con los objetivos de calidad y planificación institucional."
+        },
+        {
+            "codigo": "INST-03",
+            "pregunta": "Un nuevo proyecto de TI busca mejorar el proceso de Admisiones. ¿Cuál debe ser el pilar de justificación principal para el Comité de Gobierno, considerando la misión de la I.U. Pascual Bravo?",
+            "opciones": [
+                "a) La reducción del 5% en el uso de papel.",
+                "b) El aumento de la eficiencia para la Gestión de Trámites y el impacto en la Cobertura Educativa de Antioquia.",
+                "c) La integración con la plataforma de la Contraloría General."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La misión de una IES es la formación y la cobertura. El proyecto debe justificarse por el valor público (cobertura) y la eficiencia del servicio (trámites), más que por el ahorro de papel (a)."
+        },
+
+        {
+      "codigo": "INST-01",
+      "pregunta": "El proyecto 'Renovación de Infraestructura Crítica' (PETI) requiere $300M, pero la Dirección Financiera solo asigna $150M en el POAI, argumentando prioridades de Funcionamiento. Su jefe inmediato (Dirección de Planeación) le pide que encuentre una forma de seguir adelante con la meta original. ¿Cuál es la acción jerárquica y de planeación más adecuada?",
+      "opciones": [
+        "a) Reducir el alcance a una 'Renovación Parcial' de infraestructura, asumiendo el riesgo residual del 50% no renovado, y documentar la insuficiencia presupuestal como riesgo transferido al Comité de Gestión.",
+        "b) Solicitar formalmente al Comité de Gestión y Desempeño (Gobierno) la reasignación de los $150M faltantes desde un rubro de menor criticidad institucional, argumentando que el riesgo de indisponibilidad compromete la Acreditación.",
+        "c) Dividir el proyecto en dos fases: ejecutar la primera con $150M este año y prometer la segunda fase para el próximo POAI sin la aprobación formal del Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La decisión de alterar el presupuesto o reasignar fondos es de **Gobierno** (Comité). Su rol, ubicado en Planeación, es justificar la alineación (Acreditación/Disponibilidad) y escalar la necesidad, forzando a la Alta Dirección a asumir la Aceptación del Riesgo (Opción A) o asignar la financiación (Opción B)."
+    },
+    {
+      "codigo": "INST-02",
+      "pregunta": "La I.U. Pascual Bravo busca fortalecer su misión tecnológica. Se propone un proyecto para adquirir una costosa licencia de software de simulación industrial 3D. ¿Qué debe garantizar usted en la justificación del PETI para que este proyecto se alinee con el PEI y la Acreditación?",
+      "opciones": [
+        "a) Que el software sea el más moderno del mercado, garantizando la eficiencia técnica.",
+        "b) Que el software esté directamente ligado a los currículos académicos y a los programas acreditables, y que su uso se mida con un indicador de impacto en la calidad de la formación tecnológica.",
+        "c) Que el proveedor cumpla con el 100% de las especificaciones funcionales solicitadas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El valor misional (Acreditación) se demuestra con el impacto educativo. La justificación debe ligar el activo (software) con el proceso misional (formación tecnológica) y la medición de la calidad (indicador de impacto). La opción A y C son técnicas, no estratégicas."
+    },
+    {
+      "codigo": "INST-03",
+      "pregunta": "La Vicerrectoría Académica exige que se genere un reporte al SNIES (Sistema Nacional de Información de la Educación Superior) con los datos de egresados. El sistema legacy de la universidad tiene nombres de egresados inconsistentes (errores de digitación). ¿Qué debe priorizar usted, como coordinador en Planeación y Aseguramiento de la Calidad?",
+      "opciones": [
+        "a) Generar el reporte inmediatamente con los datos inconsistentes para cumplir con el plazo legal, y documentar el error como riesgo asumido.",
+        "b) Suspender la generación del reporte y priorizar un proyecto de 'Saneamiento y Calidad del Dato' (Dominio de Información) antes de la entrega, ya que la Integridad y Trazabilidad del dato es vital para la Acreditación.",
+        "c) Entregar un reporte parcial solo con los datos consistentes, esperando la sanción del Ministerio de Educación Nacional (MEN)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El principio de Aseguramiento de la Calidad prima. Los datos del SNIES son la base de la Acreditación. Entregar datos inconsistentes pone en riesgo la Integridad y la imagen institucional ante el MEN. Se debe detener el proceso para sanear el dato (Dominio de Información)."
+    },
+    {
+      "codigo": "INST-04",
+      "pregunta": "El Rector solicita la implementación urgente de un sistema de 'Alertas Tempranas de Deserción' que no está en el PETI aprobado. ¿Cuál es el procedimiento de Gobierno de TI correcto que usted debe iniciar?",
+      "opciones": [
+        "a) Iniciar la contratación del sistema inmediatamente bajo la figura de 'Urgencia Manifiesta' para atender la directriz del Rector.",
+        "b) Incluir formalmente el proyecto en el Portafolio del PETI (Dominio de Estrategia), reprogramando o sacrificando otro proyecto de igual valor, y solicitar la aprobación de este cambio de prioridades al Comité de Gestión y Desempeño.",
+        "c) Crear el sistema con recursos 'In-house' para evitar la burocracia de Planeación y el Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Todo proyecto, incluso los urgentes, deben mantener la trazabilidad con el PETI (Principio de Planeación). La opción B mantiene la gobernanza: el cambio de prioridad se justifica en el PEI y se formaliza con el órgano de Gobierno (Comité)."
+    },
+    {
+      "codigo": "INST-05",
+      "pregunta": "La Dirección de Talento Humano solicita acceso directo (Select *) a la base de datos de fallas de servidores para justificar un plan de evaluación de desempeño al personal de TI. ¿Cuál es la respuesta de usted, ubicado en Planeación y a cargo del Gobierno Digital?",
+      "opciones": [
+        "a) Otorgar el acceso, ya que el reporte es para evaluar la gestión de la I.U.",
+        "b) Negar el acceso directo. Entregar un reporte filtrado y agregado, ya que el Principio de Privilegio Mínimo (Need-to-Know) y la Confidencialidad prohíben el acceso irrestricto a los datos de la infraestructura (Dominio de Información).",
+        "c) Otorgar el acceso solo si el Director de Talento Humano firma un acuerdo de confidencialidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Confidencialidad y Privilegio Mínimo (MSPI/ISO 27001): El acceso a datos de infraestructura es restringido. La Dirección de Talento Humano necesita el reporte, no el acceso directo a la base de datos de logs. Se debe entregar la información a través de reportes controlados, manteniendo la custodia del dato."
+    },
+    {
+      "codigo": "INST-06",
+      "pregunta": "La I.U. debe invertir en su plataforma de aulas virtuales (LMS) para mantener la Acreditación. Se tiene un sistema Moodle (Open Source) que funciona, pero el área académica pide cambiarlo por una plataforma comercial (COTS) más amigable. ¿Cuál es la justificación estratégica más fuerte en el PETI?",
+      "opciones": [
+        "a) La plataforma COTS garantiza la Disponibilidad del servicio al tener un SLA formal.",
+        "b) La plataforma comercial mejora los indicadores de Usabilidad y Adopción Docente (Dominio de Uso y Apropiación), lo cual es crucial para los factores de evaluación de la Acreditación.",
+        "c) El costo de las licencias del COTS es menor al costo de la actualización y soporte de Moodle."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Acreditación y Valor: Los pares académicos evalúan el impacto del sistema en el factor 'Calidad del Docente/Estudiante'. La Usabilidad y Adopción (Dominio de Uso y Apropiación del MRAE) son métricas de valor directo para la Acreditación. Es más estratégico que el costo (C)."
+    },
+    {
+      "codigo": "INST-07",
+      "pregunta": "En el marco de la contribución al Plan de Desarrollo de Medellín ('Ciudad Inteligente'), la I.U. diseña un proyecto para publicar datos abiertos de su producción científica. ¿Qué pilar de Gobierno Digital y de la I.U. se prioriza con esta acción?",
+      "opciones": [
+        "a) El pilar de Seguridad Informática, por la necesidad de cifrar los datos de la investigación.",
+        "b) El pilar de Transparencia y Servicios Ciudadanos Digitales (MIPG), fomentando la vinculación con el entorno y la misión de ser una IES de carácter público.",
+        "c) El pilar de Gestión del Talento Humano (MIPG), al reconocer la producción de los docentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Contexto Regional: La publicación de datos abiertos es una obligación legal y una estrategia de vinculación regional. Prioriza la Transparencia y contribuye directamente a la meta de Gobierno Digital y el Plan de Desarrollo Municipal."
+    },
+    {
+      "codigo": "INST-08",
+      "pregunta": "Usted presenta el tablero de control del PETI al Rector. ¿Qué indicador demuestra con mayor claridad el 'Valor' de la inversión de TI para la misión de la I.U.?",
+      "opciones": [
+        "a) El porcentaje de ejecución presupuestal del PETI (Mide la eficiencia del gasto).",
+        "b) La reducción del tiempo de respuesta en la solicitud de certificados (Mide el impacto en el servicio al ciudadano).",
+        "c) La Disponibilidad del servidor de correo 99.9% (Mide el rendimiento técnico)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Monitoreo y Valor Público: El valor público se mide en el beneficio al ciudadano/estudiante. La reducción del tiempo de un trámite es un resultado (Output/Outcome) que demuestra la eficacia de la inversión en el Dominio de Procesos."
+    },
+    {
+      "codigo": "INST-09",
+      "pregunta": "La auditoría exige el Plan de Continuidad de Negocio (BCP) para los procesos académicos. La Dirección Financiera se opone a asignar recursos al BCP. ¿Cuál es el riesgo institucional que usted debe exponer al Comité de Gestión?",
+      "opciones": [
+        "a) Riesgo de fraude, por no tener control sobre el proceso financiero manual.",
+        "b) Riesgo de Incumplimiento Normativo (SGSI/MSPI) y Riesgo de Pérdida de la Acreditación, pues la Continuidad del Servicio Misional no está garantizada ante una catástrofe.",
+        "c) Riesgo de que los servidores no se puedan recuperar (DRP)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Acreditación y Continuidad: El BCP es la garantía de que los procesos misionales (académicos) no se detienen. La falta de BCP es una falla grave en el factor de Gestión Institucional que pone en riesgo el cumplimiento del SGSI y la Acreditación."
+    },
+    {
+      "codigo": "INST-10",
+      "pregunta": "Usted está supervisando un contrato de desarrollo de una API de interoperabilidad con el DANE. El contratista entrega una API funcional, pero sin la documentación de arquitectura, argumentando que es información propietaria. ¿Qué debe usted exigir para el recibo a satisfacción?",
+      "opciones": [
+        "a) Recibir la API, ya que es funcional y cumple el objeto contractual principal.",
+        "b) Retener el pago y exigir la documentación completa de arquitectura, ya que la I.U. debe garantizar la Integridad y la Transferencia de Conocimiento para el soporte futuro del activo (Dominio de Sistemas).",
+        "c) Contratar un interventor externo para que documente la API."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Supervisión y Dominio de Sistemas: El activo de la I.U. es el conocimiento (código y documentación). La documentación de arquitectura es esencial para la sostenibilidad y el mantenimiento. Sin ella, se genera 'Deuda Técnica' y se viola el Dominio de Sistemas del MRAE."
+    },
+    {
+      "codigo": "INST-11",
+      "pregunta": "El sistema académico tiene más de 20 años y no se integra con los sistemas de Gobierno Digital (SCD). El costo de reemplazarlo es altísimo. ¿Cuál es el procedimiento estratégico de TI que usted debe iniciar en el PETI?",
+      "opciones": [
+        "a) Eliminar el sistema y volver a la gestión en papel para ahorrar costos.",
+        "b) Incluir el sistema en el Portafolio de Aplicaciones con una Estrategia de Retiro, y crear un proyecto 'Middleware' para integrar sus funciones críticas con los SCD, mitigando el riesgo de Integración a corto plazo.",
+        "c) Iniciar la contratación inmediata de un nuevo sistema sin esperar el aval del Comité, para agilizar el cumplimiento de la ley."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Dominio de Sistemas (MRAE): El sistema es obsoleto pero misional. La solución es mitigar el riesgo de incumplimiento legal (SCD) mediante un Middleware (solución arquitectónica) mientras se gestiona su reemplazo a largo plazo (Estrategia de Retiro)."
+    },
+    {
+      "codigo": "INST-12",
+      "pregunta": "Un auditor de Acreditación solicita la evidencia de cómo la I.U. garantiza la **unicidad** de las Historias Académicas de los estudiantes. ¿Qué instrumento del MRAE usted debe presentar?",
+      "opciones": [
+        "a) El Plan de Seguridad Digital (SGSI).",
+        "b) El Dominio de Información, demostrando que existe una definición de 'Dato Maestro' y un control de calidad que evita la duplicidad y asegura la Integridad de la Historia Académica.",
+        "c) El Manual de Funciones del Coordinador de Sistemas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Acreditación y Dominio de Información: La unicidad del dato (que no haya dos registros para la misma persona) es una métrica de **Calidad y Trazabilidad** esencial para la Acreditación. Esto se gestiona en el Dominio de Información a través de la definición de Datos Maestros y controles de Integridad."
+    },
+    {
+      "codigo": "INST-13",
+      "pregunta": "Usted está a cargo de coordinar el PETI. La I.U. recibe una subvención para un proyecto de investigación que requiere la compra de hardware de última generación (Gasto de Inversión) no contemplado en el PETI original. ¿Cómo incorpora esta nueva prioridad?",
+      "opciones": [
+        "a) Ejecutar la compra inmediatamente con el dinero de la subvención, ya que es un recurso externo.",
+        "b) Gestionar la inclusión del proyecto en el Portafolio del PETI como un 'Proyecto Forzado' e incorporarlo al POAI mediante un trámite presupuestal de Adición de Recursos, manteniendo la trazabilidad y la gobernanza.",
+        "c) Documentar el hardware como 'Inventario Externo' para evitar la burocracia del PETI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gobernanza y Presupuesto: Todo gasto de inversión debe estar en el PETI para fines de planeación y control (MIPG), incluso si el recurso es externo. La B asegura la trazabilidad, la Integridad del PETI y el control financiero."
+    },
+    {
+      "codigo": "INST-14",
+      "pregunta": "La Dirección de Planeación pide una justificación para reemplazar el Firewall institucional. Usted propone la compra de uno de última generación. ¿Cuál es la justificación de riesgo más fuerte para el Comité?",
+      "opciones": [
+        "a) El Firewall actual tiene más de 7 años y está obsoleto.",
+        "b) El Firewall actual no soporta los controles avanzados de filtrado de Capa 7, lo que aumenta el Riesgo Residual de Ciberseguridad Institucional y compromete el MSPI (Modelo de Seguridad y Privacidad de la Información).",
+        "c) El Firewall actual es muy lento y no soporta el ancho de banda del nuevo enlace de Internet."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gobierno de Riesgos y MSPI: La obsolescencia (A) o el rendimiento (C) son secundarios al riesgo de seguridad. La justificación de TI es más fuerte cuando se liga directamente a la violación de un control normativo (MSPI) y al aumento del riesgo de ataque (Confidencialidad)."
+    },
+    {
+      "codigo": "INST-15",
+      "pregunta": "Usted debe coordinar un proyecto de 'Digitalización del Expediente Académico'. La Dirección de Archivo tiene serias dudas sobre la validez legal del expediente digital. ¿Cuál es el documento que usted debe consultar para asegurar la Integridad legal del proyecto?",
+      "opciones": [
+        "a) La ISO 27001 (Seguridad de la Información).",
+        "b) La Ley 527 de 1999 (Comercio Electrónico) y la Ley General de Archivo (Ley 594 de 2000), para asegurar la validez de la firma digital y la preservación del documento electrónico.",
+        "c) La Ley 1712 de 2014 (Transparencia)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad Legal del Documento: El cambio de formato (papel a digital) es legalmente complejo. La validez legal se rige por la Ley 527 (equivalencia funcional del documento electrónico) y la Ley 594 (preservación y disposición documental), no solo por seguridad."
+    },
+
+{
+      "codigo": "INST-16",
+      "pregunta": "La I.U. Pascual Bravo renueva su Acreditación de Alta Calidad. El Vicerrector Académico quiere usar una base de datos externa no autorizada para comparar las notas de los estudiantes con las de otras IES. ¿Qué riesgo institucional debe usted, desde la Dirección de Planeación, advertir al Comité de Gestión y Desempeño?",
+      "opciones": [
+        "a) Riesgo de Ineficiencia, porque el proceso de comparación tomará más tiempo que el planeado.",
+        "b) Riesgo de incumplimiento del MSPI (Modelo de Seguridad y Privacidad de la Información) y la Ley 1581, al comprometer la Confidencialidad y la Trazabilidad del dato personal en una fuente no autorizada.",
+        "c) Riesgo de falta de alineación con el Dominio de Sistemas del MRAE, por no usar una API de interoperabilidad de MinTIC"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El uso de fuentes externas no autorizadas para datos personales (especialmente académicos) viola el principio de Confidencialidad y el MSPI. El riesgo de cumplimiento legal (sanción SIC) es superior al riesgo operativo o de eficiencia."
+    },
+    {
+      "codigo": "INST-17",
+      "pregunta": "Usted presenta un proyecto de 'Renovación de Laboratorios de Ingeniería' en el PETI. La Dirección de Planeación le exige justificar el impacto en la Acreditación. ¿Cuál es el factor más relevante para la justificación?",
+      "opciones": [
+        "a) La reducción del tiempo de inactividad por fallas de hardware (Disponibilidad).",
+        "b) La contribución directa a la calidad del 'Recurso Físico y Tecnológico' de los programas, lo cual es un factor explícito de evaluación de la Acreditación de Alta Calidad (Factor 7).",
+        "c) El bajo costo de mantenimiento de los nuevos equipos frente a los antiguos"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los pares académicos evalúan factores específicos. El factor de Acreditación sobre Recurso Físico es el argumento más fuerte. La inversión en TI debe estar ligada a la mejora de este factor para el reporte al MEN."
+    },
+    {
+      "codigo": "INST-18",
+      "pregunta": "El Director de Bienestar Universitario solicita que el equipo de TI priorice un proyecto de 'Red Social Interna' sobre el proyecto de 'Saneamiento de Datos Maestros', argumentando que la 'interacción con el estudiante' es vital. ¿Qué decisión debe prevalecer, alineada con la Dirección de Planeación?",
+      "opciones": [
+        "a) La Red Social, porque mejora la comunicación institucional (Dominio de Uso y Apropiación).",
+        "b) El Saneamiento de Datos, porque la Integridad y Calidad del Dato Maestro son el fundamento de todos los sistemas y la Trazabilidad de la Acreditación (Dominio de Información).",
+        "c) La Red Social, siempre y cuando se demuestre un impacto en el POAI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El MIPG exige priorizar la base. La Calidad del Dato (Integridad) es esencial para el Gobierno de TI (MRAE, Dominio de Información). Un sistema de comunicación es secundario a la base de datos maestra. No se puede construir sobre datos de mala calidad."
+    },
+    {
+      "codigo": "INST-19",
+      "pregunta": "Usted está supervisando la implementación de una API para interoperabilidad con el DANE. La API está funcional, pero el contratista usó un estándar de comunicación propietario en lugar del REST/JSON exigido por MinTIC. ¿Qué debe exigir para el recibido a satisfacción?",
+      "opciones": [
+        "a) Aceptar la API y documentar el estándar propietario, ya que es funcional y cumple el objeto contractual.",
+        "b) Rechazar la API hasta que se ajuste al estándar REST/JSON de MinTIC, ya que la Interoperabilidad y la estandarización son mandatos obligatorios de la Política de Gobierno Digital (MRAE) y condición de sostenibilidad.",
+        "c) Aceptar la API si el contratista reduce el costo total del contrato en un 10%"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Interoperabilidad Obligatoria: La opción B prioriza el cumplimiento del mandato MinTIC. El uso de estándares propietarios genera 'Vendor Lock-in' y viola el MRAE, lo que anula la sostenibilidad a largo plazo y la posibilidad de integración futura con otros sistemas del Estado."
+    },
+    {
+      "codigo": "INST-20",
+      "pregunta": "El PETI incluye un proyecto de DRP (Plan de Recuperación ante Desastres) para el Data Center. La Acreditación de Alta Calidad exige este plan. ¿Cuál es el factor crítico que usted debe incluir en el DRP para garantizar la Disponibilidad y la Acreditación?",
+      "opciones": [
+        "a) La definición de la Estrategia de Retiro de los equipos obsoletos.",
+        "b) La definición de los RTO (Tiempo Objetivo de Recuperación) y RPO (Punto Objetivo de Recuperación) para los sistemas misionales (TPS académicos, financieros), ligados a las metas de Continuidad del Negocio.",
+        "c) El costo de las nuevas licencias de software antivirus y firewall"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "DRP/Acreditación: La Acreditación exige la Continuidad del Servicio. Los RTO y RPO son las métricas críticas del DRP que demuestran la capacidad de la I.U. para levantarse tras un desastre, garantizando la Disponibilidad de los sistemas misionales."
+    },
+    {
+      "codigo": "INST-21",
+      "pregunta": "El Comité de Gestión y Desempeño le ordena reducir los costos de inversión del PETI en un 15% para el próximo año. Usted identifica que el 15% se puede ahorrar eliminando el proyecto de 'Auditoría Externa de Seguridad'. ¿Cuál es el riesgo de la Acreditación que se materializa?",
+      "opciones": [
+        "a) Riesgo de Ineficiencia del Gasto por no auditar los procesos de contratación.",
+        "b) Riesgo de Incumplimiento del SGSI/MSPI, pues la auditoría independiente es un control obligatorio para el Monitoreo (MEA) que demuestra objetivamente la efectividad de los controles de Acreditación.",
+        "c) Riesgo de que el personal de TI no se capacite en nuevas tecnologías"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "SGSI y Auditoría: La auditoría de seguridad es un control obligatorio y un requisito de gobernanza. Eliminarla es eliminar la Tercera Línea de Defensa, lo cual es una falla en el factor de Gestión de la Calidad (MIPG) que afecta la Acreditación."
+    },
+    {
+      "codigo": "INST-22",
+      "pregunta": "La I.U. contrata un sistema de información que requiere el procesamiento de datos personales en el extranjero. El contrato no incluye cláusulas de protección de datos. ¿Qué función de Planeación y Aseguramiento de la Calidad fue omitida?",
+      "opciones": [
+        "a) El Análisis de Viabilidad Técnica del proyecto.",
+        "b) La verificación del cumplimiento legal (Ley 1581) en la fase precontractual, asegurando que el contrato incluyera las 'Cláusulas Contractuales Tipo' para transferencia internacional de datos.",
+        "c) La revisión del TCO (Costo Total de Propiedad) del sistema"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Aseguramiento de la Calidad/Legalidad: La verificación del cumplimiento legal es un requisito de calidad en la fase de Planeación (MGA/MIPG). La omisión de las cláusulas de Ley 1581 en el contrato genera un riesgo legal inmediato de sanción por la SIC."
+    },
+    {
+      "codigo": "INST-23",
+      "pregunta": "El Rector le pide a usted, en la Dirección de Planeación, que justifique la continuidad del gasto de internet (Gasto de Funcionamiento) en el marco del PETI (Inversión). ¿Cuál es la justificación válida?",
+      "opciones": [
+        "a) El internet es un servicio público y por lo tanto es necesario para la I.U.",
+        "b) El gasto de Funcionamiento se justifica porque soporta la Disponibilidad continua de los Sistemas Misionales (TPS/LMS) que son esenciales para la Acreditación y la misión educativa (Integración PETI/POAI).",
+        "c) El internet es necesario para el trabajo del personal administrativo"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Alineación Funcionamiento-Misión: Aunque es gasto de funcionamiento, la justificación estratégica es que ese gasto es la base de la Disponibilidad. Debe ligarse al factor crítico de la Acreditación (Continuidad del Servicio Misional)."
+    },
+    {
+      "codigo": "INST-24",
+      "pregunta": "Usted está supervisando la adquisición de un sistema ERP. El contratista propone instalarlo en una tecnología que requiere personal especializado de un único proveedor en el país. ¿Qué riesgo institucional se está creando, y qué debe usted exigir?",
+      "opciones": [
+        "a) Riesgo de Ineficiencia, ya que la tecnología es muy nueva y costosa.",
+        "b) Riesgo de 'Vendor Lock-in' (Dependencia Exclusiva). Se debe exigir la Transferencia de Conocimiento completa y la documentación de arquitectura, para que la I.U. pueda asumir el soporte con personal propio o con múltiples proveedores.",
+        "c) Riesgo de Inundación de la red, por la nueva tecnología"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo de Dependencia: El 'Vendor Lock-in' es un riesgo sistémico en el sector público. La solución es exigir la Transferencia de Conocimiento y Documentación para garantizar la sostenibilidad y evitar la dependencia forzada de un único proveedor."
+    },
+    {
+      "codigo": "INST-25",
+      "pregunta": "La I.U. tiene un MSSP (Proveedor de Servicios de Seguridad Gestionados) contratado. El MSSP reporta una vulnerabilidad crítica, pero su contrato no incluye el servicio de 'Hotfix' (parcheo urgente). ¿Cuál es la falla de planeación inicial?",
+      "opciones": [
+        "a) Falló el Dominio de Estrategia de TI, por no priorizar la seguridad.",
+        "b) Falló la fase de 'Preparación y Evaluación' del PETI. El pliego de condiciones de la contratación no alineó el control de Detección (MSSP) con el control de Respuesta (Hotfix), dejando una brecha en la Cadena de Valor de la Seguridad.",
+        "c) Falló el Dominio de Uso y Apropiación por falta de capacitación del MSSP"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Contratos y Riesgos: La brecha es que el control de detección (MSSP) está separado del control de respuesta (remediación). La planeación debe asegurar que la contratación cubra la solución completa (detección + respuesta) para mitigar el riesgo."
+    },
+    {
+      "codigo": "INST-26",
+      "pregunta": "Usted debe coordinar un proyecto de 'Digitalización del Archivo Histórico'. ¿Qué documento legal debe guiar la decisión sobre la disposición final (eliminación o conservación) de los documentos físicos originales?",
+      "opciones": [
+        "a) La Ley 1712 de 2014 (Transparencia).",
+        "b) La Ley 594 de 2000 (Ley General de Archivo) y las Tablas de Retención Documental (TRD) de la I.U.",
+        "c) La ISO 27001 (Seguridad) para garantizar el cifrado del archivo digital"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad Legal: El ciclo de vida de los documentos (incluida la digitalización y eliminación de los originales) se rige estrictamente por la Ley de Archivo. Las TRD definen la validez y el tiempo de retención legal, que prima sobre cualquier decisión de TI."
+    },
+    {
+      "codigo": "INST-27",
+      "pregunta": "El Vicerrector de Investigaciones solicita acceso de administrador al servidor de correo institucional para realizar un 'análisis de productividad' a los correos de los docentes. ¿Qué debe usted, desde la óptica del MSPI, exigir?",
+      "opciones": [
+        "a) Otorgar el acceso, ya que la productividad es un factor de Acreditación.",
+        "b) Negar el acceso. Proponer la entrega de un reporte agregado y anonimizado, ya que la Intrusión en la comunicación individual viola el pilar de la Privacidad (Ley 1581) y la Confidencialidad de la comunicación (Dominio de Información).",
+        "c) Otorgar el acceso, pero solo si el CISO aprueba el análisis"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Privacidad y Confidencialidad: El acceso a la comunicación individual de los empleados es una violación grave a la Ley 1581. La opción B protege los derechos fundamentales y ofrece la información necesaria de forma agregada."
+    },
+    {
+      "codigo": "INST-28",
+      "pregunta": "La I.U. Pascual Bravo tiene una licencia de software obsoleta, pero sigue usando el sistema legado porque reemplazarlo es muy costoso. ¿Cómo debe usted, desde la Dirección de Planeación, incluir esta situación en el Tablero de Control del PETI?",
+      "opciones": [
+        "a) No incluirlo, porque el sistema está obsoleto y no es una inversión activa.",
+        "b) Incluirlo en el Portafolio de Aplicaciones como 'Riesgo Crítico No Mitigado', con el costo de inversión para su reemplazo y el riesgo financiero/legal asociado a su falla (Deuda Técnica).",
+        "c) Incluirlo como un éxito de la gestión de soporte, ya que el sistema sigue funcionando"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Portafolio y Riesgo: La Deuda Técnica debe ser visible para el Gobierno (Comité/Rector). El sistema es un riesgo de Disponibilidad/Seguridad activo que debe ser cuantificado en el Tablero de Control para justificar la futura inversión."
+    },
+    {
+      "codigo": "INST-29",
+      "pregunta": "Usted está evaluando la justificación de un proyecto de 'Instalación de Fibra Óptica' para laboratorios. El factor más débil del proyecto es la falta de documentación de arquitectura. ¿Qué exige el Dominio de Servicios Tecnológicos (MRAE) para aprobar la inversión?",
+      "opciones": [
+        "a) Que se garantice la certificación de la fibra (TIA 568), sin importar la documentación.",
+        "b) Que se incluya una fase obligatoria en el contrato para la documentación de arquitectura (TIA 606) y la actualización del Inventario de Activos (MRAE), garantizando la Trazabilidad y el control futuro.",
+        "c) Que el costo de la fibra sea inferior a $50M"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Dominio de Servicios Tecnológicos: La infraestructura debe ser sostenible. La documentación (TIA 606) es un requisito del MRAE que asegura la Trazabilidad y el mantenimiento futuro. Sin ella, la inversión no está blindada para la auditoría y genera riesgo de Disponibilidad."
+    },
+    {
+      "codigo": "INST-30",
+      "pregunta": "El PEI establece la meta de 'Fortalecer la vinculación con la industria 4.0'. ¿Cuál es el proyecto de TI más alineado con esta meta que debe priorizar el PETI?",
+      "opciones": [
+        "a) Un proyecto de teletrabajo para los funcionarios administrativos.",
+        "b) Un proyecto de implementación de laboratorios virtuales de realidad aumentada o plataformas de simulación industrial avanzada, que apoyen la formación tecnológica pertinente para el sector productivo.",
+        "c) Un proyecto de compra de computadores personales para todos los docentes"
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Alineación Misional: La misión de la I.U. Pascual Bravo es la formación tecnológica para la industria. Los proyectos de TI deben reflejar esta misión con tecnología de punta (simulación, RA) que impacte directamente la calidad de la educación en el sector productivo."
+    },
+
+
+    {
+      "codigo": "INST-01",
+      "pregunta": "Un proyecto TIC propone virtualizar laboratorios técnicos. Para que este proyecto esté alineado a la misión de la I.U. Pascual Bravo, ¿qué elemento debe ser prioritario?",
+      "opciones": [
+        "a) Fortalecer la formación tecnológica y ampliar cobertura regional.",
+        "b) Reducir costos operativos.",
+        "c) Mejorar la velocidad de internet en laboratorios."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La decisión correcta es la que potencia la formación tecnológica y el impacto territorial, núcleo de la misión institucional."
+    },
+    {
+      "codigo": "INST-02",
+      "pregunta": "Se plantea invertir en un nuevo sistema de gestión de becas. ¿Quién debe liderar la articulación para garantizar alineación con el PEI y los objetivos financieros?",
+      "opciones": [
+        "a) Dirección de Planeación en conjunto con área financiera y Comité de Gestión.",
+        "b) Rectoría directamente.",
+        "c) Área TIC de forma autónoma."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación es el área responsable de garantizar alineación estratégica y coordinación financiera en proyectos institucionales."
+    },
+    {
+      "codigo": "INST-03",
+      "pregunta": "Durante la autoevaluación para la acreditación de alta calidad, el auditor verifica la operación de los backups y el plan DRP. ¿Por qué esto es relevante?",
+      "opciones": [
+        "a) Garantiza la disponibilidad y recuperación de información crítica ante incidentes, evidencia clave para acreditación.",
+        "b) Solo demuestra cumplimiento técnico.",
+        "c) Es un requisito de Ley TIC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La acreditación exige evidencia de gestión segura y continua de los datos clave para sustentar excelencia académica y administrativa."
+    },
+    {
+      "codigo": "INST-04",
+      "pregunta": "El área TIC sugiere implementar una herramienta avanzada de analítica institucional. ¿Cuál valor estratégico debe reportarse para justificar la inversión ante el Comité de Gestión?",
+      "opciones": [
+        "a) Mejor toma de decisiones alineada al PEI y seguimiento al impacto regional.",
+        "b) Únicamente el potencial innovador de la herramienta.",
+        "c) Reducción de carga en reportes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La justificación debe ser estratégica y alineada al PEI y misión, mostrando valor público y territorial."
+    },
+    {
+      "codigo": "INST-05",
+      "pregunta": "En la propuesta de un nuevo sistema SGSI, ¿quién debe ser responsable del seguimiento y control durante la implementación?",
+      "opciones": [
+        "a) Dirección de Planeación y Aseguramiento de la Calidad, en articulación con Comité de Gestión.",
+        "b) Jefe TIC en solitario.",
+        "c) Área académica sin soporte externo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión y seguimiento institucional de proyectos que impactan calidad corresponde a Planeación y Comité de Gobierno/Calidad."
+    },
+    {
+      "codigo": "INST-06",
+      "pregunta": "Un actor clave solicita aprobación de un cambio relevante en el PETI sin análisis de impacto en acreditación. ¿Cuál es el paso procedimental correcto?",
+      "opciones": [
+        "a) Remitir a Planeación para análisis integral, incluyendo impacto en alta calidad.",
+        "b) Aprobar el cambio por urgencia.",
+        "c) Ejecutar sólo si el área TIC lo respalda."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación debe analizar el impacto completo, especialmente frente a acreditación y alineación estratégica."
+    },
+    {
+      "codigo": "INST-07",
+      "pregunta": "Para justificar la compra de nueva infraestructura de red, ¿qué conexión debe hacerse entre el proyecto y la misión institucional?",
+      "opciones": [
+        "a) Evidenciar cómo la inversión soporta el fortalecimiento tecnológico y mejora la experiencia formativa.",
+        "b) Enfocarse solo en el reemplazo de equipamiento obsoleto.",
+        "c) Puntualizar la oportunidad de licitación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La prioridad siempre es que la inversión tecnológica impulse la misión y los resultados académicos e industriales."
+    },
+    {
+      "codigo": "INST-08",
+      "pregunta": "Un desfase importante entre los datos de matrícula del sistema y los reportes manuales se detecta en auditoría. ¿Por qué es crítico solucionarlo?",
+      "opciones": [
+        "a) Para asegurar trazabilidad y calidad informativa clave en acreditación y planeación.",
+        "b) Solo por requerimientos de Ley.",
+        "c) Porque afecta los ingresos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La trazabilidad y la calidad de la información es base para decisiones estratégicas y procesos de acreditación."
+    },
+    {
+      "codigo": "INST-09",
+      "pregunta": "La Dirección de Planeación recibe reporte de bajo uso de plataformas virtuales de aprendizaje. ¿Qué enfoque estratégico debe asumir?",
+      "opciones": [
+        "a) Diagnosticar causas y coordinar acciones con académica y TIC para aumentar pertinencia y uso, alineado al PEI.",
+        "b) Solicitar mejora al área TIC únicamente.",
+        "c) Implementar campaña de difusión sin análisis adicional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La solución debe articularse entre Planeación, Académica y TIC, asegurando el aporte real de la plataforma a la misión institucional."
+    },
+    {
+      "codigo": "INST-10",
+      "pregunta": "Para seleccionar proveedores de soluciones TI en la I.U., ¿qué criterio debe primar?",
+      "opciones": [
+        "a) Alineación con la misión, el PEI y los requisitos de acreditación de alta calidad.",
+        "b) Precio más bajo exclusivamente.",
+        "c) Disponibilidad inmediata."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las decisiones deben estar sustentadas en el impacto estratégico y normativo, no solo en elementos operativos o financieros."
+    },
+    {
+      "codigo": "INST-11",
+      "pregunta": "Un proyecto innovador requiere financiamiento y se debate entre varias fuentes. ¿Quién lidera el análisis para definir la mejor opción?",
+      "opciones": [
+        "a) Dirección de Planeación, con soporte financiero y Comité de Gestión.",
+        "b) Gerencia Administrativa individualmente.",
+        "c) Área TIC en consulta con usuarios."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación y Comité son responsables de analizar y decidir financiamiento alineado al proyecto institucional y misional."
+    },
+    {
+      "codigo": "INST-12",
+      "pregunta": "En la autoevaluación para acreditación, se observa deficiencia en los mecanismos de trazabilidad de datos de egresados. ¿Qué área debe priorizar la mejora y por qué?",
+      "opciones": [
+        "a) Planeación, asegurando mecanismos de seguimiento y calidad de información como soporte para acreditación.",
+        "b) Área TIC por ser los gestores técnicos.",
+        "c) Comité Ético."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación debe liderar el aseguramiento de la calidad y trazabilidad informacional relevante para acreditación."
+    },
+    {
+      "codigo": "INST-13",
+      "pregunta": "El Comité de Gestión solicita reporte de resultados tecnológicos. ¿Qué tipo de indicador debe priorizarse?",
+      "opciones": [
+        "a) Indicadores de impacto y valor público en formación tecnológica y regional.",
+        "b) Número de tickets atendidos en mesa de ayuda.",
+        "c) Uso de licencias."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La prioridad es demostrar cómo los proyectos impulsan la misión universitaria y contribuyen al impacto territorial."
+    },
+    {
+      "codigo": "INST-14",
+      "pregunta": "En revisión de acreditación, se exige cómo la infraestructura TI soporta el aprendizaje activo y la investigación. ¿Qué evidencia debe presentar Planeación?",
+      "opciones": [
+        "a) Datos sobre acceso, calidad, pertinencia y resultados en plataformas, laboratorios y virtualización.",
+        "b) Listado de hardware y compras recientes.",
+        "c) Registro de inventario TIC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La acreditación se sustenta en cómo la tecnología impulsa resultados académicos y de investigación, no sólo en inventario físico."
+    },
+    {
+      "codigo": "INST-15",
+      "pregunta": "Un hallazgo apunta a que el PETI no está articulado con el PEI ni reporta avances a entes regionales. ¿Cómo corregir?",
+      "opciones": [
+        "a) Revisar y ajustar el PETI, estableciendo indicadores y reportes vinculados a metas, contexto y acreditación regional.",
+        "b) Delegar los informes al área TIC.",
+        "c) Esperar la próxima actualización de los planes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La corrección requiere alineación estratégica formal y trazabilidad hacia todos los actores relevantes."
+    },
+
+    {
+      "codigo": "INST-16",
+      "pregunta": "El área TIC propone usar servidores en la nube internacional para mejorar desempeño, pero hay requisitos de protección de datos y trazabilidad en acreditación. ¿Quién debe liderar el análisis jurídico y estratégico?",
+      "opciones": [
+        "a) Planeación en coordinación con Jurídica y TIC, validando alineación normativa y misional.",
+        "b) Área TIC exclusivamente.",
+        "c) Comité de Ética Académica."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La decisión requiere análisis multidisciplinario liderado por Planeación, con validación jurídica e impacto estratégico y reputacional."
+    },
+    {
+      "codigo": "INST-17",
+      "pregunta": "Durante la actualización de plataformas académicas, se detecta que la información de usuarios no cuenta con políticas claras de respaldo ni borrado seguro. ¿Qué área debe liderar la respuesta?",
+      "opciones": [
+        "a) Dirección de Planeación y Calidad, coordinando acciones con TIC para cumplir Ley 1581/acreditación.",
+        "b) Solo TIC como responsables técnicos.",
+        "c) Biblioteca Institucional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación debe garantizar cumplimiento de normativas y calidad de políticas de protección de datos relevantes para acreditación."
+    },
+    {
+      "codigo": "INST-18",
+      "pregunta": "Un proyecto para modernizar laboratorios tecnológicos solicita recursos extraordinarios. ¿Qué área debe validar que la inversión aporte a la misión y acreditación?",
+      "opciones": [
+        "a) Planeación y el Comité de Gestión en articulación con Académica.",
+        "b) Decanatura de cada programa.",
+        "c) TIC con soporte presupuestal."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La inversión estratégica debe ser justificada y alineada a la misión y criterios acreditadores desde Planeación y Gobierno."
+    },
+    {
+      "codigo": "INST-19",
+      "pregunta": "En un reporte de resultados TIC, se enfatiza el cumplimiento de metas operativas pero no el impacto académico ni territorial. ¿Qué debe corregir Planeación?",
+      "opciones": [
+        "a) Focalizar los indicadores en beneficios educativos, empleabilidad y contribución regional.",
+        "b) Ajustar los informes solo por demanda interna.",
+        "c) Mantener enfoque técnico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La dirección estratégica exige evidenciar el aporte a resultados misionales y valor público, no solo logros operativos."
+    },
+    {
+      "codigo": "INST-20",
+      "pregunta": "El Comité de Gestión pide justificar una app móvil institucional. ¿Qué argumento estratégico debe priorizarse para alineación con la misión?",
+      "opciones": [
+        "a) Mejorar el acceso a formación y servicios institucionales, ampliando inclusión y pertinencia.",
+        "b) Modernizar la imagen institucional.",
+        "c) Seguir tendencias tecnológicas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La justificación clave es el incremento del acceso y la pertinencia formativa para la comunidad regional."
+    },
+    {
+      "codigo": "INST-21",
+      "pregunta": "La acreditación exige garantía de continuidad de datos y servicios críticos. ¿Qué proyecto TIC debe priorizarse por Planeación?",
+      "opciones": [
+        "a) Implementación-actualización del BCP/DRP y respaldo estructurado.",
+        "b) Compra de nuevos equipos de usuario.",
+        "c) Actualización de manuales de usuario."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Sin continuidad, toda gestión académica y administrativa está en riesgo, lo que impacta la acreditación institucional."
+    },
+    {
+      "codigo": "INST-22",
+      "pregunta": "El área TIC solicita aprobar la baja de equipos sin concepto técnico ni acta formal. ¿Cómo debe proceder Planeación?",
+      "opciones": [
+        "a) Exigir informe técnico, acto administrativo y trazabilidad de todo movimiento de activos conforme normas y acreditación.",
+        "b) Autorizar la baja si los equipos están obsoletos.",
+        "c) Dejar la responsabilidad solo en TIC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La administración de activos exige documentación respaldatoria, necesaria para control y procesos de auditoría/acreditación."
+    },
+    {
+      "codigo": "INST-23",
+      "pregunta": "Para una licitación TIC, ¿quién debe definir los criterios de evaluación alineados a calidad y misión?",
+      "opciones": [
+        "a) Planeación, integrando académica, TIC y gobierno institucional.",
+        "b) Solo TIC.",
+        "c) Proveedores externos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La definición de criterios debe ser integral, técnica y estratégica, para sustentar la relevancia institucional y acreditadora."
+    },
+    {
+      "codigo": "INST-24",
+      "pregunta": "Se requiere un sistema SGSI para evidenciar cumplimiento en protección de datos y trazabilidad informática. ¿Quién debe aprobar el presupuesto y validar impacto estratégico?",
+      "opciones": [
+        "a) Comité Directivo junto a Planeación.",
+        "b) Gerencia Administrativa únicamente.",
+        "c) Área TIC."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La aprobación presupuestal estratégica corresponde al Comité/Gobierno, supervisado y asesorado por Planeación."
+    },
+    {
+      "codigo": "INST-25",
+      "pregunta": "Usuarios reportan dificultad en la consulta y trazabilidad de calificaciones históricas en el portal. ¿Qué área debe liderar el mejoramiento?",
+      "opciones": [
+        "a) Planeación, coordinando acciones con TIC y académica.",
+        "b) Solo TIC.",
+        "c) Comité de Ética."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La trazabilidad informacional relevante para acreditación y gestión de calidad debe ser liderada por Planeación con apoyo transversal."
+    },
+    {
+      "codigo": "INST-26",
+      "pregunta": "En revisión de PETI, se observa falta de monitoreo a indicadores de impacto regional. ¿Cómo corrige Planeación?",
+      "opciones": [
+        "a) Actualiza tablero de control incorporando indicadores de pertinencia y aporte territorial.",
+        "b) Delegar monitoreo a TIC.",
+        "c) Esperar el próximo ciclo de revisión."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El monitoreo de impacto en la región es evidencia de aporte institucional, requisito en acreditación y planes de mejora."
+    },
+    {
+      "codigo": "INST-27",
+      "pregunta": "Para sostener la acreditación, se requiere evidenciar uso efectivo de plataformas virtuales en procesos curriculares. ¿Qué parámetro debe priorizar Planeación?",
+      "opciones": [
+        "a) Niveles de uso real, satisfacción de usuarios y resultados en aprendizaje.",
+        "b) Cantidad de plataformas instaladas.",
+        "c) Costos operativos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La acreditación valora resultados, apropiación y efectividad, no solo cantidad de sistemas."
+    },
+    {
+      "codigo": "INST-28",
+      "pregunta": "Usuarios advierten brechas en protección de datos y políticas de privacidad en los sistemas institucionales. ¿Quién lidera la respuesta coordinada?",
+      "opciones": [
+        "a) Planeación, junto a Jurídica y TIC, asegurando alineación normativa y acreditadora.",
+        "b) TIC en solitario.",
+        "c) Consultorio Jurídico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La protección de datos exige respuesta transversal desde planeación, garantizando cumplimiento normativo y calidad."
+    },
+    {
+      "codigo": "INST-29",
+      "pregunta": "El informe de acreditación solicita demostrar que la infraestructura TIC soporta investigación aplicada. ¿Qué evidencia debe presentar Planeación?",
+      "opciones": [
+        "a) Estadísticas de uso de laboratorios, acceso a plataformas especializadas y resultados de proyectos apoyados por TIC.",
+        "b) Inventario de hardware en bodega.",
+        "c) Informe de costos de mantenimiento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La evidencia clave es cómo la infraestructura impulsa la investigación, no sólo la existencia física de equipos."
+    },
+    {
+      "codigo": "INST-30",
+      "pregunta": "Un plan de mejora para acreditación propone mayor automatización de procesos misionales. ¿Quién debe liderar la articulación y seguimiento?",
+      "opciones": [
+        "a) Planeación, vinculando actores estratégicos y evaluando impacto.",
+        "b) Área TIC autónoma.",
+        "c) Comité disciplinario."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Planeación articula actores y gestiona la mejora continua vinculada a resultados estratégicos y la acreditación."
+    },
+
+    {
+      "codigo": "INST-01",
+      "pregunta": "Usted, como profesional especializado en la Dirección de Planeación, participa en la priorización anual de proyectos TI. Un decano propone comprar un sistema de reserva de salones con diseño muy atractivo pero sin integración con los sistemas académicos. Al mismo tiempo, la Oficina de Tecnología solicita recursos para fortalecer la plataforma académica y el sistema de gestión de laboratorios, argumentando que son críticos para la formación tecnológica y los indicadores de acreditación. El presupuesto solo alcanza para una de las dos iniciativas. ¿Cuál decisión se alinea mejor con la misión institucional y el PEI de la Institución Universitaria Pascual Bravo?",
+      "opciones": [
+        "a) Priorizar el sistema de reservas estéticamente moderno, porque mejora la percepción de los estudiantes sobre la tecnología usada en la institución, aunque no tenga integración con los sistemas misionales.",
+        "b) Priorizar el fortalecimiento de la plataforma académica y los sistemas asociados a laboratorios, porque soportan directamente la formación tecnológica, la relación con la industria y los indicadores de calidad académica que exige la acreditación.",
+        "c) Dividir el presupuesto entre ambos proyectos para mostrar equidad, aun cuando ninguno quede con recursos suficientes para implementarse plenamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La misión y el PEI de la I.U. Pascual Bravo priorizan la formación tecnológica y la respuesta a las necesidades productivas de Medellín y Antioquia. Los sistemas académicos y de laboratorio son parte del corazón misional y de los factores de calidad de la acreditación institucional. El sistema de reservas es útil, pero no tiene el mismo impacto misional ni de acreditación, por lo que la opción b es la decisión más alineada con el rol estratégico de Planeación."
+    },
+    {
+      "codigo": "INST-02",
+      "pregunta": "El rector le solicita verbalmente que prepare de inmediato los términos de referencia para contratar un nuevo sistema de gestión académica, porque vio una demostración comercial que le gustó. No existe todavía un proyecto formal en el PETI ni un análisis de impacto en el Plan de Desarrollo ni en la acreditación. Como profesional ubicado en Planeación, ¿cómo debería proceder?",
+      "opciones": [
+        "a) Elaborar de inmediato los términos de referencia basados en la demostración comercial, para aprovechar la voluntad del rector y acelerar la compra, dejando para después el ajuste del PETI.",
+        "b) Proponer al rector la formulación formal de un proyecto en el marco del PETI, con estudio de necesidades, análisis de impacto en el PEI, costos y riesgos, y tramitar su priorización ante el Comité de Gestión y Desempeño o el órgano de gobierno correspondiente antes de llegar a la contratación.",
+        "c) Remitir la solicitud directamente a Sistemas para que ellos negocien con el proveedor, aclarando que Planeación solo intervendrá cuando el contrato esté próximo a firmarse."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Desde Planeación, las decisiones de gran impacto TI deben pasar por el ciclo de planeación institucional: diagnóstico, formulación de proyecto, alineación con PEI y Plan de Desarrollo, y priorización en instancias como el Comité de Gestión y Desempeño o Consejo Directivo. Actuar solo por una demostración comercial desborda la función de Planeación y debilita el gobierno institucional; por ello la opción b es la correcta."
+    },
+    {
+      "codigo": "INST-03",
+      "pregunta": "En la revisión del avance del PETI, usted identifica que hay un proyecto de adquisición de tabletas para eventos institucionales que consume un porcentaje alto del presupuesto TI, mientras un proyecto para fortalecer el plan de continuidad y recuperación ante desastres (DRP) de los sistemas académicos ha sido aplazado. La institución está acreditada en alta calidad y se aproxima una visita de seguimiento. ¿Qué recomendación es más coherente con el valor de la acreditación institucional?",
+      "opciones": [
+        "a) Mantener la inversión en tabletas porque mejoran la imagen institucional en eventos y ferias, y postergar nuevamente el DRP ya que hasta ahora no ha habido desastres graves.",
+        "b) Recomendar reorientar recursos para priorizar el proyecto de DRP y continuidad de los sistemas misionales, resaltando que la disponibilidad y confiabilidad de los servicios académicos son un elemento clave para sostener la acreditación de alta calidad.",
+        "c) Sugerir recortar un poco el alcance de ambos proyectos sin cambiar prioridades, con el fin de mostrar que se está atendiendo tanto imagen institucional como continuidad de servicios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La acreditación de alta calidad exige evidencias de gestión sólida del riesgo y de la continuidad de los servicios misionales. Un DRP robusto para sistemas académicos y administrativos protege la trazabilidad de la información y la prestación del servicio educativo. Las tabletas son accesorias. Desde Planeación, la decisión más responsable es priorizar el proyecto de DRP, tal como plantea la opción b."
+    },
+    {
+      "codigo": "INST-04",
+      "pregunta": "En la Dirección de Planeación se discute la inclusión en el PETI de un proyecto para implementar un sistema de analítica de datos que integre información de matrícula, desempeño académico y empleabilidad de egresados, con el fin de apoyar decisiones sobre pertinencia de programas. Algunos jefes argumentan que esto es “un lujo de TI” y que es mejor comprar más equipos de oficina. ¿Cuál es la posición que mejor refleja la misión tecnológica e industrial de la I.U. Pascual Bravo?",
+      "opciones": [
+        "a) Apoyar la compra de equipos de oficina, porque tienen un impacto visible inmediato en los funcionarios, mientras que la analítica es una inversión cuyo beneficio es difícil de explicar.",
+        "b) Defender la analítica de datos como proyecto prioritario, porque permite evaluar pertinencia, calidad e impacto de los programas tecnológicos en el entorno productivo, apoyando decisiones estratégicas y la consolidación del carácter tecnológico de la institución.",
+        "c) Proponer dividir el presupuesto entre analítica y equipos de oficina sin considerar la contribución de cada uno al cumplimiento del PEI y la relación con la industria."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La misión y el PEI de Pascual Bravo ponen énfasis en la formación tecnológica pertinente y en la relación con el sector productivo. Un sistema de analítica que integre datos de matrícula, resultados académicos y empleabilidad es una herramienta clave para evidenciar pertinencia y ajustar la oferta académica, lo cual incide directamente en la calidad y la acreditación. La opción b se alinea con este enfoque estratégico."
+    },
+    {
+      "codigo": "INST-05",
+      "pregunta": "Como profesional de Planeación, se le pide conceptuar sobre un proyecto de TI que busca automatizar trámites internos de viáticos y permisos administrativos, mientras que otro proyecto compite por recursos para modernizar la infraestructura de los laboratorios de ingeniería, incluyendo sistemas de gestión y monitoreo de equipos. Ambos tienen buena formulación. ¿Qué criterio de priorización refleja mejor el PEI y la responsabilidad tecnológica de la institución?",
+      "opciones": [
+        "a) Priorizar el sistema de viáticos porque reduce tiempos administrativos internos, y dejar los laboratorios para un próximo periodo, ya que actualmente funcionan aunque con menor tecnología.",
+        "b) Priorizar la modernización de laboratorios y sus sistemas de gestión, porque soportan directamente los procesos de formación tecnológica, investigación aplicada y relación con la industria, esenciales en la misión y en la acreditación.",
+        "c) Recomendar aprobar primero el proyecto que tenga el menor costo, independientemente de su impacto misional, para no comprometer demasiados recursos en un solo frente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El PEI y la misión resaltan el carácter tecnológico y el compromiso con la formación en ingeniería y tecnología para el desarrollo regional. La modernización de laboratorios tiene un impacto directo en docencia, investigación y extensión. Aunque el sistema de viáticos es útil, su impacto misional es indirecto. Por eso la opción b representa la alineación correcta desde Planeación."
+    },
+    {
+      "codigo": "INST-06",
+      "pregunta": "El Comité Institucional de Gestión y Desempeño solicita un informe sobre el avance del PETI. La Oficina de Tecnología le pide que presente únicamente los logros técnicos (número de equipos renovados, enlaces de red instalados) y omita referencias a indicadores de calidad académica o de impacto en los procesos de autoevaluación, argumentando que eso es responsabilidad de las facultades. ¿Cuál debería ser su postura como profesional de Planeación?",
+      "opciones": [
+        "a) Aceptar presentar solo indicadores técnicos, porque los temas de calidad son propios de las facultades y del área académica, no de Planeación ni de TI.",
+        "b) Insistir en presentar el avance del PETI vinculado a indicadores de resultados académicos y de aseguramiento de la calidad (trazabilidad de información, soporte a autoevaluación, servicios al estudiante), mostrando cómo las inversiones TI contribuyen al cumplimiento del PEI y a la acreditación.",
+        "c) Dividir el informe en dos: uno técnico para el Comité y uno académico para otras instancias, sin relacionar ambos ámbitos para evitar discusiones complejas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Planeación debe articular inversiones TI con resultados estratégicos e institucionales. El Comité de Gestión y Desempeño no solo mira números de equipos, sino contribución a la misión, la calidad y el MIPG. La opción b reconoce que el PETI es un instrumento de direccionamiento estratégico, por lo que el informe debe conectar TI con resultados de calidad y acreditación."
+    },
+    {
+      "codigo": "INST-07",
+      "pregunta": "Un decano le solicita directamente a usted, como profesional en Planeación, que apruebe de manera inmediata la compra de licencias de software especializado para solo un programa académico, sin estudio de mercado ni análisis de uso en otros programas. Alega que si pasa por Comité o por el área financiera se demorará mucho y se perderá una oferta comercial. ¿Cuál es la respuesta institucionalmente correcta?",
+      "opciones": [
+        "a) Aprobar de inmediato la compra como Planeación, argumentando excepcionalidad por la oferta y luego informar a las demás áreas, para demostrar capacidad de reacción.",
+        "b) Explicar al decano que Planeación no adjudica ni aprueba compras, y que se debe formular el requerimiento como proyecto o ajuste al PETI, coordinando con el área financiera y la Oficina de Tecnología, y elevar la decisión a las instancias de gobierno competentes.",
+        "c) Recomendar al decano que compre el software con recursos del programa y después solicite el reembolso a Planeación, para no frenar la oportunidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El cargo en Planeación no tiene competencia para aprobar compras directas. Su rol es articular y formular proyectos alineados con el PEI, coordinar con finanzas y TI y llevar las decisiones a los comités de gobierno correspondientes. Saltarse estos pasos genera riesgo disciplinario y financiero. La opción b respeta la ubicación jerárquica y el Gobierno Universitario."
+    },
+    {
+      "codigo": "INST-08",
+      "pregunta": "En una reunión de seguimiento de acreditación, los pares académicos preguntan cómo la institución asegura la trazabilidad de la trayectoria del estudiante desde el ingreso hasta la graduación. La Oficina de Tecnología presenta detalles técnicos del servidor y la base de datos. Usted, desde Planeación, debe complementar la respuesta. ¿Qué enfoque agrega más valor al proceso de acreditación?",
+      "opciones": [
+        "a) Limitarse a repetir la descripción técnica presentada por TI, detallando discos, procesadores y respaldos, sin relacionarlo con procesos académicos.",
+        "b) Explicar cómo los sistemas de información académicos, de bienestar y de egresados se articulan para soportar los procesos de autoevaluación, seguimiento a graduados y toma de decisiones sobre calidad, evidenciando la coherencia con el PEI y los factores del modelo de acreditación.",
+        "c) Indicar que la trazabilidad es un tema puramente de TI y que Planeación no interviene en esa dimensión, para no duplicar información."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "En acreditación, lo importante no es solo la infraestructura, sino cómo los sistemas de información soportan los procesos misionales y de aseguramiento de la calidad. Planeación debe mostrar la articulación de los sistemas con el PEI y con la gestión de la calidad institucional. La opción b es la que conecta TI con el lenguaje de acreditación."
+    },
+    {
+      "codigo": "INST-09",
+      "pregunta": "Durante la formulación del PETI, un proyecto propone implementar un Sistema de Gestión de Seguridad de la Información (SGSI) alineado con MSPI, incluyendo controles para proteger datos de estudiantes y egresados. Otro proyecto propone desarrollar una app institucional de noticias y eventos con alto impacto comunicacional, pero sin impacto directo en procesos académicos o de calidad. El presupuesto solo alcanza para uno. Desde la perspectiva de acreditación y Gobierno Universitario, ¿qué proyecto debería ser priorizado?",
+      "opciones": [
+        "a) La app de noticias, porque mejora la visibilidad de la institución en el entorno y puede ser usada en campañas de mercadeo.",
+        "b) El SGSI alineado con MSPI, porque salvaguarda la confidencialidad, integridad y disponibilidad de la información académica y administrativa, protege a los estudiantes y refuerza la gestión del riesgo institucional, aspecto relevante para acreditación.",
+        "c) Ninguno de los dos, recomendando destinar los recursos a infraestructura física tradicional, ya que es más fácil de mostrar en las visitas de acreditación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La protección de la información y la gestión de riesgos son dimensiones cada vez más valoradas en la acreditación institucional. Un SGSI robusto soporta la continuidad de los procesos misionales y el respeto por los datos personales, mientras que una app de noticias tiene un impacto más cosmético. La opción b es más coherente con el enfoque de calidad y gobierno."
+    },
+    {
+      "codigo": "INST-10",
+      "pregunta": "La Alcaldía de Medellín invita a la I.U. Pascual Bravo a participar en un proyecto de ciudad inteligente que requiere compartir datos agregados de matrícula, programas tecnológicos y proyectos de innovación. Como profesional de Planeación, le piden conceptuar sobre el valor de este proyecto para el PETI. ¿Cuál argumento se alinea mejor con el PEI y el contexto regional?",
+      "opciones": [
+        "a) Señalar que compartir datos con la Alcaldía no tiene relación directa con la misión y que puede distraer recursos de los proyectos internos de TI, por lo que no debería incluirse en el PETI.",
+        "b) Destacar que la participación en iniciativas de ciudad inteligente fortalece el rol de la I.U. como actor tecnológico y de innovación, visibiliza sus programas y proyectos y refuerza su compromiso con el desarrollo de Medellín y Antioquia, siendo coherente con el PEI y el direccionamiento estratégico.",
+        "c) Recomendar participar solo si la Alcaldía financia completamente la infraestructura TI, sin considerar el alineamiento con la misión o el impacto en la calidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El PEI enfatiza el compromiso de Pascual Bravo con el desarrollo regional y su carácter tecnológico. Integrarse a proyectos de ciudad inteligente refuerza esta vocación y puede aportar información valiosa para planeación y calidad. La opción b articula esta participación con el rol misional y estratégico de la institución."
+    },
+    {
+      "codigo": "INST-11",
+      "pregunta": "En la revisión de indicadores de gestión, se identifica que algunos datos de deserción estudiantil y retención no coinciden entre distintos informes, porque cada dependencia usa su propia hoja de cálculo basada en exportaciones del sistema académico. Desde Planeación, se propone un proyecto para consolidar un repositorio único de datos institucionales y gobernanza de la información. Algunos jefes lo consideran innecesario. ¿Cuál es el argumento más fuerte para defender este proyecto ante el Consejo Directivo?",
+      "opciones": [
+        "a) Que el repositorio único facilita el trabajo de Planeación, aunque no tenga mayor impacto en otros procesos.",
+        "b) Que la existencia de una fuente única y confiable de datos institucionales es fundamental para tomar decisiones coherentes con el PEI, para demostrar resultados ante el Ministerio de Educación y para sostener la acreditación de alta calidad, reduciendo inconsistencias y riesgos en la rendición de cuentas.",
+        "c) Que el repositorio permitirá eliminar por completo el uso de hojas de cálculo en toda la institución, lo que debe ser el objetivo principal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La gobernanza de datos no es solo comodidad, sino un requisito para una gestión seria de la calidad y la rendición de cuentas. Un repositorio único soporta el SIAC, los informes a MEN y al CNA y la toma de decisiones alineada con el PEI. El argumento de la opción b integra estos elementos y es adecuado para un Consejo Directivo."
+    },
+    {
+      "codigo": "INST-12",
+      "pregunta": "En un comité interno, se plantea usar una solución gratuita de almacenamiento en la nube, sin contrato ni cláusulas de protección de datos, para guardar respaldos de bases de datos que contienen información académica y datos personales de estudiantes. Se argumenta que así se ahorra presupuesto y que la acreditación se centra más en calidad académica que en detalles técnicos de TI. Como profesional de Planeación, ¿qué postura debería asumir?",
+      "opciones": [
+        "a) Aceptar la solución gratuita porque reduce costos y la acreditación se puede sustentar con evidencias académicas, aunque exista algún riesgo en la nube.",
+        "b) Oponerse a la solución por no cumplir con lineamientos de seguridad y protección de datos personales, enfatizando que el tratamiento adecuado de la información es parte del aseguramiento de la calidad y del cumplimiento normativo, y promover alternativas contractuales alineadas con MSPI y Ley 1581.",
+        "c) Dejar la decisión completamente en manos de TI, indicando que Planeación solo se ocupa de indicadores académicos y financieros, no de dónde se almacenan los datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La forma como se protege y respalda la información institucional incide directamente en la calidad, la continuidad del servicio educativo y el cumplimiento de la normativa de protección de datos. Desde Planeación, aceptar soluciones informales que comprometen la seguridad va en contra del enfoque de alta calidad. La opción b reconoce esta relación y promueve una decisión alineada con la misión y las obligaciones legales."
+    },
+    {
+      "codigo": "INST-13",
+      "pregunta": "En la actualización del PETI, una facultad solicita un sistema especializado de diseño gráfico de alto costo para pocos usuarios, sin evidencias claras de impacto en currículos o en resultados de aprendizaje. Al mismo tiempo, se propone un proyecto de fortalecimiento de plataformas virtuales y recursos de aprendizaje en línea que beneficiaría a todas las facultades y soportaría la educación flexible. El presupuesto limita la aprobación a uno de los dos. Como profesional de Planeación, ¿qué recomendación es más coherente con el direccionamiento institucional?",
+      "opciones": [
+        "a) Priorizar el sistema de diseño gráfico por ser una demanda específica de una facultad, mostrando sensibilidad a sus necesidades puntuales.",
+        "b) Priorizar el fortalecimiento de plataformas virtuales y recursos digitales, ya que impactan transversalmente la experiencia formativa, la cobertura, la flexibilidad y la evidencia de innovación pedagógica, factores relevantes para el PEI y la acreditación.",
+        "c) Rechazar ambos proyectos hasta que se logre un consenso total entre las facultades, evitando tomar una decisión que favorezca a una sobre otra."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Las plataformas virtuales y recursos digitales son habilitadores transversales que mejoran la docencia, la flexibilidad y el acceso, y son valorados en los procesos de acreditación y en el enfoque tecnológico de la institución. Un sistema especializado para pocos usuarios puede ser útil, pero su impacto institucional es menor. La opción b se ajusta mejor al rol de Planeación en la priorización."
+    },
+    {
+      "codigo": "INST-14",
+      "pregunta": "La Dirección de Planeación recibe un requerimiento de la Oficina de Admisiones para desarrollar rápidamente una herramienta web independiente que permita registrar aspirantes en ferias y eventos externos, sin integración con el sistema de admisiones oficial ni con las bases de datos institucionales. Se justifica por su rapidez. Usted observa que podría generar duplicidad de información y falta de trazabilidad. ¿Qué respuesta se alinea mejor con el gobierno de la información y la acreditación?",
+      "opciones": [
+        "a) Aprobar el desarrollo independiente porque facilita el trabajo de Admisiones y luego, si es necesario, se podría intentar una integración manual.",
+        "b) Proponer que el requerimiento se resuelva mediante una extensión del sistema de admisiones oficial o un módulo integrado, garantizando trazabilidad, calidad de datos y uso para análisis posteriores de cobertura e impacto, aun si esto toma más tiempo de desarrollo.",
+        "c) Sugerir a Admisiones que use hojas de cálculo sin involucrar a TI ni al PETI, dado que se trata de un proceso operativo acotado a eventos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La proliferación de herramientas independientes fragmenta la información y dificulta la trazabilidad que exige el aseguramiento de la calidad. Un módulo integrado al sistema oficial permite usar esos datos para análisis y toma de decisiones, en línea con el PEI y con las demandas de acreditación. La opción b se ajusta al enfoque institucional de gobierno de datos."
+    },
+    {
+      "codigo": "INST-15",
+      "pregunta": "En un comité de seguimiento del Plan de Desarrollo, un miembro propone mostrar como principal logro de TI la renovación de mobiliario y decoración de las salas de cómputo, dejando en segundo plano la implementación de indicadores y tableros de control para seguimiento de metas institucionales. Usted debe proponer qué destacar para sustentar la contribución de TI a la acreditación y al PEI. ¿Cuál es la mejor aproximación?",
+      "opciones": [
+        "a) Destacar principalmente la renovación de mobiliario y ambientación de salas, porque tiene un impacto visual evidente para los pares y usuarios.",
+        "b) Destacar la implementación de sistemas de información y tableros de control que permiten monitorear metas académicas y de gestión, articulados con el PEI y con el modelo de aseguramiento de la calidad, mencionando el mobiliario como complemento, pero no como eje central.",
+        "c) Presentar ambos logros sin jerarquía, dejando que los pares académicos decidan cuál consideran más relevante, sin orientar el mensaje institucional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La acreditación y el PEI se centran en la capacidad institucional para planear, ejecutar y evaluar su misión, lo que requiere información confiable y oportuna. Los tableros de control y sistemas de información de gestión evidencian esa capacidad mucho más que cambios estéticos. Por eso la presentación debe enfatizar la contribución de TI a la gestión estratégica, como en la opción b."
+    },
+
+    {
+      "codigo": "INST-16",
+      "pregunta": "El Ministerio de Educación Nacional solicita a la I.U. Pascual Bravo un informe detallado que cruza datos de matrícula, deserción, permanencia y empleabilidad de egresados. La Oficina de Tecnología propone armar el informe rápidamente con extractos manuales y hojas de cálculo aisladas. Usted, desde la Dirección de Planeación, sabe que el PETI incluye un proyecto de consolidación y gobierno de datos que aún no ha sido priorizado presupuestalmente. ¿Cuál es la mejor forma de responder a esta situación, pensando en la acreditación de alta calidad y en el rol de Planeación?",
+      "opciones": [
+        "a) Aceptar la solución manual de hojas de cálculo para cumplir el requerimiento inmediato, sin plantear cambios, ya que lo importante es entregar algo al Ministerio.",
+        "b) Gestionar un informe provisional con los mejores datos posibles, pero aprovechar el requerimiento para sustentar, ante el Comité de Gestión y Desempeño y el área financiera, la urgencia de priorizar el proyecto de consolidación de datos del PETI, argumentando su impacto en la calidad de la información para MEN y acreditación.",
+        "c) Trasladar la responsabilidad completamente a Tecnología, indicando que Planeación solo se encarga de consolidar los resultados que le entreguen, sin entrar en discusión sobre proyectos de datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Desde Planeación, el informe al MEN es una oportunidad para evidenciar que las soluciones de datos fragmentadas no son sostenibles ni consistentes con la acreditación. La respuesta debe resolver el requerimiento inmediato pero, sobre todo, usarlo como argumento para que el proyecto de gobierno de datos del PETI sea priorizado por Comité/finanzas, alineando recursos con el PEI y la alta calidad."
+    },
+    {
+      "codigo": "INST-17",
+      "pregunta": "En un comité presupuestal, se propone reducir significativamente los recursos asignados a mantenimiento de la infraestructura de TI y a la actualización del SGSI (Seguridad de la Información), para liberar presupuesto hacia campañas de imagen institucional. Algunos directivos argumentan que la acreditación se gana principalmente por logros académicos visibles. Como profesional en Planeación, ¿qué posición debe asumir?",
+      "opciones": [
+        "a) Respaldar el recorte a TI y SGSI para priorizar la imagen institucional, siempre que los decanos aseguren que el componente académico se fortalece.",
+        "b) Explicar que la infraestructura tecnológica, la continuidad y la seguridad de la información son condiciones habilitantes para la calidad académica y la gestión institucional; por tanto, proponer mantener o ajustar mínimamente esos recursos, demostrando al Comité cómo el SGSI y la infraestructura soportan la acreditación y el PEI.",
+        "c) Abstenerse de opinar, porque las decisiones de recorte a TI corresponden a la Oficina de Tecnología y al área financiera, no a Planeación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La acreditación institucional evalúa la gestión integral de la institución, incluyendo la capacidad de asegurar continuidad, trazabilidad y protección de datos. Reducciones indiscriminadas a infraestructura y SGSI pueden comprometer la calidad y la evidencia. Planeación debe mostrar, con lenguaje estratégico, cómo estos componentes soportan el PEI y la alta calidad, no tratarlos como gasto prescindible."
+    },
+    {
+      "codigo": "INST-18",
+      "pregunta": "El Rector recibe una oferta comercial para implementar rápidamente un CRM de marketing educativo que no está contemplado en el PETI ni en el Plan de Desarrollo Institucional. Pide a usted, desde Planeación, que “incluya el proyecto retrospectivamente” en el PETI para justificar la contratación ya decidida. Usted sabe que esto no fue discutido en el Comité de Gestión y Desempeño ni en el Consejo Directivo. ¿Qué proceder es más coherente con el Gobierno Universitario y la acreditación?",
+      "opciones": [
+        "a) Ajustar el PETI de manera retroactiva para incluir el CRM tal como ordena el Rector, considerando que la autoridad máxima siempre puede decidir proyectos tácticos sin pasar por los Comités.",
+        "b) Proponer al Rector que, antes de contratar, se formule formalmente el proyecto, se analice su alineación con el PEI y el Plan de Desarrollo, y se someta a consideración del Comité de Gestión y Desempeño y, si corresponde, del Consejo Directivo, asegurando trazabilidad de la decisión en el PETI.",
+        "c) Indicar al Rector que se puede firmar el contrato y, al finalizar el año, ajustar el PETI con un acta simple, sin necesidad de pasar por instancias de gobierno."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Aunque el Rector tenga alta autoridad, el Gobierno Universitario y la cultura de acreditación exigen decisiones transparentes, trazables y alineadas con la planeación formal. Planeación no debe legitimar decisiones ex post sin análisis ni aprobación colegiada; la opción b mantiene el respeto a las instancias y al PETI como instrumento de direccionamiento, protegiendo la institucionalidad."
+    },
+    {
+      "codigo": "INST-19",
+      "pregunta": "Durante la revisión de riesgos institucionales, se identifica que no existe un Plan de Recuperación ante Desastres (DRP) formalmente aprobado para los sistemas académicos y financieros. La Oficina de Tecnología tiene borradores técnicos, pero no hay articulación con el MIPG ni registro en el mapa de riesgos. Desde Planeación, ¿qué acción refleja mejor el enfoque de alta calidad y el rol del PETI?",
+      "opciones": [
+        "a) Considerar el DRP como un tema puramente técnico y dejar que TI lo maneje sin integrarlo al mapa de riesgos institucional ni al PETI.",
+        "b) Gestionar que el DRP se consolide como proyecto/proceso institucional, se incorpore en el PETI y se articule con la gestión de riesgos del MIPG, señalando ante el Comité que la continuidad de servicios críticos es condición para la calidad y el cumplimiento del PEI.",
+        "c) Minimizar el hallazgo indicando que, como hasta ahora no ha ocurrido un desastre mayor, el riesgo real es bajo y no justifica acciones adicionales de planeación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La continuidad de los servicios misionales es un aspecto clave para acreditación y gestión institucional. El DRP no puede quedar como documento técnico aislado; debe estar incorporado en el PETI y la gestión institucional de riesgos, con decisiones de priorización y recursos. Planeación tiene un rol activo en esa articulación, no solo en registrar hallazgos."
+    },
+    {
+      "codigo": "INST-20",
+      "pregunta": "Una facultad solicita que se modifique el sistema académico para adaptarlo a un procedimiento interno que no está alineado con los reglamentos generales ni con el PEI (por ejemplo, cambiar reglas de registro de calificaciones para un solo programa). El proveedor indica que este cambio generaría una “versión especial” difícil de mantener y que podría afectar la consistencia de los reportes institucionales. ¿Cuál debería ser su postura desde Planeación?",
+      "opciones": [
+        "a) Apoyar el cambio solicitado por la facultad, porque responde a necesidades académicas locales, aunque se generen versiones especiales del sistema.",
+        "b) Señalar que los sistemas de información deben reflejar la normativa institucional y el PEI, no prácticas particulares de un programa; proponer que la facultad revise sus procedimientos con Académica y que, si se requieren cambios, se hagan a nivel normativo antes de ajustar el sistema, evitando personalizaciones que comprometan la calidad y la trazabilidad.",
+        "c) Sugerir que la facultad maneje la particularidad en hojas de cálculo independientes para no tocar el sistema institucional, sin discutir el impacto en reportes y acreditación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Los sistemas institucionales soportan reglas comunes definidas en reglamentos y PEI. Personalizaciones para un solo programa, no alineadas con la normativa general, generan inconsistencias y dificultan evidencias de calidad. Planeación debe velar porque la tecnología refleje la institucionalidad, no casuismos, y exigir que se discuta primero el cambio normativo antes que el técnico."
+    },
+    {
+      "codigo": "INST-21",
+      "pregunta": "En una evaluación de avance del Plan de Desarrollo, se evidencia que muchos indicadores dependen de datos producidos por sistemas TI (matrícula, graduación, empleo de egresados, investigación). Sin embargo, Planeación presenta el avance sin mencionar el rol de TI ni los proyectos del PETI que los soportan. Los pares externos cuestionan la sostenibilidad de los resultados. ¿Qué debería hacer usted a partir de esta experiencia?",
+      "opciones": [
+        "a) Mantener la forma actual de presentación, centrada en resultados numéricos, y dejar la explicación del soporte TI para un posible anexo técnico si lo solicitan.",
+        "b) Rediseñar la forma de reporte, incorporando explícitamente cómo los sistemas de información y los proyectos del PETI soportan la medición de metas, la trazabilidad y la mejora continua, integrando así TI en el discurso de calidad y acreditación.",
+        "c) Solicitar a Tecnología que prepare un informe independiente sobre infraestructura, sin relacionarlo con el Plan de Desarrollo ni con los indicadores estratégicos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Un enfoque maduro de acreditación reconoce que la calidad no es solo resultados, sino también capacidades institucionales para medir y mejorar. Los sistemas TI hacen parte de estas capacidades. Planeación debe mostrar esta articulación en los informes estratégicos, no tratar TI como un mundo paralelo. La opción b integra planificación, TI y resultados en un solo relato coherente."
+    },
+    {
+      "codigo": "INST-22",
+      "pregunta": "El área financiera propone disminuir la inversión en renovación de equipos de laboratorios especializados de ingeniería para aumentar recursos en proyectos de imagen y mercadeo, argumentando que aún funcionan aunque estén desactualizados tecnológicamente. Desde Planeación, usted conoce que la misión y el PEI enfatizan la formación tecnológica pertinente para la industria. ¿Cuál es el argumento más consistente con ese marco?",
+      "opciones": [
+        "a) Aceptar la reducción, ya que mientras los equipos funcionen, los estudiantes pueden seguir practicando, y la imagen institucional ayudará a atraer más aspirantes.",
+        "b) Señalar que la obsolescencia tecnológica en laboratorios afecta directamente la pertinencia de la formación, la relación con el sector productivo y la percepción de calidad de los pares, por lo que recomendar priorizar la renovación planificada de laboratorios frente a proyectos puramente de imagen.",
+        "c) Proponer un punto medio: comprar unos pocos equipos nuevos solo para visitas de pares y mantener el resto obsoleto, sin revisar el impacto académico."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Para una institución tecnológica, los laboratorios son núcleo misional. Mantener equipamiento obsoleto puede afectar acreditación, empleabilidad de egresados y relación con industria. Planeación debe defender la inversión estratégica en capacidades formativas y no ceder ante proyectos de imagen que no tocan el corazón de la misión."
+    },
+    {
+      "codigo": "INST-23",
+      "pregunta": "En un comité, se revisa un hallazgo de auditoría interna que señala inconsistencias entre los datos de deserción reportados a MEN y los datos usados en informes internos. La causa es el uso de diferentes cortes y definiciones por parte de varias dependencias. Como profesional de Planeación, usted debe proponer una acción para cerrar el hallazgo. ¿Qué alternativa se alinea mejor con el enfoque de calidad y gobierno de datos?",
+      "opciones": [
+        "a) Solicitar a cada dependencia que ajuste sus cifras para que coincidan con el último informe enviado a MEN, sin cambiar los procesos de captura ni las definiciones.",
+        "b) Liderar, junto con TI y las áreas académicas, la definición institucional de conceptos y cortes para deserción, documentarlos en un glosario y en el modelo de datos institucional, y ajustar sistemas e informes para que todos usen la misma fuente y definiciones, registrando esto en el PETI y el SIAC.",
+        "c) Recomendar que se envíen aclaraciones a MEN justificando las diferencias por “criterios locales”, sin realizar cambios internos, para no generar más trabajo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La solución sostenible es estandarizar definiciones y fuentes, no manipular cifras. Planeación, en articulación con TI y académica, debe liderar la definición institucional de datos críticos y asegurar que los sistemas lo reflejen. Esto mejora la confiabilidad de la información para acreditación y toma de decisiones, y responde de fondo al hallazgo."
+    },
+    {
+      "codigo": "INST-24",
+      "pregunta": "Se propone incluir en el PETI un proyecto de desarrollo de una app de entretenimiento para la comunidad estudiantil sin objetivos claros de apoyo a procesos académicos, de bienestar o de calidad. Al mismo tiempo, se tiene identificado un proyecto para mejorar la plataforma de evaluación docente, que permitiría un mejor seguimiento a la calidad de la docencia y evidencias robustas para el SIAC. El presupuesto no alcanza para ambos. ¿Qué decisión debe apoyar Planeación?",
+      "opciones": [
+        "a) Priorizar la app de entretenimiento, porque puede mejorar el sentido de pertenencia de los estudiantes y generar buena imagen en redes.",
+        "b) Priorizar la mejora de la plataforma de evaluación docente, porque contribuye directamente al seguimiento de la calidad académica, a la autoevaluación y a la acreditación, coherente con el PEI.",
+        "c) Dejar que el área de comunicaciones y bienestar decidan, sin posicionamiento desde Planeación, ya que ambos proyectos involucran comunidad estudiantil."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La evaluación docente es eje del aseguramiento de la calidad. Fortalecer la plataforma para garantizar datos confiables y análisis ricos aporta mucho más a acreditación y al cumplimiento del PEI que una app de entretenimiento sin objetivos académicos claros. Planeación debe priorizar proyectos que apalanquen la calidad y la misión."
+    },
+    {
+      "codigo": "INST-25",
+      "pregunta": "Una empresa externa de marketing educativo ofrece a la I.U. Pascual Bravo una plataforma gratuita para gestión de aspirantes a cambio de acceder a datos detallados de contacto y comportamiento de los estudiantes, que utilizaría para sus propios fines comerciales. Se plantea firmar rápidamente un acuerdo sin revisión profunda, argumentando que favorece la captación. Desde Planeación, ¿qué enfoque es más responsable?",
+      "opciones": [
+        "a) Aceptar el acuerdo para aprovechar la plataforma gratuita, confiando en que el uso comercial de los datos no afectará la acreditación mientras la formación académica sea buena.",
+        "b) Solicitar un análisis integral con Jurídica, TI y Protección de Datos, evaluando riesgos de privacidad, coherencia con MSPI y Ley 1581, y el impacto en la confianza de estudiantes y en la acreditación; solo apoyar el proyecto si se garantizan controles claros sobre el uso de la información.",
+        "c) Delegar totalmente la decisión en TI, bajo el argumento de que se trata de una plataforma tecnológica y no de un proyecto de planeación institucional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El uso de datos de estudiantes es un asunto sensible que impacta la ética institucional, la confianza y la percepción de calidad. Planeación debe velar por que las alianzas tecnológicas se alineen con el marco normativo y el PEI, y que no comprometan la integridad institucional por beneficios de corto plazo. La opción b protege ese equilibrio."
+    },
+    {
+      "codigo": "INST-26",
+      "pregunta": "En la planeación de un nuevo edificio académico, se discute el presupuesto para dotación tecnológica. Algunos proponen ahorrar eliminando el cableado estructurado y depurando la inversión en redes, confiando solo en WiFi básico. La Dirección de Planeación tiene claro que la visión institucional incluye laboratorios especializados, aulas híbridas y proyectos de innovación. ¿Cuál recomendación es más coherente con el rol de Planeación y el PEI?",
+      "opciones": [
+        "a) Avalar el recorte en infraestructura de red para reducir costos, indicando que si más adelante se requiere cableado, se puede improvisar con extensiones y routers SOHO.",
+        "b) Sustentar que, para asegurar calidad, flexibilidad y soporte a laboratorios e innovación, la infraestructura de red (cableado estructurado normativo, WLAN robusta, backbone adecuado) es parte integral del proyecto y del PETI, y no un lujo opcional; proponer optimizar otros rubros si se requieren ajustes.",
+        "c) Proponer instalar solo puntos de red en rectoría y oficinas administrativas, dejando a los estudiantes y laboratorios sin conectividad cableada fija."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La infraestructura tecnológica es base para la misión tecnológica de la institución. Planeación debe velar porque los proyectos físicos incorporen diseño de red acorde con estándares y con el modelo formativo, no aceptar soluciones improvisadas que comprometen la calidad futura. El recorte debe evaluarse en otros componentes menos críticos para la misión."
+    },
+    {
+      "codigo": "INST-27",
+      "pregunta": "Durante un comité, un miembro propone retrasar la implementación de módulos del sistema de gestión de calidad académica porque “las facultades pueden seguir usando formatos en papel” y así se ahorra inversión este año. Sin embargo, el cronograma de acreditación y el plan de mejoramiento ya consideran esos módulos como soporte clave para evidencias y seguimiento. ¿Cuál debe ser la posición de Planeación?",
+      "opciones": [
+        "a) Aceptar el retraso, ya que las facultades siempre han gestionado procesos en papel y no se afectará la acreditación si los resultados se mantienen.",
+        "b) Argumentar que postergar estos módulos afecta directamente la capacidad de evidenciar el funcionamiento del sistema de calidad, la trazabilidad de las acciones de mejora y el cumplimiento del plan de mejoramiento, por lo que la implementación debe mantenerse priorizada o replantearse el plan ante el Consejo con una justificación sólida.",
+        "c) Dejar la decisión en manos de los decanos, indicando que Planeación solo consolida informes de lo que ellos logren implementar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La acreditación no evalúa solo resultados, sino también sistemas de aseguramiento de la calidad en funcionamiento. Si el plan de mejoramiento y el cronograma de acreditación se soportan en ciertos módulos TI, postergarlos sin ajustar formalmente el plan es riesgoso. Planeación debe hacer visible ese riesgo y promover decisiones responsables en instancias de gobierno."
+    },
+    {
+      "codigo": "INST-28",
+      "pregunta": "Se propone lanzar una campaña de recolección de información de egresados a través de redes sociales, administrada directamente por una dependencia sin uso de los sistemas institucionales de egresados y sin coordinación con Planeación ni Calidad. La justificación es “moverse rápido y sin burocracia”. Usted conoce que los datos de egresados son claves para indicadores de impacto y empleo. ¿Qué decisión se alinea mejor con el enfoque institucional?",
+      "opciones": [
+        "a) Permitir que la dependencia haga la campaña de forma autónoma y luego consolidar manualmente los datos en los sistemas institucionales, sin mayores controles.",
+        "b) Proponer que la campaña se articule con los sistemas institucionales de egresados y con los proyectos del PETI, garantizando captura estructurada, protección de datos y uso posterior para indicadores de calidad y acreditación.",
+        "c) Cancelar cualquier intento de contacto con egresados hasta que se tenga un sistema perfecto, evitando coordinar acciones provisionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La información de egresados es estratégica y debe ser capturada de forma estructurada, segura y reusable. Permitir campañas desconectadas de sistemas institucionales genera datos fragmentados y riesgos de protección de datos. Planeación debe buscar agilidad, pero dentro del marco de gobierno de información y alineación con el PEI y el SIAC."
+    },
+    {
+      "codigo": "INST-29",
+      "pregunta": "La institución recibe observaciones de pares externos sobre la necesidad de fortalecer el soporte tecnológico para la educación flexible y virtual. La Oficina de Tecnología sugiere comprar licencias de videoconferencia sin un análisis de compatibilidad con las plataformas existentes ni coordinación con Planeación. Usted ve la oportunidad de conectar esta necesidad con proyectos del PETI ya formulados sobre ecosistema virtual de aprendizaje. ¿Qué debería hacer?",
+      "opciones": [
+        "a) Dejar que TI compre las licencias que considere y luego intentar integrar esa decisión en el PETI como un ajuste menor.",
+        "b) Proponer que la respuesta a los pares se enmarque en una estrategia integral de ecosistema virtual, articulada en el PETI, que considere plataformas, integración, soporte pedagógico y seguimiento a indicadores de uso, y que cualquier compra se haga como parte de ese proyecto estratégico.",
+        "c) Sugerir que las facultades busquen por su cuenta plataformas gratuitas, sin relacionarlo con el PETI, para responder rápidamente a las observaciones."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Responder a observaciones de pares solo con compras aisladas no garantiza sostenibilidad ni coherencia. Planeación debe aprovechar la retroalimentación para fortalecer proyectos estratégicos del PETI, integrando decisiones tecnológicas con objetivos formativos, calidad y evaluación. La opción b transforma un requerimiento puntual en un avance estructural."
+    },
+    {
+      "codigo": "INST-30",
+      "pregunta": "En una sesión del Consejo Directivo, se pide a Planeación explicar cómo las decisiones sobre proyectos TI se alinean con la misión tecnológica y la contribución al desarrollo de Medellín y Antioquia. Usted tiene dos posibles enfoques: mostrar un listado de inversiones por rubro (servidores, switches, licencias) o presentar casos en los que TI habilita proyectos de industria, prácticas empresariales y transferencia tecnológica. ¿Qué enfoque debe privilegiar?",
+      "opciones": [
+        "a) Enfocarse en el listado de inversiones, desglosando detalladamente los rubros técnicos, ya que el Consejo debe conocer en qué se gasta cada peso, sin necesidad de relacionarlo con la misión.",
+        "b) Explicar las inversiones TI a través de casos que muestren cómo habilitan la formación tecnológica aplicada, los vínculos con el sector productivo y proyectos del Distrito de Ciencia, Tecnología e Innovación, y complementar con cifras, conectando explícitamente TI con el PEI y el desarrollo regional.",
+        "c) Presentar solo proyecciones financieras a 5 años, sin entrar en detalles de proyectos concretos, confiando en que el Consejo entenderá que TI es un costo necesario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El Consejo Directivo requiere entender el sentido estratégico de las inversiones TI, no solo su costo. Relacionar TI con formación práctica, industria y desarrollo regional demuestra cómo el PETI apoya la misión y el PEI. Luego se pueden presentar cifras, pero el relato principal debe ser de valor público y misional, como plantea la opción b."
+    }
+
+    ]
+}

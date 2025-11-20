@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Información - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes */
+        .norma-box {
+            border: 1px solid #c8e6c9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1f8e9;
+        }
+        .norma-box h4 { color: #388e3c; margin-top: 0; }
+        
+        .alerta-interoperabilidad {
+            background-color: #ffebee;
+            border-left: 5px solid #d32f2f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-interoperabilidad h4 { color: #b71c1c; margin-top: 0; }
+
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+
+        .trampa-examen {
+            background-color: #FFF3E0;
+            border-left: 5px solid #FF9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .trampa-examen h4 { color: #E65100; margin-top: 0; }
+        
+        .criterios-adquisicion th, .criterios-adquisicion td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .criterios-adquisicion th {
+            background-color: #4A90E2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Sistemas" id="logo">
+        <h1>Sistemas de Información</h1>
+        <p>Arquitectura (MRAE), Interoperabilidad y Ciclo de Vida Estratégico</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="tipos-sistemas">
+            <h2>1. Tipología de Sistemas en la IES (Valor y Funcionalidad)</h2>
+            <p>Clasifique los sistemas según el valor estratégico que entregan:</p>
+            
+            <table class="criterios-adquisicion">
+                <thead>
+                    <tr>
+                        <th>Tipología (Enfoque)</th>
+                        <th>Función Principal</th>
+                        <th>Rol en el PETI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>TPS</strong> (Transaction Processing System)</td>
+                        <td>Captura y procesamiento de transacciones diarias (Ej: Registro de Notas, Pago de Matrícula).</td>
+                        <td>Asegurar la eficiencia operativa y la Integridad del dato fuente.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MIS</strong> (Management Information System)</td>
+                        <td>Generación de reportes periódicos y resumen de datos para la gestión táctica (Ej: Reporte Semestral de deserción).</td>
+                        <td>Monitoreo del desempeño operacional (Indicadores).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DSS</strong> (Decision Support System)</td>
+                        <td>Herramientas analíticas y de simulación para apoyo estratégico (Ej: Modelo Predictivo de deserción estudiantil, Simulador de becas).</td>
+                        <td>Apoyar la toma de decisiones de Rectoría y Planeación.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="trampa-examen">
+                <h4>🛑 Situación Crítica para el Examen</h4>
+                <p>Su rol es identificar y cerrar la brecha: si el Comité requiere información predictiva (DSS) pero solo se le alimenta con reportes descriptivos (MIS), la decisión será de baja calidad. Su trabajo en el PETI es proponer proyectos que lleguen a la capa DSS.</p>
+            </div>
+        </section>
+
+        <section id="mrae-adquisicion">
+            <h2>2. Dominio de Sistemas de Información (MRAE) y Ciclo de Vida</h2>
+            <p>Este dominio exige que las aplicaciones no sean islas; deben tener una justificación auditable y un ciclo de vida definido.</p>
+
+            <div class="norma-box">
+                <h4>Exigencias del Dominio de Sistemas</h4>
+                <ul>
+                    <li><strong>Inventario y Ciclo de Vida:</strong> Mantener un inventario oficial con la fase del ciclo de vida (Planificación, Adquisición, Retiro).</li>
+                    <li><strong>Racionalización:</strong> Evitar **Silos** (sistemas redundantes) y **Deuda Técnica** (sistemas obsoletos, sin documentación).</li>
+                    <li><strong>Mapeo:</strong> Cada sistema debe soportar un proceso de negocio (Dominio de Procesos) y usar el Dato Maestro (Dominio de Información).</li>
+                </ul>
+            </div>
+
+            <div class="concepto-clave">
+                <h4>Adquisición Estratégica: COTS vs. In-house</h4>
+                <p>El principio fundamental en el Estado Colombiano es **COTS Primero** (Principio de Economía y Eficiencia). El desarrollo a la medida solo se justifica cuando el requisito es misional, único y el mercado no ofrece una solución viable.</p>
+                <p><strong>Justificación del Desarrollo In-house:</strong> Requiere un **Análisis de Mercado** que demuestre que NO existe una solución COTS, y una **Matriz de Riesgos** que justifique asumir el alto costo de mantenimiento y soporte a largo plazo.</p>
+            </div>
+        </section>
+
+        <section id="interoperabilidad">
+            <h2>3. Interoperabilidad Obligatoria y Servicios Ciudadanos Digitales (SCD)</h2>
+            <p>La I.U. Pascual Bravo debe conectarse con el ecosistema del Estado (requisito de Gobierno Digital).</p>
+
+            <div class="alerta-interoperabilidad">
+                <h4>🚨 Requisito de Servicios Ciudadanos Digitales</h4>
+                <ul>
+                    <li><strong>Autenticación Digital:</strong> Los sistemas deben integrarse para que el ciudadano use un login centralizado del Estado.</li>
+                    <li><strong>Carpeta Ciudadana Digital:</strong> Permitir que estudiantes/egresados consulten sus documentos oficiales (certificados, notas) a través de la carpeta central del Estado.</li>
+                    <li><strong>Estándares de Interoperabilidad:</strong> Usar **APIs REST/JSON** y la Plataforma de Interoperabilidad (PDI) de MinTIC para el intercambio de datos con otras entidades (evitar archivos de Excel).</li>
+                </ul>
+            </div>
+
+            <div class="concepto-clave">
+                <h4>Seguridad desde el Diseño (Security by Design)</h4>
+                <p>Todo sistema debe ser **API-First** (diseñado para exponer servicios de forma estandarizada) e integrar los controles de seguridad (**MSPI**) desde la fase de Requisitos y Diseño, nunca al final.</p>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Sistemas de Información</h2>
+            <p>Evalúa tu juicio en el ciclo de vida, la adquisición y la arquitectura de sistemas.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

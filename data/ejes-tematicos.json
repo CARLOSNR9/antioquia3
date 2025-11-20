@@ -51,6 +51,11 @@
                 {
                     "nombre": "Soporte en Redes y Telecomunicaciones",
                     "link": "temas/soporte-redes.html"
+                },
+
+                {
+                    "nombre": "Conocimiento Institucional: I.U. Pascual Bravo",
+                    "link": "temas/conocimiento-institucional.html"
                 }
             ]
         },
