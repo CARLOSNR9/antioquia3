@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad Informática - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes */
+        .norma-box {
+            border: 1px solid #c8e6c9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1f8e9;
+        }
+        .norma-box h4 { color: #388e3c; margin-top: 0; }
+        
+        .alerta-riesgo {
+            background-color: #ffebee;
+            border-left: 5px solid #d32f2f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-riesgo h4 { color: #b71c1c; margin-top: 0; }
+
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+
+        .proceso-riesgo {
+            list-style-type: none;
+            padding-left: 0;
+            counter-reset: item;
+        }
+        .proceso-riesgo li {
+            padding: 5px 0 5px 25px;
+            position: relative;
+        }
+        .proceso-riesgo li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #4A90E2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Seguridad" id="logo">
+        <h1>Seguridad Informática y Ciberseguridad</h1>
+        <p>MGRSI, MSPI y el Blindaje Legal de Activos y Datos Personales</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="gestion-riesgos">
+            <h2>1. Metodología de Gestión de Riesgos (MGRSI)</h2>
+            <p>La **ISO 27001 / MSPI** exige un ciclo continuo de riesgo. Es la base para justificar cada control del PETI.</p>
+            
+            <ul class="proceso-riesgo">
+                <li><strong>Identificación:</strong> Reconocer activos (Sistemas Académicos), amenazas (Ransomware) y vulnerabilidades (Personal sin capacitación anti-phishing).</li>
+                <li><strong>Análisis:</strong> Evaluar la Probabilidad x Impacto (C-I-D). (Ej: Ransomware tiene Impacto Alto y Probabilidad Media/Alta si no hay controles).</li>
+                <li><strong>Evaluación:</strong> Comparar el nivel de riesgo con el Apetito de Riesgo aprobado por la Alta Dirección.</li>
+                <li><strong>Tratamiento:</strong> Decidir qué hacer: <strong>Mitigar</strong> (aplicar control), <strong>Transferir</strong> (seguro), <strong>Evitar</strong> (eliminar servicio riesgoso) o <strong>Aceptar</strong> (solo por el Gobierno).</li>
+            </ul>
+
+            <div class="alerta-riesgo">
+                <h4>🚨 Trampa de Examen: Aceptación del Riesgo</h4>
+                <p>Si el Comité (Gobierno) decide no financiar un control de seguridad (Ej: Licencia EDR), usted debe documentar que el **Riesgo Residual** es **ALTO** y que esta es una **Aceptación de Riesgo** formal por la Alta Dirección. La responsabilidad del impacto recae en quien firma el acta de aceptación.</p>
+            </div>
+        </section>
+
+        <section id="cumplimiento-legal">
+            <h2>2. MSPI y Ley 1581 (Privacidad Obligatoria)</h2>
+            <p>La **Ley 1581 (Habeas Data)** convierte la protección de datos personales en un requisito de seguridad de primer orden.</p>
+            
+            <div class="concepto-clave">
+                <h4>Privilegio Mínimo y MFA</h4>
+                <p><strong>Privilegio Mínimo:</strong> Otorgar solo el acceso estrictamente necesario para las funciones del usuario (Ej: El docente solo ve sus cursos). Es un control esencial de la ISO 27002.</p>
+                <p><strong>Doble Factor (MFA):</strong> Control obligatorio de acceso para personal con credenciales a sistemas sensibles (Nómina, Académico) o acceso remoto (VPN).</p>
+            </div>
+
+            <div class="norma-box">
+                <h4>Borrado Seguro (Control Crítico de Baja)</h4>
+                <p>Al dar de baja hardware (discos duros, USB), el **Borrado Seguro** no es opcional. Debe haber un **Acta de Borrado** que certifique el uso de métodos aceptados (sobrescritura, destrucción física) para que el dato sea irrecuperable. Es un requisito ineludible de la Ley 1581.</p>
+            </div>
+        </section>
+
+        <section id="controles-clave">
+            <h2>3. Controles Clave (ISO 27002 Aplicada)</h2>
+
+            <ul class="proceso-riesgo">
+                <li><strong>Seguridad en Desarrollo:</strong> Exigir **Seguridad desde el Diseño**. Todo código nuevo debe pasar por análisis de seguridad antes de pasar a producción (A.8.2.3).</li>
+                <li><strong>Gestión de Incidentes de Seguridad:</strong> La prioridad es la **Contención** (aislar el activo comprometido) antes de la Erradicación y Recuperación. El procedimiento debe incluir la notificación al CISO y, si hay datos personales, a Jurídica y la SIC.</li>
+                <li><strong>Identificación Única:</strong> Nunca compartir credenciales (ni siquiera la Alta Dirección). Se pierde la trazabilidad (**No Repudio**).</li>
+            </ul>
+        </section>
+
+        <section id="continuidad">
+            <h2>4. Continuidad de Negocio (BCP vs DRP)</h2>
+            <p>Estos planes garantizan el pilar de **Disponibilidad** y son obligatorios para el SGSI y el Reporte FURAG.</p>
+            
+            <table class="proceso-riesgo">
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Enfoque</th>
+                        <th>Objeto Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>BCP (Continuidad)</strong></td>
+                        <td>Continuidad del Negocio.</td>
+                        <td>Personas, Procesos, Operación manual (Ej: Mantener la Matrícula sin sistemas).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DRP (Recuperación)</strong></td>
+                        <td>Recuperación Técnica.</td>
+                        <td>Servidores, Bases de Datos, Redes (RTO/RPO).</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="concepto-clave">
+                <h4>💡 El Deber de la Prueba</h4>
+                <p>No basta con tener los documentos. Su SGSI exige **Pruebas Periódicas de BCP/DRP** para verificar que los tiempos de recuperación (RTO/RPO) son realistas. Su deber es exigir el desarrollo, prueba y aprobación formal de estos planes por la Alta Dirección.</p>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Seguridad Informática</h2>
+            <p>Evalúa tu juicio para proteger los activos de la IES bajo el marco MSPI.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

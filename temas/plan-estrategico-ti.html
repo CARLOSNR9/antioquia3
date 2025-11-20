@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETI - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes con los temas anteriores */
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+        
+        .alerta-rol {
+            background-color: #FFF3E0;
+            border-left: 5px solid #FF9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-rol h4 { color: #E65100; margin-top: 0; }
+
+        .algoritmo-mental {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .algoritmo-mental h4 { color: #2e7d32; margin-top: 0; }
+        
+        .tabla-interseccion th, .tabla-interseccion td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .tabla-interseccion th {
+            background-color: #4A90E2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo PETI" id="logo">
+        <h1>Plan Estratégico de TI (PETI)</h1>
+        <p>Instrumento de Planeación, Alineación y Valor Público bajo el Marco MIPG</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="proposito">
+            <h2>1. El PETI como Instrumento de MIPG</h2>
+            <p>El PETI no es un documento de TI, es una herramienta de **Aseguramiento de la Calidad Institucional**. Conecta la infraestructura con la misión del Estado.</p>
+
+            <h3>Alineación Estratégica Ineludible (MIPG)</h3>
+            <table class="tabla-interseccion">
+                <thead>
+                    <tr>
+                        <th>Intersección Crítica (MIPG)</th>
+                        <th>PETI y su Rol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Dimensión 1: Direccionamiento Estratégico</strong></td>
+                        <td>Traduce las metas del PEI a soluciones tecnológicas (Ej: Aumentar Cobertura -> Sistema de Matrícula Escalable).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dimensión 7: Gestión de la Información</strong></td>
+                        <td>Define los sistemas que capturan, almacenan y publican Información Misional (Ej: Datos Abiertos, Transparencia).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Política de Gobierno Digital</strong></td>
+                        <td>El PETI es la hoja de ruta para implementar capacidades (Seguridad, Interoperabilidad, Servicios Ciudadanos Digitales).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="ciclo-vida">
+            <h2>2. Fases del Ciclo de Vida del PETI</h2>
+            <p>El proceso es cíclico y requiere el rigor de Planeación para garantizar su integridad.</p>
+            
+            <table class="tabla-interseccion">
+                <thead>
+                    <tr>
+                        <th>Fase</th>
+                        <th>Tarea Clave (Tu Rol)</th>
+                        <th>Punto de Control (Gobierno)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1. Formulación</strong></td>
+                        <td>Análisis de Brecha: MRAE (Arquitectura deseada) vs. Arquitectura Actual. Elaboración del Portafolio de Proyectos.</td>
+                        <td>Aprobación Técnica de la Dirección de TI.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2. Aprobación</strong></td>
+                        <td>Justificación del valor público. Asegurar fuente de financiación (CDP/Vigencias Futuras).</td>
+                        <td>Aprobación final del Comité Institucional de Gestión y Desempeño (Acta obligatoria).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3. Implementación</strong></td>
+                        <td>Gestión de Proyectos: Supervisión de contratos, control de riesgos e hitos (WBS/Cronograma).</td>
+                        <td>Seguimiento Trimestral de la Matriz de Riesgos y del Presupuesto Ejecutado.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4. Monitoreo</strong></td>
+                        <td>Medición de indicadores de impacto. Alimentación de los Tableros de Control.</td>
+                        <td>Evaluación Anual por Planeación (¿Se logró el resultado esperado?) y reporte en el FURAG.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="componentes-portafolio">
+            <h2>3. Componentes del Portafolio del PETI</h2>
+            
+            <div class="alerta-rol">
+                <h4>🛑 INTERSECCIÓN CRÍTICA: Gasto de Funcionamiento vs. Inversión</h4>
+                <p>El PETI solo debe contener **Proyectos de Inversión** (crean nueva capacidad o cierran brechas). Comprar el hosting o las licencias anuales de Office es **Gasto de Funcionamiento** y NO va en el PETI.</p>
+            </div>
+
+            <ul>
+                <li><strong>Portafolio de Aplicaciones:</strong> Inventario y estado de salud de todos los sistemas (Clasificación: Migrar, Reemplazar, Mantener).</li>
+                <li><strong>Portafolio de Proyectos (La Inversión):</strong> Iniciativas priorizadas y financiadas para cerrar las brechas. Cada proyecto debe tener un **CDP/RP** y un **Indicador de Resultado**.</li>
+                <li><strong>Análisis de Brecha:</strong> Diferencia entre el 'As Is' (lo que tenemos) y el 'To Be' (lo que necesitamos según MRAE). Los proyectos deben cerrar esta brecha.</li>
+            </ul>
+        </section>
+
+        <section id="monitoreo">
+            <h2>4. Monitoreo y Tableros de Control</h2>
+            <p>Tu función es traducir el desempeño de los bits en **Valor Público** para la Alta Dirección.</p>
+
+            <table class="tabla-interseccion">
+                <thead>
+                    <tr>
+                        <th>Tipo de Indicador</th>
+                        <th>Ejemplo Técnico (Gestión)</th>
+                        <th>Ejemplo de Valor (Estrategia)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Disponibilidad/Servicio</strong></td>
+                        <td>Tiempo de caída del servidor: 1 hora/mes.</td>
+                        <td>Reducción de 2 días en el tiempo de respuesta a PQRS (impacto al ciudadano).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Eficacia/Costo</strong></td>
+                        <td>Presupuesto ejecutado: 98%.</td>
+                        <td>Reducción del 10% en costos operativos por la automatización de procesos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cumplimiento/Adopción</strong></td>
+                        <td>95% de tareas del PETI ejecutadas.</td>
+                        <td>95% de los usuarios han adoptado el nuevo portal de trámites.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="algoritmo-mental">
+                <h4>🧠 Algoritmo Mental - Monitoreo del PETI</h4>
+                <p>1. Identifica la meta del **PEI** que el proyecto soporta.<br>
+                2. Define el **Indicador de Valor** (que le importaría al Contralor o al estudiante).<br>
+                3. Asegura la **Trazabilidad:** El dato del Dashboard debe rastrearse hasta el acta de recibido o el log del servidor.</p>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de PETI</h2>
+            <p>Evalúa tu capacidad para alinear tecnología, presupuesto y estrategia pública.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

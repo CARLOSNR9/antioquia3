@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento de Equipos - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes con los temas anteriores */
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+        
+        .alerta-rol {
+            background-color: #FFF3E0;
+            border-left: 5px solid #FF9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-rol h4 { color: #E65100; margin-top: 0; }
+
+        .mantenimiento-box {
+            border: 1px solid #c8e6c9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1f8e9;
+        }
+        .mantenimiento-box h4 { color: #388e3c; margin-top: 0; }
+        
+        .mantenimiento-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .mantenimiento-table th, .mantenimiento-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .mantenimiento-table th {
+            background-color: #4A90E2;
+            color: white;
+        }
+
+        .riesgo-legal {
+            background-color: #ffebee; /* Rojo muy suave */
+            border-left: 5px solid #d32f2f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .riesgo-legal h4 { color: #b71c1c; margin-top: 0; }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Mantenimiento" id="logo">
+        <h1>Mantenimiento de Equipos de Informática</h1>
+        <p>Estrategia ITIL y Gestión de Activos Fijos bajo el marco CGN</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="tipos-mantenimiento">
+            <h2>1. Fundamentos ITIL: Incidente vs. Problema</h2>
+            <p>ITIL es el estándar para garantizar eficiencia y transparencia en la Mesa de Ayuda.</p>
+            
+            <table class="mantenimiento-table">
+                <thead>
+                    <tr>
+                        <th>Concepto</th>
+                        <th>Definición (ITIL)</th>
+                        <th>Objetivo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Incidente</strong></td>
+                        <td>Interrupción no planificada o degradación del servicio (Ej: "La red se cayó").</td>
+                        <td>Restaurar el servicio lo más pronto posible (Rapidez).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Problema</strong></td>
+                        <td>Causa raíz subyacente de uno o varios incidentes. (Ej: "El switch se cae por sobrecalentamiento").</td>
+                        <td>Eliminar la causa raíz para prevenir futuros incidentes (Prevención).</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mantenimiento-box">
+                <h4>Flujo Estratégico de un Caso</h4>
+                <ol>
+                    <li><strong>Registro:</strong> El usuario notifica la falla.</li>
+                    <li><strong>Diagnóstico/Workaround:</strong> Se reinicia el servicio (se cierra el Incidente).</li>
+                    <li><strong>Transferencia (Problema):</strong> Se documenta que la causa es recurrente.</li>
+                    <li><strong>Análisis de Causa Raíz (RCA):</strong> Se determina que el aire acondicionado falló.</li>
+                    <li><strong>Gestión de Cambio:</strong> Se autoriza la compra de un nuevo sistema de enfriamiento.</li>
+                </ol>
+                <p><strong>Clave:</strong> En un examen, la respuesta correcta para "Evitar que se repita" es iniciar la Gestión de Problemas.</p>
+            </div>
+        </section>
+
+        <section id="gestion-incidentes">
+            <h2>2. Mantenimiento Estratégico y Optimización</h2>
+            <p>La prioridad en el sector público es **prevenir** y **prolongar la vida útil** para optimizar el presupuesto.</p>
+            
+            <table class="mantenimiento-table">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Definición</th>
+                        <th>Prioridad Pública</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Correctivo</strong></td>
+                        <td>Reparar una falla después de que ocurre.</td>
+                        <td>Mínima (es costoso y genera indisponibilidad).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Preventivo</strong></td>
+                        <td>Tareas programadas (limpieza, parches) para reducir la probabilidad de falla.</td>
+                        <td>Alta (optimiza disponibilidad, es controlable presupuestalmente).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Predictivo</strong></td>
+                        <td>Monitoreo constante con sensores para anticipar la falla.</td>
+                        <td>Máxima (permite la compra de repuestos justo a tiempo, máxima eficiencia).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="activos">
+            <h2>3. Gestión del Ciclo de Vida del Activo (Trazabilidad Contable)</h2>
+            <p>Todo activo TI es un bien del Estado y debe seguir el control fiscal de la CGN.</p>
+            
+            <div class="mantenimiento-box">
+                <h4>El Proceso Delicado de la Baja/Disposición Final</h4>
+                <p>Dar de baja un activo no es tirarlo a la basura; es un proceso formal de desvinculación contable y técnica:</p>
+                <ol>
+                    <li><strong>Concepto Técnico (Tú):</strong> Informe que justifica la baja por Obsolescencia, Vida Útil Agotada, o Daño Irreparable.</li>
+                    <li><strong>Acto Administrativo (Rector/Delegado):</strong> Resolución o Acta formal que oficializa la baja del inventario contable.</li>
+                    <li><strong>Disposición Final:</strong> Destrucción (RAEE con Gestor Certificado), Venta o Donación (a otra entidad pública).</li>
+                </ol>
+                <p><strong>Documentación clave:</strong> La Hoja de Vida del Activo, el Concepto Técnico y la Resolución de Baja.</p>
+            </div>
+        </section>
+
+        <section id="riesgos-seguridad">
+            <h2>4. Riesgos Disciplinarios, Fiscales y Seguridad</h2>
+            <p>Toda intervención debe proteger la integridad de los datos y la legalidad.</p>
+            
+            <div class="riesgo-legal">
+                <h4>🚫 Riesgos Críticos (Trampas de Examen)</h4>
+                <ul>
+                    <li><strong>Software Pirata:</strong> Instalar software ilegal es falta disciplinaria y riesgo fiscal. <strong>Mitigación:</strong> Auditoría SAM (Software Asset Management) y solo uso de licencias válidas.</li>
+                    <li><strong>Fuga de Datos:</strong> Antes de enviar un equipo a baja o reparación, debe garantizarse el <strong>Borrado Seguro</strong> (ej. NIST SP 800-88) del disco duro para cumplir con la Ley 1581 (Habeas Data).</li>
+                    <li><strong>Hecho Cumplido:</strong> Nunca autorizar un mantenimiento costoso sin <strong>Certificado de Disponibilidad Presupuestal (CDP)</strong> previo.</li>
+                    <li><strong>Detrimento Patrimonial:</strong> Si un equipo obsoleto genera costos recurrentes de mantenimiento en vez de ser dado de baja, puede haber Detrimento.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Mantenimiento</h2>
+            <p>Pon a prueba tu conocimiento de procedimientos y protocolos.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

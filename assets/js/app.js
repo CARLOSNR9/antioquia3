@@ -138,6 +138,14 @@ function iniciarSimulacro() {
         archivoJSON = '../data/gestion-proyectos-ti.json';
     } else if (rutaActual.includes('gobierno-ti.html')) { 
         archivoJSON = '../data/gobierno-ti.json';
+    } else if (rutaActual.includes('mantenimiento-equipos.html')) { 
+        archivoJSON = '../data/mantenimiento-equipos.json';
+    } else if (rutaActual.includes('normas-informatica.html')) { 
+        archivoJSON = '../data/normas-informatica.json';
+    } else if (rutaActual.includes('plan-estrategico-ti.html')) { 
+        archivoJSON = '../data/plan-estrategico-ti.json';
+    } else if (rutaActual.includes('seguridad-informatica.html')) { 
+        archivoJSON = '../data/seguridad-informatica.json';
     } else {
         // Por defecto o para pruebas, carga el primero si no coincide ninguno
         archivoJSON = '../data/gestion-publica-territorial.json';

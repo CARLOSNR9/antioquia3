@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normas de Informática - Estudio CNSC</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        /* Estilos consistentes */
+        .norma-box {
+            border: 1px solid #e0f7fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1fbfc;
+        }
+        .norma-box h4 { color: #00bcd4; margin-top: 0; }
+        
+        .alerta-seguridad {
+            background-color: #ffebee;
+            border-left: 5px solid #d32f2f;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .alerta-seguridad h4 { color: #b71c1c; margin-top: 0; }
+
+        .concepto-clave {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .concepto-clave h4 { color: #1565C0; margin-top: 0; }
+
+        .triada-seguridad {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .triada-seguridad th, .triada-seguridad td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .triada-seguridad th {
+            background-color: #00bcd4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.png" alt="Logo Normas" id="logo">
+        <h1>Normas de Informática y Estándares de Calidad</h1>
+        <p>SGSI (ISO 27001), MSPI, ITIL y el Blindaje Legal de la Función Pública</p>
+    </header>
+
+    <main>
+        <button id="btnVolverMenuSuperior" class="boton-navegacion">← Volver al Menú Principal</button>
+        
+        <section id="pilares-seguridad">
+            <h2>1. SGSI (ISO 27001) y la Tríada C-I-D</h2>
+            <p>La **ISO/IEC 27001** exige proteger los activos de la I.U. Pascual Bravo, garantizando los tres pilares:</p>
+            
+            <table class="triada-seguridad">
+                <thead>
+                    <tr>
+                        <th>Pilar</th>
+                        <th>Concepto</th>
+                        <th>Ejemplo en la U</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Confidencialidad (C)</strong></td>
+                        <td>Accesibilidad solo por personal autorizado.</td>
+                        <td>Un estudiante solo ve sus propias Notas y la información de Bienestar.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Integridad (I)</strong></td>
+                        <td>Información precisa, completa y protegida contra modificaciones no autorizadas (auditoría).</td>
+                        <td>El Acta de Grado o las Notas no pueden ser alteradas sin un proceso de corrección formal y trazable.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Disponibilidad (D)</strong></td>
+                        <td>Sistemas y datos accesibles cuando se requieren (Ej: Portal de Matrículas 24/7).</td>
+                        <td>Plan de Recuperación ante Desastres (DRP) para el Data Center.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="alerta-seguridad">
+                <h4>🚨 Riesgo de Incumplimiento (Integridad)</h4>
+                <p>Si un error de migración altera la Historia Académica, se está violando la **Integridad**. Si el riesgo se materializa por falta de trazabilidad, hay riesgo de Fraude o Detrimento Fiscal.</p>
+            </div>
+        </section>
+
+        <section id="mspi">
+            <h2>2. MSPI vs. ISO 27001 (El Mandato Colombiano)</h2>
+            <p>El **MSPI (Modelo de Seguridad y Privacidad de la Información)** es la versión obligatoria de la ISO 27001 para el Estado, definida en el Decreto 1078 de 2015.</p>
+
+            <div class="concepto-clave">
+                <h4>Diferencia Clave: Enfoque y Reporte</h4>
+                <ul>
+                    <li><strong>ISO 27001:</strong> Es el marco técnico, voluntario (salvo exigencia contractual).</li>
+                    <li><strong>MSPI (MinTIC):</strong> Es obligatorio. Añade un énfasis explícito en la **Privacidad** (Ley 1581) y exige **reporte anual** de cumplimiento ante el FURAG.</li>
+                </ul>
+            </div>
+
+            <p><strong>Obligaciones Específicas del MSPI:</strong></p>
+            <ul>
+                <li><strong>Roles Formales:</strong> Nombramiento del CISO (Oficial de Seguridad).</li>
+                <li><strong>Datos Personales:</strong> Tener Avisos de Privacidad y Autorización Explícita de los estudiantes para el uso de sus datos.</li>
+                <li><strong>Incidentes:</strong> Reporte obligatorio de incidentes de seguridad que afecten datos personales a la SIC (Superintendencia de Industria y Comercio).</li>
+            </ul>
+        </section>
+
+        <section id="gestion-servicios">
+            <h2>3. ISO 20000, ITIL y ANS (Gestión de Servicios)</h2>
+            <p>La **ISO/IEC 20000** es el estándar para formalizar la calidad de los servicios de TI (basado en ITIL), clave para garantizar la **Disponibilidad**.</p>
+            
+            <div class="norma-box">
+                <h4>ISO 20000 en el Mantenimiento</h4>
+                <ul>
+                    <li><strong>Gestión de Incidentes:</strong> Foco en la velocidad para restaurar el servicio según el ANS pactado (Ej: arreglar el correo en 30 minutos).</li>
+                    <li><strong>Gestión de Problemas:</strong> Foco en la **Causa Raíz** (RCA) de la falla recurrente, para evitar que el incidente se repita.</li>
+                    <li><strong>ANS (Acuerdos de Nivel de Servicio):</strong> Métricas contractuales. Un ANS de 99.9% permite solo 8 horas y 45 minutos de caída anual.</li>
+                </ul>
+            </div>
+            <p>La ISO 20000 te da el marco para medir y exigir al proveedor el cumplimiento de los **Acuerdos de Nivel de Servicio (ANS)** pactados en el contrato.</p>
+        </section>
+
+        <section id="auditoria">
+            <h2>4. Auditoría, Trazabilidad y el SoA (El Blindaje Legal)</h2>
+            <p>Para los entes de control, **la evidencia es la única defensa**.</p>
+
+            <div class="concepto-clave">
+                <h4>Statement of Applicability (SoA) - Declaración de Aplicabilidad</h4>
+                <p>Es el documento más importante del SGSI (ISO 27001). Demuestra que la entidad analizó los controles de seguridad y justificó cuáles aplica y cuáles no. Es el mapa que usa el auditor.</p>
+            </div>
+            
+            <p><strong>La Trazabilidad de la Evidencia (Defensa del Funcionario):</strong></p>
+            <ul>
+                <li><strong>Debe demostrar:</strong> Que las políticas (papel) se cumplen en la práctica (logs, actas).</li>
+                <li><strong>Cadena de la Evidencia:</strong> Norma → Documento Interno (SoA, Política) → Registros (Logs, Tickets, Actas de Comité).</li>
+                <li><strong>Ejemplo:</strong> No solo muestres la política de control de cambios; muestra el **Acta del Comité de Cambios** (para la decisión de Gobierno) y la trazabilidad en el software de desarrollo (para la ejecución).</li>
+            </ul>
+
+            <div class="alerta-seguridad">
+                <h4>🚨 Trampa Final: La Documentación es Obligatoria</h4>
+                <p>Un SGSI con controles técnicos implementados, pero sin SoA, sin Actas de Comité de Seguridad y sin registros de incidentes, es un **SGSI fallido** ante una auditoría. No se puede demostrar el cumplimiento, lo que puede generar hallazgos de Contraloría.</p>
+            </div>
+        </section>
+
+        <hr> 
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btnVolverMenu" class="boton-navegacion">← Volver al Menú Principal</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;" id="interfaz-inicio">
+            <h2>Simulacro de Normas de Informática</h2>
+            <p>Evalúa tu capacidad para aplicar estándares internacionales en un entorno público.</p>
+            <div id="cronometro" style="font-size: 1.5rem; margin-bottom: 10px; color: #4A90E2; display: none;">
+                Tiempo: 00:00:00
+            </div>
+            <button id="btnSimulacro" class="boton-simulacro">Empezar Simulacro</button>
+        </div>
+
+        <div id="simulacroContainer" style="display: none; margin-top: 20px;">
+            <div id="preguntaContainer"></div>
+            <div id="retroalimentacion" style="margin-top: 20px; padding: 15px; border-radius: 5px; display: none;"></div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btnSiguiente" class="boton-simulacro" style="display: none;">Siguiente Pregunta (1/20) →</button>
+            </div>
+            <div id="reporteFinal" style="display: none; margin-top: 30px;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+    <script>
+        document.getElementById("btnVolverMenuSuperior").addEventListener("click", function() {
+            location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>

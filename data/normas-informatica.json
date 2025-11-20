@@ -1,0 +1,1045 @@
+{
+    "preguntas": [
+        {
+            "codigo": "NORM-01",
+            "pregunta": "Según la ISO/IEC 27001, usted está evaluando el riesgo de que un atacante cambie las notas de un estudiante en el sistema académico. ¿Qué pilar de la seguridad está principalmente en riesgo?",
+            "opciones": [
+                "a) Confidencialidad.",
+                "b) Integridad.",
+                "c) Disponibilidad."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La Integridad se refiere a proteger la exactitud, completitud y no modificación no autorizada de la información. El cambio de notas viola la Integridad."
+        },
+        {
+            "codigo": "NORM-02",
+            "pregunta": "El área de Soporte Técnico necesita formalizar el proceso para resolver incidentes y gestionar sus Acuerdos de Nivel de Servicio (ANS). ¿Qué norma internacional ofrece el marco más adecuado para este propósito?",
+            "opciones": [
+                "a) ISO/IEC 27001.",
+                "b) ISO/IEC 20000.",
+                "c) ISO 9001."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La ISO/IEC 20000 es la norma específica para Sistemas de Gestión de Servicios de TI (SGST), que cubre la Mesa de Ayuda, ANS y gestión de incidentes y problemas (alineada con ITIL)."
+        },
+        {
+            "codigo": "NORM-03",
+            "pregunta": "El MSPI (Modelo de Seguridad y Privacidad de la Información) del Estado Colombiano se basa principalmente en qué estándar internacional para la gestión de seguridad:",
+            "opciones": [
+                "a) ISO 9001.",
+                "b) ISO/IEC 27001.",
+                "c) ITIL."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El MSPI toma la estructura y principios de la ISO/IEC 27001, adaptándolos a los requerimientos normativos y de seguridad del Estado Colombiano."
+        },
+        {
+            "codigo": "NORM-04",
+            "pregunta": "En el contexto de las Normas de Informática, la creación de un DRP (Plan de Recuperación ante Desastres) para el Data Center de la universidad está directamente relacionada con garantizar el pilar de:",
+            "opciones": [
+                "a) Confidencialidad.",
+                "b) Integridad.",
+                "c) Disponibilidad."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "El DRP tiene como objetivo principal asegurar la continuidad de los servicios críticos, lo cual es la definición de la Disponibilidad."
+        },
+
+        {
+      "codigo": "NORM-01",
+      "pregunta": "Caso: El servidor DNS primario de la I.U. Pascual Bravo sufre una falla catastrófica (violación del pilar de Disponibilidad). La única forma de restablecer el servicio en menos de 30 minutos (cumpliendo el ANS de emergencia) es restaurar el último backup sin realizar la verificación de integridad (checksum) requerida por el control A.12.1.2 de ISO 27001. ¿Cuál es la acción correcta?",
+      "opciones": [
+        "a) Restaurar el servicio inmediatamente sin verificar el checksum para cumplir el ANS y restaurar la Disponibilidad, y luego programar la verificación en un mantenimiento posterior.",
+        "b) Negarse a restaurar hasta que el proceso de verificación de Integridad (checksum) se complete, asumiendo la violación del ANS, pero protegiendo la calidad de la información.",
+        "c) Restaurar el servicio invocando el procedimiento de 'Gestión de Incidentes Críticos', pero documentando el riesgo de Integridad asumido y notificando al CISO y al Comité de Cambios (CAB) para su validación de emergencia."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Conflicto C-I-D: En emergencia crítica, se prioriza restaurar la Disponibilidad, pero la acción no puede ser arbitraria. La opción C es la única que respeta el marco SGSI (ISO 27001 A.16.1.7) al usar un procedimiento formal de emergencia, registrando el riesgo (Integridad) y manteniendo la trazabilidad ante el Gobierno de TI (CAB), evitando una falta disciplinaria."
+    },
+    {
+      "codigo": "NORM-02",
+      "pregunta": "Usted detecta que un ciberataque expuso temporalmente 500 registros de estudiantes, incluyendo sus números de cédula, aunque no hubo robo de información. El Comité de Comunicaciones pide no reportar el incidente a la SIC para evitar la mala imagen institucional. Según el MSPI (Decreto 1078) y la Ley 1581, ¿qué debe hacer?",
+      "opciones": [
+        "a) Acatar la orden del Comité de Comunicaciones para proteger la imagen, documentando el incidente internamente en la matriz de riesgos de TI.",
+        "b) Notificar obligatoriamente a la Superintendencia de Industria y Comercio (SIC) y a los titulares de los datos afectados, ya que el reporte es un mandato legal del MSPI, que prima sobre la imagen pública de la entidad.",
+        "c) Solo notificar a los titulares afectados, sin involucrar a la SIC, para mantener el control interno del proceso."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Obligación Legal (MSPI y Ley 1581): La notificación de incidentes de seguridad que afecten datos personales a la SIC es obligatoria. No es opcional ni delegable al criterio de imagen. Omitir este reporte es una violación directa al régimen de protección de datos."
+    },
+    {
+      "codigo": "NORM-03",
+      "pregunta": "El control ISO 27001 A.11.1.2 exige proteger físicamente las áreas seguras. La puerta del Data Center tiene un control de acceso biométrico que falla frecuentemente. Para no molestar a los técnicos, el CISO ordena pegar una hoja de papel con el código de acceso de contingencia en la puerta. ¿Cuál es el riesgo de cumplimiento más alto?",
+      "opciones": [
+        "a) Riesgo de incumplimiento del pilar de Disponibilidad, ya que el sistema biométrico sigue fallando.",
+        "b) Riesgo de incumplimiento del pilar de Integridad, al comprometer la seguridad física del activo más crítico y anular el control de acceso biométrico por un método de baja seguridad (Controles Físicos y Lógicos).",
+        "c) Riesgo de incumplimiento del A.12 (Operaciones) por usar papel en un ambiente sin papel."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "ISO 27001 A.11.1.2 (Seguridad Física): La opción anula totalmente el control lógico y físico, comprometiendo la Integridad y Confidencialidad de la información alojada en el centro de datos. La disponibilidad es solo una molestia, la Integridad es una vulnerabilidad catastrófica."
+    },
+    {
+      "codigo": "NORM-04",
+      "pregunta": "Un incidente recurrente (el servicio de impresión falla cada lunes por la mañana) genera una alta tasa de incumplimiento del ANS. Usted, como Coordinador Técnico, se enfoca en restaurar el servicio rápidamente cada lunes. Según la ISO 20000 (Gestión de Servicios), ¿qué proceso se está descuidando, poniendo en riesgo la calidad?",
+      "opciones": [
+        "a) Gestión del Alcance, por permitir que el incidente ocurra fuera del horario de soporte.",
+        "b) Gestión de Problemas. Al enfocarse solo en la Gestión de Incidentes (restaurar rápido), se descuida el análisis de la Causa Raíz para evitar la recurrencia, lo cual es vital para sostener el ANS a largo plazo.",
+        "c) Gestión de Activos, por no comprar una impresora nueva."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "ISO 20000/ITIL: El enfoque es pasar de la reactividad a la proactividad. La Gestión de Incidentes (reactiva) es restaurar. La Gestión de Problemas (proactiva) es evitar la recurrencia. Desatender Problemas garantiza que el ANS se siga incumpliendo."
+    },
+    {
+      "codigo": "NORM-05",
+      "pregunta": "El Departamento de Admisiones quiere usar los correos personales de los aspirantes recopilados en el sistema para enviar publicidad de cursos de extensión. Este uso no estaba explícitamente descrito en el 'Aviso de Privacidad' inicial. ¿Cuál es la obligación inmediata según el MSPI y la Ley 1581?",
+      "opciones": [
+        "a) Permitir el uso, ya que el correo es un dato semiprivado y no requiere autorización específica.",
+        "b) Actualizar el Aviso de Privacidad e iniciar un nuevo proceso para obtener el consentimiento explícito y separado de los titulares para la nueva finalidad de marketing, antes de enviar cualquier correo.",
+        "c) Solo enviar un correo masivo informando del nuevo uso, sin pedir consentimiento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Principios de Privacidad: La Ley 1581 exige el **Consentimiento Explícito, Previo e Informado** para cada finalidad del tratamiento del dato. Usar un dato para marketing cuando se recolectó para matrícula requiere una nueva autorización."
+    },
+    {
+      "codigo": "NORM-06",
+      "pregunta": "Usted debe firmar el Statement of Applicability (SoA) del SGSI. En la sección A.12 (Operaciones) se encuentra el control 'Separación de tareas'. Su equipo es pequeño y el mismo técnico gestiona el Firewall y la Base de Datos. ¿Cómo debe proceder?",
+      "opciones": [
+        "a) Marcar el control como 'No Aplicable' y justificar que el tamaño de la I.U. no permite la segregación.",
+        "b) Marcar el control como 'Aplicable' y documentar un control compensatorio (ej. Revisión de Logs por parte de un tercero o Control Interno) y registrar el riesgo residual en la Matriz de Riesgos.",
+        "c) Marcar el control como 'Cumplido' y esperar que el auditor no lo revise."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "SoA y Control Compensatorio: La ISO 27001 exige demostrar que se gestionó el riesgo. Si la segregación es inviable, se debe implementar un control alternativo (compensatorio) que mitigue el riesgo inherente (fraude, error). Marcar como 'No Aplicable' es válido solo si el control no tiene sentido para la entidad."
+    },
+    {
+      "codigo": "NORM-07",
+      "pregunta": "El contrato de soporte de su sistema ERP está por vencer. El proveedor anterior cumplió el ANS, pero su proceso de Gestión de Incidentes era muy lento. En el nuevo pliego de condiciones, ¿qué debe exigir además del SLA (Disponibilidad)?",
+      "opciones": [
+        "a) Exigir una cláusula que obligue al nuevo proveedor a usar una herramienta específica de Service Desk (ej. Jira), para estandarizar el proceso.",
+        "b) Exigir que el proveedor demuestre la adopción de los procesos de la ISO 20000 (ej. Gestión de Incidente y Problemas) y defina un OLA (Acuerdo de Nivel Operacional) interno que garantice el cumplimiento del ANS.",
+        "c) Exigir que el proveedor solo use personal de planta, no contratistas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Calidad en Contratación: La ISO 20000 no exige una herramienta específica, sino procesos. Exigir la adopción de la ISO 20000 o ITIL garantiza que el proveedor tiene la capacidad procesal para cumplir con el ANS (Disponibilidad) y evitar la recurrencia de fallas (Problemas)."
+    },
+    {
+      "codigo": "NORM-08",
+      "pregunta": "Usted está creando el Plan de Continuidad del Negocio (BCP). El Director Financiero solo quiere incluir el sistema de Nómina y el de Tesorería, argumentando que el resto de los sistemas (ej. LMS, Biblioteca) no son críticos. ¿Cuál es su deber como Auditor SGSI?",
+      "opciones": [
+        "a) Aceptar la decisión, pues la crítica del negocio (BCP) le corresponde al dueño del proceso (Financiero).",
+        "b) Exigir que se realice un Análisis de Impacto al Negocio (BIA) formal, involucrando a la Alta Dirección, para identificar todos los procesos misionales (Académicos, Investigativos) cuya interrupción afecta a la misión de la I.U., sin limitarse solo a lo financiero.",
+        "c) Incluir todos los sistemas para evitar riesgos futuros."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "BCP y BIA: El BCP es una estrategia de Gobierno que se basa en el BIA. La Financiera no es el único proceso crítico de una universidad. La falla del LMS o de la matrícula afecta directamente la misión. El BIA debe ser transversal y aprobado por la Alta Dirección."
+    },
+    {
+      "codigo": "NORM-09",
+      "pregunta": "Se necesita crear una cuenta de correo genérica para el equipo de trabajo (ej. 'soporte@pascualbravo.edu.co') para facilitar la rotación de turnos. ¿Qué principio de la seguridad y el control de accesos se compromete?",
+      "opciones": [
+        "a) Disponibilidad, porque si hay muchos correos, el buzón se llena.",
+        "b) No Repudio y Trazabilidad. Las cuentas genéricas impiden saber qué persona realizó una acción específica (ej. borró un archivo o respondió a un PQR), lo cual es una violación directa al control A.9.2 de ISO 27001.",
+        "c) Integridad, porque varios pueden escribir el mismo correo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Identificación y Autenticación: En SGSI, la identidad debe ser única. El No Repudio garantiza que una persona no pueda negar haber realizado una acción. Se deben usar buzones compartidos o listas de distribución, pero la autenticación siempre debe ser individual."
+    },
+    {
+      "codigo": "NORM-10",
+      "pregunta": "Durante la implementación del PETI, el presupuesto no alcanza para comprar la herramienta de *Vulnerability Assessment* anual obligatoria en el MSPI. El CFO sugiere usar una herramienta gratuita (Open Source) y auditarla solo una vez cada dos años. ¿Cuál es el riesgo de cumplimiento asociado?",
+      "opciones": [
+        "a) Riesgo de incumplimiento al control A.18.2.3 de ISO 27001 (Cumplimiento legal y regulatorio), ya que el MSPI exige la evaluación periódica de vulnerabilidades.",
+        "b) Riesgo de incumplimiento al pilar de Confidencialidad, porque el software Open Source es inseguro por definición.",
+        "c) Riesgo de incumplimiento al pilar de Integridad, por usar herramientas no licenciadas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Cumplimiento Legal (A.18): El MSPI es mandatorio. El problema no es el costo o el tipo de software (el software libre puede ser seguro), sino la periodicidad y la obligatoriedad del control. La frecuencia de la evaluación es un requisito de cumplimiento que el Gobierno debe financiar."
+    },
+    {
+      "codigo": "NORM-11",
+      "pregunta": "Un técnico del área de Infraestructura requiere acceso de administrador a un servidor crítico. El manual de control de acceso exige la firma del Supervisor y del Oficial de Seguridad, pero ambos están de vacaciones. El jefe de TI le pide a usted que le dé el acceso para evitar la demora. ¿Cuál es su acción?",
+      "opciones": [
+        "a) Otorgar el acceso y documentarlo en el log, esperando la aprobación a la vuelta de vacaciones (Disponibilidad Operativa).",
+        "b) Negar el acceso. La política de control de accesos (A.9) es una regla de seguridad inquebrantable que protege la Integridad del activo. Se debe usar el procedimiento de contingencia (ej. CISO alterno o acceso temporal limitado por el Supervisor subrogado).",
+        "c) Darle solo acceso de lectura al técnico, para que no pueda dañar nada."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Principio de Confidencialidad/Integridad: Los controles de acceso son la línea de defensa. No se pueden saltar, incluso por urgencia. Se debe usar el procedimiento de contingencia definido en la política de SGSI. El acceso temporal limitado (Opción C) sigue siendo una violación si no está autorizado formalmente."
+    },
+    {
+      "codigo": "NORM-12",
+      "pregunta": "La Política de Escritorio Limpio (ISO 27001 A.11.2.9) prohíbe dejar información clasificada a la vista. Un docente deja información de pagos en su escritorio. ¿Cuál es la acción SGSI más adecuada para la entidad?",
+      "opciones": [
+        "a) Esperar que el docente la recoja y recordarle la política.",
+        "b) Iniciar un proceso de sensibilización a través del CISO, demostrando con fotos el riesgo asociado, y si es recurrente, notificar a Talento Humano para iniciar el proceso disciplinario por incumplimiento de la política SGSI.",
+        "c) Recoger la información y botarla a la basura para que nadie la vea."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Sensibilización y Consecuencias: La seguridad es responsabilidad de todos. El control A.7 exige concienciación. Si la política existe, el incumplimiento debe tener una consecuencia formal. La Opción B equilibra la Gestión del Cambio con la aplicación del régimen disciplinario."
+    },
+    {
+      "codigo": "NORM-13",
+      "pregunta": "Usted está evaluando la DRP (Disaster Recovery Plan) del ERP. La documentación técnica es perfecta, pero no se menciona cómo los usuarios funcionales de Contabilidad seguirían procesando pagos mientras el sistema vuelve a la normalidad. ¿Qué plan falta?",
+      "opciones": [
+        "a) Falta el Plan de Pruebas y Simulacros.",
+        "b) Falta el Plan de Continuidad del Negocio (BCP). La DRP solo cubre la tecnología; el BCP cubre los procesos del negocio, la gente y la operación manual o alterna durante la contingencia.",
+        "c) Falta el Plan de Gestión de Activos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Continuidad: DRP (Tecnología) y BCP (Negocio) son complementarios. Una entidad pública requiere BCP para demostrar resiliencia organizacional (A.17). La Contraloría te sancionará por no tener BCP, aunque la DRP sea perfecta."
+    },
+    {
+      "codigo": "NORM-14",
+      "pregunta": "El reporte de Controles de Seguridad debe ser cargado al FURAG (MSPI) antes de las 5:00 p.m. El sistema de monitoreo de TI deja de funcionar a las 4:30 p.m. Usted tiene los datos en un Excel parcial. ¿Qué hace?",
+      "opciones": [
+        "a) Cargar los datos parciales o estimados en el FURAG antes de las 5:00 p.m., priorizando el cumplimiento del plazo de reporte sobre la calidad del dato (Disponibilidad de la Información).",
+        "b) No cargar nada, notificar inmediatamente la falla del sistema a MinTIC y esperar la prórroga, priorizando la Integridad del dato reportado.",
+        "c) Cargar el reporte con los datos que tenga, y al día siguiente, cargar una corrección con todos los datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad del Dato Público: El FURAG es un documento oficial. Cargar información errónea o incompleta es una violación a la Integridad y puede ser causal de sanción por inexactitud. Es preferible notificar el impedimento formal (fuerza mayor) que cargar datos falsos o incompletos."
+    },
+    {
+      "codigo": "NORM-15",
+      "pregunta": "En el marco de la ISO 27001 (A.14.2.1), se exige que el software desarrollado a la medida tenga políticas de 'Aceptación de la Seguridad'. ¿Qué implica esto?",
+      "opciones": [
+        "a) Que el software se pruebe en el ambiente de producción antes de su uso.",
+        "b) Que las pruebas funcionales incluyan un ciclo de Pruebas de Seguridad y Hacking Ético (Análisis de Vulnerabilidades), y que el resultado de estas pruebas sea firmado por el CISO como requisito para el recibido a satisfacción.",
+        "c) Que el código fuente del software se almacene en una caja fuerte."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Desarrollo Seguro: La aceptación de seguridad es un requisito formal. Implica que el software no solo funciona, sino que es seguro. Esto se verifica mediante Pruebas de Seguridad obligatorias (Testing de Seguridad) antes de la entrada en producción (A.14.2.8)."
+    },
+
+    {
+      "codigo": "NORM-16",
+      "pregunta": "Caso: La Contraloría General solicita la bitácora de acceso (logs) a la base de datos de Tesorería de los últimos 6 meses. La política de retención de logs de la I.U. (aprobada por el Comité de Seguridad) solo exige guardar los logs de acceso por 3 meses para ahorrar espacio de almacenamiento. ¿Cuál es el riesgo de cumplimiento principal en este escenario?",
+      "opciones": [
+        "a) Incumplimiento del pilar de Disponibilidad, por la sobrecarga del almacenamiento de logs antiguos.",
+        "b) Incumplimiento del requisito legal y regulatorio (ISO 27001 A.18.1.1), ya que la retención de documentos y logs debe ajustarse al plazo exigido por los entes de control (Archivo General) y no a la política de TI interna.",
+        "c) Incumplimiento del pilar de Confidencialidad, porque los logs no fueron cifrados después de 3 meses."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Retención de Registros: La ISO 27001 exige cumplir con los requisitos legales (MSPI, Ley de Archivo, Contraloría). Los entes de control exigen logs y registros por plazos superiores a la operación técnica. La política interna de TI es insuficiente si choca con un mandato legal, lo cual es una falla grave de gobernanza y cumplimiento."
+    },
+    {
+      "codigo": "NORM-17",
+      "pregunta": "Usted debe dar de baja varios discos duros que contienen datos personales. El método de borrado seguro (DOD 5220.22-M) toma 48 horas por disco, retrasando la chatarrización de activos. El Jefe de Almacén pide usar el formateo rápido (Quick Format) para liberar el inventario. ¿Cuál es la acción SGSI obligatoria?",
+      "opciones": [
+        "a) Usar el formateo rápido y luego firmar un acta de descargo asumiendo la responsabilidad del riesgo de Confidencialidad.",
+        "b) Aplicar el procedimiento de borrado seguro completo (A.11.2.7) y notificar al Jefe de Almacén que la preservación de la Confidencialidad de los datos personales prima sobre la eficiencia del inventario.",
+        "c) Retirar el contrato al proveedor de chatarrización por incumplimiento en los tiempos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Borrado Seguro (A.11.2.7): La confidencialidad es crítica. Un formateo rápido no es suficiente para la eliminación de datos sensibles. El MSPI/ISO exige un borrado irrecuperable. La decisión correcta prioriza el pilar de la C-I-D sobre la presión operativa o financiera."
+    },
+    {
+      "codigo": "NORM-18",
+      "pregunta": "Se está planeando la contratación de la Interventoría para el proyecto de nuevo Data Center. El pliego de condiciones establece el perfil del Interventor, pero no el del Supervisor (Usted). ¿Cuál es la implicación legal de esto?",
+      "opciones": [
+        "a) No hay problema, el Supervisor es de planta y no requiere pliego.",
+        "b) Es una falla grave. El Supervisor tiene responsabilidades legales y fiscales ineludibles. Su perfil, experiencia y las funciones específicas de vigilancia deben estar claramente definidas en el Manual de Funciones y el estudio previo al contrato para evitar extralimitación de funciones.",
+        "c) El Interventor de sistemas automáticamente asume las funciones del Supervisor."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Roles Públicos y Ley 80: El perfil del Supervisor debe estar claro para justificar la idoneidad y evitar la indebida delegación de funciones de vigilancia al interventor. El cargo está en el Manual, pero el alcance de la supervisión debe ser congruente con la complejidad del proyecto."
+    },
+    {
+      "codigo": "NORM-19",
+      "pregunta": "Auditoría de Acceso Lógico: El control ISO A.9.4.1 (Seguridad en el Uso de Contraseñas) exige el cambio periódico. El sistema de nómina no permite a los usuarios cambiar su contraseña hasta 6 meses después. ¿El control es cumplido?",
+      "opciones": [
+        "a) Sí, 6 meses es un periodo razonable para un usuario de planta.",
+        "b) No. El control no se cumple. El control debe ser aplicado por el sistema (forzado) según la política de seguridad y no por la voluntad del usuario, ni puede estar limitado por la tecnología del sistema legado.",
+        "c) Sí, siempre y cuando la política de seguridad permita el cambio manual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Acceso (A.9): La seguridad se debe 'forzar' técnicamente. Si el sistema de nómina no cumple con la política de seguridad (ej. 90 días), el control falla. La respuesta correcta implica que el control debe ser implementado y no solo declarado."
+    },
+    {
+      "codigo": "NORM-20",
+      "pregunta": "Un ciberataque tumba la red y expone información clasificada. El DRP (Plan de Recuperación de Desastres) funciona perfectamente y restaura el servicio en 2 horas. La Contraloría investiga el incidente. ¿Cuál es la conclusión SGSI sobre el ataque?",
+      "opciones": [
+        "a) Falló el pilar de Disponibilidad, pero la DRP mitigó el riesgo exitosamente.",
+        "b) Falló el pilar de Confidencialidad e Integridad. El DRP se enfoca en la Disponibilidad, pero el hecho de que la información haya sido expuesta demuestra una brecha en los controles de prevención de C-I.",
+        "c) El SGSI no falló, fue un ataque externo inevitable."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Enfoque CID: La DRP solo salva la Disponibilidad. Si hubo exposición de datos clasificados, los controles de Confidencialidad y/o Integridad fallaron. El SGSI debe prevenir los tres pilares. La sanción de la Contraloría se centrará en la falla de prevención."
+    },
+    {
+      "codigo": "NORM-21",
+      "pregunta": "En un proyecto de desarrollo ágil, el equipo prioriza entregar funcionalidades y pospone la documentación técnica (manuales de arquitectura, diagramas de clases, etc.) para el final. ¿Cuál es el riesgo de cumplimiento de ISO 27001 que se incrementa?",
+      "opciones": [
+        "a) El riesgo de que el proyecto no cumpla el ANS.",
+        "b) El riesgo de Continuidad del Negocio (A.17) y Transferencia de Conocimiento. Si el equipo renuncia, la entidad no puede operar ni mantener el sistema, violando la documentación necesaria para la Auditoría.",
+        "c) El riesgo de que el código fuente no sea legible."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Transferencia de Conocimiento: En el sector público, la documentación es parte del activo. Si no se documenta incrementalmente, se genera 'deuda de conocimiento', haciendo que el sistema sea inmantible, violando el control A.12.7 (Capacidad de Gestión de Cambios)."
+    },
+    {
+      "codigo": "NORM-22",
+      "pregunta": "La Política de Control de Acceso (A.9) de la I.U. exige la revisión trimestral de los permisos de los usuarios. Usted está saturado y solo puede revisar los permisos de los directivos. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Revisar solo a los directivos, ya que son los que manejan los datos más sensibles (Análisis de Criticidad).",
+        "b) Documentar formalmente la imposibilidad de cumplimiento y solicitar recursos adicionales para automatizar la revisión, pero sin saltarse la política, ya que el SGSI exige la revisión de *todos* los accesos.",
+        "c) Revisar el 10% de los usuarios por sorteo para cumplir formalmente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Revisión de Accesos (A.9.2.5): La política de revisión es un control clave para prevenir fraudes. Si no se puede cumplir, se debe registrar el incumplimiento (riesgo de auditoría) y pedir la solución de fondo (recursos/automatización), pero no hacer un cumplimiento parcial (muestreo) que no está autorizado en la política."
+    },
+    {
+      "codigo": "NORM-23",
+      "pregunta": "Usted detecta que un proveedor de servicios de Aseo tiene un usuario y clave genérica para acceder al Data Center fuera de horario, lo cual viola el A.9.4.4. ¿Cuál es la medida de cumplimiento obligatoria?",
+      "opciones": [
+        "a) Dejar de usar el servicio de Aseo en el Data Center.",
+        "b) Exigir que el proveedor cree una cuenta de acceso individualizada para cada operario, y que cada acceso esté ligado a una matriz de responsabilidad y trazabilidad, cumpliendo la política de Identificación Única (No Repudio).",
+        "c) Limitar el horario de acceso al Data Center del personal de Aseo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "A.9.4.4 (Uso de Secretos): Los accesos genéricos anulan la trazabilidad. La solución no es eliminar el servicio, sino garantizar que los usuarios externos (A.9.2.2) cumplan la política de accesos individuales, tal como lo exige el MSPI."
+    },
+    {
+      "codigo": "NORM-24",
+      "pregunta": "Se está implementando un software de seguridad que requiere un alto ancho de banda para su monitoreo. El presupuesto de internet de la I.U. es fijo. El uso del software de seguridad ralentizará el acceso de los estudiantes al LMS. ¿Qué pilar de seguridad de la información está en conflicto directo con la implementación de un control?",
+      "opciones": [
+        "a) Integridad.",
+        "b) Confidencialidad.",
+        "c) Disponibilidad."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Disponibilidad: El control de seguridad (monitoreo/firewall) está consumiendo recursos vitales para la misión (el LMS). Esto pone en riesgo la capacidad de los usuarios autorizados de acceder a los servicios cuando lo necesiten (Disponibilidad), lo que obliga a revisar el balance costo-seguridad."
+    },
+    {
+      "codigo": "NORM-25",
+      "pregunta": "Usted recibe un correo con un archivo adjunto que contiene un virus. La política de seguridad exige reportar el incidente al CISO y al área de Gestión de Incidentes. ¿Cuál es la acción SGSI que debe ejecutar inmediatamente antes de reportar?",
+      "opciones": [
+        "a) Reenviar el correo al CISO para que él lo revise y confirme el virus.",
+        "b) Aislar el equipo de la red (desconectar el cable/Wi-Fi) para contener la amenaza y evitar la propagación (Contención del Incidente, A.16.1.7).",
+        "c) Abrir el archivo en un ambiente virtual (sandbox) para analizar el tipo de virus."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Incidentes: La Contención es la fase inicial y más crítica. Antes de analizar o reportar, el primer deber es evitar que el incidente se propague (Disponibilidad / Integridad de la red)."
+    },
+    {
+      "codigo": "NORM-26",
+      "pregunta": "El área de Planeación le pide a usted los datos de ausentismo laboral del personal de TI para un reporte de Gestión del Talento Humano. El reporte de ausentismo puede considerarse 'Dato Sensible' (ej. incapacidades médicas). ¿Qué control de la ISO 27001 debe revisar antes de entregar la información?",
+      "opciones": [
+        "a) A.18.1.4 (Privacidad y Protección de Información de Identificación Personal).",
+        "b) A.13.2.1 (Intercambio de información y acuerdos).",
+        "c) A.11.2.6 (Seguridad en equipos)."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Privacidad (A.18.1.4): La entrega de datos sensibles dentro de la entidad debe estar regida por la necesidad de conocer (Need-to-know) y los límites de la Ley 1581. Antes de entregar, debe validar que el área de Planeación esté autorizada para tratar datos sensibles de salud."
+    },
+    {
+      "codigo": "NORM-27",
+      "pregunta": "Un funcionario de la I.U. usa su dispositivo personal (BYOD) para acceder al correo institucional. La política de la I.U. no cubre BYOD. ¿Cuál es el riesgo de cumplimiento de ISO 27001?",
+      "opciones": [
+        "a) Violación del A.12.2.1 (Control de Cambios), porque no se usó equipo institucional.",
+        "b) Violación del A.6.2.2 (Dispositivos Móviles y Teletrabajo) y del A.14.2.1 (Requisitos de Seguridad), ya que la entidad no tiene control sobre la seguridad, el antivirus o la fuga de información del dispositivo personal.",
+        "c) Es una buena práctica porque ahorra costos de hardware a la I.U."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "A.6.2.2 (Teletrabajo y BYOD): La ISO exige controles específicos para los dispositivos que acceden a la red corporativa. Si no hay política BYOD, la entidad está expuesta a malware y pérdida de datos institucionales."
+    },
+    {
+      "codigo": "NORM-28",
+      "pregunta": "El software de nómina fue desarrollado por un proveedor externo. El contrato ya se liquidó hace 6 meses. La SIC impone una nueva regla de reporte. El desarrollador original se niega a actualizar el software sin un nuevo contrato. ¿Qué control SGSI debería haber garantizado esta actualización?",
+      "opciones": [
+        "a) A.13.2.2 (Acuerdos de Intercambio de Información).",
+        "b) A.14.2.9 (Requisitos de Seguridad de Aplicaciones) y A.15.2.1 (Gestión de Servicios de Terceros), que deben exigir una cláusula de soporte y garantía post-liquidación para cambios normativos obligatorios.",
+        "c) A.9.1.2 (Acceso a la Red)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Acuerdos de Terceros: El control A.15 exige que los contratos incluyan cláusulas de continuidad y soporte por cambios regulatorios para proteger el activo (el software). Si no se incluyó, es un fallo de la gestión de proveedores."
+    },
+    {
+      "codigo": "NORM-29",
+      "pregunta": "El Comité de Seguridad aprueba el uso de Software Libre (Open Source) para el firewall perimetral. ¿Cuál es el riesgo de cumplimiento ISO 27001 que debe mitigar con mayor urgencia, diferente al licenciamiento?",
+      "opciones": [
+        "a) A.12.1.2 (Cambio de Control) y A.18.1.3 (Derechos de Propiedad Intelectual), asegurando que se cumplan las condiciones de la licencia GPL y que la I.U. no infrinja derechos de autor al modificar el código.",
+        "b) A.13.2.1 (Intercambio de Información) por ser software no soportado.",
+        "c) A.11.2.5 (Retiro de Activos) por ser código abierto."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Riesgo Legal y Licenciamiento: El software libre tiene licencias (GPL/MIT) que obligan a compartir modificaciones. El SGSI debe garantizar que el uso de OSS no genere demandas de propiedad intelectual ni comprometa el código propietario de la entidad."
+    },
+    {
+      "codigo": "NORM-30",
+      "pregunta": "La Política de Teletrabajo permite a los funcionarios acceder a la red interna desde sus casas. ¿Qué elemento SGSI debe existir para mitigar el riesgo de incumplimiento del pilar de Integridad desde el exterior?",
+      "opciones": [
+        "a) Una Póliza de Ciberseguridad que cubra el equipo personal del funcionario.",
+        "b) El uso obligatorio de una VPN con autenticación multifactor (MFA) que garantice la identidad y el cifrado de las comunicaciones (A.13.2.2), cumpliendo la política de Gobierno Digital.",
+        "c) La obligación de que el funcionario solo use computadores Windows, por ser más seguros."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad de las Comunicaciones: El acceso remoto (A.13) es un punto de riesgo alto. El MFA garantiza la identidad (Confidencialidad) y la VPN garantiza el cifrado y la Integridad del canal de comunicación. Es la solución técnica/normativa estándar en el MSPI."
+    },
+
+    {
+      "codigo": "NORM-01",
+      "pregunta": "Durante el pico de matrículas en línea, el sistema académico empieza a rechazar inscripciones por un error en la tabla de cupos. El proveedor propone conectarse remotamente a la base de datos en producción y modificar directamente algunos registros sin seguir el procedimiento de cambios, para \"no frenar el proceso\". El SGSI está basado en ISO 27001 y el MSPI, e incluye controles formales para la Integridad de la información y gestión de cambios. ¿Qué debería hacer usted como Profesional Especializado responsable de TI?",
+      "opciones": [
+        "a) Autorizar la modificación directa en la base de datos solo por esta vez, documentando en un correo que fue una excepción operativa por urgencia, y luego ajustar el procedimiento de cambios.",
+        "b) Exigir que cualquier ajuste se haga mediante el procedimiento formal de cambios (pruebas en ambiente de ensayo y aprobación), incluso si implica manejar un plan de contingencia temporal para las matrículas mientras se aplica la corrección.",
+        "c) Permitir al proveedor modificar directamente la base de datos en producción, siempre que un DBA interno supervise la sesión, sin activar el procedimiento de cambios para no retrasar el periodo de matrícula."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene la Integridad de la información según ISO 27001 y los lineamientos del MSPI, exigiendo gestión formal de cambios aun en escenarios de urgencia y complementando con un plan de contingencia. Las opciones a) y c) priorizan disponibilidad inmediata sacrificando controles de integridad y trazabilidad, dejando el cambio crítico fuera del procedimiento de SGSI."
+    },
+    {
+      "codigo": "NORM-02",
+      "pregunta": "En la revisión anual del Statement of Applicability (SoA) del SGSI, la alta dirección le solicita que elimine del alcance ciertos controles de seguridad física del centro de datos porque \"encarecen la auditoría\" y el proveedor de hosting ya tiene sus certificaciones. Usted sabe que el análisis de riesgos identifica la sala de servidores como activo crítico. ¿Cuál decisión es más adecuada?",
+      "opciones": [
+        "a) Mantener los controles de seguridad física en el SoA, justificando su aplicabilidad por el análisis de riesgos, y revisar si algunos pueden ser cubiertos parcialmente por controles del proveedor sin excluirlos del documento.",
+        "b) Excluir completamente del SoA los controles de seguridad física del centro de datos, argumentando que el proveedor tiene certificaciones y anexando sus certificados como única evidencia de mitigación.",
+        "c) Eliminar del SoA los controles de seguridad física para que la auditoría sea más simple, pero conservar internamente algunos procedimientos sin declararlos en el alcance del SGSI."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El SoA debe reflejar de manera transparente qué controles son aplicables y cómo se implementan o delegan. La opción a) respeta el análisis de riesgos y mantiene la responsabilidad institucional, pudiendo aprovechar controles del proveedor sin excluirlos del SGSI. Las opciones b) y c) buscan reducir costo y complejidad recortando alcance o declarando menos controles de los realmente necesarios, debilitando la gobernanza y la evidencia de cumplimiento."
+    },
+    {
+      "codigo": "NORM-03",
+      "pregunta": "La entidad realizó hace años una certificación ISO 27001, pero desde entonces no ha actualizado el análisis de riesgos ni el MSPI. Ante un incidente reciente de fuga de información, la alta dirección quiere mostrar ante los entes de control que está cumpliendo con seguridad de la información, y le propone actualizar solo el certificado, sin invertir en ajustes al modelo MSPI ni en planes de tratamiento de riesgos. ¿Cuál es la mejor respuesta?",
+      "opciones": [
+        "a) Priorizar la actualización del certificado ISO 27001 sin tocar el MSPI, ya que el certificado es la principal evidencia ante terceros, y luego, cuando haya presupuesto, revisar el modelo interno.",
+        "b) Explicar que el cumplimiento real del SGSI se basa en un análisis de riesgos actualizado, planes de tratamiento y la implementación del MSPI; proponer primero actualizar riesgos y MSPI y, con esa base, considerar la certificación o recertificación.",
+        "c) Mantener el MSPI tal como está, pero preparar un informe detallado de controles existentes para presentarlo a los entes de control como evidencia alternativa al certificado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta al enfoque de gestión continua de riesgos de ISO 27001 y a los lineamientos del MSPI: primero se debe asegurar que el SGSI esté vivo, actualizado y efectivo; el certificado es consecuencia, no sustituto, del cumplimiento. La opción a) privilegia la apariencia formal sobre la realidad del sistema. La opción c) ignora la necesidad de actualizar riesgos y MSPI, limitándose a describir un estado posiblemente desalineado."
+    },
+    {
+      "codigo": "NORM-04",
+      "pregunta": "El contrato de servicios de TI establece ANS de disponibilidad del sistema académico del 99,5%. La infraestructura actual está muy ajustada y usted sabe, por monitoreo, que se está cumpliendo apenas por encima del umbral. La propuesta de un proveedor de almacenamiento redundante permitiría mejorar la continuidad y el DRP, pero implica un costo significativo. El área financiera sugiere no invertir y \"aceptar el riesgo\" sin documentarlo, ya que entre más alto sea el ANS, mayor es la exigencia al equipo TI. ¿Cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Aceptar informalmente el riesgo de no mejorar la infraestructura, manteniendo los ANS actuales sin realizar cambios en el DRP ni documentar la decisión, para evitar discusiones adicionales con los entes de control.",
+        "b) Presentar al Comité de Seguridad/TI un análisis formal de riesgo que incluya impacto sobre disponibilidad y continuidad, documentar la decisión (aceptación o tratamiento) y, si se decide no invertir, dejar explícita la aceptación del riesgo y sus justificaciones.",
+        "c) Reducir internamente el umbral de disponibilidad monitoreado, de forma que la infraestructura actual parezca sobredimensionada y no se vea la necesidad de inversión adicional."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue el enfoque de gestión de riesgos de ISO 27001/MSPI: se documenta el riesgo, se presenta a la instancia adecuada y la decisión (aceptar o tratar) queda registrada. Las opciones a) y c) tratan de esconder o maquillan el riesgo para evitar costos, pero dejan a la entidad sin trazabilidad ni sustento frente a incidentes o auditorías."
+    },
+    {
+      "codigo": "NORM-05",
+      "pregunta": "Se ha planificado una prueba del Plan de Continuidad de Negocio (BCP) para simular la caída total del sistema de matrículas en plena jornada, verificando procedimientos de contingencia. El Vicerrector Académico le pide suspender la prueba porque podría generar molestias a estudiantes y sugiere simular la prueba solo en documentos, firmando actas de cumplimiento sin interrumpir el sistema real. ¿Qué respuesta se alinea mejor con las buenas prácticas de continuidad?",
+      "opciones": [
+        "a) Mantener la prueba real, aunque sea en un escenario acotado, acordando con Académica un horario que reduzca impacto, dejando trazabilidad de resultados y mejoras requeridas.",
+        "b) Cambiar la prueba por un ejercicio exclusivamente de escritorio (revisión documental), firmando actas de cumplimiento sin ejecutar interrupciones técnicas, para evitar molestias a los usuarios.",
+        "c) Postergar indefinidamente la prueba real hasta encontrar un momento en que no haya ningún riesgo de afectación a usuarios, manteniendo mientras tanto solo un simulacro teórico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) busca un equilibrio responsable: ejecuta una prueba real, tal vez acotada, con participación de los actores y registro de resultados, lo que demuestra eficacia del BCP/DRP ante auditoría. Las opciones b) y c) evitan la validación real del plan, convirtiendo la continuidad en un ejercicio meramente documental que difícilmente responderá a una crisis real."
+    },
+    {
+      "codigo": "NORM-06",
+      "pregunta": "En el marco del MSPI, usted preparó un Plan de Tratamiento de Riesgos que incluye controles para limitar el acceso remoto de proveedores a los sistemas académicos. Un proveedor insiste en tener una cuenta genérica de administrador con acceso 24/7 para poder resolver incidentes rápidamente, argumentando que cualquier restricción adicional aumenta tiempos de respuesta y afecta los ANS. La alta dirección le pide \"flexibilizar\" este control para mejorar la eficiencia. ¿Qué opción es más adecuada?",
+      "opciones": [
+        "a) Mantener el control definido, ofreciendo al proveedor mecanismos de acceso remoto con autenticación fuerte, cuentas nominales y ventanas de mantenimiento acordadas, aunque implique ajustar procesos para cumplir ANS sin cuentas genéricas.",
+        "b) Conceder la cuenta genérica de administrador, pero anotar en el Plan de Tratamiento de Riesgos que se trata de una excepción operativa necesaria para proteger la disponibilidad del sistema.",
+        "c) Permitir la cuenta genérica solo durante los periodos de matrícula, sin controles adicionales, para que el proveedor pueda actuar con total libertad cuando más se requiere rapidez."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) protege Confidencialidad e Integridad al exigir cuentas nominativas, autenticación fuerte y control de accesos, al tiempo que busca mantener los ANS mediante procesos adecuados. Las opciones b) y c) sacrifican la trazabilidad y seguridad de las cuentas privilegiadas en nombre de la disponibilidad, generando un alto riesgo de abuso o intrusión sin responsable claramente identificable."
+    },
+    {
+      "codigo": "NORM-07",
+      "pregunta": "Como parte de la gestión de servicios según ISO 20000 e ITIL, el informe mensual muestra que el ANS de tiempos de respuesta a incidentes críticos no se está cumpliendo. La dirección le sugiere ajustar la forma de medir los tiempos, excluyendo de los cálculos las horas fuera de la jornada laboral, aunque el ANS acordado no hacía esa distinción explícita. El objetivo es \"no verse tan mal\" ante auditoría. ¿Cuál es la mejor decisión?",
+      "opciones": [
+        "a) Mantener la forma de medición original y reportar el incumplimiento, proponiendo acciones de mejora (recursos, turnos, revisión de ANS), sin alterar los indicadores retroactivamente.",
+        "b) Ajustar la métrica para excluir las horas fuera de jornada, aplicar el nuevo criterio a los meses anteriores para mejorar el histórico y reportar que los ANS se cumplen con la nueva definición.",
+        "c) Conservar internamente la medición original, pero presentar a la alta dirección un informe resumido con los tiempos recalculados sin explicar el cambio de criterio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) preserva la integridad de los indicadores y la transparencia de la gestión, pilares tanto en ISO 20000 como en ISO 27001/MSPI. Reconoce el incumplimiento y sugiere mejoras. Las opciones b) y c) manipulan la métrica para aparentar cumplimiento, lo que compromete la fiabilidad de la información reportada a la alta dirección y a entes de control."
+    },
+    {
+      "codigo": "NORM-08",
+      "pregunta": "En la actualización del SGSI, usted identifica que algunos controles del Anexo A de ISO 27001 fueron marcados como \"no aplicables\" en el SoA, con la justificación de que \"no son relevantes para el sector educativo\", aunque el análisis de riesgos muestra amenazas claras a la red inalámbrica y a los accesos remotos. El comité le pide que deje el SoA así, para no aumentar el número de controles auditables. ¿Qué debería hacer?",
+      "opciones": [
+        "a) Revisar el análisis de riesgos y, si confirma la relevancia de esos controles, proponer su inclusión en el SoA con una justificación actualizada, explicando al comité el impacto de mantenerlos excluidos.",
+        "b) Dejar los controles como no aplicables en el SoA, pero implementar algunas medidas de seguridad de manera informal sin declararlas, para no ampliar el alcance del SGSI auditado.",
+        "c) Mantener la red inalámbrica fuera del alcance del SGSI para que los controles no aplicables sigan siendo válidos y se reduzca la carga de evidencia requerida en la auditoría."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) conecta directamente el SoA con el análisis de riesgos, como exige ISO 27001: si el riesgo demuestra la necesidad, los controles deben estar declarados y gestionados. Las opciones b) y c) buscan protegerse de la auditoría reduciendo artificialmente el alcance del SGSI o dejando controles fuera del SoA, lo que crea una brecha entre la realidad y la documentación oficial."
+    },
+    {
+      "codigo": "NORM-09",
+      "pregunta": "Para acelerar la restauración de respaldos del sistema académico, un administrador propone desactivar el cifrado de las copias de seguridad, argumentando que la probabilidad de robo de los medios es baja y que el tiempo adicional de descifrado afecta la rapidez de recuperación ante incidentes. El SGSI define el cifrado de respaldos como control para proteger datos personales. ¿Cuál opción es más coherente con los principios de Confidencialidad y disponibilidad?",
+      "opciones": [
+        "a) Mantener el cifrado de respaldos y optimizar otros aspectos del proceso de recuperación (pruebas, procedimientos, infraestructura), buscando un equilibrio entre disponibilidad y confidencialidad sin eliminar el control.",
+        "b) Desactivar el cifrado de todos los respaldos para maximizar la velocidad de recuperación, documentando que se prioriza la disponibilidad sobre la confidencialidad en escenarios de desastre.",
+        "c) Mantener cifrados solo algunos respaldos con datos más sensibles, pero dejar sin cifrado las copias completas del sistema académico para acelerar la restauración general."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta el control definido para proteger la Confidencialidad de datos personales y busca la mejora de la disponibilidad por otras vías. Las opciones b) y c) debilitan claramente la protección de datos, ya sea eliminando el cifrado o dejándolo parcialmente, sin un análisis de riesgos y decisiones de alto nivel documentadas que justifiquen tal reducción de control."
+    },
+    {
+      "codigo": "NORM-10",
+      "pregunta": "Un proveedor de servicios en la nube que hospeda el sistema de gestión documental propone manejar todos los registros de auditoría (logs) sin permitir acceso directo al equipo interno de TI, entregando únicamente reportes mensuales agregados. Según el SGSI y el MSPI, la entidad sigue siendo responsable de la trazabilidad de accesos y cambios. Por presión de tiempo, la alta dirección le propone aceptar esta condición para firmar el contrato pronto. ¿Cuál es la mejor posición?",
+      "opciones": [
+        "a) Exigir que el contrato contemple acceso suficiente a los registros detallados o mecanismos de auditoría conjunta que permitan a la entidad verificar trazabilidad cuando lo requiera, aunque se retrase la firma.",
+        "b) Aceptar que solo el proveedor tenga acceso a los logs detallados, siempre que los reportes mensuales incluyan un resumen de incidentes, confiando en sus certificaciones de seguridad.",
+        "c) Firmar el contrato con la condición verbal de que en el futuro se habilitará acceso a los logs, pero sin modificar las cláusulas actuales para no dilatar la contratación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) asegura que la entidad pueda cumplir sus responsabilidades de trazabilidad y auditoría según ISO 27001 y el MSPI, incorporando el requisito en el contrato. Las opciones b) y c) ceden al proveedor el control exclusivo sobre los logs, reduciendo la capacidad de investigación y evidencias propias, y dejan a la entidad expuesta frente a incidentes y entes de control."
+    },
+    {
+      "codigo": "NORM-11",
+      "pregunta": "En una auditoría interna del SGSI, se detecta que el responsable de TI está aprobando por sí solo la aceptación de riesgos de seguridad de alto impacto, sin pasar por la alta dirección ni por el comité definido en los procedimientos, para \"agilizar decisiones\". Él argumenta que conoce mejor la tecnología y que involucrar al comité retrasa la implementación de proyectos. ¿Cuál es la respuesta más alineada con ISO 27001 y el MSPI?",
+      "opciones": [
+        "a) Mantener la práctica, siempre que el responsable de TI documente sus decisiones de aceptación de riesgo en correos internos, dado que es la persona más experta en temas técnicos.",
+        "b) Reforzar que la aceptación de riesgos significativos debe ser aprobada por la alta dirección o el órgano designado en el SGSI/MSPI, ajustando la práctica para que el responsable de TI actúe como asesor técnico, no como decisor final.",
+        "c) Permitir que el responsable de TI acepte riesgos técnicos, pero que los riesgos relacionados con datos personales los apruebe únicamente el área jurídica, sin pasar por el comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "ISO 27001 y el MSPI establecen que la alta dirección o los órganos designados son responsables de aprobar la aceptación de riesgos significativos; el área de TI asesora, pero no sustituye la decisión de gobierno. La opción b) aclara ese rol. Las opciones a) y c) fragmentan o concentran indebidamente la decisión en áreas técnicas o jurídicas sin el aval formal del órgano de gobierno del SGSI."
+    },
+    {
+      "codigo": "NORM-12",
+      "pregunta": "El modelo de servicios basado en ISO 20000 define que todos los incidentes de seguridad de la información deben ser registrados y gestionados tanto en el proceso de gestión de incidentes como en el SGSI. Sin embargo, por carga operativa, algunos analistas de la mesa de ayuda han optado por resolver incidentes de phishing sin registrarlos, eliminando correos maliciosos directamente y solo anotando casos \"graves\". ¿Qué acción debería implementarse?",
+      "opciones": [
+        "a) Exigir que todos los incidentes de seguridad se registren y clasifiquen, aunque algunos tengan resolución rápida, ajustando plantillas de ticket y priorización para no sobrecargar la operación pero manteniendo trazabilidad.",
+        "b) Mantener el registro únicamente de incidentes de seguridad que generen daño evidente, permitiendo que los casos menores se resuelvan sin documentación para optimizar tiempo.",
+        "c) Delegar el registro de incidentes de phishing exclusivamente al oficial de seguridad de la información, dejando que la mesa de ayuda solo haga la eliminación técnica de correos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta los requisitos de trazabilidad y mejora continua de ISO 20000 e ISO 27001: todos los incidentes de seguridad deben registrarse, aunque se puedan tratar con diferentes niveles de detalle y prioridad. La opción b) deja sin evidencia una parte significativa de los incidentes, afectando análisis de tendencias. La opción c) fragmenta innecesariamente el proceso y no resuelve el problema de falta de registro en la operación diaria."
+    },
+    {
+      "codigo": "NORM-13",
+      "pregunta": "Un área académica le solicita compartir con un proveedor externo un conjunto de datos de estudiantes (incluyendo identificación y desempeño académico) para desarrollar un modelo de analítica. El tiempo para el proyecto es corto y el proveedor propone que le envíen un volcado completo de la base de datos académica por SFTP, prometiendo que él aplicará sus propios controles de seguridad. El SGSI y el MSPI exigen análisis de riesgos y acuerdos de tratamiento de datos con terceros. ¿Cuál opción es más coherente con estos requisitos?",
+      "opciones": [
+        "a) Enviar de inmediato el volcado completo de la base de datos, siempre que se use SFTP y el proveedor firme posteriormente una carta simple de confidencialidad, para no retrasar el proyecto.",
+        "b) Exigir un acuerdo formal de tratamiento de datos y seguridad con el proveedor, limitar el conjunto de datos a lo estrictamente necesario y aplicar técnicas de seudonimización o anonimización antes de compartir, aunque implique ajustar plazos.",
+        "c) Compartir solo una parte de la base de datos sin documentación formal, seleccionando registros aleatorios, confiando en que al no ser la totalidad el riesgo es aceptable."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) cumple con los principios de minimización y protección de datos, exige acuerdos formales con terceros y aplica medidas técnicas adecuadas, conforme a ISO 27001, MSPI y la normativa de protección de datos. Las opciones a) y c) priorizan la rapidez y la conveniencia sobre el cumplimiento documental y la reducción efectiva del riesgo."
+    },
+    {
+      "codigo": "NORM-14",
+      "pregunta": "En una reunión de seguimiento, la alta dirección le solicita un informe que muestre un alto porcentaje de cumplimiento del MSPI y del SGSI, ya que se acerca una visita de un ente de control. Usted sabe que algunos planes de tratamiento de riesgos están retrasados y que varios controles del SoA están \"en implementación\". Le sugieren clasificar estos controles como \"implementados\" en el informe para fortalecer la imagen institucional, justificando que \"están en proceso\". ¿Cuál es la actuación correcta?",
+      "opciones": [
+        "a) Reportar el estado real de los controles (implementados, parcialmente implementados, en diseño), explicando los avances y las brechas restantes, aunque el porcentaje de cumplimiento sea más bajo.",
+        "b) Clasificar como \"implementados\" todos los controles que tengan algún avance, aunque no estén completos, para reflejar el esfuerzo realizado y evitar interpretaciones negativas de los entes de control.",
+        "c) Preparar dos informes: uno interno con el detalle real y otro oficial con los controles marcados como implementados, para uso exclusivo ante los entes de control."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) preserva la integridad de la información y la transparencia frente a auditorías externas e internas, principios fundamentales de los sistemas de gestión. Las opciones b) y c) distorsionan el estado real del SGSI/MSPI, poniendo en riesgo la credibilidad institucional y exponiendo a sanciones si se detecta la inconsistencia entre documentación y realidad."
+    },
+    {
+      "codigo": "NORM-15",
+      "pregunta": "Durante la actualización de procedimientos, el responsable de TI propone eliminar la revisión periódica de accesos de usuarios (altas/bajas y permisos) porque consume mucho tiempo y \"rara vez se encuentran problemas\". Sugiere que solo se revisen los accesos cuando haya incidentes de seguridad, para optimizar recursos. El SoA de ISO 27001 considera el control de gestión de accesos como aplicable, y el MSPI lo refuerza. ¿Qué decisión es más adecuada?",
+      "opciones": [
+        "a) Mantener la revisión periódica de accesos, aunque se pueda optimizar su frecuencia y automatizar parte del proceso, ya que es un control preventivo clave de confidencialidad e integridad en el SGSI.",
+        "b) Eliminar la revisión periódica y dejarla solo como actividad reactiva ante incidentes de seguridad, documentando que se prioriza el uso eficiente de recursos sobre los controles preventivos.",
+        "c) Conservar formalmente el control de revisión periódica en los procedimientos, pero no ejecutarlo en la práctica, para no reabrir el SoA ni modificar el modelo MSPI."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) reconoce la importancia de las revisiones de accesos como control preventivo y plantea la posibilidad de optimizarlo sin eliminarlo. Las opciones b) y c) sacrifican un control clave: una lo elimina explícitamente y la otra lo mantiene solo en papel, generando una brecha grave entre lo documentado y lo que realmente se hace, lo cual se detecta fácilmente en auditorías."
+    },
+
+    {
+      "codigo": "NORM-16",
+      "pregunta": "Durante una prueba de recuperación ante desastres (DRP) del sistema académico, el ejercicio evidencia que el tiempo real de recuperación (RTO) es de 10 horas, mientras que en el BIA y en el SGSI se definió un RTO máximo de 4 horas. La alta dirección, preocupada por el informe a entes de control, sugiere registrar en el acta que la prueba fue \"satisfactoria\" porque al final el servicio se restableció, y que luego se revisará el DRP cuando haya presupuesto. ¿Qué debería hacer usted como responsable del SGSI?",
+      "opciones": [
+        "a) Documentar en el acta el resultado real de la prueba, indicando que el RTO no se cumplió, registrar la no conformidad en el SGSI y proponer un plan de mejora para ajustar capacidades o revisar expectativas de RTO.",
+        "b) Aceptar registrar la prueba como satisfactoria en el acta, pero dejar una nota técnica interna donde conste que el RTO no se cumplió, sin elevarlo como no conformidad para no afectar los indicadores del SGSI.",
+        "c) Repetir parcialmente la prueba solo hasta el punto en que se alcance un RTO cercano a las 4 horas, tomar ese tiempo como referencia y reportar a la alta dirección que el DRP es adecuado sin mencionar la primera ejecución."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta los principios de mejora continua de ISO 27001 y de gestión de continuidad (BCP/DRP): se registra el resultado real, se reconoce el incumplimiento del RTO definido y se genera un plan de acción. Las opciones b) y c) intentan maquillar o fragmentar la evidencia para mostrar una imagen de cumplimiento, debilitando la credibilidad del SGSI y exponiendo a la entidad ante auditorías y entes de control."
+    },
+    {
+      "codigo": "NORM-17",
+      "pregunta": "Se presenta un incidente de seguridad que compromete potencialmente la confidencialidad de datos personales de estudiantes en el sistema de matrículas. El responsable de TI considera que puede controlar el incidente internamente y sugiere no informar al Comité de Seguridad ni al Oficial de Seguridad hasta tener todos los datos, para evitar \"alarma innecesaria\". El procedimiento del SGSI (ISO 27001/MSPI) establece roles y escalamiento claros para incidentes de seguridad. ¿Cuál actuación es más adecuada?",
+      "opciones": [
+        "a) Escalar el incidente conforme al procedimiento del SGSI, informando de manera oportuna al Oficial de Seguridad y al Comité, incluso si la información inicial es parcial, y continuar la investigación técnica en paralelo.",
+        "b) Gestionar el incidente de forma reservada en el equipo de TI, posponiendo el escalamiento hasta tener un informe completo, y luego informar al Oficial de Seguridad solo si se confirma una fuga efectiva.",
+        "c) Delegar la decisión de escalamiento exclusivamente en el jefe jurídico, sin informar al Oficial de Seguridad, para que evalúe si el incidente amerita ser tratado dentro del SGSI."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta la gobernanza y los roles definidos en el SGSI conforme a ISO 27001/MSPI: los incidentes de seguridad relevantes deben escalarse oportunamente a las instancias designadas, aunque el análisis técnico continúe. Las opciones b) y c) retrasan o desvían el escalamiento formal, centralizando decisiones en TI o jurídico sin seguir el procedimiento acordado, lo que afecta la trazabilidad y la respuesta coordinada."
+    },
+    {
+      "codigo": "NORM-18",
+      "pregunta": "En la actualización del MSPI, la alta dirección solicita reducir el tiempo invertido en análisis de riesgos, proponiendo que se reutilice el mismo matriz de hace tres años, cambiando solo fechas, porque \"los riesgos de TI no cambian mucho\" y hay urgencias operativas. Usted sabe que la entidad ha adoptado nuevos servicios en la nube y teletrabajo masivo desde entonces. ¿Qué decisión es más coherente con ISO 27001 y MSPI?",
+      "opciones": [
+        "a) Insistir en realizar un análisis de riesgos actualizado que tenga en cuenta los nuevos servicios y cambios en el entorno, aunque se puedan reutilizar elementos pertinentes del análisis anterior para optimizar el esfuerzo.",
+        "b) Aceptar reutilizar la matriz de riesgos antigua cambiando solo fechas, argumentando que la tecnología de base es similar, y agregar una nota general indicando que se asumieron los nuevos servicios como parte del mismo contexto.",
+        "c) Incorporar manualmente dos o tres riesgos relacionados con nube y teletrabajo a la matriz antigua, sin rehacer el análisis completo, y considerar que con eso el MSPI queda actualizado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) cumple con el requisito de revisar y actualizar el análisis de riesgos cuando cambian el contexto, los activos o las amenazas, como exige ISO 27001 y el MSPI. Reutilizar parcialmente la matriz es válido, pero no sustituye la actualización. Las opciones b) y c) son atajos que no reflejan adecuadamente los riesgos asociados a nuevos servicios, generando un desalineamiento entre realidad y SGSI."
+    },
+    {
+      "codigo": "NORM-19",
+      "pregunta": "La institución migra parte de su infraestructura a la nube. Al revisar el SoA, usted ve que el control relacionado con seguridad en servicios de nube fue marcado como \"no aplicable\" hace años, cuando no se usaban estos servicios. El responsable de TI sugiere mantenerlo así para no ampliar el alcance de auditoría, argumentando que el proveedor ya es certificado en seguridad. ¿Qué debería hacer?",
+      "opciones": [
+        "a) Actualizar el SoA para declarar el control de seguridad en nube como aplicable, especificando que parte de su implementación se basa en garantías del proveedor, pero manteniendo la responsabilidad de supervisión por parte de la entidad.",
+        "b) Mantener el control como no aplicable, justificando que la certificación del proveedor en estándares de seguridad hace innecesaria su incorporación formal al SGSI de la entidad.",
+        "c) Mantener el control como no aplicable en el SoA, pero crear internamente un instructivo sobre el uso de la nube, sin incluirlo en los documentos del SGSI para evitar auditoría adicional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) ajusta el SoA al contexto actual: si hay servicios en la nube, los controles asociados se vuelven aplicables y deben ser declarados, aunque parte se delegue contractualmente al proveedor. ISO 27001 exige que el SoA refleje la realidad. Las opciones b) y c) intentan mantener el alcance antiguo, confiando solo en certificados del proveedor o controles no formalizados, lo que debilita la gobernanza y la evidencia del SGSI."
+    },
+    {
+      "codigo": "NORM-20",
+      "pregunta": "El BIA y el Plan de Continuidad (BCP) establecen que, ante caída del sistema académico por más de 2 horas, se deben activar procedimientos manuales para garantizar la continuidad del proceso de matrícula. En una indisponibilidad reciente, algunos directivos prefirieron esperar el restablecimiento del sistema sin activar el plan manual, para evitar \"papelería\" y carga administrativa, a pesar de superar las 2 horas. Ahora le piden que ajuste el BCP para reflejar lo que realmente hicieron. ¿Cuál es la mejor respuesta?",
+      "opciones": [
+        "a) Mantener la activación del procedimiento manual a las 2 horas en el BCP, registrar el incumplimiento como desviación y promover una revisión de causas y acciones para asegurar que en el futuro se cumpla lo definido.",
+        "b) Modificar el BCP para elevar a 6 horas el umbral de activación de procedimientos manuales, justificando que en la práctica la institución puede tolerar mejor los cortes prolongados de servicio que la carga administrativa del plan manual.",
+        "c) Registrar en el BCP que los procedimientos manuales son opcionales y que su activación dependerá del criterio del directivo presente en el momento, sin asociarlo a un umbral de tiempo específico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) mantiene la coherencia entre el análisis de impacto (BIA) y el BCP, registrando el incumplimiento como desviación y promoviendo aprendizaje. Cambiar el BCP solo para justificar un incumplimiento puntual (b) o dejar a criterio discrecional sin umbral (c) debilita la disciplina de continuidad y dificulta mostrar consistencia ante auditorías."
+    },
+    {
+      "codigo": "NORM-21",
+      "pregunta": "La entidad decide tercerizar el servicio de mesa de ayuda con un proveedor que afirma estar alineado con ISO 20000. En la negociación, el proveedor propone que toda la gestión de incidentes y problemas quede bajo su control y que la entidad solo reciba informes trimestrales de alto nivel, sin acceso al detalle de tickets. Usted sabe que el SGSI y el MSPI exigen trazabilidad y capacidad de análisis interno. ¿Qué debería solicitar?",
+      "opciones": [
+        "a) Que el contrato incluya la obligación de entregar acceso a los registros detallados de incidentes y problemas, así como mecanismos de consulta en tiempo casi real, de manera que la entidad pueda cumplir con sus responsabilidades de gestión de servicios y seguridad.",
+        "b) Aceptar solo informes trimestrales de alto nivel, siempre que el proveedor declare en el contrato que asume toda la responsabilidad por la gestión de incidentes y problemas ante los entes de control.",
+        "c) Permitir que el proveedor gestione todo, pero pedir la base de datos de tickets únicamente cuando se presente una auditoría, para no sobrecargar a la entidad con información diaria."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) se alinea con ISO 20000 e ISO 27001/MSPI: aun con servicios tercerizados, la entidad sigue siendo responsable del servicio y debe tener acceso a los registros detallados para análisis, mejora y auditoría. Las opciones b) y c) trasladan en exceso la responsabilidad al proveedor o limitan el acceso a la información a momentos puntuales, lo que reduce la capacidad de gobierno y reacción oportuna."
+    },
+    {
+      "codigo": "NORM-22",
+      "pregunta": "En pleno pico de teletrabajo, usuarios de la alta dirección exigen acceso remoto directo a servidores internos desde sus portátiles personales, para no usar la VPN institucional que consideran lenta. El administrador de red propone abrir conexiones RDP desde internet solo para estos usuarios, argumentando que así se mejora la disponibilidad del servicio y se atienden ANS de tiempo de respuesta, aunque el SGSI contempla la VPN como único método autorizado. ¿Qué decisión se ajusta mejor a la seguridad y a los estándares?",
+      "opciones": [
+        "a) Mantener la VPN como único método autorizado, revisar su capacidad y desempeño para mejorarla, y rechazar la apertura directa de RDP desde internet, explicando el riesgo para confidencialidad e integridad.",
+        "b) Abrir RDP desde internet solo para la alta dirección, documentando que es una excepción por necesidades operativas, pero sin modificar formalmente el SGSI para evitar un proceso de cambio largo.",
+        "c) Permitir temporalmente el acceso RDP directo desde internet, condicionando al compromiso verbal de los usuarios de no compartir sus credenciales y de usar redes seguras."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta el control establecido en el SGSI/MSPI y protege fuertemente la confidencialidad e integridad, buscando la mejora de desempeño por medios seguros. Las opciones b) y c) introducen un canal de alto riesgo fuera del esquema de seguridad formal, sacrificando controles en nombre de la disponibilidad y exponiendo la red interna."
+    },
+    {
+      "codigo": "NORM-23",
+      "pregunta": "Los registros de auditoría (logs) del sistema académico y de la plataforma de correo se generan en grandes volúmenes. El área de TI propone reducir el tiempo de retención de estos logs de 2 años a 3 meses para ahorrar espacio de almacenamiento, sin ajustar el análisis de riesgos ni consultar al Oficial de Seguridad. El SGSI los usa como evidencia en auditorías y para investigar incidentes. ¿Cuál es la mejor forma de proceder?",
+      "opciones": [
+        "a) Evaluar el impacto de reducir la retención de logs en el análisis de riesgos y en los requisitos legales/auditables, y someter la propuesta al Comité de Seguridad; solo si se aprueba, ajustar la política de retención de manera formal.",
+        "b) Reducir de inmediato la retención a 3 meses para optimizar recursos, pero mantener en la política de seguridad el periodo de 2 años, para no tener que reabrir y modificar documentos del SGSI.",
+        "c) Conservar 2 años de logs únicamente del sistema académico, pero reducir sin consulta la retención del resto de sistemas a 3 meses, considerándolos menos críticos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) integra la decisión de retención de logs con la gestión de riesgos y la gobernanza del SGSI, y requiere aprobación formal antes de cambiar un control relevante. Las opciones b) y c) introducen cambios de hecho sin alinear las políticas ni el análisis de riesgos, generando discrepancias que debilitan la defensa en auditorías e investigaciones."
+    },
+    {
+      "codigo": "NORM-24",
+      "pregunta": "En la negociación de un nuevo contrato de hosting para el sistema académico, el proveedor ofrece un ANS de disponibilidad del 99,99% a un costo mucho más alto que el presupuesto disponible. La alta dirección le plantea que se firme igual con ese ANS, pero internamente se asuma que si no se cumple no se exigirán penalidades, para no presionar al proveedor. El SGSI y la gestión de servicios se basan en estos ANS para planear continuidad. ¿Qué opción es más adecuada?",
+      "opciones": [
+        "a) Ajustar los ANS a un nivel realista que la entidad esté dispuesta a exigir y el proveedor a cumplir, alineando presupuesto, capacidades y expectativas, en lugar de firmar un ANS que no se piensa hacer cumplir.",
+        "b) Firmar el contrato con el ANS de 99,99% para tener una \"imagen robusta\" en papel, pero acordar verbalmente con el proveedor que las cláusulas de penalidades no se aplicarán en la práctica.",
+        "c) Mantener el ANS elevado en el contrato y, si el proveedor incumple, ajustar los reportes internos para que no se reflejen los períodos de caída que podrían generar penalidades."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) armoniza la gestión de servicios con la realidad operativa y presupuestal, y respeta la función de los ANS como base de planificación y control. Las opciones b) y c) vacían de contenido el ANS, convirtiéndolo en una cláusula simbólica que no se piensa hacer cumplir o que se oculta a través de reportes manipulados, lo cual afecta la transparencia y la gestión de riesgos."
+    },
+    {
+      "codigo": "NORM-25",
+      "pregunta": "Se plantea migrar el sistema de gestión de historias clínicas del servicio médico universitario a una nube pública, en un esquema multi-inquilino (multi-tenant). El proveedor ofrece un modelo más barato donde varias instituciones comparten la misma base de datos lógica, separada solo por identificadores, frente a un modelo más costoso con instancias dedicadas. El SGSI y la normativa de datos personales exigen especial protección a datos de salud. ¿Qué decisión se alinea mejor con confidencialidad e integridad?",
+      "opciones": [
+        "a) Optar por un modelo que proporcione aislamiento suficiente (instancias dedicadas o segregación fuerte y verificable), aunque sea más costoso, exigiendo controles técnicos y contractuales claros sobre segregación de datos.",
+        "b) Escoger el modelo multi-tenant más barato y confiar en la reputación del proveedor, documentando en el análisis de riesgos que la probabilidad de fuga entre clientes es baja.",
+        "c) Adoptar el modelo compartido inicialmente por ahorro y, si en el futuro se identifica algún incidente, evaluar en ese momento la migración a instancias dedicadas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) prioriza la protección fuerte de datos sensibles (salud), coherente con ISO 27001, MSPI y la normativa de protección de datos personales. Aunque pueda haber modelos multi-tenant seguros, deben ofrecer garantías de segregación robusta; la respuesta correcta enfatiza aislamiento y controles. Las opciones b) y c) toman decisiones basadas principalmente en costo, confiando en la buena suerte o en acciones reactivas ante incidentes, lo cual es incompatible con el enfoque preventivo del SGSI."
+    },
+    {
+      "codigo": "NORM-26",
+      "pregunta": "El Plan de Continuidad (BCP) prevé que, ante una caída prolongada del sistema financiero, la universidad seguirá operando pagos críticos mediante un procedimiento manual con formatos físicos y luego registrará la información en el sistema cuando se restablezca. Algunos directivos proponen eliminar este procedimiento porque genera riesgo de errores y duplicidad, y confiar exclusivamente en la rapidez del proveedor para restaurar el servicio según el ANS. ¿Cuál opción es más consistente con buenas prácticas?",
+      "opciones": [
+        "a) Mantener el procedimiento manual como alternativa de continuidad para pagos críticos, revisando y mejorando controles de integridad (conciliaciones, doble validación) en lugar de eliminarlo, y coordinándolo con los ANS del proveedor.",
+        "b) Eliminar completamente el procedimiento manual del BCP, basándose en que el ANS de disponibilidad contratado es suficiente garantía de que el sistema no estará fuera de línea el tiempo definido como crítico.",
+        "c) Mantener el procedimiento manual solo para pagos de bajo monto, confiando en el ANS del proveedor para los pagos más importantes, para reducir el riesgo de errores en montos altos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) reconoce que el BCP debe contemplar escenarios donde el proveedor no cumple el ANS y que una vía manual, bien controlada, es necesaria para asegurar la disponibilidad de procesos críticos. Las opciones b) y c) confían excesivamente en el proveedor y diluyen la alternativa de continuidad, dejando a la entidad vulnerable en situaciones de indisponibilidad prolongada."
+    },
+    {
+      "codigo": "NORM-27",
+      "pregunta": "Con el aumento del trabajo remoto, varios directivos insisten en usar sus dispositivos personales (BYOD) para acceder a sistemas internos sin cumplir los requisitos de seguridad establecidos en el SGSI (antivirus corporativo, cifrado de disco, políticas de acceso). Proponen que se autorice el acceso desde cualquier dispositivo personal, firmando solo una \"carta de compromiso\". El MSPI incluye lineamientos específicos sobre protección de dispositivos finales. ¿Qué opción es más adecuada?",
+      "opciones": [
+        "a) Permitir BYOD solo si los dispositivos personales cumplen requisitos técnicos mínimos (cifrado, control de antivirus, gestión de parches) y se integran a las políticas del SGSI, documentando el esquema en el MSPI.",
+        "b) Autorizar el acceso desde cualquier dispositivo personal mediante una carta de compromiso, trasladando la responsabilidad al usuario y liberando a la entidad de obligaciones técnicas.",
+        "c) Impedir totalmente el uso de dispositivos personales, aun para acceso a recursos de bajo riesgo, sin analizar alternativas seguras ni impacto en la operación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) equilibra flexibilidad operativa con seguridad, estableciendo requisitos objetivos para BYOD alineados con el SGSI/MSPI. La opción b) descansa solo en compromisos declarativos sin controles técnicos, violando principios de seguridad. La c) es muy restrictiva y no considera que un esquema BYOD gestionado puede ser viable; en PJS suele ser incorrecta por falta de análisis de alternativas razonables."
+    },
+    {
+      "codigo": "NORM-28",
+      "pregunta": "En una auditoría interna de ISO 27001, se detecta que no se han realizado las revisiones periódicas de efectividad de los controles definidos en el SoA durante el último año. Algunos jefes de área sugieren corregir rápidamente la documentación antes de la auditoría externa, registrando retroactivamente supuestas revisiones que en realidad no se hicieron. ¿Cuál es la mejor forma de gestionar esta no conformidad?",
+      "opciones": [
+        "a) Reconocer la no conformidad, documentar claramente que las revisiones no se realizaron, analizar la causa raíz y definir un plan de acción con fechas y responsables para implementar las revisiones en adelante.",
+        "b) Ajustar la documentación registrando revisiones ficticias con fechas anteriores, de modo que la evidencia aparente continuidad, y evitar así hallazgos mayores en la auditoría externa.",
+        "c) Mantener silencio sobre la falta de revisiones en el informe de auditoría interna y confiar en que el auditor externo no profundice en ese aspecto específico del SoA."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) se ajusta al ciclo de mejora continua de ISO 27001: una no conformidad debe reconocerse, analizarse y corregirse hacia el futuro, no encubrirse. Las opciones b) y c) tratatan de ocultar o minimizar el problema, comprometiendo la integridad de la auditoría y aumentando el riesgo de hallazgos graves si se descubre la discrepancia."
+    },
+    {
+      "codigo": "NORM-29",
+      "pregunta": "En el contexto del SGSI, la alta dirección le pide que concentre el esfuerzo en producir políticas y procedimientos \"bien redactados\" para responder a requerimientos documentales de entes de control, pero le sugiere que no es necesario dedicar tantos recursos a la implementación efectiva de controles técnicos y operativos (logs, monitoreo, formación), porque eso \"no se ve\" en los informes. ¿Qué enfoque es más coherente con ISO 27001 y MSPI?",
+      "opciones": [
+        "a) Insistir en que la documentación debe ir acompañada de la implementación y evidencia de operación de los controles, explicando que un SGSI formal pero no efectivo es fácilmente detectado en auditorías serias.",
+        "b) Aceptar concentrar esfuerzos en documentos formales del SGSI y posponer indefinidamente la implementación de controles, confiando en que los entes de control se centran principalmente en la existencia de políticas.",
+        "c) Elaborar documentación robusta, pero reducir al mínimo la implementación de controles a unos pocos casos visibles, para mostrar algún grado de ejecución sin un compromiso completo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) recoge la esencia de ISO 27001/MSPI: el SGSI debe ser efectivo, no solo documental. Los auditores verifican coherencia entre lo escrito y lo que se hace. Las opciones b) y c) abrazan una visión meramente cosmética, donde el foco está en papel y no en prácticas reales, generando un gap peligroso ante incidentes y auditorías profundas."
+    },
+    {
+      "codigo": "NORM-30",
+      "pregunta": "La institución ha integrado varios sistemas de gestión (calidad, seguridad de la información, servicios TI). En una reunión, se plantea eliminar algunas actividades de seguimiento específicas del SGSI (como revisión del SoA y análisis de riesgos anual) para \"unificarlas\" con la revisión de procesos de calidad, argumentando que así se ahorra trabajo. Sin embargo, la propuesta no incluye revisar riesgos de seguridad ni actualizar controles, solo indicadores de calidad de servicio. ¿Cuál es la mejor posición?",
+      "opciones": [
+        "a) Aceptar la integración siempre que se garantice que las actividades específicas de seguridad (revisión de riesgos, SoA, controles del MSPI) sigan realizándose con su propio enfoque, incluso si se calendarizan junto con otros sistemas de gestión.",
+        "b) Eliminar las actividades específicas del SGSI y confiar en que la revisión de procesos de calidad será suficiente para detectar problemas de seguridad de la información en los servicios TI.",
+        "c) Mantener completamente separados el SGSI y los demás sistemas de gestión, sin permitir ninguna integración de actividades, para evitar cualquier posible interferencia entre enfoques."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) acepta la integración de sistemas de gestión, pero deja claro que los requisitos particulares de ISO 27001/MSPI (revisión de riesgos, SoA, controles específicos) no pueden diluirse en indicadores de calidad general. Las opciones b) y c) son extremas: una sacrifica requisitos propios del SGSI, la otra renuncia a sinergias razonables que pueden optimizar recursos sin perder profundidad en seguridad."
+    },
+
+    {
+      "codigo": "NORM-01",
+      "pregunta": "Durante la semana final de matrículas, un funcionario propone suspender temporalmente la autenticación de doble factor para reducir filas, aunque esto debilita la seguridad. ¿Qué decisión debe tomarse?",
+      "opciones": [
+        "a) Mantener la autenticación, garantizando confidencialidad e integridad, aunque implique demoras.",
+        "b) Suspender el control temporalmente, priorizando la disponibilidad del servicio.",
+        "c) Permitir a los usuarios admins omitir el control sólo durante picos de acceso."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Según ISO 27001, la confidencialidad e integridad son principios innegociables; suspender controles críticos es un incumplimiento grave, aunque aumente la disponibilidad."
+    },
+    {
+      "codigo": "NORM-02",
+      "pregunta": "Un ataque dejó inoperativo el sistema académico y el área TI improvisa una recuperación, omitiendo parte de los pasos del DRP (Plan de Recuperación de Desastres) para abreviar la indisponibilidad. ¿Qué riesgo principal se asume?",
+      "opciones": [
+        "a) Rápida recuperación pero con riesgo de pérdida de evidencia y trazabilidad.",
+        "b) Cumplimiento total de las políticas de continuidad del negocio.",
+        "c) Mayor control documental aunque el servicio se reactive más despacio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Priorizar la urgencia sobre el DRP puede restaurar servicios rápido pero expone a fallas en rastreo e incumplimiento normativo."
+    },
+    {
+      "codigo": "NORM-03",
+      "pregunta": "El área académica solicita incorporar notas de recuperación a la base de datos histórica, sin evidencia documental ni autorización según SoA. El líder TI evalúa opciones.",
+      "opciones": [
+        "a) Exigir soporte documental y autorización formal previo a todo cambio en datos críticos.",
+        "b) Realizar el cambio directamente por tratarse de una necesidad urgente.",
+        "c) Solicitar autorización verbal del departamento académico y registrar el cambio luego."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda modificación en datos críticos requiere trazabilidad, validación previa y cumplimiento SoA, incluso ante altos mandos."
+    },
+    {
+      "codigo": "NORM-04",
+      "pregunta": "Por presión de usuarios, el jefe TI decide ampliar los permisos de consulta a todo el personal sobre las historias clínicas de la IPS universitaria, sólo durante un evento institucional. ¿Cuál es la mayor vulneración?",
+      "opciones": [
+        "a) Violación de confidencialidad, contra el principio C-I-D e ISO 27001.",
+        "b) Garantía de disponibilidad para atención masiva.",
+        "c) Reducción de tiempos administrativos para el evento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Abrir el acceso masivo a datos sensibles vulnera la confidencialidad, pilar clave bajo ISO 27001 y MSPI."
+    },
+    {
+      "codigo": "NORM-05",
+      "pregunta": "El comité de Gobierno TI debe definir la Declaración de Aplicabilidad (SoA) para el SGSI, pero algunos quieren omitir controles para simplificar auditorías. ¿Qué implica esto?",
+      "opciones": [
+        "a) Riesgo grave de no conformidad y sanción por no aplicar controles requeridos según ISO 27001.",
+        "b) Proceso más ágil de auditoría interna.",
+        "c) Mejora de la eficiencia de documentación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El SoA refleja la realidad de controles y sus exclusiones deben estar justificadas. Omitir por conveniencia o facilidad implica incumplimiento grave."
+    },
+    {
+      "codigo": "NORM-06",
+      "pregunta": "El área TI detecta un incidente de privacidad pero no lo documenta formalmente para ‘evitar escándalos’. ¿Qué implicación tiene esto según MSPI e ISO 27001?",
+      "opciones": [
+        "a) Incumple la obligación de registro y notificación, exponiendo la entidad a sanciones.",
+        "b) Gana agilidad y protege la imagen institucional.",
+        "c) Permite resolver el incidente de manera flexible."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "No documentar ni notificar incidentes es una falta grave bajo MSPI y los entes de control supervisan estos registros."
+    },
+    {
+      "codigo": "NORM-07",
+      "pregunta": "Solicitan que el backup mensual de bases se reemplace por backup trimestral, para ahorrar recursos. Los sistemas soportan historias académicas de largo plazo.",
+      "opciones": [
+        "a) Mantener la periodicidad mensual como mínimo obligatorio conforme análisis de riesgos y normas.",
+        "b) Aceptar el backup trimestral y ahorrar costos.",
+        "c) Hacerlo mensual sólo si ocurre un incidente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Reducir la frecuencia sin análisis formal va contra la gestión de riesgos y expone a pérdidas graves, sobre todo con información crítica."
+    },
+    {
+      "codigo": "NORM-08",
+      "pregunta": "Alguien propone dejar la administración de usuarios y permisos a cada área funcional para agilizar altas y bajas. ¿Qué impacto tiene esto en el SGSI?",
+      "opciones": [
+        "a) Se debilita el control de accesos y la integridad del sistema.",
+        "b) Se mejora la eficiencia y se reduce la carga del área TI.",
+        "c) El sistema cumple porque cada área responde por sus acciones."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Centralizar y documentar la gestión de accesos es control obligatorio en ISO 27001, desconcentrarlo crea vulnerabilidades."
+    },
+    {
+      "codigo": "NORM-09",
+      "pregunta": "Un ataque causa caída del sistema de matrículas y el área TI, bajo presión, decide restaurar sin aplicar controles de verificación de integridad. ¿Qué riesgo implica?",
+      "opciones": [
+        "a) Restaurar rápido pero quedar expuestos a manipulación o corrupción de datos.",
+        "b) Cumplir con los objetivos de disponibilidad y operación.",
+        "c) Cumplir con la expectativa de las directivas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La restauración debe aplicar controles de integridad para evitar nuevos riesgos aún si demora el restablecimiento."
+    },
+    {
+      "codigo": "NORM-10",
+      "pregunta": "El área de servicios TI busca acortar los tiempos de atención de incidentes, decidiendo asignar casos sin clasificación previa entre incidente y problema. ¿Qué efecto tiene esto en la gestión según ISO 20000 e ITIL?",
+      "opciones": [
+        "a) Aumenta la eficiencia operacional pero debilita el seguimiento y mejora continua.",
+        "b) Mejora el cumplimiento de ANS por respuesta rápida.",
+        "c) Da prioridad natural a los incidentes críticos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "No diferenciar incidentes de problemas afecta la trazabilidad y el ciclo de mejora que exige ISO 20000."
+    },
+    {
+      "codigo": "NORM-11",
+      "pregunta": "Por ahorrar costos, el Comité decide adquirir licencias 'por volumen' que no cumplen términos de uso en laboratorio académico. ¿Qué riesgo existe?",
+      "opciones": [
+        "a) Violación de licenciamiento y posible sanción legal, además de afectación de integridad y seguridad de la información.",
+        "b) Optimización de recursos y mayor acceso estudiantil.",
+        "c) Solución temporal mientras se adquieren las licencias correctas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El licenciamiento indebido es un incumplimiento normativo y riesgo institucional, no puede priorizarse la eficiencia sobre la legalidad."
+    },
+    {
+      "codigo": "NORM-12",
+      "pregunta": "Un usuario solicita acceso urgente a historias clínicas digitales por emergencia médica, sin ser parte del personal autorizado. ¿Qué hacer?",
+      "opciones": [
+        "a) Seguir el protocolo de acceso autorizado y, si corresponde, gestionar acceso de emergencia con registro documental.",
+        "b) Permitir el acceso por la urgencia y regularizar después.",
+        "c) Brindar acceso controlado sólo mientras dure la emergencia."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Acceso excepcional debe documentarse y cumplir protocolos, aún en emergencias. La regularización a posteriori es un riesgo disciplinario."
+    },
+    {
+      "codigo": "NORM-13",
+      "pregunta": "Para cumplir un nuevo ANS, se sugiere reducir controles de cambios en el software para agilizar la implementación de nuevas funciones. ¿Qué principio de seguridad se compromete?",
+      "opciones": [
+        "a) Integridad, pues los cambios sin control pueden afectar la estabilidad y trazabilidad.",
+        "b) Únicamente la confidencialidad.",
+        "c) Solo la disponibilidad, por las demoras."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Omitir controles de cambio vulnera la integridad y facilita incidentes por alteraciones no rastreadas según ISO 27001/ISO 20000."
+    },
+    {
+      "codigo": "NORM-14",
+      "pregunta": "Un reporte de auditoría encuentra que el SoA en la entidad está desactualizado y no corresponde a los controles vigentes. ¿Cuál es el mayor riesgo?",
+      "opciones": [
+        "a) No poder demostrar cumplimiento ante entes de control ni justificar exclusiones.",
+        "b) Menos trabajo documental para el equipo de seguridad.",
+        "c) Actualizar sólo cuando venga auditoría."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El SoA debe ser veraz y actual; la desactualización supone incumplimiento serio bajo ISO 27001, riesgo ante auditoría."
+    },
+    {
+      "codigo": "NORM-15",
+      "pregunta": "La jefe administrativa solicita compartir respaldos completos de bases de datos con una empresa externa sin acuerdo de privacidad firmado, para agilizar una integración. ¿Qué debe hacerse?",
+      "opciones": [
+        "a) Negarse hasta contar con acuerdos formales que garanticen protección y confidencialidad legal.",
+        "b) Entregar copias por la urgencia y legalizar después.",
+        "c) Permitir acceso restringido solo para la fase de pruebas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda transferencia de datos requiere acuerdos formales que protejan la confidencialidad y obligaciones legales según Ley 1581, ISO 27001 y MSPI."
+    },
+{
+      "codigo": "NORM-16",
+      "pregunta": "El comité decide activar acceso remoto general a la plataforma de gestión académica para todos los empleados, omitiendo restricciones por roles para dar soporte urgente. ¿Cuál es el principal riesgo?",
+      "opciones": [
+        "a) Exposición masiva de datos que vulnera confidencialidad y controles de ISO 27001.",
+        "b) Mejora en la agilidad de atención.",
+        "c) Cumplimiento de ANS con soporte más rápido."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La confidencialidad es prioritaria, el acceso indiscriminado va contra los principios de seguridad y expone datos sensibles."
+    },
+    {
+      "codigo": "NORM-17",
+      "pregunta": "El área TI registra incidentes críticos solo en hojas de cálculo locales y no en el sistema oficial para 'agilizar la operación'. ¿Qué impacto tiene esto ante una auditoría?",
+      "opciones": [
+        "a) Falta de trazabilidad y evidencia formal, lo cual es un incumplimiento ante ISO 27001 y auditorías de entes de control.",
+        "b) Mejor eficiencia interna.",
+        "c) Facilita informes rápidos a la gerencia."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El registro oficial y sistematizado es pilar para cumplir normas y demostrar acciones ante eventuales investigaciones o auditoría."
+    },
+    {
+      "codigo": "NORM-18",
+      "pregunta": "Debido a baja disponibilidad presupuestal, se propone limitar los respaldos de información solo a bases de datos de nómina y eliminar backups para archivos de estudiantes durante seis meses. ¿Cuál es el mayor riesgo?",
+      "opciones": [
+        "a) Pérdida irreparable de información y violación de políticas de disponibilidad e integridad.",
+        "b) Ahorro efectivo de recursos.",
+        "c) Gestión óptima del espacio de almacenamiento."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La reducción arbitraria contradice los requisitos de disponibilidad e integridad exigidos por los modelos normativos aplicables."
+    },
+    {
+      "codigo": "NORM-19",
+      "pregunta": "Un nuevo sistema de notas exige compartir información personal de estudiantes con un proveedor externo sin verificar cláusulas de privacidad. ¿Cómo actuar bajo el MSPI y la Ley 1581?",
+      "opciones": [
+        "a) Revisar o exigir acuerdo expreso de privacidad antes de cualquier transferencia.",
+        "b) Permitir el acceso por la urgencia y pedir firma de acuerdo después.",
+        "c) Omitir el trámite si el proveedor ya trabaja con otras entidades públicas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Datos personales sólo pueden ser compartidos con garantías y documentación formal, incumplir lleva a sanción directa."
+    },
+    {
+      "codigo": "NORM-20",
+      "pregunta": "El líder de servicios TI elimina logs de auditoría pasados para liberar espacio en disco rápidamente. ¿Cuál es la consecuencia principal de esta decisión?",
+      "opciones": [
+        "a) Pérdida de trazabilidad, incumplimiento de ISO 27001 y riesgos ante futuras investigaciones.",
+        "b) Disponibilidad de más espacio para datos nuevos.",
+        "c) Optimización rápida del desempeño del sistema."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Los logs son evidencia clave; eliminarlos vulnera integridad, trazabilidad y cumplimiento ante entes de control."
+    },
+    {
+      "codigo": "NORM-21",
+      "pregunta": "En la implementación del BCP/DRP, el comité opta por no hacer simulacros para ahorrar tiempo y costos operativos. ¿Cuál es la implicación?",
+      "opciones": [
+        "a) Riesgo de ineficacia del plan ante un evento real y hallazgos de auditoría.",
+        "b) Mejor eficiencia y disponibilidad de personal para tareas críticas.",
+        "c) Reducción del estrés organizacional por simulacros."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La ausencia de simulacros impide verificar que los planes funcionan y documentar cumplimiento normativo, lo que puede ser sancionado."
+    },
+    {
+      "codigo": "NORM-22",
+      "pregunta": "Un proveedor tecnológico ofrece soporte urgente previo a la firma del contrato formal, bajo compromiso de regularizar después. ¿Qué debe hacer el área TI?",
+      "opciones": [
+        "a) Esperar la formalización por escrito antes de cualquier acceso o soporte.",
+        "b) Dejar acceder al proveedor y documentar después.",
+        "c) Permitir el soporte solo para incidencias críticas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La legalidad y seguridad priman sobre la urgencia; el acceso previo es un incumplimiento normativo y contractual."
+    },
+    {
+      "codigo": "NORM-23",
+      "pregunta": "Para cumplir con un despliegue rápido de sistema, el Director ordena utilizar contraseñas genéricas para nuevos usuarios y cambiarlas después. ¿Qué vulnera?",
+      "opciones": [
+        "a) El principio de confidencialidad e integridad de información exigido por ISO 27001/MSPI.",
+        "b) Solo la eficiencia operativa.",
+        "c) El objetivo de disponibilidad inmediata."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Contraseñas genéricas exponen institucionalmente usuarios y activos, y violan controles obligatorios de acceso seguro."
+    },
+    {
+      "codigo": "NORM-24",
+      "pregunta": "Presionados por auditoría, el área TIC documenta controles de seguridad que en realidad no están implementados aún. ¿Qué peligro genera esto a la organización?",
+      "opciones": [
+        "a) Incurrir en falsedad documental y mayor sanción ante hallazgos de Contraloría y entes de control.",
+        "b) Ganar tiempo para implementar los controles.",
+        "c) Justificar temporalmente la falta de recursos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El SoA y políticas que no reflejan la práctica real llevan a sanción disciplinaria severa y desconfianza institucional."
+    },
+    {
+      "codigo": "NORM-25",
+      "pregunta": "Para cumplir con disponibilidad, el área permite conexiones externas de soporte TI sin VPN ni autenticación reforzada en servidores productivos. ¿Qué riesgo produce?",
+      "opciones": [
+        "a) Amenaza directa a la confidencialidad e integridad de los sistemas y datos.",
+        "b) Reducción de tiempos de soporte.",
+        "c) Adecuada atención a incidentes críticos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Priorizar solo la disponibilidad sin seguridad básica deja abierta la puerta a ataques y pérdida de información sensible."
+    },
+    {
+      "codigo": "NORM-26",
+      "pregunta": "El ISMS Manager recomienda excluir el control de cifrado de discos alegando que no se maneja información sensible actualmente. ¿Es aceptable según ISO 27001/MSPI?",
+      "opciones": [
+        "a) No, las exclusiones deben justificarse y documentarse formalmente en el SoA, y deben soportarse en el análisis de riesgos.",
+        "b) Sí, si lo aprueba el área técnica.",
+        "c) Sí, si la alta dirección no lo exige expresamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las exclusiones solo son válidas si se documentan con un análisis claro de riesgos y aceptaciones a nivel de Gobierno TI."
+    },
+    {
+      "codigo": "NORM-27",
+      "pregunta": "El SoA de la entidad refleja todos los controles como implementados, pero durante la auditoría se encuentran brechas importantes en la gestión real. ¿Qué consecuencia principal puede surgir?",
+      "opciones": [
+        "a) Observación y posible sanción disciplinaria por inconsistencia entre política y práctica.",
+        "b) La auditoría se apoya en la documentación oficial.",
+        "c) Se establece un plan de mejora a futuro sin consecuencia inmediata."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La incoherencia entre SoA y práctica real es una de las faltas más graves en sistemas de gestión (SGSI)."
+    },
+    {
+      "codigo": "NORM-28",
+      "pregunta": "Un usuario pide saltar la aprobación de cambio porque hay una ventana mínima para actualización de software. ¿Qué debe priorizarse?",
+      "opciones": [
+        "a) Seguir el proceso de aprobación y asegurarse de la trazabilidad.",
+        "b) Aprovechar la ventana disponible y regularizar después.",
+        "c) Informar verbalmente al supervisor técnico."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Sin proceso no hay trazabilidad ni control; las excepciones solo aplican con aprobación y registro previo formal."
+    },
+    {
+      "codigo": "NORM-29",
+      "pregunta": "Por reducir costos de hosting, el área técnica sugiere almacenar respaldos en servicios gratuitos en la nube, sin evaluar niveles de seguridad, ni país de servidores. ¿Cuál es el mayor riesgo?",
+      "opciones": [
+        "a) Exposición a fuga de información y incumplimiento de normativas de protección y localización de datos.",
+        "b) Optimización presupuestal efectiva.",
+        "c) Mayor flexibilidad para restaurar respaldos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Respaldo sin garantías de seguridad ni control desplaza los riesgos hacia la entidad, incumpliendo compromisos legales."
+    },
+    {
+      "codigo": "NORM-30",
+      "pregunta": "El área TI actualiza sistemas críticos sin realizar pruebas en ambiente de desarrollo para cumplir ANS, debido a presión de usuarios clave. ¿Qué vulnera principalmente?",
+      "opciones": [
+        "a) La integridad y estabilidad operativa exigida por ISO 27001, sacrificando seguridad a favor de la rapidez.",
+        "b) Solo la disponibilidad del sistema.",
+        "c) Únicamente el cumplimiento documental."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Actualizar sin pruebas compromete la integridad y estabilidad de los sistemas, aunque mejore el tiempo de entrega."
+    }
+
+        
+    ]
+}

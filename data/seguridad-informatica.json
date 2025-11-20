@@ -1,0 +1,1052 @@
+{
+    "preguntas": [
+        {
+            "codigo": "SEG-01",
+            "pregunta": "Un ciberdelincuente ha cifrado los archivos de las historias laborales de los funcionarios de la universidad y exige un rescate. ¿Qué pilar de la seguridad se ha visto más comprometido inicialmente?",
+            "opciones": [
+                "a) Integridad.",
+                "b) Confidencialidad.",
+                "c) Disponibilidad."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Un ataque de Ransomware cifra los datos para impedir el acceso, afectando directamente la Disponibilidad. La Integridad y la Confidencialidad pueden verse afectadas después, pero la indisponibilidad es el objetivo y el impacto inicial directo."
+        },
+        {
+            "codigo": "SEG-02",
+            "pregunta": "En el marco del MSPI, su SGSI identifica un riesgo crítico de pérdida de datos. Usted propone un control, pero el Comité decide no financiarlo. ¿Cuál es el proceso formal que debe seguir el Comité?",
+            "opciones": [
+                "a) Transferir el riesgo al proveedor de soporte técnico.",
+                "b) Formalizar la Aceptación del Riesgo mediante acta y monitorear sus consecuencias.",
+                "c) Eliminar el riesgo de la matriz para evitar observaciones de la Contraloría."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Aceptar el riesgo es una de las respuestas válidas, pero debe ser una decisión formal de la Alta Dirección (Comité), documentada en actas, ya que es la instancia de Gobierno quien asume la responsabilidad del impacto."
+        },
+        {
+            "codigo": "SEG-03",
+            "pregunta": "Como Profesional Especializado, usted debe asegurar que todo el software desarrollado internamente para la universidad cumpla con los lineamientos de seguridad. ¿En qué etapa del ciclo de vida del desarrollo se deben integrar los controles según las mejores prácticas?",
+            "opciones": [
+                "a) Exclusivamente durante la etapa final de Pruebas de Penetración.",
+                "b) Desde la fase de Requisitos y Diseño (Seguridad desde el Diseño).",
+                "c) Únicamente al iniciar la fase de Puesta en Producción."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La seguridad debe integrarse desde el inicio ('Security by Design'), en la fase de requisitos y diseño, ya que corregir vulnerabilidades en etapas tardías (producción) es mucho más costoso y riesgoso."
+        },
+        {
+            "codigo": "SEG-04",
+            "pregunta": "Un docente pide un acceso a la base de datos de estudiantes con un perfil que excede sus necesidades. ¿Qué principio de seguridad debe aplicar usted al configurar su acceso?",
+            "opciones": [
+                "a) Acceso a la medida.",
+                "b) Privilegio Mínimo Necesario.",
+                "c) Confidencialidad Total."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El principio de Privilegio Mínimo (Least Privilege) establece que a un usuario se le debe otorgar solo el nivel de acceso estrictamente necesario para desempeñar sus funciones y nada más. Es un control fundamental de acceso."
+        },
+
+
+        {
+      "codigo": "SEG-01",
+      "pregunta": "Caso: El nuevo sistema de notas de la I.U. Pascual Bravo requiere cifrado 'extremo' (AES-256) para cumplir el pilar de Confidencialidad del MSPI. Sin embargo, este cifrado aumenta el tiempo de respuesta en un 30%, lo cual viola el ANS de 2 segundos. Existe un conflicto directo entre Confidencialidad y Disponibilidad. ¿Cuál es el tratamiento del riesgo más adecuado y formal?",
+      "opciones": [
+        "a) Reducir el nivel de cifrado a AES-128 para recuperar la velocidad y cumplir el ANS, documentando la decisión técnica y asumiendo que el riesgo es tolerable.",
+        "b) Mantener el cifrado AES-256 (Confidencialidad) y llevar el conflicto al Comité de Seguridad para que, como instancia de Gobierno, decida entre la Aceptación del Riesgo de lentitud o la asignación de recursos para hardware más potente que cumpla ambos pilares.",
+        "c) Eliminar el cifrado de la base de datos de notas (Confidencialidad) y solo cifrar la comunicación (en tránsito) para cumplir el ANS (Disponibilidad)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Conflicto C-D y Gobierno de Riesgos (MSPI/COBIT EDM03): La mitigación técnica (Opción A o C) implica que el gestor de TI toma una decisión de apetito de riesgo, lo cual es función del Gobierno. La acción correcta es escalar el conflicto a la Alta Dirección, cuantificando el costo de no cumplir uno de los pilares y que ellos asuman la Aceptación o el financiamiento de la solución (hardware)."
+    },
+    {
+      "codigo": "SEG-02",
+      "pregunta": "El Director de Planeación necesita urgentemente acceder a una carpeta restringida en el servidor donde están los archivos del PETI, y su usuario no tiene permisos. El Supervisor de Sistemas le ofrece darle temporalmente su propia clave de administrador para 'agilizar' el proceso. ¿Qué debe usted, como CISO, exigir?",
+      "opciones": [
+        "a) Que se le dé la clave del Supervisor, pero solo por una hora, documentándolo en un acta interna (Eficiencia Operativa).",
+        "b) Prohibir el uso de cuentas compartidas. Se debe crear una cuenta de acceso temporal e individualizada con privilegios mínimos (Principio de Privilegio Mínimo - ISO 27001 A.9.2.3), registrando la trazabilidad de cada acción.",
+        "c) Que el Supervisor acceda al archivo por él y se lo envíe por correo electrónico, evitando darle la clave."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Acceso (A.9) y No Repudio: La opción A viola el No Repudio (no se sabría quién usó la clave). La opción B garantiza la trazabilidad (quién hizo qué y cuándo) y aplica el Privilegio Mínimo (solo acceso a la carpeta, no al sistema entero), que es un control fundamental del SGSI."
+    },
+    {
+      "codigo": "SEG-03",
+      "pregunta": "El RTO (Tiempo de Recuperación Objetivo) para el sistema de nómina es de 4 horas, según el BIA aprobado. Tras un fallo de hardware, usted puede restablecer la nómina en un servidor alterno en 2 horas, pero el servidor es obsoleto y podría fallar de nuevo. ¿Cuál es la decisión correcta basada en el SGSI?",
+      "opciones": [
+        "a) Restablecer el servicio en el servidor obsoleto inmediatamente para demostrar que se superó el RTO de 4 horas.",
+        "b) Seguir el DRP para recuperar el sistema en el ambiente designado (que puede tardar 6 horas) y reportar la violación del RTO al Comité, priorizando la Integridad y la Continuidad sobre la velocidad momentánea.",
+        "c) Usar el servidor obsoleto (2 horas) y emitir un 'Cambio de Emergencia' al día siguiente para el servidor correcto."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Continuidad (A.17): En este escenario crítico, la opción C es la más balanceada. Si bien se viola la Integridad del ambiente, se mantiene la Disponibilidad crítica dentro del ANS (RTO) y se usa el procedimiento de emergencia formal para corregir el ambiente al día siguiente, minimizando la disrupción del negocio mientras se cumple la política."
+    },
+    {
+      "codigo": "SEG-04",
+      "pregunta": "El área de Egresados solicita que el CISO autorice el uso de un software de análisis de datos para correlacionar historiales académicos y perfiles de LinkedIn. Este uso no está cubierto por el 'Aviso de Privacidad' inicial de los estudiantes. ¿Qué debe exigir usted?",
+      "opciones": [
+        "a) Realizar un borrado seguro de los datos de los estudiantes que ya se graduaron, ya que son datos viejos.",
+        "b) Negar la autorización de uso hasta que se realice un Análisis de Impacto de Privacidad (PIA), se actualice el Aviso de Privacidad y se obtenga el consentimiento explícito de los titulares para la nueva finalidad (Correlación).",
+        "c) Autorizar el uso, siempre que la base de datos sea anonimizada antes de ser procesada."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ley 1581 y MSPI: El cambio de finalidad (pasar de lo académico a la correlación laboral) es una violación a la Ley de Habeas Data si no está consentido. Se debe asegurar el cumplimiento legal (PIA y consentimiento) antes de procesar los datos (A.18.1.4)."
+    },
+    {
+      "codigo": "SEG-05",
+      "pregunta": "Usted recibe un reporte que indica que el 40% de los funcionarios de la I.U. Pascual Bravo utiliza 'contraseñas débiles' (ej. 123456). El Director Administrativo sugiere dejarlo pasar, ya que la gestión de contraseñas es engorrosa. ¿Cuál es su acción SGSI?",
+      "opciones": [
+        "a) Implementar un sistema de autenticación multifactor (MFA) solo para los directivos, ya que son los más sensibles.",
+        "b) Documentar el riesgo de alto impacto, exigir la implementación de una herramienta de gestión de contraseñas forzada y reportar el incumplimiento del control A.9.4.3 al Comité de Seguridad para que asuma la responsabilidad de la decisión de no invertir en la solución.",
+        "c) Crear una política de contraseñas de 15 caracteres y esperar que la cumplan voluntariamente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Riesgos (A.9.4.3): Las contraseñas débiles son el riesgo de acceso más común. La respuesta correcta no es solo mitigar, sino formalizar. Se debe obligar a los directivos a tomar una decisión sobre el incumplimiento masivo de la política de seguridad."
+    },
+    {
+      "codigo": "SEG-06",
+      "pregunta": "Un experto en Hacking Ético contratado reporta que pudo acceder a las credenciales de administrador del sistema académico a través de una inyección SQL. El contratista de desarrollo alega que la vulnerabilidad es 'leve' y la puede corregir en el siguiente ciclo de mantenimiento. ¿Qué debe hacer usted como CISO?",
+      "opciones": [
+        "a) Aceptar la corrección en el siguiente ciclo, confiando en la palabra del contratista.",
+        "b) Exigir la corrección inmediata (Hotfix) en menos de 24 horas y, antes de la puesta en producción, requerir una nueva prueba de penetración que verifique la mitigación de la vulnerabilidad (A.14.2.8).",
+        "c) Rechazar el sistema y pedir que se reinicie el proceso de contratación, ya que la Integridad del sistema fue vulnerada."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad en Desarrollo (A.14.2.8): La inyección SQL es una vulnerabilidad crítica (rompe la Integridad). No puede esperar al siguiente ciclo. La acción SGSI obligatoria es la corrección inmediata y la verificación por un tercero independiente (Hacking Ético) antes de la aceptación."
+    },
+    {
+      "codigo": "SEG-07",
+      "pregunta": "El plan DRP de la I.U. establece un RPO (Punto de Recuperación Objetivo) de 4 horas para la base de datos de investigación. Actualmente, los backups solo se hacen cada 12 horas. ¿Qué riesgo de continuidad se materializa?",
+      "opciones": [
+        "a) El riesgo de que el DRP no cumpla el RTO (Tiempo de Recuperación).",
+        "b) El riesgo de pérdida de datos. Si hay un desastre, se pueden perder hasta 12 horas de investigación (violación de la Integridad de los datos).",
+        "c) El riesgo de que el DRP no sea revisado por el Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "RPO: El RPO mide la pérdida máxima aceptable de datos. Un backup de 12 horas incumple el RPO de 4 horas, por lo tanto, la I.U. acepta perder 8 horas adicionales de trabajo, lo cual es un fallo en el control de Integridad y Continuidad."
+    },
+    {
+      "codigo": "SEG-08",
+      "pregunta": "El software de análisis de logs produce muchos 'Falsos Positivos' (alertas irreales), sobrecargando al equipo. El Administrador de Sistemas decide reducir la sensibilidad del monitoreo para ver menos alertas. ¿Cuál es el riesgo de seguridad?",
+      "opciones": [
+        "a) El riesgo de que se genere un 'Falso Negativo' (no detectar un ataque real) por haber reducido la sensibilidad del monitoreo (Control de Detección).",
+        "b) El riesgo de que el software de logs no se integre con el SIEM.",
+        "c) El riesgo de que el equipo se canse y renuncie (Gestión de Personal)."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Análisis de Riesgos: Reducir la sensibilidad de los controles de detección (A.16.1.7) para mayor comodidad aumenta el riesgo de que una amenaza real (Falso Negativo) pase desapercibida, comprometiendo la Integridad de la red."
+    },
+    {
+      "codigo": "SEG-09",
+      "pregunta": "Usted debe revisar los privilegios de acceso a la Base de Datos de Personal. El Administrador de Bases de Datos tiene privilegios de 'SELECT *' (ver todo). ¿Cuál es el principio de seguridad que debe aplicar?",
+      "opciones": [
+        "a) Principio de Necesidad de Conocer (Need-to-Know): Revisar si el Administrador necesita ver todos los datos sensibles o si solo debe ver la estructura de la base de datos (Separación de Funciones).",
+        "b) Principio de Confidencialidad: Cifrar la base de datos y dejarle el acceso total (SELECT *).",
+        "c) Principio de Trazabilidad: Instalar un software de grabación de pantalla en el PC del Administrador."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Privilegio Mínimo (A.9.2.3): El Administrador de la base de datos requiere acceso técnico (para gestionar el motor), pero no necesariamente acceso funcional (para ver salarios o datos sensibles). El principio Need-to-Know exige limitar el acceso a la información estrictamente necesaria para su función."
+    },
+    {
+      "codigo": "SEG-10",
+      "pregunta": "Una nueva directriz del Rector requiere que todos los informes internos (finanzas, resultados) se envíen cifrados por correo electrónico. El sistema de correo actual no soporta cifrado automático. ¿Cómo gestiona el riesgo de Confidencialidad?",
+      "opciones": [
+        "a) Comprar inmediatamente un servidor de correo con capacidad de cifrado automático.",
+        "b) Emitir una política provisional obligando a los funcionarios a usar herramientas externas de cifrado (ej. WinZip con contraseña) y enviar la clave por un canal diferente (ej. WhatsApp), mientras se busca la solución técnica en el PETI.",
+        "c) Aceptar el riesgo y enviar los correos sin cifrar, argumentando que el presupuesto no permite el gasto en la solución técnica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control Compensatorio (A.13.2.3): Ante la imposibilidad técnica inmediata (A), el SGSI exige un control procedimental que cumpla la Confidencialidad. El control compensatorio (cifrado manual y clave por canal separado) mitiga el riesgo de intercepción durante la transmisión, protegiendo la Confidencialidad."
+    },
+    {
+      "codigo": "SEG-11",
+      "pregunta": "El Plan de Seguridad incluye un control de Criptografía (A.10) para cifrar los datos del sistema de nómina. El equipo desarrolla el cifrado, pero almacena la llave de cifrado en la misma base de datos, en una tabla accesible por el administrador. ¿Qué pilar de seguridad se viola?",
+      "opciones": [
+        "a) Disponibilidad, ya que el cifrado ralentiza el sistema.",
+        "b) Confidencialidad. Al almacenar la llave junto al dato cifrado, el cifrado pierde su propósito y la Confidencialidad es nula si se accede a la base de datos (Fallo en la Gestión de Llaves).",
+        "c) Integridad, ya que cualquiera puede modificar la llave."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Llaves (A.10): La regla de oro de la criptografía es que la llave de cifrado debe estar almacenada y gestionada separadamente del dato cifrado (ej. en un HSM o un Key Vault). Almacenarlas juntas viola la Confidencialidad."
+    },
+    {
+      "codigo": "SEG-12",
+      "pregunta": "Usted es el CISO y descubre que el Administrador de Infraestructura tiene acceso 'sudo' (administrador) a la Base de Datos de Notas. Su función en el rol solo exige acceso al motor de la base de datos, no a los datos funcionales. ¿Qué acción debe tomar?",
+      "opciones": [
+        "a) Eliminar el acceso 'sudo' inmediatamente, priorizando la seguridad sobre la operación, y esperar que el Administrador lo solicite con justificación.",
+        "b) Crear un control compensatorio de 'Auditoría Forense' que revise las acciones del Administrador, ya que es imposible quitarle el acceso total.",
+        "c) Reunirse con el Jefe de TI para redefinir y reducir el privilegio del Administrador, asegurando que solo tenga acceso al motor y no a los datos sensibles (Principio de Privilegio Mínimo)."
+
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Privilegio Mínimo (A.9.2.3): La opción B asume la ineficacia del control. La A es correcta pero abrupta. La C es la acción de Gobierno/Gestión correcta, ya que busca la solución formal a la raíz del problema (redefinición del privilegio)."
+    },
+    {
+      "codigo": "SEG-13",
+      "pregunta": "Un funcionario recibe un correo que le pide dar clic en un enlace para 'actualizar su clave' (Phishing). Inmediatamente, el funcionario reporta la situación al CISO (usted). ¿Cuál es la acción SGSI prioritaria para usted?",
+      "opciones": [
+        "a) Pedir al funcionario que elimine el correo de su bandeja de entrada.",
+        "b) Iniciar una campaña de concientización sobre Phishing a toda la entidad y notificar a la Policía Cibernética.",
+        "c) Enviar una alerta de Contención (bloqueo) de la URL maliciosa a los firewalls y servidores de correo de la I.U. y realizar una investigación forense para identificar el alcance de la campaña (Gestión de Incidentes A.16)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gestión de Incidentes (A.16): La prioridad no es la concientización (B) o la eliminación (A), sino la Contención de la amenaza para evitar que otros funcionarios caigan en la trampa. El bloqueo técnico inmediato salva la Integridad y Confidencialidad de toda la I.U."
+    },
+    {
+      "codigo": "SEG-14",
+      "pregunta": "El Plan de Seguridad exige que el software desarrollado a la medida (In-house) pase por Pruebas de Penetración externas. El presupuesto no alcanza. El Jefe de Desarrollo propone que su equipo haga las pruebas. ¿Cuál es la implicación SGSI?",
+      "opciones": [
+        "a) Es una buena idea, ya que el equipo interno conoce mejor el código.",
+        "b) La prueba no es válida. Viola el principio de 'Separación de Tareas' (A.5.3.1), ya que el que desarrolla no puede ser el que prueba (Integridad). La prueba debe ser externa o interna, pero independiente del equipo de desarrollo.",
+        "c) Es aceptable si el equipo de desarrollo firma un acta de imparcialidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Separación de Tareas: Para garantizar la Integridad y la objetividad de la prueba, el desarrollador no puede ser el tester de seguridad. Se debe buscar una fuente independiente (otro equipo interno o externo) para validar la seguridad del código."
+    },
+    {
+      "codigo": "SEG-15",
+      "pregunta": "El Comité de Seguridad discute si los datos de las Historias Clínicas de los funcionarios (Dato Sensible) deben guardarse en la Nube Pública o en servidores locales. ¿Cuál es el factor decisivo basado en el MSPI y la Ley 1581?",
+      "opciones": [
+        "a) El costo. El más barato es el mejor.",
+        "b) La 'Declaración de Conformidad' y las 'Cláusulas Contractuales Tipo' que garanticen que el proveedor de la Nube aplica un nivel de protección igual o superior al de la Ley 1581 y el MSPI, sin importar la ubicación física de los servidores.",
+        "c) La latencia. Los servidores locales son más rápidos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Transferencia de Datos Sensibles: La decisión de dónde alojar datos sensibles no es técnica (latencia o costo), es legal. Se debe garantizar que la custodia por terceros (Nube) cumpla las obligaciones de protección de datos (A.15.1.2) mediante acuerdos legales robustos que protejan la Confidencialidad."
+    },
+
+    {
+      "codigo": "SEG-16",
+      "pregunta": "Caso: La I.U. debe publicar un conjunto de datos de investigación como 'Datos Abiertos' (Ley 1712). La Base de Datos tiene identificadores de los investigadores (cédulas y correos). La política de Transparencia choca con la Confidencialidad (MSPI/Ley 1581). ¿Cuál es la acción SGSI obligatoria?",
+      "opciones": [
+        "a) Publicar todo el conjunto de datos, ya que la Ley de Transparencia prima sobre la privacidad en este contexto académico.",
+        "b) Aplicar técnicas de anonimización y disociación al conjunto de datos, eliminando cualquier PII (Información Personal Identificable) antes de la publicación, y documentar el proceso para cumplir con ambos marcos regulatorios.",
+        "c) Negarse a publicar el conjunto de datos por completo, amparándose en que la Confidencialidad es un pilar del SGSI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Principio de Balance (A.18.1.4): El MSPI exige equilibrar la transparencia con la privacidad. La técnica de 'Anonimización' o 'Disociación' es el control obligatorio para liberar datos sin violar la Ley 1581, garantizando la Integridad y el propósito de la publicación (Datos Abiertos)."
+    },
+    {
+      "codigo": "SEG-17",
+      "pregunta": "Usted, como CISO, reporta un riesgo crítico de seguridad en la nube al Rector. El Rector le pide que usted mismo audite los controles del proveedor. ¿Cuál es la implicación de Gobierno y la acción SGSI correcta?",
+      "opciones": [
+        "a) Aceptar la auditoría para agilizar el proceso, documentando su independencia en el acta de auditoría.",
+        "b) Negarse a realizar la auditoría, ya que viola el principio de Segregación de Funciones (A.5.3.1). La auditoría independiente debe ser realizada por la Oficina de Control Interno (Tercera Línea de Defensa) o un auditor externo.",
+        "c) Auditar solo los controles técnicos, dejando la parte legal al área jurídica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Segregación de Funciones (ISO 27001): El CISO es la Segunda Línea de Defensa (Gestión del Riesgo/Monitoreo). No puede auditarse a sí mismo o a los controles que diseñó. La función de Auditoría de Sistemas es del Control Interno para asegurar la objetividad."
+    },
+    {
+      "codigo": "SEG-18",
+      "pregunta": "Se necesita crear una cuenta de 'Invitado' para un consultor externo que requiere acceso temporal al servidor de pruebas por 48 horas. ¿Cuál es el control de acceso obligatorio (A.9) que usted debe aplicar con mayor rigor?",
+      "opciones": [
+        "a) Borrado seguro de la cuenta después de 48 horas, sin importar si el consultor terminó o no.",
+        "b) Asignación de una identificación única, limitación de privilegios al mínimo indispensable para su tarea y monitoreo constante de sus actividades (Control de Cuentas de Acceso de Terceros).",
+        "c) Solicitar al consultor que use su propia laptop para evitar riesgos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Acceso de Terceros (A.9.2.2): El control requiere que el acceso sea temporal, individualizado (No Repudio) y limitado (Privilegio Mínimo). La opción B resume los controles necesarios para la trazabilidad y la Confidencialidad."
+    },
+    {
+      "codigo": "SEG-19",
+      "pregunta": "Un Ransomware de cifrado simple (WannaCry) ataca la red. El equipo de TI logra aislar los archivos encriptados, pero no tiene la llave de descifrado. El DRP no fue activado formalmente. ¿Qué proceso SGSI debió haberse priorizado para evitar la pérdida de Integridad?",
+      "opciones": [
+        "a) La Gestión de Vulnerabilidades (Patch Management) para el control preventivo.",
+        "b) La Gestión de Identidades y Accesos (IAM) para controlar el movimiento lateral.",
+        "c) La Gestión de Backups. Si los backups son inmutables y se realizan con la frecuencia adecuada (RPO), se recupera la Integridad y se mitiga el Ransomware sin pagar rescate."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gestión de Backups: Frente al Ransomware, la mejor estrategia es la recuperación (Disponibilidad / Integridad). Un control robusto de backups (A.12.3) es el control mitigador más efectivo para este tipo de ataque, haciendo que el DRP se centre solo en la restauración."
+    },
+    {
+      "codigo": "SEG-20",
+      "pregunta": "El CISO identifica que el personal de la I.U. utiliza servicios de correo electrónico y almacenamiento no oficiales (Gmail, Dropbox personal) para compartir documentos clasificados. ¿Cuál es la acción de Gobierno que usted debe sugerir?",
+      "opciones": [
+        "a) Implementar un DLP (Data Loss Prevention) para bloquear el envío de información clasificada a dominios externos, y emitir una política disciplinaria contra el uso de servicios no autorizados (A.13.2.1).",
+        "b) Bloquear completamente el acceso a internet para evitar la fuga de información.",
+        "c) Aceptar el uso de esos servicios, ya que son gratuitos y ahorran costos de licenciamiento a la I.U."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Seguridad de las Comunicaciones: El uso de servicios no oficiales (Shadow IT) es una violación a la Confidencialidad. El control es doble: técnico (DLP) para contener y procedimental (Política/Disciplina) para prevenir la reincidencia."
+    },
+    {
+      "codigo": "SEG-21",
+      "pregunta": "Se descubre que el software de código abierto utilizado para el portal web tiene un fallo de seguridad que no ha sido corregido por la comunidad (Vulnerabilidad no parcheada). ¿Qué estrategia SGSI debe aplicar?",
+      "opciones": [
+        "a) Migrar el portal a un software comercial inmediatamente.",
+        "b) Aplicar un control compensatorio (A.16.1.5) como un WAF (Web Application Firewall) para inspeccionar el tráfico y mitigar la vulnerabilidad en la capa de aplicación, mientras se espera un parche o se evalúa el cambio de software.",
+        "c) Desactivar el portal web hasta que se publique el parche, asumiendo la violación de la Disponibilidad para proteger la Integridad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de la Vulnerabilidad (A.14.2.7): Ante una vulnerabilidad no corregible inmediatamente, la acción SGSI es aplicar un control compensatorio que minimice el riesgo. El WAF mitiga la amenaza sin violar la Disponibilidad (Opción C)."
+    },
+    {
+      "codigo": "SEG-22",
+      "pregunta": "La auditoría identifica que la I.U. no tiene un Plan de Contingencia (BCP) para la pérdida total de la sede principal (incendio, inundación). El Rector alega que ya tiene un DRP perfecto. ¿Cuál es el argumento de auditoría?",
+      "opciones": [
+        "a) El DRP es suficiente, ya que los datos se recuperan en la nube.",
+        "b) El BCP es obligatorio porque cubre los procesos misionales, la reubicación del personal y la operación manual de la I.U. (proceso académico, financiero) durante el desastre, no solo la tecnología (A.17).",
+        "c) El BCP debe ser cubierto por la póliza de seguros, no por un plan de TI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Continuidad (A.17): La diferencia es el objeto. El BCP es la visión de negocio (cómo sobrevive la I.U. sin sede). El DRP es el cómo sobrevive TI (la tecnología). La I.U. debe tener BCP para demostrar resiliencia organizacional."
+    },
+    {
+      "codigo": "SEG-23",
+      "pregunta": "La I.U. Pascual Bravo contrata un consultor externo. El contrato finaliza. El Supervisor olvida revocar las credenciales de acceso remoto del consultor. ¿Qué control SGSI falló y qué riesgo se mantiene?",
+      "opciones": [
+        "a) Falló el control de Borrado Seguro. El riesgo es que los datos personales se fuguen.",
+        "b) Falló la Gestión de Terminación de Contratistas (A.9.2.4). El riesgo es de Acceso No Autorizado y violación de la Confidencialidad por parte del ex-consultor.",
+        "c) Falló el control de Inventario de Activos (A.8.1.1). El riesgo es de pérdida de activos de software."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Usuarios (A.9.2.4): La revocación de accesos (Off-boarding) debe ser un procedimiento formal y obligatorio. El fallo aquí es procesal, permitiendo que un tercero sin relación laboral acceda a la red."
+    },
+    {
+      "codigo": "SEG-24",
+      "pregunta": "La Política de Borrado Seguro (MSPI) obliga a eliminar toda la información personal de estudiantes egresados después de 10 años, a menos que tenga valor histórico. ¿Cuál es la acción SGSI que usted debe exigir para cumplir con el principio de Integridad?",
+      "opciones": [
+        "a) Crear un script para borrar las bases de datos de egresados de forma automática cada 10 años.",
+        "b) Exigir que el Archivo General y el área jurídica definan formalmente el 'Valor Histórico' y autoricen la depuración mediante un proceso de transferencia de custodia o eliminación documental controlada.",
+        "c) Borrar los correos electrónicos, que es la única información no requerida."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad y Cumplimiento Legal (Ley de Archivo): El SGSI debe asegurar la Integridad del dato, que incluye su ciclo de vida y valor histórico/legal. La eliminación es una decisión de Gobierno del Dato, no de TI, y debe ser autorizada por el Archivo General."
+    },
+    {
+      "codigo": "SEG-25",
+      "pregunta": "Un funcionario se conecta a la red administrativa de la I.U. utilizando su propio portátil personal (BYOD) sin controles antivirus ni parches actualizados. Esto viola la política de 'uso de activos' (A.6.2.1). ¿Cuál es el mayor riesgo para la I.U.?",
+      "opciones": [
+        "a) Pérdida de la Confidencialidad, porque el funcionario puede robar el código fuente.",
+        "b) Compromiso de la Integridad de la red interna, ya que el dispositivo sin parches puede introducir malware o Ransomware, afectando la Disponibilidad de los demás activos.",
+        "c) Violación de la Licencia de Software por usar Windows no original."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "BYOD y Amenazas Internas: El riesgo principal del BYOD sin control es la 'lateral movement' de malware no detectado, lo cual ataca la Integridad de la red. Esto es un fallo en los controles de seguridad de la red (A.13) y uso de activos (A.6)."
+    },
+    {
+      "codigo": "SEG-26",
+      "pregunta": "El software de análisis forense detecta que un servidor web fue comprometido porque tenía activado el protocolo FTP, que la política de seguridad prohibía (A.13.1.2). ¿Qué tipo de control SGSI falló?",
+      "opciones": [
+        "a) Falló el control de Recuperación (DRP).",
+        "b) Falló el control Preventivo de Hardening (A.12.5.1) y el Monitoreo de Configuración, ya que el servicio prohibido debió ser deshabilitado en la instalación (Configuración Segura).",
+        "c) Falló el control de Gestión de Contraseñas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Hardening y Configuración Segura: La política (control preventivo) se violó al dejar un servicio inseguro activo. El control A.12.5.1 exige asegurar que los equipos cumplen con los estándares de seguridad antes de su puesta en producción."
+    },
+    {
+      "codigo": "SEG-27",
+      "pregunta": "El CISO exige que las pruebas de penetración se realicen anualmente (A.18.2.3). El Rector argumenta que el presupuesto no alcanza para hacerlas cada año. ¿Cuál es la decisión de Gobierno TI?",
+      "opciones": [
+        "a) Reducir la periodicidad a cada dos años y documentar la Aceptación de Riesgo de no detectar vulnerabilidades durante el periodo intermedio (A.12.6.1).",
+        "b) Cancelar las pruebas de penetración, ya que el riesgo no es tan alto.",
+        "c) Exigir que el área de desarrollo haga pruebas de vulnerabilidad continuas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Monitoreo y Evaluación: Las pruebas de penetración son obligatorias. Si no se pueden hacer anualmente por costo, el Gobierno TI debe negociar la periodicidad, pero formalizando la Aceptación del Riesgo residual. La A es la única opción que mantiene la formalidad SGSI ante un recorte presupuestal."
+    },
+    {
+      "codigo": "SEG-28",
+      "pregunta": "Un desarrollador quiere usar un 'chatbot' basado en Inteligencia Artificial para el soporte. El código del 'chatbot' tiene que enviar datos (ej. preguntas) a un servidor externo para el procesamiento de IA. ¿Qué debe exigir el CISO antes de su implementación?",
+      "opciones": [
+        "a) Que el servidor externo cumpla con el Dominio de Estrategia del PETI.",
+        "b) Que el acuerdo contractual con el proveedor de IA garantice la anonimización, el cumplimiento de la Ley 1581 (no transferencia ilegal de datos) y la destrucción de la información una vez procesada (Controles de Terceros A.15).",
+        "c) Que el desarrollo del chatbot sea en lenguaje Python, que es más seguro."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Controles de Terceros (A.15): El procesamiento de datos por un tercero (Proveedor de IA) requiere acuerdos de confidencialidad y control legal sobre la información, especialmente si hay datos personales. El CISO debe blindar legalmente el activo en la nube del tercero."
+    },
+    {
+      "codigo": "SEG-29",
+      "pregunta": "Durante una investigación forense por presunto fraude en Tesorería, la evidencia digital (imagen del disco duro) es extraída por un técnico que no firma el Acta de Cadena de Custodia. ¿Cuál es la implicación legal más grave?",
+      "opciones": [
+        "a) El proceso forense debe repetirse para obtener la firma.",
+        "b) La evidencia digital pierde valor probatorio en un proceso disciplinario o judicial por la interrupción de la Cadena de Custodia (A.16.2.2).",
+        "c) El técnico debe ser sancionado por la falta de firma."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Análisis Forense y Cadena de Custodia: El SGSI exige la trazabilidad y la integridad de la evidencia. Si la cadena de custodia se rompe (falta de firma, cambio de posesión), se pierde la garantía de que la evidencia no fue manipulada, invalidándola en cualquier proceso legal."
+    },
+    {
+      "codigo": "SEG-30",
+      "pregunta": "Usted es el CISO. La auditoría encuentra que el 10% del personal de TI tiene cuentas de administrador local permanentes en sus portátiles. Esto viola el principio de Privilegio Mínimo. ¿Cuál es la acción de corrección obligatoria?",
+      "opciones": [
+        "a) Implementar un control compensatorio pidiendo al personal que firme un acta de compromiso para no usar la cuenta de administrador.",
+        "b) Implementar una herramienta de Gesto de Privilegio (PAM) que revoque el acceso permanente y solo lo otorgue bajo demanda y justificación, restaurando el Privilegio Mínimo (A.9.2.3).",
+        "c) Permitir el acceso de administrador, pero solo si el computador tiene antivirus actualizado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Privilegio Mínimo (A.9.2.3): El privilegio administrativo permanente es un riesgo de alto impacto. La solución es técnica y procedimental: usar PAM (Privileged Access Management) para forzar la revocación del acceso permanente y controlar el acceso Just-In-Time."
+    },
+
+{
+      "codigo": "SEG-01",
+      "pregunta": "El sistema de matrículas ralentiza por el cifrado extremo aplicado en la base de datos. El área académica exige desactivar el cifrado para mejorar la disponibilidad en inscripciones. ¿Cómo debes gestionar este conflicto?",
+      "opciones": [
+        "a) Mantener el cifrado y gestionar aumentos de disponibilidad con mejoras técnicas, documentando el riesgo y decisión en Comité de Seguridad.",
+        "b) Desactivar el cifrado temporalmente y documentar la acción para auditoría.",
+        "c) Ajustar el nivel de cifrado sólo durante los picos y comunicar luego."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La confidencialidad nunca puede ser sacrificada por eficiencia operativa sin un análisis formal y decisión colegiada en Comité de Seguridad y conforme al MSPI."
+    },
+    {
+      "codigo": "SEG-02",
+      "pregunta": "Un técnico sugiere compartir credenciales de administrador entre los miembros del equipo para agilizar el soporte en incidentes graves. ¿Respuesta adecuada del auditor?",
+      "opciones": [
+        "a) Mantener privilegio mínimo y trazabilidad individual, prohibiendo compartir credenciales.",
+        "b) Permitir compartir sólo para incidentes críticos y registrar después.",
+        "c) Crear una cuenta genérica de administrador para todo el equipo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El Principio de Privilegio Mínimo y la trazabilidad son obligatorios; compartir credenciales va contra políticas básicas de seguridad y auditoría."
+    },
+    {
+      "codigo": "SEG-03",
+      "pregunta": "Durante la formación, se descubre que el Comité de Seguridad delega el monitoreo de malware solo al área técnica por falta de tiempo. ¿Cuál es la acción correcta?",
+      "opciones": [
+        "a) Requiere responsabilidades compartidas, con reporte formal y revisión periódica por el Comité.",
+        "b) Permitir delegar y pedir informe sólo anual.",
+        "c) Delegar el monitoreo indefinidamente a TI."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El Comité debe mantener liderazgo y supervisión formal en gestión de malware, según MSPI y buenas prácticas."
+    },
+    {
+      "codigo": "SEG-04",
+      "pregunta": "El análisis BIA identifica que el sistema de nómina es crítico, pero la copia de seguridad solo se realiza cada 15 días. ¿Qué debe hacer el responsable?",
+      "opciones": [
+        "a) Formalizar ajuste de política, asegurando backups más frecuentes y documentar el cambio en comité.",
+        "b) Mantener la frecuencia si no ha habido incidentes.",
+        "c) Realizar backup solo cuando hay cambios importantes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La BIA requiere ajustar controles según la criticidad; ignorar el análisis expone la continuidad y contradice MSPI."
+    },
+    {
+      "codigo": "SEG-05",
+      "pregunta": "Tras identificar ransomware en una estación crítica, el área técnica reestablece el sistema sin notificar ni documentar el incidente. ¿Qué riesgo enfrenta la entidad?",
+      "opciones": [
+        "a) Omisión de notificación/documentación implica sanciones, pérdida de trazabilidad y hallazgo grave de auditoría.",
+        "b) Ahorro de tiempo en recuperación.",
+        "c) Protección frente a escándalo institucional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El reporte formal y la trazabilidad de incidentes son controles obligatorios en el MSPI y la función pública."
+    },
+    {
+      "codigo": "SEG-06",
+      "pregunta": "Se detecta un acceso no autorizado a datos personales. El área propone corregir la vulnerabilidad y no avisar para evitar alarmas. ¿Cómo proceder formalmente?",
+      "opciones": [
+        "a) Realizar aviso de incidente, proteger evidencia y notificar de acuerdo a los protocolos MSPI/Ley 1581.",
+        "b) Corregir y guardar el caso solo para el archivo de TI.",
+        "c) Avisar solo si se repite."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La notificación y gestión formal son obligatorias; omitir el aviso vulnera Ley 1581 y los principios de auditoría."
+    },
+    {
+      "codigo": "SEG-07",
+      "pregunta": "El Comité de Seguridad evalúa reducir controles de acceso lógico para mejorar tiempos de atención a usuarios, sin análisis formal de riesgo. ¿Qué recomendación debe prevalecer?",
+      "opciones": [
+        "a) Mantener controles y exigir análisis formal de riesgos antes de modificar cualquier política.",
+        "b) Implementar la reducción y vigilar resultados.",
+        "c) Aplicar solo si hay quejas relevantes de lentitud."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las modificaciones en controles de acceso requieren análisis formal y aprobación colegiada, conforme al MSPI y normativas internacionales."
+    },
+    {
+      "codigo": "SEG-08",
+      "pregunta": "Solicitan borrar todos los datos de una laptop dada de baja con un formateo simple para agilizar el proceso. ¿Qué política de borrado seguro aplica?",
+      "opciones": [
+        "a) Realizar borrado seguro certificado y documentar en el expediente de baja.",
+        "b) Formatear dos veces es suficiente.",
+        "c) Dejar la limpieza al usuario anterior."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La política exige borrar de forma segura y trazable; los procesos incompletos incumplen MSPI/Ley 1581."
+    },
+    {
+      "codigo": "SEG-09",
+      "pregunta": "Durante una auditoría de seguridad, las políticas de privilegio mínimo están desactualizadas y muchos usuarios tienen más acceso del necesario. ¿Qué acción formal procede?",
+      "opciones": [
+        "a) Actualizar las políticas y perfiles de acceso, documentar acciones y notificar la corrección al Comité.",
+        "b) Ajustar los privilegios solo en casos de incidentes.",
+        "c) Mantener configuración hasta la próxima auditoría."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las actualizaciones deben ser inmediatas, documentadas y con reporte formal; lo contrario implica riesgo institucional."
+    },
+    {
+      "codigo": "SEG-10",
+      "pregunta": "El área técnica sugiere actualizar sistemas productivos en horario laboral para cumplir ANS, aunque implique inestabilidad temporal. ¿Qué política aplica?",
+      "opciones": [
+        "a) Programar actualizaciones fuera de horario crítico y asegurar aprobación formal en comité.",
+        "b) Actualizar para cumplir ANS y documentar si hay fallos.",
+        "c) Decidir en el momento según el impacto de usuarios."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión de cambios debe primar la seguridad y estabilidad, no sólo la disponibilidad."
+    },
+    {
+      "codigo": "SEG-11",
+      "pregunta": "El Comité propone eliminar logs antiguos para ahorrar espacio, sin valorar el impacto en auditoría y trazabilidad. ¿Qué recomendación formal corresponde?",
+      "opciones": [
+        "a) Realizar análisis de impacto y aprobar eliminación solo si se garantiza la trazabilidad exigida.",
+        "b) Eliminar totalmente por ahorro de recursos.",
+        "c) Dejar los logs solo en los servidores principales."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Eliminar logs sin análisis formal puede vulnerar la capacidad de auditoría y control; la trazabilidad nunca debe sacrificarse."
+    },
+    {
+      "codigo": "SEG-12",
+      "pregunta": "Se detecta malware en equipos de laboratorio, el técnico propone formatear y no investigar la causa raíz para restablecer rápido el servicio. ¿Qué acción exige la gestión de riesgos?",
+      "opciones": [
+        "a) Investigar la causa raíz, documentar acciones y reportar a seguridad antes de restaurar.",
+        "b) Formatear todos los equipos y cerrar los incidentes.",
+        "c) Reinstalar sistema con backup y finalizar el reporte."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión de riesgos exige identificar la fuente del problema para prevenir recurrencias."
+    },
+    {
+      "codigo": "SEG-13",
+      "pregunta": "Por presión de tiempo, el área solicita conectar servidores productivos directamente a Internet para acelerar la resolución de incidencias. ¿Qué procedimiento formal debe seguirse?",
+      "opciones": [
+        "a) Evaluar el riesgo en comité y aprobar solo si están enmarcados controles compensadores.",
+        "b) Conectar y monitorear sin análisis.",
+        "c) Dejarlo a criterio técnico del operador."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Acciones de alto riesgo deben tener análisis formal y aprobación colegiada."
+    },
+    {
+      "codigo": "SEG-14",
+      "pregunta": "El Comité de Seguridad evalúa aceptar el riesgo de denegación de servicio sin invertir en controles adicionales. ¿Qué debe documentarse?",
+      "opciones": [
+        "a) Acta oficial de aceptación, justificación y plan de monitoreo de impactos.",
+        "b) Informar verbalmente a los usuarios.",
+        "c) Aceptar el riesgo solo si hay incidentes recurrentes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La aceptación de riesgos debe ser formal, trazable y parte del proceso de gestión del MSPI."
+    },
+    {
+      "codigo": "SEG-15",
+      "pregunta": "Durante la ejecución de proyectos, el área técnica omite informar de incidentes menores de seguridad para evitar sobrecarga administrativa. ¿Cómo actuar como auditor?",
+      "opciones": [
+        "a) Exigir el registro formal de todos los incidentes y adoptar medidas para facilitar el reporte.",
+        "b) Permitir omisiones en casos justificables.",
+        "c) Registrar solo si hay impacto operacional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión de incidentes exige registro total, incluso de los menores, para fortalecer la prevención."
+    },
+
+    {
+      "codigo": "SEG-16",
+      "pregunta": "Se sugiere modificar las políticas de acceso para permitir usuarios compartidos en aplicaciones críticas durante eventos institucionales masivos. ¿Cómo procede alineado al MSPI?",
+      "opciones": [
+        "a) Mantener controles de acceso individualizados y documentar cualquier excepción en el Comité de Seguridad.",
+        "b) Permitir usuarios compartidos solo durante el evento y revertir después.",
+        "c) Solicitar aprobación verbal y operar con usuarios genéricos temporalmente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El acceso debe ser individual y trazable; excepciones requieren formalidad y documentación colegiada según MSPI."
+    },
+    {
+      "codigo": "SEG-17",
+      "pregunta": "Por reducción presupuestal, se detiene la actualización de parches de seguridad durante un semestre. ¿Qué riesgo y acción debe tomar el Comité?",
+      "opciones": [
+        "a) Registrar y analizar el riesgo, justificar la decisión en acta y planear mitigaciones adicionales.",
+        "b) Aceptar el riesgo solo si ocurre un incidente.",
+        "c) Comunicar informalmente al área técnica la suspensión de parches."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión de riesgo formal exige documentación de la decisión y acciones compensatorias cuando se relajan controles."
+    },
+    {
+      "codigo": "SEG-18",
+      "pregunta": "Se expone información de usuarios en un portal web por error. El área técnica lo corrige, pero no informa ni documenta el incidente. ¿Cuál es el proceder adecuado?",
+      "opciones": [
+        "a) Documentar el incidente, notificar a los titulares si es requerido y registrar acciones correctivas.",
+        "b) Corregir y omitir el reporte por tratarse de error menor.",
+        "c) Informar solo si hay reclamos formales de los afectados."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Todo incidente que afecte confidencialidad debe ser formalmente registrado y, según impacto, notificado incluso a titulares o entes de control."
+    },
+    {
+      "codigo": "SEG-19",
+      "pregunta": "Durante un test de penetración autorizado, se identifican varias vulnerabilidades explotables, pero la gerencia pide no reportarlas oficialmente para evitar alarmas. ¿Qué respuesta profesional es válida?",
+      "opciones": [
+        "a) Reportar y documentar todas las vulnerabilidades según procedimiento, informando riesgos y recomendaciones.",
+        "b) Informar solo las más críticas y dejar las otras para tratarlas después.",
+        "c) Registrar las vulnerabilidades solo a nivel técnico, sin notificar a la alta dirección."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La ética y las normas exigen reporte completo y transparente en toda gestión de seguridad, sin ocultar hallazgos relevantes."
+    },
+    {
+      "codigo": "SEG-20",
+      "pregunta": "El plan DRP indica que debe hacerse backup diario, pero el área técnica lo hace semanal para 'optimizar recursos'. ¿Cómo gestionar ante auditoría?",
+      "opciones": [
+        "a) Reportar el incumplimiento y ajustar la práctica a lo establecido en el plan, documentando causas y acciones correctivas.",
+        "b) Argumentar que el plan fue demasiado exigente y aceptar la práctica actual.",
+        "c) Modificar el DRP sin acta formal para reflejar el cambio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las desviaciones en seguridad deben ser reportadas y rastreadas con evidencia y justificación formal."
+    },
+    {
+      "codigo": "SEG-21",
+      "pregunta": "Para acelerar un proyecto, se permite acceso privilegiado a desarrolladores en ambiente productivo. ¿Qué acción exige un auditor MSPI?",
+      "opciones": [
+        "a) Restringir inmediatamente el acceso, reportar el incidente y fortalecer el control de segregación de ambientes.",
+        "b) Permitir acceso temporal mientras se completa el proyecto.",
+        "c) Rastrear el cambio sólo en los logs para posible revisión posterior."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El principio de mínimo privilegio y la segregación ambiente desarrollo/producción es imprescindible; toda excepción debe ser documentada y gestionada formalmente."
+    },
+    {
+      "codigo": "SEG-22",
+      "pregunta": "El Comité de Seguridad debate aceptar el riesgo de phishing persistente por falta de recursos para adquirir soluciones avanzadas. ¿Qué evidencia mínima deben dejar?",
+      "opciones": [
+        "a) Acta de Comité en la que se justifica, cuantifica y monitorea el riesgo asumido.",
+        "b) Registro interno en el área técnica.",
+        "c) Análisis verbal en reunión y anotar en mail la decisión."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La aceptación de riesgos debe ser integral, formal y rastreable, con monitoreo y justificación objetiva según el MSPI."
+    },
+    {
+      "codigo": "SEG-23",
+      "pregunta": "El Comité propone almacenar respaldos fuera del país porque son opciones más económicas, sin analizar regulación local. ¿Qué debe priorizarse?",
+      "opciones": [
+        "a) Verificar regulación sobre transferencia internacional de datos y garantizar que el proveedor cumple requisitos de seguridad locales.",
+        "b) Contratar el proveedor más barato y hacer monitoreo posterior.",
+        "c) Firmar compromiso de servicio suficiente con el proveedor externo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Normatividad colombiana y MSPI requieren análisis previo de riesgos y cumplimiento legal antes de transferir datos fuera del país."
+    },
+    {
+      "codigo": "SEG-24",
+      "pregunta": "Un empleado sale de la institución, pero su cuenta de correo y accesos permanecen activos por error. ¿Cuál es el riesgo crítico?",
+      "opciones": [
+        "a) Posible uso indebido, brecha de seguridad y violación del principio de mínimo privilegio.",
+        "b) Incumplimiento solo de un procedimiento secundario.",
+        "c) Riesgo menor si el usuario ya no tiene equipo asignado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El retiro oportuno de accesos y cuentas es esencial para evitar accesos no autorizados y cumple roles críticos en auditoría."
+    },
+    {
+      "codigo": "SEG-25",
+      "pregunta": "Durante incidentes masivos, la gerencia ordena priorizar restablecer sistemas antes de recopilar evidencia. ¿Qué proceder formal pide la gestión de incidentes?",
+      "opciones": [
+        "a) Recopilar y resguardar evidencia antes de cualquier restauración, documentar y luego proceder a recuperar el sistema.",
+        "b) Recuperar primero y asegurar evidencia después si es posible.",
+        "c) Dejar evidencia solo si hay sospecha de delito."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La cadena de custodia y el ciclo formal de incidentes requiere evidenciar antes de cualquier cambio para poder investigar y auditar efectivamente."
+    },
+    {
+      "codigo": "SEG-26",
+      "pregunta": "El área solicita instalar software freeware para un servicio institucional crítico sin validación de licencias ni origen. ¿Cuál es el riesgo y acción correcta como auditor?",
+      "opciones": [
+        "a) Prohibir la instalación hasta validar licenciamiento, procedencia y ausencia de riesgos legales/técnicos.",
+        "b) Permitir instalación y monitorear actividad.",
+        "c) Aprobar con condición de desinstalar si surgen problemas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El uso de software sin validar licencia y seguridad puede exponer a la entidad a vulnerabilidades, sanciones y afectación operacional."
+    },
+    {
+      "codigo": "SEG-27",
+      "pregunta": "Un incidente de denegación de servicio se resuelve de manera manual y no queda documentado. ¿Qué se omite en la gestión de riesgos?",
+      "opciones": [
+        "a) Registro del incidente, análisis de causa y evidencia para auditoría, fallando en el ciclo de mejora continua.",
+        "b) Acceso a soporte inmediato.",
+        "c) Eficiencia técnica en la respuesta."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El registro de incidentes es fundamental para análisis, prevención y cumplimiento de normas de seguridad."
+    },
+    {
+      "codigo": "SEG-28",
+      "pregunta": "Por presión del área usuaria, el técnico omite el procedimiento de doble aprobación en cambios críticos. ¿Qué postura debe asumir el Especialista MSPI?",
+      "opciones": [
+        "a) Exigir cumplimiento total de flujos aprobatorios formales, documentar desvío y capacitar en el procedimiento.",
+        "b) Justificar la excepción por urgencia.",
+        "c) Regularizar la documentación después de ejecutar el cambio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Saltarse controles formales compromete la integridad y el control interno, además de exponer a sanciones por incumplimiento."
+    },
+    {
+      "codigo": "SEG-29",
+      "pregunta": "El Comité de Seguridad recibe recomendaciones externas para endurecer políticas de acceso, lo cual podría dificultar la operación en algunos procesos. ¿Qué debe hacer formalmente?",
+      "opciones": [
+        "a) Realizar análisis de impacto, balancear riesgos y justificar formalmente las decisiones adoptadas.",
+        "b) Implementar sin análisis por venida de autoridad externa.",
+        "c) Postergar la decisión hasta verificar si surgen dificultades operativas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda modificación en controles debe estar documentada, evaluada y balanceada frente a los objetivos y riesgos."
+    },
+    {
+      "codigo": "SEG-30",
+      "pregunta": "Durante una revisión, el Comité ordena aceptar un software sin pruebas anti-malware para agilizar la puesta en marcha. ¿Cuál es la acción correcta?",
+      "opciones": [
+        "a) Detener despliegue y exigir pruebas formales antes de liberar en producción, documentando riesgos y medidas adoptadas.",
+        "b) Aceptar la excepción provisional y probar después.",
+        "c) Solo comunicar a los usuarios el posible riesgo."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Las pruebas anti-malware son control obligatorio para preservar integridad y disponibilidad; omitirlas es un incumplimiento crítico."
+    },
+
+    {
+      "codigo": "SEG-01",
+      "pregunta": "El sistema académico de la universidad incorpora cifrado a nivel de base de datos para proteger la información de estudiantes. Durante el periodo de matrícula, los tiempos de respuesta se vuelven muy lentos y el Vicerrector Académico exige que se desactive el cifrado para garantizar la disponibilidad, argumentando que “es peor que los estudiantes no se puedan matricular”. El análisis BIA establece que la matrícula es un proceso crítico, pero también que la información académica contiene datos personales sensibles. Como coordinador de implementación del MSPI, ¿qué acción es más adecuada?",
+      "opciones": [
+        "a) Desactivar el cifrado de la base de datos durante el periodo de matrícula para mejorar la disponibilidad y volver a activarlo después, documentando la decisión en un correo interno como una excepción operativa.",
+        "b) Mantener el cifrado, revisar la arquitectura y capacidad del sistema para mejorar el rendimiento, y si es necesario reevaluar el diseño del control; documentar el conflicto en el análisis de riesgos y someter la decisión al Comité de Seguridad para un tratamiento formal del riesgo.",
+        "c) Sustituir el cifrado de base de datos por una cláusula contractual de confidencialidad firmada por todos los usuarios del sistema, manteniendo la configuración actual sin cambios técnicos inmediatos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) administra el conflicto C-I-D mediante gestión formal de riesgos: mantiene la confidencialidad, busca soluciones técnicas para la disponibilidad y, de ser necesario, escala la decisión al Comité de Seguridad según el MSPI. Desactivar el cifrado sin tratamiento formal del riesgo (a) sacrifica la confidencialidad de datos personales. Reemplazar controles técnicos por compromisos declarativos (c) no reduce el riesgo real de exposición."
+    },
+    {
+      "codigo": "SEG-02",
+      "pregunta": "Durante la actualización de la infraestructura, el proveedor propone implementar un mecanismo de cifrado de disco en todos los servidores críticos. El área de TI reporta que las pruebas muestran un impacto significativo en el rendimiento del sistema de matrículas, clave en el BIA. Un administrador sugiere excluir este sistema del cifrado para garantizar la máxima velocidad, manteniendo otros controles. El MSPI ya había identificado fuga de datos en respaldos como riesgo relevante. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Excluir el sistema de matrículas del cifrado de discos para evitar cualquier impacto en la disponibilidad, registrando que se confía en las políticas internas de uso responsable para proteger la información.",
+        "b) Analizar alternativas de optimización (hardware, configuración, tipo de cifrado), valorar el riesgo residual de no cifrar, y presentar al Comité de Seguridad una propuesta de tratamiento del riesgo, documentando la decisión final en el plan de tratamiento del MGRSI.",
+        "c) Implementar cifrado solo en los servidores que almacenan copias de respaldo, dejando los servidores de producción sin cifrado, sin modificar el análisis de riesgos ya aprobado para no retrasar el proyecto."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue la metodología MGRSI: evaluación de alternativas, análisis de riesgo residual y decisión colegiada y documentada en el plan de tratamiento. La opción a) renuncia al control de cifrado en el activo más sensible solo por rendimiento, sin gestión formal del riesgo. La opción c) introduce modificaciones relevantes sin actualizar el análisis de riesgos ni someterlo al Comité, generando incoherencias."
+    },
+    {
+      "codigo": "SEG-03",
+      "pregunta": "En un simulacro de ataque de denegación de servicio (DoS) al portal institucional, TI propone abrir un acceso directo sin autenticación a ciertos servicios internos para garantizar que los estudiantes puedan consultar notas y certificados aunque el portal falle. El CISO advierte que estos servicios contienen información personal y académica. El BIA define disponibilidad alta, pero también riesgo alto de confidencialidad. ¿Cómo debe procederse?",
+      "opciones": [
+        "a) Habilitar accesos sin autenticación a los servicios internos mientras dure la contingencia, priorizando la disponibilidad de información para los estudiantes, y luego cerrar dichos accesos cuando se estabilice el portal.",
+        "b) Mantener los requisitos de autenticación y confidencialidad, habilitar canales alternos de acceso autenticado (subdominios, portales de contingencia, VPN limitada) y registrar en el BCP las medidas para asegurar disponibilidad sin eliminar controles de seguridad.",
+        "c) Redirigir todo el tráfico del portal a un sitio estático con listados de notas anonimizadas por código de estudiante, evitando autenticación y reduciendo así la carga del servidor en contingencia."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) compatibiliza disponibilidad y confidencialidad dentro del marco del BCP/DRP y del MSPI, sin eliminar autenticación. La opción a) crea un canal no autenticado a información sensible, violando principios de confidencialidad y Ley 1581. La opción c) publica información académica anonimizada, pero sigue exponiendo datos potencialmente reidentificables y cambia el modelo de acceso sin tratamiento formal del riesgo."
+    },
+    {
+      "codigo": "SEG-04",
+      "pregunta": "El análisis BIA de la I.U. identificó como procesos críticos: matrícula, nómina y servicio médico universitario. Tras un ataque de ransomware, se deben priorizar los esfuerzos de recuperación. El Vicerrector Administrativo quiere recuperar primero el sistema de gestión de correspondencia porque recibe muchas quejas por retrasos. El Comité de Seguridad aún no se ha reunido. Como coordinador de implementación del MSPI, ¿qué criterio debería prevalecer?",
+      "opciones": [
+        "a) Atender la solicitud del Vicerrector Administrativo y priorizar el sistema de correspondencia, ya que el número de quejas puede afectar la imagen institucional a corto plazo.",
+        "b) Seguir las prioridades definidas en el BIA y los RTO aprobados: recuperar primero sistemas de matrícula, nómina y servicio médico, y dejar correspondencia en una fase posterior, registrando la decisión en el acta de gestión del incidente.",
+        "c) Priorizar el sistema de correspondencia si se puede recuperar más rápido, para mostrar resultados visibles a la alta dirección, y luego continuar con los sistemas definidos como críticos en el BIA."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta la planificación de continuidad basada en BIA y RTO, que es pilar en MSPI/SGSI. La priorización no se debe improvisar según presiones momentáneas, sino seguir criterios formales. Las opciones a) y c) se guían por percepción y visibilidad, no por la criticidad documentada, debilitando el valor del BIA y del BCP/DRP."
+    },
+    {
+      "codigo": "SEG-05",
+      "pregunta": "Se realiza un BIA y se determina que la tolerancia máxima a la pérdida de datos (RPO) para el sistema financiero es de 4 horas y para el sistema de biblioteca es de 48 horas. El proveedor de respaldo propone estandarizar todos los sistemas a un RPO de 24 horas para simplificar la operación. La propuesta reduce costos pero contraviene los resultados del análisis. ¿Cómo debe abordarse esta tensión?",
+      "opciones": [
+        "a) Aceptar el RPO de 24 horas para todos los sistemas y actualizar el BIA para reflejarlo, argumentando que la estandarización operativa es más viable y que el BIA debe ajustarse a las capacidades del proveedor.",
+        "b) Evaluar el impacto de incrementar el RPO del sistema financiero, documentar el riesgo residual de pérdida de datos y presentar al Comité de Seguridad opciones: mantener RPO de 4 horas para críticos y 24 para el resto, o aceptar formalmente el riesgo con justificación.",
+        "c) Rechazar cualquier cambio al RPO original y exigir al proveedor que se adapte, sin discutir alternativas, para no debilitar el BIA ni los requerimientos del MSPI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) concilia capacidad técnica y riesgo mediante gestión formal: se analiza el impacto, se lleva la decisión al Comité y se documenta el tratamiento/aceptación de riesgo. La opción a) acomoda el BIA a la limitación del proveedor sin análisis de impacto. La opción c) no considera restricciones reales y evita un diálogo de riesgo, lo que puede ser inviable operativamente."
+    },
+    {
+      "codigo": "SEG-06",
+      "pregunta": "En la revisión de permisos del sistema académico, se detecta que varios analistas de soporte TI tienen perfil de administrador sobre todos los módulos, incluyendo notas, historia académica y datos de salud del servicio médico. Argumentan que necesitan esos privilegios para “resolver incidentes rápido”. El MSPI exige aplicar el principio de privilegio mínimo. ¿Qué debe hacerse?",
+      "opciones": [
+        "a) Mantener los privilegios de administrador para los analistas de soporte, confiando en su ética profesional y firmando un acta adicional de confidencialidad para mitigar el riesgo.",
+        "b) Rediseñar los perfiles de acceso para que los analistas tengan solo los permisos estrictamente necesarios para soporte, escalando administraciones especiales a un equipo reducido y registrando el cambio en la matriz de permisos del SGSI.",
+        "c) Rotar periódicamente qué analista tiene perfil de administrador completo para compartir la responsabilidad y reducir la probabilidad de abuso individual, sin modificar la estructura de permisos actual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) aplica el principio de privilegio mínimo: se ajustan permisos al rol y se concentra la administración de alto riesgo bajo control y trazabilidad. La opción a) reemplaza controles por confianza y papeles, sin reducir superficie de ataque. La opción c) solo distribuye el riesgo en el tiempo sin reducirlo, manteniendo accesos excesivos."
+    },
+    {
+      "codigo": "SEG-07",
+      "pregunta": "Un desarrollador solicita acceso directo de administrador a la base de datos de producción del sistema financiero para hacer ajustes de emergencia. Argumenta que con un perfil limitado no puede corregir rápidamente errores graves. El procedimiento del MSPI establece que el acceso privilegiado temporal debe ser aprobado y registrado. El jefe inmediato propone darle el acceso sin seguir el protocolo, asegurando que lo retirará después. ¿Cuál es la respuesta más adecuada?",
+      "opciones": [
+        "a) Conceder el acceso de administrador de manera inmediata por la urgencia, y retirar el permiso cuando el desarrollador informe que terminó, sin registrar el caso en el procedimiento formal para evitar burocracia.",
+        "b) Gestionar el acceso privilegiado conforme al procedimiento del MSPI: solicitar aprobación documentada, establecer límite temporal, registrar el caso y monitorear la actividad del desarrollador durante la intervención.",
+        "c) Negar cualquier acceso directo a la base de datos de producción, incluso temporal, y exigir que todos los cambios se realicen exclusivamente mediante despliegue de versiones, aunque el problema se prolongue."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue el procedimiento formal de gestión de accesos privilegiados, conciliando urgencia y control (aprobación, temporalidad, registro, monitoreo). La opción a) rompe el marco del MSPI y abre una puerta sin trazabilidad. La opción c) desconoce posibles escenarios de emergencia donde un acceso controlado puede ser necesario."
+    },
+    {
+      "codigo": "SEG-08",
+      "pregunta": "El Comité de Seguridad de la Información recibe un informe de auditoría interna que evidencia múltiples cuentas genéricas compartidas entre funcionarios para acceder al sistema de historias clínicas del servicio médico universitario. Algunos médicos defienden su uso por comodidad y rapidez. El MSPI considera los datos de salud como alta sensibilidad. ¿Cuál debería ser la decisión del Comité?",
+      "opciones": [
+        "a) Permitir el uso de cuentas genéricas en el servicio médico, pero exigir que se cambie la contraseña de forma frecuente y se firme un acta de corresponsabilidad por parte del grupo de usuarios.",
+        "b) Ordenar la eliminación progresiva de las cuentas genéricas, implementar cuentas nominativas para cada profesional de salud, y establecer controles de registro de accesos por usuario, documentando la medida en el plan de tratamiento de riesgos.",
+        "c) Mantener las cuentas genéricas como están, pero restringir su uso únicamente a consultas de lectura, asegurando que solo haya una cuenta de este tipo por área."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) está alineada con principios de trazabilidad y minimización de riesgos del MSPI y la Ley 1581: no es aceptable mantener cuentas compartidas en sistemas con datos de salud. Las opciones a) y c) mantienen el anonimato de la acción, imposibilitando una auditoría efectiva y la atribución de responsabilidades."
+    },
+    {
+      "codigo": "SEG-09",
+      "pregunta": "Tras un incidente de phishing exitoso, se convoca al Comité de Seguridad para definir medidas. El jefe de TI plantea simplemente fortalecer el filtro de correo y enviar una circular general, sin actualizar el análisis de riesgos ni el plan de concienciación. El MSPI prevé que las decisiones sobre riesgos significativos deben quedar documentadas y reflejarse en planes. ¿Qué enfoque debería adoptarse?",
+      "opciones": [
+        "a) Aceptar las acciones propuestas de forma operativa sin modificar la documentación del MSPI, considerando que son medidas de mejora menor que no afectan el marco de riesgos.",
+        "b) Actualizar el análisis de riesgos incorporando la experiencia del incidente, ajustar el plan de tratamiento (incluyendo medidas técnicas y de concienciación) y dejar la decisión y sus responsables documentados en acta del Comité.",
+        "c) Declarar el incidente como un evento aislado que no requiere revisión del análisis de riesgos, y limitar el Comité a avalar el fortalecimiento del filtro de correo electrónico."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra el aprendizaje del incidente en el ciclo de gestión de riesgos (MGRSI): se actualizan riesgos, planes y responsabilidades. La opción a) reduce la respuesta a parches sin coherencia documental. La opción c) trivializa el incidente y evita incorporar evidencia empírica al modelo de riesgo."
+    },
+    {
+      "codigo": "SEG-10",
+      "pregunta": "Durante una prueba de penetración interna, los éticos (red team) logran comprometer una cuenta de usuario de biblioteca e instalar un keylogger en un PC público. La dirección sugiere mantener el incidente en secreto para evitar alarma y solo desinstalar el malware, sin informar al Comité de Seguridad ni revisar políticas de uso de PCs públicos. El MSPI exige gestión formal de incidentes. ¿Qué es lo más adecuado?",
+      "opciones": [
+        "a) Limitarse a eliminar el malware y restaurar la imagen del equipo, tratando el hallazgo como parte confidencial de la prueba sin escalarlo para no generar “ruido” innecesario.",
+        "b) Registrar el hallazgo como incidente de seguridad, informar al Comité, analizar las causas (configuración de PCs públicos, controles de navegación) y actualizar los controles y políticas según las recomendaciones del ejercicio.",
+        "c) Informar del incidente solo al jefe de TI y al contratista de pruebas, dejando a criterio de ellos si es necesario implementar controles adicionales o no."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) convierte el hallazgo del hacking ético en insumo formal de mejora del MSPI: se registra, se analiza y se traducen en cambios de control. La opción a) desaprovecha el aprendizaje y rompe la trazabilidad. La opción c) centraliza decisiones críticas en un grupo reducido, sin participación del Comité ni documentación adecuada."
+    },
+    {
+      "codigo": "SEG-11",
+      "pregunta": "En un laboratorio de informática se detecta la presencia de un malware tipo botnet que convierte equipos estudiantiles en nodos de ataques externos. Un técnico propone reinstalar las máquinas sin investigar más, para restablecer el servicio rápidamente. El CISO considera que puede haber credenciales comprometidas y persistencia en otros segmentos. Según el MSPI, incidentes de esta naturaleza deben evaluarse integralmente. ¿Qué actuación es más adecuada?",
+      "opciones": [
+        "a) Formatear y reinstalar los equipos afectados lo más rápido posible para restaurar el servicio, sin invertir tiempo adicional en análisis forense que pueda retrasar las clases.",
+        "b) Activar el procedimiento de gestión de incidentes de seguridad, aislar los equipos afectados, realizar análisis mínimo para identificar alcance (usuarios, sistemas, red), y documentar las acciones y hallazgos para actualizar controles.",
+        "c) Desconectar temporalmente el laboratorio de la red y permitir que el proveedor de antivirus ejecute un barrido remoto global, sin registrar el incidente en el MSPI para no sobredimensionarlo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) combina contención, análisis y documentación en línea con la gestión formal de incidentes del MSPI. Reinstalar sin investigar (a) puede dejar vectores de ataque activos. Confiarlo solo al proveedor y no registrarlo (c) limita la visión institucional del riesgo y debilita la evidencia de gestión ante entes de control."
+    },
+    {
+      "codigo": "SEG-12",
+      "pregunta": "El área de TI necesita dar de baja 50 equipos antiguos que contienen discos con información académica y personal. Por presión de espacio físico, el Jefe Administrativo pide enviarlos inmediatamente a un tercero para reciclaje, anotando solo los números de inventario sin realizar borrado seguro. El procedimiento del MSPI y de protección de datos personales indica requisitos de disposición segura. ¿Qué se debe hacer?",
+      "opciones": [
+        "a) Enviar los equipos al reciclador sin borrado seguro, pero firmar un acuerdo de confidencialidad con el proveedor, confiando en que no accederá a la información de los discos.",
+        "b) Aplicar el procedimiento de borrado seguro o destrucción física de los discos antes de entregarlos al reciclador, registrar las evidencias (actas, responsable, método) y solo entonces autorizar la salida de los equipos.",
+        "c) Retirar los discos y almacenarlos en una bodega sin tratamiento, enviando solo las carcasas de los equipos al reciclador para ganar espacio, y planear el borrado para más adelante."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) cumple con los principios de seguridad y Ley 1581: borrado seguro o destrucción antes de la salida física de medios, con evidencias documentadas. La opción a) traslada el riesgo a un tercero sin eliminarlo. La opción c) solo cambia el lugar del riesgo: discos con datos quedan sin control en una bodega, lo cual es inaceptable."
+    },
+    {
+      "codigo": "SEG-13",
+      "pregunta": "Durante una auditoría del MSPI, se evidencia que al formatear equipos para reasignarlos internamente, el personal de TI solo realiza un formato rápido y reinstala el sistema operativo. Un auditor ético demuestra que puede recuperar información previa de estudiantes. El jefe de soporte argumenta que el riesgo es bajo porque los equipos permanecen dentro de la institución. ¿Cuál es la acción más adecuada?",
+      "opciones": [
+        "a) Mantener el procedimiento actual de formateo rápido, pero instruir al personal a borrar manualmente carpetas con datos sensibles antes de formatear, para ahorrar tiempo.",
+        "b) Actualizar el procedimiento para incluir técnicas de borrado seguro o sobreescritura de discos antes de reasignar equipos, aun cuando estos sigan dentro de la institución, y documentar el cambio como acción correctiva en el MSPI.",
+        "c) Aplicar borrado seguro solo a los equipos que vayan a salir de la universidad y mantener el formateo rápido para los que se reasignen internamente, sin modificar la documentación existente."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) corrige el hallazgo mediante una mejora de procedimiento alineada con los requisitos de protección de datos: borrado seguro previo a cualquier cambio de titularidad de uso, no solo de propiedad. Las opciones a) y c) dejan ventanas abiertas (reasignaciones internas) donde la recuperación no autorizada sigue siendo posible."
+    },
+    {
+      "codigo": "SEG-14",
+      "pregunta": "El Comité de Seguridad discute sobre la actualización de una política de retención y borrado seguro de logs de acceso al sistema académico. Un área propone reducir la retención de 2 años a 3 meses para ahorrar espacio, sin haber revisado si hay obligaciones regulatorias o de auditoría que exijan conservarlos por más tiempo. El MSPI indica que decisiones sobre retención deben considerar riesgo, normativa y necesidades de trazabilidad. ¿Qué posición es más adecuada?",
+      "opciones": [
+        "a) Aprobar la reducción a 3 meses inmediatamente para ahorrar costos, dejando la revisión de obligaciones regulatorias para una fase posterior si algún ente de control lo solicita.",
+        "b) Realizar un análisis previo sobre requerimientos legales y de auditoría, evaluar el impacto en la capacidad de investigación de incidentes, y solo luego, si procede, ajustar el periodo de retención y documentar la decisión en el plan de tratamiento de riesgos.",
+        "c) Mantener indefinidamente los logs sin restricción de tiempo para evitar cualquier posible problema de trazabilidad, sin necesidad de formalizar una política de retención."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra los factores clave: legalidad, riesgo y trazabilidad antes de modificar un control. Reducir sin análisis (a) puede dejar a la institución sin evidencia crítica. Guardar todo indefinidamente (c) es costoso, puede crear otros riesgos (privacidad, exposición) y muestra falta de gestión de ciclo de vida de la información."
+    },
+    {
+      "codigo": "SEG-15",
+      "pregunta": "Tras un incidente de ransomware, el Rector solicita restaurar de inmediato todos los sistemas desde los últimos respaldos, sin hacer un análisis de si las copias también están comprometidas. El DRP del SGSI indica que se deben validar la integridad y el estado de infección de las copias antes de restaurar, y registrar el proceso. El equipo de TI teme que la validación retrase la recuperación. ¿Cuál decisión es más adecuada?",
+      "opciones": [
+        "a) Restaurar de inmediato todos los sistemas desde el respaldo más reciente para reducir el tiempo de indisponibilidad, y si se detecta reinfección, repetir el proceso después con más calma.",
+        "b) Seguir el DRP: aislar sistemas afectados, validar si las copias están libres de malware, restaurar solo desde respaldos confiables y registrar tiempos, evidencias y decisiones, aunque ello implique un poco más de tiempo de recuperación.",
+        "c) Restaurar únicamente los sistemas de menor criticidad sin validar las copias, dejando para más adelante la revisión de los sistemas críticos, para mostrar algún avance rápido a la alta dirección."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el DRP y los principios del MSPI: restaurar desde copias potencialmente comprometidas puede prolongar el incidente y agravar el riesgo. La validación es un paso crítico. Las opciones a) y c) priorizan la apariencia de rapidez sobre la aseguramiento de la integridad de la restauración y la evidencia del proceso."
+    },
+
+
+{
+      "codigo": "SEG-16",
+      "pregunta": "En la universidad se detecta que varias facultades usan servicios en la nube no autorizados (shadow IT) para compartir bases de datos de estudiantes. El Decano argumenta que estos servicios permiten trabajar más rápido que la plataforma institucional y pide al área de TI que simplemente \"mire hacia otro lado\" mientras se moderniza la infraestructura. El MSPI establece que todo servicio que trate información institucional debe ser evaluado y aprobado. Como coordinador de implementación, ¿qué acción es más adecuada?",
+      "opciones": [
+        "a) Tolerar el uso de los servicios en la nube no autorizados de forma temporal, siempre que los decanos asuman por escrito la responsabilidad, mientras se actualiza la infraestructura institucional.",
+        "b) Identificar formalmente el uso de estos servicios como un riesgo de seguridad y privacidad, detener su utilización para datos sensibles, evaluar alternativas institucionales y someter las decisiones al Comité de Seguridad, dejando la trazabilidad en el MSPI.",
+        "c) Permitir el uso de servicios en la nube no autorizados solo para información académica sin datos personales, confiando en que el riesgo de exposición será mínimo y sin pasar por el Comité de Seguridad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) gestiona el riesgo de forma estructurada: reconoce el shadow IT como riesgo, corta su uso para datos sensibles y canaliza decisiones a través del Comité de Seguridad dentro del marco del MSPI. La opción a) traslada la responsabilidad sin gobernanza real. La opción c) se basa en una separación informal de tipos de datos sin evaluación formal ni control efectivo."
+    },
+    {
+      "codigo": "SEG-17",
+      "pregunta": "Se descubre que un grupo de investigadores ha instalado herramientas de escaneo de puertos y sniffers en un laboratorio conectado a la red institucional, argumentando que las necesitan para clases de seguridad informática. El reglamento de uso de recursos TIC y el MSPI restringen este tipo de herramientas a entornos controlados. El jefe de programa pide que se haga una excepción para no afectar el plan académico. ¿Cuál decisión es más adecuada?",
+      "opciones": [
+        "a) Autorizar el uso de escáneres y sniffers en el laboratorio sin restricciones adicionales, confiando en que los docentes supervisarán adecuadamente a los estudiantes y evitarán daños a la red.",
+        "b) Establecer un entorno controlado y segmentado para prácticas de seguridad (red aislada, máquinas de laboratorio, tráfico simulado), formalizar la excepción en el Comité de Seguridad y prohibir el uso de estas herramientas en la red productiva.",
+        "c) Permitir el uso de estas herramientas en la red institucional solo en horarios específicos, solicitando a los docentes que informen por correo cuando se realicen prácticas, sin mayores ajustes técnicos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) concilia la necesidad académica con el control de riesgos: se separa la red de práctica de la red productiva y se documenta la excepción en el MSPI. Las opciones a) y c) dejan intactas las herramientas en la red real, abriendo la puerta a abusos, errores y afectación de servicios, sin controles ni segmentación."
+    },
+    {
+      "codigo": "SEG-18",
+      "pregunta": "El análisis de riesgos del MSPI identifica que los equipos de los directivos son especialmente sensibles por el acceso a información estratégica. Se recomienda cifrado de disco completo y autenticación multifactor (MFA). Un directivo se queja de que con MFA se demora unos segundos más al iniciar sesión y solicita desactivarlo, argumentando que \"el riesgo real es muy bajo\". El jefe de TI duda entre mantener el control o complacer al directivo. ¿Qué se debe hacer?",
+      "opciones": [
+        "a) Desactivar el MFA solo para los directivos que lo soliciten, manteniendo el cifrado de disco, y documentar que se prioriza la comodidad sobre la rigidez del control en esos casos.",
+        "b) Mantener el MFA para directivos, explicar la importancia del control dado su perfil de riesgo, y si el directivo insiste, escalar la discusión al Comité de Seguridad para decidir formalmente sobre la aceptación o no del riesgo, con todo documentado.",
+        "c) Permitir al directivo desactivar el MFA siempre que firme un acta personal de asunción de riesgo, sin involucrar al Comité de Seguridad ni modificar el plan de tratamiento del MSPI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene la postura de control basada en riesgo y, en caso de discrepancia, lleva la decisión a la instancia colegiada (Comité de Seguridad), donde se documenta la eventual aceptación de riesgo. Las opciones a) y c) permiten que un usuario individual, aunque sea directivo, desmonte controles de alto impacto sin pasar por el gobierno definido en el MSPI."
+    },
+    {
+      "codigo": "SEG-19",
+      "pregunta": "Un malware tipo troyano es detectado en varios equipos administrativos. El antivirus indica que fue puesto en cuarentena, pero el reporte del CISO sugiere que pudo haber habido exfiltración de información antes de ser bloqueado. El Director Administrativo propone simplemente dejar el incidente como “controlado por antivirus” para no generar ruido con los usuarios ni activar procedimientos formales. El MSPI establece que incidentes que puedan afectar la confidencialidad deben analizarse y registrarse. ¿Cuál opción es más adecuada?",
+      "opciones": [
+        "a) Considerar el incidente como resuelto al estar el malware en cuarentena, sin registrarlo en el sistema de gestión de incidentes, dado que el antivirus actuó correctamente.",
+        "b) Registrar el incidente de forma completa, investigar el alcance potencial de la exfiltración (equipos afectados, datos, usuarios), documentar las acciones de contención y mejora, e informar al Comité de Seguridad si hay posibilidad de fuga de datos personales.",
+        "c) Informar del evento solo al jefe de TI y solicitar un fortalecimiento general del antivirus, sin involucrar al CISO ni al Comité de Seguridad para evitar sobrecargar la agenda de incidentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) trata el troyano como un incidente de seguridad con posible afectación de confidencialidad: requiere investigación, registro y, si hay datos personales involucrados, escalamiento. Las opciones a) y c) reducen el incidente a un evento técnico solucionado, ignorando la obligación de análisis y trazabilidad del MSPI."
+    },
+    {
+      "codigo": "SEG-20",
+      "pregunta": "En el marco de una campaña de concienciación, se realiza un phishing simulado y se detecta que un 40% de los funcionarios hizo clic en enlaces maliciosos. El Comité de Seguridad discute la respuesta. Un directivo propone sancionar disciplinariamente a todos los que cayeron para \"dar ejemplo\". El MSPI, por su parte, sugiere que la concienciación debe ser un proceso continuo y basado en mejora. ¿Cuál enfoque es más adecuado?",
+      "opciones": [
+        "a) Sancionar disciplinariamente a todos los funcionarios que hicieron clic en el phishing simulado, para enviar un mensaje fuerte y reducir la probabilidad de incidentes reales.",
+        "b) Utilizar los resultados como insumo del análisis de riesgos, reforzar el plan de capacitación segmentado (enfocado en las áreas más vulnerables), y solo considerar sanciones en casos de conductas claramente negligentes y recurrentes, todo documentado en el MSPI.",
+        "c) Mantener los resultados de la campaña en reserva, sin generar acciones concretas, para no afectar el clima organizacional ni generar resistencia a futuros ejercicios."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra la campaña de phishing simulado en el ciclo de mejora continua: se ajusta el análisis de riesgos y se refuerza la capacitación, reservando las sanciones para casos extremos. La opción a) convierte la concienciación en castigo masivo, lo que suele generar ocultamiento de incidentes. La opción c) desperdicia una fuente valiosa de información sobre vulnerabilidades humanas."
+    },
+    {
+      "codigo": "SEG-21",
+      "pregunta": "En el BIA se determinó que el sistema de historias clínicas del servicio médico universitario tiene una criticidad alta tanto por su disponibilidad como por la sensibilidad de los datos. El proveedor ofrece dos opciones: una arquitectura muy segura pero con tiempos de recuperación mayores (RTO más alto) y otra más rápida de recuperar pero con menor nivel de cifrado y segregación. La alta dirección pide elegir la opción más barata y rápida sin mayor análisis. ¿Qué debería hacerse según el MSPI?",
+      "opciones": [
+        "a) Escoger directamente la opción más barata y rápida, dado que el BIA prioriza la disponibilidad, y se puede compensar la menor seguridad con cláusulas contractuales adicionales.",
+        "b) Realizar un análisis de riesgo comparativo entre ambas opciones (impacto en confidencialidad, integridad y disponibilidad), llevar el resultado al Comité de Seguridad, y documentar la decisión y el tratamiento del riesgo residual en el plan del MSPI.",
+        "c) Elegir la opción con mayor nivel de cifrado y segregación sin considerar el aumento del RTO, dado que la confidencialidad es más importante que la disponibilidad en datos de salud."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) aplica MGRSI: se evalúa formalmente el impacto de cada alternativa y se decide en el Comité, dejando trazabilidad y plan de tratamiento. Las opciones a) y c) eligen extremos (solo disponibilidad, solo confidencialidad) sin análisis equilibrado ni aprobación formal."
+    },
+    {
+      "codigo": "SEG-22",
+      "pregunta": "En una revisión de accesos, se detecta que el usuario de servicio utilizado por una integración entre el sistema académico y el financiero tiene permisos de administrador en ambas bases de datos, aunque solo se use para leer información de matrícula. El argumento técnico es que así \"se evita errores de permisos\" durante los desarrollos. El principio de privilegio mínimo indica lo contrario. ¿Qué acción es más adecuada?",
+      "opciones": [
+        "a) Mantener el usuario de servicio con permisos de administrador para garantizar que futuras integraciones no fallen por problemas de permisos, confiando en que solo lo usa el sistema.",
+        "b) Redefinir el usuario de servicio para que tenga únicamente los permisos necesarios (lectura sobre tablas específicas), probar la integración con esos privilegios y documentar el cambio en la matriz de accesos del MSPI.",
+        "c) Crear un segundo usuario con permisos limitados para nuevas integraciones, pero conservar el usuario de administrador para contingencias, sin modificar la documentación anterior."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) aplica estrictamente el principio de privilegio mínimo para cuentas de servicio, disminuyendo el impacto potencial ante compromiso. Las opciones a) y c) dejan o mantienen cuentas con permisos excesivos, que son vectores críticos de riesgo, sin justificarlo formalmente en el análisis de riesgos."
+    },
+    {
+      "codigo": "SEG-23",
+      "pregunta": "El Comité de Seguridad debe decidir si reporta a la autoridad de protección de datos un incidente donde, presuntamente, un ransomware cifró una carpeta compartida con datos de estudiantes, aunque no hay evidencia clara de exfiltración. Jurídica sugiere no reportar nada para evitar reputación negativa, alegando que el cifrado no es necesariamente una fuga. El MSPI y las buenas prácticas exigen evaluar impacto real y potencial. ¿Qué enfoque es más adecuado?",
+      "opciones": [
+        "a) Decidir no informar a ninguna autoridad ni a los titulares, dejando el incidente como interno y cerrado, basándose en que no se probó la exfiltración de datos.",
+        "b) Analizar técnicamente si existía comunicación hacia el exterior, revisar logs, evaluar el impacto potencial y, con base en ese análisis conjunto entre TI y Jurídica, decidir documentadamente si se configura o no una notificación obligatoria, dejando evidencia de la valoración del caso.",
+        "c) Informar de inmediato a todos los titulares y a la autoridad de protección de datos sin realizar análisis previo, para evitar cualquier acusación futura de ocultamiento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra análisis técnico y jurídico: se evalúa el incidente, se pondera el riesgo de exfiltración y se documenta la decisión sobre notificación. La opción a) cierra el caso sin análisis completo ni trazabilidad. La opción c) notifica sin sustento, lo que puede generar alarma y costos innecesarios."
+    },
+    {
+      "codigo": "SEG-24",
+      "pregunta": "En la política de contraseñas se establece que deben cambiarse cada 90 días. Los usuarios se quejan de que esto les obliga a anotarlas en papel y proponen aumentar el periodo a 365 días. El análisis de riesgos indica alta exposición a ataques de fuerza bruta y filtraciones de credenciales. El MSPI permite ajustar controles cuando existan compensaciones. ¿Qué decisión es más adecuada?",
+      "opciones": [
+        "a) Ampliar el periodo de cambio a 365 días sin medidas adicionales, confiando en que los usuarios adoptarán mejores prácticas al sentirse menos presionados.",
+        "b) Revisar la política de contraseñas para enfocarse en longitud y complejidad, permitir periodos de cambio más amplios solo si se implementa MFA y monitorización de accesos, documentando el cambio como tratamiento de riesgo en el MSPI.",
+        "c) Mantener exactamente el mismo periodo de cambio de 90 días ignorando las quejas de los usuarios, ya que el riesgo de ataques de contraseña es alto y no se deben flexibilizar controles."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) ajusta el control en función del riesgo y las capacidades: al combinar contraseñas robustas con MFA y monitoreo, se puede extender el periodo sin aumentar el riesgo global, dejando todo documentado. La opción a) reduce el control sin compensaciones. La opción c) se aferra a un esquema rígido sin considerar mejoras de seguridad modernas ni la usabilidad."
+    },
+    {
+      "codigo": "SEG-25",
+      "pregunta": "Un profesor solicita permiso para usar su portátil personal sin cifrado en actividades administrativas, incluyendo acceso a listas de estudiantes y notas desde casa. Alega que el equipo institucional es lento y que perdería tiempo. La política de BYOD del MSPI exige requisitos mínimos de seguridad para dispositivos personales. El jefe de área solicita \"una excepción puntual\". ¿Qué es más adecuado?",
+      "opciones": [
+        "a) Autorizar al profesor el uso del portátil personal sin exigencias adicionales, ya que es un funcionario de confianza y solo trabajará con datos de sus propios estudiantes.",
+        "b) Condicionar el uso del portátil personal al cumplimiento de requisitos mínimos (cifrado de disco, antivirus actualizado, bloqueo de pantalla), registrar la excepción en el MSPI y limitar los accesos según el riesgo.",
+        "c) Prohibir totalmente el uso de cualquier dispositivo personal para tareas administrativas, sin evaluar alternativas, y obligar al profesor a utilizar únicamente equipos institucionales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue la política BYOD del MSPI: permite flexibilidad pero con controles mínimos obligatorios y trazabilidad. La opción a) ignora el riesgo de pérdida o robo de dispositivos sin cifrado. La opción c) es excesivamente rígida y desconoce que, con controles adecuados, el BYOD puede gestionarse de manera razonable."
+    },
+    {
+      "codigo": "SEG-26",
+      "pregunta": "Durante una reunión de seguimiento, el Comité de Seguridad detecta que muchas decisiones sobre aceptación de riesgo las ha tomado el jefe de TI en correos informales, sin actas ni registro en el plan de tratamiento. Él argumenta que la velocidad de operación no le permitía esperar las sesiones formales del Comité. El MSPI define que la aceptación de riesgos significativos corresponde a la alta dirección o a órganos definidos. ¿Qué debería hacerse?",
+      "opciones": [
+        "a) Validar retroactivamente por parte del Comité todas las decisiones de aceptación de riesgo tomadas por el jefe de TI, sin documentar detalles, y seguir adelante como si hubieran sido aprobadas desde el inicio.",
+        "b) Revisar caso por caso las decisiones asumidas informalmente, documentarlas en actas con la alta dirección, actualizar el plan de tratamiento y reforzar el procedimiento para que futuras aceptaciones de riesgo pasen por el Comité según el MSPI.",
+        "c) Permitir que el jefe de TI siga tomando decisiones de aceptación de riesgo de forma autónoma, documentando solo aquellas que considere de mayor impacto para no saturar al Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) corrige el desvío: regulariza decisiones pasadas mediante revisión y aprobación formal, y refuerza el procedimiento futuro. La opción a) simula una validación sin análisis. La opción c) institucionaliza un atajo que contradice la gobernanza definida en el MSPI, concentrando decisiones críticas en un solo rol técnico."
+    },
+    {
+      "codigo": "SEG-27",
+      "pregunta": "En la fase de pruebas de una nueva aplicación académica, el equipo de desarrollo utiliza datos reales de estudiantes en el ambiente de ensayo para \"probar condiciones reales\". La política de privacidad y el MSPI prohíben el uso de datos personales reales en entornos no productivos sin medidas estrictas. El líder de proyecto argumenta que anonimizar los datos toma tiempo. ¿Cuál decisión es más adecuada?",
+      "opciones": [
+        "a) Permitir el uso de datos reales en el ambiente de ensayo solo durante un periodo corto, confiando en que el entorno está restringido al equipo de desarrollo y soporte.",
+        "b) Exigir el uso de datos anonimizados o seudonimizados en ambientes no productivos, ajustar el cronograma del proyecto si es necesario y documentar esto como un control obligatorio del MSPI en el ciclo de desarrollo.",
+        "c) Permitir los datos reales siempre y cuando el equipo firme un acta de responsabilidad, sin alterar el proceso de desarrollo ni invertir en técnicas de anonimización."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) alinea el ciclo de desarrollo con la protección de datos: los entornos de prueba no deben usar datos personales identificables si no es estrictamente necesario y con controles robustos. Las opciones a) y c) descansan en confianza y papeles, pero mantienen la exposición directa de datos en entornos menos controlados."
+    },
+    {
+      "codigo": "SEG-28",
+      "pregunta": "Un estudiante que hace prácticas en TI solicita acceso a los logs del firewall y del proxy para \"aprender más\" sobre seguridad. El analista senior considera que es una buena oportunidad formativa y propone darle acceso completo de lectura. Sin embargo, los logs contienen información de navegación de usuarios y patrones de tráfico que podrían revelar datos sensibles. El MSPI exige aplicar el principio de necesidad de conocer. ¿Qué se debe hacer?",
+      "opciones": [
+        "a) Conceder acceso de lectura completo a los logs, pero recordarle al estudiante la confidencialidad de la información, confiando en su ética profesional.",
+        "b) Proporcionar al estudiante conjuntos de datos anonimizados o resúmenes específicos para prácticas, sin acceso directo a los logs completos, y documentar el alcance de la práctica en el MSPI.",
+        "c) Negar tajantemente cualquier acceso a información relacionada con seguridad a estudiantes en práctica, independientemente de la supervisión, para evitar complicaciones."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) aplica el principio de necesidad de conocer y minimización de datos: se brinda formación con datos anonimizados o controlados, sin exponer logs completos con información sensible. La opción a) da acceso amplio sin necesidad real. La opción c) es excesivamente restrictiva y no aprovecha oportunidades formativas bajo controles adecuados."
+    },
+    {
+      "codigo": "SEG-29",
+      "pregunta": "Durante una revisión de BCP/DRP, se observa que el plan de continuidad contempla procedimientos manuales para matrícula en caso de caída del sistema, pero no hay instrucciones específicas sobre cómo proteger los formatos físicos que contienen datos personales durante la contingencia. El responsable de proceso asegura que \"son papeles temporales\" y que luego se destruyen sin mayor formalidad. ¿Cuál es la mejor acción desde el MSPI?",
+      "opciones": [
+        "a) Aceptar el manejo actual de los formatos físicos como parte de la contingencia, dado que su uso es temporal y solo por emergencia, sin requerir controles adicionales.",
+        "b) Incluir en el BCP medidas concretas de seguridad para formatos físicos (custodia, acceso restringido, almacenamiento temporal seguro, destrucción documentada), y registrar este ajuste como mejora del MSPI.",
+        "c) Eliminar el uso de formatos físicos del BCP, obligando a resolver siempre vía sistema digital, para evitar riesgos de manejo de papeles con datos personales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que la continuidad puede implicar soportes físicos, pero exige tratarlos con los mismos principios de seguridad y protección de datos: control de acceso y destrucción segura. La opción a) minimiza el riesgo de fuga por papeles extraviados. La opción c) niega la necesidad de planes manuales, lo cual puede no ser viable ante caídas prolongadas."
+    },
+    {
+      "codigo": "SEG-30",
+      "pregunta": "En una sesión del Comité de Seguridad, algunos miembros plantean que el MSPI está generando demasiada documentación y que sería mejor limitarse a \"lo técnico\": antivirus, firewall y copias de seguridad, sin tantos registros de reuniones, decisiones y planes de tratamiento. Argumentan que esa documentación \"solo es para auditores\". Como Oficial de Seguridad, ¿qué posición deberías defender?",
+      "opciones": [
+        "a) Aceptar reducir la documentación del MSPI a lo mínimo, dejando de registrar decisiones de riesgo y planes de tratamiento, siempre que los controles técnicos sigan funcionando adecuadamente.",
+        "b) Defender que la documentación de riesgos, decisiones del Comité y planes de tratamiento es parte esencial del MSPI y evidencia de buena gobernanza; proponer simplificar formatos, pero nunca prescindir de actas, matrices de riesgo y seguimiento formal.",
+        "c) Mantener la documentación solo para los riesgos considerados críticos y dejar que todos los riesgos medios y bajos se manejen de forma informal para aliviar la carga administrativa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) protege el corazón del MSPI: no es solo tecnología, sino gestión de riesgos y evidencia de decisiones. Se puede simplificar la forma, pero no eliminar el fondo. La opción a) reduce el modelo a herramientas técnicas sin gobernanza. La opción c) deja una porción importante de riesgos sin registro ni trazabilidad, lo que debilita la capacidad de demostrar gestión ante auditorías y entes de control."
+    }
+
+
+
+
+
+    ]
+}

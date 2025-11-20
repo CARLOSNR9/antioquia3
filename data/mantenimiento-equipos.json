@@ -1,0 +1,1035 @@
+{
+    "preguntas": [
+        {
+            "codigo": "MANT-01",
+            "pregunta": "El servidor de bases de datos ha experimentado fallas intermitentes que no han sido totalmente corregidas con parches. ¿Qué proceso debe iniciar según las mejores prácticas de Gestión de Servicios?",
+            "opciones": [
+                "a) Gestión de Incidentes, para resolver la falla lo más rápido posible.",
+                "b) Gestión de Problemas, para identificar la causa raíz de las fallas recurrentes.",
+                "c) Gestión de Cambios, para reemplazar el servidor inmediatamente."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Una falla recurrente o una serie de incidentes relacionados indican la necesidad de iniciar la Gestión de Problemas para encontrar y eliminar la causa raíz, no solo tratar el síntoma (incidente)."
+        },
+        {
+            "codigo": "MANT-02",
+            "pregunta": "Usted debe dar de baja una torre de cómputo con 12 años de uso. ¿Qué documento formal es obligatorio para desincorporar el activo de los bienes de la I.U. Pascual Bravo?",
+            "opciones": [
+                "a) La orden de servicio de la última reparación.",
+                "b) Un Concepto Técnico de Obsolescencia y el Acto Administrativo (Resolución) de Baja.",
+                "c) Una cotización de un equipo nuevo."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Para dar de baja un activo fijo en una entidad pública, se requiere un soporte técnico (obsolescencia/irreparabilidad) y un soporte legal (acto administrativo) que autorice el movimiento de los bienes."
+        },
+        {
+            "codigo": "MANT-03",
+            "pregunta": "Un usuario reporta un equipo dañado y usted lo lleva al taller. ¿Cuál es la primera acción no técnica que debe garantizar para cumplir con la normativa de seguridad y privacidad?",
+            "opciones": [
+                "a) Formatear el disco duro inmediatamente.",
+                "b) Obtener la firma del usuario y del jefe de seguridad que autorice el acceso a los datos.",
+                "c) Asegurar la copia de seguridad y la inaccesibilidad de los datos personales sensibles (Ley 1581) antes de la intervención."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Antes de cualquier manipulación o reparación, el deber es proteger los datos personales del usuario, asegurando que el equipo de mantenimiento no tenga acceso a información sensible."
+        },
+
+        {
+      "codigo": "MANT-01",
+      "pregunta": "El servidor de Bases de Datos crítico del área financiera se apaga inesperadamente por un pico de calor, lo que detiene la liquidación de nómina. Tras encenderlo, el servidor funciona. ITIL: ¿Qué acción debe priorizar usted en la Mesa de Ayuda?",
+      "opciones": [
+        "a) Abrir un 'Incidente' de máxima prioridad para restaurar el servicio inmediatamente y un 'Problema' para analizar la causa raíz del sobrecalentamiento (ej. falla en el aire acondicionado del rack).",
+        "b) Abrir un 'Incidente' y, como el servidor volvió a encender, cerrar el caso, enfocándose en la nómina (Orientación al Resultado).",
+        "c) Reemplazar el servidor inmediatamente, pues es la única forma de garantizar que el incidente no se repita (Mantenimiento Correctivo)."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Clasificación de Fallas (ITIL): La restauración del servicio es el Incidente. La investigación de la causa raíz (que es la falla del aire o la configuración) es el Problema. La gestión efectiva exige manejar ambos flujos para prevenir la recurrencia."
+    },
+    {
+      "codigo": "MANT-02",
+      "pregunta": "Un computador de la Vicerrectoría Administrativa es declarado irreparable (mantenimiento correctivo costoso). El activo tiene 8 años de antigüedad. El Vicerrector le ordena 'botarlo en el cuarto de aseo' para liberar espacio inmediatamente. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Botarlo y generar un acta simple de descarte, pues el equipo está completamente depreciado.",
+        "b) Negarse a botarlo. Debe emitir un 'Concepto Técnico de Baja', solicitar a Contabilidad la baja formal del inventario y gestionar su disposición final como RAEE (Residuo Eléctrico y Electrónico) con un gestor certificado.",
+        "c) Usar las partes que funcionen del PC y botar el resto, documentando la reutilización de repuestos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Activos Fijos (CGN): Ningún activo público se puede botar. La baja requiere un Acto Administrativo (Resolución) basado en su concepto técnico. Omitir el proceso formal es una falta fiscal y disciplinaria por no garantizar la adecuada disposición de bienes del Estado."
+    },
+    {
+      "codigo": "MANT-03",
+      "pregunta": "Un funcionario necesita urgentemente un software de diseño gráfico (ej. Adobe Suite) para finalizar un informe, pero la Universidad no tiene licencias disponibles ni presupuesto para compra inmediata. Él le pide prestada una copia pirata que usted tiene. ¿Qué hace?",
+      "opciones": [
+        "a) Instalar la copia pirata, pidiendo al funcionario discreción, justificando la necesidad operativa del informe (Principio de Eficacia).",
+        "b) Negarse rotundamente. Instalar software sin licencia en un activo público es una violación directa a la Ley 603/00 (Derechos de Autor) y al Código Disciplinario, exponiendo a la entidad a demandas millonarias.",
+        "c) Instalar el software, pero solo en su propia máquina para asumir la responsabilidad usted mismo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo Legal / Ética Pública: El deber del servidor público es cumplir la ley. La 'necesidad operativa' nunca justifica una violación legal. La instalación de software pirata en activos públicos es una falta gravísima."
+    },
+    {
+      "codigo": "MANT-04",
+      "pregunta": "Priorización de Mantenimiento. Usted tiene dos tickets:\nTicket 1: La impresora de la Rectoría no imprime (solo afecta a 3 personas).\nTicket 2: El switch de un laboratorio de ingeniería falla intermitentemente, dejando sin red a 100 estudiantes en plena práctica.\nSegún el criterio de Urgencia x Impacto (ITIL), ¿cuál prioriza?",
+      "opciones": [
+        "a) Ticket 1: La Rectoría tiene mayor jerarquía y el impacto político es mayor.",
+        "b) Ticket 2: El impacto es la cantidad de usuarios y el cumplimiento de la misión académica (100 estudiantes afectados), lo que prima sobre la jerarquía administrativa.",
+        "c) Atender ambos simultáneamente enviando dos técnicos, sin priorizar."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Priorización (ITIL): Se prioriza en función del IMPACTO en el negocio. El incidente en el laboratorio afecta la misionalidad académica y la mayor cantidad de usuarios, generando un impacto más alto. La jerarquía no es un factor directo de impacto en el servicio."
+    },
+    {
+      "codigo": "MANT-05",
+      "pregunta": "Usted debe realizar el mantenimiento preventivo de los equipos del área de Gestión Humana. Allí se maneja información sensible (historias laborales, salarios, salud). ¿Cuál es la exigencia de seguridad (Ley 1581) que debe garantizar en el proceso?",
+      "opciones": [
+        "a) Firmar un acta de confidencialidad simple con el funcionario de Gestión Humana antes de tocar el equipo.",
+        "b) Asegurar que el mantenimiento preventivo no implique la manipulación o acceso no autorizado a datos personales y aplicar medidas de control de acceso estricto, dejando trazabilidad de auditoría de su intervención (Registro de actividades).",
+        "c) Pedir a Gestión Humana que borre temporalmente los datos sensibles del disco duro antes del mantenimiento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad y Habeas Data: Como Custodio de los activos, su intervención debe garantizar la confidencialidad. El acceso debe ser mínimo, necesario y trazable. La opción B asegura el cumplimiento de las políticas de Seguridad y Privacidad de la Información (MSPI)."
+    },
+    {
+      "codigo": "MANT-06",
+      "pregunta": "Usted detecta que una impresora departamental tiene un consumo excesivo de tóner, pero funciona. Este patrón se ha repetido 4 veces. ¿Bajo qué proceso ITIL debe actuar?",
+      "opciones": [
+        "a) Mantenimiento Correctivo: Reemplazar el tóner inmediatamente y cerrar el ticket.",
+        "b) Gestión de Problemas: Abrir un registro de problema (ej. Tóner Rápido) para analizar la causa raíz (configuración de impresión o driver defectuoso) y generar una Solución Definitiva.",
+        "c) Gestión de Activos: Dar de baja la impresora por ineficiencia."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Problemas (ITIL): La repetición de fallos o patrones de comportamiento anómalos (incluso si la función se cumple) justifica la apertura de un Problema para evitar el gasto recurrente y la ineficiencia (Correctivo recurrente)."
+    },
+    {
+      "codigo": "MANT-07",
+      "pregunta": "Un computador con valor contable residual de $1.000.000 se daña y el técnico cotiza la reparación en $400.000. ¿Cuál es el criterio de baja contable más adecuado?",
+      "opciones": [
+        "a) Repararlo, ya que el costo de la reparación ($400.000) es inferior al valor residual ($1.000.000).",
+        "b) Darlo de baja, ya que el criterio de obsolescencia técnica prima sobre el valor residual.",
+        "c) Darlo de baja, ya que el costo de reparación excede el criterio de $300.000 (30% del valor residual), lo cual se considera anti-económico e irreparable."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Criterio de Baja Contable (CGN): La Contaduría General de la Nación (y las normas de inventario) suelen establecer un umbral anti-económico. Si el costo de reparación supera un porcentaje del valor residual (ej. 30%), el activo debe darse de baja. 400.000 es el 40% de 1.000.000, lo que justifica la baja por antieconomicidad."
+    },
+    {
+      "codigo": "MANT-08",
+      "pregunta": "Usted identifica que el 80% de los incidentes de TI se concentran en una única aplicación legacy (antigua) usada por el 10% de los usuarios. ¿Qué acción de Mantenimiento Estratégico debe proponer al Comité?",
+      "opciones": [
+        "a) Invertir la mayoría del presupuesto de mantenimiento correctivo en esa aplicación para estabilizarla.",
+        "b) Proponer el reemplazo o retiro de la aplicación del portafolio (Gestión de Problemas Estratégica) y asignar los recursos de mantenimiento al desarrollo de la nueva aplicación, ya que el gasto correctivo constante es ineficiente.",
+        "c) Capacitar a los usuarios de esa aplicación para que generen menos tickets."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Mantenimiento Estratégico: Si el 80% del gasto va a una solución para el 10% de los usuarios, es ineficiente. El Mantenimiento Estratégico no es corregir, sino eliminar la fuente del problema. La mejor solución es el retiro del activo (Activo Obsoleto o Desinversión)."
+    },
+    {
+      "codigo": "MANT-09",
+      "pregunta": "Durante la gestión del Mantenimiento Preventivo, se debe actualizar el firmware de los Switches. El contrato de mantenimiento no incluye esa actividad. El contratista ofrece un precio adicional para ejecutarla, que usted considera justo. ¿Cómo procede?",
+      "opciones": [
+        "a) Pagar el valor inmediatamente y luego legalizar el gasto por caja menor (Hecho Cumplido).",
+        "b) No permitir que se ejecute la actividad hasta que se firme un Otrosí al contrato, ajustando el alcance y el valor, y garantizando el respaldo presupuestal (CDP).",
+        "c) Ordenar al contratista que lo haga gratis, ya que el mantenimiento es integral."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Contratación Estatal: Cualquier modificación al alcance o valor del contrato, por pequeña que sea, requiere un Acto Administrativo que la formalice (Otrosí), soportado en la disponibilidad presupuestal. La opción A es una falta fiscal (Hecho Cumplido)."
+    },
+    {
+      "codigo": "MANT-10",
+      "pregunta": "La I.U. Pascual Bravo tiene equipos de laboratorio antiguos que ya no reciben soporte ni parches del fabricante. Se mantienen en una VLAN aislada. ¿Qué principio de la Gestión de Activos y Seguridad aplica aquí?",
+      "opciones": [
+        "a) El activo se puede mantener indefinidamente si la red está aislada.",
+        "b) El activo debe ser dado de baja inmediatamente, independientemente del aislamiento.",
+        "c) El aislamiento (Compensating Control) reduce el riesgo externo, pero el activo sigue siendo de riesgo por obsolescencia y debe ser gestionado proactivamente para su retiro, sin dejar de documentar el riesgo residual."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gestión de Riesgos (MSPI): El aislamiento es una mitigación (control compensatorio), pero no elimina el riesgo de un fallo interno (ej. un usuario lo infecta con USB). El Mantenimiento Estratégico exige retirar los equipos sin soporte."
+    },
+    {
+      "codigo": "MANT-11",
+      "pregunta": "Se necesita un repuesto de un equipo descontinuado. El proveedor solo vende el repuesto por el doble del precio de uno nuevo. ¿Cuál es el criterio técnico-económico que justifica la decisión de no reparar?",
+      "opciones": [
+        "a) El activo es obsoleto y el costo de mantenimiento correctivo supera el beneficio de ponerlo en funcionamiento.",
+        "b) Se viola la cláusula de selección objetiva por tener un solo proveedor del repuesto.",
+        "c) El costo del repuesto supera el umbral de 'Antieconomicidad' respecto al valor residual del activo, justificando la baja y reemplazo."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Antieconomicidad: El criterio clave es el valor contable y el costo de la reparación. Si el repuesto es más caro que el activo o supera el umbral de costo/beneficio, la decisión gerencialmente correcta es dar de baja."
+    },
+    {
+      "codigo": "MANT-12",
+      "pregunta": "Usted debe auditar los activos de software. ¿Cuál es el principal riesgo que debe buscar en las instalaciones (SAM - Software Asset Management)?",
+      "opciones": [
+        "a) El uso de versiones desactualizadas del software.",
+        "b) El uso de software instalado en equipos no inventariados o la existencia de licencias no coincidentes con el número de usuarios instalados (piratería/sublicenciamiento).",
+        "c) La falta de documentación de los manuales de usuario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo SAM: El riesgo más grave es la responsabilidad legal por el uso indebido de licencias (piratería/incumplimiento de términos), que genera multas. El SAM se enfoca en verificar que 'lo instalado = lo comprado'."
+    },
+    {
+      "codigo": "MANT-13",
+      "pregunta": "Durante un mantenimiento preventivo, encuentra evidencia de que el usuario final está instalando software no autorizado (juegos, VPNs personales). ¿Qué hace?",
+      "opciones": [
+        "a) Borra el software inmediatamente sin decir nada para no molestar al usuario.",
+        "b) Restringe los permisos de instalación del usuario (control técnico) e informa la situación a su superior y a Control Interno o Gestión Humana, por incumplimiento de la Política de Uso de Activos.",
+        "c) Habla con el usuario para que no lo vuelva a hacer."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Disciplina y Seguridad: El uso indebido de activos es una violación a la seguridad. Su deber es aplicar el control técnico y escalar el caso al área disciplinaria o de talento humano, ya que no es su competencia sancionar, solo reportar la falta."
+    },
+    {
+      "codigo": "MANT-14",
+      "pregunta": "El equipo de mantenimiento detecta que el sistema de detección de incendios del Data Center tiene una falla en un sensor. El incidente se registra. ¿Cuál debe ser el siguiente paso inmediato de Gestión de Riesgos?",
+      "opciones": [
+        "a) Cerrar el Data Center hasta que llegue el repuesto para evitar incendios.",
+        "b) Aplicar controles compensatorios: Aumentar la vigilancia física y notificar a los responsables de continuidad del negocio y a los bomberos, mientras se prioriza el mantenimiento correctivo.",
+        "c) Poner un extintor manual al lado del rack afectado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Riesgos Críticos: El fallo en la protección física es un riesgo inmediato. El control compensatorio (aumentar la vigilancia o poner un guardia) reduce el riesgo mientras se ejecuta la reparación."
+    },
+    {
+      "codigo": "MANT-15",
+      "pregunta": "Usted recibe un disco duro dañado para su disposición final. El usuario afirma que no contenía datos importantes. ¿Puede proceder a la destrucción sin verificar?",
+      "opciones": [
+        "a) Sí, el usuario es el propietario de la información y su palabra es suficiente.",
+        "b) No. Debe aplicarse obligatoriamente el procedimiento de 'Borrado Seguro' certificado o la destrucción física del disco (Degaussing/Shredding) antes de la disposición final, sin importar el contenido, para cumplir con la Ley 1581 (Principio de Seguridad).",
+        "c) Sí, si el disco es de un equipo personal del funcionario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Borrado Seguro: La protección de datos es un proceso, no una confianza. El riesgo de re-identificación de información privada de la entidad es altísimo. El borrado seguro certificado es obligatorio antes de que el activo salga del control de la institución."
+    },
+{
+      "codigo": "MANT-16",
+      "pregunta": "Se necesita reemplazar una impresora de alto rendimiento con 4 años de uso. La vida útil contable estimada es de 5 años. Técnicamente, está obsoleta porque no soporta el nuevo estándar de red y es costosa de mantener. ¿Cuál es el procedimiento más ajustado para la baja y reemplazo?",
+      "opciones": [
+        "a) Dar de baja inmediatamente por 'Obsolescencia Tecnológica' con su Concepto Técnico, sin esperar el año restante de vida útil, justificando que el mayor costo de mantenimiento y el riesgo operacional superan el valor contable residual.",
+        "b) Esperar a que el equipo cumpla el 5to año de vida útil para iniciar la baja y así evitar un detrimento patrimonial.",
+        "c) Repararlo con repuestos de otro equipo dado de baja (canibalización) para estirar su vida útil hasta el quinto año."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gestión de Activos: Aunque la vida útil contable no haya terminado, el criterio de Obsolescencia Tecnológica (avalado por usted) y la Antieconomicidad (alto costo de mantenimiento) priman para la baja. El Estado debe ser eficiente, no esperar a que la tecnología se caiga. La justificación de la baja es la clave."
+    },
+    {
+      "codigo": "MANT-17",
+      "pregunta": "Usted contrata una empresa para el mantenimiento preventivo de 50 PCs. En la revisión posterior, encuentra que instalaron un software 'Freeware' (gratuito, no Open Source) de optimización de Windows sin licencia comercial. ¿Qué acción toma?",
+      "opciones": [
+        "a) No hacer nada, ya que el software es gratuito y mejora el rendimiento (Principio de Economía).",
+        "b) Exigir el retiro inmediato del software. Si no es de código abierto, puede ser malware o no tener soporte, violando la política de seguridad. Debe auditar todas las instalaciones de software no autorizado por la entidad.",
+        "c) Permitir su uso solo si el contratista firma un documento asumiendo la responsabilidad legal por el software."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo de Licenciamiento y Seguridad: 'Freeware' no significa 'Seguro' o 'Libre'. El software debe ser autorizado. La instalación de software no validado en activos públicos (aunque sea gratuito) es un riesgo de seguridad (puertas traseras, malware) que viola la política de seguridad de la información (MSPI)."
+    },
+    {
+      "codigo": "MANT-18",
+      "pregunta": "Por tercera vez en el mes, el servidor del campus virtual tiene problemas de latencia justo cuando se habilitan las evaluaciones finales. Después de cada incidente, se reinicia el servicio y funciona por unos días. ¿Qué proceso ITIL y de Contratación debe iniciar?",
+      "opciones": [
+        "a) Mantenimiento Correctivo (Incidente): Reiniciar el servidor y cerrar el ticket para mantener el SLA de resolución rápida.",
+        "b) Gestión de Problemas (Causa Raíz): Abrir un caso de Problema. Investigar si la causa es la infraestructura obsoleta o la licencia, para luego iniciar los estudios previos para una posible Contratación de Repotenciación o Reemplazo.",
+        "c) Gestión de Problemas: Multar al proveedor de mantenimiento por los tres incidentes recurrentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "ITIL y Planeación: La recurrencia migra el incidente a un Problema. La solución no es técnica (reiniciar), sino estratégica (reemplazar/repotenciar). Esto implica un proceso de planeación contractual (Opción B) para eliminar la causa estructural."
+    },
+    {
+      "codigo": "MANT-19",
+      "pregunta": "Una Institución Educativa rural, no estatal, solicita la donación de 10 PCs obsoletos dados de baja. Usted ha realizado el borrado seguro de los discos. ¿Puede proceder a la donación?",
+      "opciones": [
+        "a) Sí, por la función social de la educación y habiendo protegido los datos.",
+        "b) No. Los activos dados de baja deben ofrecerse primero a otras entidades públicas o, si son RAEE, entregarse a un gestor certificado. La donación a entidades privadas o sin ánimo de lucro no estatales no es el primer paso legal.",
+        "c) Sí, si el Rector firma una acta de donación simple."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Disposición de Activos: El Decreto 1082 de 2015 establece que la enajenación a título gratuito debe priorizar a otras entidades estatales. Donar a privados (aunque sea por buena causa) sin agotar la opción pública es un riesgo legal."
+    },
+    {
+      "codigo": "MANT-20",
+      "pregunta": "Ocurre una falla en el switch principal a las 7:00 PM (fuera de horario). Usted llama a un proveedor habitual para que repare la falla en emergencia, sin tener CDP (Certificado de Disponibilidad Presupuestal) o contrato vigente. ¿Es este un caso de 'Hecho Cumplido'?",
+      "opciones": [
+        "a) No, porque se justifica por la urgencia del servicio (Continuidad del Negocio).",
+        "b) Sí. Toda contratación u orden de servicio, salvo Urgencia Manifiesta declarada por Acto Administrativo, requiere CDP y RP previo. Esto constituye 'Hecho Cumplido' (ilegal) y genera responsabilidad fiscal.",
+        "c) Sí, pero solo si el valor supera la mínima cuantía."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Riesgo Fiscal: La Urgencia Manifiesta debe declararse formalmente. Una llamada a un proveedor sin respaldo presupuestal previo es Hecho Cumplido, lo que constituye una falta grave. La continuidad del negocio se planea con un Contrato de Mantenimiento que contemple soporte 24/7."
+    },
+    {
+      "codigo": "MANT-21",
+      "pregunta": "Usted envía un computador de un funcionario con acceso a información reservada a un taller externo para su reparación de hardware. ¿Cuál es la medida de seguridad obligatoria antes de que el activo salga de la entidad?",
+      "opciones": [
+        "a) Obtener un acuerdo de confidencialidad del taller externo.",
+        "b) Retirar físicamente el disco duro o, en su defecto, cifrar el disco completo (Full Disk Encryption) antes de entregarlo para que solo se repare el hardware.",
+        "c) No enviarlo, solo repararlo 'in-house'."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Seguridad de Datos: El riesgo de transferencia de datos es máximo en reparaciones externas. La medida obligatoria es evitar que el tercero acceda a los datos. El cifrado o el retiro físico del disco son los controles más efectivos. El acuerdo de confidencialidad (A) es secundario a la protección técnica."
+    },
+    {
+      "codigo": "MANT-22",
+      "pregunta": "El presupuesto para Mantenimiento Preventivo se ha agotado en octubre. El jefe de área le pide que lo reporte como 100% ejecutado, aunque falten dos meses de trabajo, para evitar que el rubro sea recortado el próximo año. ¿Qué hace?",
+      "opciones": [
+        "a) Reportar la realidad presupuestal y técnica (80% ejecutado), asumiendo que los dos meses restantes solo se ejecutarán correctivos críticos, para no falsificar la información pública.",
+        "b) Reportar 100% ejecutado, pues es una directriz de planeación para proteger el rubro.",
+        "c) Seguir haciendo el preventivo sin contrato para demostrar la necesidad."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Ética y Transparencia: El presupuesto debe ejecutarse con veracidad. Reportar cifras falsas es una falta disciplinaria (Código General Disciplinario - Mentir en informes)."
+    },
+    {
+      "codigo": "MANT-23",
+      "pregunta": "Durante un inventario, se descubre que un monitor inventariado en el área de Archivo no aparece. La funcionaria afirma que 'se lo llevó el técnico de mantenimiento hace 3 meses para repuestos'. ¿Cuál es el proceso formal de gestión de activos?",
+      "opciones": [
+        "a) Pedir al técnico que devuelva el monitor en 24 horas.",
+        "b) Iniciar un proceso de 'Sobrante' en su área y abrir un proceso de 'Pérdida/Desaparecido' en el área de Archivo, exigiendo que la funcionaria justifique la entrega del activo sin un acta de traslado firmada (Riesgo de Hurto o Extravío).",
+        "c) Descontarlo del inventario, asumiendo que el técnico lo usó para canibalización."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Inventario (CGN): El activo está a cargo de un responsable. Si se mueve sin Acta de Traslado o se pierde, se debe iniciar un proceso de pérdida que puede terminar en Responsabilidad Fiscal si no se justifica. La canibalización debe ser un proceso formal con acta."
+    },
+    {
+      "codigo": "MANT-24",
+      "pregunta": "El sistema operativo (OS) de los PCs de una sala de cómputo está desactualizado y ya no recibe parches de seguridad. Hay un riesgo alto de ataque. El presupuesto de inversión para su renovación es nulo. ¿Cuál es su solución de mantenimiento más responsable?",
+      "opciones": [
+        "a) Continuar usándolos, reforzando el antivirus y el firewall perimetral (Control Compensatorio).",
+        "b) Sustituir el OS propietario por una distribución de Software Libre (Linux) con soporte activo para el hardware, documentando el cambio como Mantenimiento Mayor/Repotenciación y manteniendo el control de versiones.",
+        "c) Apagar los equipos para eliminar el riesgo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Mantenimiento Estratégico / Riesgo: Continuar usando un OS sin parches es inaceptable. El cambio a una alternativa viable y gratuita (SL) es la solución técnica que mitiga el riesgo de obsolescencia sin requerir inversión inmediata, protegiendo el activo del riesgo de ciberataques."
+    },
+    {
+      "codigo": "MANT-25",
+      "pregunta": "Un PC inventariado en la oficina 101 se mueve temporalmente a la oficina 203 por una reorganización. ¿Cuál es la acción obligatoria de gestión de activos?",
+      "opciones": [
+        "a) No hacer nada, es solo temporal.",
+        "b) Registrar una 'Acta de Traslado Temporal' o actualizar la ubicación en el sistema de inventario, dado que el activo está asignado a un responsable y debe ser trazable contablemente.",
+        "c) Notificar al técnico de mantenimiento sobre el cambio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control de Ubicación: La trazabilidad contable es fundamental. Si un activo se pierde o daña, la última persona responsable es quien firmó el traslado. El traslado debe formalizarse para liberar la responsabilidad del responsable anterior."
+    },
+    {
+      "codigo": "MANT-26",
+      "pregunta": "Se registra un 'Problema' recurrente en el sistema de tickets: 'Falla el servicio de DNS'. Se sospecha que la causa es un error de configuración. ¿Quién es el responsable de investigar y proponer la 'Solución Definitiva'?",
+      "opciones": [
+        "a) El Agente de Mesa de Ayuda que maneja el Incidente (Gestión de Incidentes).",
+        "b) El equipo de Redes y Telecomunicaciones o el gestor de Problemas, quienes deben analizar la Causa Raíz (RCA) para proponer un RFC (Request for Change) que resuelva la falla de configuración de manera permanente (Gestión de Problemas).",
+        "c) El Director de TI (Gobierno), quien debe autorizar el cambio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Problemas: La investigación de la causa raíz es una función separada del Incidente y debe ser realizada por personal especializado (redes) o por el rol de Gestor de Problemas (ITIL) para asegurar una solución permanente."
+    },
+    {
+      "codigo": "MANT-27",
+      "pregunta": "El contrato de mantenimiento preventivo exige 3 limpiezas anuales por equipo. El contratista solo hizo 2 y el contrato está a punto de liquidarse. El contratista exige el pago total. ¿Qué procede?",
+      "opciones": [
+        "a) Pagar el 100%, ya que la entidad recibió el servicio general de mantenimiento.",
+        "b) Negarse a recibir a satisfacción y aplicar un 'Descuento o Multa' proporcional al 33% del valor del ítem, documentando el incumplimiento de la obligación contractual antes de proceder a la liquidación.",
+        "c) Firmar la liquidación y luego iniciar una demanda para recuperar el valor."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Liquidación de Contratos: Solo se paga lo que se recibe a satisfacción. Si hay incumplimiento parcial (solo dos de tres limpiezas), se aplica la cláusula penal o se descuenta el valor no ejecutado. Firmar el 100% sería certificar un hecho falso."
+    },
+    {
+      "codigo": "MANT-28",
+      "pregunta": "Usted está dando de baja equipos de cómputo. Un empleado solicita que le venda uno de los PCs a un precio simbólico para uso personal. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Aceptar la venta a un precio bajo, formalizando la transacción con un recibo de caja.",
+        "b) Negarse. Los bienes públicos dados de baja no se pueden vender directamente a funcionarios o particulares, salvo que se realice una subasta pública formalmente abierta con el cumplimiento del proceso de enajenación.",
+        "c) Permitirlo si el equipo ya está depreciado a valor cero."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Ética y Enajenación: La venta de activos públicos (enajenación) debe ser un proceso de libre concurrencia (subasta o venta directa a otras entidades) para evitar el conflicto de intereses y garantizar el mayor beneficio al Estado."
+    },
+    {
+      "codigo": "MANT-29",
+      "pregunta": "Se necesita un repuesto vital para un servidor. La única forma de conseguirlo es mediante compra directa del fabricante, que está en Estados Unidos y exige el pago en dólares por adelantado. ¿Qué requisito presupuestal debe priorizar?",
+      "opciones": [
+        "a) Conseguir el CDP (Certificado de Disponibilidad Presupuestal) para iniciar el trámite de contratación directa con la justificación de proveedor único.",
+        "b) Pedir que la Contraloría apruebe el pago en dólares.",
+        "c) Buscar un proveedor local que acepte pesos colombianos, aunque demore el servicio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Contratación Directa: En caso de proveedor único o exclusividad (que debe justificarse), la ley permite la Contratación Directa. Lo que no se puede omitir es la disponibilidad presupuestal (CDP) que es el inicio de todo proceso contractual."
+    },
+    {
+      "codigo": "MANT-30",
+      "pregunta": "El monitoreo de la red detecta que un cable de fibra está próximo a fallar (alarma de vibración). El riesgo es medio-alto. ¿Cuál es el tipo de mantenimiento a programar y cuál es la prioridad?",
+      "opciones": [
+        "a) Mantenimiento Correctivo, prioridad media, esperando la falla para ver el impacto real.",
+        "b) Mantenimiento Preventivo/Predictivo, prioridad alta. Se programa el reemplazo en una ventana de mantenimiento planificada para evitar que se convierta en un Incidente Crítico (Correctivo).",
+        "c) Mantenimiento Correctivo, prioridad urgente, aplicando una multa al proveedor de la fibra por mala calidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Mantenimiento Predictivo: La detección anticipada de fallas (predictivo) permite programar el reemplazo antes de la interrupción. La acción correcta es un Mantenimiento Preventivo programado para la fecha más segura, maximizando la disponibilidad y minimizando costos."
+    },
+
+    {
+      "codigo": "MANT-01",
+      "pregunta": "En la mesa de ayuda de la institución se reciben múltiples llamadas reportando que el sistema académico está extremadamente lento justo al iniciar el periodo de matrículas. Usted verifica y encuentra que la lentitud se presenta solo en horas pico, y que reiniciar el servicio mejora el rendimiento temporalmente, pero al día siguiente el problema se repite. Como Coordinador de Soporte, ¿cómo debe clasificar y abordar esta situación inicialmente?",
+      "opciones": [
+        "a) Tratar cada caso como un incidente independiente, centrarse en reiniciar el servicio cuando se presente la lentitud y cerrar los tickets tan pronto los usuarios puedan seguir trabajando.",
+        "b) Atender de inmediato la lentitud como incidente para restaurar el servicio y, en paralelo, registrar un Problema formal para investigar la causa raíz y definir una solución estructural.",
+        "c) Clasificar todo desde el primer momento únicamente como un Problema, suspender la atención de incidentes y dedicar el equipo completo a investigar la causa raíz sin priorizar la restauración temporal del servicio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La situación tiene dos dimensiones: la urgencia de restablecer el servicio (Gestión de Incidentes) y la recurrencia que exige análisis de causa raíz (Gestión de Problemas). La opción b) combina correctamente ambas: se atiende el incidente para reducir el impacto inmediato y, a la vez, se abre un registro de Problema para estudiar el patrón y evitar recurrencias. La opción a) se queda solo en la contención, perpetuando la recurrencia. La opción c) invierte prioridades, descuidando la continuidad del servicio al enfocarse solo en la causa raíz."
+    },
+    {
+      "codigo": "MANT-02",
+      "pregunta": "En un laboratorio de cómputo, varios equipos presentan el mismo error de pantalla azul al ejecutar una aplicación pesada. El técnico de soporte ha venido reinstalando el sistema operativo en cada máquina cada vez que se presenta el error, logrando que el equipo vuelva a operar temporalmente, pero la falla reaparece a las pocas semanas. Usted revisa el historial y ve que el patrón se ha repetido durante meses. ¿Cuál es la forma más adecuada de clasificar y gestionar la situación?",
+      "opciones": [
+        "a) Continuar tratando cada pantalla azul como un incidente, priorizando la reinstalación rápida en cada equipo, ya que los usuarios necesitan los equipos operativos para las clases.",
+        "b) Seguir gestionando como incidentes, pero exigiendo que el técnico documente mejor cada reinstalación, sin necesidad de crear un registro de Problema ni análisis adicional porque ya existe un procedimiento de atención.",
+        "c) Considerar que la recurrencia en múltiples equipos indica la existencia de un Problema, mantener la atención de incidentes solo para restablecer el servicio y a la vez abrir un Problema formal para investigar causa raíz (hardware, imagen, aplicación) y eliminar la falla sistemática."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La repetición del mismo tipo de incidente en varios equipos indica un Problema subyacente (causa común). La opción c) es correcta porque reconoce que hay que seguir atendiendo incidentes para restaurar el servicio, pero se requiere abrir un Problema formal con análisis de causa raíz y acciones estructurales (imagen, drivers, hardware, aplicación). Las opciones a) y b) perpetúan el enfoque puramente reactivo, sin abordar el origen de la falla."
+    },
+    {
+      "codigo": "MANT-03",
+      "pregunta": "Durante una jornada de inscripción, varias impresoras de diferentes dependencias dejan de imprimir informes PDF, pero siguen imprimiendo documentos de texto sin problema. El técnico local de cada dependencia resuelve temporalmente reiniciando las impresoras y los equipos, pero el comportamiento se repite con archivos similares. Como responsable de la mesa de ayuda, debe decidir cómo registrar y canalizar esta situación.",
+      "opciones": [
+        "a) Registrar cada falla como un incidente aislado de impresión y limitarse a indicar el reinicio como solución definitiva, dado que el servicio vuelve a operar tras cada reinicio.",
+        "b) Registrar los casos como incidentes, aplicar workarounds para restablecer la impresión y agruparlos bajo un único Problema relacionado con el manejo de PDFs para analizar la causa raíz.",
+        "c) Registrar directamente un único Problema y suspender la apertura de nuevos incidentes, para que todos los reportes se canalicen exclusivamente en la investigación centralizada."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta a buenas prácticas ITIL: cada usuario experimenta un incidente que requiere restauración rápida del servicio, pero la recurrencia y similitud indican un Problema subyacente (controlador, versión de visor, colas de impresión). Al registrar incidentes y vincularlos a un Problema se atiende la urgencia y se habilita un análisis estructural. La opción a) banaliza la recurrencia. La opción c) descuida la atención oportuna al usuario al evitar registrar incidentes."
+    },
+    {
+      "codigo": "MANT-04",
+      "pregunta": "Su jefe inmediato le pide que \"saque\" de la oficina unos CPU viejos y dañados que ocupan espacio, sugiriendo enviarlos a reciclaje con una empresa que pasará esa misma tarde. Los equipos tienen placa de inventario y en algunos aún hay discos duros sin revisar. No hay concepto técnico ni trámite de baja iniciado. El jefe insiste en que solo son \"cacharros inservibles\" y que luego se arregla el papeleo. ¿Cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Acceder a entregar los equipos de inmediato a la empresa de reciclaje para liberar espacio, y después elaborar los conceptos técnicos y actas que formalicen la baja retroactivamente.",
+        "b) Explicar que, al ser bienes inventariados, primero se requiere concepto técnico y trámite formal de baja ante el área de activos fijos y el acto administrativo correspondiente, dejando constancia por escrito de la negativa a disponer de los equipos sin el procedimiento.",
+        "c) Retirar físicamente los equipos de la oficina para ubicarlos en un cuarto de almacenamiento interno, sin entregarlos al reciclador, y postergar la gestión con activos fijos para cuando haya menos carga de trabajo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta la normativa de administración de bienes del Estado: los activos fijos requieren concepto técnico, trámite ante el área de bienes y acto administrativo de baja antes de su disposición. Además protege al servidor documentando su negativa a actuar por fuera del procedimiento. La opción a) genera un riesgo fiscal y disciplinario al disponer de bienes sin baja. La opción c) evita el reciclaje inmediato pero mantiene la situación irregular y no activa el trámite formal."
+    },
+    {
+      "codigo": "MANT-05",
+      "pregunta": "En una visita a un laboratorio, encuentra varios portátiles antiguos arrumados en un clóset, algunos sin baterías y otros con partes faltantes. No hay rastro del procedimiento de baja ni de actas de retiro del inventario. El coordinador del laboratorio le indica que los fue \"desarmando\" para repuestos porque ya no servían. Como responsable de soporte e interlocutor con activos fijos, ¿qué debe hacer primero?",
+      "opciones": [
+        "a) Continuar desarmando los equipos para aprovechar más repuestos, ya que el laboratorio ya empezó esa práctica, y después comunicar a activos fijos lo que quede disponible para formalizar la baja.",
+        "b) Detener de inmediato el desmonte de equipos, levantar un inventario detallado con las placas de los bienes y su estado, y remitir un informe a activos fijos solicitando revisión y trámite formal de baja o regularización de los activos intervenidos.",
+        "c) Dejar los equipos como están y esperar a que activos fijos programe una visita general de inventario, sin intervenir ni reportar nada, para no generar conflictos internos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la adecuada porque reconoce que los equipos siguen siendo bienes inventariados y que no se pueden desarmar sin trámite formal. Debe levantarse un inventario, informar y coordinar con activos fijos para regularizar la situación (bajas, ajustes). La opción a) profundiza la irregularidad. La opción c) ignora una situación que puede constituir hallazgo fiscal o disciplinario."
+    },
+    {
+      "codigo": "MANT-06",
+      "pregunta": "En un equipo que va a salir a baja por obsolescencia, detecta que el disco duro aún contiene información sensible de estudiantes (historias académicas exportadas, reportes, bases de datos locales). El área de activos fijos le pide que entregue el equipo lo más pronto posible para avanzar en la resolución de baja, sin preocuparse por el contenido del disco porque \"de eso se encarga el reciclador\". ¿Cuál es la mejor respuesta desde el punto de vista técnico y legal?",
+      "opciones": [
+        "a) Entregar el equipo de inmediato, confiando en que el reciclador hará el borrado seguro del disco, ya que es un tercero especializado y el área de activos fijos asumirá la responsabilidad.",
+        "b) Indicar que antes de la entrega se debe realizar borrado seguro o destrucción controlada del disco de acuerdo con las políticas de protección de datos personales y seguridad de la información, dejando evidencia del procedimiento realizado.",
+        "c) Retirar el disco duro y guardarlo en un cajón del área de TI para revisarlo con calma en el futuro, entregando el resto del equipo a activos fijos para no retrasar la baja."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es correcta porque reconoce la obligación de proteger datos personales (Ley 1581) y la responsabilidad institucional sobre la información, aun si se recurre a terceros. El borrado seguro o destrucción debe hacerse con evidencia, no confiar ciegamente en el reciclador. La opción a) delega sin control una responsabilidad legal, y la c) genera un nuevo riesgo de almacenamiento informal de datos sensibles sin procedimiento claro."
+    },
+    {
+      "codigo": "MANT-07",
+      "pregunta": "Un docente le solicita instalar de inmediato un software especializado en estadística para dictar un taller a sus estudiantes. Le indica que tiene un instalador descargado de internet con un activador incluido y que \"solo es para uso académico\". La universidad no tiene licencias vigentes de ese software ni está contemplado en el catálogo oficial. El docente argumenta que, si no se instala, se afectará la calidad de la clase. ¿Qué debe hacer usted como técnico de soporte?",
+      "opciones": [
+        "a) Negarse a instalar el software pirata, explicar los riesgos legales y disciplinarios asociados al uso de software sin licencia y proponer alternativas formales (buscar licencias institucionales, software libre equivalente u otro enfoque pedagógico).",
+        "b) Instalar el software de forma temporal solo en ese equipo y sin informar a nadie, considerando que el uso es académico, que el beneficio para los estudiantes es alto y que el riesgo real de auditoría es bajo.",
+        "c) Instalar el software utilizando el activador, pero dejar una nota interna en el sistema de tickets indicando que se está a la espera de la compra de licencias, para demostrar buena fe en caso de auditoría."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) es la única compatible con la normativa de propiedad intelectual y con los deberes de los servidores públicos. El uso de software pirata constituye un riesgo legal, disciplinario y reputacional para la entidad. Las opciones b) y c) normalizan la instalación sin licencia, aunque intenten reducir la percepción de riesgo, y podrían implicar responsabilidad para el técnico y la institución."
+    },
+    {
+      "codigo": "MANT-08",
+      "pregunta": "Durante la revisión de un equipo, un administrativo le solicita \"aprovechar\" para instalarle una versión de Office sin licencia que tiene en una memoria USB, porque la versión institucional le parece restringida. Usted sabe que la entidad tiene un acuerdo de licenciamiento limitado a ciertas áreas y que ese equipo no está cobijado, pero que existen alternativas de suite ofimática libre. El usuario insiste en que \"nadie se va a dar cuenta\". ¿Cuál es la respuesta más adecuada?",
+      "opciones": [
+        "a) Acceder a instalar la versión sin licencia, con la condición de que el usuario no la comparta y la use solo para trabajo institucional, minimizando así la exposición.",
+        "b) Negarse a instalar software sin licencia, informar sobre el alcance del acuerdo institucional y ofrecer instalar una alternativa libre o gestionar, a través de los canales formales, la evaluación de una licencia adicional si está justificada.",
+        "c) Instalar el software pirata solo mientras dura el mantenimiento, prometiendo desinstalarlo después, y dejar anotación en su informe técnico para demostrar que fue una solicitud del usuario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) cumple con los deberes de legalidad y uso adecuado de recursos públicos, y ofrece alternativas legítimas (software libre, gestión de licencia). Las opciones a) y c) buscan atenuantes, pero igual incurren en instalación de software no licenciado, lo cual no se justifica por comodidad del usuario ni por su promesa de uso restringido."
+    },
+    {
+      "codigo": "MANT-09",
+      "pregunta": "Se presenta simultáneamente un daño en la impresora de la Rectoría (no imprime documentos urgentes) y una caída de la red en un laboratorio donde hay 100 estudiantes realizando un examen en línea. Hay un solo técnico disponible para actuar de inmediato. Desde la perspectiva de Gestión de Incidentes (impacto y urgencia), ¿cómo debería priorizar?",
+      "opciones": [
+        "a) Atender primero la impresora de la Rectoría porque el nivel jerárquico del usuario es más alto, y luego ocuparse de la caída de red en el laboratorio cuando termine.",
+        "b) Atender primero la caída de red en el laboratorio, por el alto impacto en número de usuarios y criticidad del servicio académico en curso, y luego gestionar la impresora de Rectoría con la debida comunicación.",
+        "c) Tratar de dividir el tiempo entre ambos casos, dedicando unos minutos a la Rectoría y luego otros minutos al laboratorio, sin priorizar claramente, para evitar molestias en cualquiera de los dos frentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La priorización en Gestión de Incidentes debe basarse en impacto y urgencia del servicio, no en jerarquía del usuario. La caída de red afecta a 100 estudiantes en pleno examen, con alto riesgo académico y reputacional, por lo que debe ser atendida primero. La opción b) se alinea con criterios objetivos; la opción a) prioriza jerarquía sobre impacto, y la c) diluye la respuesta sin resolver rápidamente el incidente de mayor impacto."
+    },
+    {
+      "codigo": "MANT-10",
+      "pregunta": "Durante un día de inscripciones, el sistema de pago en línea se cae, impidiendo que los estudiantes finalicen su matrícula. Al mismo tiempo, se recibe un requerimiento del Rector para instalar una impresora nueva en su oficina que requiere configuración de red. Solo hay un técnico de red disponible. ¿Qué decisión de priorización refleja mejor las buenas prácticas?",
+      "opciones": [
+        "a) Priorizar la instalación de la impresora del Rector porque es una solicitud directa de la máxima autoridad, y luego atender el sistema de pago en línea tan pronto se pueda.",
+      "b) Priorizar la restauración del sistema de pago en línea, por su impacto directo en el proceso de matrícula de muchos estudiantes, comunicando a la Rectoría la necesidad de atender primero el servicio crítico.",
+        "c) Atender parcialmente ambos, alternando tareas en la impresora y en el sistema de pago, para mostrar avances en los dos frentes aunque ninguno se resuelva completamente de inmediato."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) responde a la lógica de impacto y criticidad del servicio: el sistema de pago en línea afecta a muchos estudiantes y a un proceso clave (matrícula). Aunque la solicitud del Rector es importante, el valor público y el riesgo son mayores en el servicio institucional crítico. La opción a) prioriza jerarquía sobre impacto, y la c) dispersa la atención y puede prolongar innecesariamente la indisponibilidad del sistema de pago."
+    },
+    {
+      "codigo": "MANT-11",
+      "pregunta": "Un equipo de un administrativo deja de encender y el usuario exige cambio inmediato. Al revisar la hoja de vida del equipo, encuentra que tiene 10 años de antigüedad, múltiples reparaciones y que el costo estimado de una nueva reparación se acerca al de un equipo básico nuevo. El jefe le pide que \"lo arregle con lo que encuentre\" para no tener que solicitar presupuesto. ¿Cuál es la actuación más adecuada desde la Gestión de Activos Fijos y mantenimiento?",
+      "opciones": [
+        "a) Buscar cualquier repuesto disponible y reparar el equipo como sea, sin considerar su antigüedad ni costo-beneficio, ya que el objetivo es que el usuario tenga un equipo funcional sin pedir recursos adicionales.",
+        "b) Emitir un concepto técnico documentando la obsolescencia, el historial de reparaciones y el costo-beneficio desfavorable de nuevas intervenciones, recomendando su baja y reposición conforme al procedimiento institucional.",
+        "c) Realizar una reparación mínima sin documentar el estado del equipo, para que dure unos meses más, y diferir el análisis de baja hasta que exista disponibilidad presupuestal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta a la buena gestión de activos: cuando la relación costo/beneficio de reparar un equipo muy obsoleto es desfavorable, el técnico debe emitir concepto técnico para baja y reposición, no insistir en reparaciones de baja eficiencia. Las opciones a) y c) prolongan artificialmente la vida de un activo que ya no es económicamente viable, sin dar trazabilidad al estado real."
+    },
+    {
+      "codigo": "MANT-12",
+      "pregunta": "Durante un mantenimiento preventivo masivo, detecta que varios equipos tienen instalado software no autorizado (descargadores de videos, juegos, herramientas de cracking). El cronograma es ajustado y su jefe le dice que solo se enfoque en limpiar ventiladores y actualizar antivirus, sin perder tiempo removiendo esos programas, ya que \"ningún auditor revisa eso\". ¿Qué es más adecuado hacer?",
+      "opciones": [
+        "a) Limitarse a las actividades técnicas de limpieza y antivirus como indica el cronograma, dejando el software no autorizado instalado para cumplir con el plan sin retrasos.",
+        "b) Incluir en el mantenimiento la desinstalación del software no autorizado, registrarlo en el informe técnico y, si es necesario, informar a seguridad de la información o control interno sobre el hallazgo.",
+        "c) Ignorar el software no autorizado pero anotar de forma privada para usted los equipos en los que lo encontró, por si se presenta un problema en el futuro."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta a políticas de uso aceptable y seguridad de la información: el software no autorizado representa riesgo de seguridad, desempeño y cumplimiento. El técnico debe actuar, desinstalarlo y dejar trazabilidad. La opción a) prioriza la velocidad sobre la seguridad y cumplimiento. La opción c) acumula información sin acción institucional, lo que no mitiga el riesgo ni deja registro formal."
+    },
+    {
+      "codigo": "MANT-13",
+      "pregunta": "En la mesa de ayuda, un usuario reporta que su equipo está extremadamente lento desde hace una semana. Al revisar, el técnico solo cierra programas y limpia archivos temporales, logrando mejorar un poco el rendimiento. Al día siguiente, varios usuarios con el mismo modelo de equipo reportan síntomas similares. Usted sospecha de una actualización reciente del antivirus que podría estar causando el problema en determinados equipos. ¿Cuál es la mejor forma de abordar esta situación?",
+      "opciones": [
+        "a) Tratar cada caso como incidente independiente, repitiendo la limpieza básica en cada equipo afectado, ya que la solución parcial permite seguir trabajando.",
+        "b) Atender los incidentes para que los usuarios recuperen algo de rendimiento y, en paralelo, abrir un registro de Problema para investigar si la actualización del antivirus es la causa raíz y definir acciones globales.",
+        "c) Declarar de inmediato que todos los casos son un único Problema, sin seguir registrando incidentes, y dedicar todo el tiempo a probar diferentes versiones del antivirus hasta encontrar una configuración óptima."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue el enfoque ITIL: se mantiene la atención de incidentes para restaurar el servicio, pero la recurrencia y similitud indican la necesidad de un Problema con análisis de causa raíz. La opción a) se queda en soluciones superficiales. La opción c) desconecta la gestión de incidentes y puede dejar sin soporte a usuarios mientras se investiga."
+    },
+    {
+      "codigo": "MANT-14",
+      "pregunta": "Al hacer el inventario físico anual, encuentra que un equipo de cómputo asignado a un funcionario no aparece en la oficina ni en ninguna otra dependencia. El funcionario dice que \"debe estar por ahí\" y el jefe le sugiere marcarlo como \"en reparación\" para evitar reportarlo como perdido hasta encontrarlo. No hay tickets de soporte ni registros recientes de traslado. ¿Cuál es la respuesta más adecuada desde la perspectiva de control de activos?",
+      "opciones": [
+        "a) Registrar el equipo como \"en reparación\" en el sistema de inventarios, tal como sugiere el jefe, mientras se hace una búsqueda informal, para evitar observaciones en el informe de inventario.",
+        "b) Dejar constancia en el acta de inventario de que el equipo no fue localizado, informar a activos fijos para el procedimiento que corresponda (búsqueda formal, investigación, posible pérdida) y abstenerse de alterar el estado sin soporte.",
+        "c) No hacer ninguna anotación en el inventario por esta vez, confiando en que el equipo aparecerá más adelante y que el error puede corregirse en un inventario posterior."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es coherente con la responsabilidad sobre bienes públicos: la no localización de un bien debe registrarse y escalarse al procedimiento de activos fijos para definir si hay pérdida, hurto, traslado no autorizado, etc. Manipular el estado a \"en reparación\" sin evidencia (opción a) o no dejar registro (opción c) puede constituir falta disciplinaria y hallazgo de control fiscal."
+    },
+    {
+      "codigo": "MANT-15",
+      "pregunta": "Un usuario le pide apoyo para respaldar su información antes de formatear el equipo. Al revisar, observa en el escritorio y en carpetas personales documentos con datos sensibles de estudiantes (listas con identificación, calificaciones, reportes de salud). El tiempo es limitado y el usuario le dice que copie \"todo\" a un disco externo personal para luego organizarlo, ya que es urgente liberar el equipo. ¿Qué debe hacer usted?",
+      "opciones": [
+        "a) Copiar sin más toda la información al disco externo personal del usuario para ganar tiempo, priorizando la continuidad de su trabajo sobre los detalles del tratamiento de datos.",
+        "b) Explicar que el respaldo de información con datos personales debe hacerse en medios institucionales y bajo las políticas de seguridad; proponer usar almacenamiento institucional autorizado o cifrado y evitar el uso de dispositivos personales sin control.",
+        "c) Formatear el equipo sin hacer ningún respaldo de los datos sensibles, para evitar riesgos de tratamiento de datos, dejando al usuario que recupere lo que pueda desde sus correos u otras fuentes."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce la obligación de proteger datos personales (Ley 1581) y de seguir las políticas de seguridad de la información: el respaldo debe hacerse en medios controlados por la entidad, no en dispositivos personales sin garantías. La opción a) facilita la fuga de información a dispositivos no controlados. La opción c) elimina datos sin respetar la necesidad funcional del usuario, pudiendo afectar procesos académicos o administrativos."
+    },
+
+ {
+      "codigo": "MANT-16",
+      "pregunta": "Durante la primera semana de clases, varios equipos de un salón de informática se reinician de forma aleatoria cuando se abre una aplicación de simulación. El técnico de soporte ha estado atendiendo cada caso reiniciando los equipos y marcando el incidente como resuelto cuando vuelven a encender, pero los reportes continúan. Como Coordinador, ¿cuál es la actuación más adecuada frente a esta situación?",
+      "opciones": [
+        "a) Mantener el enfoque actual, tratando cada reinicio como un incidente independiente y reiniciando los equipos cuando fallen, ya que los estudiantes pueden seguir usando los equipos después.",
+        "b) Indicar que se continúe atendiendo los reinicios como incidentes para no interrumpir las clases, pero a la vez registrar un Problema formal que agrupe estos casos y habilitar un análisis de causa raíz sobre la aplicación y el hardware.",
+        "c) Suspender la atención de todos los incidentes relacionados con la aplicación de simulación hasta no tener una solución definitiva, enfocando todo el esfuerzo en pruebas de laboratorio sin intervenir en clase."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Hay una necesidad de restaurar el servicio en el corto plazo (incidentes) pero la recurrencia indica un problema estructural. La opción b) combina ambos niveles: se sigue resolviendo el incidente para que las clases continúen y, en paralelo, se crea un Problema para analizar la causa raíz y evitar futuras interrupciones. La opción a) perpetúa el ciclo reactivo sin análisis. La opción c) descuida la continuidad de las clases mientras se investiga."
+    },
+    {
+      "codigo": "MANT-17",
+      "pregunta": "En la mesa de ayuda se reciben numerosos tickets indicando que, al conectarse por Wi-Fi, algunos portátiles institucionales pierden acceso a internet después de 10 minutos, pero al reconectar manualmente la red, el servicio vuelve. El técnico de primer nivel se limita a indicar al usuario que reconecte la red cada vez que ocurra. Usted detecta que el patrón se repite desde una actualización reciente del controlador inalámbrico. ¿Cómo debe clasificar y actuar frente a este patrón?",
+      "opciones": [
+        "a) Continuar indicando a los usuarios que reconecten la red manualmente, registrando cada caso como un incidente cerrado una vez restablecido el acceso.",
+        "b) Seguir atendiendo los incidentes para que los usuarios puedan trabajar, pero abrir un Problema que agrupe todos los casos y analizar la relación con la actualización del controlador para definir una solución definitiva.",
+        "c) Cerrar temporalmente la atención de incidentes de Wi-Fi y forzar a que todos los reportes se registren como un único Problema, evitando que la mesa de ayuda intervenga hasta tener un nuevo controlador."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta la separación entre gestión de incidentes (restaurar rápidamente el servicio) y gestión de problemas (investigar y resolver la causa subyacente). El patrón asociado a una actualización sugiere un Problema que debe ser registrado y tratado, sin dejar de atender las llamadas. Las opciones a) y c) son extremas: una se queda en la solución temporal, la otra descuida la atención al usuario."
+    },
+    {
+      "codigo": "MANT-18",
+      "pregunta": "En el cuarto de equipos, su jefe le señala una pila de monitores CRT muy antiguos y le indica que \"eso ya no sirve para nada\" y que necesita el espacio para nuevos servidores, por lo que le solicita llamar a reciclaje y entregarlos de inmediato. Todos los monitores tienen placa de inventario legible. No existe registro de solicitud de baja ni informes técnicos. ¿Qué debería hacer usted primero?",
+      "opciones": [
+        "a) Contactar al reciclador y entregar los monitores de inmediato, anotando internamente los números de placa para luego informar a activos fijos lo que se retiró.",
+        "b) Levantar un listado con las placas, estado físico y ubicación de los monitores, emitir o solicitar conceptos técnicos sobre obsolescencia e inservibilidad y remitirlos al área de activos fijos para que tramite la baja formal antes de cualquier entrega a reciclaje.",
+        "c) Mover los monitores a otro espacio menos visible, sin entregarlos ni reportarlos aún, para que no estorben y más adelante se definirá qué hacer con ellos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La disposición de bienes públicos requiere baja formal. La opción b) activa el proceso correcto: inventario, concepto técnico y trámite con activos fijos. Entregar bienes sin baja (opción a) o reubicarlos sin registro (opción c) mantiene o agrava la irregularidad y puede generar hallazgos de control y responsabilidad disciplinaria."
+    },
+    {
+      "codigo": "MANT-19",
+      "pregunta": "En una revisión conjunta de activos, el área de bienes le consulta su concepto sobre varios CPUs que llevan más de 12 años de uso, con repuestos agotados y sin capacidad para ejecutar el sistema operativo institucional actual. Su jefe administrativo, preocupado por el presupuesto, le sugiere que emita un concepto indicando que \"aún son funcionales\" si se usan solo para tareas básicas de digitación, para evitar solicitudes de reposición. ¿Cuál es la respuesta más adecuada como responsable técnico?",
+      "opciones": [
+        "a) Emitir un concepto técnico señalando que, a pesar de la antigüedad, pueden seguir usándose para tareas básicas, apoyando así la restricción presupuestal y evitando solicitar bajas.",
+        "b) Emitir un concepto técnico objetivo, detallando la antigüedad, limitaciones de hardware, incompatibilidad con el entorno actual y riesgos asociados, recomendando su baja por obsolescencia de acuerdo con el procedimiento institucional.",
+        "c) Abstenerse de emitir concepto técnico y remitir el asunto de vuelta a bienes, indicando que la decisión sobre baja es exclusivamente administrativa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El concepto técnico debe ser objetivo y basado en criterios de obsolescencia y riesgo, no en presiones presupuestales. La opción b) cumple este rol y orienta el proceso de baja conforme a la realidad del equipo. La opción a) maquilla la situación real, y la c) evita la responsabilidad técnica que se espera del área de TI en la gestión de activos."
+    },
+    {
+      "codigo": "MANT-20",
+      "pregunta": "Para una práctica de laboratorio, un profesor le pide instalar un programa de diseño que solo tiene en versión pirata en un DVD antiguo. La universidad no tiene contrato ni licencias para ese software y el proveedor ya no ofrece versiones educativas. El profesor argumenta que es necesario para cumplir con los resultados de aprendizaje del curso y propone que se use solo en ese laboratorio. ¿Qué opción es más adecuada?",
+      "opciones": [
+        "a) Aceptar instalar el programa pirata exclusivamente en el laboratorio, evitando divulgar su uso fuera de ese contexto y confiando en que la probabilidad de una auditoría específica es baja.",
+        "b) Negarse a instalar software pirata, explicar los riesgos legales y de control, y proponer alternativas como revisar otros programas con licencia institucional o software libre que permitan alcanzar los mismos resultados de aprendizaje.",
+        "c) Instalar el programa únicamente en un equipo para el docente, sin hacerlo en los equipos de los estudiantes, de manera que el riesgo sea menor al estar concentrado en un solo equipo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El uso de software sin licencia vulnera normas de propiedad intelectual y principios de legalidad y probidad del servidor público. La opción b) protege a la institución y al técnico, y busca alternativas legítimas. Las opciones a) y c) incurren igualmente en uso no autorizado, aunque pretendan reducir el alcance del riesgo."
+    },
+    {
+      "codigo": "MANT-21",
+      "pregunta": "Un analista de TI propone usar una herramienta de activación ilegal para extender el uso de un sistema operativo que está próximo a vencer la licencia en varios equipos, argumentando que la renovación tomará meses por trámites de contratación y que los usuarios no pueden quedar bloqueados. En la reunión de área le piden su opinión técnica como Coordinador. ¿Cuál es la postura más adecuada?",
+      "opciones": [
+        "a) Aceptar el uso temporal de la activación ilegal mientras se concreta la contratación de nuevas licencias, documentando internamente que se trata de una medida excepcional para garantizar continuidad del servicio.",
+        "b) Rechazar el uso de herramientas de activación ilegal, insistir en acelerar por los canales formales la renovación de licencias y, mientras tanto, evaluar medidas alternativas legales (uso de otros equipos licenciados, priorización de casos críticos).",
+        "c) Dejar que cada área decida si utiliza o no la herramienta de activación ilegal, señalando únicamente los riesgos en un correo, sin tomar una postura institucional clara."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta al deber de acatar la normatividad de licenciamiento y los principios de la función pública: se rechaza el uso de herramientas ilegales, se impulsa el trámite formal y se buscan soluciones legales transitorias. La opción a) pretende justificar una práctica ilegal, y la c) elude la responsabilidad de orientar institucionalmente."
+    },
+    {
+      "codigo": "MANT-22",
+      "pregunta": "Durante una mañana, la impresora multifuncional de Rectoría deja de imprimir y escanear, lo que retrasa la firma de algunos documentos, mientras que en simultáneo se reporta que la red que conecta los servidores de la plataforma de enseñanza virtual está intermitente, afectando a cientos de estudiantes en clase. Usted recibe ambos tickets con prioridad alta. Con un técnico disponible de inmediato, ¿cómo debe decidir la atención?",
+      "opciones": [
+        "a) Enviar primero al técnico a Rectoría, ya que la máxima autoridad requiere la impresora operativa para firmar documentos importantes, y luego atender la intermitencia de la red en la plataforma.",
+        "b) Priorizar la intermitencia de la red en la plataforma de enseñanza virtual, por el alto impacto en el servicio académico y el número de estudiantes afectados, informando a Rectoría la priorización objetiva.",
+        "c) Dividir el tiempo del técnico entre una y otra tarea, alternando visitas, aunque ninguna de las dos se resuelva rápidamente, para que ambos usuarios sientan que se está atendiendo su solicitud."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La priorización en TI debe guiarse por impacto y urgencia sobre los servicios, no solo por jerarquía de los usuarios. La plataforma virtual afecta a muchos estudiantes y al núcleo misional de la universidad, por lo que debe priorizarse. La opción b) refleja este criterio. La opción a) cede a la jerarquía sin evaluar impacto, y la c) diluye esfuerzos sin resolver con rapidez el incidente de mayor impacto."
+    },
+    {
+      "codigo": "MANT-23",
+      "pregunta": "En la mesa de ayuda, llega un ticket de \"caída total\" de la red de un laboratorio donde se realiza un examen práctico con 60 estudiantes y, unos minutos después, un ticket de \"equipo que no enciende\" en la oficina de un director de programa que requiere revisar correos. Solo hay un técnico disponible para desplazarse. ¿Cuál debería ser el orden de atención?",
+      "opciones": [
+        "a) Atender primero al director de programa porque su cargo implica decisiones estratégicas, y luego acudir al laboratorio cuando el equipo del director esté restablecido.",
+        "b) Priorizar el restablecimiento de la red del laboratorio, por el número de estudiantes afectados y la criticidad del examen, e informar al director sobre el tiempo estimado de atención posterior.",
+        "c) Enviar inicialmente un mensaje al laboratorio indicando que reinicien el switch mientras el técnico atiende al director, y si eso no funciona, luego se revisará la red."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) es la más adecuada porque el incidente en el laboratorio tiene un impacto inmediatamente mayor en servicios misionales. La priorización basada en impacto y urgencia es coherente con buenas prácticas. La opción a) prioriza jerarquía. La opción c) deja el incidente crítico en manos de usuarios sin soporte técnico inmediato, retrasando potencialmente la solución."
+    },
+    {
+      "codigo": "MANT-24",
+      "pregunta": "Recibe un informe de un técnico que, ante una falla recurrente de corrupción de archivos en varios equipos de administración, ha estado simplemente restaurando los archivos desde copias antiguas sin investigar la causa de la corrupción. Los usuarios pueden seguir trabajando, pero la pérdida de datos recientes se repite. Como responsable de soporte, ¿qué decisión es más adecuada?",
+      "opciones": [
+        "a) Indicar al técnico que continúe restaurando desde copias anteriores cada vez que sea necesario, ya que es una forma rápida de recuperar la operación y los usuarios no se quejan formalmente.",
+        "b) Mantener el procedimiento de restauración para minimizar el impacto inmediato, pero registrar un Problema formal para investigar la causa raíz de la corrupción de archivos y definir acciones correctivas definitivas.",
+        "c) Ordenar que dejen de hacer restauraciones hasta identificar la causa de la corrupción, aunque eso implique que los usuarios no puedan trabajar con sus archivos recientes por un tiempo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) equilibra la necesidad de restaurar el servicio (incidente) con la obligación de investigar la causa raíz (problema) cuando se presentan patrones de corrupción de datos. Las opciones a) y c) se inclinan por un extremo: solo contención o solo análisis, descuidando el otro aspecto."
+    },
+    {
+      "codigo": "MANT-25",
+      "pregunta": "Durante un mantenimiento a un equipo de un área sensible, encuentra en el disco una carpeta con copias locales de bases de datos de estudiantes, incluyendo cédulas, notas y datos de salud, sin ninguna protección. El usuario le pide que no elimine nada y que, si puede, haga una copia en su memoria USB personal porque \"así trabaja más rápido\". ¿Cuál debe ser su actuación más adecuada?",
+      "opciones": [
+        "a) Hacer una copia de la carpeta en la memoria USB del usuario para respetar su forma de trabajo, explicándole que debe manejarla con cuidado por contener datos sensibles.",
+        "b) Explicar que el manejo de datos personales debe hacerse en entornos institucionales controlados, rechazar la copia a un dispositivo personal y proponer mover la información a un repositorio institucional con las medidas de seguridad correspondientes.",
+        "c) No copiar nada y dejar la carpeta tal como está, sin comunicar la situación a nadie, para no generar conflictos con el usuario ni retrasar el mantenimiento."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) atiende las obligaciones de protección de datos personales: evita trasladar información sensible a dispositivos personales no controlados y propone una solución institucional y segura. La opción a) expone los datos a alto riesgo de fuga. La opción c) ignora un hallazgo de seguridad importante, manteniendo la vulnerabilidad."
+    },
+    {
+      "codigo": "MANT-26",
+      "pregunta": "En la bodega de TI hay varios portátiles muy deteriorados que fueron reemplazados hace años, con placas de inventario aún registradas. Un nuevo jefe le propone donarlos rápidamente a una fundación cercana para \"mejorar la imagen institucional\", sin pasar por el procedimiento de baja ni donación institucional, argumentando que son equipos de poco valor. ¿Cuál es la mejor respuesta?",
+      "opciones": [
+        "a) Aceptar la donación inmediata, registrando los números de placa solo para su control personal, ya que el valor de los equipos es bajo y el beneficio social es alto.",
+        "b) Indicar que la donación de bienes públicos debe pasar por el procedimiento formal: concepto técnico, baja o autorización de donación mediante acto administrativo, y coordinar con activos fijos para definir la ruta adecuada.",
+        "c) Proponer que se entreguen los equipos sin placas visibles, retirándolas antes, para que no se pueda asociar directamente la donación con el inventario institucional y evitar trámites."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el régimen de bienes del Estado: incluso bienes de poco valor deben gestionarse a través de procedimientos reglados para baja o donación. Las opciones a) y c) suponen disposiciones informales que pueden constituir irregularidades graves, independientemente del valor material de los equipos."
+    },
+    {
+      "codigo": "MANT-27",
+      "pregunta": "En un periodo de alta carga de trabajo, la mesa de ayuda recibe muchos incidentes de fallas menores de impresión y, en paralelo, algunos reportes de caídas esporádicas del servidor de base de datos que soporta el sistema académico, que se recupera solo pero genera interrupciones breves. Su equipo está saturado. ¿Cuál enfoque es más coherente con una gestión adecuada de incidentes y problemas?",
+      "opciones": [
+        "a) Concentrar el esfuerzo en resolver todos los incidentes de impresión para mantener satisfechos a los usuarios que más llaman, y atender los eventos del servidor solo cuando se caiga completamente.",
+        "b) Mantener la atención de las fallas de impresión según prioridad, pero identificar las caídas del servidor como incidentes críticos, registrarlas y agruparlas en un Problema para análisis, incluso si se recuperan solas.",
+        "c) Dejar de registrar las caídas breves del servidor como incidentes, dado que se recupera solo, y concentrarse únicamente en los casos que implican intervención manual."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que las caídas del servidor académico, aunque breves, son incidentes críticos y posiblemente síntomas de un Problema subyacente que debe investigarse. También mantiene la gestión ordinaria de otros incidentes según criticidad. La opción a) prioriza la percepción de atención por llamadas frecuentes frente a la importancia del servicio misional. La opción c) invisibiliza incidentes relevantes que podrían anticipar fallas mayores."
+    },
+    {
+      "codigo": "MANT-28",
+      "pregunta": "Un director de programa le solicita que marque como \"baja\" un equipo dañado en el sistema de inventarios para poder solicitar un equipo nuevo de manera urgente, pero en realidad el equipo aún está físicamente en la oficina y no existe concepto técnico ni trámite formal de baja. Argumenta que luego se ajustan los registros y que \"así funciona más rápido el sistema\". ¿Qué debería hacer usted?",
+      "opciones": [
+        "a) Cambiar el estado del equipo a \"baja\" en el sistema de inventarios para facilitar la reposición, confiando en que después se regularizará la documentación.",
+        "b) Indicar que el estado de baja solo puede registrarse tras el concepto técnico y trámite formal con activos fijos, y proponer solicitar un equipo en reposición explicando el daño y adjuntando el informe técnico correspondiente.",
+        "c) Mantener el equipo en estado \"activo\" pero registrar internamente una nota de que está inservible, sin generar informe técnico, para que la oficina de presupuesto considere la compra de un equipo nuevo."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el procedimiento de activos fijos: el cambio a estado de baja debe estar soportado. También propone una vía correcta para solicitar reposición. La opción a) implica manipular registros sin soporte, y la c) genera anotaciones informales insuficientes para decisiones de activos y presupuesto."
+    },
+    {
+      "codigo": "MANT-29",
+      "pregunta": "En una revisión de cumplimiento, se detecta que algunos técnicos de soporte han estado realizando mantenimientos correctivos (cambio de discos, memorias) sin actualizar la hoja de vida de los equipos ni registrar el detalle en los sistemas de inventario o tickets. Los equipos funcionan, pero no hay rastro de las intervenciones. El jefe le pide su recomendación como responsable de procesos. ¿Cuál es la respuesta más adecuada?",
+      "opciones": [
+        "a) Aceptar que mientras los equipos funcionen, la falta de registro no es crítica, y centrarse en mejorar la velocidad de atención más que la documentación.",
+        "b) Insistir en que toda intervención relevante debe documentarse en la hoja de vida, el sistema de tickets y, cuando aplique, en el inventario, y proponer ajustar el procedimiento y capacitar al personal para que el registro sea parte obligatoria del mantenimiento.",
+        "c) Requerir que en adelante solo se documenten las intervenciones de mayor costo, permitiendo que las reparaciones menores queden sin registrar para no recargar a los técnicos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) enfatiza la trazabilidad y control sobre activos públicos: la documentación de intervenciones es esencial para auditoría, planeación de reposiciones y análisis de fallas. La opción a) minimiza un requisito clave de control; la c) introduce criterios subjetivos que dejan muchas intervenciones sin registro verificable."
+    },
+    {
+      "codigo": "MANT-30",
+      "pregunta": "En un salón de clase, varios estudiantes reportan que sus cuentas se bloquearon al intentar conectarse a un nuevo sistema de autenticación Wi-Fi. El técnico de primer nivel desbloquea las cuentas una por una, pero el problema se repite cada vez que el estudiante se conecta desde más de un dispositivo. Usted sospecha que la configuración de límite de dispositivos en el servidor RADIUS es demasiado restrictiva. ¿Cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Continuar desbloqueando las cuentas cada vez que se bloqueen, tratando cada caso como un incidente independiente, sin registrar ningún Problema, ya que es una solución rápida para los estudiantes.",
+        "b) Mantener la atención de incidentes para desbloquear las cuentas cuando sea necesario, pero registrar un Problema formal vinculado a la configuración del servidor de autenticación para revisar la política de límites de dispositivos y proponer un ajuste estructural.",
+        "c) Suspender el uso del sistema de autenticación Wi-Fi en el campus hasta investigar la configuración, dejando a los estudiantes sin acceso inalámbrico mientras se analiza la causa."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) sigue el enfoque correcto: se resuelve el incidente para que los estudiantes continúen usando el servicio, pero se identifica un Problema asociado a la política de autenticación y se inicia una revisión a nivel de configuración. La opción a) mantiene el ciclo de fallas sin abordar la raíz. La opción c) es desproporcionada, afectando la disponibilidad del servicio mientras se investiga."
+    },
+
+    {
+      "codigo": "MANT-01",
+      "pregunta": "El computador asignado a la Decanatura arroja pantalla azul y el usuario necesita usarlo de inmediato. ¿Qué tipo de gestión debes aplicar primero?",
+      "opciones": [
+        "a) Registrar como incidente y aplicar solución inmediata para restaurar el servicio.",
+        "b) Registrar como problema y programar diagnóstico profundo antes de intervenir.",
+        "c) Solicitar autorización para escalar al área técnica antes de intervenir."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La prioridad inicial es restaurar el servicio rápidamente (incidente). La investigación del origen puede hacerse posteriormente si se vuelve recurrente."
+    },
+    {
+      "codigo": "MANT-02",
+      "pregunta": "Una impresora de la Rectoría falla ocasionalmente y el problema ha ocurrido varias veces en dos semanas. ¿Cómo procede el área de soporte?",
+      "opciones": [
+        "a) Soluciona cada incidente sin analizar patrón.",
+        "b) Inicia gestión de problemas para investigar causa raíz.",
+        "c) Cambia el cartucho y cierra el ticket como rutinario."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Incidencias repetidas requieren gestión de problemas para solucionar la causa raíz y evitar recurrencia."
+    },
+    {
+      "codigo": "MANT-03",
+      "pregunta": "El jefe solicita retirar del inventario un servidor obsoleto tirándolo a la bodega sin registro formal por falta de espacio. ¿Qué acción debes tomar?",
+      "opciones": [
+        "a) Registrar la baja del servidor en documento técnico y solicitar el acto administrativo correspondiente.",
+        "b) Trasladar el servidor a la bodega y registrar la acción solo internamente.",
+        "c) Desincorporar el servidor del inventario por solicitud verbal del jefe."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La baja requiere informe técnico y acto administrativo. Saltar el proceso expone a sanción disciplinaria y fiscal."
+    },
+    {
+      "codigo": "MANT-04",
+      "pregunta": "Un usuario solicita la instalación urgente de un software y sólo existe una copia pirata que el técnico puede descargar fácilmente. ¿Qué debe hacer?",
+      "opciones": [
+        "a) Negarse y explicar el riesgo legal y de seguridad, sugiriendo alternativas legales.",
+        "b) Instalar la copia pirata por ser urgente y eliminarla después.",
+        "c) Descargar el software justificando la urgencia y enviando reporte posterior."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Usar software pirata viola la ley y expone al área a sanciones. Siempre debe buscar alternativas legales o pedir compra/licencia."
+    },
+    {
+      "codigo": "MANT-05",
+      "pregunta": "Un usuario reporta lentitud en su equipo cada mañana. El técnico realiza un reinicio diario y el incidente desaparece temporalmente. ¿Qué debería hacerse?",
+      "opciones": [
+        "a) Continuar el reinicio diario para solucionar el incidente rápidamente.",
+        "b) Registrar los incidentes y activar gestión de problemas para investigar la causa raíz de la lentitud.",
+        "c) Instalar un software de limpieza cada vez que ocurra."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La recurrencia indica gestión de problema; reiniciar sólo resuelve temporalmente y no elimina la causa."
+    },
+    {
+      "codigo": "MANT-06",
+      "pregunta": "El laboratorio de informática está caído y afecta a 100 estudiantes, pero la impresora del Rectoría también falla. ¿Cómo debe priorizar el técnico?",
+      "opciones": [
+        "a) Resuelve primero la impresora del Rector por jerarquía.",
+        "b) Atiende primero el laboratorio por el mayor impacto en el servicio y usuarios.",
+        "c) Atiende el que fue reportado primero."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Priorizar por impacto en el servicio y número de usuarios es clave en entidades públicas."
+    },
+    {
+      "codigo": "MANT-07",
+      "pregunta": "Una laptop antigua ha dejado de funcionar y contiene archivos con datos personales. El jefe pide desecharla sin mayor trámite. ¿Qué procedimiento es correcto?",
+      "opciones": [
+        "a) Elaborar informe técnico de baja y borrar de forma segura los datos según Ley 1581 antes de retirar.",
+        "b) Desechar el equipo y luego entregar un informe sencillo si lo piden.",
+        "c) Guardar el equipo como respaldo por si sirve en el futuro."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La baja debe estar documentada y los datos personales deben ser borrados legalmente para evitar sanciones."
+    },
+    {
+      "codigo": "MANT-08",
+      "pregunta": "Durante el mantenimiento, el técnico descubre que varios equipos tienen el sistema operativo sin licencia. ¿Qué debe informar en el reporte?",
+      "opciones": [
+        "a) Indicar falta de licencia y sugerir compra inmediata en el acta de mantenimiento.",
+        "b) Continuar uso y reportar solo si auditoría detecta el problema.",
+        "c) Instalar versiones alternativas sin reporte formal."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Informar la falta de licencia y solicitar la regularización evita riesgos legales y disciplinares."
+    },
+    {
+      "codigo": "MANT-09",
+      "pregunta": "Se realiza mantenimiento preventivo mensual pero la mayoría de incidentes ocurren por fallas eléctricas no revisadas. ¿Cómo mejorar el plan?",
+      "opciones": [
+        "a) Incorporar chequeos eléctricos y actualizar el plan de mantenimiento.",
+        "b) Mantener el plan actual y reaccionar ante nuevos incidentes.",
+        "c) Realizar solo mantenimiento correctivo específico para fallas eléctricas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El plan debe ajustarse con base en los tipos de incidentes recurrentes, priorizando acciones preventivas."
+    },
+    {
+      "codigo": "MANT-10",
+      "pregunta": "Una estación de trabajo sin inventariar necesita cambio de disco duro. El técnico procede al cambio y registra sólo el nuevo disco. ¿Cuál es el error?",
+      "opciones": [
+        "a) No registrar la intervención en el activo principal y no actualizar el inventario correctamente.",
+        "b) Solo asumir que la estación funciona y dejar registro en soporte.",
+        "c) Solicitar registro solo del disco, ya que el resto está sin número."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Cada intervención debe quedar documentada asociada al activo principal. La integridad del inventario es obligatoria fiscalmente."
+    },
+    {
+      "codigo": "MANT-11",
+      "pregunta": "Un Director solicita que se reutilice piezas de equipos dados de baja en nuevos computadores sin dejar registro. ¿Qué respuesta es adecuada?",
+      "opciones": [
+        "a) Reusar piezas solo si se documenta la transferencia y el acto administrativo lo permite.",
+        "b) Reutilizar las piezas y documentar después si hay revisión.",
+        "c) Permitir el uso por orden del Director sin requerir registro."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda transferencia entre activos debe estar certificada documentalmente e implica acto administrativo previo."
+    },
+    {
+      "codigo": "MANT-12",
+      "pregunta": "En la revisión anual, los activos informáticos muestran seriales inconsistentes entre inventario físico y sistema digital. ¿Qué debe hacer el área TI?",
+      "opciones": [
+        "a) Realizar conciliación física-digital, documentar las discrepancias y emitir informe oficial.",
+        "b) Reportar solo los activos físicamente presentes.",
+        "c) Actualizar el sistema digital solo al final del año."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La conciliación inventario es paso esencial en auditoría y control fiscal institucional."
+    },
+    {
+      "codigo": "MANT-13",
+      "pregunta": "Durante la baja de un equipo, el técnico olvida documentar el diagnóstico y sólo se elabora la resolución administrativa. ¿Cuál es el riesgo?",
+      "opciones": [
+        "a) Falta de soporte técnico puede llevar a sanción disciplinaria en auditoría.",
+        "b) No hay riesgo si la resolución fue firmada.",
+        "c) El diagnóstico se puede entregar después si es requerido."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El concepto técnico es requisito de ley para actos administrativos de baja; su omisión es causal de observación en control fiscal."
+    },
+    {
+      "codigo": "MANT-14",
+      "pregunta": "Un funcionario indica que el antivirus debe actualizarse solo si hay virus reportados. ¿Qué error tiene esta política?",
+      "opciones": [
+        "a) Actualizar el antivirus debe ser parte del mantenimiento preventivo independientemente de reportes.",
+        "b) Actualizar solo ante incidentes reduce costos.",
+        "c) Es suficiente monitorear manualmente la presencia de amenazas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La actualización periódica del antivirus es medida clave preventiva para evitar riesgos y sanciones institucionales."
+    },
+    {
+      "codigo": "MANT-15",
+      "pregunta": "El área TI solicita la baja de impresoras que no funcionan hace meses, pero no realiza revisión técnica antes del acto administrativo. ¿Qué problema genera este procedimiento?",
+      "opciones": [
+        "a) La baja debe ir precedida de diagnóstico técnico para justificar el acto.",
+        "b) La resolución puede suplir la revisión técnica si lo autoriza el jefe.",
+        "c) El área puede justificar la baja post-factum."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda baja de equipo requiere diagnóstico que fundamente la decisión administrativa, según gestión pública y control fiscal."
+    },
+
+    {
+      "codigo": "MANT-16",
+      "pregunta": "Se solicita el traslado de varios equipos entre sedes sin registrarlo en el sistema de inventario institucional. ¿Qué procedimiento es correcto?",
+      "opciones": [
+        "a) Registrar el traslado en el sistema de inventario y generar acta de movimiento físico.",
+        "b) Realizar el traslado y actualizar el inventario en la siguiente revisión.",
+        "c) Permitir el traslado si lo autoriza verbalmente el jefe."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Todo traslado entre sedes debe estar registrado en sistema y acta física para cumplir con la trazabilidad y control fiscal."
+    },
+    {
+      "codigo": "MANT-17",
+      "pregunta": "Un equipo de cómputo dado de baja queda almacenado en el almacén sin destrucción ni donación oficial, pero sigue apareciendo en el inventario digital. ¿Qué riesgo existe?",
+      "opciones": [
+        "a) Omisión en la actualización genera observación de auditoría y posible sanción.",
+        "b) No hay riesgo si el equipo está guardado.",
+        "c) Puede darse de baja cuando se haga la próxima auditoría."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El inventario debe corresponder físicamente y documentalmente, todo equipo dado de baja debe ser borrado del sistema con sus soportes."
+    },
+    {
+      "codigo": "MANT-18",
+      "pregunta": "En la revisión bimestral, el técnico detecta varios monitores sin número de activo. ¿Cuál es el procedimiento institucional correcto?",
+      "opciones": [
+        "a) Asignar número de activo, registrar físicamente y digitalmente en inventario.",
+        "b) Registrar sólo si están en uso.",
+        "c) Mantener el monitoreo sin inventariar hasta que surjan novedades."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Todos activos institucionales deben estar identificados y registrados para cumplir normativas de control fiscal."
+    },
+    {
+      "codigo": "MANT-19",
+      "pregunta": "Un computador presenta la misma falla de encendido por tercera vez. ¿Qué gestión debe priorizar el área técnica?",
+      "opciones": [
+        "a) Activar gestión de problemas para encontrar la causa raíz y evitar recurrencia.",
+        "b) Dar soporte correctivo cada vez que ocurra.",
+        "c) Cambiar la fuente de poder y cerrar el caso por rutina."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Repetición de incidentes amerita investigación de causas raíz (gestión de problemas), no sólo correctivo."
+    },
+    {
+      "codigo": "MANT-20",
+      "pregunta": "El jefe pide reutilizar piezas de equipos dados de baja en equipos operativos sin dejar documentación. ¿Qué debería hacer el responsable TI?",
+      "opciones": [
+        "a) Documentar y asociar transferencia en inventario y acto administrativo.",
+        "b) Reutilizar las piezas por eficiencia y actualizar consumo después.",
+        "c) Permitir el uso si solo es hardware menor."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda transferencia de partes debe quedar registrada para evitar riesgos disciplinarios y de control fiscal."
+    },
+    {
+      "codigo": "MANT-21",
+      "pregunta": "Un usuario pide urgentemente liberar espacio en disco borrando archivos sin copia de seguridad, entre ellos información institucional sensible. ¿Qué procedimiento correcto debe seguirse?",
+      "opciones": [
+        "a) Realizar copia de seguridad antes de borrar, documentar el proceso y proteger datos sensibles.",
+        "b) Priorizar el borrado rápido por la urgencia.",
+        "c) Borrar solo si el usuario lo solicita por escrito."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Nunca se deben borrar datos institucionales sin respaldos y cuidado especial con datos sensibles, siguiendo la Ley 1581."
+    },
+    {
+      "codigo": "MANT-22",
+      "pregunta": "En el mantenimiento de impresoras, el técnico nota que dos equipos presentan la misma falla de manera recurrente. ¿Cuál debería ser el siguiente paso documentado?",
+      "opciones": [
+        "a) Activar gestión de problemas y reportar patrón de falla.",
+        "b) Reparar cada equipo y cerrar tickets sin análisis adicional.",
+        "c) Cambiar de modelo y omitir reporte si resuelve el incidente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Indicios de patrones de falla requieren gestión de problemas y reporte institucional."
+    },
+    {
+      "codigo": "MANT-23",
+      "pregunta": "En la auditoría, se descubre que varios servidores con datos sensibles fueron dados de baja y vendidos, pero no se comprobó el borrado seguro de discos. ¿Cuál es el principal riesgo?",
+      "opciones": [
+        "a) Sanción por incumplir Ley 1581, riesgo de fuga de datos.",
+        "b) No hay riesgo si el equipo ya no pertenece a la entidad.",
+        "c) Riesgo menor porque se vendió en subasta oficial."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La protección de datos personales es obligatoria aun en la baja; la omisión puede acarrear sanción disciplinaria y penal."
+    },
+    {
+      "codigo": "MANT-24",
+      "pregunta": "En el ciclo de vida de activos TI, ¿qué documento formal debe existir antes de que un equipo salga definitivamente del inventario?",
+      "opciones": [
+        "a) Acta administrativa de baja con concepto técnico.",
+        "b) Solicitud verbal del jefe.",
+        "c) Registro fotográfico únicamente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El acto de baja debe estar soportado por documento administrativo y diagnóstico técnico; otros soportes son complementarios."
+    },
+    {
+      "codigo": "MANT-25",
+      "pregunta": "Un usuario reporta que el antivirus de su máquina está vencido desde hace meses. ¿Qué debe hacer el área de soporte?",
+      "opciones": [
+        "a) Actualizar el antivirus inmediatamente y reportar la omisión en el plan de mantenimiento.",
+        "b) Esperar la próxima revisión general para actualizar.",
+        "c) Dejar la máquina sin antivirus porque el usuario no usa datos sensibles."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La protección debe ser inmediata y toda anomalía reportada para mejora del plan de mantenimiento."
+    },
+    {
+      "codigo": "MANT-26",
+      "pregunta": "Un equipo informático tiene software sin licencia y el jefe pide su uso temporal hasta gestionar la compra. ¿Qué postura profesional debes asumir?",
+      "opciones": [
+        "a) Negarse a usar cualquier software sin licencia y reportar la situación.",
+        "b) Usar el software mientras se tramita la compra.",
+        "c) Permitir el uso si solo es software secundario."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El uso de software sin licencia es ilegal; la responsabilidad profesional exige reportar y no usarlo bajo ninguna circunstancia."
+    },
+    {
+      "codigo": "MANT-27",
+      "pregunta": "Al realizar mantenimiento preventivo, el técnico omite registrar la intervención porque considera la tarea rutinaria. ¿Qué problema puede surgir?",
+      "opciones": [
+        "a) Falta de registro impide trazabilidad y puede ser observado en auditoría.",
+        "b) No hay problema si el equipo está en buen estado.",
+        "c) El jefe puede justificar la omisión si lo solicita."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda intervención debe quedar registrada oficialmente para garantizar trazabilidad y control institucional."
+    },
+    {
+      "codigo": "MANT-28",
+      "pregunta": "Durante la revisión de activos, se detecta un computador asignado a personal que ya no trabaja en la entidad y aparece como pendiente en inventario. ¿Procedimiento correcto?",
+      "opciones": [
+        "a) Recuperar el activo, registrar el movimiento y reasignar conforme a procedimiento institucional.",
+        "b) Esperar la próxima revisión para actualizar.",
+        "c) Eliminar el registro si se considera el equipo extraviado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La recuperación y actualización inmediata del inventario son obligatorios para control de activos públicos."
+    },
+    {
+      "codigo": "MANT-29",
+      "pregunta": "Al ejecutar la baja de discos duros, el área TI pregunta si basta con formatear el disco antes de donarlo. ¿Cuál debe ser la política?",
+      "opciones": [
+        "a) Realizar borrado seguro certificado antes de la baja definitiva.",
+        "b) Formatear es suficiente si el disco parece limpio.",
+        "c) No es necesaria ninguna acción si está dañado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La borrado seguro es obligación institucional; formatear puede permitir recuperación de datos por terceros."
+    },
+    {
+      "codigo": "MANT-30",
+      "pregunta": "La dirección propone no realizar mantenimiento preventivo en activos de última generación durante el primer año por considerarlos nuevos. ¿Qué recomienda la norma y mejores prácticas?",
+      "opciones": [
+        "a) No eximir ningún activo de mantenimiento preventivo, incluyendo los nuevos.",
+        "b) Realizar solo correctivo en equipos nuevos.",
+        "c) Mantener en observación y revisar solo tras el primer año."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El mantenimiento preventivo garantiza vida útil y cumplimiento legal; eximir equipos nuevos pone en riesgo la operación y control institucional."
+    }
+
+
+
+    ]
+}

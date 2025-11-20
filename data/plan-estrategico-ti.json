@@ -1,0 +1,1046 @@
+{
+    "preguntas": [
+        {
+            "codigo": "PETI-01",
+            "pregunta": "Según la Política de Gobierno Digital, ¿cuál es la principal función del PETI en el marco del MIPG?",
+            "opciones": [
+                "a) Servir como el manual de procedimientos técnicos para la Mesa de Ayuda.",
+                "b) Articular la estrategia institucional con los planes, programas y proyectos de TI.",
+                "c) Sustituir el Plan Anual de Adquisiciones de la entidad."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El PETI es el documento estratégico que asegura que las inversiones y acciones de TI estén alineadas con la misión y los objetivos institucionales (MIPG), no es un documento meramente operativo."
+        },
+        {
+            "codigo": "PETI-02",
+            "pregunta": "Usted está actualizando el PETI. ¿Cuál de los siguientes dominios del MRAE representa la meta a dónde quiere llevar la tecnología de la I.U. Pascual Bravo?",
+            "opciones": [
+                "a) Dominio de Servicios Tecnológicos.",
+                "b) Dominio de Estrategia TI.",
+                "c) Dominio de Uso y Apropiación."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Dominio de Estrategia TI (junto con su componente principal, el PETI) define la visión y el 'To Be' (estado futuro) de la tecnología de la entidad."
+        },
+        {
+            "codigo": "PETI-03",
+            "pregunta": "Un Vicerrector solicita la inmediata ejecución de un proyecto de desarrollo que no está incluido en el Portafolio del PETI aprobado. ¿Cuál es la acción más adecuada como Coordinador del PETI?",
+            "opciones": [
+                "a) Usar fondos de contingencia para iniciar el proyecto, pues la jerarquía lo exige.",
+                "b) Justificar la necesidad, realizar un análisis de brecha y escalarlo al Comité de Gobierno TI para la aprobación del cambio y la re-priorización del Portafolio.",
+                "c) Rechazar el proyecto argumentando que el PETI es inmodificable."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El PETI es modificable, pero bajo control formal. La opción (b) respeta el debido proceso de Gobierno TI, asegurando que el cambio sea estratégico y no una improvisación."
+        },
+        {
+            "codigo": "PETI-04",
+            "pregunta": "La implementación de las acciones del PETI se monitorea mediante 'Tableros de Control'. ¿Cuál es el objetivo principal de este monitoreo?",
+            "opciones": [
+                "a) Justificar la contratación de nuevo personal para el área TI.",
+                "b) Asegurar que la ejecución de los proyectos cumpla con el cronograma, presupuesto y entregue el valor esperado por la entidad.",
+                "c) Evaluar el desempeño individual de los técnicos de la Mesa de Ayuda."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El monitoreo evalúa la eficacia de la ejecución del PETI, verificando si los proyectos se mantienen alineados a la estrategia y se realizan dentro de los límites de tiempo/costo."
+        },
+
+        {
+      "codigo": "PETI-01",
+      "pregunta": "El PETI 2024-2028, aprobado por el Comité de Gestión y Desempeño, incluye el Proyecto 'Migración a Nube Híbrida' con un valor de $500M. Sin embargo, en la formulación del Plan Operativo Anual de Inversiones (POAI), la Dirección Financiera solo asigna $100M, argumentando insuficiencia presupuestal. ¿Cuál es la acción inmediata y formal que debe tomar usted como coordinador del PETI?",
+      "opciones": [
+        "a) Ejecutar el proyecto con los $100M asignados, cambiando el alcance y la arquitectura de 'Nube Híbrida' a 'Virtualización Local' para ajustarse al presupuesto, e informar el cambio en el próximo monitoreo.",
+        "b) Solicitar al Comité de Gestión y Desempeño una reunión extraordinaria para aprobar formalmente la reducción del alcance o la reprogramación del proyecto, y gestionar una solicitud de adición presupuestal para la siguiente vigencia, manteniendo la trazabilidad con el PETI original.",
+        "c) Eliminar el proyecto del PETI y redistribuir los $100M a proyectos de menor cuantía que sí puedan ejecutarse este año, priorizando la ejecución presupuestal sobre la meta estratégica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La acción correcta es la B. Si el presupuesto asignado no permite alcanzar la meta aprobada en el PETI (Direccionamiento Estratégico del MIPG), el cambio de alcance o la reprogramación debe ser una decisión formal de Gobierno, no una decisión técnica del ejecutor. Se debe mantener la trazabilidad con el plan original y evitar el cambio unilateral."
+    },
+    {
+      "codigo": "PETI-02",
+      "pregunta": "Usted debe justificar la inclusión del proyecto 'Implementación de un Middleware para Interoperabilidad' en el PETI. Este proyecto busca conectar el sistema académico con el sistema financiero. ¿A qué dominio del Marco de Referencia de Arquitectura Empresarial (MRAE) debe remitirse principalmente para argumentar la necesidad de la inversión?",
+      "opciones": [
+        "a) Dominio de Servicios Tecnológicos, argumentando que se necesita nueva infraestructura de red y servidores para el Middleware.",
+        "b) Dominio de Información, justificando la necesidad de que los datos de matrícula y pago sean consistentes entre sistemas (Integridad y calidad del dato).",
+        "c) Dominio de Estrategia de TI, indicando que el proyecto soporta directamente los objetivos de sostenibilidad financiera de la I.U."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción B es la más fuerte. Aunque los tres dominios se tocan, la interoperabilidad es una función principal del Dominio de Información y Sistemas, enfocada en asegurar la Integridad y unicidad del dato entre diferentes aplicaciones, que es el objetivo estratégico de conectar sistemas."
+    },
+    {
+      "codigo": "PETI-03",
+      "pregunta": "Durante la fase de Monitoreo, usted identifica que el proyecto 'Portal Único de Trámites' reporta un avance de ejecución presupuestal del 85% y un avance técnico del 90%. Sin embargo, el indicador de Resultado (Tiempo promedio de respuesta al ciudadano) solo ha mejorado en un 5%. ¿Cómo debe reportar este resultado al Comité de Gestión y Desempeño?",
+      "opciones": [
+        "a) Reportar un éxito del 90% del proyecto, pues la ejecución técnica y financiera es casi total, y la mejora del resultado es responsabilidad del área funcional (Uso y Apropiación).",
+        "b) Reportar el bajo impacto en el Resultado Estratégico, solicitando una auditoría de Gestión del Cambio para determinar si el problema es de diseño (brecha) o de adopción por parte de los usuarios, ya que el valor no se ha materializado.",
+        "c) Reportar el resultado y proponer inmediatamente un proyecto adicional (PETI 2.0) para corregir los problemas técnicos residuales."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El Monitoreo del MIPG y del PETI busca la **Realización de Beneficios**. La alta ejecución (90%) con bajo impacto (5%) indica que se invirtió bien pero sin lograr el valor público. La acción B, desde la auditoría, exige investigar la causalidad (MIPG: Gestión del Conocimiento) antes de proponer más gastos."
+    },
+    {
+      "codigo": "PETI-04",
+      "pregunta": "El MinTIC emite una Circular de obligatorio cumplimiento que exige que todas las entidades públicas integren sus servicios con la 'Carpeta Ciudadana Digital' en 6 meses. Esta tarea no estaba incluida en el PETI vigente. ¿Cómo integra usted esta nueva prioridad sin invalidar el principio de planeación?",
+      "opciones": [
+        "a) Crear un proyecto de 'Urgencia Manifiesta' fuera del PETI, ejecutándolo directamente para cumplir el plazo legal y reportarlo como excepción al final del año.",
+        "b) Incorporar la tarea como un nuevo proyecto de 'Alineación Estratégica Forzada' en el Portafolio de Proyectos del PETI, reprogramando o cancelando proyectos de menor criticidad para liberar el presupuesto necesario.",
+        "c) Suspender el PETI completamente, realizar una nueva formulación de 6 meses y someterlo a aprobación del Comité."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Principio de Planeación y Flexibilidad: La circular es un mandato legal que no puede ignorarse. La opción B permite mantener el PETI como instrumento vigente, pero aplica la flexibilidad necesaria para integrar la nueva prioridad, documentando el sacrificio de otros proyectos (Gestión del Portafolio)."
+    },
+    {
+      "codigo": "PETI-05",
+      "pregunta": "Usted está evaluando si el proyecto 'Migración del ERP a Software Libre' debe incluirse en el Portafolio. El análisis costo-beneficio muestra que el ahorro en licencias es alto, pero el riesgo de capacitación y soporte técnico es muy elevado. ¿Qué área funcional debe asumir la 'Aceptación del Riesgo' para que el proyecto pueda avanzar en el PETI?",
+      "opciones": [
+        "a) La Oficina de Tecnologías de la Información (TI), porque son los encargados de la ejecución.",
+        "b) La Dirección de Planeación, porque evalúa la factibilidad de los proyectos.",
+        "c) El Comité de Gestión y Desempeño, quien ostenta la función de Gobierno y debe decidir sobre el Apetito de Riesgo institucional (COBIT EDM03)."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Gobierno de TI y Riesgos: La 'Aceptación del Riesgo' (decidir seguir adelante a pesar del riesgo) es una función de Gobierno. TI (Gestión) identifica y mitiga el riesgo, pero el Comité (Gobierno) asume la responsabilidad final de la exposición institucional."
+    },
+    {
+      "codigo": "PETI-06",
+      "pregunta": "Un Decano solicita la inclusión de una aplicación específica para su facultad que no se articula con la arquitectura de información o los sistemas centrales. El costo es bajo. ¿Cuál es la principal razón, basada en el MRAE, para rechazar su inclusión en el PETI?",
+      "opciones": [
+        "a) Genera un Silo de Información y viola la Arquitectura de Datos del Dominio de Información, dificultando la Integridad y el uso compartido del dato institucional.",
+        "b) El costo es bajo y debe financiarse con el presupuesto de funcionamiento de la Facultad, no con proyectos de inversión del PETI.",
+        "c) La aplicación no cumple los requisitos de accesibilidad web (Ley 1712)."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "MRAE y Silos: La principal función de la arquitectura empresarial es evitar la duplicidad de información y sistemas (Dominio Sistemas/Información). Un sistema que no se articula crea un 'Silo', y el costo de integrar o corregir el dato en el futuro es mucho mayor que el costo inicial."
+    },
+    {
+      "codigo": "PETI-07",
+      "pregunta": "Usted debe presentar el Tablero de Control del PETI al Comité. El Rector le pregunta cómo sabe que los proyectos están 'aportando al valor'. ¿Qué métrica es la más adecuada para medir el 'Output' del Portafolio?",
+      "opciones": [
+        "a) Porcentaje de ejecución presupuestal del PETI (Eficiencia).",
+        "b) Porcentaje de reducción de quejas del ciudadano frente a la meta (Valor/Impacto).",
+        "c) Número de proyectos terminados a tiempo (Gestión del Alcance)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Monitoreo y Valor Público: El valor se mide por el impacto en el beneficiario final (ciudadano/estudiante). La reducción de quejas es un indicador de Resultado/Impacto que demuestra la eficacia del proyecto, superando las métricas de gestión interna (A y C)."
+    },
+    {
+      "codigo": "PETI-08",
+      "pregunta": "El PETI requiere la compra de licencias de software por valor de $200M, pero el contrato durará 3 años, superando la vigencia fiscal. ¿Qué instrumento de planeación es obligatorio solicitar para asegurar la continuidad de la compra?",
+      "opciones": [
+        "a) Solicitar una Modificación al Plan de Adquisiciones, especificando el contrato.",
+        "b) Obtener un Certificado de Disponibilidad Presupuestal (CDP) por los $200M en el primer año.",
+        "c) Obtener una Autorización de Vigencias Futuras (AVF) del CONFIS (o de la entidad territorial) que garantice la disponibilidad de los $200M repartidos en los 3 años de duración del contrato."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Planeación Financiera: La Ley Orgánica de Presupuesto prohíbe comprometer recursos que no están apropiados. Un contrato multianual (que supera la vigencia) requiere la figura de Vigencias Futuras para asegurar los recursos de los años venideros (Principio de Anualidad y Legalidad del Gasto)."
+    },
+    {
+      "codigo": "PETI-09",
+      "pregunta": "Se necesita iniciar un proyecto de 'Inventario de Activos' que alimenta el Dominio de Servicios Tecnológicos del MRAE. El Director de Contabilidad se niega a colaborar porque su prioridad es el cierre de balances. ¿Cuál es el mecanismo de gestión de MIPG para forzar la colaboración?",
+      "opciones": [
+        "a) Usar el principio de Coordinación y Concurrencia de la Ley 489, solicitando una mesa de trabajo formal entre TI y Contabilidad, bajo mediación del Director de Planeación o el Rector.",
+        "b) Iniciar un proceso disciplinario contra el Director de Contabilidad por incumplimiento de funciones.",
+        "c) Asignar un contratista de TI para que haga el inventario sin la ayuda de Contabilidad."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "MIPG y Gobernanza: Los proyectos de arquitectura empresarial requieren colaboración transversal. El mecanismo institucional correcto para resolver conflictos interdepartamentales es la **Coordinación** (MIPG) escalada a la instancia de Gobierno (Rector/Comité). La opción C genera información de baja calidad y no resuelve el conflicto."
+    },
+    {
+      "codigo": "PETI-10",
+      "pregunta": "Usted debe revisar el 'Portafolio de Aplicaciones'. El sistema de la Biblioteca fue desarrollado hace 15 años y no tiene documentación ni soporte, pero funciona. Según el MRAE, ¿qué decisión debe guiar el PETI sobre esta aplicación?",
+      "opciones": [
+        "a) Mantenimiento Correctivo: Dejarlo funcionando hasta que falle definitivamente para no invertir ahora.",
+        "b) Definición de una Estrategia de Retiro (Desincorporación) o Reemplazo Inmediato, ya que el riesgo de indisponibilidad y el costo de mantenimiento de sistemas obsoletos es inaceptable para la arquitectura (Deuda Técnica).",
+        "c) Dejarlo 'Tal Cual' y concentrarse solo en los sistemas nuevos que dan prestigio a la I.U."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Portafolio de Aplicaciones: Uno de los objetivos del MRAE es gestionar la obsolescencia. Un sistema sin soporte es un riesgo de **Disponibilidad** y **Seguridad** inaceptable (Riesgo Crítico). La decisión correcta es eliminar la aplicación del inventario activo y planear su reemplazo."
+    },
+    {
+      "codigo": "PETI-11",
+      "pregunta": "El Comité de Gestión y Desempeño le solicita que el PETI se enfoque al 100% en proyectos que generen ingresos (ej. plataforma de cursos virtuales de extensión) y recorte todos los proyectos de seguridad interna. ¿Qué debe usted argumentar desde la perspectiva de la gestión del riesgo (MIPG)?",
+      "opciones": [
+        "a) Que el enfoque es correcto, pues las IES necesitan generar recursos propios.",
+        "b) Que la inversión en ciberseguridad es obligatoria y no puede sacrificarse, ya que es un requisito legal (MSPI) y un control de la Integridad del activo de la información que garantiza la sostenibilidad de los ingresos.",
+        "c) Que el recorte está bien, siempre que la auditoría interna asuma el riesgo de seguridad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión del Riesgo y Cumplimiento: La inversión en Seguridad (MSPI) es un costo de hacer negocios y un control obligatorio. Sacrificar la seguridad pone en riesgo la **Integridad** de los datos (Pilar C-I-D), lo que, a su vez, tumbaría el ingreso (el pilar de Confidencialidad). Es una inversión no negociable."
+    },
+    {
+      "codigo": "PETI-12",
+      "pregunta": "Usted propone un proyecto en el PETI para adquirir licencias de software por $50M. Planeación le devuelve el documento pidiendo que lo justifique como 'Gasto de Funcionamiento'. ¿Por qué Planeación le haría esta solicitud?",
+      "opciones": [
+        "a) Porque el software ya existe y la compra es solo para mantener la operación actual, lo cual es mantenimiento y no creación de nueva capacidad (Inversión).",
+        "b) Porque el monto de $50M es muy bajo para ser considerado un proyecto de inversión.",
+        "c) Porque Planeación no quiere que el PETI tenga muchos proyectos de TI."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gasto vs. Inversión: La renovación de licencias para mantener el *status quo* es un gasto de funcionamiento (sostenimiento). El PETI (Inversión) se centra en la adquisición de activos nuevos o la transformación de procesos."
+    },
+    {
+      "codigo": "PETI-13",
+      "pregunta": "Para la formulación del PETI, usted necesita definir los requerimientos de la nueva plataforma de admisiones. ¿Qué dominio del MRAE le proporciona la información sobre los procesos de negocio que debe automatizar la plataforma?",
+      "opciones": [
+        "a) Dominio de Servicios Tecnológicos.",
+        "b) Dominio de Estrategia de TI.",
+        "c) Dominio de Procesos de Negocio."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "MRAE y Procesos: El Dominio de Procesos de Negocio es el que describe cómo la entidad ejecuta su misión (Cadena de Valor). Los requerimientos del software (Dominio Sistemas) deben basarse en los procesos que se busca automatizar o rediseñar (Dominio de Procesos de Negocio)."
+    },
+    {
+      "codigo": "PETI-14",
+      "pregunta": "Durante el monitoreo, usted detecta que el área de Contabilidad utiliza un sistema no oficial para la facturación. El Director Financiero argumenta que es más rápido que el ERP institucional. ¿Cómo debe usted como coordinador del PETI enfocar el reporte al Comité?",
+      "opciones": [
+        "a) Presentar el riesgo de Shadow IT (Informática en la Sombra) y la violación al Dominio de Información por pérdida de trazabilidad y riesgos de Integridad del dato financiero.",
+        "b) Solicitar inmediatamente un proceso disciplinario contra el Director Financiero.",
+        "c) Presentar un proyecto de mejoramiento del ERP para que sea más rápido que el sistema no oficial."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Gobierno y Control Interno: El uso de sistemas no oficiales (Shadow IT) es un hallazgo de control interno grave. El reporte debe centrarse en el riesgo sistémico (Alineación MRAE / Integridad) que esto genera, no en la sanción inmediata (Opción B) o el costo (Opción C)."
+    },
+    {
+      "codigo": "PETI-15",
+      "pregunta": "Se necesita crear el 'Catálogo de Servicios' de TI. Este instrumento es vital para el Dominio de Servicios Tecnológicos del MRAE. ¿Cuál es el enfoque principal para definir cada servicio?",
+      "opciones": [
+        "a) Describir el *hardware* o el *software* que utiliza el servicio (Ej: El servidor X).",
+        "b) Describir el servicio en función de lo que recibe el **usuario** (Ej: Servicio de Acceso a Internet, Servicio de Correo Electrónico Institucional) y su ANS asociado.",
+        "c) Describir el servicio en función de su costo anual (Costeo)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Dominio de Servicios: El catálogo debe tener una vista orientada al valor (COBIT/ITIL). Un servicio no es el activo, es la capacidad que el activo ofrece. La descripción debe ser entendible por el negocio, incluyendo los niveles de calidad (ANS)."
+    },
+
+{
+      "codigo": "PETI-16",
+      "pregunta": "Debido a un recorte presupuestal a mitad de año, usted tiene que liberar $50M. El proyecto 'Renovación de Licencias de Antivirus' está a punto de ejecutarse ($50M). El proyecto 'Portal de Transparencia 2.0' (MIPG) está en formulación ($100M). ¿Cuál es la acción correcta basada en el MIPG?",
+      "opciones": [
+        "a) Cancelar el proyecto de Antivirus, liberando los $50M, pues el de Transparencia es una obligación legal del MIPG y debe tener prioridad.",
+        "b) Usar el presupuesto de Antivirus ($50M) como Gasto de Funcionamiento y solicitar al Comité de Inversiones que reasigne la reserva para el Portal de Transparencia 2.0, priorizando la ejecución de la meta de Gobierno Digital.",
+        "c) Reclasificar la compra de antivirus como Gasto de Funcionamiento (Mantenimiento), liberando los $50M de la bolsa de Inversión y solicitando al Comité de Gestión y Desempeño que decida a qué proyecto de Transparencia se reasignan los fondos."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "La acción correcta es la C. El antivirus es un gasto recurrente de mantenimiento (Funcionamiento). El error es que esté en el presupuesto de Inversión (PETI). La C corrige el error de clasificación y devuelve la decisión estratégica de reasignación al Gobierno (Comité)."
+    },
+    {
+      "codigo": "PETI-17",
+      "pregunta": "Usted presenta el proyecto de 'Implementación de un sistema de Biometría Facial' para control de asistencia. El Comité pide la justificación basada en el Dominio de Información del MRAE. ¿Cuál es el argumento más fuerte?",
+      "opciones": [
+        "a) La biometría es necesaria para actualizar la infraestructura de red del Dominio de Servicios Tecnológicos.",
+        "b) La biometría garantiza la Integridad y la No-Repudiación del dato de asistencia, lo cual es fundamental para la calidad del Dato Maestro de Personal del Dominio de Información.",
+        "c) La biometría facilita la automatización del proceso de liquidación de nómina (Dominio de Procesos de Negocio)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "El Dominio de Información se enfoca en la gestión del dato como activo. La justificación de la biometría en el contexto de control interno es garantizar que el dato de asistencia sea veraz (Integridad) y no pueda ser negado por el servidor (No Repudio), lo cual es el objetivo del control."
+    },
+    {
+      "codigo": "PETI-18",
+      "pregunta": "Para la etapa de Monitoreo, usted debe reportar el avance del PETI al FURAG. Descubre que un proyecto clave que reportó 70% de avance técnico en actas, en realidad solo tiene un 20% funcional. El líder del proyecto le pide reportar el 70% para evitar sanciones. ¿Qué debe hacer usted?",
+      "opciones": [
+        "a) Reportar el 70% con una nota al margen indicando que es el avance de 'esfuerzo', no funcional.",
+        "b) Reportar el 20% real y documentar el incumplimiento, pues el FURAG exige la Integridad y veracidad del dato reportado como parte del cumplimiento del MIPG.",
+        "c) Reportar el 70% y prometer al auditor de Control Interno que la diferencia se arregla en el siguiente trimestre."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Integridad de la Información y Cumplimiento: El reporte al FURAG es un documento oficial. Alterar la verdad (incluso por conveniencia) es un riesgo de **Falsedad** y anula la confiabilidad de la gestión de la entidad. El MIPG exige la veracidad del dato reportado."
+    },
+    {
+      "codigo": "PETI-19",
+      "pregunta": "El proyecto 'Migración a Office 365' en el PETI depende de un único proveedor de licencias autorizado para el sector público colombiano. ¿Cuál es el riesgo de Portafolio más alto y cómo lo gestiona en la planificación?",
+      "opciones": [
+        "a) Riesgo de Obsolescencia, gestionándolo al exigir la última versión.",
+        "b) Riesgo de Dependencia Exclusiva de Proveedor (Vendor Lock-in). Se debe mitigar planeando la adquisición con la figura de 'Interventoría' para garantizar la transparencia, o evaluando una Estrategia de Salida a software libre.",
+        "c) Riesgo de Ejecución Presupuestal, resolviéndolo con una Vigencia Futura."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión del Riesgo: La dependencia de un proveedor (Oracle, Microsoft) es un riesgo ineludible. La planeación (Portafolio) debe incluir estrategias para reducir la dependencia, bien sea con una figura de vigilancia contractual o con una alternativa tecnológica de salida."
+    },
+    {
+      "codigo": "PETI-20",
+      "pregunta": "El área de Egresados decide comprar una plataforma de encuestas con su presupuesto, sin incluirla en el PETI. Esta acción viola la Arquitectura Empresarial (MRAE). ¿Qué debe hacer Control Interno?",
+      "opciones": [
+        "a) Ordenar a TI que integre la nueva plataforma a la Arquitectura Empresarial.",
+        "b) Emitir un Hallazgo de Control Interno por 'Shadow IT' (Informática en la Sombra) e incumplimiento del Dominio de Sistemas, iniciando un proceso para formalizar, integrar o desincorporar la aplicación, y sancionar al área funcional.",
+        "c) Dejar el proceso tranquilo, ya que la plataforma de encuestas es de bajo costo y no afecta la misión principal."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Control Interno y MRAE: La compra de tecnología sin planeación central (Shadow IT) es un riesgo de Integridad de la Información. Control Interno debe emitir el hallazgo formal para obligar a la entidad a tomar una decisión de Gobierno sobre el activo."
+    },
+    {
+      "codigo": "PETI-21",
+      "pregunta": "El Congreso aprueba una nueva ley que obliga a todas las IES a tener un portal de 'Rendición de Cuentas' con datos históricos. Esta nueva obligación altera los alcances de tres proyectos del PETI vigentes. ¿Cómo gestiona el cambio en la planeación?",
+      "opciones": [
+        "a) Ejecutar los proyectos como estaban, argumentando que el contrato se firmó antes de la ley (Principio de irretroactividad).",
+        "b) Actualizar los tres proyectos del PETI afectados, solicitando el aval del Comité para las adiciones o prórrogas necesarias, e incluyendo la nueva ley como un factor externo en la Matriz de Riesgos.",
+        "c) Suspender el PETI y esperar la reglamentación del MinTIC antes de hacer cualquier cambio."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Gestión de Cambios Legales: Las leyes tienen fuerza vinculante inmediata. Los proyectos del PETI deben ajustarse a la nueva realidad normativa. La opción B mantiene la trazabilidad del PETI y usa los mecanismos formales de Gobierno (Comité) para aprobar los ajustes."
+    },
+    {
+      "codigo": "PETI-22",
+      "pregunta": "El proyecto 'Automatización de PQRS' reporta un 100% de ejecución. El indicador de resultado (Satisfacción del Usuario) cayó del 80% al 60%. ¿Cuál es la conclusión de la Dirección de Planeación?",
+      "opciones": [
+        "a) El proyecto fue un éxito, pues la ejecución fue completa.",
+        "b) El proyecto no logró el objetivo de Valor Público. Se debe abrir una investigación para determinar si la Brecha (MRAE) fue mal diagnosticada o si el problema es la usabilidad (Uso y Apropiación) del sistema implementado.",
+        "c) El indicador de satisfacción es subjetivo y debe eliminarse del Tablero de Control."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Monitoreo de Valor: El 100% de ejecución con caída en el resultado indica una falla en la **Eficacia**. El proyecto fue eficiente con el presupuesto, pero ineficaz en resolver el problema del negocio. Se debe auditar la alineación estratégica y la fase de uso."
+    },
+    {
+      "codigo": "PETI-23",
+      "pregunta": "El PETI propone un proyecto de 'Gestión Documental' usando un software comercial (licenciamiento alto). El Comité le pregunta por qué no usa un software libre con capacidad similar. ¿Cómo debe usted justificar la opción de software propietario?",
+      "opciones": [
+        "a) Argumentar que el software comercial es más fácil de usar.",
+        "b) Justificar mediante un análisis de TCO (Costo Total de Propiedad) a 5 años que el costo del soporte, capacitación y migración de datos del software libre es superior al ahorro de licencias del software comercial.",
+        "c) Indicar que el software comercial tiene más prestigio para la I.U. y se alinea mejor a los objetivos de posicionamiento (Dominio de Estrategia de TI)."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Análisis de Costo-Eficiencia: En lo público, la justificación de la inversión no es el costo de la licencia, sino el TCO. Se debe demostrar que el costo total de operar el software libre es más alto que el costo total del software propietario (incluyendo licencias), por lo cual el software propietario es la opción más eficiente."
+    },
+    {
+      "codigo": "PETI-24",
+      "pregunta": "Usted está a cargo de la gestión del Portafolio de Aplicaciones. Una aplicación tiene alta criticidad (soporta pagos) y baja calidad (sin documentación). ¿Cuál es la estrategia obligatoria a definir en el PETI para este activo?",
+      "opciones": [
+        "a) Retirar el sistema inmediatamente y usar procesos manuales temporales.",
+        "b) Asignar un proyecto de 'Inversión Cero' (no se le invierte más, solo se mantiene con gastos de funcionamiento).",
+        "c) Priorizar un proyecto de Inversión para la Reingeniería o Reemplazo, pues el alto riesgo y la baja calidad amenazan la Continuidad del Negocio."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Portafolio de Aplicaciones: Un sistema de alta criticidad y baja calidad (Riesgo de falla inminente) debe ser la máxima prioridad de reemplazo/reingeniería. La opción C es la única que mitiga el riesgo sistémico de la I.U."
+    },
+    {
+      "codigo": "PETI-25",
+      "pregunta": "El PETI incluye el proyecto 'Implementación del MSPI'. Este proyecto requiere que todas las áreas firmen un acta de responsabilidad sobre el tratamiento de datos. El Vicerrector de Investigación se niega. ¿Cuál es la ruta de Gobierno que usted debe sugerir a Planeación?",
+      "opciones": [
+        "a) Excluir a la Vicerrectoría de Investigación del alcance del MSPI para no crear conflictos.",
+        "b) Escalar el conflicto al Rector y solicitar que el Comité de Gestión y Desempeño (Gobierno) emita un acto administrativo que obligue a la Vicerrectoría a cumplir la política de seguridad y privacidad (MSPI).",
+        "c) Informar a Control Interno para que imponga una multa inmediata al Vicerrector."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Alineación Estratégica y Cumplimiento: La seguridad es transversal. La negación de un directivo es un problema de Gobierno que se resuelve con la intervención de la Alta Dirección (Rector/Comité) mediante un mandato formal. La sanción (C) es posterior a la negativa formal de un mandato de Gobierno."
+    },
+    {
+      "codigo": "PETI-26",
+      "pregunta": "Usted está revisando el 'Dominio de Servicios Tecnológicos' del MRAE. Un proyecto busca aumentar la capacidad de almacenamiento en un 300%. ¿Cuál es el error de planeación si no se justifica esta inversión?",
+      "opciones": [
+        "a) El error es técnico, porque la red no soporta el 300% de capacidad.",
+        "b) El error es estratégico, porque no se alinea el Dominio de Servicios Tecnológicos con una necesidad real del Dominio de Información (ej. Almacenamiento de Big Data o datos de Investigación).",
+        "c) El error es de costos, porque el 300% es muy caro."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "MRAE y Justificación: Las inversiones en infraestructura (Dominio Servicios) deben estar justificadas por los requerimientos del negocio (Dominio Información/Procesos). Comprar capacidad por comprar es un riesgo de ineficiencia que debe ser rechazado por Planeación."
+    },
+    {
+      "codigo": "PETI-27",
+      "pregunta": "La I.U. Pascual Bravo es una entidad del orden territorial. El Plan de Desarrollo de Medellín incluye una meta sobre 'Ciudad Inteligente'. ¿Qué implicación tiene esto para la formulación del PETI de la I.U.?",
+      "opciones": [
+        "a) Ninguna, el PETI solo se alinea con el Plan Estratégico de la I.U.",
+        "b) El PETI debe incluir proyectos que promuevan la interoperabilidad y el intercambio de información con los sistemas de la Alcaldía de Medellín para contribuir a la meta de 'Ciudad Inteligente' (Coordinación y Concurrencia).",
+        "c) El PETI debe enfocarse exclusivamente en proyectos académicos para mantener la autonomía universitaria."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Normatividad Territorial y MIPG: Como entidad territorial descentralizada, la I.U. debe alinear sus planes al Plan de Desarrollo Territorial. El PETI es el instrumento para que TI contribuya a las metas de Gobierno Digital de la ciudad."
+    },
+    {
+      "codigo": "PETI-28",
+      "pregunta": "Se necesita crear una cuenta de 'Acceso al Firewall' para el Coordinador de Seguridad. La política de seguridad (PETI) lo permite. El CISO pide que el acceso sea temporal (3 meses) y que la clave se cambie semanalmente. ¿Cuál es la decisión que prioriza el SGSI?",
+      "opciones": [
+        "a) Crear el acceso permanente y cambiar la clave cada 6 meses, según la política general de usuarios de TI.",
+        "b) Implementar el control de acceso temporal (3 meses) y el cambio semanal de clave, ya que la Integridad y Confidencialidad de la infraestructura crítica (Firewall) priman sobre la conveniencia operativa (PETI/MSPI).",
+        "c) Crear un usuario genérico de administración para que lo usen todos los coordinadores."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "SGSI y Confidencialidad: El SGSI exige controles más estrictos para activos críticos. El acceso temporal, la segregación de funciones y el cambio frecuente de contraseñas son controles obligatorios para la infraestructura sensible (A.9.2.5)."
+    },
+    {
+      "codigo": "PETI-29",
+      "pregunta": "Usted debe gestionar el cierre exitoso del proyecto 'Implementación de un nuevo Data Warehouse'. El proyecto está finalizado. ¿Cuál es la última acción formal que usted debe asegurar en el PETI/MIPG?",
+      "opciones": [
+        "a) La firma del acta de Liquidación Bilateral del Contrato (Cierre Legal).",
+        "b) La transferencia formal de la responsabilidad del Data Warehouse del equipo de Proyecto al equipo de Operaciones (Gestión de Servicios).",
+        "c) El pago final al contratista."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Cierre de Proyectos y Operaciones: En el enfoque de Servicios (ISO 20000), el proyecto solo está listo cuando la Gestión de Servicios lo acepta formalmente y lo integra a los procesos de Soporte/Mantenimiento (Gestión de la Información). La Opción A es el cierre legal, pero la B es el cierre operativo."
+    },
+    {
+      "codigo": "PETI-30",
+      "pregunta": "El Director de Planeación le solicita una justificación de la inversión en el proyecto de 'Mejoramiento de la Red' basada en el ciclo de vida del PETI. ¿Cuál es el error de enfoque en la justificación que un Auditor de Control Interno señalaría?",
+      "opciones": [
+        "a) Justificar la inversión con base en que los equipos tienen más de 5 años y están obsoletos.",
+        "b) Justificar la inversión con base en la baja velocidad del internet y la necesidad de aumentar el ancho de banda para todos los usuarios.",
+        "c) Justificar la inversión sin una referencia directa al Análisis de Brecha del MRAE o a la Cadena de Valor del Proceso Académico."
+      ],
+      "respuesta_correcta": "c",
+      "explicacion": "Alineación y Justificación: Para el Control Interno, la justificación de la inversión debe basarse en la necesidad estructural (MRAE) o la mejora del servicio misional (Cadena de Valor/MIPG). La obsolescencia (A) o la velocidad (B) son problemas técnicos, no la justificación de valor para el Estado."
+    },
+
+    {
+      "codigo": "PETI-01",
+      "pregunta": "El PETI vigente de la institución incluye un proyecto crítico de modernización del sistema académico, priorizado por su impacto en permanencia estudiantil y acreditación. Al construir el POAI, Planeación informa que no hay recursos de inversión suficientes para iniciarlo ese año y sugiere retirarlo del plan anual sin mayor trámite, indicando que “se tendrá en cuenta más adelante”. Como coordinador del PETI, ¿cuál es la actuación más adecuada?",
+      "opciones": [
+        "a) Aceptar la exclusión del proyecto del POAI sin modificar el PETI, considerando que el plan estratégico es de largo plazo y que se ajustará de facto cuando el presupuesto lo permita.",
+        "b) Solicitar que la no financiación del proyecto quede documentada como riesgo del PETI y plantear al Comité Institucional de Gestión y Desempeño (CIGD) alternativas (reprogramación, faseo, fuentes complementarias), ajustando formalmente el plan si se decide aplazarlo.",
+        "c) Mantener el proyecto en el PETI sin comentarlo en el CIGD ni a Planeación, pero sustituirlo silenciosamente por compras menores de hardware que sí tengan presupuesto, de modo que la ejecución de TI no se vea reducida."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se ajusta al enfoque de planeación y control interno: los desajustes entre PETI y POAI deben quedar documentados como riesgos o decisiones de priorización, tratados en la instancia de gobierno (CIGD u órgano equivalente) y, de ser necesario, el PETI debe actualizarse formalmente. La opción a) tolera una brecha estructural entre planeación y presupuesto sin trazabilidad. La opción c) altera el portafolio sin aprobación ni registro, introduciendo incoherencia entre lo aprobado y lo ejecutado."
+    },
+    {
+      "codigo": "PETI-02",
+      "pregunta": "En la revisión semestral del PETI, se identifica que tres proyectos estratégicos de TI priorizados (analítica para permanencia estudiantil, fortalecimiento de seguridad y renovación de red) no recibieron asignación en el Plan de Inversiones ni en el presupuesto de funcionamiento. El jefe financiero propone cerrar estos proyectos en el PETI para “no generar expectativas irreales” y centrarse solo en lo que tiene apropiación. ¿Cómo debería actuar el coordinador del PETI?",
+      "opciones": [
+        "a) Cerrar los proyectos en el PETI y eliminarlos de la hoja de ruta, ajustando el documento para que solo contenga iniciativas con recursos aprobados, reduciendo así la brecha entre plan y ejecución.",
+        "b) Mantener los proyectos en el PETI como iniciativas vigentes, identificándolos como no financiados en el periodo actual, registrando el riesgo asociado y proponiendo su reprogramación o rediseño al Comité de Gobierno TI y al CIGD.",
+        "c) Mantener los proyectos en el PETI sin indicar su estado de financiación, confiando en que la presión de los usuarios hará que la dirección busque recursos adicionales durante el año."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que el PETI es un plan plurianual de capacidades TI, no un simple listado de rubros aprobados. Los proyectos pueden seguir siendo estratégicos aunque no tengan financiación inmediata; esto debe reflejarse en el mapa de riesgos y en la programación futura. La opción a) confunde falta de recursos coyuntural con pérdida de relevancia estratégica. La opción c) oscurece el estado real del portafolio, dificultando la gestión de riesgos y la rendición de cuentas."
+    },
+    {
+      "codigo": "PETI-03",
+      "pregunta": "Un proyecto de consolidación de repositorios académicos, alineado al dominio de Información del MRAE y al PETI, fue formulado como proyecto de inversión. Durante la viabilidad técnica, se concluye que el monto requerido supera la capacidad del Plan de Inversiones para los próximos dos años. El Vicerrector pide fragmentar el proyecto en varias compras pequeñas de funcionamiento (licencias, servidores), para iniciar “al menos una parte”, sin reformularlo formalmente en el PETI. ¿Cuál es la respuesta más adecuada del coordinador del PETI?",
+      "opciones": [
+        "a) Aceptar la fragmentación en compras de funcionamiento, sin ajustar el proyecto en el PETI ni en MGA, entendiendo que cualquier avance técnico ayuda y que el detalle de los gastos no afecta la planeación estratégica.",
+        "b) Proponer una reformulación del proyecto en el PETI y en los instrumentos de inversión (MGA/BPIN), redefiniendo alcance, fases y fuentes de financiación, y asegurando que las compras de funcionamiento que se ejecuten sean coherentes con la arquitectura y el objetivo de consolidación.",
+        "c) Suspender completamente cualquier avance relacionado con repositorios hasta que exista presupuesto pleno, para evitar riesgos de desviación entre el diseño original del PETI y las compras realizadas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) preserva la coherencia entre PETI, MRAE y presupuesto: si se decide avanzar por fases y con mezcla de inversión/funcionamiento, el proyecto debe ser reformulado y gobernado formalmente, no desagregado en compras coyunturales. La opción a) abre la puerta a soluciones parciales inconexas que pueden ir en contra de la arquitectura. La opción c) ignora la posibilidad de avanzar de manera controlada y alineada con el plan."
+    },
+    {
+      "codigo": "PETI-04",
+      "pregunta": "En el proceso de formulación presupuestal, se priorizan recursos para un proyecto de visibilidad institucional (app móvil institucional) que no está contemplado en el PETI, mientras que un proyecto de modernización de red LAN, sí incluido y crítico para la disponibilidad de servicios, queda sin financiación. La alta dirección le pide al coordinador PETI ajustar el documento para que la app aparezca como estratégica y justificar su priorización a posteriori. ¿Qué debería hacer?",
+      "opciones": [
+        "a) Modificar el PETI para incluir el proyecto de app móvil como iniciativa estratégica, ajustando ex post los objetivos y el análisis de brechas para que encaje con la decisión presupuestal de la alta dirección.",
+        "b) Plantear en el CIGD y el Comité TI la necesidad de evaluar formalmente el nuevo proyecto frente a las prioridades ya definidas en el PETI (incluida la red LAN), ajustando el portafolio solo después de dicha evaluación y dejando trazabilidad de la decisión.",
+        "c) Mantener el PETI sin cambios, considerando que el proyecto de app móvil puede tratarse como iniciativa “fuera de plan” sin necesidad de incorporarlo al portafolio estratégico, dado que ya tiene recursos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) protege el principio de planeación y el rol del PETI como referencia obligada para priorizar inversiones TI: cualquier nuevo proyecto debe ser evaluado formalmente frente a lo ya priorizado, con registro de las decisiones. La opción a) reescribe el plan a conveniencia de una decisión ya tomada, debilitando su credibilidad. La opción c) acepta una ejecución al margen del PETI, generando un portafolio oculto y dificultando el gobierno de TI."
+    },
+    {
+      "codigo": "PETI-05",
+      "pregunta": "El PETI contiene un proyecto de “Plataforma de analítica institucional” que articula varios dominios del MRAE. Sin embargo, Planeación indica que el Plan de Inversiones solo alcanza para licencias aisladas de herramientas de BI para algunas dependencias, sin presupuesto para la integración institucional definida en el PETI. La presión de las áreas usuarias es alta. Desde la perspectiva de control interno y arquitectura, ¿qué camino es más adecuado?",
+      "opciones": [
+        "a) Permitir que cada dependencia compre su propia herramienta de BI con el presupuesto disponible, dejando para más adelante la integración, aunque ello contraríe temporalmente el diseño del PETI y del MRAE.",
+        "b) Replantear el proyecto en el PETI, proponiendo una fase inicial acotada pero institucional (por ejemplo, un data mart transversal prioritario), reorientando los recursos disponibles hacia un avance consistente con la arquitectura definida.",
+        "c) Suspender el proyecto de analítica en el PETI hasta contar con presupuesto completo, para evitar que una implementación parcial genere desviaciones respecto al modelo de arquitectura empresarial."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) balancea restricciones presupuestales con la necesidad de respetar el diseño arquitectónico: redimensiona la primera fase, pero mantiene el carácter institucional y la coherencia con el PETI/MRAE. La opción a) fomenta soluciones dispersas que luego encarecen la integración. La opción c) congela la capacidad de analítica aun cuando hay recursos parciales que, bien orientados, podrían generar valor y aprendizaje."
+    },
+    {
+      "codigo": "PETI-06",
+      "pregunta": "Una nueva versión de la política de Gobierno Digital exige adoptar un modelo unificado de autenticación y federación de identidades para usuarios internos y externos. El PETI vigente no contemplaba este proyecto y ya tiene un portafolio ajustado a la capacidad presupuestal. La alta dirección le pide al coordinador PETI “incorporar el proyecto de autenticación” sin modificar las prioridades existentes ni revisar el análisis de brechas y riesgos. ¿Qué debería hacer?",
+      "opciones": [
+        "a) Incluir el proyecto de autenticación como adicional al portafolio, sin modificar prioridades ni análisis previos, confiando en que se acomodará en la ejecución cuando surjan recursos o se generen ahorros.",
+        "b) Actualizar el análisis de brechas y riesgos del PETI para incorporar la nueva obligación normativa, evaluar el impacto sobre el portafolio actual y proponer al CIGD la re-priorización o sustitución de proyectos, con los ajustes formales correspondientes.",
+        "c) Registrar el proyecto de autenticación únicamente en un anexo del PETI como “compromiso normativo” sin impacto en el portafolio, para mostrar cumplimiento documental de la política de Gobierno Digital."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el principio de planeación: ante cambios normativos relevantes, es necesario actualizar brechas y riesgos, y someter a decisión la re-priorización del portafolio. No basta con añadir compromisos de forma marginal. La opción a) genera un portafolio inflado sin viabilidad clara. La opción c) crea una ilusión de cumplimiento normativo sin traducir la obligación en cambios reales en el plan y recursos."
+    },
+    {
+      "codigo": "PETI-07",
+      "pregunta": "Tras la expedición de una nueva guía nacional que obliga a implementar el Modelo de Seguridad y Privacidad de la Información (MSPI) en dos años, el PETI de la institución solo contemplaba acciones parciales de seguridad TI. El rector pide que no se cambien las prioridades del PETI para no “desordenar la planeación” y sugiere tratar el MSPI como un proyecto independiente sin tocar el portafolio. Desde arquitectura y planeación, ¿cuál opción es más apropiada?",
+      "opciones": [
+        "a) Incorporar el MSPI como un proyecto adicional en el PETI sin revisar las interdependencias con otros proyectos, manteniendo intactas las prioridades actuales para no afectar compromisos previos.",
+        "b) Revisar el PETI para identificar qué proyectos deben ajustarse o complementarse para cubrir los requisitos del MSPI, integrando las acciones de seguridad y privacidad en el portafolio y revisando su prioridad frente a otros proyectos.",
+        "c) Mantener el PETI sin cambios y gestionar el MSPI exclusivamente desde el área de seguridad de la información, de manera paralela, para evitar reprocesos en los documentos de planeación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) entiende que el MSPI es un habilitador transversal que debe permear el PETI; por tanto, es necesario revisar y ajustar el portafolio para articular proyectos de seguridad y privacidad con la arquitectura y los objetivos institucionales. La opción a) atomiza el esfuerzo como un proyecto adicional sin integrarlo. La opción c) aisla el MSPI de la planeación estratégica, debilitando su efectividad y la coherencia global del modelo."
+    },
+    {
+      "codigo": "PETI-08",
+      "pregunta": "La entidad adopta el MRAE y, con ello, un nuevo mapa de aplicaciones que identifica redundancias y sistemas obsoletos. El PETI vigente contiene un proyecto de “mejora” de un sistema que el MRAE ahora clasifica como candidato a retiro y reemplazo. El líder del área usuaria insiste en seguir con la mejora porque su equipo ya domina esa aplicación. ¿Qué debería hacer el coordinador del PETI?",
+      "opciones": [
+        "a) Mantener el proyecto de mejora en el PETI, argumentando que el conocimiento del área usuaria reduce riesgo y costo, y que el MRAE es solo una referencia no vinculante para decisiones de corto plazo.",
+        "b) Revisar el portafolio PETI a la luz del MRAE, proponiendo al Comité TI y a la alta dirección la sustitución del proyecto de mejora por uno de reemplazo o integración, justificando la decisión con el dominio de Sistemas de Información y el análisis de brechas.",
+        "c) Congelar temporalmente el proyecto de mejora, pero no sustituirlo en el PETI hasta que el MRAE esté completamente desplegado, para no generar incertidumbre en el área usuaria."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) alinea el PETI con el MRAE: si el dominio de Sistemas de Información indica que una aplicación debe ser retirada, el portafolio debe ajustarse en ese sentido, con decisión colegiada y justificación arquitectónica. La opción a) ignora la arquitectura y perpetúa soluciones subóptimas. La opción c) posterga la decisión sin plan alterno, manteniendo un proyecto sin dirección clara."
+    },
+    {
+      "codigo": "PETI-09",
+      "pregunta": "En el tablero de control del PETI, el proyecto “Portal de servicios al estudiante” muestra 95% de avance técnico (módulos desarrollados, infraestructura desplegada), pero los indicadores estratégicos de uso y satisfacción estudiantil están por debajo del 20%. En la sesión del CIGD, algunos directivos proponen reportar el proyecto como logrado, destacando el avance técnico y dejando para otro periodo la apropiación. ¿Qué debería recomendar el coordinador PETI?",
+      "opciones": [
+        "a) Reportar el proyecto como cumplido en términos de ejecución técnica, separando explícitamente los indicadores de apropiación y valor, y proponer un plan complementario de gestión del cambio antes de cerrar la iniciativa.",
+        "b) Reportar el proyecto como completamente cumplido en el tablero, considerando que la responsabilidad sobre uso y satisfacción corresponde a las áreas misionales, no a TI, y que el objetivo del PETI es entregar soluciones tecnológicas.",
+        "c) Reducir el porcentaje de avance técnico en el tablero para que refleje el bajo uso, de modo que los indicadores estratégicos y técnicos se aproximen y no se perciba incoherencia en la ejecución."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) diferencia correctamente ejecución técnica y resultados estratégicos: el proyecto puede estar técnicamente avanzado, pero no se debe cerrar sin abordar la baja apropiación; esto requiere un plan de gestión del cambio y coordinación con áreas misionales. La opción b) limita el alcance del PETI a la entrega técnica, desconectándolo del valor institucional. La opción c) manipula la información técnica para maquillar la brecha de resultados."
+    },
+    {
+      "codigo": "PETI-10",
+      "pregunta": "En un informe trimestral, el tablero del PETI muestra que el proyecto de analítica para permanencia estudiantil tiene 80% de avance en infraestructura y datos cargados, pero los indicadores de deserción no han variado. El Rector solicita que se marque el objetivo estratégico de “reducir deserción” como alcanzado parcialmente, con base en el esfuerzo tecnológico, para mejorar el balance de gestión. ¿Qué debería hacer el coordinador?",
+      "opciones": [
+        "a) Mantener el indicador de resultado estratégico en el nivel real (sin mejora significativa), explicar que la plataforma es un habilitador y que se requieren acciones académicas adicionales, y no marcar el objetivo como alcanzado sin evidencia.",
+        "b) Ajustar temporalmente la meta de deserción a un nivel menos exigente para poder mostrar avance parcial, argumentando que el contexto externo ha variado y que la tecnología sí se ha implementado.",
+        "c) Dividir el objetivo estratégico en dos subindicadores: uno de “implementación tecnológica” y otro de “impacto en deserción”, marcando el primero como cumplido y el segundo como no alcanzado, pero reportando globalmente un avance medio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta la lógica de resultados: la tecnología es un medio, no el resultado; el indicador de deserción solo puede marcarse como alcanzado si hay evidencia. El tablero debe mostrar que el habilitador tecnológico está listo, pero que se requieren otras intervenciones. La opción b) modifica metas para acomodar los resultados. La opción c) puede ser útil para análisis interno, pero mezclar ambos tipos de indicadores para reportar un avance global medio puede inducir a confusión sobre el logro real del objetivo estratégico."
+    },
+    {
+      "codigo": "PETI-11",
+      "pregunta": "Un proyecto del PETI de “automatización de procesos administrativos” muestra, en el tablero, cumplimiento del cronograma y ejecución presupuestal del 100%. Sin embargo, las encuestas de los procesos intervenidos evidencian que los tiempos de trámite no han mejorado y, en algunos casos, han empeorado. El Comité de Gobierno TI evalúa si cierra el proyecto como exitoso. ¿Qué enfoque debería defender el coordinador PETI?",
+      "opciones": [
+        "a) Proponer que el proyecto no se cierre como exitoso hasta que se evidencie mejora en indicadores de tiempo y calidad del proceso, definiendo acciones correctivas o ajustes de alcance, aunque la ejecución técnica esté completa.",
+        "b) Recomendar el cierre del proyecto como exitoso, ya que cumplió con los entregables técnicos y presupuestales, y trasladar a las áreas de proceso la responsabilidad por la falta de mejoras.",
+        "c) Cerrar el proyecto como exitoso, pero abrir de inmediato un nuevo proyecto en el PETI llamado “optimización de la automatización” para abordar las inconformidades detectadas en las encuestas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) liga el éxito del proyecto a su contribución a los objetivos estratégicos (mejorar tiempos y calidad), no solo a la ejecución técnica y presupuestal. Si no se ha logrado el resultado, se requieren ajustes antes de declararlo exitoso. La opción b) fragmenta la responsabilidad, desvinculando TI de la mejora real. La opción c) genera una duplicidad de proyectos que complica la trazabilidad y puede ocultar que el primero no cumplió sus metas."
+    },
+    {
+      "codigo": "PETI-12",
+      "pregunta": "El tablero de control del PETI incluye un indicador de “porcentaje de avances en proyectos de Gobierno Digital”. Muestra 90% de avance en la implementación técnica del portal de datos abiertos, pero no hay conjuntos de datos de alto valor publicados ni evidencia de reutilización. El Comité de Transparencia solicita un reporte. ¿Cómo debería presentarse la situación?",
+      "opciones": [
+        "a) Reportar el 90% de avance técnico como logro principal del PETI, mencionando que la publicación de datos quedará a cargo de las dependencias dueñas de la información, sin ajustar el indicador global.",
+        "b) Diferenciar en el tablero entre avance técnico del portal y avance en la publicación y uso de datos, reportando el primero como alto y el segundo como bajo, y plantear acciones conjuntas con los dueños de la información para cerrar la brecha.",
+        "c) Ajustar el indicador global de avance de Gobierno Digital a un valor intermedio (por ejemplo 60%), mezclando ambos aspectos, para no mostrar una discrepancia tan marcada entre tecnología y resultado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) visibiliza claramente la diferencia entre implementación tecnológica y logro de objetivos de transparencia y uso de datos. Es coherente con un enfoque de MIPG y Gobierno Digital orientado a valor público. La opción a) sobreenfatiza el componente técnico y traslada la responsabilidad sin evidenciar el bajo progreso en lo misional. La opción c) oculta el diagnóstico real con un promedio ambiguo."
+    },
+    {
+      "codigo": "PETI-13",
+      "pregunta": "Se propone incluir en el PETI un proyecto para adquirir un nuevo sistema de gestión documental electrónica, argumentando que el actual “es viejo y poco amigable”. Desde la perspectiva del MRAE, se ha identificado que el problema principal es la dispersión y falta de calidad de la información documental, más que la herramienta en sí. ¿Qué dominio del MRAE debería pesar más en la justificación del proyecto y cómo actuar como coordinador PETI?",
+      "opciones": [
+        "a) Dar prioridad al dominio de Sistemas de Información, justificando el proyecto principalmente por la necesidad de una nueva herramienta y mejor experiencia de usuario, dejando para más adelante el tema de calidad de información.",
+        "b) Centrar la justificación en el dominio de Información, demostrando que el problema estructural está en la gestión de metadatos, clasificación, reglas de negocio y gobernanza documental, y evaluar si se requiere realmente cambiar la herramienta o fortalecer primero el modelo de información.",
+        "c) Apoyarse en el dominio Tecnológico, argumentando que la infraestructura actual no soporta futuras actualizaciones y que la compra de un sistema nuevo resolverá por sí misma los problemas de dispersión y calidad."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se apoya en el diagnóstico arquitectónico: si el problema es la calidad y gobernanza de la información, el dominio de Información debe ser el eje de la justificación, y la decisión sobre herramienta debe derivarse de ese análisis, no al revés. La opción a) sobredimensiona el papel del sistema como causa raíz. La opción c) asume que una renovación tecnológica automáticamente solucionará problemas de gestión de información, lo cual es una falacia frecuente."
+    },
+    {
+      "codigo": "PETI-14",
+      "pregunta": "En el marco del PETI, se plantea un proyecto para integrar el sistema académico con un nuevo CRM para gestión de egresados. El MRAE muestra que existen definiciones inconsistentes de “estudiante activo”, “egresado” y “desertor” entre sistemas. El área comercial presiona para avanzar rápido en la integración técnica. ¿Qué dominio del MRAE debe orientar primero las actividades del proyecto y cuál es la decisión más adecuada?",
+      "opciones": [
+        "a) Priorizar el dominio de Sistemas de Información, desarrollando de inmediato interfaces de integración entre el sistema académico y el CRM, y dejando el ajuste de conceptos y datos para una fase posterior.",
+        "b) Abordar primero el dominio de Información, armonizando definiciones, modelos de datos y reglas de negocio sobre el ciclo de vida del estudiante, y luego diseñar la integración técnica en coherencia con ese modelo.",
+        "c) Centrarse inicialmente en el dominio de Estrategia TI, elaborando un documento de alineación de objetivos de relacionamiento con egresados, sin entrar aún en detalles de datos ni de integración técnica."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que la integración útil depende de un modelo de información común: sin armonización de conceptos y datos, la integración técnica puede amplificar incoherencias. El dominio de Información es crítico en proyectos de integración. La opción a) invierte el orden lógico, priorizando conectores sobre semántica. La opción c) es importante a nivel estratégico, pero no resuelve el problema concreto que amenaza la calidad de la solución."
+    },
+    {
+      "codigo": "PETI-15",
+      "pregunta": "Un proyecto del PETI plantea centralizar la autenticación de usuarios mediante un servicio institucional único. El MRAE revela que existen múltiples aplicaciones con mecanismos de autenticación propios, desarrollados a medida, y que la información de identidades está dispersa entre bases locales. El equipo de desarrollo sugiere implementar primero un nuevo componente tecnológico de autenticación central (dominio Tecnológico), y luego ir migrando usuarios según demande cada área. ¿Cuál enfoque es más consistente con buenas prácticas de arquitectura?",
+      "opciones": [
+        "a) Diseñar primero el modelo de identidades y atributos en el dominio de Información (fuentes maestras, sincronización, ciclo de vida de usuarios), y con base en ello definir la solución tecnológica y el plan de migración progresivo en el PETI.",
+        "b) Implementar de inmediato el nuevo componente de autenticación central, integrándolo solo con las aplicaciones más críticas, y dejar el análisis del modelo de identidades para cuando se aborde la totalidad de sistemas.",
+        "c) Mantener los mecanismos de autenticación actuales en todas las aplicaciones, pero desarrollar un catálogo de usuarios compartido sin modificar el PETI, para evitar cambios en la arquitectura hasta contar con más recursos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) aplica el MRAE correctamente: en proyectos de autenticación centralizada, el dominio de Información (modelo de identidades, atributos, fuentes maestras) debe guiar el diseño tecnológico y el plan de migración, y esto debe reflejarse en la formulación del proyecto en el PETI. La opción b) prioriza un componente tecnológico sin sustento en un modelo de información sólido, arriesgando soluciones parciales e inconsistentes. La opción c) posterga indefinidamente la transformación requerida y mantiene la fragmentación."
+    },
+{
+      "codigo": "PETI-16",
+      "pregunta": "En la actualización anual del PETI, se ratifica como prioridad un proyecto de renovación del datacenter institucional, clasificado como crítico para la continuidad de servicios. Sin embargo, en el proceso de formulación presupuestal, Hacienda condiciona su financiación a que se eliminen dos proyectos de Gobierno Digital orientados a servicios al ciudadano, alegando que no hay recursos para todo. La alta dirección le pide al coordinador PETI “ajustar el documento para que se vea que el datacenter era la prioridad única desde el comienzo” y así evitar cuestionamientos por el recorte. ¿Cuál es la actuación más adecuada desde el punto de vista de control interno y planeación?",
+      "opciones": [
+        "a) Modificar retroactivamente el PETI para mostrar solo el proyecto de datacenter como prioridad en el horizonte vigente, eliminando referencias a los proyectos de Gobierno Digital que no recibirán financiación, para evitar incoherencias entre plan y presupuesto.",
+        "b) Mantener la priorización original en el PETI, documentar la decisión de reasignación presupuestal en acta del CIGD y de Hacienda, actualizar el plan dejando constancia explícita de los proyectos postergados y del riesgo asociado a su no ejecución.",
+        "c) Conservar el PETI tal como fue aprobado originalmente y no registrar formalmente los cambios presupuestales, considerando que la información detallada sobre re-priorización puede gestionarse de manera informal entre Planeación y TI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) respeta el principio de trazabilidad en la planeación: los cambios de priorización motivados por restricciones presupuestales deben quedar documentados en actas y reflejarse en una actualización formal del PETI, incluyendo los riesgos por proyectos no financiados. La opción a) reescribe la historia del plan para acomodar decisiones posteriores, quebrando la transparencia. La opción c) genera una brecha no documentada entre lo planeado y lo ejecutado, dificultando el control interno."
+    },
+    {
+      "codigo": "PETI-17",
+      "pregunta": "Durante la ejecución del PETI, el Ministerio expide un nuevo lineamiento de Gobierno Digital que obliga a implementar un servicio ciudadano digital específico en un plazo de 12 meses. Ninguno de los proyectos del portafolio actual contemplaba esa obligación, y el techo presupuestal ya fue aprobado. El coordinador PETI debe plantear una ruta. ¿Cuál es la mejor alternativa para actualizar el PETI sin violar el principio de planeación?",
+      "opciones": [
+        "a) Incorporar el nuevo servicio digital como un proyecto adicional de forma directa en el PETI, pero sin modificar la priorización ni el análisis de riesgos, dejando que cada dependencia busque internamente recursos para cumplir con la obligación.",
+        "b) Actualizar el diagnóstico y el análisis de brechas del PETI para incluir el nuevo lineamiento, reevaluar el portafolio de proyectos frente a las capacidades presupuestales y proponer formalmente al CIGD la re-priorización, sustitución o faseo de iniciativas.",
+        "c) Tratar el nuevo servicio digital como un proyecto autónomo fuera del PETI, gestionado solo por el área responsable de la política, para no afectar el plan estratégico de TI ya aprobado."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) integra el cambio normativo en el ciclo de planeación: se revisan brechas y riesgos, se reevalúa el portafolio y se decide en instancia de gobierno qué proyectos ajustar o mover, actualizando el PETI en consecuencia. La opción a) agrega un compromiso sin soporte ni priorización real. La opción c) fragmenta la respuesta y debilita el rol del PETI como instrumento rector de las iniciativas TI."
+    },
+    {
+      "codigo": "PETI-18",
+      "pregunta": "Tras la entrada en vigencia de una nueva resolución de Gobierno Digital que exige interoperabilidad con una plataforma nacional, el PETI preveía esa línea para el tercer año del horizonte. La alta dirección solicita adelantarla al primer año sin modificar formalmente los demás proyectos, esperando que TI “haga ajustes sobre la marcha”. Como auditor de control interno, ¿qué debería recomendar respecto al PETI?",
+      "opciones": [
+        "a) Recomendar que se documente el adelanto de la interoperabilidad como un ajuste menor del cronograma interno, sin pasar por aprobación del CIGD ni modificar el portafolio, dado que no se cambia la lista de proyectos.",
+        "b) Recomendar que el cambio de fase del proyecto de interoperabilidad se trate como una modificación del PETI, evaluando su impacto sobre otras iniciativas y sometiéndolo a aprobación del CIGD o instancia de gobierno TI, con los ajustes correspondientes en cronograma y recursos.",
+        "c) Recomendar que se mantenga el cronograma original del PETI y que el cumplimiento de la resolución se aborde con soluciones temporales no contempladas en el plan, para no alterar el instrumento de planeación."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "Adelantar una iniciativa clave afecta recursos y capacidades; la opción b) exige tratarlo como modificación del PETI que debe evaluarse y aprobarse formalmente, manteniendo coherencia entre plan, cronograma y presupuesto. La opción a) minimiza el impacto y genera alteraciones de facto no trazadas. La opción c) cancela la adaptación del plan a una obligación normativa, promoviendo remiendos paralelos."
+    },
+    {
+      "codigo": "PETI-19",
+      "pregunta": "En el tablero de control, el proyecto de “Gestión documental electrónica” reporta 100% de avance en los entregables de TI: sistema implementado, usuarios capacitados, infraestructura estable. No obstante, las auditorías de calidad muestran que los procesos misionales siguen usando expedientes físicos y que el índice de oportunidad en respuesta a PQRS no mejora. Al preparar el informe al Comité de Calidad y al CIGD, ¿cómo debería reportarse este proyecto desde la óptica del PETI?",
+      "opciones": [
+        "a) Reportar el proyecto como exitoso en el PETI, destacando el cumplimiento de todos los componentes técnicos y tratando las falencias de uso como un tema exclusivo de cambio organizacional ajeno a TI.",
+        "b) Reportar el proyecto con cumplimiento técnico alto pero logro estratégico bajo, evidenciando la brecha entre entrega tecnológica y resultados en procesos, y proponer acciones conjuntas (ajustes de proceso, incentivos, gestión del cambio) antes de considerarlo completamente cerrado.",
+        "c) Recalcular el porcentaje de avance del proyecto para reducirlo a un valor intermedio, de manera que el tablero no muestre un contraste tan marcado entre ejecución y resultados."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) reconoce que el PETI debe vincular tecnología con resultados misionales; la diferencia entre avance técnico y resultado debe visibilizarse y abordarse. La opción a) separa artificialmente TI de la responsabilidad por el impacto en procesos. La opción c) manipula el indicador técnico para ocultar una brecha relevante de gestión."
+    },
+    {
+      "codigo": "PETI-20",
+      "pregunta": "En el seguimiento del PETI, un proyecto de “Plataforma de autoservicio estudiantil” exhibe en el tablero un 90% de cumplimiento de hitos técnicos, pero el indicador de “porcentaje de trámites estudiantiles realizados en línea” se mantiene en 10%. El Comité de Gobierno TI pide una recomendación sobre cómo reflejar esto en la evaluación anual del PETI. ¿Qué postura debería adoptar el coordinador?",
+      "opciones": [
+        "a) Recomendar considerar el proyecto como cumplido a efectos del PETI, dado que los desarrollos y despliegues están listos, dejando la responsabilidad del bajo uso a las áreas misionales y comunicando solo el éxito técnico.",
+        "b) Recomendar mantener la calificación del proyecto condicionada: alto avance técnico pero bajo logro de objetivo estratégico, y vincular la programación de actividades adicionales de apropiación y simplificación de trámites como parte del cierre del proyecto.",
+        "c) Recomendar ajustar el indicador de “trámites en línea” para que solo considere los trámites técnicamente habilitados, con lo cual el porcentaje aumentará, mostrando mejor desempeño del PETI."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene el vínculo entre el proyecto TI y el resultado que buscaba habilitar: no basta con construir la plataforma si no se transforma el comportamiento y los procesos. Plantear actividades adicionales de apropiación es coherente con la lógica del PETI. La opción a) corta esa responsabilidad y la opción c) deforma el indicador para acomodar el resultado."
+    },
+    {
+      "codigo": "PETI-21",
+      "pregunta": "Un proyecto del PETI para implementar tableros de control institucionales se centró en construir la infraestructura de BI y algunos dashboards prototipo. El tablero de seguimiento del PETI muestra 100% de avance en “implementación de herramienta BI”, pero la alta dirección sigue tomando decisiones sin usar esos tableros. Como auditor interno, debe opinar sobre la forma de reportar el proyecto en la evaluación de resultados. ¿Cuál opción es más consistente con el enfoque MIPG?",
+      "opciones": [
+        "a) Señalar que el proyecto debe ser considerado solo parcialmente logrado, porque su éxito depende de la utilización de los tableros en la toma de decisiones; proponer ajustes para asegurar que su uso quede institucionalizado antes de su cierre definitivo.",
+        "b) Avalar que el proyecto se declare totalmente cumplido, dado que el alcance definido en el plan técnico era solo la implementación de la herramienta y unos prototipos, sin importar el uso posterior.",
+        "c) Proponer que se cree un nuevo proyecto para el “fortalecimiento del uso de tableros” sin cuestionar el cierre exitoso del primero, de manera que se mantenga la imagen de cumplimiento del PETI original."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) alinea el PETI con la filosofía del MIPG: la gestión de información se mide por su aporte a la decisión, no solo por tener herramientas. Por tanto, el proyecto no debería cerrarse como exitoso hasta que haya un mínimo de institucionalización de su uso. La opción b) se reduce a un enfoque instrumental. La opción c) genera un segundo proyecto para corregir lo que el primero debió abordar, diluyendo la responsabilidad."
+    },
+    {
+      "codigo": "PETI-22",
+      "pregunta": "Para el siguiente ciclo de planeación, Planeación propone que el PETI se limite a describir técnicamente los proyectos TI sin incorporar mapas de aplicaciones, análisis de brechas ni dominios del MRAE, argumentando que esos elementos “complican la lectura” y no son requeridos explícitamente en el POAI. Como coordinador PETI y especialista en arquitectura, ¿qué debería plantear?",
+      "opciones": [
+        "a) Aceptar simplificar el PETI eliminando los componentes de arquitectura y diagnóstico, dejando únicamente la descripción básica de proyectos, para facilitar su articulación con el POAI y los estados financieros.",
+        "b) Defender la inclusión de portafolio de aplicaciones, análisis de brechas y articulación con dominios del MRAE como insumos indispensables para justificar y priorizar los proyectos, proponiendo versiones resumidas para el público directivo pero sin perder el contenido técnico.",
+        "c) Mantener un documento interno con elementos de arquitectura y diagnóstico, pero excluirlos completamente del PETI formal, de manera que el plan oficial solo contenga un listado de proyectos con montos y fechas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene el rol del PETI como instrumento de gobierno TI basado en arquitectura y análisis de brechas: estos elementos son necesarios para justificar y priorizar proyectos, aunque se puedan presentar versiones sintetizadas. Las opciones a) y c) convierten el PETI en un catálogo de proyectos sin sustento arquitectónico, dificultando el control interno y la trazabilidad de decisiones."
+    },
+    {
+      "codigo": "PETI-23",
+      "pregunta": "Un proyecto del PETI plantea integrar varios sistemas académicos dispersos en una “plataforma única de gestión educativa”. El MRAE indica que la principal brecha se encuentra en el dominio de Procesos y de Información: los procesos académicos no están estandarizados y los datos no tienen definiciones comunes. La presión de tiempo lleva a que un proveedor ofrezca integrar “tal como están” los sistemas existentes con una capa de interfaz. ¿Qué debería recomendar el coordinador PETI?",
+      "opciones": [
+        "a) Aceptar la propuesta del proveedor y avanzar con la capa de integración, confiando en que la estandarización de procesos y datos puede abordarse posteriormente sin afectar significativamente el resultado del proyecto.",
+        "b) Insistir en que el proyecto aborde primero la estandarización mínima de procesos y definiciones de datos (dominios de Procesos e Información) antes de cerrar el diseño de integración, ajustando el cronograma del PETI en consecuencia.",
+        "c) Cambiar el alcance del proyecto para que se limite a mejorar la interfaz de usuario de los sistemas actuales, descartando la integración prevista en el PETI para no entrar en discusión sobre procesos y datos."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) está alineada con el MRAE: integrar sistemas sin armonizar procesos y datos puede consolidar incoherencias y complejidad. El PETI debe reflejar que la primera fase implica trabajo en los dominios de Procesos e Información, y ajustar tiempos si es necesario. La opción a) prioriza la velocidad sobre la calidad arquitectónica; la c) renuncia al objetivo de integración y debilita la coherencia del PETI."
+    },
+    {
+      "codigo": "PETI-24",
+      "pregunta": "La entidad tiene un PETI que incluye un proyecto para implementar un modelo de datos institucional común. El área de TI propone iniciar directamente con la adquisición de una herramienta de modelado y gobierno de datos, sin haber definido todavía los dominios de datos, propietarios ni criterios de calidad de la información. Desde la perspectiva de MRAE, ¿qué decisión debería tomarse?",
+      "opciones": [
+        "a) Iniciar con la compra de la herramienta, aprovechando una oportunidad de contrato, y mientras se instala ir definiendo los dominios y criterios de calidad en paralelo, para no perder el impulso presupuestal.",
+        "b) Posponer la adquisición de la herramienta hasta definir primero el modelo conceptual de datos institucional (dominio de Información), los responsables de los datos y los requisitos de calidad, alineando después la herramienta con ese diseño.",
+        "c) Mantener el proyecto en el PETI pero limitarlo temporalmente a capacitar al personal en modelado de datos, sin entrar aún en diseño ni en compra de herramienta, para ganar tiempo mientras se aclaran otros temas."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) refleja el orden lógico del MRAE: el dominio de Información (modelo, definiciones, responsabilidad) debe preceder a la selección de herramientas tecnológicas; de lo contrario, la herramienta puede quedar subutilizada o mal enfocada. La opción a) invierte ese orden por razones de oportunidad presupuestal. La opción c) es tibia y no ataca el núcleo del problema, que es el diseño del modelo de datos."
+    },
+    {
+      "codigo": "PETI-25",
+      "pregunta": "En la fase de monitoreo del PETI, se identifica que varios proyectos de TI ejecutados han generado soluciones tecnológicas no alineadas con el MRAE: nuevas bases de datos duplicadas, servicios sin estándares y aplicaciones sin integración. Al revisar, se detecta que estos proyectos se iniciaron por solicitudes directas de áreas misionales, sin pasar por el portafolio PETI. ¿Qué debería recomendar el auditor de control interno?",
+      "opciones": [
+        "a) Recomendar que se regularicen estos proyectos incorporándolos retroactivamente al PETI sin modificar su diseño, para que al menos aparezcan en el plan y no sean cuestionados por falta de registro.",
+        "b) Recomendar que se registren formalmente como desviaciones al PETI y al MRAE, se evalúe su impacto arquitectónico y se definan acciones de corrección o mitigación, reforzando los controles para que futuros proyectos TI no se ejecuten por fuera del portafolio.",
+        "c) Recomendar que se mantengan estos proyectos fuera de los informes de PETI y MRAE para evitar que se conviertan en hallazgos formales, manejándolos únicamente como iniciativas internas de las áreas usuarias."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) busca corregir la falta de gobierno: registrar las desviaciones, evaluar su impacto y aplicar acciones correctivas o mitigadoras, además de cerrar la puerta a nuevos proyectos por fuera del PETI. La opción a) blanquea iniciativas no gobernadas sin analizar su alineación. La opción c) oculta información relevante, aumentando el riesgo de hallazgos mayores en auditorías externas."
+    },
+    {
+      "codigo": "PETI-26",
+      "pregunta": "Durante la revisión de medio término del PETI, Planeación propone suprimir del tablero todos los indicadores estratégicos (impacto en permanencia, satisfacción del usuario, calidad del servicio), dejando solo los indicadores de cumplimiento de proyectos (cronograma, presupuesto) para simplificar la medición. Argumenta que esos indicadores misionales se miden en otros instrumentos. ¿Cuál debería ser la posición del coordinador PETI?",
+      "opciones": [
+        "a) Aceptar eliminar los indicadores estratégicos del tablero PETI, trasladando completamente la medición de impacto a otros instrumentos institucionales, y concentrar el PETI en seguimiento técnico y financiero.",
+        "b) Defender que el tablero del PETI mantenga al menos un conjunto nuclear de indicadores estratégicos que vinculen explícitamente los proyectos TI con resultados misionales, asegurando coherencia con el MIPG y evitando que el PETI se reduzca a un plan de compras.",
+        "c) Conservar los indicadores estratégicos solo en anexos del PETI, sin incluirlos en el tablero principal, para que no se conviertan en objeto de seguimiento sistemático por parte del CIGD."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) preserva el sentido del PETI como instrumento que conecta tecnología con resultados institucionales: el tablero debe mostrar esa relación, aunque otros instrumentos también midan impactos. Las opciones a) y c) diluyen el vínculo entre TI y valor público, reduciendo el PETI a una visión operativa de ejecución de proyectos."
+    },
+    {
+      "codigo": "PETI-27",
+      "pregunta": "Un proyecto del PETI busca consolidar un “Portal único de servicios institucionales”. El dominio de Canales y Servicios del MRAE indica la necesidad de definir un catálogo unificado de servicios antes de desarrollar la solución. La presión política por mostrar resultados lleva a que la alta dirección pida “sacar primero la página” con los sistemas actuales enlazados, dejando el catálogo y racionalización de servicios para más adelante. ¿Cuál debería ser la recomendación desde la perspectiva de arquitectura y control interno?",
+      "opciones": [
+        "a) Recomendar avanzar primero con un catálogo de servicios unificado (diseño en el dominio de Servicios y Procesos) y luego construir el portal técnico, aunque eso aplace la visibilidad inmediata del proyecto.",
+        "b) Recomendar publicar el portal cuanto antes, enlazando los sistemas existentes sin un catálogo formal, y más adelante ajustar los servicios y procesos, para capitalizar la oportunidad política y luego afinar la arquitectura.",
+        "c) Recomendar suspender el proyecto hasta que exista una demanda clara de los usuarios por un portal único, para evitar invertir en una solución que podría no ser utilizada."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La opción a) respeta el enfoque del MRAE: el portal debe materializar un catálogo de servicios y procesos racionalizados; construir primero la capa técnica sin ese modelo puede consolidar un mosaico de enlaces desordenados. La opción b) sacrifica la calidad arquitectónica por rapidez política. La opción c) ignora que el PETI ya definió la necesidad y condiciona su ejecución a señales que pueden ser difusas."
+    },
+    {
+      "codigo": "PETI-28",
+      "pregunta": "La entidad ha definido en el PETI un proyecto de “optimización del soporte TI” con enfoque en ISO 20000 e ITIL, que incluye formalizar catálogo de servicios y ANS. Planeación sugiere reemplazarlo por la compra de un software de mesa de ayuda sin componentes de procesos, argumentando que así se muestra más ejecución de inversión tangible. ¿Qué debería hacer el coordinador PETI?",
+      "opciones": [
+        "a) Aceptar reemplazar el proyecto por la adquisición de la herramienta de mesa de ayuda, considerando que en la práctica el sistema forzará una cierta estandarización de procesos aunque no se formalicen.",
+        "b) Mantener el enfoque del proyecto en procesos y gobierno de servicios, e incorporar la herramienta de mesa de ayuda, si procede, como un componente que debe estar subordinado al diseño del catálogo de servicios y ANS definidos en el PETI.",
+        "c) Proponer dividir el proyecto en dos: uno puramente tecnológico (compra de herramienta) que sí se ejecuta, y otro de procesos que se deja sin presupuesto, para no perder la oportunidad de inversión."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) mantiene la primacía del diseño de procesos y gobierno de servicios sobre la herramienta; el PETI debe reflejar que el software apoya un modelo previamente definido, no al revés. La opción a) supone que la herramienta resolverá el diseño por sí misma. La opción c) segmenta el proyecto de manera que la parte de gobierno quede sin respaldo, limitándose a la capa tecnológica."
+    },
+    {
+      "codigo": "PETI-29",
+      "pregunta": "En una revisión del PETI, la Contraloría observa que varios proyectos de TI se formularon sin referenciar explícitamente los dominios del MRAE ni el análisis de brechas, sino solo como “necesidades de las áreas usuarias”. Le solicita a la entidad una explicación sobre cómo se aseguró la alineación arquitectónica. ¿Qué respuesta debería construirse desde el rol de coordinador PETI y auditor interno?",
+      "opciones": [
+        "a) Indicar que la alineación arquitectónica se da por sentado, ya que TI conoce bien las necesidades de las áreas, y que el MRAE se usa solo como guía conceptual, sin necesidad de ser referenciado en cada proyecto.",
+        "b) Reconocer la debilidad en la formulación, comprometer la actualización del PETI para que los proyectos existentes sean revisados contra el MRAE y el análisis de brechas, documentar esa alineación y ajustar los procedimientos para que futuras iniciativas lo incluyan desde el inicio.",
+        "c) Señalar que los proyectos fueron incluidos por mandato de los directivos y que, por tanto, la responsabilidad de su alineación recae en esos niveles, no en los procesos de PETI y arquitectura."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) asume la observación como oportunidad de mejora: se revisa el portafolio contra el MRAE y el análisis de brechas, se documenta la alineación y se ajustan los procedimientos para que el problema no se repita. La opción a) minimiza la exigencia de evidenciar alineación, lo que es inconsistente con el control interno. La opción c) traslada la responsabilidad a los directivos sin fortalecer el proceso técnico y de gobierno."
+    },
+    {
+      "codigo": "PETI-30",
+      "pregunta": "Al cierre del periodo de vigencia del PETI, el informe final muestra un cumplimiento cercano al 90% en ejecución de proyectos TI, pero varios indicadores estratégicos asociados (satisfacción del estudiante con servicios digitales, tiempo de resolución de PQRS, aprovechamiento de datos para decisiones) avanzaron muy poco. La alta dirección propone que, para el nuevo PETI, se reduzca el número de indicadores estratégicos para “no exponerse a cifras negativas” y se enfatice solo el cumplimiento de proyectos. ¿Qué enfoque debería adoptar el coordinador PETI?",
+      "opciones": [
+        "a) Aceptar reducir el número de indicadores estratégicos y concentrarse en métricas de ejecución de proyectos, argumentando que otros instrumentos del MIPG ya miden los resultados misionales.",
+        "b) Defender la necesidad de mantener indicadores estratégicos claros y exigentes en el PETI, usar los resultados bajos como insumo para rediseñar el portafolio y los proyectos, y fortalecer la articulación con áreas misionales para que la tecnología sí se traduzca en valor.",
+        "c) Proponer indicadores estratégicos más fáciles de cumplir (por ejemplo, número de sistemas implementados) en lugar de indicadores de impacto, de manera que el PETI muestre éxito global sin tensionar a las áreas usuarias."
+      ],
+      "respuesta_correcta": "b",
+      "explicacion": "La opción b) se alinea con la visión del PETI dentro del MIPG: su propósito no es solo ejecutar proyectos, sino habilitar logros institucionales. Los malos resultados en indicadores de impacto deben servir para ajustar el portafolio y fortalecer el trabajo con áreas misionales, no para eliminar la medición. Las opciones a) y c) diluyen la rendición de cuentas y convierten el PETI en un instrumento puramente operativo."
+    },
+
+    {
+      "codigo": "PETI-01",
+      "pregunta": "Un proyecto crítico de automatización académica, prioritario en el PETI, no fue incluido en el presupuesto del POAI por restricciones fiscales. ¿Qué debe hacer inicialmente el coordinador del PETI?",
+      "opciones": [
+        "a) Documentar el riesgo, reportarlo formalmente en el seguimiento PETI/MIPG y solicitar reconsideración en la próxima vigencia.",
+        "b) Reasignar recursos internos informalmente y empezar el proyecto sin esperar aprobación presupuestal.",
+        "c) Comunicar al área técnica que ejecute el proyecto con recursos propios y reportar solo si hay observaciones."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El coordinador debe respetar la legalidad, documentar el riesgo y seguir el ciclo institucional, no ejecutar sin respaldo financiero."
+    },
+    {
+      "codigo": "PETI-02",
+      "pregunta": "La entidad debe cumplir una nueva política nacional de Gobierno Digital, que implica reorientar totalmente las prioridades TIC. ¿Cómo actualizar el PETI?",
+      "opciones": [
+        "a) Activar proceso formal de revisión y ajuste del PETI, motivando la actualización con soporte normativo y aprobándolo en las instancias de gobierno TI.",
+        "b) Modificar los proyectos en ejecución inmediatamente y comunicar los cambios después.",
+        "c) Mantener el plan previo y esperar el próximo ciclo de planeación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El PETI permite actualizaciones cuando hay cambios estratégicos, pero debe hacerse con justificación, acto formal y aprobación del Comité."
+    },
+    {
+      "codigo": "PETI-03",
+      "pregunta": "El tablero de control del PETI muestra 90% de avance técnico en infraestructura, pero los usuarios reportan que no hay impactos en la experiencia académica. ¿Cómo debe reportarse esto ante el Comité Directivo?",
+      "opciones": [
+        "a) Informar que el avance estratégico es bajo pese al avance técnico y proponer acciones correctivas alineadas al valor público.",
+        "b) Enfatizar el avance técnico, esperando la percepción de impacto mejore a largo plazo.",
+        "c) Reportar solo los logros operativos y dejar el análisis estratégico para la siguiente evaluación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El PETI busca resultados estratégicos y valor público, no solo ejecución técnica; es obligación reportar la falta de impacto real."
+    },
+    {
+      "codigo": "PETI-04",
+      "pregunta": "Se detecta que la actualización de un sistema académico no incluye el análisis de necesidades de interoperabilidad. Según MRAE, ¿qué dominio debe involucrarse en la justificación del proyecto PETI?",
+      "opciones": [
+        "a) Dominio de Información, porque define la estructura, intercambio y gobernanza de datos para interoperabilidad.",
+        "b) Dominio de Estrategia, porque prioriza la actualización según el PEI.",
+        "c) Dominio Tecnológico, ya que es quien instala el software."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La interoperabilidad depende del dominio de información según el MRAE y debe reflejarse en el análisis PETI."
+    },
+    {
+      "codigo": "PETI-05",
+      "pregunta": "Un proyecto en el PETI mejora la infraestructura de red pero no está alineado ni con el MIPG ni con el PEI. El área solicitante insiste en ejecutarlo. ¿Qué debe hacer el coordinador?",
+      "opciones": [
+        "a) Solicitar justificación formal de alineación estratégica o proponer la no ejecución del proyecto.",
+        "b) Ejecutar el proyecto si hay recursos.",
+        "c) Ajustar el documento PETI a posteriori para incluir el proyecto ya iniciado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El principio de alineación obliga a justificar o descartar proyectos fuera de los lineamientos estratégicos institucionales."
+    },
+    {
+      "codigo": "PETI-06",
+      "pregunta": "En la mitad del ciclo de ejecución del PETI, un proyecto tecnológico presenta sobrecostos no previstos en el análisis de brecha original. ¿Cómo debe procederse?",
+      "opciones": [
+        "a) Reportar la variación, solicitar evaluación de impacto y tramitar ajuste presupuestal según procedimiento formal.",
+        "b) Redistribuir recursos de otros proyectos menores internamente, sin informar.",
+        "c) Solicitar a financiero cubrir el sobrecosto y luego ajustar el portafolio."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Modificar el portafolio y presupuesto requiere autorización y transparencia formal conforme PETI-MIPG."
+    },
+    {
+      "codigo": "PETI-07",
+      "pregunta": "El seguimiento al PETI revela que varios proyectos están retrasados por falta de interacción entre áreas técnicas y usuarias. ¿Qué acción promover?",
+      "opciones": [
+        "a) Convocar sesiones interáreas para ajustar cronogramas y asegurar corresponsabilidad en la gestión.",
+        "b) Delegar los proyectos sólo al área técnica para acelerar la ejecución.",
+        "c) Modificar los plazos solo en los reportes, sin ajustes reales."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El éxito del PETI requiere coordinación y corresponsabilidad formal, no solo ajustes de reporte."
+    },
+    {
+      "codigo": "PETI-08",
+      "pregunta": "El Comité exige pruebas de que los proyectos PETI impactan la gestión académica. ¿Qué indicador debe priorizarse?",
+      "opciones": [
+        "a) Nivel de satisfacción de usuarios y métricas de mejora en procesos académicos.",
+        "b) Porcentaje de ejecución presupuestal.",
+        "c) Número de reuniones de seguimiento realizadas."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El objetivo del PETI es lograr valor estratégico y resultados en la gestión fundamental, no solo ejecución operativa."
+    },
+    {
+      "codigo": "PETI-09",
+      "pregunta": "El área de TI propone actualizar el portafolio de aplicaciones sin informar al Comité de Gobierno TIC. ¿Cuál es el procedimiento correcto?",
+      "opciones": [
+        "a) Toda actualización estratégica del portafolio debe aprobarse y documentarse en Comité, garantizando gobernanza.",
+        "b) El área técnica puede actualizar de forma autónoma y reportar después.",
+        "c) Solo informar si algún usuario detecta cambios significativos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda gestión PETI que altere estrategias debe tener aprobación formal para asegurar gobernanza y trazabilidad."
+    },
+    {
+      "codigo": "PETI-10",
+      "pregunta": "El Dashboard PETI señala que un proyecto de digitalización está terminado, pero no se han medido beneficios para los usuarios finales. ¿Qué recomendación clave hacer?",
+      "opciones": [
+        "a) Incluir medición de valor percibido y ajuste de indicadores de impacto en el tablero de control.",
+        "b) Marcar como completado y proceder al siguiente proyecto.",
+        "c) Esperar la retroalimentación espontánea de usuarios."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El PETI debe medir éxito por el impacto real en usuarios, no sólo por ejecución física del proyecto."
+    },
+    {
+      "codigo": "PETI-11",
+      "pregunta": "Un hallazgo de auditoría interna indica que el PETI carece de análisis de brecha detallado. ¿Cómo debe responderse?",
+      "opciones": [
+        "a) Realizar y documentar el análisis de brecha, actualizando la planeación y reportándolo en el ajuste PETI.",
+        "b) Justificar la omisión porque los proyectos ejecutados hasta ahora han tenido éxito.",
+        "c) Subsanar sólo cuando Contraloría lo exija formalmente."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El análisis de brecha es obligatorio para la seriedad del PETI, debiendo corregirse toda omisión señalada en control."
+    },
+    {
+      "codigo": "PETI-12",
+      "pregunta": "TI planea cambiar la política de backups para ahorrar recursos, pero esto pone en riesgo la continuidad de procesos esenciales definidos en el PETI. ¿Qué principio debe prevalecer?",
+      "opciones": [
+        "a) Primar la continuidad y seguridad por encima del ahorro inmediato.",
+        "b) Permitir el cambio y monitorear a futuro los impactos.",
+        "c) Ajustar políticas solo si hay incidentes de pérdida real de datos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La continuidad es clave; modificar controles sin análisis técnico puede comprometer el cumplimiento estratégico."
+    },
+    {
+      "codigo": "PETI-13",
+      "pregunta": "El Comité solicita justificar la inversión en una nueva plataforma de aprendizaje digital como proyecto PETI. ¿Qué aspecto del MRAE debe fortalecer el análisis?",
+      "opciones": [
+        "a) Dominio de Aplicaciones, argumentando integración, funcionalidad y soporte del nuevo software.",
+        "b) Dominio Tecnológico, destacando infraestructura.",
+        "c) Dominio de Seguridad, enfocando protección de datos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Justificar nuevas aplicaciones requiere centrarse en el valor de integración y funcionalidad según el dominio de Aplicaciones en el MRAE."
+    },
+    {
+      "codigo": "PETI-14",
+      "pregunta": "Un proyecto PETI muestra elevados avances en gasto y entregables pero no hay reporte de capacitación a usuarios. ¿Cómo debe abordarse en el ciclo de vida PETI?",
+      "opciones": [
+        "a) Identificar la brecha, ajustar el proyecto e incluir capacitación activa en la implementación y en los indicadores de cierre.",
+        "b) Finalizar el proyecto y capacitar cuando haya recursos.",
+        "c) Considerar la capacitación solo como recomendación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La apropiación y el uso efectivo requieren acompañamiento y capacitación como parte obligatoria de cualquier proyecto PETI serio."
+    },
+    {
+      "codigo": "PETI-15",
+      "pregunta": "En el monitoreo del PETI, algunos responsables actualizan manualmente los reportes de avance, sin respaldo en indicadores técnicos. ¿Qué riesgo institucional se presenta?",
+      "opciones": [
+        "a) Débil trazabilidad, posible manipulación de datos y observaciones en control interno y externo.",
+        "b) Agilidad en reporte aunque los datos sean menos exactos.",
+        "c) Menos carga administrativa por reducir documentación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La validez de los reportes depende de datos verificados y trazabilidad; reportes manuales sin soporte facilitan equivocaciones y observaciones en auditoría."
+    },
+
+{
+      "codigo": "PETI-16",
+      "pregunta": "Ante un cambio radical en normatividad nacional (MinTIC/Decreto), el PETI vigente queda desalineado en varios componentes estratégicos. ¿Cómo debe proceder la entidad?",
+      "opciones": [
+        "a) Revisar y ajustar formalmente el PETI con participación del Comité de Gobierno TI, documentando la alineación al nuevo marco.",
+        "b) Continuar con la ejecución previa hasta la finalización anual.",
+        "c) Adaptar solo los proyectos futuros sin intervenir sobre el PETI aprobado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La actualización de normativa justifica revisión y ajuste formal, garantizando congruencia, trazabilidad y control."
+    },
+    {
+      "codigo": "PETI-17",
+      "pregunta": "El dashboard PETI muestra cumplimiento físico y financiero óptimo del portafolio, pero indicadores de satisfacción de usuario son bajos. ¿Qué acción priorizar?",
+      "opciones": [
+        "a) Analizar la brecha y redirigir esfuerzos a mejora en valor percibido y satisfacción.",
+        "b) Proseguir el plan esperando que la percepción mejore con el tiempo.",
+        "c) Reorientar indicadores para adaptarse a los resultados operativos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión PETI debe centrarse en el valor público, revisando los aportes reales y la percepción del usuario final."
+    },
+    {
+      "codigo": "PETI-18",
+      "pregunta": "Una nueva iniciativa digital surge fuera del PETI y es impulsada por directivos sin consultarlo al área de TI ni incluirlo en la planeación. ¿Cómo abordar la situación?",
+      "opciones": [
+        "a) Solicitar su formalización y evaluación dentro del ciclo PETI-MIPG, con la debida justificación.",
+        "b) Ejecutar directamente por autonomía directiva.",
+        "c) Incorporar post-facto en el reporte anual como resultado adicional."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda iniciativa TIC debe ser gestionada en el ciclo formal, garantizando alineación, aprobación y trazabilidad."
+    },
+    {
+      "codigo": "PETI-19",
+      "pregunta": "En la implementación de un gran sistema académico, las áreas técnicas priorizan la entrega de módulos físicos sobre la documentación de interoperabilidad exigida por el MRAE. ¿Qué debe decidir el auditor?",
+      "opciones": [
+        "a) Exigir cumplimiento documental y funcional de interoperabilidad como requisito previo a la recepción total.",
+        "b) Recibir los módulos y esperar documentación a futuro.",
+        "c) Aceptar parcialmente la integración y registrar la observación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El cumplimiento MRAE obliga a garantizar interoperabilidad antes de finalizar la entrega; la omisión es riesgo grave institucional."
+    },
+    {
+      "codigo": "PETI-20",
+      "pregunta": "El portafolio PETI incluye proyectos con dependencias externas (otras entidades). Una dependencia no cumple los tiempos y afecta el resultado global. ¿Cómo gestiona el monitoreo?",
+      "opciones": [
+        "a) Reportar formalmente el riesgo y documentar instancias y acciones tomadas, solicitando intervención estratégica.",
+        "b) Ajustar el cronograma interno sin notificar.",
+        "c) Omitir reportar y esperar que la dependencia se solucione sola."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión efectiva exige monitoreo transparente, intervención y soporte documental ante riesgos ajenos."
+    },
+    {
+      "codigo": "PETI-21",
+      "pregunta": "Se evidencia que los indicadores PETI están siendo modificados para coincidir con resultados, no con objetivos estratégicos. ¿Cuál es la mejor práctica?",
+      "opciones": [
+        "a) Revisar y validar indicadores conforme a estrategia, evitando acomodar resultados por conveniencia.",
+        "b) Ajustar indicadores solo después de ver avances operativos.",
+        "c) Permitir adecuaciones contextuales según desempeño."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La integridad de los indicadores es clave para la gestión de resultados y debe soportar la toma de decisiones estratégicas reales."
+    },
+    {
+      "codigo": "PETI-22",
+      "pregunta": "Un análisis de brecha identifica carencias en competencias TIC, pero el presupuesto de formación es insuficiente. ¿Qué informar en el reporte PETI?",
+      "opciones": [
+        "a) Explicitar la brecha y registrar el riesgo, proponiendo alternativas o solicitudes de refuerzo.",
+        "b) Excluir la brecha hasta recibir presupuesto.",
+        "c) Redistribuir recursos de manera informal para cubrir la formación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La gestión transparente exige reportar brechas y proponer acciones, sin ocultar o improvisar soluciones fuera del marco legal."
+    },
+    {
+      "codigo": "PETI-23",
+      "pregunta": "El área financiera propone invertir en renovación de hardware usando saldo de fondos asignados a proyectos de software en el PETI. ¿Qué acción tomar?",
+      "opciones": [
+        "a) Validar la pertinencia y ajustar el portafolio PETI con aprobación formal del Comité de Gobierno TI.",
+        "b) Transferir los recursos directamente para aprovechar excedentes.",
+        "c) Solicitar autorización posterior con informe."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "Toda reasignación debe estar formalmente documentada y aprobada por el Comité competente, evitando improvisaciones ilegales."
+    },
+    {
+      "codigo": "PETI-24",
+      "pregunta": "Durante el año, se identifica que un proyecto del PETI no se alinea a cambios recientes en el PEI. ¿Qué debe hacer el coordinador?",
+      "opciones": [
+        "a) Revaluar el aporte estratégico, adaptar o postergar el proyecto formalmente.",
+        "b) Ejecutar el proyecto como estaba planeado inicialmente.",
+        "c) Justificar la falta de alineación diciendo que el PETI fue aprobado antes."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El PETI debe mantener alineación dinámica con el PEI y responder a cambios relevantes para asegurar relevancia estratégica."
+    },
+    {
+      "codigo": "PETI-25",
+      "pregunta": "Un informe PETI muestra avance óptimo en proyectos de infraestructura, pero no se han realizado pruebas de impacto sobre usuarios y servicios. ¿Cómo abordar este déficit?",
+      "opciones": [
+        "a) Programar e incluir pruebas e indicadores de impacto como condición para cierre real del proyecto.",
+        "b) Cerrar el proyecto y evaluar beneficios a futuro.",
+        "c) Reportar únicamente los avances físicos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El enfoque actual en MIPG y PETI prioriza el logro de resultados efectivos en usuarios, no solo en ejecución técnica."
+    },
+    {
+      "codigo": "PETI-26",
+      "pregunta": "El Comité de Gobierno TI solicita que el portafolio PETI contemple proyectos de transformación institucional. ¿Qué debe considerarse especialmente?",
+      "opciones": [
+        "a) Evaluar integración con estrategias, recursos y capacidades institucionales existentes y ajustes normativos.",
+        "b) Incluir sólo proyectos de renovación tecnológica.",
+        "c) Priorizar cantidad de proyectos sobre calidad y alineación."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La transformación institucional implica visión integral y armonización estratégica y normativa, no sólo técnica."
+    },
+    {
+      "codigo": "PETI-27",
+      "pregunta": "El Dashboard PETI utiliza semáforos en verde por cumplimiento de tareas, pero se ha detectado que los datos originales están desactualizados. ¿Cómo actuar como auditor?",
+      "opciones": [
+        "a) Exigir validación y actualización de la fuente de datos antes de dar por válido el avance reportado.",
+        "b) Confiar en los semáforos para decisiones.",
+        "c) Dejar constancia solo si la diferencia es significativa."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El monitoreo efectivo requiere datos fidedignos y verificados; lo contrario desvirtúa la gestión."
+    },
+    {
+      "codigo": "PETI-28",
+      "pregunta": "En el análisis de beneficios PETI, el Comité pide incluir indicadores de valor público más allá del cumplimiento técnico de proyectos. ¿Cómo responder?",
+      "opciones": [
+        "a) Incorporar indicadores de percepción, satisfacción y resultados sociales/económicos.",
+        "b) Defender la suficiencia técnica y el cumplimiento contractual.",
+        "c) Presentar solo índices de gasto ejecutado."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El enfoque moderno de PETI y planeación exige demostrar impacto y valor público, además de ejecución."
+    },
+    {
+      "codigo": "PETI-29",
+      "pregunta": "Un proyecto PETI requiere coordinación con áreas académica, financiera y jurídica, pero solo TI lidera el proceso. ¿Qué adviertes como auditor?",
+      "opciones": [
+        "a) Falta de articulación interáreas pone en riesgo resultados y sostenibilidad.",
+        "b) Favorece la ejecución ágil.",
+        "c) Reduce los riesgos por excesiva consulta."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "El éxito del PETI está en la articulación y participación de todas las funciones relevantes para lograr efectividad y apropiación."
+    },
+    {
+      "codigo": "PETI-30",
+      "pregunta": "En el cierre anual del PETI, queda saldo sin ejecutar por retrasos de algunos proyectos. ¿Cuál es la postura correcta?",
+      "opciones": [
+        "a) Reportar claramente el saldo, documentar causas y proponer mejoras en planeación futura.",
+        "b) Reubicar el saldo en otros proyectos sin autorización.",
+        "c) Omitir el reporte para no evidenciar rezagos."
+      ],
+      "respuesta_correcta": "a",
+      "explicacion": "La transparencia y mejora continua exigen reportar saldos y aprender de ellos para optimizar la planeación futura."
+    }
+
+
+
+    ]
+}
