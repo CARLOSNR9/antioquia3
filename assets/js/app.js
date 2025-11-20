@@ -135,8 +135,9 @@ function iniciarSimulacro() {
     } else if (rutaActual.includes('razonamiento-analitico.html')) {
         archivoJSON = '../data/razonamiento-analitico.json';
     } else if (rutaActual.includes('gestion-proyectos-ti.html')) { 
-        // Nuevo bloque para el tema de Proyectos TI
         archivoJSON = '../data/gestion-proyectos-ti.json';
+    } else if (rutaActual.includes('gobierno-ti.html')) { 
+        archivoJSON = '../data/gobierno-ti.json';
     } else {
         // Por defecto o para pruebas, carga el primero si no coincide ninguno
         archivoJSON = '../data/gestion-publica-territorial.json';

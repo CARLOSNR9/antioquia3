@@ -1,0 +1,1118 @@
+{
+    "preguntas": [
+        {
+            "codigo": "GOB-01",
+            "pregunta": "Según el marco COBIT y las buenas prácticas adoptadas por MinTIC, ¿cuál es la principal diferencia entre Gobierno y Gestión de TI?",
+            "opciones": [
+                "a) El Gobierno planifica y ejecuta, mientras que la Gestión evalúa y dirige.",
+                "b) El Gobierno evalúa, dirige y monitorea, mientras que la Gestión planifica, construye, ejecuta y monitorea.",
+                "c) El Gobierno se encarga del hardware y la Gestión del software."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gobierno es responsabilidad de la Alta Dirección (Estratégico), Gestión es responsabilidad del Líder TI (Operativo/Táctico)."
+        },
+        {
+            "codigo": "GOB-02",
+            "pregunta": "En el Marco de Referencia de Arquitectura Empresarial (MRAE) del Estado Colombiano, ¿cuál es el dominio encargado de definir los lineamientos para la adopción y gestión del cambio cultural?",
+            "opciones": [
+                "a) Dominio de Sistemas de Información.",
+                "b) Dominio de Uso y Apropiación.",
+                "c) Dominio de Estrategia TI."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El dominio de Uso y Apropiación se centra en asegurar que la tecnología implementada sea realmente utilizada y genere valor a través del cambio cultural y la capacitación."
+        },
+        {
+            "codigo": "GOB-03",
+            "pregunta": "Usted como Profesional Especializado elabora el PETI. ¿Quién es el responsable formal de aprobarlo para asegurar la alineación estratégica?",
+            "opciones": [
+                "a) Usted mismo, ya que es el experto técnico.",
+                "b) El proveedor de tecnología principal.",
+                "c) El Comité Institucional de Gestión y Desempeño (o Comité de Gobierno TI)."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Las decisiones estratégicas y la aprobación de planes institucionales (como el PETI) recaen en el cuerpo de Gobierno (Comité), no en la gestión (Líder TI)."
+        },
+        {
+            "codigo": "GOB-04",
+            "pregunta": "Uno de los objetivos del Gobierno TI es la 'Optimización de Recursos'. ¿Esto qué significa en el contexto público?",
+            "opciones": [
+                "a) Comprar siempre la tecnología más barata disponible en el mercado.",
+                "b) Asegurar que se dispone de las capacidades adecuadas (personas, aplicaciones, infraestructura) al coste óptimo para entregar valor.",
+                "c) No invertir en tecnología para ahorrar presupuesto."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Optimizar no es gastar cero ni comprar lo peor. Es el equilibrio costo-beneficio que asegura la entrega de valor con el uso eficiente de los recursos públicos."
+        },
+        {
+            "codigo": "GOB-05",
+            "pregunta": "Si existe un conflicto entre una necesidad operativa urgente y una política de seguridad definida por el Gobierno TI, ¿qué debe primar según las buenas prácticas?",
+            "opciones": [
+                "a) La necesidad operativa, porque el negocio no puede parar.",
+                "b) La política de Gobierno TI, a menos que el Comité autorice formalmente una excepción aceptando el riesgo.",
+                "c) Lo que decida el proveedor de soporte."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Gobierno establece las reglas del juego. Si se violan por operación, se pierde el control. Las excepciones deben ser decisiones de Gobierno (aceptación de riesgo), no de Gestión."
+        },
+
+
+        {
+            "codigo": "GOB-001",
+            "pregunta": "Según el marco COBIT y las buenas prácticas adoptadas por MinTIC, ¿cuál es la principal diferencia entre Gobierno y Gestión de TI?",
+            "opciones": [
+                "a) El Gobierno planifica y ejecuta, mientras que la Gestión evalúa y dirige.",
+                "b) El Gobierno evalúa, dirige y monitorea, mientras que la Gestión planifica, construye, ejecuta y monitorea.",
+                "c) El Gobierno se encarga del hardware y la Gestión del software."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gobierno es responsabilidad de la Alta Dirección (Estratégico), Gestión es responsabilidad del Líder TI (Operativo/Táctico)."
+        },
+        {
+            "codigo": "GOB-002",
+            "pregunta": "En el Marco de Referencia de Arquitectura Empresarial (MRAE) del Estado Colombiano, ¿cuál es el dominio encargado de definir los lineamientos para la adopción y gestión del cambio cultural?",
+            "opciones": [
+                "a) Dominio de Sistemas de Información.",
+                "b) Dominio de Uso y Apropiación.",
+                "c) Dominio de Estrategia TI."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El dominio de Uso y Apropiación se centra en asegurar que la tecnología implementada sea realmente utilizada y genere valor a través del cambio cultural y la capacitación."
+        },
+        {
+            "codigo": "GOB-003",
+            "pregunta": "Usted como Profesional Especializado elabora el PETI. ¿Quién es el responsable formal de aprobarlo para asegurar la alineación estratégica?",
+            "opciones": [
+                "a) Usted mismo, ya que es el experto técnico.",
+                "b) El proveedor de tecnología principal.",
+                "c) El Comité Institucional de Gestión y Desempeño (o Comité de Gobierno TI)."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Las decisiones estratégicas y la aprobación de planes institucionales (como el PETI) recaen en el cuerpo de Gobierno (Comité), no en la gestión (Líder TI)."
+        },
+        {
+            "codigo": "GOB-004",
+            "pregunta": "Uno de los objetivos del Gobierno TI es la 'Optimización de Recursos'. ¿Esto qué significa en el contexto público?",
+            "opciones": [
+                "a) Comprar siempre la tecnología más barata disponible en el mercado.",
+                "b) Asegurar que se dispone de las capacidades adecuadas (personas, aplicaciones, infraestructura) al coste óptimo para entregar valor.",
+                "c) No invertir en tecnología para ahorrar presupuesto."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Optimizar no es gastar cero ni comprar lo peor. Es el equilibrio costo-beneficio que asegura la entrega de valor con el uso eficiente de los recursos públicos."
+        },
+        {
+            "codigo": "GOB-005",
+            "pregunta": "Si existe un conflicto entre una necesidad operativa urgente y una política de seguridad definida por el Gobierno TI, ¿qué debe primar según las buenas prácticas?",
+            "opciones": [
+                "a) La necesidad operativa, porque el negocio no puede parar.",
+                "b) La política de Gobierno TI, a menos que el Comité autorice formalmente una excepción aceptando el riesgo.",
+                "c) Lo que decida el proveedor de soporte."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Gobierno establece las reglas del juego. Si se violan por operación, se pierde el control. Las excepciones deben ser decisiones de Gobierno (aceptación de riesgo), no de Gestión."
+        },
+        {
+            "codigo": "GOB-006",
+            "pregunta": "Usted es Coordinador TI y participa en el Comité de Gobierno TI de la institución universitaria. Va a iniciarse un proceso para adquirir una plataforma de gestión académica. Usted ha trabajado antes con la marca X y tiene buena relación con ese proveedor. En la primera sesión del Comité, usted propone incluir en el acta que la solución a comprar sea de la marca X, para \"ahorrar tiempo\" en estudios previos. Un miembro del Comité le recuerda que la Política de Gobierno Digital y COBIT 2019 enfatizan la transparencia, la gestión de proveedores y la toma de decisiones basada en valor, riesgo y costo-beneficio. ¿Cuál es la actuación más adecuada?",
+            "opciones": [
+                "a) Mantener la propuesta de marcar desde el Comité la marca X como ganadora, pero dejar constancia de que usted no tendrá injerencia en la evaluación técnica, para evitar conflictos de interés.",
+                "b) Reconocer que su preferencia puede generar conflicto de interés, sugerir que se establezcan criterios objetivos de evaluación costo-beneficio y recusar su participación en la definición de requisitos si es necesario, dejando al Comité decidir sobre la marca con base en el análisis.",
+                "c) No mencionar su experiencia previa y, desde la coordinación TI, orientar los pliegos de manera que favorezcan las características específicas de la marca X, argumentando que así se asegura la calidad técnica de la solución."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT 2019 (EDM05, APO10) y los lineamientos de Gobierno Digital exigen decisiones transparentes, basadas en análisis objetivo de valor, costo y riesgo, y una gestión adecuada de proveedores. La opción b) refleja un comportamiento alineado con estas prácticas: reconoce el posible conflicto de interés, promueve criterios objetivos y, si es necesario, se aparta de la decisión de selección. La opción a) mantiene una decisión sesgada en acta, aún con una supuesta neutralidad posterior. La opción c) simula neutralidad, pero en realidad direcciona el proceso, vulnerando transparencia y selección objetiva."
+        },
+        {
+            "codigo": "GOB-007",
+            "pregunta": "El Comité de Gobierno TI revisa el PETI propuesto por su equipo. Uno de los proyectos más costosos es una solución de analítica avanzada de datos de investigación que no aparece en el Plan de Desarrollo ni en el Plan Estratégico Institucional, aunque sí tiene valor técnico. El Rector le pregunta si puede aprobarse el proyecto igual, para aprovechar una oportunidad de cofinanciación externa. Desde la perspectiva de alineación estratégica (COBIT 2019 EDM01 y políticas MinTIC), ¿qué debería recomendar usted al Comité?",
+            "opciones": [
+                "a) Recomendar aprobar el proyecto, señalando que la oportunidad de cofinanciación justifica incluir iniciativas aunque no estén alineadas explícitamente con el Plan de Desarrollo, siempre que haya beneficio reputacional.",
+                "b) Indicar que el proyecto, por su peso presupuestal, debe estar alineado explícitamente con objetivos y metas institucionales; proponer ajustar el PETI y, si el proyecto se considera prioritario, gestionar la incorporación de la iniciativa en los instrumentos de planeación estratégica antes de su aprobación definitiva.",
+                "c) Sugerir que el proyecto se apruebe como un piloto a pequeña escala dentro del PETI, sin necesidad de vincularlo a metas del Plan de Desarrollo, y luego se decidirá si se formaliza."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT 2019 enfatiza que el valor de TI debe estar alineado con la estrategia (EDM01, APO02). La política de Gobierno Digital y la planeación pública requieren coherencia entre proyectos de inversión TI, PETI y Plan de Desarrollo. La opción b) responde a esa necesidad: no descarta el proyecto, pero condiciona su aprobación a la alineación con los instrumentos estratégicos. La opción a) prioriza oportunidades coyunturales sobre la alineación. La opción c) introduce el proyecto por la puerta de atrás, sin la debida integración con la planeación institucional."
+        },
+        {
+            "codigo": "GOB-008",
+            "pregunta": "En una sesión de revisión de riesgos TI, usted presenta al Comité un análisis donde se evidencia una alta probabilidad de incidentes de ciberseguridad por falta de controles en los sistemas expuestos a internet. El proyecto de fortalecimiento de seguridad no fue aprobado por falta de presupuesto. El Comité, luego de discutirlo, decide documentar que el riesgo será aceptado sin implementar el proyecto en la vigencia actual. Según un enfoque de gestión de riesgos alineado con COBIT 2019 (EDM03, APO12), ¿cuál de las siguientes afirmaciones describe mejor lo que ocurre con la responsabilidad del riesgo?",
+            "opciones": [
+                "a) La aceptación del riesgo traslada la responsabilidad completamente al proveedor de servicios TI, siempre que el Comité deje constancia en acta de que no hay presupuesto interno disponible.",
+                "b) La aceptación del riesgo por parte del Comité implica que la alta dirección asume conscientemente las posibles consecuencias; su rol como Coordinador TI es asegurar que la decisión esté debidamente documentada, comunicar los posibles impactos y seguir monitoreando el riesgo.",
+                "c) La aceptación del riesgo lo traslada automáticamente a la oficina de seguridad de la información, liberando a la alta dirección y al Comité de responsabilidad directa por futuros incidentes."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "En COBIT 2019, la alta dirección y el órgano de gobierno son responsables de decisiones sobre aceptación, mitigación o transferencia de riesgos (EDM03). Cuando el Comité decide aceptar un riesgo, la responsabilidad no desaparece: se asumen conscientemente sus posibles consecuencias. La opción b) describe correctamente este escenario y reconoce el rol del Coordinador TI como gestor y asesor, no como dueño último de la decisión. Las opciones a) y c) intentan trasladar la responsabilidad a terceros sin base en la gobernanza formal."
+        },
+        {
+            "codigo": "GOB-009",
+            "pregunta": "Como Coordinador TI, usted observa que las decisiones sobre priorización de proyectos TI en el Comité se están tomando sin análisis comparativo de beneficios, riesgos y costos. La agenda se centra en \"quién insiste más\". Desde la perspectiva de COBIT 2019 y del Gobierno Digital, usted propone implantar un mecanismo formal de evaluación y priorización de iniciativas TI. ¿Cuál de las siguientes acciones es más coherente con un buen Gobierno TI?",
+            "opciones": [
+                "a) Diseñar un modelo de priorización basado en criterios como impacto en el Plan de Desarrollo, riesgos, beneficios y capacidad institucional, presentarlo al Comité para su aprobación y aplicarlo a todos los proyectos TI nuevos y en curso.",
+                "b) Elaborar un ranking informal de proyectos según su criterio técnico y compartirlo individualmente con el Rector, para que él influya en el Comité y se prioricen las iniciativas que usted considera más relevantes.",
+                "c) Resignarse a la dinámica actual del Comité, concentrándose solo en ejecutar bien los proyectos que se aprueben, ya que la priorización es competencia de la alta dirección y no debe ser cuestionada."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "COBIT 2019 y las buenas prácticas de Gobierno TI promueven mecanismos formales, transparentes y basados en criterios objetivos para priorizar inversiones TI (APO05, EDM02). La opción a) diseña y somete a aprobación un modelo de priorización que fortalece el rol del Comité y permite decisiones basadas en valor y riesgo. La opción b) personaliza la influencia y reproduce decisiones discrecionales. La opción c) ignora la responsabilidad del Coordinador TI como asesor del gobierno y como facilitador de mejores prácticas."
+        },
+        {
+            "codigo": "GOB-010",
+            "pregunta": "En la universidad, se ha definido un Modelo de Arquitectura Empresarial que incluye, entre otros, un Mapa de Aplicaciones, un Modelo de Datos Institucional y un Catálogo de Servicios TI. Una facultad acude directamente a usted para adquirir un software especializado de terceros, sin informar al Comité ni revisar la arquitectura actual. Desde la óptica del MRAE y COBIT (APO03, BAI02), ¿cuál es la mejor respuesta?",
+            "opciones": [
+                "a) Orientar a la facultad para que contrate directamente el software, siempre que el costo sea bajo, y luego ajustar el Mapa de Aplicaciones para incluirlo retroactivamente.",
+                "b) Indicar que cualquier incorporación de nuevos sistemas debe revisarse frente al Mapa de Aplicaciones y el Modelo de Datos, y que la adquisición debe pasar por el proceso de Gobierno TI y arquitectura, evaluando solapamientos, integraciones y alineación con el PETI.",
+                "c) Recomendar que la facultad contrate el software como una solución aislada (stand-alone) sin integración, para no complicar el Mapa de Aplicaciones existente."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El MRAE establece que las decisiones sobre Sistemas de Información e Información deben ser coherentes con el modelo institucional. COBIT 2019 (APO03, BAI02) enfatiza la gestión de la arquitectura de TI y de las soluciones. La opción b) refleja el rol del Coordinador TI articulando solicitudes con el Mapa de Aplicaciones y el PETI y sometiéndolas al proceso de Gobierno TI. Las opciones a) y c) fomentan la proliferación de islas tecnológicas y decisiones aisladas, contrarias a la arquitectura empresarial."
+        },
+
+        {
+            "codigo": "GOB-011",
+            "pregunta": "La institución ha definido, conforme al MRAE, un Catálogo de Servicios Tecnológicos con ANS asociados (correo, conectividad, sistemas académicos, soporte). En una reunión, un vicerrector exige que se atienda \"con prioridad absoluta\" el soporte de su oficina, incluso por encima de incidentes que afectan a estudiantes. Usted conoce que el catálogo prioriza incidentes según impacto y criticidad, no según el cargo del usuario. ¿Qué decisión está mejor alineada con Gobierno TI y buenas prácticas de COBIT (APO09, DSS02)?",
+            "opciones": [
+                "a) Modificar de facto la prioridad del catálogo para que las solicitudes del vicerrector se atiendan primero, siempre que no se cambie el documento oficial, para evitar conflictos políticos.",
+                "b) Explicar que la priorización se basa en impacto y criticidad definidos en el Catálogo de Servicios y el Gobierno TI, proponer que cualquier cambio en criterios de priorización se discuta y, si se aprueba, se formalice en el Comité correspondiente.",
+                "c) Mantener oficialmente el catálogo como está, pero instruir informalmente a la mesa de ayuda para atender primero al vicerrector, siempre que el resto de indicadores de servicio se mantenga aceptable."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Catálogo de Servicios y las políticas de priorización deben ser coherentes, transparentes y aprobados por la instancia de gobierno correspondiente. COBIT (APO09, DSS02) promueve acuerdos claros de servicio y tratamiento equitativo según impacto, no jerarquía informal. La opción b) defiende esos criterios y canaliza cambios a través del gobierno. Las opciones a) y c) introducen privilegios informales que vulneran principios de equidad y transparencia."
+        },
+        {
+            "codigo": "GOB-012",
+            "pregunta": "El PETI incluye un proyecto para implementar un sistema de gestión de PQRSFD digital. Sin embargo, en el Plan de Desarrollo se estableció como meta prioritaria el fortalecimiento de la gestión académica y de la permanencia estudiantil, sin mencionar específicamente PQRSFD. El Comité de Gobierno TI duda si priorizar este proyecto frente a otro de mejora del sistema académico directamente relacionado con la permanencia. ¿Cómo debería orientar usted al Comité, desde la perspectiva de alineación y valor público?",
+            "opciones": [
+                "a) Recomendar priorizar el sistema de PQRSFD porque responde a obligaciones de transparencia y puede mostrar resultados rápidos, aun si el Plan de Desarrollo prioriza otros temas.",
+                "b) Proponer aplicar criterios de alineación con el Plan de Desarrollo, impacto en el valor público y capacidades, y señalar que el proyecto de mejora del sistema académico tiene una relación más directa con las metas de permanencia, pudiendo reprogramar el de PQRSFD si no hay recursos suficientes.",
+                "c) Sugerir que ambos proyectos se inicien simultáneamente, distribuyendo los recursos de manera provisional sin un análisis detallado, para evitar que algún área se sienta relegada."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La alineación estratégica en Gobierno TI implica priorizar proyectos que contribuyan más directamente a las metas del Plan de Desarrollo y al valor público. La opción b) aplica criterios de alineación y valor, reconociendo que el sistema académico impacta directamente la permanencia. El proyecto de PQRSFD sigue siendo importante, pero podría reprogramarse. La opción a) prioriza visibilidad rápida sobre coherencia con el plan. La opción c) evita decidir, diluyendo recursos sin priorización fundada."
+        },
+        {
+            "codigo": "GOB-013",
+            "pregunta": "En un ejercicio de gestión de riesgos TI, se identifica que la infraestructura de respaldo del data center no soportaría un corte prolongado de energía. El Comité de Gobierno TI decide posponer la inversión en UPS y planta eléctrica, dejando el riesgo registrado pero sin plan de mitigación por esta vigencia. Tiempo después ocurre un apagón prolongado que interrumpe servicios críticos. La Contraloría solicita explicaciones. ¿Cuál es la narrativa más adecuada, desde la lógica de Gobierno TI y COBIT, sobre la responsabilidad?",
+            "opciones": [
+                "a) Señalar que la responsabilidad técnica es únicamente del Coordinador TI por no haber evitado el incidente, dado que él conocía el riesgo.",
+                "b) Explicar que el riesgo fue identificado y presentado al Comité, que la decisión de diferir la mitigación fue tomada y registrada por la alta dirección, y que la responsabilidad por la aceptación del riesgo recae en la instancia de gobierno que tomó la decisión, sin eximir al área TI de su deber de asesorar y reportar.",
+                "c) Indicar que la responsabilidad corresponde exclusivamente al proveedor de energía, porque el corte es un evento externo y no se puede vincular a decisiones internas de gestión de riesgos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT 2019 establece que el órgano de gobierno es responsable de las decisiones sobre tratamiento de riesgos (EDM03). El rol del Coordinador TI es identificar, analizar y presentar riesgos; la decisión de aceptar o diferir mitigaciones corresponde al Comité / alta dirección. La opción b) refleja esa estructura de responsabilidad. La opción a) convierte al técnico en responsable último de una decisión que no le correspondía. La opción c) ignora la relación entre un evento externo y la preparación interna para mitigarlo."
+        },
+        {
+            "codigo": "GOB-014",
+            "pregunta": "La universidad adoptó el MRAE y, dentro del Dominio de Servicios Tecnológicos, definió un Catálogo de Servicios TI con responsables, ANS y costos aproximados. Una nueva vicerrectoría solicita la creación de varios servicios específicos (laboratorios virtuales, entornos de prueba en la nube) que no están documentados. Usted sabe que técnicamente es posible configurarlos, pero no están incluidos en el catálogo ni en el presupuesto vigente. ¿Cuál es la mejor forma de proceder?",
+            "opciones": [
+                "a) Crear los servicios solicitados de manera informal, usando infraestructura existente, y actualizarlos en el Catálogo de Servicios cuando se revise el documento el próximo año.",
+                "b) Analizar la capacidad de infraestructura y costos, proponer la inclusión de los nuevos servicios en el Catálogo de Servicios y en el PETI, y elevar la solicitud al Comité de Gobierno TI para su evaluación y priorización.",
+                "c) Indicar a la vicerrectoría que los servicios no son posibles hasta que MinTIC actualice el MRAE, ya que no están previstos explícitamente en el dominio de Servicios Tecnológicos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Catálogo de Servicios TI es una herramienta viva del Dominio de Servicios Tecnológicos. La opción b) se ajusta al MRAE: evalúa factibilidad, integra la solicitud con el PETI y somete la decisión al Gobierno TI. La opción a) crea servicios de facto sin registro ni evaluación de impacto. La opción c) malinterpreta el MRAE como lista cerrada de servicios, cuando en realidad provee lineamientos, no un inventario exhaustivo."
+        },
+        {
+            "codigo": "GOB-015",
+            "pregunta": "En el Dominio de Información del MRAE, se definió un diccionario de datos institucional y se declaró que el sistema académico es la fuente oficial de información de estudiantes. La Oficina de Planeación, sin acudir al Comité, empieza a construir reportes estratégicos usando bases de datos paralelas que consolidan información manual de diferentes facultades. Los resultados difieren de los del sistema académico. Como Coordinador TI, ¿qué acción está más alineada con Gobierno TI y Gestión de la Información?",
+            "opciones": [
+                "a) Aceptar que Planeación construya sus propios repositorios, ya que su función es estratégica y puede manejar información independientemente de los sistemas operativos.",
+                "b) Plantear la situación en el Comité de Gobierno TI, recordando que el Diccionario de Datos y la definición de fuentes oficiales deben respetarse, y proponer un marco de gobierno de datos que obligue a usar la fuente institucional para indicadores oficiales.",
+                "c) Permitir que los dos esquemas coexistan, pero recomendar informalmente a Planeación que trate de acercarse lo más posible a la información del sistema académico cuando genere reportes para entes externos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Dominio de Información del MRAE y COBIT (APO14, BAI08) promueven la gestión centralizada de datos maestros y la definición de fuentes oficiales. La opción b) refuerza estos principios vía el Comité de Gobierno TI, proponiendo un marco de gobierno de datos que evite repositorios paralelos contradictorios. La opción a) legitima prácticas dispersas que deterioran la integridad de la información. La opción c) tolera la duplicidad y la incoherencia, delegando a acuerdos informales la consistencia de los datos."
+        },
+        {
+            "codigo": "GOB-016",
+            "pregunta": "Como parte del Dominio de Uso y Apropiación del MRAE, se diseñó un plan de formación en competencias digitales y uso de nuevos sistemas para docentes y administrativos. Por dificultades de agenda, varias dependencias proponen que se omita la fase de capacitación y que \"aprendan en la marcha\". El Rector pregunta si, para no retrasar la entrada en producción, es viable hacerlo así. Desde el enfoque de Gobierno TI orientado a valor y adopción, ¿qué debería recomendar?",
+            "opciones": [
+                "a) Recomendar omitir la fase de capacitación si las dependencias lo aceptan, ya que el valor del sistema se generará en la medida en que esté disponible tecnológicamente, independientemente del proceso de apropiación.",
+                "b) Señalar que la capacitación y apropiación hacen parte del valor esperado del proyecto y del Dominio de Uso y Apropiación; por tanto, proponer ajustar la programación, pero mantener las actividades de formación como condición para declarar el sistema plenamente implementado.",
+                "c) Sugerir que la capacitación se cambie por el envío de manuales por correo, permitiendo declarar cumplida la fase de apropiación sin modificar el plan original."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El MRAE reconoce explícitamente que el uso y apropiación son esenciales para que los proyectos TI generen valor público. La opción b) mantiene la capacitación como parte integral del proyecto y ajusta tiempos si es necesario. La opción a) reduce el éxito al despliegue tecnológico sin considerar adopción. La opción c) degrada el componente de apropiación a una acción simbólica, sin asegurar que los usuarios desarrollen capacidades reales."
+        },
+        {
+            "codigo": "GOB-017",
+            "pregunta": "En un comité, se discute qué instrumentos son los más adecuados para gestionar la evolución de la infraestructura de red y servidores, y para asegurar la disponibilidad de servicios TI. Algunos miembros del Comité sugieren que eso debería manejarse solo con el PETI y los proyectos. Usted, con base en el MRAE, insiste en la importancia de otro instrumento específico del Dominio de Servicios Tecnológicos. ¿Cuál instrumento menciona y cómo lo justifica?",
+            "opciones": [
+                "a) El Modelo de Datos Institucional, porque describe las relaciones entre entidades de información y permite dimensionar la capacidad de red necesaria.",
+                "b) El Catálogo de Servicios TI con sus acuerdos de nivel de servicio y los planes de capacidad asociados, porque permiten gestionar infraestructura en función de los servicios y expectativas de los usuarios.",
+                "c) El Mapa de Procesos Institucional, porque define la secuencia de actividades de soporte y permite decidir qué servidores son críticos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "En el Dominio de Servicios Tecnológicos, el Catálogo de Servicios TI y sus ANS son instrumentos clave para gestionar infraestructura, capacidad y disponibilidad en función de los servicios prestados. La opción b) identifica correctamente ese instrumento y su propósito. El Modelo de Datos (a) pertenece al Dominio de Información, y el Mapa de Procesos (c) al ámbito organizacional; son útiles, pero no sustituyen el catálogo para gestionar servicios tecnológicos."
+        },
+        {
+            "codigo": "GOB-018",
+            "pregunta": "El Comité de Gobierno TI está evaluando un proyecto para tercerizar parte de la operación de soporte TI. Usted sabe que COBIT enfatiza la gestión de proveedores (APO10) y los acuerdos de servicio claros. Un miembro del Comité sugiere aprobar el proyecto indicando en el acta que \"los detalles del servicio se acordarán después directamente entre el Coordinador TI y el proveedor\". ¿Cuál es la postura más adecuada que debería asumir?",
+            "opciones": [
+                "a) Aceptar la propuesta, ya que los detalles técnicos son complejos y es mejor que los maneje directamente el Coordinador TI con el proveedor, sin involucrar al Comité en definiciones específicas.",
+                "b) Indicar que, si bien los detalles técnicos pueden afinarse en la gestión, los compromisos básicos de servicio, niveles de servicio, riesgos y mecanismos de monitoreo deben quedar definidos y aprobados por el Comité como parte de la decisión de gobierno.",
+                "c) Proponer que el proyecto se apruebe solo con un lineamiento general de tercerización, dejando que el proveedor proponga libremente qué servicios prestará y bajo qué condiciones."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT (APO10, EDM02) establece que el órgano de gobierno debe asegurar que las relaciones con proveedores se manejan para optimizar valor, riesgo y recursos. Eso incluye definir y aprobar los criterios básicos de servicio y control. La opción b) respeta esas responsabilidades; el detalle técnico puede delegarse, pero no los compromisos esenciales. Las opciones a) y c) dejan a la gestión operativa o al proveedor definir unilateralmente condiciones críticas sin supervisión de gobierno."
+        },
+        {
+            "codigo": "GOB-019",
+            "pregunta": "La entidad está actualizando su PETI y usted propone incorporar un proyecto de consolidación de datos maestros institucionales. Algunos miembros del Comité señalan que ya hay iniciativas de bases de datos en varias dependencias y que no es necesario centralizar. Desde COBIT (APO14, BAI08) y el MRAE, usted argumenta que el Gobierno TI debe decidir sobre el modelo de datos institucional. ¿Cuál de las siguientes decisiones del Comité estaría más alineada con esas buenas prácticas?",
+            "opciones": [
+                "a) Mantener las múltiples bases de datos independientes en cada dependencia para respetar su autonomía, dejando que cada una implemente sus propias reglas de calidad de datos.",
+                "b) Aprobar una iniciativa de consolidación de datos maestros institucionales con definición de dominios (estudiantes, docentes, programas), fuentes oficiales y reglas de calidad, articulada con el Modelo de Datos del MRAE.",
+                "c) Decidir que, en adelante, todas las solicitudes de datos se tramiten únicamente a través de la Oficina de Planeación, sin modificar los sistemas que hoy almacenan la información."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT y el MRAE promueven la gestión de datos maestros y la existencia de fuentes oficiales de información. La opción b) consolida esa visión mediante un proyecto institucional alineado al Dominio de Información. La opción a) perpetúa la fragmentación y la inconsistencia. La opción c) centraliza solicitudes sin resolver la raíz del problema: la dispersión y la falta de gobierno de datos."
+        },
+        {
+            "codigo": "GOB-020",
+            "pregunta": "El Comité de Gobierno TI recibe un informe que muestra un incremento en incidentes de indisponibilidad del sistema académico durante las matrículas. El Coordinador TI presenta indicadores detallados de CPU, memoria, tickets de soporte y tiempos de respuesta. El Rector pide un indicador que le permita ver si la tecnología realmente está mejorando la experiencia del estudiante, tal como exige la Política de Gobierno Digital enfocada en valor público. ¿Cuál sería la mejor respuesta?",
+            "opciones": [
+                "a) Indicar que los únicos indicadores relevantes para TI son los técnicos (CPU, memoria, tickets) y que los indicadores de experiencia de usuario deben ser responsabilidad exclusiva del área académica.",
+                "b) Proponer complementar los indicadores técnicos con indicadores de impacto, como tiempo promedio que tarda un estudiante en completar su matrícula en línea, porcentaje de estudiantes que logran matricularse sin asistir presencialmente y nivel de satisfacción con el proceso digital.",
+                "c) Sugerir que el valor público se infiera únicamente a partir de la disponibilidad del sistema, ya que si el sistema está arriba, se supone que el estudiante está satisfecho."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La Política de Gobierno Digital y COBIT (EDM01, APO02) señalan que el valor de TI debe medirse en términos de impacto en los servicios y en los grupos de interés, no solo mediante métricas técnicas internas. La opción b) integra indicadores de impacto (tiempo de trámite, virtualización del trámite, satisfacción) que hablan del valor para el estudiante. La opción a) desliga indebidamente la responsabilidad de TI sobre el valor entregado. La opción c) asume que disponibilidad equivale a satisfacción, lo cual no siempre es cierto."
+        },
+
+{
+            "codigo": "GOB-021",
+            "pregunta": "Durante una reunión del Comité de Gobierno TI, el Rector le pide su concepto sobre adquirir directamente, por contratación directa, una solución de gestión de aulas virtuales de la marca con la que usted trabajaba antes de ingresar a la institución. Usted conoce bien el producto, pero también sabe que hay otras alternativas en el mercado y que la Política de Gobierno Digital exige decisiones basadas en valor y transparencia. ¿Cuál es la actuación más adecuada como Coordinador TI?",
+            "opciones": [
+                "a) Recomendar la adquisición inmediata de la solución que usted conoce, enfatizando su experiencia previa como garantía de calidad, sin sugerir evaluación de otras alternativas para no retrasar el proyecto.",
+                "b) Informar al Comité sobre su experiencia previa con esa marca y sugerir realizar un análisis comparativo objetivo (técnico, costo-beneficio, riesgos) entre varias soluciones, incluso considerando su posible recusación en la etapa de evaluación si se estima que existe conflicto de interés.",
+                "c) Guardar silencio sobre su relación previa con el proveedor, pero orientar la elaboración de los pliegos de forma que las especificaciones coincidan con las características de la solución que usted conoce, para asegurar el éxito técnico del proyecto."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) está alineada con COBIT 2019 y con los principios de la Política de Gobierno Digital sobre transparencia y gestión de proveedores. Se reconoce el potencial conflicto de interés y se propone un proceso de evaluación objetivo que no cierre el mercado. Las opciones a) y c) implican direccionamiento del proceso, ya sea de forma explícita o encubierta, lo cual vulnera la selección objetiva y la confianza en el Gobierno TI."
+        },
+        {
+            "codigo": "GOB-022",
+            "pregunta": "El PETI que usted coordinó incluye un proyecto para implementar una plataforma de gestión de investigación. Durante la revisión con Planeación, le señalan que en el Plan de Desarrollo no existe ninguna meta relacionada con sistemas de investigación, pero sí con fortalecimiento del sistema académico y de permanencia. El Vicerrector de Investigación insiste en mantener el proyecto como prioridad. Desde el enfoque de alineación estratégica de Gobierno TI, ¿qué debería proponer?",
+            "opciones": [
+                "a) Mantener el proyecto de plataforma de investigación como prioridad, argumentando que cualquier sistema tecnológico mejora la capacidad institucional, aunque no esté alineado explícitamente con el Plan de Desarrollo.",
+                "b) Analizar si los objetivos del proyecto de investigación pueden articularse con metas de ciencia, tecnología e innovación del Plan de Desarrollo o del PDI; si no hay alineación suficiente, proponer reubicar el proyecto como de mediana prioridad o reformularlo para que contribuya a las metas existentes antes de su aprobación.",
+                "c) Solicitar que se modifique el Plan de Desarrollo para incluir explícitamente el proyecto de plataforma de investigación y continuar el PETI como está, sin ajustes mientras se tramita la modificación."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) aplica los principios de alineación de COBIT 2019 y del Gobierno TI, intentando vincular el proyecto con metas institucionales. Si no existe esa alineación, lo responsable es ajustar la priorización o reformular el proyecto. La opción a) ignora la necesidad de coherencia entre PETI y Plan de Desarrollo. La opción c) invierte el orden lógico: primero debe justificarse la alineación; la modificación del Plan puede ser necesaria, pero no se puede asumir sin análisis."
+        },
+        {
+            "codigo": "GOB-023",
+            "pregunta": "En una matriz de riesgos TI presentada al Comité, se identifica la ausencia de un sistema de gestión de parches de seguridad centralizado para servidores críticos. El Coordinador TI propone un proyecto de inversión, pero el Comité decide no asignar recursos y deja constancia de que el riesgo será \"asumido\" por la entidad. Meses después, se produce un incidente por vulnerabilidad no parchada. El Rector pregunta quién era responsable de esa situación. ¿Cuál respuesta se ajusta mejor al marco de Gobierno TI y gestión de riesgos?",
+            "opciones": [
+                "a) El Coordinador TI es el único responsable, porque conoce los riesgos técnicos y tenía la obligación de evitar cualquier incidente, independientemente de las decisiones del Comité.",
+                "b) El Comité de Gobierno TI y la alta dirección asumieron expresamente el riesgo al decidir no invertir; el Coordinador TI cumplió su rol al informar y proponer mitigación, y ahora debe apoyar la gestión del incidente y la revisión del riesgo.",
+                "c) El proveedor de software es el responsable, porque su producto tenía vulnerabilidades, y la decisión del Comité de no invertir no afecta esa responsabilidad."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "De acuerdo con COBIT (EDM03) y las prácticas de Gobierno TI, el órgano de gobierno es quien decide sobre la aceptación de riesgos. El Coordinador TI debe identificar, evaluar y proponer mitigaciones, pero la decisión final y su consecuencia pertenece a la alta dirección. La opción b) refleja esta distribución de responsabilidades. La opción a) sobrecarga al área técnica con una responsabilidad que no le corresponde sola. La opción c) ignora la dimensión de gestión interna del riesgo."
+        },
+        {
+            "codigo": "GOB-024",
+            "pregunta": "Como parte del Dominio de Estrategia TI del MRAE, se ha elaborado un mapa de iniciativas y un portafolio de proyectos. En una sesión de Comité, una decanatura pide que se incluya de inmediato la compra de tabletas para docentes como proyecto prioritario, aunque no figura en el PETI ni en la formulación MGA. Se alega que \"es una necesidad evidente\". ¿Cuál es la postura más adecuada desde el Gobierno TI?",
+            "opciones": [
+                "a) Incluir la compra de tabletas como proyecto prioritario en el portafolio, ya que la presión de los usuarios es alta, y luego ajustar el PETI cuando sea posible.",
+                "b) Indicar que para incluir un nuevo proyecto en el portafolio debe formularse según los lineamientos institucionales (MGA o herramienta equivalente), justificar su alineación con Plan de Desarrollo y PETI, y someterlo a la priorización establecida.",
+                "c) Recomendar que la decanatura gestione la compra con recursos propios sin pasar por el portafolio institucional, para no retrasar su necesidad urgente."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) respeta el proceso de Gobierno TI: no se incorporan proyectos al portafolio solo por presión, sino mediante formulación, justificación y priorización con criterios objetivos. La opción a) rompe la coherencia del portafolio y debilita el PETI. La opción c) fomenta decisiones aisladas, al margen de la arquitectura y la planeación institucional."
+        },
+        {
+            "codigo": "GOB-025",
+            "pregunta": "El Mapa de Aplicaciones institucional muestra que ya existe un sistema de gestión de prácticas estudiantiles. Una facultad propone contratar otro sistema con un tercero porque \"su interfaz es mejor\". El decano insiste en que, como tiene recursos de proyecto de investigación, lo puede contratar sin afectar la arquitectura. Usted participa en el Comité que debe decidir. ¿Qué decisión es más coherente con el MRAE y COBIT (APO03, BAI02)?",
+            "opciones": [
+                "a) Autorizar la contratación del nuevo sistema, siempre que la facultad asuma los costos, dado que los recursos no son de inversión central sino de investigación.",
+                "b) Señalar que la contratación de sistemas que impactan procesos institucionales debe respetar el Mapa de Aplicaciones; proponer evaluar mejoras al sistema existente o, si hay una justificación sólida para cambiarlo, emprender un proyecto institucional de reemplazo, no un sistema paralelo.",
+                "c) Permitir el uso del nuevo sistema solo para la facultad interesada, sin integrarlo al resto de sistemas, evitando así que afecte el Mapa de Aplicaciones general."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Dominio de Sistemas de Información del MRAE y COBIT exigen coherencia y evitar la proliferación de soluciones aisladas que duplican procesos institucionales. La opción b) respeta la arquitectura y propone o mejorar lo existente o un reemplazo institucional, no una solución fragmentada. Las opciones a) y c) permiten islas tecnológicas que van en contra de la arquitectura empresarial."
+        },
+        {
+            "codigo": "GOB-026",
+            "pregunta": "En el Dominio de Servicios Tecnológicos, se definió un Catálogo de Servicios donde el servicio de \"Correo institucional\" tiene un ANS de disponibilidad del 99,5%. El proveedor del servicio incumplió en dos meses consecutivos, pero el área usuaria principal manifiesta estar satisfecha porque la mayoría de interrupciones ocurrieron en horas no laborales. El Comité debe decidir si aplica penalidades o considera cumplido el servicio. ¿Qué enfoque es más consistente con Gobierno TI?",
+            "opciones": [
+                "a) Considerar cumplido el servicio porque el área usuaria principal no reclama, independientemente de los indicadores formales de disponibilidad.",
+                "b) Basarse en los ANS definidos en el Catálogo de Servicios; si el proveedor no cumple, registrar el incumplimiento y evaluar la aplicación de penalidades o acciones correctivas, sin desconocer que la percepción de servicio es un insumo complementario.",
+                "c) Ajustar retroactivamente el ANS para reflejar solo las horas laborales, de modo que los informes muestren cumplimiento y no sea necesario hablar de incumplimiento."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Los acuerdos de nivel de servicio son compromisos formales del Gobierno TI hacia la organización. La opción b) respeta esos acuerdos, reconoce la importancia de la percepción del usuario, pero no la usa para borrar incumplimientos objetivos. La opción a) subordina el control a la percepción puntual. La opción c) manipula retroactivamente los parámetros para evitar reconocer un incumplimiento."
+        },
+        {
+            "codigo": "GOB-027",
+            "pregunta": "En un ejercicio de auditoría interna, se detecta que algunas decisiones de priorización de proyectos TI están siendo tomadas por el Coordinador TI de manera informal, antes de pasar al Comité, influenciando qué proyectos entran o no a la agenda. Usted reconoce que lo hace para \"ahorrar tiempo\" y no llevar al Comité proyectos que considera poco viables. Desde la perspectiva de Gobierno vs. Gestión, ¿qué corrección es más adecuada?",
+            "opciones": [
+                "a) Mantener la práctica pero documentarla, indicando que usted precalifica los proyectos por criterio técnico, sin necesidad de que el Comité conozca los descartados.",
+                "b) Revisar y formalizar un proceso de pre-evaluación técnica transparente, con criterios acordados, en el cual se deje constancia de los proyectos no priorizados y se informe al Comité, sin sustituir su función de decisión.",
+                "c) Dejar de realizar cualquier análisis previo y remitir automáticamente todos los proyectos al Comité, sin filtrar ni ordenar, para evitar cuestionamientos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) distingue adecuadamente gestión de gobierno: la gestión puede realizar pre-evaluaciones, pero con criterios claros, trazabilidad y sin suplantar la decisión del órgano de gobierno. La opción a) consolida una práctica discrecional y opaca. La opción c) elimina un filtro útil y traslada al Comité una carga operativa innecesaria, cuando la gestión técnica puede ayudar siempre que sea transparente."
+        },
+        {
+            "codigo": "GOB-028",
+            "pregunta": "En el marco del Dominio de Información, se propone al Comité adoptar un modelo de datos institucional que estandarice códigos de programa, tipos de estudiante y estados académicos. Una facultad argumenta que sus clasificaciones son \"históricas\" y pide que se le permita seguir manejando sus propios códigos sin alinearse al modelo institucional. El Comité le pide su recomendación como Coordinador TI y líder de Arquitectura Empresarial.",
+            "opciones": [
+                "a) Recomendar que la facultad mantenga sus códigos independientes para respetar su historia, siempre que internamente haga las equivalencias cuando Planeación lo requiera.",
+                "b) Señalar que, si se quiere consolidar información institucional confiable, las clasificaciones deben alinearse al modelo de datos estándar; proponer un plan de transición y limpieza para que la facultad migre sus códigos al modelo institucional.",
+                "c) Proponer que se creen dos modelos de datos paralelos: uno institucional y otro específico para la facultad, y que la responsabilidad de conciliarlos quede en Planeación."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Un modelo de datos institucional requiere consistencia para poder consolidar y analizar la información. La opción b) refuerza esa necesidad y sugiere un plan de transición, conciliando historia y estandarización. Las opciones a) y c) perpetúan esquemas paralelos y complejizan la consolidación, contradictorio con el MRAE y COBIT en materia de gobierno de datos."
+        },
+        {
+            "codigo": "GOB-029",
+            "pregunta": "El Comité de Gobierno TI está discutiendo si aprobar un proyecto de licenciamiento adicional para herramientas de colaboración en línea. Usted presenta métricas de uso actuales que muestran baja adopción de las herramientas ya disponibles. Un miembro del Comité propone aprobar el proyecto de todas formas porque \"queda bien\" mostrar más licencias en el informe de gestión digital. ¿Qué enfoque es más coherente con un Gobierno TI orientado a valor público y uso/apropiación?",
+            "opciones": [
+                "a) Recomendar aprobar el proyecto, ya que aumentar el número de licencias disponibles es un indicador visible de modernización, aunque el uso actual sea bajo.",
+                "b) Sugerir que, antes de ampliar licencias, se aborden las causas de baja adopción (capacitación, comunicación, barreras de uso) y que la decisión de compra adicional se tome cuando haya evidencia de mayor apropiación.",
+                "c) Proponer aprobar un número reducido de licencias adicionales para efectos del informe, sin preocuparse demasiado por si se usan o no, dado que el costo es moderado."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) pone el foco en el valor real: uso y apropiación, no solo cantidad de licencias. El Dominio de Uso y Apropiación del MRAE y la Política de Gobierno Digital insisten en que la tecnología debe utilizarse efectivamente. Las opciones a) y c) privilegian métricas de insumo (licencias) sobre resultados (uso, colaboración), reflejando una visión de \"tecnología vitrinas\"."
+        },
+        {
+            "codigo": "GOB-030",
+            "pregunta": "En la revisión de cumplimiento de la Política de Gobierno Digital, se evidencia que la universidad no ha adoptado formalmente el Manual de Gobierno Digital ni ha definido un Comité con funciones claras para esa política. La alta dirección le pide que \"simplemente\" declare en el FURAG que se cumple, ya que existen varios comités donde a veces se habla de temas de TI. ¿Cuál es la respuesta más adecuada?",
+            "opciones": [
+                "a) Declarar el cumplimiento en el FURAG, argumentando que aunque no existe un comité formal, las discusiones sobre TI en diferentes espacios equivalen a una instancia de Gobierno Digital.",
+                "b) Indicar que la Política de Gobierno Digital exige la adopción del Manual y la existencia de instancias y roles claros; recomendar conformar o ajustar un Comité institucional con esas funciones y solo después reportar el cumplimiento real.",
+                "c) Reportar un nivel de cumplimiento intermedio en el FURAG, sin explicar exactamente la ausencia del Comité, para no afectar la calificación institucional mientras se decide si se formaliza el gobierno digital."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) respeta la naturaleza de la política: no se trata de marcar casillas, sino de contar con estructuras reales de gobierno. Declarar cumplimiento sin que exista el Comité y sin aplicar el Manual vulnera el principio de veracidad de la información oficial. Las opciones a) y c) constituyen reportes imprecisos que pueden generar hallazgos de control y debilitar el Gobierno TI."
+        },
+        {
+            "codigo": "GOB-031",
+            "pregunta": "En una reunión de seguimiento, el Comité observa que varios indicadores de desempeño de TI muestran mejorías (menor tiempo de respuesta en soporte, mayor disponibilidad de sistemas). Sin embargo, los resultados en satisfacción estudiantil con los servicios digitales no mejoran. El Rector pregunta cómo el Gobierno TI puede participar en la mejora del valor percibido por los usuarios. ¿Cuál es la mejor respuesta?",
+            "opciones": [
+                "a) Indicar que la satisfacción estudiantil es un tema exclusivo de la Vicerrectoría Académica y que el Gobierno TI ya cumplió al mejorar los indicadores técnicos.",
+                "b) Proponer que el Gobierno TI incorpore indicadores de experiencia de usuario y valor público en el cuadro de mando, promueva ajustes en los servicios (simplicidad, usabilidad, canales) y articule con las áreas misionales para mejorar conjuntamente la percepción y uso de los servicios digitales.",
+                "c) Sugerir que la percepción estudiantil se mejorará automáticamente si se siguen optimizando indicadores técnicos, sin necesidad de acciones adicionales de gobierno."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) reconoce que el Gobierno TI debe ir más allá de métricas técnicas e integrar indicadores de valor y experiencia, articulando con áreas misionales para mejorar el impacto de las soluciones. Las opciones a) y c) asumen que la responsabilidad de la percepción es ajena a TI o que mejorará solo con indicadores técnicos, lo cual es incompleto."
+        },
+        {
+            "codigo": "GOB-032",
+            "pregunta": "En el contexto del MRAE, se le pide al Comité decidir qué instrumento utilizar para documentar y acordar los servicios de TI que se prestarán a una nueva sede de la universidad. Usted identifica que se requiere definir niveles de servicio, responsables, canales de soporte y horarios. ¿Cuál instrumento del Dominio de Servicios Tecnológicos es más adecuado para esta tarea?",
+            "opciones": [
+                "a) El Mapa de Aplicaciones, porque listará los sistemas que la nueva sede utilizará y permitirá inferir los servicios.",
+                "b) El Catálogo de Servicios TI, donde se describen formalmente los servicios, ANS, responsables y condiciones, y que debe ser extendido o ajustado para la nueva sede.",
+                "c) El Modelo de Datos Institucional, que permitirá identificar qué entidades de información manejará la nueva sede y, por tanto, los servicios que necesita."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Para documentar servicios, niveles y condiciones, el instrumento adecuado es el Catálogo de Servicios TI, propio del Dominio de Servicios Tecnológicos. El Mapa de Aplicaciones y el Modelo de Datos son importantes, pero se enfocan en aplicaciones e información, respectivamente, no en la definición de los servicios y sus ANS."
+        },
+        {
+            "codigo": "GOB-033",
+            "pregunta": "Un miembro del Comité propone que todas las decisiones sobre adquisición de hardware y software menores a cierto monto (por ejemplo, 50 salarios mínimos) sean tomadas directamente por el Coordinador TI, sin pasar por el Comité de Gobierno TI, para agilizar la gestión. Usted reconoce que muchas adquisiciones pequeñas tienen impacto en la arquitectura y en los costos de operación. ¿Qué posición es más adecuada?",
+            "opciones": [
+                "a) Aceptar la propuesta plenamente, ya que el Comité solo debe intervenir en decisiones de alto monto, y las pequeñas pueden gestionarse sin alineación estricta al PETI.",
+                "b) Proponer delegar decisiones operativas menores con reglas claras: categorías autorizadas, alineación previa al PETI y arquitectura, límites de monto acumulado y reportes periódicos al Comité, manteniendo la trazabilidad de las decisiones.",
+                "c) Rechazar cualquier delegación, sosteniendo que toda adquisición, por pequeña que sea, debe ser aprobada individualmente por el Comité de Gobierno TI."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) equilibra agilidad y gobernanza: se permite cierta autonomía operativa, pero con reglas claras, alineación a la estrategia y rendición de cuentas. La opción a) delega sin control ni trazabilidad, generando riesgo de desalineación y fragmentación. La opción c) convierte al Comité en cuello de botella, asumiendo tareas demasiado operativas para el nivel de gobierno."
+        },
+        {
+            "codigo": "GOB-034",
+            "pregunta": "En la revisión anual del PETI, el Coordinador TI propone eliminar un proyecto de modernización de la red wifi que el Comité había aprobado el año anterior, porque surgió un proyecto de desarrollo de una app móvil muy visible políticamente. No se ha hecho análisis formal de riesgos ni de impacto en servicios. Desde el rol del Gobierno TI, ¿qué debería hacer el Comité?",
+            "opciones": [
+                "a) Aceptar sin más el cambio de prioridad, confiando en el criterio del Coordinador TI, ya que él conoce mejor las necesidades tecnológicas.",
+                "b) Solicitar un análisis comparativo formal entre los dos proyectos (impacto en metas del Plan de Desarrollo, riesgos, costo-valor, dependencia técnica) y tomar la decisión de mantener, reprogramar o reemplazar el proyecto de red wifi con base en ese análisis.",
+                "c) Mantener ambos proyectos como prioridad máxima y dejar que sea la oficina de presupuesto la que decida cuál se financia finalmente, según disponibilidad de recursos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Gobierno TI debe tomar decisiones sobre el portafolio basadas en análisis objetivos de valor, riesgo y alineación, no solo en la visibilidad política o en el criterio de un rol técnico. La opción b) exige ese análisis antes de decidir. La opción a) delega la decisión estratégica en un gestor. La opción c) evita decidir y traslada el conflicto a presupuesto, sin criterios claros de gobernanza."
+        },
+        {
+            "codigo": "GOB-035",
+            "pregunta": "En un reporte a MinTIC sobre implementación de Gobierno Digital, la institución debe informar sus avances en Arquitectura Empresarial y Gobierno TI. La alta dirección sugiere inflar algunos logros (por ejemplo, declarar que se tiene Mapa de Aplicaciones y Modelo de Datos completos cuando solo hay borradores) para mejorar la imagen externa. Como Coordinador TI, encargado de enviar la información, ¿qué respuesta es más consistente con las buenas prácticas de Gobierno y los principios de transparencia?",
+            "opciones": [
+                "a) Ajustar ligeramente la descripción para que los borradores se presenten como productos terminados, porque en esencia se está trabajando en esa dirección y pronto se completarán.",
+                "b) Reportar el estado real, diferenciando claramente lo que está completo, lo que está en borrador y lo que está planeado, explicando el avance y los compromisos futuros, aunque la calificación sea más baja.",
+                "c) Enviar el reporte en blanco en esos campos para no mentir, pero sin explicar por qué la institución no tiene aún esos instrumentos, dejando que MinTIC saque sus propias conclusiones."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La opción b) respeta los principios de transparencia y veracidad en la información oficial, esenciales en la gestión pública y en Gobierno Digital. Reportar avances reales, incluso si no son perfectos, permite una mejora continua honesta. La opción a) miente sobre el estado de los instrumentos, generando riesgo reputacional y disciplinario. La opción c) omite información sin contexto, dificultando la comprensión del estado real y la planificación de mejoras."
+        },
+        {
+            "codigo": "GOB-036",
+            "pregunta": "En la actualización del PETI, usted identifica una oportunidad tecnológica para implementar 'Blockchain' en la certificación de notas. Sin embargo, al revisar el Plan Estratégico Institucional (PEI) y el Plan de Desarrollo de la Universidad, no existe ninguna meta o línea estratégica relacionada con innovación en certificación o modernización de este proceso. Según el dominio de Estrategia de TI del MRAE y COBIT 2019, ¿qué debe hacer?",
+            "opciones": [
+                "a) Incluir el proyecto en el PETI justificando que la tecnología es tendencia mundial y generará valor agregado, asumiendo que el PEI se ajustará después.",
+                "b) Descartar o posponer la iniciativa hasta lograr que se incluya primero en la estrategia institucional (PEI), ya que el PETI debe estar estrictamente alineado y subordinado a la estrategia del negocio para garantizar el valor público.",
+                "c) Ejecutar el proyecto como un piloto técnico de bajo costo (Gasto de Funcionamiento) para demostrar resultados y luego pedir la modificación del PEI."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Alineación Estratégica: El Principio 1 de COBIT y el MRAE establecen que TI es un habilitador de la estrategia del negocio. Si el proyecto no responde a una meta institucional, se convierte en un 'Silo Tecnológico' o desperdicio de recursos. Primero se alinea la estrategia (Gobierno), luego se planea la tecnología (Gestión)."
+        },
+        {
+            "codigo": "GOB-037",
+            "pregunta": "El Comité Institucional de Gestión y Desempeño (Instancia de Gobierno) decide recortar el presupuesto de Ciberseguridad en un 40% para cubrir necesidades de infraestructura física, argumentando que 'nunca nos han hackeado'. Usted, como Líder de TI, advierte que esto expone a la entidad a riesgos críticos. ¿Cuál es la acción de Gobierno TI correcta?",
+            "opciones": [
+                "a) Reasignar recursos de otros proyectos de TI sin informar al Comité para cubrir el hueco de seguridad, dado que es su responsabilidad técnica proteger la entidad.",
+                "b) Renunciar al cargo inmediatamente para evitar investigaciones disciplinarias futuras.",
+                "c) Elaborar un documento formal de 'Aceptación de Riesgo' donde se cuantifique el impacto y la probabilidad, y exigir que el Comité (Alta Dirección) lo firme asumiendo la responsabilidad política y fiscal de la decisión."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Gestión de Riesgos (COBIT EDM03): El Gobierno de TI implica optimizar riesgos. Si la Alta Dirección decide no invertir (Apetito de riesgo), debe asumir la responsabilidad formalmente. El Líder de TI gestiona el riesgo, pero la 'Aceptación' es una potestad exclusiva del Gobierno (Comité). Ocultar movimientos presupuestales (Opción A) es ilegal."
+        },
+        {
+            "codigo": "GOB-038",
+            "pregunta": "El área de Mercadeo contrata por su cuenta (Shadow IT) un CRM en la nube pagándolo con caja menor, sin consultar a la Oficina de TI. El CRM funciona bien, pero no se integra con el sistema académico. Según el MRAE, ¿qué principio de Arquitectura Empresarial se está violando principalmente?",
+            "opciones": [
+                "a) Interoperabilidad y No Duplicidad, generando silos de información que impiden una visión única del ciudadano/estudiante.",
+                "b) Neutralidad Tecnológica, al no haber evaluado otras marcas.",
+                "c) Eficiencia del Gasto, porque seguramente salió más caro."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Dominio de Sistemas de Información: El MRAE busca evitar la fragmentación. La compra descentralizada crea 'Islas de Información' o Silos. El problema mayor no es el costo, sino la incapacidad de los sistemas para hablar entre sí (Interoperabilidad) y la gobernanza de los datos."
+        },
+        {
+            "codigo": "GOB-039",
+            "pregunta": "Usted debe definir los indicadores de desempeño para el tablero de control de Gobierno TI que presentará al Rector. Su equipo sugiere los siguientes: 1. Disponibilidad del Data Center (Uptime). 2. Número de parches aplicados. 3. Cantidad de backups realizados. Según COBIT 2019 y el enfoque de Valor Público, ¿cómo evalúa esta propuesta?",
+            "opciones": [
+                "a) Excelente, son indicadores técnicos precisos que demuestran que el área de TI está trabajando mucho.",
+                "b) Deficiente, porque son indicadores operativos/técnicos (Gestión) que no muestran el valor entregado al negocio. Se deben incluir indicadores de impacto (ej. % de trámites digitalizados, reducción de tiempos de atención, satisfacción del usuario).",
+                "c) Aceptable, pero se debe añadir el presupuesto ejecutado."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Entrega de Valor (COBIT EDM02): Al Gobierno (Rector/Comité) no le interesa cuántos parches aplicó (eso es gestión operativa 'Run'). Le interesa saber cómo TI mejoró la institución. Los indicadores deben medir resultados de negocio (Impacto), no solo esfuerzo técnico."
+        },
+        {
+            "codigo": "GOB-040",
+            "pregunta": "En el Dominio de Información del MRAE, se detecta que la base de datos de egresados tiene un 30% de correos erróneos. El Rector le ordena a usted (Jefe de TI) que 'entre a la base de datos y arregle esos correos'. ¿Cuál es su respuesta basada en el Gobierno de Datos?",
+            "opciones": [
+                "a) Proceder a corregir los datos directamente mediante scripts en la base de datos para cumplir la orden rápida y eficientemente.",
+                "b) Aclarar que TI es el custodio de la infraestructura (Custodio Técnico), pero que la calidad y veracidad del dato es responsabilidad del 'Propietario del Dato' (Secretaría General/Egresados), quienes deben liderar la depuración funcional.",
+                "c) Contratar una empresa externa para que llame a los egresados y actualice la base de datos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gobierno de Datos: Una regla de oro es separar al Custodio (TI) del Propietario (Negocio). TI provee la herramienta y seguridad, pero no debe modificar datos misionales sin un proceso funcional, pues altera la integridad. La responsabilidad de la calidad del dato es del área de negocio que lo produce."
+        },
+        {
+            "codigo": "GOB-041",
+            "pregunta": "Usted necesita renovar el licenciamiento de la suite de ofimática. Personalmente prefiere la marca 'X' por sus funcionalidades, pero la normativa de Contratación Pública exige pluralidad. ¿Cómo alinea su preferencia técnica con el principio de Transparencia?",
+            "opciones": [
+                "a) Estructurar los pliegos técnicos copiando las características exclusivas de la marca 'X' para asegurar que solo ellos ganen (Pliegos Sastre), garantizando así la mejor tecnología para la entidad.",
+                "b) Realizar un estudio de mercado y análisis de sector que permita definir requisitos técnicos abiertos (estándares) o justificar técnicamente la estandarización de la marca 'X' ante el Comité de Contratación si existe una razón costo-beneficio real (ej. incompatibilidad crítica con sistemas actuales).",
+                "c) Solicitar una contratación directa por urgencia manifiesta para comprar la marca 'X'."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Transparencia y Selección Objetiva: El Gobierno TI debe ser ético. Direccionar contratos (Opción A) es delito. La vía correcta es basarse en estándares abiertos o realizar un 'Estudio Técnico de Estandarización' aprobado por el Comité, probando que cambiar de marca es más costoso para la entidad (TCO)."
+        },
+        {
+            "codigo": "GOB-042",
+            "pregunta": "Según el Modelo de Seguridad y Privacidad de la Información (MSPI) y el Decreto 1078, usted como Líder de TI propone que el Oficial de Seguridad de la Información (CISO) reporte directamente a su cargo para tener mejor coordinación. ¿Es esto una buena práctica de Gobierno?",
+            "opciones": [
+                "a) Sí, porque la seguridad es un tema técnico y el CISO debe estar subordinado al CIO para operar las herramientas de defensa.",
+                "b) No, el CISO debe tener independencia y reportar a la Alta Dirección o al Comité de Riesgos (Segunda Línea de Defensa), para poder auditar y controlar objetivamente al área de TI sin conflicto de intereses.",
+                "c) Es indiferente, siempre y cuando ambos trabajen en equipo."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Segregación de Funciones (COBIT/ISO 27001): El que opera (TI) no puede ser el mismo que vigila (Seguridad/Riesgos). Si el CISO reporta a TI, podría verse presionado a ocultar incidentes para que su jefe 'quede bien'. El CISO debe ser independiente para garantizar un Gobierno de Seguridad efectivo."
+        },
+        {
+            "codigo": "GOB-043",
+            "pregunta": "Se va a adquirir un nuevo ERP Financiero. El proveedor ofrece una solución 'On-Premise' (en servidores locales) y una 'SaaS' (Nube). La política institucional de Gobierno TI no está definida al respecto. Según los lineamientos de MinTIC (Nube Primero) y Eficiencia del Gasto, ¿qué debe priorizar?",
+            "opciones": [
+                "a) On-Premise, para mantener la soberanía total de los datos físicamente en la universidad.",
+                "b) Evaluar primero el modelo de Nube (SaaS) comparando el TCO (Costo Total de Propiedad) a 5 años frente al modelo On-Premise, y optar por Nube salvo que existan restricciones legales o técnicas insalvables.",
+                "c) Comprar ambos modelos para tener redundancia."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Estrategia de TI (Nube Pública): Colombia tiene una directriz de 'Nube Primero'. El Gobierno TI debe evaluar el costo total (energía, aires, personal, hardware) vs. la suscripción. Generalmente, la Nube ofrece mayor elasticidad y eficiencia. La decisión debe basarse en un estudio técnico-económico, priorizando la modernización."
+        },
+        {
+            "codigo": "GOB-044",
+            "pregunta": "El MRAE exige contar con un 'Catálogo de Servicios de TI'. Usted tiene un listado de servidores y aplicaciones (Inventario). ¿Es lo mismo?",
+            "opciones": [
+                "a) Sí, el inventario técnico es la base del catálogo.",
+                "b) No. El Inventario son activos (Gestión de Configuración). El Catálogo de Servicios debe estar redactado en lenguaje de negocio, definiendo qué recibe el usuario (ej. 'Servicio de Matrícula', 'Servicio de Conectividad'), sus niveles de servicio (SLA) y responsables.",
+                "c) No, el Catálogo de Servicios es solo para la Mesa de Ayuda."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Dominio de Servicios Tecnológicos: Confundir activos con servicios es común. El Gobierno TI se centra en el servicio entregado al usuario (Valor). El Catálogo es el 'Menú' de cara al cliente, el Inventario es la 'Cocina' interna."
+        },
+        {
+            "codigo": "GOB-045",
+            "pregunta": "Una auditoría de la Contraloría genera un hallazgo por falta de 'Planes de Continuidad del Negocio (BCP)'. Usted tiene 'Backups' diarios. ¿Es suficiente para desvirtuar el hallazgo?",
+            "opciones": [
+                "a) Sí, porque con el backup se puede restaurar la información en caso de desastre.",
+                "b) No. El Backup es una medida técnica de recuperación. El BCP es una estrategia de Gobierno que define procesos, personas y sedes alternas para operar la entidad mientras se recupera la tecnología (Resiliencia Organizacional).",
+                "c) Sí, siempre y cuando los backups estén en la nube."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestión de Continuidad (COBIT DSS04): Tener copia de los datos no garantiza que la universidad pueda seguir matriculando o pagando nómina si el edificio se incendia. El BCP cubre la operación del negocio, el DRP (Disaster Recovery Plan) cubre la tecnología. Faltaba el componente de negocio."
+        },
+        {
+            "codigo": "GOB-046",
+            "pregunta": "El Dominio de Uso y Apropiación del MRAE es crítico. Se implementó un moderno LMS (Moodle) pero los docentes siguen usando correo electrónico para recibir tareas. ¿Qué falló en el Gobierno TI?",
+            "opciones": [
+                "a) Falló la capacitación técnica (no saben dar clic).",
+                "b) Falló la Gestión del Cambio y la Cultura Digital. El proyecto se enfocó en la herramienta (Sistemas) y no en las personas (Uso). Se debió medir la adopción y generar incentivos o políticas de obligatoriedad.",
+                "c) El software es malo y debe cambiarse."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Dominio de Uso y Apropiación: El éxito de TI no es 'Salir a Producción', es que la gente lo use. El Gobierno TI debe incluir estrategias de sensibilización, comunicación y gestión del cambio organizacional, no solo manuales de usuario."
+        },
+        {
+            "codigo": "GOB-047",
+            "pregunta": "Para cumplir con el principio de Interoperabilidad del Decreto 1078, la I.U. Pascual Bravo debe integrarse con la 'Carpeta Ciudadana Digital'. Su equipo técnico dice que es muy difícil y costoso. ¿Cuál es la decisión de Gobierno?",
+            "opciones": [
+                "a) No integrarse y pagar la multa si la hay.",
+                "b) Instruir al equipo para que priorice la integración en el PETI, ya que es un mandato legal obligatorio para las entidades públicas que prima sobre la dificultad técnica, y buscar apoyo en los Servicios Ciudadanos Digitales base.",
+                "c) Desarrollar una Carpeta Ciudadana propia de la universidad."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Marco Legal (Decreto 1078): La integración con los Servicios Ciudadanos Digitales (Autenticación, Carpeta, Interoperabilidad) es obligatoria por ley. El Gobierno TI debe alinear la operación para cumplir la norma. Crear soluciones propias (Opción C) duplica esfuerzos y viola la política de racionalización."
+        },
+        {
+            "codigo": "GOB-048",
+            "pregunta": "Usted detecta que el Director Financiero comparte su contraseña institucional con su asistente para que ella apruebe pagos en su nombre. Al confrontarlo, él dice que es una 'decisión gerencial de delegación'. ¿Qué hace usted?",
+            "opciones": [
+                "a) Aceptarlo, ya que él es un directivo y asume el riesgo.",
+                "b) Reportar el incidente al Oficial de Seguridad (CISO) o Control Interno. La política de seguridad (aprobada por el Comité) establece que las credenciales son intransferibles (No Repudio). Ningún cargo exime del cumplimiento de la política de seguridad.",
+                "c) Crear un usuario genérico 'Financiera' para que lo usen ambos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Cumplimiento (COBIT MEA03): El Gobierno de TI establece políticas que aplican a todos. El principio de 'No Repudio' es legalmente vinculante. Permitir esta práctica invalida la trazabilidad y expone a la entidad a fraudes. La jerarquía no está por encima de la Política de Seguridad."
+        },
+        {
+            "codigo": "GOB-049",
+            "pregunta": "En el Comité de TI, se presentan dos proyectos para aprobación con el mismo presupuesto: 1. Renovar los PCs de la Sala de Profesores. 2. Implementar un Chatbot de atención a aspirantes 24/7. El Comité pide su concepto sobre cuál priorizar según Valor Público.",
+            "opciones": [
+                "a) Renovar los PCs, porque los profesores son empleados internos y se quejan mucho (Clima Laboral).",
+                "b) El Chatbot, porque impacta directamente al ciudadano/aspirante, ampliando la cobertura de atención y mejorando la eficiencia del servicio (Valor Público hacia afuera).",
+                "c) Dividir el dinero y hacer la mitad de cada uno."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Priorización de Inversiones (Val IT): El enfoque de Gobierno Digital prioriza al Ciudadano como centro. El Chatbot mejora el acceso al servicio educativo (misión). Renovar PCs es mantenimiento operativo (importante, pero secundario frente al impacto ciudadano en un escenario de recursos finitos)."
+        },
+        {
+            "codigo": "GOB-050",
+            "pregunta": "Usted implementa ITIL para la Mesa de Ayuda. Sin embargo, los procesos son lentos y burocráticos. El Comité le reclama agilidad. ¿Cómo ajusta el Gobierno de TI?",
+            "opciones": [
+                "a) Eliminar ITIL y volver al manejo informal por WhatsApp.",
+                "b) Adaptar el marco de referencia (Tailoring). COBIT e ITIL no son dogmas; se debe adoptar solo lo que genere valor y ajustar los procesos para que sean 'Just enough' (lo justo y necesario) para controlar sin frenar la operación.",
+                "c) Explicar al Comité que la burocracia es necesaria para el control y no se puede cambiar."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Adaptabilidad (COBIT Design Factors): Un sistema de Gobierno debe adaptarse al tamaño y cultura de la entidad. Implementar controles excesivos destruye valor. La clave es 'Tailoring' (personalizar) las buenas prácticas al contexto de la I.U. Pascual Bravo."
+        },
+
+        {
+            "codigo": "GOB-051",
+            "pregunta": "El sistema de matrículas colapsa un domingo. Su equipo técnico identifica la causa raíz y tiene un parche listo. El procedimiento de Gestión de Cambios exige aprobación del Comité de Cambios (CAB) que se reúne los martes. ¿Qué acción de Gobierno TI aplica?",
+            "opciones": [
+                "a) Esperar al martes para aplicar el parche, respetando estrictamente el procedimiento aprobado para no incurrir en faltas al debido proceso.",
+                "b) Aplicar el parche inmediatamente invocando el procedimiento de 'Cambio de Emergencia' preestablecido, el cual permite la ejecución técnica inmediata con una regularización y documentación post-implementación ante el CAB.",
+                "c) Aplicar el parche y no documentarlo como cambio sino como 'Incidente', para evitar la burocracia del CAB."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestión de Cambios (COBIT BAI06): El Gobierno TI no debe paralizar la operación. Los marcos de referencia (ITIL/COBIT) contemplan los 'Cambios de Emergencia'. La clave de Gobierno es que existe un procedimiento formal para esto (Emergency Change Advisory Board - ECAB) y no es una decisión anárquica."
+        },
+
+        {
+            "codigo": "GOB-052",
+            "pregunta": "Se finalizó el proyecto de implementación del CRM. El sistema funciona técnicamente y se entregó a tiempo. Sin embargo, 6 meses después, el área de Admisiones no lo usa y sigue con Excel. ¿Qué falló desde la perspectiva de Gobierno TI (COBIT)?",
+            "opciones": [
+                "a) Falló la Gestión de Proyectos (BAI11) porque no se capacitó lo suficiente.",
+                "b) Falló la Realización de Beneficios (EDM02). El Gobierno TI no termina con la entrega del software ('Go-live'), sino cuando se verifica que el valor esperado (uso y retorno) se está generando. Faltó la fase de evaluación post-implementación.",
+                "c) Es culpa del área de Admisiones por resistencia al cambio."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Realización de Beneficios: El enfoque tradicional entrega el producto y cierra el proyecto. El enfoque de Gobierno (COBIT) exige monitorear el valor. Si el software no se usa, el valor es cero, independientemente de la calidad técnica. El Comité debió exigir reportes de adopción post-cierre."
+        },
+
+        {
+            "codigo": "GOB-053",
+            "pregunta": "La I.U. Pascual Bravo desarrolló 'In-House' un software para gestionar semilleros de investigación que es muy exitoso. Otra universidad pública pide el código para usarlo. ¿Cuál es la directriz de Gobierno Digital (Software Público)?",
+            "opciones": [
+                "a) Negar la entrega argumentando que es un activo propiedad de la Pascual Bravo y costó dinero de sus contribuyentes.",
+                "b) Vender el software a la otra universidad para recuperar costos de inversión (Comercialización de Activos).",
+                "c) Liberar el código bajo una licencia abierta (Public Code) y publicarlo en el Portal de Software Público de Colombia, fomentando la reutilización y racionalización del gasto estatal."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Eficiencia y Colaboración: La guía de Software Público del MinTIC insta a las entidades a compartir sus desarrollos patrimoniales para evitar que el Estado pague dos veces por lo mismo. Al ser dinero público, el código debe propender por ser público (salvo temas de seguridad nacional)."
+        },
+        
+        {
+            "codigo": "GOB-054",
+            "pregunta": "Usted va a contratar un servicio de Nube crítica. El Comité le preocupa el riesgo de 'Vendor Lock-in' (quedar atrapado con el proveedor). ¿Qué exigencia de Gobierno debe incluir en el contrato?",
+            "opciones": [
+                "a) Clausulas de penalización económica si el servicio falla.",
+                "b) Definición explícita de la 'Estrategia de Salida' (Exit Strategy), obligando al proveedor a entregar los datos en formatos estándar (CSV, SQL) y a dar soporte durante la migración a otro proveedor al finalizar el contrato.",
+                "c) Contratar solo por un año para renovar si funciona bien."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestión de Proveedores (COBIT APO10): El Gobierno TI debe prever el divorcio antes del matrimonio. La Estrategia de Salida es obligatoria en contratos de Nube pública para garantizar la soberanía y portabilidad de los datos institucionales."
+        },
+        {
+            "codigo": "GOB-055",
+            "pregunta": "Se requiere comprar nuevos switches de borde. Un proveedor ofrece unos muy económicos pero que solo soportan protocolo IPv4. El estándar IPv6 es 'deseable' pero no urgente para la operación hoy. ¿Qué decisión toma Gobierno TI?",
+            "opciones": [
+                "a) Comprar los IPv4 para ahorrar presupuesto (Eficiencia del Gasto a corto plazo).",
+                "b) Rechazar la compra. La resolución del MinTIC obliga a que toda nueva adquisición de infraestructura tecnológica soporte nativamente IPv6 (Coexistencia). Comprar tecnología obsoleta hoy es un detrimento patrimonial a mediano plazo.",
+                "c) Comprarlos y usar convertidores de protocolo después."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Adopción de IPv6: La normativa colombiana tiene plazos perentorios para la adopción de IPv6. El Gobierno TI prohíbe adquirir deuda técnica nueva. Invertir en hardware que no soporta el estándar futuro inmediato es mala planeación y viola los lineamientos de la Política de Gobierno Digital."
+        },
+        {
+            "codigo": "GOB-056",
+            "pregunta": "El nombre de un estudiante aparece como 'Pepito Pérez' en el Sistema Académico y como 'José P. Pérez' en la Biblioteca. Esto genera errores en los reportes a Mineducación. ¿Qué concepto de Arquitectura de Datos debe aplicar?",
+            "opciones": [
+                "a) Interfaz punto a punto: Crear un script que copie el nombre del académico a la biblioteca todas las noches.",
+                "b) Gestión de Datos Maestros (MDM): Definir cuál es la 'Fuente Única de Verdad' (Golden Record) para la entidad 'Estudiante' y obligar a que todos los sistemas consuman ese dato maestro, prohibiendo la creación de datos paralelos.",
+                "c) Capacitar a las bibliotecarias para que escriban bien los nombres."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Arquitectura de Información: El problema es estructural. Las interfaces (Opción A) son parches que se rompen. El Gobierno de Datos exige definir Datos Maestros: una única fuente autorizada que irradia la verdad a los demás sistemas."
+        },
+        {
+            "codigo": "GOB-057",
+            "pregunta": "El Líder de TI (Usted) decide realizar la auditoría interna de los controles de seguridad informática para prepararse para la visita de la Contraloría. ¿Es válido?",
+            "opciones": [
+                "a) Sí, es una excelente práctica de autoevaluación.",
+                "b) No. Según COBIT (Dominio MEA) y el modelo de las Tres Líneas de Defensa, el ejecutor (Primera Línea - TI) no puede auditarse a sí mismo de manera independiente. La auditoría interna corresponde a la Oficina de Control Interno o un tercero (Tercera Línea).",
+                "c) Sí, siempre y cuando firme el acta bajo juramento."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Monitoreo y Evaluación (MEA): La independencia es el pilar de la auditoría. Usted no puede ser juez y parte. Puede hacer 'monitoreo de gestión', pero no 'auditoría independiente'. Hacerlo invalida el resultado ante un ente de control."
+        },
+        {
+            "codigo": "GOB-058",
+            "pregunta": "El Decano exige que el sistema de aulas virtuales tenga una disponibilidad del 100% garantizada por contrato. Lograr el 100% cuesta 10 veces más que lograr el 99.5%. ¿Cuál es su postura de Gobierno?",
+            "opciones": [
+                "a) Acceder a la petición porque el cliente (Decano) siempre tiene la razón y la educación no puede parar.",
+                "b) Negociar el SLA (Acuerdo de Nivel de Servicio). Explicar la relación Costo-Beneficio: ¿Vale la pena pagar 10 veces más por evitar 4 horas de caída al año? El Gobierno TI debe optimizar el recurso, no sobredimensionar.",
+                "c) Prometer el 100% en el papel pero contratar el servicio estándar, esperando que no falle."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestión de Niveles de Servicio (APO09): El SLA debe ser realista y financiable. El 100% de disponibilidad es técnicamente casi imposible y financieramente inviable para una universidad pública. El rol de Gobierno es educar a la demanda sobre el costo de la disponibilidad."
+        },
+        {
+            "codigo": "GOB-059",
+            "pregunta": "La universidad lanza un nuevo portal de trámites. El Rector quiere que este portal obtenga el 'Sello de Excelencia' de Gobierno Digital. ¿Qué implica esto principalmente?",
+            "opciones": [
+                "a) Que el portal tenga un diseño gráfico bonito y moderno.",
+                "b) Que el portal cumpla con criterios de Alta Calidad definidos por MinTIC: Usabilidad, Accesibilidad, Datos Abiertos y Seguridad, y pase la validación técnica del Ministerio.",
+                "c) Que el portal esté alojado en servidores de la Presidencia de la República."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Calidad de Servicios Digitales: El Sello de Excelencia es una certificación de calidad del Estado. No es estético, es funcional y normativo. Exige cumplimiento estricto de accesibilidad (WCAG) y seguridad."
+        },
+        {
+            "codigo": "GOB-060",
+            "pregunta": "Se implementa un algoritmo de IA para predecir deserción. Se descubre que el algoritmo marca con mayor riesgo a los estudiantes de un código postal específico (barrio popular), generando un sesgo discriminatorio. ¿Qué principio de Gobierno de Datos se viola?",
+            "opciones": [
+                "a) Calidad del Dato.",
+                "b) Ética y 'Fairness' (Justicia) en IA. El Gobierno TI debe auditar los algoritmos para evitar que automaticen prejuicios sociales, garantizando un trato equitativo al ciudadano.",
+                "c) Disponibilidad de la información."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Ética en TI: Con la adopción de IA, el Gobierno TI asume un nuevo rol: auditoría ética. Los algoritmos de caja negra no pueden violar derechos fundamentales. Es deber corregir el sesgo antes de usarlo para toma de decisiones."
+        },
+
+
+        {
+            "codigo": "GOB-061",
+            "pregunta": "El almacén da de baja 500 computadores obsoletos. Para liberar espacio rápido, proponen enviarlos al relleno sanitario municipal. ¿Cuál es la directriz de TI Verde (Green IT)?",
+            "opciones": [
+                "a) Permitirlo, ya que son activos dados de baja contablemente.",
+                "b) Prohibirlo. La Ley 1672 (RAEE) obliga a una gestión integral de residuos eléctricos. El Gobierno TI debe garantizar la entrega a un gestor certificado que emita el certificado de disposición final ambiental.",
+                "c) Venderlos como chatarra a cualquier reciclador informal."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Sostenibilidad y Normativa: El Gobierno TI es responsable del ciclo de vida completo, hasta la muerte del activo. La mala disposición de RAEE genera sanciones ambientales severas para la entidad y el funcionario responsable."
+        },
+        {
+            "codigo": "GOB-062",
+            "pregunta": "Se identifica que el proceso crítico de 'Proyección de Presupuesto' se realiza en un archivo de Excel compartido en una carpeta de red, sin control de versiones ni seguridad. ¿Qué riesgo de Gobierno identifica y cómo lo trata?",
+            "opciones": [
+                "a) Riesgo de Shadow IT (Informática en la Sombra). Se debe migrar este proceso al ERP institucional o, si no es posible, aplicar controles de 'End User Computing' (password, backups, logs) sobre el Excel.",
+                "b) No es un riesgo, Excel es una herramienta corporativa licenciada.",
+                "c) Prohibir el uso de Excel en el área financiera."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Shadow IT / EUC: Cuando un proceso crítico depende de una hoja de cálculo sin control, la integridad financiera peligra. El Gobierno TI debe formalizar esa herramienta (ponerle controles) o eliminarla (migrar a sistema formal)."
+        },
+
+        {
+            "codigo": "GOB-063",
+            "pregunta": "El presupuesto del PETI fue aprobado por 1.000 millones. A mitad de año, Financiera recorta 200 millones. Usted como Líder TI decide unilateralmente cancelar el proyecto de 'Mesa de Ayuda' para cumplir el recorte. ¿Es correcto?",
+            "opciones": [
+                "a) Sí, es una decisión ejecutiva de gestión de recursos.",
+                "b) No. El portafolio de proyectos fue aprobado por el Comité de Gobierno (Estrategia). Usted debe volver al Comité, presentar el escenario de recorte y permitir que ellos decidan qué proyecto se sacrifica o se desprioriza (Realineación Estratégica).",
+                "c) Sí, siempre y cuando el proyecto no haya iniciado."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gobierno vs Gestión: Usted gestiona el dinero, pero no define las prioridades estratégicas finales. Cancelar un proyecto aprobado es cambiar la estrategia. Eso requiere aval del Comité Directivo."
+        },
+        {
+            "codigo": "GOB-064",
+            "pregunta": "Solo un funcionario (el 'Desarrollador Estrella') conoce la clave de la base de datos y la lógica del sistema de nómina. Él amenaza con renunciar. ¿Qué control de Gobierno falló?",
+            "opciones": [
+                "a) Gestión de Retención de Talento Humano.",
+                "b) Gestión del Conocimiento y Continuidad (BAI08). El Gobierno TI no puede permitir dependencias de personas clave. Falló la exigencia de documentación técnica y la rotación de funciones.",
+                "c) Control de accesos lógicos."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestión del Conocimiento: Un sistema de Gobierno robusto hace que la institución funcione independientemente de las personas. Depender de un 'gurú' es una fragilidad estructural inaceptable."
+        },
+
+        {
+            "codigo": "GOB-065",
+            "pregunta": "En el marco de Datos Abiertos, se decide publicar el conjunto de datos 'Estudiantes Matriculados'. El archivo contiene: Facultad, Semestre, Género y Estrato Socioeconómico. Jurídica dice que el Estrato es dato sensible. ¿Publica o no?",
+            "opciones": [
+                "a) No publicar nada para evitar problemas legales.",
+                "b) Publicar todo, el estrato es necesario para análisis estadísticos sociales.",
+                "c) Publicar aplicando técnicas de Anonimización o Agregación (ej. no publicar fila por estudiante, sino totales por facultad y estrato), garantizando que no se pueda re-identificar a un individuo específico, equilibrando Transparencia y Privacidad."
+            ],
+            "respuesta_correcta": "c",
+            "explicacion": "Apertura de Datos vs Privacidad: El Gobierno TI debe promover la apertura (Ley 1712) sin violar la privacidad (Ley 1581). Los datos socioeconómicos son semiprivados. Al publicarlos agregados (estadística), se rompe el vínculo con el titular y se vuelven públicos seguros."
+        },
+
+
+        {
+            "codigo": "GOB-066",
+            "pregunta": "El Coordinador TI prefiere adquirir equipo exclusivamente de la marca X, donde tiene conocidos, pero el Comité Directivo solicita evaluar varias marcas y analizar costo-beneficio. ¿Qué principio de Gobierno TI se debe priorizar?",
+            "opciones": [
+                "a) Preferencia del especialista TI, porque conoce la tecnología.",
+                "b) Decisión colectiva fundamentada en análisis objetivo de costo-beneficio, para evitar conflicto de interés.",
+                "c) Compra directa siguiendo recomendaciones informales para agilizar el proceso."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT 2019 y la política pública exigen decisiones con trazabilidad, transparencia y control de conflictos de interés mediante análisis documentado."
+        },
+        {
+            "codigo": "GOB-067",
+            "pregunta": "Un proyecto de transformación digital propuesto en el PETI no está alineado al Plan de Desarrollo institucional. ¿Qué debe hacer el Gobierno TI?",
+            "opciones": [
+                "a) Aprobar el proyecto porque es innovación.",
+                "b) Solicitar la alineación formal con el Plan de Desarrollo o su ajuste mediante acto administrativo.",
+                "c) Ejecutar el proyecto únicamente como piloto sin autorización formal."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El valor y alineación estratégica es fundamental. COBIT y MinTIC exigen que los proyectos estén articulados con la planeación institucional y PEI."
+        },
+        {
+            "codigo": "GOB-068",
+            "pregunta": "El Comité de TI decide no invertir en ciberseguridad alegando falta de presupuesto. ¿Quién asume la responsabilidad si ocurre un ciberataque y hay impacto?",
+            "opciones": [
+                "a) El jefe de seguridad informática por no insistir.",
+                "b) El Comité de Gobierno TI, por aceptar formalmente el riesgo y aprobar la decisión.",
+                "c) El área técnica por no prevenir la amenaza oportunamente."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Aceptación de riesgo según COBIT y MIPG es función de Gobierno, documentada en actas y no una omisión del área operativa."
+        },
+        {
+            "codigo": "GOB-069",
+            "pregunta": "La universidad planea implantar un nuevo Sistema de Gestión Documental. ¿Qué dominio del MRAE MinTIC debe liderar la definición de los tipos de documentos, roles y reglas de acceso?",
+            "opciones": [
+                "a) Dominio de Información/Datos.",
+                "b) Dominio de Procesos.",
+                "c) Dominio Tecnológico."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La gestión documental depende de la definición estructurada de datos, metadatos y matrices de acceso del Dominio de Información."
+        },
+        {
+            "codigo": "GOB-070",
+            "pregunta": "Durante una evaluación de riesgos, el comité descubre que los backups no se están verificando periódicamente. ¿Cuál instrumento se debe actualizar en el dominio de Tecnologías según el MRAE?",
+            "opciones": [
+                "a) Políticas de respaldo y procedimientos operativos.",
+                "b) Catálogo de servicios tecnológicos.",
+                "c) Manual de procesos de información."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "El Dominio Tecnológico gestiona políticas y procedimientos que regulan backups y su verificación periódica."
+        },
+        {
+            "codigo": "GOB-071",
+            "pregunta": "El Comité Directivo solicita al área TI implementar una solución que no cumple políticas de interoperabilidad definidas por Gobierno Digital. ¿Qué hacer?",
+            "opciones": [
+                "a) Implementar por ser orden de la alta dirección.",
+                "b) Documentar el riesgo y solicitar revisión formal del caso con argumentos normativos.",
+                "c) Solicitar solo el visto bueno del proveedor."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La interoperabilidad es obligatoria en sector público local; los riesgos deben documentarse y formalizarse antes de proceder."
+        },
+        {
+            "codigo": "GOB-072",
+            "pregunta": "La aprobación del PETI fue hecha solo entre dos jefes de área, sin pasar por Comité Directivo. ¿Qué riesgo existe?",
+            "opciones": [
+                "a) No hay problema si las áreas son expertas.",
+                "b) Se incurre en vicio de procedimiento y responsabilidad disciplinaria por ausencia de validación de Gobierno TI.",
+                "c) Solo se debe informar a las directivas después."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El PETI requiere aprobación de máximo órgano de Gobierno TI para ser legal y válido según la normativa colombiana."
+        },
+        {
+            "codigo": "GOB-073",
+            "pregunta": "El responsable del PETI hace gestiones de compra y contrata servicios TI directamente, sin intervención ni visto bueno del Comité Directivo. Esto puede generar...",
+            "opciones": [
+                "a) Agilidad en la toma de decisiones.",
+                "b) Riesgo disciplinario por extralimitación de funciones y violación de segregación de roles.",
+                "c) Optimización del presupuesto al evitar comités."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Gestores ejecutan, pero las decisiones estratégicas de inversión son siempre del ámbito del Gobierno TI."
+        },
+        {
+            "codigo": "GOB-074",
+            "pregunta": "En el Catálogo de Servicios del MRAE de MinTIC, se debe incluir...",
+            "opciones": [
+                "a) Inventario de equipos.",
+                "b) Servicios tecnológicos prestados y niveles de servicio acordados (SLA).",
+                "c) Organigrama del área TI."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Catálogo de Servicios describe qué servicios TI se ofrecen, a quién, cómo y con qué nivel de calidad, no solo infraestructura."
+        },
+        {
+            "codigo": "GOB-075",
+            "pregunta": "La gestión de incidentes de seguridad informática debe estar gobernada por políticas aprobadas en qué dominio del MRAE?",
+            "opciones": [
+                "a) Dominio de Seguridad.",
+                "b) Dominio Tecnológico.",
+                "c) Dominio de Procesos."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Según MRAE y COBIT, la respuesta a incidentes y su política es del ámbito del Dominio de Seguridad."
+        },
+        {
+            "codigo": "GOB-076",
+            "pregunta": "Un riesgo operacional identificado (falla de red redundante) es reportado a la Gerencia, pero no es tratado ni aceptado formalmente. Según COBIT, ¿quién es responsable?",
+            "opciones": [
+                "a) El área técnica por no solucionar.",
+                "b) La Gerencia/Gobierno TI por no aceptar ni mitigar formalmente el riesgo.",
+                "c) El proveedor de infraestructura."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "COBIT y normativa establecen que la aceptación o tratamiento formal del riesgo es atribución del órgano de Gobierno TI."
+        },
+        {
+            "codigo": "GOB-077",
+            "pregunta": "El Comité de TI decide priorizar el despliegue de una nueva aplicación antes de terminar pruebas completas, aduciendo presión social. ¿Qué principio de Gobierno TI viola?",
+            "opciones": [
+                "a) Entrega iterativa.",
+                "b) Calidad y gestión de riesgos adecuada.",
+                "c) Optimización de tiempo de salida."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Gobierno TI debe priorizar siempre la calidad y gestión de riesgos por encima de demandas de inmediatez."
+        },
+        {
+            "codigo": "GOB-078",
+            "pregunta": "Según COBIT, el seguimiento y evaluación de beneficios de un proyecto TI requiere:",
+            "opciones": [
+                "a) Medir solo presupuesto ejecutado.",
+                "b) Definir indicadores de valor y resultados alineados a objetivos institucionales.",
+                "c) Reportar únicamente hitos técnicos del proyecto."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La entrega de valor, medible y alineada a la misión, es central en el Gobierno TI de COBIT."
+        },
+        {
+            "codigo": "GOB-079",
+            "pregunta": "Para el Dominio de Procesos del MRAE, ¿qué herramienta es clave para modelar, controlar y mejorar los procedimientos TI?",
+            "opciones": [
+                "a) Diagramas BPMN y matrices RACI.",
+                "b) Catálogo de actividades secundarias.",
+                "c) Scripts de automatización."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Las herramientas BPMN y matrices RACI permiten mapear, clarificar roles y optimizar procesos TI según el MRAE."
+        },
+        {
+            "codigo": "GOB-080",
+            "pregunta": "El Comité Directivo solicita al responsable PETI evidenciar que las inversiones TI han generado valor institucional. ¿Cuál debería ser su respuesta más adecuada?",
+            "opciones": [
+                "a) Presentar solo informes de gastos.",
+                "b) Presentar indicadores de impacto en servicios a ciudadanos y logro de objetivos institucionales.",
+                "c) Mostrar inventarios de hardware adquirido."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La gestión de valor público de TI requiere demostrar resultados alineados al beneficio institucional y ciudadano, no sólo ejecución presupuestal."
+        },
+        {
+            "codigo": "GOB-081",
+            "pregunta": "El área técnica decide hacer cambios en la arquitectura de integración sin consultar al Comité de Gobierno TI. ¿Qué consecuencia puede tener esto?",
+            "opciones": [
+                "a) Riesgo disciplinario por desbordar competencias de gestión, pues la arquitectura es estratégica.",
+                "b) Mayor eficiencia técnica sin necesidad de trámites.",
+                "c) Optimización del tiempo de implementación por eliminar comités."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "El MRAE y COBIT establecen que toda decisión estratégica debe aprobarse formalmente por Gobierno TI; saltar este paso puede acarrear sanciones."
+        },
+        {
+            "codigo": "GOB-082",
+            "pregunta": "En una auditoría, se detecta que el PETI no contempla mecanismos de seguimiento y evaluación a los proyectos. ¿Qué sugiere COBIT?",
+            "opciones": [
+                "a) Incluir métricas y procesos de mejora continua alineados a los objetivos de valor.",
+                "b) Mantener el PETI como documento de planeación sin controles adicionales.",
+                "c) Delegar el seguimiento exclusivamente al área de control interno."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "COBIT resalta la integración de medición y mejora continua como parte del ciclo de vida de Gobierno TI."
+        },
+        {
+            "codigo": "GOB-083",
+            "pregunta": "Al definir el portafolio de proyectos de TI, una dependencia insiste en priorizar su propio proyecto aunque no tiene alto impacto institucional. ¿Qué rol cumple el Gobierno TI aquí?",
+            "opciones": [
+                "a) Asignar recursos equitativamente según la presión interna.",
+                "b) Priorizar proyectos alineados a la estrategia institucional y beneficios esperados.",
+                "c) Aprobar solo proyectos propuestos por el área técnica."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "El Gobierno TI prioriza con base en valor, alineación estratégica y beneficio, no por presión o interés individual."
+        },
+        {
+            "codigo": "GOB-084",
+            "pregunta": "El Comité Directivo requiere pruebas de que la entidad ejecutó consultas ciudadanas sobre servicios digitales nuevos. ¿Qué obligación del Decreto 1078 cumple esto?",
+            "opciones": [
+                "a) Participación ciudadana en el ciclo de vida TI.",
+                "b) Auditoría interna de procesos.",
+                "c) Seguridad de la información."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La política de Gobierno Digital exige participación y consulta pública para legitimar los procesos y servicios digitales."
+        },
+        {
+            "codigo": "GOB-085",
+            "pregunta": "Durante la planificación del PETI, se omiten los aspectos de interoperabilidad porque el sistema solo operará al interior de la universidad. ¿Error clave?",
+            "opciones": [
+                "a) Sí, porque la interoperabilidad es mandato nacional y puede requerirse a futuro.",
+                "b) No, mientras no exista requisito externo explícito.",
+                "c) Solo es relevante si afecta presupuesto."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La interoperabilidad es transversal y puede ser requerida en integración futura, según MinTIC y Gobierno Digital."
+        },
+        {
+            "codigo": "GOB-086",
+            "pregunta": "Un proyecto de TIC lleva dos años ejecutándose pero no ha logrado sus indicadores de impacto. El Comité pide seguir invirtiendo porque parte del presupuesto ya se gastó. ¿Qué indica el buen gobierno TI?",
+            "opciones": [
+                "a) Revaluar el proyecto y, si no genera valor real, considerar detener o reformular.",
+                "b) Continuar el gasto hasta agotar el presupuesto.",
+                "c) Cambiar los indicadores para que sean alcanzables."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La continuidad de proyectos se basa en evidencia de valor. Lo contrario incentiva ineficacia y riesgos fiscales."
+        },
+        {
+            "codigo": "GOB-087",
+            "pregunta": "Según COBIT, ¿quién debe aprobar la Política de Seguridad de la Información en la entidad?",
+            "opciones": [
+                "a) Jefe de Seguridad Informática.",
+                "b) Comité de Gobierno TI/Alta Dirección.",
+                "c) Solamente el área jurídica."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La política institucional TI debe aprobarse y ser liderada siempre por el órgano de Gobierno, según COBIT y MinTIC."
+        },
+        {
+            "codigo": "GOB-088",
+            "pregunta": "En la creación de servicios digitales, el análisis de impacto sobre datos personales debe estar liderado principalmente por qué dominio del MRAE?",
+            "opciones": [
+                "a) Dominio de Información/Datos.",
+                "b) Dominio de Seguridad.",
+                "c) Dominio de Procesos."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La gestión de datos y protección de datos personales corresponde al dominio de Información, aunque coordinado con Seguridad."
+        },
+        {
+            "codigo": "GOB-089",
+            "pregunta": "El área TI propone desarrollar un sistema crítico usando software no soportado oficialmente por MinTIC. ¿Qué riesgo asume el Gobierno TI si lo autoriza?",
+            "opciones": [
+                "a) Riesgo de incompatibilidad y falta de soporte oficial, generando dependencia tecnológica.",
+                "b) Reducción del presupuesto y mayor flexibilidad.",
+                "c) Mayor agilidad en desarrollo."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Aprobar tecnologías no soportadas puede devenir en sistemas inestables o vulnerables y están fuera del MRAE y las políticas nacionales."
+        },
+        {
+            "codigo": "GOB-090",
+            "pregunta": "Al definir roles y funciones TIC, ¿qué instrumento del MRAE y Gobierno Digital es obligatorio para evitar solapamiento y vacíos de responsabilidad?",
+            "opciones": [
+                "a) Matriz RACI y manual de funciones explícito.",
+                "b) Organigrama general.",
+                "c) Catálogo de servicios solamente."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "La matriz RACI y el manual permiten aclarar funciones y responsables, y son instrumentos requeridos por MinTIC."
+        },
+        {
+            "codigo": "GOB-091",
+            "pregunta": "La universidad invita a proveedores TI a ofertar, pero en la minuta contractual se omite el ANS (Acuerdo de Nivel de Servicio). ¿Qué consecuencia principal enfrenta la entidad?",
+            "opciones": [
+                "a) Riesgo de recibir un servicio sin estándares de calidad ni mecanismos de sanción.",
+                "b) Reducción de costos por contratos más simples.",
+                "c) Mayor rapidez en la contratación pública."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "El ANS es clave en la contratación de TI, su omisión puede acarrear pérdidas y falta de control contractual."
+        },
+        {
+            "codigo": "GOB-092",
+            "pregunta": "En el ejercicio de gobierno TI, ¿qué debe prevalecer en la toma de decisiones sobre tecnologías disruptivas para la universidad?",
+            "opciones": [
+                "a) Innovación sin restricciones.",
+                "b) Evaluación formal de riesgos, alineación estratégica y aporte de valor documentado.",
+                "c) Decisión del jefe técnico si cuenta con experiencia."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "Toda decisión sobre adopción de tecnologías disruptivas exige valoración profunda en términos de valor y manejo de riesgos, según COBIT y Decreto 1078."
+        },
+        {
+            "codigo": "GOB-093",
+            "pregunta": "El Comité recomienda tercerizar servicios críticos de soporte técnico por falta de personal, sin análisis formal. ¿Qué principio y herramienta deberían aplicarse antes de decidir?",
+            "opciones": [
+                "a) Principio de análisis de riesgos y Cost-Benefit Analysis (CBA).",
+                "b) Principio de descentralización.",
+                "c) Únicamente experiencia del proveedor."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Tercerizar requiere análisis de riesgos, costos y beneficios, y formalización en Comité con criterios documentados."
+        },
+        {
+            "codigo": "GOB-094",
+            "pregunta": "Frente a la presión institucional por reducir costos, ¿qué debe evitar el Gobierno TI según mejores prácticas?",
+            "opciones": [
+                "a) Sacrificar los controles y monitoreo de calidad en los proyectos TI.",
+                "b) Evaluar alternativas sin comprometer la gestión de valor y riesgo.",
+                "c) Omitir la planeación estratégica."
+            ],
+            "respuesta_correcta": "b",
+            "explicacion": "La reducción de costos es lícita si no pone en riesgo el valor, calidad y seguridad de los servicios TI."
+        },
+        {
+            "codigo": "GOB-095",
+            "pregunta": "En un comité, presentan dos proyectos: uno con alto valor institucional pero de difícil justificación técnica, otro viable técnicamente pero de bajo impacto en la misión. ¿Cuál debe priorizarse?",
+            "opciones": [
+                "a) El de mayor valor alineado a la estrategia institucional, aunque requiera mayor planeación técnica.",
+                "b) El más sencillo de ejecutar, para asegurar resultados rápidos.",
+                "c) El que mayor apoyo tiene en el área técnica."
+            ],
+            "respuesta_correcta": "a",
+            "explicacion": "Según COBIT, debe priorizarse el valor institucional y el alineamiento estratégico sobre la facilidad técnica."
+        }
+    ]
+}
